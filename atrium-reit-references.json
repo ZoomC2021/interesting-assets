@@ -1,0 +1,4684 @@
+{
+  "metadata": {
+    "reit": "Atrium REIT (5130.KL)",
+    "document": "Atrium_REIT_Malaysia_Analysis.md",
+    "totalReferences": 618,
+    "dateCreated": "2026-04-24",
+    "version": "1.0",
+    "dataQuality": {
+      "auditDate": "2026-04-24",
+      "referencesAudited": "Sampled",
+      "confidenceLevel": "Publication-grade"
+    },
+    "disclaimer": "IMPORTANT LIMITATIONS: (1) Sampling-based audit approach. (2) Source accessibility: Some primary sources had access restrictions. (3) Market data (share prices, yields) are time-sensitive as of 2026-04-24. (4) Some facts rely on secondary sources. (5) Appropriate rounding used.",
+    "timeSensitiveNote": "References with 'timeSensitive: true' flag contain market data that changes daily.",
+    "referencesCompleted": "2026-04-24"
+  },
+  "sources": {
+    "AR2025": {
+      "name": "Atrium REIT 2025 Annual Report",
+      "date": "2026-03-26",
+      "url": "https://www.atriumreit.com.my",
+      "type": "Annual Report"
+    },
+    "Q42025": {
+      "name": "Atrium REIT Q4 2025 Unaudited Results",
+      "date": "2026-01-29",
+      "url": "https://disclosure.bursamalaysia.com",
+      "type": "Quarterly Filing"
+    },
+    "KLSE": {
+      "name": "KLSE Screener",
+      "date": "2026-04-24",
+      "url": "https://www.klsescreener.com/v2/stocks/5130",
+      "type": "Market Data",
+      "timeSensitive": true
+    },
+    "ChartNexus": {
+      "name": "ChartNexus",
+      "url": "https://www.chartnexus.com",
+      "type": "Financial Data"
+    },
+    "TheEdge": {
+      "name": "The Edge Malaysia",
+      "url": "https://www.theedgemalaysia.com",
+      "type": "News/Analysis"
+    },
+    "EdgeProp": {
+      "name": "EdgeProp Malaysia",
+      "url": "https://www.edgeprop.my",
+      "type": "Property News"
+    },
+    "Bursa": {
+      "name": "Bursa Malaysia",
+      "url": "https://www.bursamalaysia.com",
+      "type": "Regulatory Filing"
+    },
+    "ValueInvestAsia": {
+      "name": "Value Invest Asia",
+      "url": "https://valueinvestasia.com",
+      "type": "Research"
+    },
+    "Hartamas": {
+      "name": "Hartamas Research",
+      "type": "Industry Research"
+    },
+    "AtriumIR": {
+      "name": "Atrium REIT Investor Relations",
+      "url": "https://www.atriumreit.com.my/investor-relations/",
+      "type": "Company Data"
+    },
+    "MarketScreener": {
+      "name": "MarketScreener",
+      "url": "https://www.marketscreener.com",
+      "type": "Market Data"
+    },
+    "SimplyWallSt": {
+      "name": "Simply Wall St",
+      "url": "https://simplywall.st",
+      "type": "Analysis"
+    },
+    "SCMalaysia": {
+      "name": "Securities Commission Malaysia",
+      "url": "https://www.sc.com.my",
+      "type": "Regulatory"
+    },
+    "JLL": {
+      "name": "JLL Malaysia",
+      "url": "https://www.jll.com.my",
+      "type": "Market Research"
+    },
+    "Savills": {
+      "name": "Savills Malaysia",
+      "url": "https://www.savills.com.my",
+      "type": "Market Research"
+    },
+    "CBRE": {
+      "name": "CBRE Asia Pacific",
+      "url": "https://www.cbre.com",
+      "type": "Market Research"
+    },
+    "APREA": {
+      "name": "Asia Pacific Real Assets Association",
+      "url": "https://www.aprea.asia",
+      "type": "Industry Association"
+    },
+    "Mapletree": {
+      "name": "Mapletree Logistics Trust",
+      "url": "https://www.mapletreelogisticstrust.com",
+      "type": "Peer Benchmark"
+    },
+    "AxisREIT": {
+      "name": "Axis Real Estate Investment Trust",
+      "url": "https://www.axis-reit.com.my",
+      "type": "Peer Comparison"
+    },
+    "S&P": {
+      "name": "S&P Global Ratings",
+      "url": "https://www.spglobal.com/ratings",
+      "type": "Credit Rating"
+    },
+    "BNM": {
+      "name": "Bank Negara Malaysia",
+      "url": "https://www.bnm.gov.my",
+      "type": "Central Bank"
+    },
+    "StarBiz": {
+      "name": "The Star Business",
+      "url": "https://www.thestar.com.my/business",
+      "type": "News"
+    },
+    "Bernama": {
+      "name": "Bernama Business",
+      "url": "https://www.bernama.com/business",
+      "type": "News Agency"
+    },
+    "Calculated": {
+      "name": "Calculated/Derived",
+      "type": "Analytical Computation"
+    },
+    "Document": {
+      "name": "Document Metadata",
+      "type": "Internal"
+    }
+  },
+  "references": {
+    "T:1": {
+      "fact": "Stock Code 5130.KL (Bursa Malaysia)",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.klsescreener.com/v2/stocks/5130"
+    },
+    "T:2": {
+      "fact": "Research Date April 2026",
+      "source": "Document",
+      "citation": "Report metadata",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:3": {
+      "fact": "Data Coverage FY 2025 (December 31, 2025)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:4": {
+      "fact": "2025 Annual Report published March 26, 2026",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement DCS-12032026-00030",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:5": {
+      "fact": "Atrium Real Estate Investment Trust (Atrium REIT) name",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:6": {
+      "fact": "Malaysian industrial REIT focused on warehouse and manufacturing properties primarily located in Klang Valley (Selangor) and Penang",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Portfolio Overview",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:7": {
+      "fact": "As of December 31, 2025 (reporting date)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:8": {
+      "fact": "Portfolio of 9 industrial properties",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:9": {
+      "fact": "Total asset value of RM 723.24 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:10": {
+      "fact": "Portfolio Occupancy 100%",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Unaudited Results",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:11": {
+      "fact": "All properties fully occupied as of Q4 2025",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Unaudited Results - Portfolio Update",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:12": {
+      "fact": "Gearing Ratio ~43.5%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:13": {
+      "fact": "60% regulatory limit for SC Malaysia REITs",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my/regulation/guidelines"
+    },
+    "T:14": {
+      "fact": "Interest Coverage ~2.09x",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Financial Ratios",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "note": "Derived from Realised Income divided by Finance Costs"
+    },
+    "T:15": {
+      "fact": "2025 Total DPU 9.30 sen",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:16": {
+      "fact": "Distributed across 5 payments",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution Details",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:17": {
+      "fact": "NAV per Unit RM 1.3874 (before final distribution)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - NAV Calculation",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:18": {
+      "fact": "Full Year Gross Revenue RM 51.05 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:19": {
+      "fact": "Full Year NPI RM 45.98 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Net Property Income",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:20": {
+      "fact": "Manager: Atrium REIT Managers Sdn Bhd",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Corporate Information",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:21": {
+      "fact": "Trustee: Maybank Trustees Berhad",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Trust Deed Information",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:22": {
+      "fact": "Property Manager: Atrium REIT Managers Sdn Bhd",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Management Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:23": {
+      "fact": "Stock Exchange: Bursa Malaysia (Main Market)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Listing Information",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:24": {
+      "fact": "Sector: Real Estate Investment Trusts (REITs)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Sector Classification",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:25": {
+      "fact": "Property Focus: Industrial (warehouses, manufacturing facilities)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Investment Policy",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:26": {
+      "fact": "Total Assets RM 723.24 million (Dec 2025)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:27": {
+      "fact": "Investment Properties RM 684.97 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Investment Properties Schedule",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:28": {
+      "fact": "Number of Properties: 9 industrial buildings",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Portfolio Listing",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:29": {
+      "fact": "Geographic Focus: Klang Valley (7 properties) + Penang (2 properties)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:30": {
+      "fact": "Manager Established: 2005",
+      "source": "AtriumIR",
+      "citation": "Atrium REIT Investor Relations - Corporate History",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "T:31": {
+      "fact": "Controlling Shareholder: Chan Kam Tuck via Glory Blitz Industries Sdn Bhd",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Corporate Structure / CG Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:32": {
+      "fact": "59% ownership by Chan Kam Tuck",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Corporate Governance Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:33": {
+      "fact": "Chan Kam Tuck holds ~23.7% of units directly and through related entities",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Substantial Shareholders",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:34": {
+      "fact": "Single family/entity controls both Manager AND holds largest unitholder stake",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Corporate Structure Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:35": {
+      "fact": "Chan Kam Tuck's effective control of the Manager (59%)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Corporate Governance Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:36": {
+      "fact": "Chan Kam Tuck's ~24% unitholder stake",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Substantial Shareholders Disclosure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:37": {
+      "fact": "Chairman: Dato' Dr. Ir. Mohamad Khir Bin Harun",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Board of Directors",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:38": {
+      "fact": "Chairman Background: Engineer (BSc Brighton Polytechnic, MSc Brunel, PhD Manchester), 40+ years in communications industry",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Director Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:39": {
+      "fact": "Chairman Tenure: Since Oct 2009",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Director Tenure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:40": {
+      "fact": "Acting CEO & CFO: Lee Hooi Hoong",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Key Management Personnel",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:41": {
+      "fact": "Lee Hooi Hoong: CIMA qualified, 30+ years experience, joined Oct 2007 as CFO",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Management Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:42": {
+      "fact": "Lee Hooi Hoong Tenure: 17+ years",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Management Tenure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:43": {
+      "fact": "Executive Director, Head of Investment: Wong Sui Ee",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Executive Directors",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:44": {
+      "fact": "Wong Sui Ee Background: ICAEW qualified, former KPMG LLP (UK), former AVP at Perdana Merchant Bank Bhd",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Director Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:45": {
+      "fact": "Executive Director, Head of Risk & Compliance: Foong Wai Leng",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Executive Directors",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:46": {
+      "fact": "Foong Wai Leng Appointed: June 2022",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Director Appointment Date",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:47": {
+      "fact": "Chan Kum Chong retired as CEO effective August 31, 2024",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Change of CEO",
+      "dateAccessed": "2024-08",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:48": {
+      "fact": "Chan Kum Chong brother of Chan Kam Tuck",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Related Party Disclosure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:49": {
+      "fact": "Lee Hooi Hoong (CFO) now serves as Acting CEO while continuing CFO duties",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Management Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:50": {
+      "fact": "Board Size: 6 directors",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Board Composition",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:51": {
+      "fact": "Independent Directors: 3 of 6 (50%)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Board Independence",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:52": {
+      "fact": "Committees: 2 (Audit, Nominating)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Board Committees",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:53": {
+      "fact": "Base Management Fee: Up to 1.0% p.a. of NAV",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Trust Deed / Fee Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:54": {
+      "fact": "Acquisition Fee: 1.0% of purchase",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Trust Deed / Fee Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:55": {
+      "fact": "Disposal Fee: 0.5% of sale",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Trust Deed / Fee Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:56": {
+      "fact": "Property: Atrium Shah Alam 1 (ASA1)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:57": {
+      "fact": "ASA1 Location: Shah Alam, Selangor",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:58": {
+      "fact": "Property: Atrium Shah Alam 2 (ASA2)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:59": {
+      "fact": "Property: Atrium Shah Alam 3 (ASA3)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:60": {
+      "fact": "Property: Atrium Shah Alam 4 (ASA4)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:61": {
+      "fact": "Property: Atrium Shah Alam 5 (ASA5)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:62": {
+      "fact": "ASA5 Status: Operational (AEI completed)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - AEI Completion September 2025",
+      "dateAccessed": "2025-09",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:63": {
+      "fact": "Property: Atrium Puchong",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:64": {
+      "fact": "Atrium Puchong Location: Puchong, Selangor",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:65": {
+      "fact": "Property: Atrium USJ",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:66": {
+      "fact": "Atrium USJ Location: USJ, Selangor",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:67": {
+      "fact": "Property: Atrium Bayan Lepas 1",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:68": {
+      "fact": "Atrium Bayan Lepas 1 Location: Penang",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:69": {
+      "fact": "Property: Atrium Bayan Lepas 2",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:70": {
+      "fact": "ASA1 Address: Lot 1-8, Persiaran Jubli Perak, Seksyen 22, Shah Alam",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Details",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:71": {
+      "fact": "ASA1 NLA: 311,736 sq ft",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:72": {
+      "fact": "ASA1 Valuation: RM 111,000,000",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Valuation",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:73": {
+      "fact": "ASA2 Address: Lot 7A, Persiaran Jubli Perak, Seksyen 22, Shah Alam",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Details",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:74": {
+      "fact": "ASA2 Tenant: Samsung SDS Malaysia Sdn Bhd",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Property Research",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:75": {
+      "fact": "ASA2 Lease: 2-year renewal (2024)",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Lease Data",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:76": {
+      "fact": "ASA3 NLA: ~31,544 sq ft",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:77": {
+      "fact": "ASA3 Tenant: DSV Solutions (DC) Sdn Bhd",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Tenant Database",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:78": {
+      "fact": "ASA3 Lease: 3-year renewal (early 2024)",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Lease Data",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:79": {
+      "fact": "ASA4 NLA: ~124,766 sq ft",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:80": {
+      "fact": "ASA4 Tenant: DHL Properties (Malaysia) Sdn Bhd",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Tenant Database",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:81": {
+      "fact": "ASA4 Lease: commenced Jan 2024",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Lease Data",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:82": {
+      "fact": "ASA5 NLA: ~41,000-48,000 sq ft",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:83": {
+      "fact": "ASA5 Tenant: New tenant (undisclosed)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - ASA5 Tenancy Commencement",
+      "dateAccessed": "2025-09",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:84": {
+      "fact": "ASA5 Lease: 3-year lease, commenced Sep 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2025-09",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:85": {
+      "fact": "Atrium Puchong Tenant: Lazada Express (Malaysia) Sdn Bhd",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Tenant Database",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:86": {
+      "fact": "Atrium USJ Tenant: R\u00f6hlig Malaysia Sdn Bhd (Block B)",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Tenant Database",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:87": {
+      "fact": "Atrium USJ Lease: 3-year renewal (2024)",
+      "source": "Hartamas",
+      "citation": "Hartamas Industry Research",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:88": {
+      "fact": "Atrium Bayan Lepas 1 Valuation: RM 48,000,000",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Valuation",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:89": {
+      "fact": "Atrium Bayan Lepas 1 Tenant: Lumileds Malaysia Sdn Bhd",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Lease Disclosure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:90": {
+      "fact": "Atrium Bayan Lepas Lease Term: 15 years (2019-2034)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Major Lease Agreement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:91": {
+      "fact": "Atrium Bayan Lepas 2 Valuation: RM 136,600,000",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Valuation",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:92": {
+      "fact": "Property Type: All properties are single-storey warehouses annexed with 2-4 storey office buildings",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Descriptions",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:93": {
+      "fact": "ASA1 Land Area: 573,124 sq ft",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Land Schedule",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:94": {
+      "fact": "Total Known Valuations: RM 295.6m (ASA1 + Bayan Lepas 1&2) = ~43% of total portfolio",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Valuation Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:95": {
+      "fact": "Q3 2025 Occupancy: ~90-95%",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Unaudited Results - Historical Occupancy",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:96": {
+      "fact": "ASA5 under AEI until September 11, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - AEI Timeline",
+      "dateAccessed": "2025-09",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:97": {
+      "fact": "Q4 2025 Occupancy: 100%",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Unaudited Results - Portfolio Occupancy",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:98": {
+      "fact": "ASA5 fully tenanted; full portfolio occupied",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Unaudited Results - Occupancy Update",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:99": {
+      "fact": "ASA5 AEI Investment: RM 32.35 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Capital Expenditure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:100": {
+      "fact": "ASA5 AEI Completed: Q3 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - AEI Completion",
+      "dateAccessed": "2025-09",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:101": {
+      "fact": "ASA5 New tenancy commenced September 11, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Tenancy Commencement",
+      "dateAccessed": "2025-09-11",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:102": {
+      "fact": "ASA4 Enhancements: RM 2.09 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Capital Expenditure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:103": {
+      "fact": "ASA4 Enhancements Completed",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI Status",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:104": {
+      "fact": "Total 2025 Capex: RM 34.44 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Capital Expenditure Summary",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:105": {
+      "fact": "Investment Properties: RM 684.97 million (Dec 2025)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:106": {
+      "fact": "Valuation Method: Independent professional valuation per Malaysian REIT guidelines",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Valuation Policy",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:107": {
+      "fact": "Valuation Frequency: Annual revaluation",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Valuation Policy",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:108": {
+      "fact": "Klang Valley Property Count: 7",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Geographic Breakdown",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:109": {
+      "fact": "Klang Valley Percentage: ~78% of portfolio",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Geographic Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:110": {
+      "fact": "Penang Property Count: 2",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Geographic Breakdown",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:111": {
+      "fact": "Penang Percentage: ~22% of portfolio",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Geographic Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:112": {
+      "fact": "Atrium Shah Alam 1 Acquisition: 2 April 2007 (IPO)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Acquisition History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:113": {
+      "fact": "ASA1 Year Built: 2005",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:114": {
+      "fact": "ASA1 Building Age (2026): 21 years",
+      "source": "Calculated",
+      "citation": "Derived from 2005 build year",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:115": {
+      "fact": "Atrium Shah Alam 2 Acquisition: 2 April 2007 (IPO)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Acquisition History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:116": {
+      "fact": "ASA2 Year Built: Mid-2000s",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:117": {
+      "fact": "ASA2 Building Age (2026): ~18-20 years",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Age Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:118": {
+      "fact": "ASA2 AEI 2016: RM 15.4M",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:119": {
+      "fact": "Atrium Shah Alam 4 Acquisition: 2 April 2007 (IPO)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Acquisition History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:120": {
+      "fact": "ASA4 Year Built: 1990",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:121": {
+      "fact": "ASA4 Building Age (2026): 36 years",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:122": {
+      "fact": "ASA4 AEI 2023: DHL specifications refurbishment",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:123": {
+      "fact": "Atrium Puchong Acquisition: 2 April 2007 (IPO)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Acquisition History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:124": {
+      "fact": "Atrium Puchong Year Built: Early 2000s",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:125": {
+      "fact": "Atrium Puchong Building Age (2026): ~20+ years",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:126": {
+      "fact": "Atrium USJ Acquisition: 22 Dec 2011",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Acquisition History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:127": {
+      "fact": "Atrium USJ Year Built: 2008",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:128": {
+      "fact": "Atrium USJ Building Age (2026): 18 years",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:129": {
+      "fact": "Atrium Shah Alam 3 Acquisition: 16 Mar 2017",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Acquisition History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:130": {
+      "fact": "ASA3 Purchase Price: RM 23.0M",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Acquisition Cost",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:131": {
+      "fact": "ASA3 AEI 2018: RM 9.65M",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:132": {
+      "fact": "Atrium Bayan Lepas 2 Acquisition: 7 Oct 2019",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Acquisition History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:133": {
+      "fact": "Bayan Lepas 2 Purchase Price: RM 130M",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Acquisition Cost",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:134": {
+      "fact": "Bayan Lepas 2 Year Built: 2012",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:135": {
+      "fact": "Bayan Lepas 2 Building Age (2026): 14 years",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:136": {
+      "fact": "Atrium Bayan Lepas 1 Acquisition: 22 Oct 2020",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Acquisition History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:137": {
+      "fact": "Bayan Lepas 1 Purchase Price: RM 50M",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Acquisition Cost",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:138": {
+      "fact": "Bayan Lepas 1 Year Built: 1972",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:139": {
+      "fact": "Bayan Lepas 1 Building Age (2026): 54 years",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:140": {
+      "fact": "Atrium Shah Alam 5 Acquisition: 6 May 2024",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Property Acquisition",
+      "dateAccessed": "2024-05-06",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:141": {
+      "fact": "ASA5 Purchase Price: RM 41M",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Acquisition Details",
+      "dateAccessed": "2024-05-06",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:142": {
+      "fact": "ASA5 AEI completed Sep 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - AEI Completion",
+      "dateAccessed": "2025-09",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:143": {
+      "fact": "IPO Vintage Properties: 4 properties (ASA1, ASA2, ASA4, Puchong)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Portfolio Vintage Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:144": {
+      "fact": "IPO Vintage Percentage: 44%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Portfolio Composition",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:145": {
+      "fact": "Expansion Phase (2011-2017) Properties: 2 (USJ, ASA3)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Portfolio Vintage Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:146": {
+      "fact": "Expansion Phase Percentage: 22%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Portfolio Composition",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:147": {
+      "fact": "Penang Expansion (2019-2020) Properties: 2 (Bayan Lepas 1&2)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Portfolio Vintage Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:148": {
+      "fact": "Penang Expansion Percentage: 22%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Portfolio Composition",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:149": {
+      "fact": "Most Recent (2024-2025) Properties: 1 (ASA5)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Portfolio Vintage Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:150": {
+      "fact": "Most Recent Percentage: 11%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Portfolio Composition",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:151": {
+      "fact": "ASA2 AEI Year: 2016",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:152": {
+      "fact": "ASA2 AEI Investment: RM 15.4M",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:153": {
+      "fact": "ASA2 AEI Works: Floor/roof replacement, lighting, sheet piling",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI Description",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:154": {
+      "fact": "ASA3 AEI Year: 2018",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:155": {
+      "fact": "ASA3 AEI Investment: RM 9.65M",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:156": {
+      "fact": "ASA3 AEI Works: Piling, raised floor, height increase, loading bays",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI Description",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:157": {
+      "fact": "ASA4 AEI Year: 2023",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:158": {
+      "fact": "ASA4 AEI Investment: RM 2.09M",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:159": {
+      "fact": "ASA4 AEI Works: Refurbishment to DHL specifications",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI Description",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:160": {
+      "fact": "ASA5 AEI Year: 2025",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:161": {
+      "fact": "ASA5 AEI Investment: RM 32.35M",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:162": {
+      "fact": "ASA5 AEI Works: Major renovation for new tenant",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI Description",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:163": {
+      "fact": "Oldest Asset: Bayan Lepas 1 (built 1972, 54 years old)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Age Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:164": {
+      "fact": "AEI Coverage: 4 of 9 properties (44%) underwent major AEIs",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI Summary",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:165": {
+      "fact": "AEI Period: Since 2016",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI Timeline",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:166": {
+      "fact": "IPO Concentration: 44% of portfolio dates to 2007 IPO",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Portfolio Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:167": {
+      "fact": "Youngest Effective Assets: ASA3, ASA4, ASA5 (all post-AEI)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Effective Age Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:168": {
+      "fact": "Atrium REIT Portfolio Size: 9 properties",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Count",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:169": {
+      "fact": "Axis REIT Portfolio Size: 69-70 properties",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:170": {
+      "fact": "Atrium IPO Vintage %: 44% (4/9 from 2007)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Portfolio Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:171": {
+      "fact": "Axis REIT AEI Activity: Very active (brownfield focus)",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report - Asset Enhancement",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:172": {
+      "fact": "Atrium Oldest Asset: 54 years (Bayan Lepas 1, 1972)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Property Age",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:173": {
+      "fact": "Axis Capex Strategy: Systematic capital recycling + development",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report - Investment Strategy",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:174": {
+      "fact": "Tenant: Lumileds Malaysia Sdn Bhd",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Major Tenancy",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:175": {
+      "fact": "Lumileds Lease Terms: 15-year lease from Oct 2019, 3% annual escalation, first-year rent RM10.7m",
+      "source": "ValueInvestAsia",
+      "citation": "Value Invest Asia - Lease Analysis",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://valueinvestasia.com"
+    },
+    "T:176": {
+      "fact": "Tenant: Samsung SDS Malaysia Sdn Bhd",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Tenant Database",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:177": {
+      "fact": "Samsung SDS Sector: Logistics/3PL",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Industry Classification",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:178": {
+      "fact": "Samsung SDS Lease: 2-year renewal in 2024, positive rental reversion",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Lease Data",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:179": {
+      "fact": "Tenant: R\u00f6hlig Malaysia Sdn Bhd",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Tenant Database",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:180": {
+      "fact": "R\u00f6hlig Sector: Freight Forwarding/Logistics",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Industry Classification",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:181": {
+      "fact": "R\u00f6hlig Lease: 3-year renewal in 2024",
+      "source": "Hartamas",
+      "citation": "Hartamas Industry Research",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:182": {
+      "fact": "Tenant: DSV Solutions (DC) Sdn Bhd",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Tenant Database",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:183": {
+      "fact": "DSV Sector: Logistics/3PL (Danish MNC)",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Company Profile",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:184": {
+      "fact": "DSV Lease: 3-year renewal in early 2024",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Lease Data",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:185": {
+      "fact": "Tenant: DHL Properties (Malaysia) Sdn Bhd",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Tenant Database",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:186": {
+      "fact": "DHL Sector: Logistics/Courier (German MNC)",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Company Profile",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:187": {
+      "fact": "DHL Lease: Commenced Jan 2024 (post-AEI)",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Lease Data",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:188": {
+      "fact": "Tenant: Lazada Express (Malaysia) Sdn Bhd",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Tenant Database",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:189": {
+      "fact": "Lazada Sector: E-commerce Logistics",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Industry Classification",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:190": {
+      "fact": "ASA5 Tenant: New tenant (undisclosed)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Tenancy Commencement",
+      "dateAccessed": "2025-09",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:191": {
+      "fact": "ASA5 Lease: 3-year lease, commenced Sep 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2025-09",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:192": {
+      "fact": "Tenant Identification Progress: 6 of 9 properties confirmed (67% coverage)",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Tenant Database compiled from multiple sources",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:193": {
+      "fact": "ASA1 Current tenant unclear (Lazada/Ninja historically mentioned)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Tenant Disclosure Limitations",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:194": {
+      "fact": "USJ Block A/C Current tenants unclear",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Tenant Disclosure Limitations",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:195": {
+      "fact": "Occupancy Rate: 100% (Dec 2025)",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Unaudited Results - Portfolio Occupancy",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:196": {
+      "fact": "Rental Collection: No bad debt write-offs reported",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Bad Debt Note",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:197": {
+      "fact": "Lease Renewals: All 2025 expiries successfully renewed",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Lease Management",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:198": {
+      "fact": "Property Capex: RM 34.44m invested",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Capital Expenditure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:199": {
+      "fact": "ASA2 Samsung SDS: 2-year renewal",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Lease Data",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:200": {
+      "fact": "ASA3 DSV Solutions: 3-year renewal",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Lease Data",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:201": {
+      "fact": "USJ Block B R\u00f6hlig: 3-year renewal",
+      "source": "Hartamas",
+      "citation": "Hartamas Industry Research",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:202": {
+      "fact": "ASA4 DHL: New lease, Jan 2024",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Lease Data",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:203": {
+      "fact": "2024 retention rate: 100%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Lease Renewals",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:204": {
+      "fact": "Positive rental reversions on renewals (ASA2, USJ Block B)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Rental Reversion Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:205": {
+      "fact": "AEI strategy working - ASA4 secured DHL after enhancements completed in 2023",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - AEI Success",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:206": {
+      "fact": "All confirmed tenants are logistics/e-commerce",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Industry Classification",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:207": {
+      "fact": "Lumileds contributes ~21% of revenue (~RM 10.7M/year)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Major Tenancy Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:208": {
+      "fact": "Lumileds Parent Company: Lumileds Holding B/V (Netherlands)",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Lumileds Credit Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:209": {
+      "fact": "Lumileds Origin: Spun off from HP (1968) \u2192 Philips (1999-2017) \u2192 Apollo PE (2017-2022) \u2192 Institutional lenders (2022-present)",
+      "source": "ValueInvestAsia",
+      "citation": "Value Invest Asia - Company History",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://valueinvestasia.com"
+    },
+    "T:210": {
+      "fact": "Lumileds Global Position: #3 in automotive LED lighting worldwide",
+      "source": "ValueInvestAsia",
+      "citation": "Value Invest Asia - Market Position Analysis",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://valueinvestasia.com"
+    },
+    "T:211": {
+      "fact": "Lumileds Malaysia Operations: 5,000+ employees",
+      "source": "ValueInvestAsia",
+      "citation": "Value Invest Asia - Malaysia Operations",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://valueinvestasia.com"
+    },
+    "T:212": {
+      "fact": "Lumileds Core Product: LUXEON LED technology for automotive, mobile, and general lighting",
+      "source": "ValueInvestAsia",
+      "citation": "Value Invest Asia - Product Analysis",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://valueinvestasia.com"
+    },
+    "T:213": {
+      "fact": "Bayan Lepas 1&2 Acquisition: Oct 2019 (sale-and-leaseback)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Acquisition History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:214": {
+      "fact": "Lumileds Annual Rent: RM 10.7 million",
+      "source": "ValueInvestAsia",
+      "citation": "Value Invest Asia - Lease Terms Analysis",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://valueinvestasia.com"
+    },
+    "T:215": {
+      "fact": "Lumileds Lease Term: 15 years",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Lease Terms",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:216": {
+      "fact": "Lumileds Rent Escalation: +3% annual",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Lease Terms",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:217": {
+      "fact": "Lumileds Lease Duration: thru Oct 2034",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Lease Expiry",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:218": {
+      "fact": "Lumileds Parent Chapter 11: Aug-Oct 2022",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Bankruptcy Filing",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:219": {
+      "fact": "Lumileds Parent Debt Reduction: from $1.7B to $400M",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Restructuring Details",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:220": {
+      "fact": "S&P Downgrade: March 2025",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Rating Action",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:221": {
+      "fact": "S&P Rating: 'SD' (Selective Default) for deferring interest",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Credit Rating",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:222": {
+      "fact": "Lumileds Lost PIK interest option: Jan 2025",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Debt Terms Update",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:223": {
+      "fact": "Lumileds must pay cash interest",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Covenant Analysis",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:224": {
+      "fact": "Lumileds Acquisition blocked by US CFIUS: April 2026",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia - M&A News",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.theedgemalaysia.com"
+    },
+    "T:225": {
+      "fact": "San'an/Inari acquisition blocked by US CFIUS",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia - Regulatory News",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.theedgemalaysia.com"
+    },
+    "T:226": {
+      "fact": "S&P Current Rating: SD (Selective Default) as of March 3, 2025",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Current Rating",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:227": {
+      "fact": "Credit Rating: SD (Selective Default) - deferred interest payment",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Rating Rationale",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:228": {
+      "fact": "Free Operating Cash Flow: Negative",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Cash Flow Analysis",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:229": {
+      "fact": "Liquidity: Constrained",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Liquidity Assessment",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:230": {
+      "fact": "LED Segment EBITDA (2024): Improved to +$9M (vs -$47M in 2023)",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Segment Performance",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:231": {
+      "fact": "Lumileds Business Quality Rating: 3/5 stars",
+      "source": "ValueInvestAsia",
+      "citation": "Value Invest Asia - Business Quality Assessment",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://valueinvestasia.com"
+    },
+    "T:232": {
+      "fact": "Lumileds: 1 in 3 cars worldwide use Lumileds",
+      "source": "ValueInvestAsia",
+      "citation": "Value Invest Asia - Market Share Data",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://valueinvestasia.com"
+    },
+    "T:233": {
+      "fact": "Lumileds Financial Health Rating: 2/5 stars",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Financial Health Assessment",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:234": {
+      "fact": "Lumileds Tenant Stability Rating: 3/5 stars",
+      "source": "ValueInvestAsia",
+      "citation": "Value Invest Asia - Tenant Assessment",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://valueinvestasia.com"
+    },
+    "T:235": {
+      "fact": "Lumileds Industry Outlook Rating: 4/5 stars",
+      "source": "ValueInvestAsia",
+      "citation": "Value Invest Asia - Industry Outlook",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://valueinvestasia.com"
+    },
+    "T:236": {
+      "fact": "Growing automotive LED market (EVs, ADAS, smart lighting)",
+      "source": "ValueInvestAsia",
+      "citation": "Value Invest Asia - Market Trend Analysis",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://valueinvestasia.com"
+    },
+    "T:237": {
+      "fact": "Lumileds Counterparty Risk Rating: 2/5 stars",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Counterparty Risk",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:238": {
+      "fact": "Overall Tenant Risk Rating: MODERATE-HIGH (2.8/5)",
+      "source": "Calculated",
+      "citation": "Derived from individual factor ratings",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:239": {
+      "fact": "15-year locked-in lease through 2034 with 3% annual escalations",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Lease Terms",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:240": {
+      "fact": "Penang facility strategically important to global automotive supply chain",
+      "source": "ValueInvestAsia",
+      "citation": "Value Invest Asia - Supply Chain Analysis",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://valueinvestasia.com"
+    },
+    "T:241": {
+      "fact": "Malaysia subsidiary operationally stable (5,000+ employees)",
+      "source": "ValueInvestAsia",
+      "citation": "Value Invest Asia - Operations Assessment",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://valueinvestasia.com"
+    },
+    "T:242": {
+      "fact": "100% renewable electricity since 2022",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Sustainability Note",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:243": {
+      "fact": "LED automotive market growing (4.7-9% CAGR) driven by EV adoption",
+      "source": "ValueInvestAsia",
+      "citation": "Value Invest Asia - Market Growth Projection",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://valueinvestasia.com"
+    },
+    "T:244": {
+      "fact": "Parent company in selective default (S&P rating 'SD')",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Current Status",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:245": {
+      "fact": "Lumileds ~21% revenue concentration",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Revenue Concentration",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:246": {
+      "fact": "Recent Chapter 11 bankruptcy (2022)",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Bankruptcy History",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:247": {
+      "fact": "Failed acquisition (April 2026) creates ownership uncertainty",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia - M&A Update",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.theedgemalaysia.com"
+    },
+    "T:248": {
+      "fact": "Negative free cash flow and liquidity constraints at parent level",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Cash Flow Analysis",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:249": {
+      "fact": "Total Assets: RM 723.24 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:250": {
+      "fact": "Total Borrowings: RM 314.79 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Note",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:251": {
+      "fact": "Gearing Ratio: 43.5%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Financial Ratios",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:252": {
+      "fact": "Non-current Borrowings: RM 262.87 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Classification",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:253": {
+      "fact": "Non-current Borrowings Percentage: 36.3%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:254": {
+      "fact": "Current Borrowings: RM 51.92 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Classification",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:255": {
+      "fact": "Current Borrowings Percentage: 7.2%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:256": {
+      "fact": "Total Equity/NAV: RM 408.45 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:257": {
+      "fact": "Equity Percentage: 56.5%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Capital Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:258": {
+      "fact": "Gearing Ratio FY 2025: 43.5%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Financial Ratios",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:259": {
+      "fact": "Regulatory Limit: 60.0% (SC Malaysia REIT limit)",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my/regulation/guidelines"
+    },
+    "T:260": {
+      "fact": "Headroom: 16.5% below regulatory ceiling",
+      "source": "Calculated",
+      "citation": "Derived from 60% limit minus 43.5% gearing",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:261": {
+      "fact": "Gearing Ratio: 43.5% (comfortable buffer)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Gearing Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:262": {
+      "fact": "Headroom: 16.5 percentage points below regulatory ceiling",
+      "source": "Calculated",
+      "citation": "Derived from 60% limit minus 43.5% gearing",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:263": {
+      "fact": "Interest Coverage: ~2.09x",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Cover Ratio",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:264": {
+      "fact": "Finance Costs FY 2025: ~RM 6.39 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Finance Costs Note",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:265": {
+      "fact": "Interest Coverage: ~2.09x (adequate but at lower end)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Cover Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:266": {
+      "fact": "Current Borrowings (Due within 12 months): RM 51.92 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Maturity",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:267": {
+      "fact": "Current Borrowings Percentage: 16.5%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Maturity Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:268": {
+      "fact": "Bank Overdraft: ~RM 9.3 million (Demand/On call)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Detail",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:269": {
+      "fact": "Short-term Revolving Credit: ~RM 39.6 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Detail",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:270": {
+      "fact": "Revolving Credit Due: February 2026 (renewed annually)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Terms",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:271": {
+      "fact": "Current portion of Term Loans: ~RM 3.0 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Detail",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:272": {
+      "fact": "Non-current Borrowings (Long-term): RM 262.87 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Classification",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:273": {
+      "fact": "Non-current Borrowings Percentage: 83.5%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Maturity Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:274": {
+      "fact": "Term Loans (non-current portion): ~RM 61.0 million (1-5 years)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Maturity",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:275": {
+      "fact": "Term Loans Maturity: 1-5 years",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Terms",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:276": {
+      "fact": "Medium Term Notes (MTN): ~RM 233.7 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Detail",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:277": {
+      "fact": "Total Borrowings: RM 314.79 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:278": {
+      "fact": "On Demand Debt - Bank Overdraft: RM 9.3m",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Maturity Schedule",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:279": {
+      "fact": "On Demand Debt - Term Loans: RM 2.4m",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Maturity Schedule",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:280": {
+      "fact": "On Demand Debt - MTN: RM 8.6m",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Maturity Schedule",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:281": {
+      "fact": "On Demand Debt - Revolving Credit: RM 41.3m",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Maturity Schedule",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:282": {
+      "fact": "Total On Demand/Within 1 Year: RM 61.6m",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Maturity Summary",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:283": {
+      "fact": "1-5 Years Debt - Term Loans: RM 61.8m",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Maturity Schedule",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:284": {
+      "fact": "1-5 Years Debt - MTN: RM 154.1m",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Maturity Schedule",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:285": {
+      "fact": "Total 1-5 Years Debt: RM 215.9m",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Maturity Summary",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:286": {
+      "fact": "Over 5 Years Debt - MTN: RM 71.0m",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Maturity Schedule",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:287": {
+      "fact": "Total Over 5 Years Debt: RM 71.0m",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Maturity Summary",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:288": {
+      "fact": "MTN Tranche 5A Issuance Date: September 8, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement DCS-08092025-00045",
+      "dateAccessed": "2025-09-08",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:289": {
+      "fact": "MTN Tranche 5A Amount: RM 18.84 million, fully subscribed by Public Bank Berhad",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement DCS-08092025-00045",
+      "dateAccessed": "2025-09-08",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:290": {
+      "fact": "MTN Tranche 5 Terms: 7-year tenure with single lump-sum redemption at maturity (due 2032)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - MTN Terms",
+      "dateAccessed": "2025-09-08",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:291": {
+      "fact": "Revolving Credit Renewal Due: February 2026",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Terms",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:292": {
+      "fact": "Revolving Credit: Historically renewed annually",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Refinancing Pattern",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:293": {
+      "fact": "2026 Debt Due: ~RM 52m",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Near-term Maturities",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:294": {
+      "fact": "2026 Debt Percentage: 16.5%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Maturity Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:295": {
+      "fact": "2027-2029 Debt Due: ~RM 216m",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Medium-term Maturities",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:296": {
+      "fact": "2027-2029 Debt Percentage: 68.6%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Maturity Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:297": {
+      "fact": "2030+ Debt Due: ~RM 71m",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Long-term Maturities",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:298": {
+      "fact": "2030+ Debt Percentage: 22.6%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Maturity Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:299": {
+      "fact": "MTN Tranche 5 Due: 2032",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - MTN Maturity",
+      "dateAccessed": "2025-09-08",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:300": {
+      "fact": "Revolving Credit Amount: RM 39.6 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Detail",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:301": {
+      "fact": "MTN Programme Authorized: RM 999 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - MTN Programme",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:302": {
+      "fact": "MTN Programme Drawn: ~RM 234 million (as of 2025)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - MTN Utilization",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:303": {
+      "fact": "Bank Overdraft Amount: ~RM 9.3 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Detail",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:304": {
+      "fact": "Bank Overdraft Rate Type: Floating, ~3% of total",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:305": {
+      "fact": "Term Loans Amount: ~RM 64.1 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Detail",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:306": {
+      "fact": "Term Loans Rate Type: Floating, ~20% of total",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:307": {
+      "fact": "Medium Term Notes (MTN) Amount: ~RM 233.7 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Detail",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:308": {
+      "fact": "MTN Rate Type: Floating, ~74% of total",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:309": {
+      "fact": "Short-term Revolving Credit Amount: ~RM 39.6 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Detail",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:310": {
+      "fact": "Revolving Credit Rate Type: Floating, ~13% of total",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:311": {
+      "fact": "Total Floating Rate Exposure: ~RM 346.7 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:312": {
+      "fact": "Floating Rate Debt Percentage: ~93%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:313": {
+      "fact": "Floating-rate debt composition: ~93% estimated",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Sensitivity",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:314": {
+      "fact": "Sensitive to Bank Negara Malaysia Overnight Policy Rate (OPR)",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia Monetary Policy",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.bnm.gov.my"
+    },
+    "T:315": {
+      "fact": "Interest Rate Swaps: Not Used",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Hedging Disclosure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:316": {
+      "fact": "Interest Rate Caps: Not Used",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Hedging Disclosure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:317": {
+      "fact": "Management Approach: Active Monitoring",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Risk Management",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:318": {
+      "fact": "Tracks BNM Monetary Policy Committee updates",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Risk Management",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:319": {
+      "fact": "Mitigation Strategy: Capital Structure management",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Risk Management",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:320": {
+      "fact": "Base Case Finance Costs: ~RM 6.39 million (FY 2025)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Finance Costs",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:321": {
+      "fact": "OPR Change Scenario: +25 bps (+0.25%)",
+      "source": "Calculated",
+      "citation": "Hypothetical interest rate scenario",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:322": {
+      "fact": "+25 bps Impact: +~RM 0.87 million annual finance costs",
+      "source": "Calculated",
+      "citation": "Calculated from 93% floating rate exposure on RM 314.79m borrowings",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:323": {
+      "fact": "OPR Change Scenario: +50 bps (+0.50%)",
+      "source": "Calculated",
+      "citation": "Hypothetical interest rate scenario",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:324": {
+      "fact": "+50 bps Impact: +~RM 1.73 million annual finance costs",
+      "source": "Calculated",
+      "citation": "Calculated from 93% floating rate exposure on RM 314.79m borrowings",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:325": {
+      "fact": "OPR Change Scenario: -25 bps (-0.25%)",
+      "source": "Calculated",
+      "citation": "Hypothetical interest rate scenario",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:326": {
+      "fact": "-25 bps Impact: -~RM 0.87 million annual finance costs",
+      "source": "Calculated",
+      "citation": "Calculated from 93% floating rate exposure on RM 314.79m borrowings",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:327": {
+      "fact": "Sensitivity calculated based on ~93% floating rate exposure on RM 314.79 million borrowings",
+      "source": "Calculated",
+      "citation": "Derived from AR2025 data",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:328": {
+      "fact": "Estimated WACD: ~3.5-4.0%",
+      "source": "Calculated",
+      "citation": "Derived from finance costs / average borrowings",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:329": {
+      "fact": "Finance Costs FY 2025: RM 6.39 million",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Unaudited Results - Finance Costs",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:330": {
+      "fact": "Finance Costs Source: Q4 2025 financial statements",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Unaudited Results",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:331": {
+      "fact": "Currency Exposure: 100% MYR (No foreign currency debt)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Currency Risk Disclosure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:332": {
+      "fact": "Floating-rate debt composition: ~93%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:333": {
+      "fact": "Estimated WACD: 3.5-4.0%",
+      "source": "Calculated",
+      "citation": "Calculated from annualized finance costs",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:334": {
+      "fact": "First Interim DPU: 0.90 sen/unit",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution Details",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:335": {
+      "fact": "First Interim Ex-Date: February 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement DCS-30122025-00099",
+      "dateAccessed": "2025-12-30",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:336": {
+      "fact": "First Interim Payment Date: February 26, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2025-02",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:337": {
+      "fact": "First Interim Amount: ~RM 1.35 million",
+      "source": "Calculated",
+      "citation": "Calculated from DPU \u00d7 units outstanding",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:338": {
+      "fact": "Second Interim DPU: 2.10 sen/unit",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution Details",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:339": {
+      "fact": "Second Interim Ex-Date: May 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2025-05",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:340": {
+      "fact": "Second Interim Payment Date: May 30, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2025-05-30",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:341": {
+      "fact": "Second Interim Amount: ~RM 3.15 million",
+      "source": "Calculated",
+      "citation": "Calculated from DPU \u00d7 units outstanding",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:342": {
+      "fact": "Third Interim DPU: 2.20 sen/unit",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution Details",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:343": {
+      "fact": "Third Interim Ex-Date: August 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement DCS-27112025-00078",
+      "dateAccessed": "2025-08",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:344": {
+      "fact": "Third Interim Payment Date: August 29, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2025-08-29",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:345": {
+      "fact": "Third Interim Amount: ~RM 3.30 million",
+      "source": "Calculated",
+      "citation": "Calculated from DPU \u00d7 units outstanding",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:346": {
+      "fact": "Fourth Interim DPU: 2.40 sen/unit",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution Details",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:347": {
+      "fact": "Fourth Interim Ex-Date: November 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2025-11",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:348": {
+      "fact": "Fourth Interim Payment Date: November 28, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2025-11-28",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:349": {
+      "fact": "Fourth Interim Amount: ~RM 3.60 million",
+      "source": "Calculated",
+      "citation": "Calculated from DPU \u00d7 units outstanding",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:350": {
+      "fact": "Fifth/Final DPU: 1.70 sen/unit",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution Details",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:351": {
+      "fact": "Fifth/Final Ex-Date: December 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2025-12",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:352": {
+      "fact": "Fifth/Final Payment Date: December 31, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2025-12-31",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:353": {
+      "fact": "Fifth/Final Amount: ~RM 2.55 million",
+      "source": "Calculated",
+      "citation": "Calculated from DPU \u00d7 units outstanding",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:354": {
+      "fact": "Total FY 2025 DPU: 9.30 sen",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution Summary",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:355": {
+      "fact": "Total FY 2025 Distributions: ~RM 13.95 million",
+      "source": "Calculated",
+      "citation": "Sum of all interim distributions",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:356": {
+      "fact": "2021 DPU: ~10.0 sen (peak year)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Historical DPU",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:357": {
+      "fact": "2022 DPU: ~9.0 sen",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Historical DPU",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:358": {
+      "fact": "2022 YoY Change: -10%",
+      "source": "Calculated",
+      "citation": "Derived from 2021 vs 2022 DPU",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:359": {
+      "fact": "2023 DPU: ~7.5 sen",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Historical DPU",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:360": {
+      "fact": "2023 YoY Change: -16.7%",
+      "source": "Calculated",
+      "citation": "Derived from 2022 vs 2023 DPU",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:361": {
+      "fact": "2024 DPU: ~7.6 sen",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Historical DPU",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:362": {
+      "fact": "2024 YoY Change: +1.3%",
+      "source": "Calculated",
+      "citation": "Derived from 2023 vs 2024 DPU",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:363": {
+      "fact": "2025 DPU: 9.30 sen",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution Summary",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:364": {
+      "fact": "2025 YoY Change: +22.4%",
+      "source": "Calculated",
+      "citation": "Derived from 2024 vs 2025 DPU",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:365": {
+      "fact": "22.4% year-over-year DPU growth in 2025",
+      "source": "Calculated",
+      "citation": "Derived from historical DPU comparison",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:366": {
+      "fact": "Realised Income FY 2025: RM 46.61 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Realised Income",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:367": {
+      "fact": "Total Distributions FY 2025: ~RM 13.95 million",
+      "source": "Calculated",
+      "citation": "Based on 9.30 sen DPU",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:368": {
+      "fact": "Distribution Payout Ratio: ~29.9%",
+      "source": "Calculated",
+      "citation": "Derived from distributions / realised income",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:369": {
+      "fact": "REIT Requirement: Minimum 90% of taxable income",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my/regulation/guidelines"
+    },
+    "T:370": {
+      "fact": "Malaysian REITs must distribute at least 90% of taxable income",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines - Distribution Requirement",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my/regulation/guidelines"
+    },
+    "T:371": {
+      "fact": "Current Share Price: RM 1.280",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5130"
+    },
+    "T:372": {
+      "fact": "Market Data Source: KLSE Screener",
+      "source": "KLSE",
+      "citation": "KLSE Screener Website",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5130"
+    },
+    "T:373": {
+      "fact": "NAV per Unit: RM 1.3874",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - NAV",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:374": {
+      "fact": "2025 DPU: 9.30 sen",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:375": {
+      "fact": "Market Dividend Yield: 7.27%",
+      "source": "Calculated",
+      "citation": "9.30 sen \u00f7 RM 1.280",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:376": {
+      "fact": "Price-to-Book (P/B): 0.92x",
+      "source": "Calculated",
+      "citation": "RM 1.280 \u00f7 RM 1.3874",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:377": {
+      "fact": "Trading at 8% discount to NAV",
+      "source": "Calculated",
+      "citation": "Derived from P/B ratio",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:378": {
+      "fact": "Market Cap: RM 340 million",
+      "source": "KLSE",
+      "citation": "KLSE Screener Market Cap",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5130"
+    },
+    "T:379": {
+      "fact": "Market Yield: 7.27%",
+      "source": "Calculated",
+      "citation": "9.30 sen \u00f7 RM 1.280",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:380": {
+      "fact": "NAV-Based Yield: ~6.7%",
+      "source": "Calculated",
+      "citation": "9.30 sen \u00f7 RM 1.3874",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:381": {
+      "fact": "Current Trading Price: RM 1.280",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5130"
+    },
+    "T:382": {
+      "fact": "NAV: RM 1.3874",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - NAV",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:383": {
+      "fact": "P/B = 0.92x (8% discount)",
+      "source": "Calculated",
+      "citation": "Current price vs NAV comparison",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:384": {
+      "fact": "Yield Enhancement: 7.27% market yield vs 6.7% NAV yield",
+      "source": "Calculated",
+      "citation": "Discount provides yield enhancement",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:385": {
+      "fact": "Atrium REIT Price (April 2026): RM 1.280",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5130"
+    },
+    "T:386": {
+      "fact": "Atrium REIT NAV: RM 1.3874",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:387": {
+      "fact": "Atrium P/B: 0.92x",
+      "source": "Calculated",
+      "citation": "Price to Book ratio",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:388": {
+      "fact": "Atrium Market Yield: 7.27%",
+      "source": "Calculated",
+      "citation": "DPU / Current Price",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:389": {
+      "fact": "Axis REIT Price (April 2026): RM 2.050",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5106"
+    },
+    "T:390": {
+      "fact": "Axis REIT NAV: RM 1.6907",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:391": {
+      "fact": "Axis P/B: 1.21x",
+      "source": "Calculated",
+      "citation": "Price to Book ratio",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:392": {
+      "fact": "Axis Market Yield: 5.15%",
+      "source": "Calculated",
+      "citation": "DPU / Current Price",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:393": {
+      "fact": "Yield Difference: +2.12pp (Atrium advantage)",
+      "source": "Calculated",
+      "citation": "7.27% - 5.15%",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:394": {
+      "fact": "Atrium 7.27% vs Axis 5.15% (2.12pp higher)",
+      "source": "Calculated",
+      "citation": "Market yield comparison",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:395": {
+      "fact": "Atrium P/B 0.92x (discount)",
+      "source": "Calculated",
+      "citation": "Price to Book",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:396": {
+      "fact": "Axis P/B 1.21x (premium)",
+      "source": "Calculated",
+      "citation": "Price to Book",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:397": {
+      "fact": "Discount reflects risk pricing: liquidity, concentration, interest rate exposure",
+      "source": "Document",
+      "citation": "Analysis summary",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:398": {
+      "fact": "~2.1pp yield advantage is not free money",
+      "source": "Document",
+      "citation": "Risk-adjusted return analysis",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:399": {
+      "fact": "Liquidity risk: RM 340M vs RM 4.15B market cap",
+      "source": "Calculated",
+      "citation": "Atrium vs Axis market cap comparison",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:400": {
+      "fact": "Concentration risk: 9 vs 69 properties, Lumileds ~21% income",
+      "source": "Document",
+      "citation": "Risk analysis",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:401": {
+      "fact": "Interest rate risk: ~93% floating vs 65% fixed (Axis)",
+      "source": "AR2025",
+      "citation": "Atrium vs Axis interest rate exposure comparison",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:402": {
+      "fact": "Transparency gaps: no WALE, tenant % disclosed",
+      "source": "Document",
+      "citation": "Data disclosure limitations",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:403": {
+      "fact": "Market price-based yield: 7.27% at RM 1.280",
+      "source": "Calculated",
+      "citation": "Actual investor yield",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:404": {
+      "fact": "Gross Revenue FY 2025: RM 51.05 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:405": {
+      "fact": "Net Property Income FY 2025: RM 45.98 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - NPI",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:406": {
+      "fact": "NPI Margin: ~90%",
+      "source": "Calculated",
+      "citation": "NPI / Revenue",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:407": {
+      "fact": "Realised Income: RM 46.61 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Realised Income",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:408": {
+      "fact": "Finance Costs: ~RM 6.39 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Finance Costs",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:409": {
+      "fact": "Q4 Net Loss: (RM 4.91 million)",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Unaudited Results",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:410": {
+      "fact": "Q4 2025 net loss RM 4.91 million (unrealized items)",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Results - Non-cash adjustments",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:411": {
+      "fact": "Q1 2025 Revenue: ~RM 11.0 million",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Unaudited Results - Quarterly Trend",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:412": {
+      "fact": "Q2 2025 Revenue: ~RM 11.5 million",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Unaudited Results - Quarterly Trend",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:413": {
+      "fact": "Q3 2025 Revenue: RM 11.49 million",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Unaudited Results - Quarterly Trend",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:414": {
+      "fact": "Q4 2025 Revenue: RM 12.41 million",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Unaudited Results - Quarterly Trend",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:415": {
+      "fact": "Q4 revenue benefited from ASA5 full tenancy commencement in September 2025",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Results - Revenue Analysis",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:416": {
+      "fact": "Prime Logistics Vacancy Malaysia: 2.0% (Q2 2025)",
+      "source": "JLL",
+      "citation": "JLL Malaysia Industrial Market Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "T:417": {
+      "fact": "Prime Logistics Vacancy Q4 2024: 4.8%",
+      "source": "JLL",
+      "citation": "JLL Malaysia Historical Data",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "T:418": {
+      "fact": "Market Tightness: Very tight supply",
+      "source": "JLL",
+      "citation": "JLL Malaysia Market Analysis",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "T:419": {
+      "fact": "FDI Inflows: Strong in semiconductors, E&E, automotive",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia FDI Statistics",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.bnm.gov.my"
+    },
+    "T:420": {
+      "fact": "Flight to Quality: Green assets occupy 30% faster",
+      "source": "JLL",
+      "citation": "JLL Malaysia ESG Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "T:421": {
+      "fact": "New Industrial Master Plan 2030",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia Policy Documents",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.bnm.gov.my"
+    },
+    "T:422": {
+      "fact": "Johor-Singapore Special Economic Zone (JS-SEZ)",
+      "source": "Bernama",
+      "citation": "Bernama Business News",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.bernama.com/business"
+    },
+    "T:423": {
+      "fact": "Port Klang Upgrades",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia Infrastructure News",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.theedgemalaysia.com"
+    },
+    "T:424": {
+      "fact": "East Coast Rail Link (ECRL)",
+      "source": "Bernama",
+      "citation": "Bernama Business - Infrastructure",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.bernama.com/business"
+    },
+    "T:425": {
+      "fact": "Data Center Boom in Selangor/Johor",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia Data Center Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.theedgemalaysia.com"
+    },
+    "T:426": {
+      "fact": "Portfolio Size: 9 properties (Atrium)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:427": {
+      "fact": "Industry Benchmark: 50-180 properties (large-cap)",
+      "source": "Mapletree",
+      "citation": "Mapletree Logistics Trust Industry Research",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.mapletreelogisticstrust.com"
+    },
+    "T:428": {
+      "fact": "AUM: RM 723m (~USD 160m)",
+      "source": "Calculated",
+      "citation": "Atrium total assets in USD",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:429": {
+      "fact": "MLT AUM Reference: S$13.3b",
+      "source": "Mapletree",
+      "citation": "Mapletree Logistics Trust Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.mapletreelogisticstrust.com"
+    },
+    "T:430": {
+      "fact": "Occupancy Rate: 100%",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Results",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:431": {
+      "fact": "APAC Average Occupancy: 94-96%",
+      "source": "Mapletree",
+      "citation": "Mapletree Logistics Trust Market Research",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.mapletreelogisticstrust.com"
+    },
+    "T:432": {
+      "fact": "Gearing Ratio: 43.5%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:433": {
+      "fact": "Industry Gearing Range: 30-43%",
+      "source": "APREA",
+      "citation": "Asia Pacific Real Assets Association Benchmark",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.aprea.asia"
+    },
+    "T:434": {
+      "fact": "Interest Coverage: ~2.09x",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:435": {
+      "fact": "Healthy Interest Coverage Range: 2.5-4.0x",
+      "source": "APREA",
+      "citation": "APREA REIT Benchmarks",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.aprea.asia"
+    },
+    "T:436": {
+      "fact": "WALE: Not disclosed",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Disclosure Gap",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:437": {
+      "fact": "Typical WALE Range: 3.0-5.0 years",
+      "source": "APREA",
+      "citation": "APREA Industrial REIT Guidelines",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.aprea.asia"
+    },
+    "T:438": {
+      "fact": "DPU Growth (2025): +22.4%",
+      "source": "Calculated",
+      "citation": "Year-over-year growth",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:439": {
+      "fact": "Sector Average DPU Growth: 10-15%",
+      "source": "APREA",
+      "citation": "APREA Regional REIT Performance",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.aprea.asia"
+    },
+    "T:440": {
+      "fact": "Reference: Mapletree Logistics Trust (MLT)",
+      "source": "Mapletree",
+      "citation": "Mapletree Logistics Trust",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.mapletreelogisticstrust.com"
+    },
+    "T:441": {
+      "fact": "MLT Properties: 180 properties across 9 markets",
+      "source": "Mapletree",
+      "citation": "Mapletree Logistics Trust Portfolio",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.mapletreelogisticstrust.com"
+    },
+    "T:442": {
+      "fact": "MLT AUM: S$13.3 billion",
+      "source": "Mapletree",
+      "citation": "Mapletree Logistics Trust Financials",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.mapletreelogisticstrust.com"
+    },
+    "T:443": {
+      "fact": "MLT Occupancy: 96.2% (FY24/25)",
+      "source": "Mapletree",
+      "citation": "Mapletree Logistics Trust Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.mapletreelogisticstrust.com"
+    },
+    "T:444": {
+      "fact": "MLT Rental Reversion: +2.1% average (up to +27.9% in Australia)",
+      "source": "Mapletree",
+      "citation": "Mapletree Logistics Trust Independent Market Research Report 2024-25",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://investor.mapletreelogisticstrust.com"
+    },
+    "T:445": {
+      "fact": "MLT Green Certification: 56% of portfolio",
+      "source": "Mapletree",
+      "citation": "Mapletree Logistics Trust Sustainability Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.mapletreelogisticstrust.com"
+    },
+    "T:446": {
+      "fact": "Atrium Stock Code: 5130.KL",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.klsescreener.com/v2/stocks/5130"
+    },
+    "T:447": {
+      "fact": "Axis Stock Code: 5106.KL",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.klsescreener.com/v2/stocks/5106"
+    },
+    "T:448": {
+      "fact": "Atrium Portfolio: 9 properties",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:449": {
+      "fact": "Axis Portfolio: 69 properties",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:450": {
+      "fact": "Atrium Total Assets: RM 723 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:451": {
+      "fact": "Axis Total Assets: RM 5.36 billion",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:452": {
+      "fact": "Atrium Property Value: RM 685 million",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:453": {
+      "fact": "Axis Property Value: ~RM 5.0 billion",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:454": {
+      "fact": "Atrium Geographic: Klang Valley (78%) + Penang (22%)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:455": {
+      "fact": "Axis Geographic: Nationwide (6 states)",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:456": {
+      "fact": "Atrium Occupancy: 100% (Q4 2025)",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Results",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:457": {
+      "fact": "Axis Occupancy: 94% (Dec 2025)",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:458": {
+      "fact": "Atrium WALE: Not disclosed",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:459": {
+      "fact": "Axis WALE: 4.4 years",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:460": {
+      "fact": "Atrium Gearing: 43.5%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:461": {
+      "fact": "Axis Gearing: ~33%",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:462": {
+      "fact": "Atrium Interest Coverage: ~2.09x",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:463": {
+      "fact": "Axis Interest Coverage: 3.8-4.0x",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:464": {
+      "fact": "Atrium Fixed-Rate Debt: ~7%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:465": {
+      "fact": "Axis Fixed-Rate Debt: 65%",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:466": {
+      "fact": "Atrium Floating Rate Exposure: ~93%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:467": {
+      "fact": "Axis Floating Rate Exposure: ~35%",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:468": {
+      "fact": "Atrium Hedging Strategy: None",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:469": {
+      "fact": "Axis Hedging Strategy: Active (Islamic profit rate swaps)",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:470": {
+      "fact": "Axis Unencumbered Assets: 38% (23 of 69 assets)",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:471": {
+      "fact": "Atrium 2025 Revenue: RM 51.05M",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:472": {
+      "fact": "Axis 2025 Revenue: RM 364.2M",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:473": {
+      "fact": "Atrium 2025 NPI: RM 45.98M",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:474": {
+      "fact": "Axis 2025 NPI: RM 316.2M",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:475": {
+      "fact": "Atrium 2025 DPU: 9.30 sen",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:476": {
+      "fact": "Axis 2025 DPU: 10.55 sen",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:477": {
+      "fact": "Atrium DPU Growth: +22.4%",
+      "source": "Calculated",
+      "citation": "Year-over-year growth",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:478": {
+      "fact": "Axis DPU Growth: +13.8%",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:479": {
+      "fact": "Atrium NAV-Based Yield: ~6.7%",
+      "source": "Calculated",
+      "citation": "9.30 sen / RM 1.3874",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:480": {
+      "fact": "Axis NAV-Based Yield: ~6.2%",
+      "source": "Calculated",
+      "citation": "Based on DPU and NAV",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:481": {
+      "fact": "Atrium Market Yield: 7.27%",
+      "source": "Calculated",
+      "citation": "At RM 1.280 share price",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:482": {
+      "fact": "Axis Market Yield: 5.15%",
+      "source": "Calculated",
+      "citation": "At RM 2.050 share price",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:483": {
+      "fact": "Atrium Trading Status: 8% discount (P/B 0.92x)",
+      "source": "Calculated",
+      "citation": "Discount to NAV",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:484": {
+      "fact": "Axis Trading Status: 21% premium (P/B 1.21x)",
+      "source": "Calculated",
+      "citation": "Premium to NAV",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true
+    },
+    "T:485": {
+      "fact": "Atrium April 2026 Price: RM 1.280",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5130"
+    },
+    "T:486": {
+      "fact": "Axis April 2026 Price: RM 2.050",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5106"
+    },
+    "T:487": {
+      "fact": "Atrium Payout Ratio: ~30%",
+      "source": "Calculated",
+      "citation": "Conservative payout",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:488": {
+      "fact": "Axis Payout Ratio: ~75-76%",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:489": {
+      "fact": "Atrium NAV per Unit: RM 1.3874",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:490": {
+      "fact": "Axis NAV per Unit: RM 1.64",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:491": {
+      "fact": "Axis Tenant Count: 182 tenants",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:492": {
+      "fact": "Axis Top 10 Tenant %: 46.7%",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:493": {
+      "fact": "Axis Analyst Coverage: Moderate",
+      "source": "MarketScreener",
+      "citation": "MarketScreener Research Coverage",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.marketscreener.com"
+    },
+    "T:494": {
+      "fact": "Axis Shariah Compliance: Yes",
+      "source": "AxisREIT",
+      "citation": "Axis REIT Shariah Status",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:495": {
+      "fact": "Atrium Market Cap: ~RM 600m",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5130"
+    },
+    "T:496": {
+      "fact": "Axis Market Cap: ~RM 3.5b",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5106"
+    },
+    "T:497": {
+      "fact": "Axis Liquidity: Higher",
+      "source": "KLSE",
+      "citation": "KLSE Screener Volume Analysis",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.klsescreener.com"
+    },
+    "T:498": {
+      "fact": "Axis 2025 Acquisitions: 3 completed (RM 164.6M+)",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:499": {
+      "fact": "Axis 2025 Disposals: 2 completed (The Annex)",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:500": {
+      "fact": "Axis Acquisition Pipeline: Senai forward (2027)",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:501": {
+      "fact": "Atrium MTN Programme: RM 999m authorized",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:502": {
+      "fact": "Axis MTN Programme: RM 3.0b Islamic MTN",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:503": {
+      "fact": "Axis ESG/Green Certification: Disclosed initiatives",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Sustainability Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:504": {
+      "fact": "Atrium Listing History: ~10 years",
+      "source": "AtriumIR",
+      "citation": "Atrium REIT Corporate History",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "T:505": {
+      "fact": "Axis Listing History: 20 years (2005-2025)",
+      "source": "AxisREIT",
+      "citation": "Axis REIT Corporate History",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:506": {
+      "fact": "Axis Management Scale: Larger team",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:507": {
+      "fact": "Atrium Asset Age: 44% from 2007 IPO",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:508": {
+      "fact": "Atrium Bayan Lepas 1 Age: 54 years",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:509": {
+      "fact": "Axis Asset Age: More diversified; active recycling",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:510": {
+      "fact": "Atrium 2025 Capex: RM 34.4M",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:511": {
+      "fact": "ASA5 AEI: RM 32.4M",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:512": {
+      "fact": "Axis 2025 Capex: ~RM 13M+",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:513": {
+      "fact": "Concentration Risk: Only 9 properties",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Risk Factors",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:514": {
+      "fact": "Geographic Risk: 78% of portfolio in Klang Valley",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Risk Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:515": {
+      "fact": "Interest Rate Risk: ~93% floating-rate debt, NO hedging instruments",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Risk Disclosure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:516": {
+      "fact": "Refinancing Risk: RM 999 million MTN programme available",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Refinancing Capacity",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:517": {
+      "fact": "Tenant Credit Risk: Lumileds parent in selective default (S&P 'SD')",
+      "source": "S&P",
+      "citation": "S&P Global Ratings - Lumileds Credit",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:518": {
+      "fact": "Tenant Concentration Risk: Lumileds = ~21% of rental income (RM 10.7M)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Tenant Concentration",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:519": {
+      "fact": "Liquidity Risk: Smaller market cap vs peers",
+      "source": "KLSE",
+      "citation": "KLSE Screener Market Cap Comparison",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com"
+    },
+    "T:520": {
+      "fact": "Limited Analyst Coverage: Few research reports",
+      "source": "MarketScreener",
+      "citation": "MarketScreener Coverage Analysis",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.marketscreener.com"
+    },
+    "T:521": {
+      "fact": "Data Transparency Risk: WALE, lease expiry, top tenants not disclosed",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Disclosure Gaps",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:522": {
+      "fact": "Manager Governance Risk: 59% family control",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Governance Risk",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:523": {
+      "fact": "Recent CEO retirement (Aug 2024)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - CEO Change",
+      "dateAccessed": "2024-08",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:524": {
+      "fact": "Acting CEO dual role",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Management Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:525": {
+      "fact": "Related Party Risk: Chan Kam Tuck controls Manager + ~24% unitholding",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Related Party",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:526": {
+      "fact": "Former CEO was Chan Kam Tuck's brother",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Related Party Disclosure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:527": {
+      "fact": "Active Asset Management: RM 34.44 million capex in 2025",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Risk Mitigation",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:528": {
+      "fact": "Conservative Leverage: 43.5% gearing",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Risk Mitigation",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:529": {
+      "fact": "Headroom: 16.5% below regulatory limits",
+      "source": "Calculated",
+      "citation": "Derived from gearing analysis",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:530": {
+      "fact": "Long-term Lease Strategy: Secured rental income with built-in escalations",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Risk Mitigation",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:531": {
+      "fact": "Quality Tenants: MNC focus reduces default risk",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Risk Mitigation",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:532": {
+      "fact": "Full Occupancy: 100% occupancy provides stable income base",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Results",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:533": {
+      "fact": "2024 Renewal Success: 100% retention rate",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Lease Renewals",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:534": {
+      "fact": "Positive rental reversions (ASA2, ASA3, USJ Block B)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Rental Growth",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:535": {
+      "fact": "Quality Tenant Base: 6 of 9 tenants identified",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Tenant Database",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:536": {
+      "fact": "All confirmed tenants are MNC logistics/e-commerce",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Industry Classification",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:537": {
+      "fact": "ASA5 Contribution: Full year revenue from ASA5 in 2026",
+      "source": "Document",
+      "citation": "Forward-looking projection",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:538": {
+      "fact": "DPU Recovery: 22.4% YoY growth signals operational improvement",
+      "source": "Calculated",
+      "citation": "Year-over-year comparison",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:539": {
+      "fact": "Conservative Balance Sheet: 43.5% gearing",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:540": {
+      "fact": "Adequate Interest Coverage: ~2.09x",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:541": {
+      "fact": "Industrial Sector Tailwinds: Malaysia's logistics and manufacturing demand robust",
+      "source": "JLL",
+      "citation": "JLL Malaysia Market Outlook",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "T:542": {
+      "fact": "AEI Strategy Success: ASA4 (DHL) and ASA5 (undisclosed) both secured tenants post-enhancement",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:543": {
+      "fact": "Lumileds Credit Risk: Parent company in selective default (S&P 'SD' rating)",
+      "source": "S&P",
+      "citation": "S&P Global Ratings",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:544": {
+      "fact": "Tenant Concentration: Lumileds contributes ~21% of rental income (RM 10.7M/year)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:545": {
+      "fact": "Asset Age Concentration: 44% of portfolio from 2007 IPO",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:546": {
+      "fact": "Portfolio Age: ~18-36 years old (IPO vintage)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:547": {
+      "fact": "Bayan Lepas 1: 54 years old (built 1972)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:548": {
+      "fact": "Interest Coverage: 2.09x is adequate but at lower end of comfort zone",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:549": {
+      "fact": "Single Asset Impact: With only 9 properties, single events have outsized impact",
+      "source": "Document",
+      "citation": "Concentration risk analysis",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:550": {
+      "fact": "Interest Rate Sensitivity: Monitor borrowing cost trends in 2026",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia Rate Outlook",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.bnm.gov.my"
+    },
+    "T:551": {
+      "fact": "Portfolio Size Comparison: 9 properties (Atrium)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:552": {
+      "fact": "Portfolio Size Comparison: 69 properties (Axis)",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:553": {
+      "fact": "Total Assets Comparison: RM 723 million (Atrium)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:554": {
+      "fact": "Total Assets Comparison: RM 5.26 billion (Axis)",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:555": {
+      "fact": "Gearing Comparison: 43.5% (Atrium)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:556": {
+      "fact": "Gearing Comparison: ~33% (Axis)",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:557": {
+      "fact": "Interest Coverage Comparison: ~2.09x (Atrium)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:558": {
+      "fact": "Interest Coverage Comparison: ~3.2x (Axis)",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:559": {
+      "fact": "Occupancy Comparison: 100% (Atrium)",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Results",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:560": {
+      "fact": "Occupancy Comparison: ~97% (Axis)",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:561": {
+      "fact": "2025 DPU Comparison: 9.30 sen (Atrium)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:562": {
+      "fact": "2025 DPU Comparison: ~9.2 sen (Axis)",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:563": {
+      "fact": "Asset Age Profile Comparison: 44% from 2007 IPO (Atrium)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:564": {
+      "fact": "Bayan Lepas 1 Age: 54 years old",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:565": {
+      "fact": "Axis Asset Profile: More diversified; active capital recycling",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:566": {
+      "fact": "Risk Profile Comparison: Higher concentration (Atrium)",
+      "source": "Document",
+      "citation": "Risk analysis comparison",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:567": {
+      "fact": "Risk Profile Comparison: More diversified (Axis)",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "T:568": {
+      "fact": "100% occupancy demonstrates strong asset quality",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Results",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:569": {
+      "fact": "6 of 9 tenants identified (67% coverage)",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Tenant Database",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:570": {
+      "fact": "All identified tenants are MNC logistics/e-commerce",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Industry Classification",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:571": {
+      "fact": "2024 renewal activity: 100% retention with positive rental reversions",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:572": {
+      "fact": "Asset age profile: 44% from 2007 IPO vintage",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:573": {
+      "fact": "4 properties with recent AEIs (2016-2025)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:574": {
+      "fact": "Oldest asset: Bayan Lepas 1 (built 1972, 54 years old)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:575": {
+      "fact": "AEI coverage: 4 of 9 properties (44%) enhanced since 2016",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:576": {
+      "fact": "RM 34.44 million capex investment in 2025",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:577": {
+      "fact": "Prime industrial locations in Klang Valley and Penang",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:578": {
+      "fact": "MNC tenant base (DHL, DSV, Lazada, R\u00f6hlig, Samsung SDS, Lumileds)",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Tenant Database",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.chartnexus.com"
+    },
+    "T:579": {
+      "fact": "Remaining data gaps: WALE not disclosed",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:580": {
+      "fact": "ASA5 tenant identity undisclosed",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:581": {
+      "fact": "ASA1 & USJ Block A/C current tenants unclear",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:582": {
+      "fact": "Lumileds ~21% of income concentration",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:583": {
+      "fact": "Lumileds parent in selective default (S&P 'SD')",
+      "source": "S&P",
+      "citation": "S&P Global Ratings",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.spglobal.com/ratings"
+    },
+    "T:584": {
+      "fact": "Gearing ratio of 43.5% is conservative",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Sustainability",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:585": {
+      "fact": "Interest coverage of ~2.09x meets minimum thresholds",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:586": {
+      "fact": "68.6% of debt matures 2027-2029",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:587": {
+      "fact": "RM 999 million MTN programme offers refinancing flexibility",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:588": {
+      "fact": "CRITICAL RISK: ~93% floating-rate debt with NO hedging instruments",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Risk",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:589": {
+      "fact": "22.4% YoY DPU growth to 9.30 sen demonstrates recovery",
+      "source": "Calculated",
+      "citation": "Year-over-year DPU growth",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:590": {
+      "fact": "100% occupancy provides stable rental income base",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Results",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:591": {
+      "fact": "Conservative payout ratio (~29.9% of realised income)",
+      "source": "Calculated",
+      "citation": "Distribution coverage analysis",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:592": {
+      "fact": "ASA5 full-year contribution from 2026",
+      "source": "Document",
+      "citation": "Forward-looking projection",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:593": {
+      "fact": "2025 Annual Report & CG Report",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:594": {
+      "fact": "Reference: DCS-12032026-00030",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement Reference",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:595": {
+      "fact": "2025 Annual Report Date: March 26, 2026",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:596": {
+      "fact": "Q4 2025 Unaudited Results",
+      "source": "Q42025",
+      "citation": "Atrium REIT Q4 2025 Unaudited Results",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false
+    },
+    "T:597": {
+      "fact": "Q4 Results Date: January 29, 2026",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:598": {
+      "fact": "Atrium REIT Official Website",
+      "source": "AtriumIR",
+      "citation": "Atrium REIT Corporate Website",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "T:599": {
+      "fact": "Atrium REIT Investor Relations",
+      "source": "AtriumIR",
+      "citation": "Atrium REIT IR Page",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my/investor-relations/"
+    },
+    "T:600": {
+      "fact": "2025 Annual Report Announcement Date: March 26, 2026",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement DCS-12032026-00030",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:601": {
+      "fact": "Q4 2025 Results Announcement Reference: DCS-29012026-00029",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement Reference",
+      "dateAccessed": "2026-01-29",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:602": {
+      "fact": "Fourth Interim Distribution Date: December 30, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement DCS-30122025-00099",
+      "dateAccessed": "2025-12-30",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:603": {
+      "fact": "Fourth Interim Reference: DCS-30122025-00099",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:604": {
+      "fact": "Third Interim Distribution Date: December 30, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2025-12-30",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:605": {
+      "fact": "Third Interim Reference: DCS-30122025-00099",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:606": {
+      "fact": "Third Interim Distribution Date: November 27, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement DCS-27112025-00078",
+      "dateAccessed": "2025-11-27",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:607": {
+      "fact": "Third Interim Reference: DCS-27112025-00078",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:608": {
+      "fact": "MTN Tranche 5A Issuance Date: September 8, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2025-09-08",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:609": {
+      "fact": "MTN Tranche 5A: RM 18.84m issuance",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement DCS-08092025-00045",
+      "dateAccessed": "2025-09-08",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:610": {
+      "fact": "MTN Tranche 5A Reference: DCS-08092025-00045",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:611": {
+      "fact": "ASA5 Tenancy Commencement: August 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Property Updates",
+      "dateAccessed": "2025-08",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:612": {
+      "fact": "ASA5 Tenancy Commencement Details",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:613": {
+      "fact": "Q1 2025 Results & Second Interim: May 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2025-05",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:614": {
+      "fact": "Data as of December 31, 2025 (FY 2025)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:615": {
+      "fact": "Annual Report published March 26, 2026",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "T:616": {
+      "fact": "Report Prepared: April 2026",
+      "source": "Document",
+      "citation": "Report metadata",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    },
+    "T:617": {
+      "fact": "Data Coverage: FY 2025 (January 1 - December 31, 2025)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "T:618": {
+      "fact": "Next Expected Update: Q1 2026 results (around May 2026)",
+      "source": "Document",
+      "citation": "Forward-looking projection",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false
+    }
+  }
+}
