@@ -10,6 +10,7 @@ import { CitationPanel } from '../../../components/CitationPanel';
 import { useAnnouncer } from '../../../hooks/useAnnouncer';
 import { useState, useMemo } from 'react';
 import { groupReferencesBySource, type SourceGroupType } from '../../../lib/citation-utils';
+import { formatPercentage } from '../../../lib/formatters';
 
 interface EntityDetailClientProps {
   entityId: string;
@@ -210,7 +211,7 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
               <span className="text-sm font-normal text-neutral-500 ml-1">sen</span>
             </p>
             <p className="text-sm text-neutral-500 mt-2">
-              Yield: {entity.metrics.find(m => m.metricType === 'dividend_yield_market')?.value || 'N/A'}%
+              Yield: {formatPercentage((entity.metrics.find(m => m.metricType === 'dividend_yield_market')?.value as number) / 100)}
             </p>
           </div>
 
@@ -218,7 +219,7 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
           <div className="bg-white rounded-xl shadow-card p-6">
             <p className="text-sm text-neutral-500 mb-1">Gearing Ratio</p>
             <p className="text-2xl font-bold text-neutral-900">
-              {entity.metrics.find(m => m.metricType === 'gearing_ratio')?.value || 'N/A'}%
+              {formatPercentage((entity.metrics.find(m => m.metricType === 'gearing_ratio')?.value as number) / 100)}
             </p>
             <p className="text-sm text-neutral-500 mt-2">
               IC: {entity.metrics.find(m => m.metricType === 'interest_coverage')?.value || 'N/A'}x

@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
+  darkMode: ['class'],
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -9,6 +10,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        // Semantic color tokens
+        canvas: 'hsl(var(--color-canvas) / <alpha-value>)',
+        surface: 'hsl(var(--color-surface) / <alpha-value>)',
+        surfaceAlt: 'hsl(var(--color-surface-alt) / <alpha-value>)',
+        stroke: 'hsl(var(--color-stroke) / <alpha-value>)',
+        ink: 'hsl(var(--color-ink) / <alpha-value>)',
+        muted: 'hsl(var(--color-muted) / <alpha-value>)',
+        accent: {
+          DEFAULT: 'hsl(var(--color-accent) / <alpha-value>)',
+          soft: 'hsl(var(--color-accent-soft) / <alpha-value>)',
+          strong: 'hsl(var(--color-accent-strong) / <alpha-value>)',
+        },
+        semanticSuccess: 'hsl(var(--color-success) / <alpha-value>)',
+        semanticWarning: 'hsl(var(--color-warning) / <alpha-value>)',
+        semanticDanger: 'hsl(var(--color-danger) / <alpha-value>)',
         // Financial theme colors
         primary: {
           50: '#eff6ff',
@@ -95,6 +111,8 @@ const config: Config = {
         'card': '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)',
         'card-hover': '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)',
         'panel': '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)',
+        'card-semantic': '0 1px 2px rgba(15,23,42,.05), 0 0 0 1px rgba(15,23,42,.04)',
+        'elevated': '0 10px 30px rgba(15,23,42,.10), 0 2px 8px rgba(15,23,42,.06)',
       },
       // High contrast mode support
       screens: {

@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-04-25T12:00:00.000Z",
+  "entity": {
+    "id": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c",
+    "code": "5110.KL",
+    "name": "UOA Real Estate Investment Trust",
+    "exchange": "Bursa Malaysia",
+    "sector": "Real Estate Investment Trusts",
+    "currency": "MYR",
+    "isShariahCompliant": false,
+    "listingDate": "2005-12-30",
+    "manager": {
+      "name": "UOA Asset Management Sdn Bhd",
+      "ownershipStructure": "Indirect subsidiary of UOA Holdings Sdn Bhd, ultimate parent United Overseas Australia Ltd (Australian-listed)",
+      "controllingShareholder": "United Overseas Australia Ltd"
+    },
+    "trustee": "RHB Trustees Berhad",
+    "fiscalYearEnd": {
+      "month": 12,
+      "day": 31
+    },
+    "references": [
+      "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+      "c3d4e5f6-g7h8-9012-cdef-345678901234",
+      "d4e5f6g7-h8i9-0123-defa-456789012345",
+      "e5f6g7h8-i9j0-1234-efab-567890123456",
+      "f6g7h8i9-j0k1-2345-fabc-678901234567",
+      "g7h8i9j0-k1l2-3456-abcd-789012345678",
+      "h8i9j0k1-l2m3-4567-bcde-890123456789",
+      "i9j0k1l2-m3n4-5678-cdef-901234567890"
+    ]
+  },
+  "references": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "displayId": "U:1",
+      "fact": "Stock Code 5110.KL (Bursa Malaysia)",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "url": "https://www.klsescreener.com/v2/stocks/5110",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+      "displayId": "U:2",
+      "fact": "Market Capitalization RM554.0 million",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Market Cap",
+      "url": "https://www.klsescreener.com/v2/stocks/5110",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+      "displayId": "U:3",
+      "fact": "UOA Real Estate Investment Trust name",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "d4e5f6g7-h8i9-0123-defa-456789012345",
+      "displayId": "U:6",
+      "fact": "Listing Date: 30 December 2005",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Corporate Information",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "e5f6g7h8-i9j0-1234-efab-567890123456",
+      "displayId": "U:10",
+      "fact": "Shariah Compliance: Non-Shariah Compliant",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Shariah Status",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "f6g7h8i9-j0k1-2345-fabc-678901234567",
+      "displayId": "U:11",
+      "fact": "Manager: UOA Asset Management Sdn Bhd (Company No. 692639-U)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Corporate Information",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "g7h8i9j0-k1l2-3456-abcd-789012345678",
+      "displayId": "U:15",
+      "fact": "Trustee: RHB Trustees Berhad",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Trustee Information",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "h8i9j0k1-l2m3-4567-bcde-890123456789",
+      "displayId": "U:36",
+      "fact": "Number of Properties: 6 commercial buildings",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "i9j0k1l2-m3n4-5678-cdef-901234567890",
+      "displayId": "U:139",
+      "fact": "Gearing Ratio: 40.5%",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Financial Ratios",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "j0k1l2m3-n4o5-6789-defa-012345678901",
+      "displayId": "U:140",
+      "fact": "Total Floating-Rate Debt: RM713.5 million (100% of borrowings)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Debt Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "k1l2m3n4-o5p6-7890-abcd-123456789012",
+      "displayId": "U:181",
+      "fact": "FY2025 DPU: 6.95 sen (3.03 + 3.92) +13.2% YoY",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "l2m3n4o5-p6q7-8901-bcde-234567890123",
+      "displayId": "U:191",
+      "fact": "Unit Price April 2026: RM0.82",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "url": "https://www.klsescreener.com/v2/stocks/5110",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "m3n4o5p6-q7r8-9012-cdef-345678901234",
+      "displayId": "U:213",
+      "fact": "NAV Per Unit: RM1.4248",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - NAV",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "n4o5p6q7-r8s9-0123-defa-456789012345",
+      "displayId": "U:215",
+      "fact": "P/B Ratio: 0.58x (significant discount)",
+      "source": "Calculated",
+      "citation": "Calculated from price and NAV",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "o5p6q7r8-s9t0-1234-efab-567890123456",
+      "displayId": "U:329",
+      "fact": "Manager: UOA Asset Management Sdn Bhd",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "p6q7r8s9-t0u1-2345-fabc-678901234567",
+      "displayId": "U:330",
+      "fact": "Website: www.uoareit.com.my",
+      "source": "UOAIR",
+      "citation": "UOA REIT Official Website",
+      "url": "https://www.uoareit.com.my",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    }
+  ]
+}

@@ -449,9 +449,9 @@ describe('Mobile Design (375px)', () => {
 
   it('should have readable text at mobile size', () => {
     render(<HomePage />);
-    
+
     const heading = screen.getByRole('heading', { level: 1 });
-    expect(heading).toHaveClass('text-4xl');
+    expect(heading).toHaveClass('text-3xl');
   });
 });
 

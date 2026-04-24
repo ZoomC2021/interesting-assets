@@ -105,9 +105,9 @@ export async function loadEntityData(entityCode: string): Promise<NormalizedReit
       return null;
     }
 
-    const module = await importFn();
+    const loadedModule = await importFn();
     // Dynamic imports return the module with a 'default' property for JSON files
-    return (module as { default: NormalizedReitData }).default || module as NormalizedReitData;
+    return (loadedModule as { default: NormalizedReitData }).default || loadedModule as NormalizedReitData;
   } catch (error) {
     console.error(`Error loading entity data for ${entityCode}:`, error);
     return null;

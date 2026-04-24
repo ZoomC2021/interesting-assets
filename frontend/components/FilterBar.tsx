@@ -87,8 +87,8 @@ export function FilterBar({
     filters.sortBy !== 'market_cap';
   
   return (
-    <div className={`bg-white border-b border-gray-200 sticky top-0 z-20 ${className}`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <div className={`bg-canvas border-b border-stroke sticky top-16 z-20 ${className}`}>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
         {/* Top row - Search and View Toggle */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-4">
           {/* Search */}
@@ -99,10 +99,10 @@ export function FilterBar({
                 placeholder="Search REITs by name or code..."
                 value={localSearch}
                 onChange={handleSearchChange}
-                className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                className="w-full pl-10 pr-4 py-1.5 text-sm border border-stroke rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
               />
               <svg
-                className="absolute left-3 top-2.5 w-5 h-5 text-gray-400"
+                className="absolute left-3 top-2 w-4 h-4 text-muted"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -117,7 +117,7 @@ export function FilterBar({
               {localSearch && (
                 <button
                   onClick={() => setLocalSearch('')}
-                  className="absolute right-3 top-2.5 text-gray-400 hover:text-gray-600"
+                  className="absolute right-3 top-2 text-muted hover:text-ink"
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -131,10 +131,10 @@ export function FilterBar({
           <div className="flex items-center gap-2">
             <button
               onClick={() => onViewModeChange('table')}
-              className={`p-2 rounded-lg transition-colors ${
+              className={`p-1.5 rounded-lg transition-colors ${
                 viewMode === 'table'
                   ? 'bg-blue-100 text-blue-700'
-                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                  : 'bg-gray-100 text-muted hover:bg-gray-200'
               }`}
               title="Table view"
             >
@@ -144,10 +144,10 @@ export function FilterBar({
             </button>
             <button
               onClick={() => onViewModeChange('cards')}
-              className={`p-2 rounded-lg transition-colors ${
+              className={`p-1.5 rounded-lg transition-colors ${
                 viewMode === 'cards'
                   ? 'bg-blue-100 text-blue-700'
-                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                  : 'bg-gray-100 text-muted hover:bg-gray-200'
               }`}
               title="Card view"
             >
@@ -164,7 +164,7 @@ export function FilterBar({
           <select
             value={filters.sector}
             onChange={handleSectorChange}
-            className="px-3 py-1.5 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            className="px-3 py-1 text-sm border border-stroke rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-canvas"
           >
             <option value="all">All Sectors</option>
             {availableSectors.map(sector => (
@@ -176,7 +176,7 @@ export function FilterBar({
           <select
             value={filters.shariah}
             onChange={handleShariahChange}
-            className="px-3 py-1.5 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            className="px-3 py-1 text-sm border border-stroke rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-canvas"
           >
             <option value="all">All Types</option>
             <option value="yes">Shariah Compliant</option>
@@ -196,8 +196,8 @@ export function FilterBar({
                 onClick={() => handleSortChange(sort.key)}
                 className={`px-3 py-1 text-sm rounded-md transition-colors flex items-center gap-1 ${
                   filters.sortBy === sort.key
-                    ? 'bg-white text-blue-700 shadow-sm'
-                    : 'text-gray-600 hover:bg-gray-200'
+                    ? 'bg-canvas text-blue-700 shadow-sm'
+                    : 'text-muted hover:bg-gray-200'
                 }`}
               >
                 {sort.label}
@@ -234,7 +234,7 @@ export function FilterBar({
           {/* Selection count */}
           {selectedCount > 0 && (
             <div className="flex items-center gap-2">
-              <span className="text-sm text-gray-600">
+              <span className="text-sm text-muted">
                 {selectedCount} selected
               </span>
               <button
@@ -245,9 +245,9 @@ export function FilterBar({
               </button>
             </div>
           )}
-          
+
           {/* Results count */}
-          <span className="text-sm text-gray-500">
+          <span className="text-sm text-muted">
             {totalCount} REITs
           </span>
         </div>

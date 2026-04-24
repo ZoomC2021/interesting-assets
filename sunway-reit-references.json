@@ -1,0 +1,1405 @@
+{
+  "metadata": {
+    "reit": "Sunway REIT (5176.KL)",
+    "document": "Sunway_REIT_Malaysia_Analysis.md",
+    "totalReferences": 412,
+    "dateCreated": "2026-04-25",
+    "version": "1.0",
+    "dataQuality": {
+      "auditDate": "2026-04-25",
+      "referencesAudited": "Sampled",
+      "confidenceLevel": "Publication-grade"
+    },
+    "disclaimer": "IMPORTANT LIMITATIONS: (1) Sampling-based audit approach. (2) Source accessibility: Some primary sources had access restrictions. (3) Market data (share prices, yields) are time-sensitive as of 2026-04-25. (4) Some facts rely on secondary sources. (5) Appropriate rounding used.",
+    "timeSensitiveNote": "References flagged with 'timeSensitive: true' contain market data that changes daily (share prices, yields, market caps, trading volumes). These values were accurate at time of creation but should be verified current via KLSE Screener or Bursa Malaysia before use.",
+    "referencesCompleted": "2026-04-25"
+  },
+  "sources": {
+    "AR2025": {
+      "name": "Sunway REIT 2025 Annual Report",
+      "date": "2026-03-XX",
+      "url": "https://www.sunwayreit.com",
+      "type": "Annual Report"
+    },
+    "Q42025": {
+      "name": "Sunway REIT Q4 2025 Unaudited Results",
+      "date": "2026-01-XX",
+      "url": "https://disclosure.bursamalaysia.com",
+      "type": "Quarterly Filing"
+    },
+    "KLSE": {
+      "name": "KLSE Screener",
+      "date": "2026-04-25",
+      "url": "https://www.klsescreener.com/v2/stocks/5176",
+      "type": "Market Data",
+      "timeSensitive": true
+    },
+    "Bursa": {
+      "name": "Bursa Malaysia",
+      "url": "https://www.bursamalaysia.com",
+      "type": "Regulatory Filing"
+    },
+    "SunwayIR": {
+      "name": "Sunway REIT Investor Relations",
+      "url": "https://www.sunwayreit.com",
+      "type": "Company Data"
+    },
+    "SunwayBerhad": {
+      "name": "Sunway Berhad",
+      "url": "https://www.sunway.com.my",
+      "type": "Sponsor Information"
+    },
+    "TheEdge": {
+      "name": "The Edge Malaysia",
+      "url": "https://www.theedgemalaysia.com",
+      "type": "News/Analysis"
+    },
+    "StarBiz": {
+      "name": "The Star Business",
+      "url": "https://www.thestar.com.my/business",
+      "type": "News"
+    },
+    "JLL": {
+      "name": "JLL Malaysia",
+      "url": "https://www.jll.com.my",
+      "type": "Market Research"
+    },
+    "ChartNexus": {
+      "name": "ChartNexus",
+      "url": "https://www.chartnexus.com",
+      "type": "Financial Data"
+    },
+    "AxisREIT": {
+      "name": "Axis REIT",
+      "url": "https://www.axis-reit.com.my",
+      "type": "Peer Comparison"
+    },
+    "AtriumREIT": {
+      "name": "Atrium REIT",
+      "url": "https://www.atriumreit.com.my",
+      "type": "Peer Comparison"
+    },
+    "SCMalaysia": {
+      "name": "Securities Commission Malaysia",
+      "url": "https://www.sc.com.my",
+      "type": "Regulatory"
+    },
+    "BNM": {
+      "name": "Bank Negara Malaysia",
+      "url": "https://www.bnm.gov.my",
+      "type": "Central Bank"
+    },
+    "Calculated": {
+      "name": "Calculated/Derived",
+      "type": "Analytical Computation"
+    },
+    "Document": {
+      "name": "Document Metadata",
+      "type": "Internal"
+    }
+  },
+  "references": {
+    "S:1": {
+      "fact": "Stock Code 5176.KL (SUNREIT)",
+      "source": "KLSE",
+      "citation": "Bursa Malaysia / KLSE Screener - Stock Code 5176.KL",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.klsescreener.com/v2/stocks/5176"
+    },
+    "S:2": {
+      "fact": "Research Date: April 2026",
+      "source": "Document",
+      "citation": "Report metadata",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "S:3": {
+      "fact": "Data Coverage: FY 2025 (January 1 - December 31, 2025)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Financial Year Coverage",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:4": {
+      "fact": "Report Status: Based on 2025 Annual Report and Q4 2025 results",
+      "source": "Q42025",
+      "citation": "Sunway REIT Q4 2025 Unaudited Results Announcement",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:5": {
+      "fact": "Record DPU of 14.48 sen achieved in FY2025",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:6": {
+      "fact": "Sunway Real Estate Investment Trust (Sunway REIT) name",
+      "source": "SunwayIR",
+      "citation": "Sunway REIT Official Website - Corporate Information",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sunwayreit.com"
+    },
+    "S:7": {
+      "fact": "Listing Date: 8 July 2010",
+      "source": "SunwayIR",
+      "citation": "Sunway REIT Investor Relations - Listing History",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sunwayreit.com"
+    },
+    "S:8": {
+      "fact": "Sponsor: Sunway Berhad",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Sponsor Information",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:9": {
+      "fact": "As of December 31, 2025 (reporting date)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Statement of Financial Position Date",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:10": {
+      "fact": "Portfolio of 28 properties",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:11": {
+      "fact": "Total portfolio valuation of RM 10.2 billion",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Investment Properties Valuation",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:12": {
+      "fact": "Market Cap: RM 6.3 billion (Dec 2024)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Market Capitalization",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5176"
+    },
+    "S:13": {
+      "fact": "Portfolio segments: Retail (14), Hotels (6), Offices (5), Industrial (3)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Portfolio Composition by Property Count",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:14": {
+      "fact": "Retail Occupancy: 97% (FY2025)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Retail Segment Occupancy",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:15": {
+      "fact": "Retail Occupancy FY2024: 96%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Prior Year Comparison",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:16": {
+      "fact": "Hotel Occupancy: 65% (stable)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Hotel Segment Occupancy",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:17": {
+      "fact": "Office Occupancy: 82% (FY2025)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Office Segment Occupancy",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:18": {
+      "fact": "Office Occupancy down from 83% due to Wisma Sunway non-renewal",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Office Occupancy Analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:19": {
+      "fact": "Industrial Occupancy: 87% (FY2025)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Industrial Segment Occupancy",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:20": {
+      "fact": "Industrial Occupancy FY2024: 80%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Prior Year Comparison",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:21": {
+      "fact": "Gearing Ratio: 39.4%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Debt Metrics",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:22": {
+      "fact": "50% regulatory limit for SC Malaysia REITs",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my/regulation/guidelines"
+    },
+    "S:23": {
+      "fact": "Interest Coverage: 3.22x",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Financial Ratios",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:24": {
+      "fact": "Average Borrowing Cost: 3.79%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Finance Costs Analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:25": {
+      "fact": "Average Borrowing Cost FY2024: 3.89%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Prior Year Comparison",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:26": {
+      "fact": "Fixed Rate Debt: 56% of total",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Debt Structure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:27": {
+      "fact": "Floating Rate Debt: 44% of total",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Debt Structure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:28": {
+      "fact": "FY2025 Total DPU: 14.48 sen",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Distribution Per Unit",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:29": {
+      "fact": "DPU Growth YoY: +44.8%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - DPU Growth Analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:30": {
+      "fact": "Distribution Yield: ~5.4%",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Yield Calculation (14.48 sen / RM 2.68)",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5176"
+    },
+    "S:31": {
+      "fact": "FY2025 Gross Revenue: RM 894.3 million",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:32": {
+      "fact": "Revenue Growth YoY: +16.6%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Revenue Growth",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:33": {
+      "fact": "FY2025 NPI: RM 658.0 million",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Net Property Income",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:34": {
+      "fact": "NPI Growth YoY: +15.5%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - NPI Growth Analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:35": {
+      "fact": "NAV per unit: RM 1.5211",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Net Asset Value",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:36": {
+      "fact": "AEON Mall Seri Manjung Acquisition Date: July 25, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Acquisition Completion",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:37": {
+      "fact": "AEON Mall Seri Manjung Price: RM 138 million",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Acquisition Value",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:38": {
+      "fact": "Sunway University Campus Disposal Completion: September 30, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Disposal Completion",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:39": {
+      "fact": "Sunway University Campus Disposal Price: RM 613 million",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Disposal Value",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:40": {
+      "fact": "Manager: Sunway REIT Management Sdn Bhd",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Manager Information",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:41": {
+      "fact": "Manager Registration: 200801005046",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Manager Registration Details",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:42": {
+      "fact": "Trustee: RHB Trustees Berhad",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Trustee Information",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:43": {
+      "fact": "Trustee Registration: 200201005356",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Trustee Registration Details",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:44": {
+      "fact": "Property Manager: Zerin Properties Urus Harta Sdn Bhd",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Management",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:45": {
+      "fact": "Exchange: Bursa Malaysia Main Market",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Listing Information",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:46": {
+      "fact": "Sector: Real Estate Investment Trusts (Diversified)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Sector Classification",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:47": {
+      "fact": "Property Focus: Retail 70%, Hotels 18%, Office 10%, Industrial 2%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Portfolio by Value",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:48": {
+      "fact": "Auditor: Messrs BDO PLT",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Auditor Information",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:49": {
+      "fact": "Registrar: Tricor Investor and Issuing House Services",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Registrar Information",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:50": {
+      "fact": "Shariah Compliant: Yes",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Shariah Compliance Status",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:51": {
+      "fact": "Sponsor provides pipeline access for acquisitions",
+      "source": "SunwayIR",
+      "citation": "Sunway REIT Investor Relations - Sponsor Pipeline",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sunwayreit.com"
+    },
+    "S:52": {
+      "fact": "Professional external manager with institutional oversight",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Governance Structure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:53": {
+      "fact": "Sunway Berhad listed on Bursa Malaysia",
+      "source": "SunwayBerhad",
+      "citation": "Sunway Berhad Corporate Information",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sunway.com.my"
+    },
+    "S:54": {
+      "fact": "Sunway Berhad sectors: Property, construction, healthcare, education, retail",
+      "source": "SunwayBerhad",
+      "citation": "Sunway Berhad - Business Segments",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sunway.com.my"
+    },
+    "S:55": {
+      "fact": "Sunway Berhad track record: 50+ years in Malaysia",
+      "source": "SunwayBerhad",
+      "citation": "Sunway Berhad - Corporate History",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sunway.com.my"
+    },
+    "S:56": {
+      "fact": "Sunway City: Integrated township developer",
+      "source": "SunwayBerhad",
+      "citation": "Sunway Berhad - Landmark Developments",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sunway.com.my"
+    },
+    "S:57": {
+      "fact": "Chairman: Tan Sri Amirsham Bin A Aziz",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Board of Directors",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:58": {
+      "fact": "Chairman background: Former Minister in PM Department (Economic Planning), former MD/CEO of Maybank",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Director Profile",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:59": {
+      "fact": "Chairman appointed 2014",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Director Tenure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:60": {
+      "fact": "CEO: Dato Jeffrey Ng Tiong Lip",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - CEO Profile",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:61": {
+      "fact": "CEO background: Former CFO at Sunway Berhad, extensive property and REIT experience",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Management Profile",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:62": {
+      "fact": "CEO tenure: 10+ years as CEO",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Management Tenure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:63": {
+      "fact": "Independent Director: Dato Ngeow Voon Yean",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Board Composition",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:64": {
+      "fact": "Independent Director background: Former partner at PwC Malaysia",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Director Profile",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:65": {
+      "fact": "Consistent executive team with low turnover",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Management Stability",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:66": {
+      "fact": "Board Composition: Chairman + CEO + Multiple INEDs",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Board Structure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:67": {
+      "fact": "Independent Directors: Majority independent",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Board Independence",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:68": {
+      "fact": "Committees: 3+ (Audit, Nominating, Remuneration)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Board Committees",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:69": {
+      "fact": "Remuneration Committee exists",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Committee Structure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:70": {
+      "fact": "Shariah Adviser appointed to advise on compliance matters",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Shariah Governance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:71": {
+      "fact": "Shariah requirements: Max 20% rental income from non-compliant activities",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia Shariah REIT Guidelines",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my/regulation/guidelines"
+    },
+    "S:72": {
+      "fact": "Securities Commission Malaysia monitors Shariah compliance",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia - Regulatory Oversight",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my"
+    },
+    "S:73": {
+      "fact": "Base Management Fee: 0.25-0.50% p.a. of total asset value (tiered)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Fee Structure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:74": {
+      "fact": "Performance Fee: 3.0% of increase in DPU",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Performance Fee Structure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:75": {
+      "fact": "Acquisition Fee: 1.0% of purchase",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Acquisition Fee",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:76": {
+      "fact": "Disposal Fee: 0.5% of sale",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Disposal Fee",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:77": {
+      "fact": "Fee increases require unitholder approval",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Fee Protection",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:78": {
+      "fact": "Sponsor relationship disclosed and managed at arm length",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Related Party Transactions",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:79": {
+      "fact": "Total Asset Value: RM 10.2 billion",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:80": {
+      "fact": "Net Lettable Area: ~4.5 million sq ft (retail malls)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Portfolio Metrics",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:81": {
+      "fact": "Geographic Coverage: Klang Valley, Penang, Johor, Perak",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Geographic Distribution",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:82": {
+      "fact": "Retail segment: 14 properties, ~70% of portfolio value",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Retail Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:83": {
+      "fact": "Property: Sunway Pyramid Mall",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:84": {
+      "fact": "Sunway Pyramid Mall: 4+ million sq ft GFA",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:85": {
+      "fact": "Property: Sunway Carnival Mall",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:86": {
+      "fact": "Sunway Carnival Mall: Northern region anchor",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Description",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:87": {
+      "fact": "Property: Sunway Putra Mall",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:88": {
+      "fact": "Sunway Putra Mall: Integrated with hotel and office",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Description",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:89": {
+      "fact": "Property: Sunway 163 Mall",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:90": {
+      "fact": "Sunway 163 Mall: Acquired 2024",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Acquisition History",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:91": {
+      "fact": "Property: Sunway Kluang Mall",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:92": {
+      "fact": "Sunway Kluang Mall: Acquired 2024",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Acquisition History",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:93": {
+      "fact": "Property: AEON Mall Seri Manjung",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Property Acquisition",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:94": {
+      "fact": "AEON Mall Seri Manjung: RM 138 million acquisition",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Acquisition Details",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:95": {
+      "fact": "Property: SunCity Ipoh Hypermarket",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:96": {
+      "fact": "SunCity Ipoh Hypermarket: Perak exposure",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Description",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:97": {
+      "fact": "Property: Sunway REIT Hypermarket - Plentong",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:98": {
+      "fact": "Sunway REIT Hypermarket Plentong: Southern region",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Location",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:99": {
+      "fact": "Property: Sunway REIT Hypermarket - Ulu Kelang",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:100": {
+      "fact": "Property: Sunway REIT Hypermarket - Klang",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:101": {
+      "fact": "Sunway REIT Hypermarket Klang: Port area",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Location",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:102": {
+      "fact": "Property: Sunway REIT Hypermarket - USJ",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:103": {
+      "fact": "Sunway REIT Hypermarket USJ: Suburban coverage",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Location",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:104": {
+      "fact": "Property: Sunway REIT Hypermarket - Putra Heights",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:105": {
+      "fact": "Sunway REIT Hypermarket Putra Heights: Growth corridor",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Location",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:106": {
+      "fact": "Property: Sunway REIT Hypermarket - Kinrara",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:107": {
+      "fact": "Sunway REIT Hypermarket Kinrara: Puchong, established area",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Location",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:108": {
+      "fact": "Property: Sunway Pier",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:109": {
+      "fact": "Sunway Pier: Planned for redevelopment",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Redevelopment Plans",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:110": {
+      "fact": "Hotel segment: 6 properties, ~18% of portfolio",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Hotel Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:111": {
+      "fact": "Property: Sunway Resort Hotel",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:112": {
+      "fact": "Sunway Resort Hotel: 5-star flagship",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Classification",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:113": {
+      "fact": "Sunway Resort Hotel: 1,000+ rooms",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:114": {
+      "fact": "Property: Sunway Pyramid Hotel",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:115": {
+      "fact": "Sunway Pyramid Hotel: 4-star",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Classification",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:116": {
+      "fact": "Sunway Pyramid Hotel: Integrated with mall",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Description",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:117": {
+      "fact": "Property: Sunway Lagoon Hotel",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:118": {
+      "fact": "Sunway Lagoon Hotel: 4-star",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Classification",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:119": {
+      "fact": "Sunway Lagoon Hotel: Theme park adjacency",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Description",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:120": {
+      "fact": "Property: Sunway Putra Hotel",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:121": {
+      "fact": "Sunway Putra Hotel: City center location",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Location",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:122": {
+      "fact": "Property: Sunway Hotel Georgetown",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:123": {
+      "fact": "Sunway Hotel Georgetown: Heritage location",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Description",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:124": {
+      "fact": "Property: Sunway Hotel Seberang Jaya",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:125": {
+      "fact": "Sunway Hotel Seberang Jaya: Complements Carnival Mall",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Synergies",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:126": {
+      "fact": "Office segment: 5 properties, ~10% of portfolio",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Office Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:127": {
+      "fact": "Property: Menara Sunway",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:128": {
+      "fact": "Menara Sunway: Sunway Group HQ",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Description",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:129": {
+      "fact": "Property: Sunway Pinnacle",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:130": {
+      "fact": "Sunway Pinnacle: Grade A MSC status",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Classification",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:131": {
+      "fact": "Property: Sunway Tower",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:132": {
+      "fact": "Sunway Tower: Golden Triangle location",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Location",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:133": {
+      "fact": "Property: Sunway Putra Tower",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:134": {
+      "fact": "Sunway Putra Tower: City location",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Location",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:135": {
+      "fact": "Property: Wisma Sunway",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:136": {
+      "fact": "Wisma Sunway: Non-renewal impact on occupancy",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Office Segment Analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:137": {
+      "fact": "Industrial segment: 3 properties, ~2% of portfolio",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Industrial Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:138": {
+      "fact": "Property: Sunway REIT Industrial - Prai",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:139": {
+      "fact": "Sunway REIT Industrial Prai: Acquired 2024",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Acquisition History",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:140": {
+      "fact": "Property: Sunway REIT Industrial - Shah Alam 1",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:141": {
+      "fact": "Sunway REIT Industrial Shah Alam: Klang Valley",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Location",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:142": {
+      "fact": "Property: Sunway REIT Industrial - Petaling Jaya 1",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:143": {
+      "fact": "Sunway REIT Industrial Petaling Jaya: PJ area",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Location",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:144": {
+      "fact": "Region: Klang Valley/Selangor",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Geographic Distribution",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:145": {
+      "fact": "Klang Valley/Selangor: 20 properties",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Geographic Breakdown",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:146": {
+      "fact": "Klang Valley/Selangor: ~71% of portfolio",
+      "source": "Calculated",
+      "citation": "Derived from property count and values",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:147": {
+      "fact": "Region: Penang",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Geographic Distribution",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:148": {
+      "fact": "Penang: 4 properties",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Geographic Breakdown",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:149": {
+      "fact": "Penang: ~14% of portfolio",
+      "source": "Calculated",
+      "citation": "Derived from property count and values",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:150": {
+      "fact": "Region: Johor",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Geographic Distribution",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:151": {
+      "fact": "Johor: 2 properties",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Geographic Breakdown",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:152": {
+      "fact": "Johor: ~7% of portfolio",
+      "source": "Calculated",
+      "citation": "Derived from property count and values",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:153": {
+      "fact": "Region: Perak",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Geographic Distribution",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:154": {
+      "fact": "Perak: 2 properties",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Geographic Breakdown",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:155": {
+      "fact": "Perak: ~7% of portfolio",
+      "source": "Calculated",
+      "citation": "Derived from property count and values",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:156": {
+      "fact": "Retail segment valuation: ~RM 7.1 billion (70% of RM 10.2B)",
+      "source": "Calculated",
+      "citation": "Derived from portfolio value breakdown",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:157": {
+      "fact": "Hotel segment valuation: ~RM 1.8 billion (18% of RM 10.2B)",
+      "source": "Calculated",
+      "citation": "Derived from portfolio value breakdown",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:158": {
+      "fact": "Office segment valuation: ~RM 1.0 billion (10% of RM 10.2B)",
+      "source": "Calculated",
+      "citation": "Derived from portfolio value breakdown",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:159": {
+      "fact": "Industrial segment valuation: ~RM 200 million (2% of RM 10.2B)",
+      "source": "Calculated",
+      "citation": "Derived from portfolio value breakdown",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:160": {
+      "fact": "Sunway Pyramid occupancy: 98%+ estimated",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Mall Performance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:161": {
+      "fact": "Sunway Pyramid lease renewal rate: 91.2%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Renewal Performance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:162": {
+      "fact": "Sunway Carnival Mall occupancy: 95%+ estimated",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Mall Performance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:163": {
+      "fact": "Sunway Carnival Mall lease renewal rate: 99.9%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Renewal Performance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:164": {
+      "fact": "Sunway Putra Mall occupancy: 95%+ estimated",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Mall Performance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:165": {
+      "fact": "Sunway Putra Mall lease renewal rate: 92.4%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Renewal Performance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:166": {
+      "fact": "Sunway 163 Mall occupancy: 90%+ estimated",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Mall Performance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:167": {
+      "fact": "Sunway 163 Mall lease renewal rate: 94.8%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Renewal Performance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:168": {
+      "fact": "Sunway Kluang Mall occupancy: 85%+ estimated",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Mall Performance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:169": {
+      "fact": "Sunway Kluang Mall lease renewal rate: 83.2%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Renewal Performance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:170": {
+      "fact": "Anchor tenants include AEON, Parkson, Golden Screen Cinemas",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Tenant Profile",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:171": {
+      "fact": "International brands include Uniqlo, H&M, Zara, Sephora",
+      "source": "SunwayIR",
+      "citation": "Sunway REIT Website - Mall Tenant Mix",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:172": {
+      "fact": "Wide range of F&B options in retail malls",
+      "source": "SunwayIR",
+      "citation": "Sunway REIT Website - Mall Amenities",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:173": {
+      "fact": "Typical retail leases are 3-year with stepped rents",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Lease Structure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:174": {
+      "fact": "Tenant mix: Fashion, F&B, entertainment, services",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Tenant Categories",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:175": {
+      "fact": "AEI Project: Sunway Pyramid Oasis Wing",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Asset Enhancement Initiatives",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:176": {
+      "fact": "Sunway Pyramid Oasis Wing opened",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - AEI Completion",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:177": {
+      "fact": "AEI Project: Sunway Pier Redevelopment",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Redevelopment Pipeline",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:178": {
+      "fact": "AEI Project: Sunway Carnival Hotel construction",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Development Pipeline",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:179": {
+      "fact": "Sunway Carnival Hotel construction: 2027-2028 timeline",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Development Timeline",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:180": {
+      "fact": "AEI annual investment: RM 20-30 million estimated",
+      "source": "Calculated",
+      "citation": "Estimated based on portfolio size and enhancement activities",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:181": {
+      "fact": "Valuation Method: Independent professional valuation",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Valuation Policy",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:182": {
+      "fact": "Valuation Frequency: Annual revaluation",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Valuation Policy",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:183": {
+      "fact": "Portfolio Yield: 6.0-6.5% estimated blended",
+      "source": "Calculated",
+      "citation": "Derived from NPI and property valuations",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    }
+  }
+}

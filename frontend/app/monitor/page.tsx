@@ -17,6 +17,14 @@ import { BenchmarkIndicator } from '@/components/BenchmarkIndicator';
 import { CitationPanel } from '@/components/CitationPanel';
 import type { MetricType, NormalizedReitData } from '@/types/frontend';
 
+// Sort field mapping from FilterBar to EntityTable
+const SORT_FIELD_MAP: Record<string, SortField> = {
+  'market_cap': 'market_cap',
+  'dpu': 'dpu',
+  'yield': 'dividend_yield_market',
+  'gearing': 'gearing_ratio'
+};
+
 type ViewMode = 'table' | 'cards';
 type SortDirection = 'asc' | 'desc';
 
@@ -49,7 +57,18 @@ export default function MonitorPage() {
     direction: 'desc',
   });
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
-  
+
+  // Sync FilterBar sort controls to table sort state
+  React.useEffect(() => {
+    const newField = SORT_FIELD_MAP[filters.sortBy];
+    if (newField) {
+      setSort(prev => ({
+        field: newField,
+        direction: filters.sortOrder
+      }));
+    }
+  }, [filters.sortBy, filters.sortOrder]);
+
   // Citation panel state
   const [citationOpen, setCitationOpen] = useState(false);
   const [selectedEntityForCitation, setSelectedEntityForCitation] = useState<string | null>(null);
@@ -177,7 +196,7 @@ export default function MonitorPage() {
       map.set(entity.entity.id, entityMap);
     }
     return map;
-  }, [entities, benchmarks]);
+  }, [entities, benchmarks, getComparison]);
   
   // Get comparison for entity
   const getEntityComparison = (entityId: string, metricType: MetricType) => {

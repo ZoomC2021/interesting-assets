@@ -1,12 +1,12 @@
 'use client';
 
 /**
- * RiskBadge - Compact risk indicator with emoji colors and citation support
+ * RiskBadge - Professional risk indicator with dot+label pills and citation support
  */
 
 import React, { useState } from 'react';
 import type { RiskSeverity } from '@/types/frontend';
-import { getRiskSeverityEmoji, getRiskSeverityLabel } from '@/lib/comparison-model';
+import { getRiskSeverityLabel } from '@/lib/comparison-model';
 
 interface RiskBadgeProps {
   severity: RiskSeverity;
@@ -17,33 +17,51 @@ interface RiskBadgeProps {
   onCitationClick?: () => void;
 }
 
-const severityColors: Record<RiskSeverity, { bg: string; text: string; border: string }> = {
+// Custom label mapping for professional terminology
+const severityLabels: Record<RiskSeverity, string> = {
+  low: 'Low',
+  medium: 'Moderate',
+  high: 'Elevated',
+  critical: 'High',
+};
+
+// Color schemes for dot+label pill style
+const severityColors: Record<RiskSeverity, { 
+  bg: string; 
+  text: string; 
+  border: string;
+  dot: string;
+}> = {
   low: {
     bg: 'bg-emerald-50',
-    text: 'text-emerald-700',
+    text: 'text-emerald-800',
     border: 'border-emerald-200',
+    dot: 'bg-emerald-600',
   },
   medium: {
     bg: 'bg-amber-50',
-    text: 'text-amber-700',
+    text: 'text-amber-800',
     border: 'border-amber-200',
+    dot: 'bg-amber-500',
   },
   high: {
     bg: 'bg-orange-50',
-    text: 'text-orange-700',
+    text: 'text-orange-800',
     border: 'border-orange-200',
+    dot: 'bg-orange-500',
   },
   critical: {
-    bg: 'bg-red-50',
-    text: 'text-red-700',
-    border: 'border-red-200',
+    bg: 'bg-rose-50',
+    text: 'text-rose-800',
+    border: 'border-rose-200',
+    dot: 'bg-rose-600',
   },
 };
 
 const sizeClasses = {
-  sm: 'text-xs px-1.5 py-0.5',
-  md: 'text-sm px-2 py-1',
-  lg: 'text-base px-3 py-1.5',
+  sm: 'px-2 py-1 text-[11px]',
+  md: 'px-2.5 py-1 text-xs',
+  lg: 'px-3 py-1.5 text-sm',
 };
 
 // Static bar colors for Tailwind JIT - must be literal strings
@@ -51,7 +69,7 @@ const severityBarColors: Record<RiskSeverity, string> = {
   low: 'bg-emerald-500',
   medium: 'bg-amber-500',
   high: 'bg-orange-500',
-  critical: 'bg-red-500',
+  critical: 'bg-rose-500',
 };
 
 export function RiskBadge({
@@ -64,14 +82,13 @@ export function RiskBadge({
 }: RiskBadgeProps) {
   const [isHovered, setIsHovered] = useState(false);
   const colors = severityColors[severity];
-  const emoji = getRiskSeverityEmoji(severity);
-  const label = getRiskSeverityLabel(severity);
+  const label = severityLabels[severity];
   const hasCitations = citationCount > 0;
   
   const badgeContent = (
     <>
-      <span className="leading-none">{emoji}</span>
-      {showLabel && <span className="leading-none">{label}</span>}
+      <span className={`h-1.5 w-1.5 rounded-full ${colors.dot}`} />
+      {showLabel && <span>{label}</span>}
     </>
   );
   
@@ -82,7 +99,7 @@ export function RiskBadge({
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         className={`
-          inline-flex items-center gap-1 rounded-full border font-medium transition-all
+          inline-flex items-center gap-1.5 rounded-md border font-medium transition-all
           ${colors.bg} ${colors.text} ${colors.border}
           ${sizeClasses[size]}
           ${className}
@@ -93,7 +110,7 @@ export function RiskBadge({
         title={`Risk: ${label} (${citationCount} sources)`}
       >
         {badgeContent}
-        <span className={`inline-flex items-center justify-center min-w-[14px] h-3.5 px-0.5 rounded-full text-[10px] bg-white/50 ${isHovered ? 'bg-white' : ''}`}>
+        <span className={`inline-flex items-center justify-center min-w-[14px] h-3.5 px-0.5 rounded-full text-[10px] bg-white/70 ${isHovered ? 'bg-white' : ''}`}>
           {citationCount}
         </span>
       </button>
@@ -103,7 +120,7 @@ export function RiskBadge({
   return (
     <span
       className={`
-        inline-flex items-center gap-1 rounded-full border font-medium
+        inline-flex items-center gap-1.5 rounded-md border font-medium
         ${colors.bg} ${colors.text} ${colors.border}
         ${sizeClasses[size]}
         ${className}
@@ -115,7 +132,7 @@ export function RiskBadge({
   );
 }
 
-// Mini version - just emoji with subtle styling
+// Mini version - just colored dot with subtle styling and citation badge
 interface RiskDotProps {
   severity: RiskSeverity;
   size?: 'sm' | 'md' | 'lg';
@@ -124,8 +141,14 @@ interface RiskDotProps {
   onCitationClick?: () => void;
 }
 
+const dotSizeClasses = {
+  sm: 'h-2 w-2',
+  md: 'h-2.5 w-2.5',
+  lg: 'h-3 w-3',
+};
+
 export function RiskDot({ severity, size = 'sm', className = '', citationCount = 0, onCitationClick }: RiskDotProps) {
-  const emoji = getRiskSeverityEmoji(severity);
+  const colors = severityColors[severity];
   const hasCitations = citationCount > 0 && onCitationClick;
   
   if (hasCitations) {
@@ -133,11 +156,11 @@ export function RiskDot({ severity, size = 'sm', className = '', citationCount =
       <button
         onClick={onCitationClick}
         className={`inline-flex items-center justify-center ${className} hover:scale-110 transition-transform focus:outline-none focus:ring-2 focus:ring-offset-1 rounded`}
-        aria-label={`Risk: ${getRiskSeverityLabel(severity)}. ${citationCount} source${citationCount !== 1 ? 's' : ''} available. Click to view.`}
-        title={`Risk: ${getRiskSeverityLabel(severity)} (${citationCount} sources)`}
+        aria-label={`Risk: ${severityLabels[severity]}. ${citationCount} source${citationCount !== 1 ? 's' : ''} available. Click to view.`}
+        title={`Risk: ${severityLabels[severity]} (${citationCount} sources)`}
       >
-        <span className="relative">
-          {emoji}
+        <span className="relative inline-flex items-center justify-center">
+          <span className={`rounded-full ${dotSizeClasses[size]} ${colors.dot}`} />
           <span className="absolute -top-1 -right-1 w-3 h-3 bg-primary-500 text-white text-[8px] rounded-full flex items-center justify-center">
             {citationCount}
           </span>
@@ -149,9 +172,9 @@ export function RiskDot({ severity, size = 'sm', className = '', citationCount =
   return (
     <span 
       className={`inline-flex items-center justify-center ${className}`}
-      title={`Risk: ${getRiskSeverityLabel(severity)}`}
+      title={`Risk: ${severityLabels[severity]}`}
     >
-      {emoji}
+      <span className={`rounded-full ${dotSizeClasses[size]} ${colors.dot}`} />
     </span>
   );
 }
@@ -166,8 +189,6 @@ interface RiskBarProps {
 }
 
 export function RiskBar({ value, severity, className = '', citationCount = 0, onCitationClick }: RiskBarProps) {
-  const hasCitations = citationCount > 0 && onCitationClick;
-  
   return (
     <div className={`flex items-center gap-2 ${className}`}>
       <div className="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden">
