@@ -1,0 +1,4989 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-04-24T17:30:54.943Z",
+  "entity": {
+    "id": "f3d43c77-3497-547a-b8f2-99ccfcf00c73",
+    "code": "5106.KL",
+    "name": "Axis Real Estate Investment Trust",
+    "exchange": "Bursa Malaysia",
+    "sector": "Real Estate Investment Trusts",
+    "currency": "MYR",
+    "isShariahCompliant": true,
+    "listingDate": "2005-01-01",
+    "manager": {
+      "name": "Axis REIT Managers Berhad",
+      "ownershipStructure": "Professional external manager with dispersed institutional ownership"
+    },
+    "trustee": "RHB Trustees Berhad",
+    "fiscalYearEnd": {
+      "month": 12,
+      "day": 31
+    },
+    "references": [
+      "4f978708-41b8-57e0-9a47-16494da6aaeb",
+      "900c0465-fa67-5dc9-ab5d-9371be5c8c70",
+      "d04946e6-7205-59ad-9535-186f01dd1f9e",
+      "3d98ea76-cef4-5650-8d2e-f091ec39a710",
+      "1465ae6c-7b57-5158-811d-5fcd8bd6c6b4",
+      "e0c350a6-5708-58e0-a7de-0aa79eea6c59"
+    ]
+  },
+  "references": [
+    {
+      "id": "4f978708-41b8-57e0-9a47-16494da6aaeb",
+      "displayId": "A:1",
+      "fact": "Stock Code 5106.KL (AXREIT)",
+      "source": "KLSE",
+      "citation": "Bursa Malaysia / KLSE Screener - Stock Code 5106.KL",
+      "url": "https://www.klsescreener.com/v2/stocks/5106",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "c09ae4bc-8026-5ba3-bead-962eb7309fb0",
+      "displayId": "A:2",
+      "fact": "Research Date: April 2026",
+      "source": "KLSE",
+      "citation": "Analysis current as of April 2026",
+      "url": "https://www.klsescreener.com/v2/stocks/5106",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "d7b46c38-1e17-54f7-8af5-4a7f383020f9",
+      "displayId": "A:3",
+      "fact": "Data Coverage: FY 2025 (January 1 - December 31, 2025)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Financial Year Coverage",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "d5ef12d6-9363-58f1-89f4-2363fa514ac6",
+      "displayId": "A:4",
+      "fact": "Report Status: Based on 2025 Annual Report and Q4 2025 results",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Unaudited Results Announcement",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "465fdc39-0cb1-5a57-88da-2a6b4b561bcb",
+      "displayId": "A:5",
+      "fact": "2025 marks 20th anniversary on Bursa Malaysia",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - 20 Years Listed Since 2005",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "900c0465-fa67-5dc9-ab5d-9371be5c8c70",
+      "displayId": "A:6",
+      "fact": "Axis Real Estate Investment Trust (Axis REIT) name",
+      "source": "ARWebsite",
+      "citation": "Axis REIT Official Website - Corporate Information",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "8c0cd0c0-96fc-5e78-aa68-73789bac26ef",
+      "displayId": "A:7",
+      "fact": "Axis REIT is larger peer to Atrium REIT",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Market Position",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "914bbb2b-12bb-564a-b47c-8d2c70a163e0",
+      "displayId": "A:8",
+      "fact": "69 properties in portfolio",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.12 - Portfolio Summary",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "5891be51-f55b-589f-a893-c89150ba587f",
+      "displayId": "A:9",
+      "fact": "Total AUM approximately RM 5.36 billion",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.8 - Assets Under Management",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "41229bc6-66f9-5c02-8280-1b4134efae09",
+      "displayId": "A:10",
+      "fact": "Net lettable area of ~15 million sq ft",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.12 - Portfolio Metrics",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "e32a0c07-323f-5624-b31d-4c9f18eb0243",
+      "displayId": "A:11",
+      "fact": "Shariah-compliant Islamic REIT",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.5 - Shariah Compliance Status",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "137be1b8-2932-5dda-a090-e6dcd2905a9d",
+      "displayId": "A:12",
+      "fact": "Properties across 6 states",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Geographic Distribution",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "f4029136-03b7-5c87-90a2-d0a4b5167cc3",
+      "displayId": "A:13",
+      "fact": "Klang Valley, Johor, Penang, Kedah, Pahang coverage",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Regional Breakdown",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "59cf82be-45f4-5098-9da5-01a8982eccc6",
+      "displayId": "A:14",
+      "fact": "Portfolio Occupancy: 94%",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results, p.4 - Occupancy Metrics",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "026d0425-13bb-5aa5-a90c-9aab52492bb4",
+      "displayId": "A:15",
+      "fact": "WALE (Weighted Average Lease Expiry) of 4.4 years",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.18 - Lease Profile",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "2a5b0aee-9d7a-5d02-b355-07e82fd5ac2d",
+      "displayId": "A:16",
+      "fact": "Gearing Ratio: ~33%",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.45 - Debt Metrics",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "06726e2e-4336-5b6f-aa8c-28b9ec47a727",
+      "displayId": "A:17",
+      "fact": "Gearing well below 50% regulatory limit",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.45 - Regulatory Compliance",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "737ae54c-a64f-5c3d-8c03-ba657447fbe7",
+      "displayId": "A:18",
+      "fact": "Interest Coverage: 3.8x - 4.0x",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.46 - Interest Coverage Ratio",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "1feea54a-b06c-54a2-a3a2-be083fc50ef1",
+      "displayId": "A:19",
+      "fact": "65% fixed-rate debt (post-Aug 2025 sukuk)",
+      "source": "Sukuk2025",
+      "citation": "Axis REIT RM300M Sukuk Issuance Announcement - Fixed Rate Impact",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "88223612-f058-57ec-a7bb-209f98519658",
+      "displayId": "A:20",
+      "fact": "35% floating-rate debt exposure",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.47 - Debt Structure",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b47b5804-c004-5188-a56a-20810edd58d3",
+      "displayId": "A:21",
+      "fact": "2025 Total DPU: 10.55 sen",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.22 - Distribution Per Unit",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "83cc9698-c2b9-52fd-a15f-60046ac43895",
+      "displayId": "A:22",
+      "fact": "DPU growth: +13.8% YoY - record distribution",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.22 - DPU Growth Analysis",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "83f3d618-fc83-5d99-b802-f6e521c1541a",
+      "displayId": "A:23",
+      "fact": "Revenue: RM 364.2M",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.28 - Income Statement",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "8f21696f-1917-5b33-aa65-9b04724891aa",
+      "displayId": "A:24",
+      "fact": "Revenue growth: +13.8%",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.28 - Revenue Growth",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "3c2eb777-62cf-5908-ab94-b137458604aa",
+      "displayId": "A:25",
+      "fact": "Net Property Income (NPI): RM 316.2M",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.28 - NPI Breakdown",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "401ce3b5-1ea8-561b-bec1-1ef38e59f2ad",
+      "displayId": "A:26",
+      "fact": "NPI growth: +14.3%",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.28 - NPI Growth Analysis",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b8d80ec1-23b5-5a14-b9ea-0310dd25b20d",
+      "displayId": "A:27",
+      "fact": "3 acquisitions completed in 2025",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Acquisition Activity",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "64d12f79-d09e-5948-a8e7-7c0241dcde28",
+      "displayId": "A:28",
+      "fact": "2 disposals (portfolio optimization)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - Disposal Activity",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "26be5445-eb50-5278-9e05-3de253a40e90",
+      "displayId": "A:29",
+      "fact": "Unencumbered Assets: 38%",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.47 - Asset Encumbrance",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "4227918d-614d-5b2a-a474-dee42f6c0e63",
+      "displayId": "A:30",
+      "fact": "Listed on Bursa Malaysia Main Market",
+      "source": "BursaMalaysia",
+      "citation": "Bursa Malaysia Official Listing - Main Market",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "d04946e6-7205-59ad-9535-186f01dd1f9e",
+      "displayId": "A:31",
+      "fact": "Manager: Axis REIT Managers Berhad (ARMB)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.10 - REIT Manager Information",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "3d98ea76-cef4-5650-8d2e-f091ec39a710",
+      "displayId": "A:32",
+      "fact": "Trustee: RHB Trustees Berhad",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.11 - Trustee Information",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "91459e54-b832-593b-a7c5-a195ef61e43f",
+      "displayId": "A:33",
+      "fact": "Property Manager: Axis Property Services Sdn Bhd",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.11 - Property Management",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "c8ac05d6-60a2-5e3d-82c0-4593d58254f5",
+      "displayId": "A:34",
+      "fact": "Facilities Management: Axis Facilities Management Sdn Bhd",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.11 - Facilities Management",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "1465ae6c-7b57-5158-811d-5fcd8bd6c6b4",
+      "displayId": "A:35",
+      "fact": "Listed Since: 2005",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.5 - Listing History",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "bc1b09b4-9b06-5751-8577-547027ceafa2",
+      "displayId": "A:36",
+      "fact": "Sector: Real Estate Investment Trusts (Industrial focus)",
+      "source": "BursaMalaysia",
+      "citation": "Bursa Malaysia - Sector Classification",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "4038c12b-6320-592a-b907-47141f207f84",
+      "displayId": "A:37",
+      "fact": "Concurrent with Malaysia's first REIT",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.5 - Pioneer Status",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "e0c350a6-5708-58e0-a7de-0aa79eea6c59",
+      "displayId": "A:38",
+      "fact": "Professional external manager with dispersed ownership",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.62 - Manager Ownership Structure",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "db416593-4710-559e-bf90-ff98cce1f8d1",
+      "displayId": "A:39",
+      "fact": "Highly institutional unitholders (EPF, KWAP, Public Mutual, Tabung Haji ~50%+)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.63 - Major Unitholders",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "8e826bb8-2f93-55f4-8aeb-6bb75d6de6aa",
+      "displayId": "A:40",
+      "fact": "Dato' Abas Carl Gunnar Bin Abdullah - Executive Chairman",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.14 - Board Composition",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "37314fcc-eb76-5e76-9dc5-07919c7c12a9",
+      "displayId": "A:41",
+      "fact": "Executive Chairman position",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.14 - Executive Chairman Role",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "1abec0e0-c5b1-5b33-8f3a-45e4dbd0f35a",
+      "displayId": "A:42",
+      "fact": "Norwegian permanent resident status",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.14 - Director Profile",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "7b6156b0-07db-51db-827f-06a4f7af96c7",
+      "displayId": "A:43",
+      "fact": "Diploma Chemistry (Gothenburg)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.14 - Educational Background",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "376cc257-427d-5621-9780-62ecb4a52991",
+      "displayId": "A:44",
+      "fact": "Diploma Marketing (Oslo)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.14 - Educational Background",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "8a503d5e-7169-59d4-b37a-e60673422b81",
+      "displayId": "A:45",
+      "fact": "Former MD Jotun Powder Coatings (1985-1993)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.14 - Career History",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "1dce503a-c52b-5fa6-89ae-a74b35434640",
+      "displayId": "A:46",
+      "fact": "Property developer since 1989",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.14 - Professional Background",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "6a74ab1b-5718-5354-9dad-2b36fd5fd261",
+      "displayId": "A:47",
+      "fact": "Developed Crystal Plaza, Axis Business Park, Axis Plaza, Menara Axis",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.14 - Property Development Track Record",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "cf6f277a-b1e1-5819-85f5-1ba552228436",
+      "displayId": "A:48",
+      "fact": "Board member since March 2005",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.14 - Board Tenure",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "47624815-cece-50fa-904f-64787626cf1b",
+      "displayId": "A:49",
+      "fact": "20+ years on board",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.14 - Tenure Calculation",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "88bda2de-7a90-5dee-85e5-1c2d7c3a2d34",
+      "displayId": "A:50",
+      "fact": "Leong Kit May - CEO & Executive Director",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.16 - CEO Profile",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "9e04032d-acec-548c-9a53-f5a50cc8af5f",
+      "displayId": "A:51",
+      "fact": "CEO & Executive Director position",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.16 - Executive Position",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "bc74bf3f-0e55-5dd3-923e-4ae44140764b",
+      "displayId": "A:52",
+      "fact": "Chairman of MRMA (Malaysian REIT Managers Association)",
+      "source": "ARWebsite",
+      "citation": "Axis REIT Website - Management Profile, MRMA Leadership",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "381d7e2c-9d14-5666-bef9-ee7d48f4def6",
+      "displayId": "A:53",
+      "fact": "BBus Accountancy RMIT",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.16 - Educational Qualifications",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "9408f4b0-66c1-544a-9725-185b3deef43b",
+      "displayId": "A:54",
+      "fact": "CPA Australia",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.16 - Professional Qualifications",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "78ced8b5-8de3-53a7-8786-a68f9dc3c469",
+      "displayId": "A:55",
+      "fact": "MIA (Malaysian Institute of Accountants)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.16 - Professional Membership",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b72a9656-c6be-5a3e-becd-d984f725cff3",
+      "displayId": "A:56",
+      "fact": "Certificate in RE Investment Finance",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.16 - Specialized Certification",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "6ca1c360-af49-5360-a4a9-14be62134160",
+      "displayId": "A:57",
+      "fact": "Former Ernst & Young",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.16 - Career History",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "6acc284a-408b-588d-b735-83823ad37be6",
+      "displayId": "A:58",
+      "fact": "UOA Group (instrumental in UOA REIT 2005 listing)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.16 - Prior Experience",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "c29639b2-fb31-550e-b466-392f82aec951",
+      "displayId": "A:59",
+      "fact": "Joined ARMB 2006",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.16 - Join Date",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "643a0785-beb2-54a2-a515-b8e282cb48e1",
+      "displayId": "A:60",
+      "fact": "CFO 2008",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.16 - Career Progression",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "c291cfd4-299a-5610-a6b5-c186772f7043",
+      "displayId": "A:61",
+      "fact": "ED (Executive Director) 2011",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.16 - Career Progression",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "c32c3066-0a2a-5de9-a843-81eade2754bc",
+      "displayId": "A:62",
+      "fact": "COO 2015",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.16 - Career Progression",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "8c71990f-ab3b-5921-9e5b-377c6339a9f5",
+      "displayId": "A:63",
+      "fact": "CEO January 2016",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.16 - CEO Appointment",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "2aafafd8-9a03-53d7-abc9-1ad6652161b5",
+      "displayId": "A:64",
+      "fact": "19 years with company",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.16 - Tenure Calculation (2006-2025)",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b2f5fd1c-39c8-5496-ace1-3b3e1bde0bee",
+      "displayId": "A:65",
+      "fact": "Nikki Ng - CFO",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.17 - CFO Profile",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "31177e02-ce3d-5cb3-a536-e5f34ce1e808",
+      "displayId": "A:66",
+      "fact": "CFO position",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.17 - CFO Role",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "7da44037-6ce2-53b4-a101-3411607eca49",
+      "displayId": "A:67",
+      "fact": "BAcc Oxford Brookes",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.17 - Educational Background",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ca9df8d4-cf7b-5a2e-9e6e-80d97662d8a3",
+      "displayId": "A:68",
+      "fact": "Joined 2008 as Accountant",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.17 - Join Date and Initial Role",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "d4ee92d2-731c-5526-b960-bf539725a0bf",
+      "displayId": "A:69",
+      "fact": "Head of Credit Control 2012",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.17 - Career Progression",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "3bba3f03-ca7b-58f2-ab0a-440c29551617",
+      "displayId": "A:70",
+      "fact": "Financial Controller 2016",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.17 - Career Progression",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "a0eb9d39-4163-5522-be9e-bc306e818f79",
+      "displayId": "A:71",
+      "fact": "CFO 2017",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.17 - CFO Appointment",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "69d12ddf-a381-5858-9b7d-43fde4460b0d",
+      "displayId": "A:72",
+      "fact": "Previous: Paxelent Corp",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.17 - Prior Experience",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "1bf3785b-4093-5b2a-b295-21c49e734396",
+      "displayId": "A:73",
+      "fact": "Previous: IGB Corp",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.17 - Prior Experience",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "2208e7f5-af7e-53ff-9fb0-5e2208c90886",
+      "displayId": "A:74",
+      "fact": "17 years with company",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.17 - Tenure Calculation (2008-2025)",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "c91eb2e6-166e-59ba-8ebb-2f0ac2decea7",
+      "displayId": "A:75",
+      "fact": "Became Executive Chairman May 2023",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.14 - Executive Chairman Appointment",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "c1f8985b-ad92-58c3-8675-ca75e0f5d6fb",
+      "displayId": "A:76",
+      "fact": "Best CEO (Malaysia) and Best CEO (Asia Pacific) awards",
+      "source": "ARWebsite",
+      "citation": "Axis REIT Website - Awards and Recognition",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "cabb69ec-7a7d-5d4a-8552-1d849ad25cf2",
+      "displayId": "A:77",
+      "fact": "Best of the Breeds REITs Awards",
+      "source": "ARWebsite",
+      "citation": "Axis REIT Website - Award Recognition",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b196ce3a-cbc3-5a48-aa6d-bd3fd6e20d2a",
+      "displayId": "A:78",
+      "fact": "MIRA Investor Relations Awards",
+      "source": "ARWebsite",
+      "citation": "Axis REIT Website - IR Awards Recognition",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "e69be59b-ad7a-555e-8950-cdc6f9373f31",
+      "displayId": "A:79",
+      "fact": "4 committees (Audit, Nomination, Remuneration, Executive)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.20 - Board Committees",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "95ae59c6-47be-5e1a-8f54-85da4fe71662",
+      "displayId": "A:80",
+      "fact": "Devika Sothinathan (law partner) chair of Remuneration Committee",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.20 - Committee Chair Assignments",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "c34a4dad-f6b2-5450-bf51-b6369684e583",
+      "displayId": "A:81",
+      "fact": "Lim Keng Hwee - Senior Independent Non-Executive Director",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Board Member Profile",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "6b039559-e50e-55f7-a5ac-f047c12c35a9",
+      "displayId": "A:82",
+      "fact": "Senior Independent Non-Executive Director position",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Board Role",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "55f3a9dd-5992-508b-840d-9e053b13331d",
+      "displayId": "A:83",
+      "fact": "Chair of Audit & Nomination Committees",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Committee Assignments",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "a9b6f48d-d6a8-55db-bcc2-0798619bc911",
+      "displayId": "A:84",
+      "fact": "Founder of IFS Advisory Services",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Professional Background",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "24b8ce6a-26c2-544a-b15f-61a7abfcc5a6",
+      "displayId": "A:85",
+      "fact": "Former Deloitte audit experience",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Career History",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "f9a8f47f-4306-58f6-9f4d-3ff459c1b245",
+      "displayId": "A:86",
+      "fact": "Devika A/P K Sothinathan - Independent Non-Executive Director",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Board Member Profile",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "fc4c5c1a-c647-5908-a043-fcc2b795ac1d",
+      "displayId": "A:87",
+      "fact": "Independent Non-Executive Director position",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Board Role",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "c1f14738-9844-5769-98a0-f70b3770832e",
+      "displayId": "A:88",
+      "fact": "Partner at Sothi & Ang law firm",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Professional Background",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "cb219925-ab35-566e-aca3-75330faafca4",
+      "displayId": "A:89",
+      "fact": "LLB University of Reading",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Educational Qualifications",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "d3451e5d-c813-528b-8637-04da70aaea3b",
+      "displayId": "A:90",
+      "fact": "Barrister Lincoln's Inn",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Professional Qualifications",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "adf4275e-6e6c-5c2e-853b-49c1b99d20fe",
+      "displayId": "A:91",
+      "fact": "Chair of Remuneration Committee",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.20 - Committee Leadership",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "d040a7e3-67cc-5989-9e05-02b64d77f46a",
+      "displayId": "A:92",
+      "fact": "Shariah-compliant Islamic REIT (converted December 11, 2008)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.5 - Shariah Conversion Date",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "d6780b1d-cab6-59b8-8495-06a8911a4889",
+      "displayId": "A:93",
+      "fact": "Shariah Adviser appointed to advise on compliance matters",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.5 - Shariah Governance",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "426ce5f9-9fdc-579f-989b-13cc4032ecc7",
+      "displayId": "A:94",
+      "fact": "Max 20% rental income from non-compliant activities",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.5 - Shariah Compliance Thresholds",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "d3794bb3-51ba-523a-bd3b-2b8d3a794db7",
+      "displayId": "A:95",
+      "fact": "Prohibited from properties where ALL tenants are non-compliant",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.5 - Shariah Property Restrictions",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "f70b9fa9-4688-570a-87a0-6c14e34475d3",
+      "displayId": "A:96",
+      "fact": "Takaful insurance required",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.5 - Shariah Insurance Requirements",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "3c141308-1a86-50bb-8115-87fadd7874e3",
+      "displayId": "A:97",
+      "fact": "Securities Commission Malaysia monitors compliance",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.5 - Regulatory Oversight",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "a382a31f-d7ab-5732-85e0-0ec90b822265",
+      "displayId": "A:98",
+      "fact": "Base Management Fee: 1.0% p.a. of NAV",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.58 - Fee Structure",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "4847a46f-792b-577e-913f-5ea47a2d2f78",
+      "displayId": "A:99",
+      "fact": "Acquisition Fee: 1.0% of purchase price",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.58 - Acquisition Fee Terms",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "be92a6b0-b170-54a9-b2f4-1e2096aab3a7",
+      "displayId": "A:100",
+      "fact": "Disposal Fee: 0.5% of sale consideration",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.58 - Disposal Fee Terms",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "10760e7c-854b-5c01-a137-01cc47296196",
+      "displayId": "A:101",
+      "fact": "Performance Fee: Variable based on NPI/profit metrics",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.58 - Performance Fee Structure",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "6d19d6dd-d10d-5470-b51f-cf8085993456",
+      "displayId": "A:102",
+      "fact": "Fee increase requires 2/3 unitholder approval",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.58 - Fee Increase Protection",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "f18abe4b-4bd7-553f-89ae-3afa85a671fb",
+      "displayId": "A:103",
+      "fact": "Portfolio Composition data as of December 2025",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Year-End Data",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "4bba5d3e-2252-5e1b-a0e8-8a272eb2a8d5",
+      "displayId": "A:104",
+      "fact": "Property Types: Logistics warehouses, manufacturing, industrial offices, hypermarkets",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.12 - Property Categories",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "7c2988a7-43be-5935-b760-110465e77ae7",
+      "displayId": "A:105",
+      "fact": "Central Region: Primary concentration",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Regional Distribution",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ccbfcdec-f531-58f7-aff0-d15d06d25fc7",
+      "displayId": "A:106",
+      "fact": "Klang Valley, Shah Alam, Petaling Jaya, Port Klang, Bukit Raja",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Central Region Locations",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "1ae7c1be-373b-50bf-ad1d-c6e6b3e22670",
+      "displayId": "A:107",
+      "fact": "Southern Region: Secondary concentration",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Regional Distribution",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "f5252880-e076-533e-8f2b-4171cb50d8e4",
+      "displayId": "A:108",
+      "fact": "Johor Senai location",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Southern Region",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "68915534-8e19-5cae-9579-b42773f085b8",
+      "displayId": "A:109",
+      "fact": "Strategic for Singapore corridor",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Strategic Location",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "3a99e298-438b-5c3b-8600-0c9903741c6a",
+      "displayId": "A:110",
+      "fact": "Northern Region: Established presence",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Regional Distribution",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ec1dbdc2-4848-55d4-a779-a7aade620dea",
+      "displayId": "A:111",
+      "fact": "Penang, Kedah industrial hubs",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Northern Region",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "bf24cc02-a23d-55e1-86fb-b1f9fc742a39",
+      "displayId": "A:112",
+      "fact": "East Coast: Selective presence",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Regional Distribution",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "971609a4-a403-5d83-966a-407dceab6002",
+      "displayId": "A:113",
+      "fact": "Pahang Temerloh location",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - East Coast Properties",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "d1ce75ec-cefd-5d35-a2f5-3ddd91dc813c",
+      "displayId": "A:114",
+      "fact": "Axis Hypermarket @ Temerloh",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.12 - Property Details",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "eae77f31-4a6a-5d6f-aff3-5833369e5a67",
+      "displayId": "A:115",
+      "fact": "Axis Facility @ Bukit Raja",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Property Portfolio",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "54c4551f-9636-5faa-84ba-00b7119d130b",
+      "displayId": "A:116",
+      "fact": "Pulau Indah location",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Port Klang Area",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "2714fbb9-a920-5362-9f1a-82a64261680e",
+      "displayId": "A:117",
+      "fact": "Modern warehousing near Port Klang",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Logistics Facilities",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "0e92f280-49fd-519b-91ac-2df97f44560a",
+      "displayId": "A:118",
+      "fact": "Lease Renewals: 73% of NLA renewed",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.18 - Renewal Rate",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "f0e102d1-f672-5072-9f39-5a191605b376",
+      "displayId": "A:119",
+      "fact": "Re-tenanting Success: 11% of vacated space re-tenanted",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.18 - Re-tenanting Metrics",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "4649d769-9fc8-5377-aae4-8486bed9da02",
+      "displayId": "A:120",
+      "fact": "Re-tenanted at rates up to 15% higher",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.18 - Rental Uplift",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ab67fee5-e49f-5aea-8d9f-761bf295da3e",
+      "displayId": "A:121",
+      "fact": "Rental Reversion: >5% average",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.18 - Reversion Analysis",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "c7a61375-4d40-530f-a80c-33fd1dd41a26",
+      "displayId": "A:122",
+      "fact": "Q1 2025 Capex: RM 4.51 million",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Quarterly Capex Detail",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "44d55ee3-7fe7-5884-a8d0-df767897e965",
+      "displayId": "A:123",
+      "fact": "Q2 2025 Capex: RM 1.88 million",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Q2 Capex Breakdown",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ca491ee3-f112-5412-89db-56e20df10d09",
+      "displayId": "A:124",
+      "fact": "Q2 2025 Leasehold extension: RM 6.6M",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Leasehold Investment",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "39c0a3c5-816a-5a27-a2f9-77c4457d90af",
+      "displayId": "A:125",
+      "fact": "Total 2025 Capex: ~RM 13 million+",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.38 - Capital Expenditure Summary",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "6a4824cd-f47a-5314-be9e-ba3f2643c118",
+      "displayId": "A:126",
+      "fact": "Portfolio Evolution (2005-2025)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.5 - Historical Timeline",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ffeb7093-f65f-5f4e-aff2-e45d74f28edd",
+      "displayId": "A:127",
+      "fact": "2005: 5 properties at IPO",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.5 - IPO Portfolio Size",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "8a0b6e1a-5e63-5a6d-a4db-761be990483b",
+      "displayId": "A:128",
+      "fact": "IPO Listing 2005",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.5 - Listing Event",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "41e53033-c576-5965-a4f9-9c7c689cda09",
+      "displayId": "A:129",
+      "fact": "2024: 68-69 properties",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - 2024 Portfolio",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "714fbc2e-14a5-5da7-8335-45273ad433a2",
+      "displayId": "A:130",
+      "fact": "2024 AUM: RM 5.26B",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.8 - Prior Year AUM",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ec1a6f60-fd15-5d76-aafe-457b7f370c27",
+      "displayId": "A:131",
+      "fact": "2024: Record 8 acquisitions",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - 2024 Acquisition Activity",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "2513c958-fa03-51be-8c82-638fa757b33d",
+      "displayId": "A:132",
+      "fact": "2025: 69-70 properties",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.12 - Year-End Portfolio",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "36febc12-a8c3-5419-999c-4c21383007ba",
+      "displayId": "A:133",
+      "fact": "2025: 4 acquisitions",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - 2025 Acquisition Activity",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "56f24256-f688-5a48-af21-f35545e06d0d",
+      "displayId": "A:134",
+      "fact": "3-4 of original 5 IPO assets remain",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Legacy Assets",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "59740c51-bb59-551f-a808-f2487da18783",
+      "displayId": "A:135",
+      "fact": "Legacy Core assets ~20 years old",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Asset Age Analysis",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "7f3d5ce4-53ad-5ebe-990f-47df5d6eb186",
+      "displayId": "A:136",
+      "fact": "Menara Axis",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Legacy Property",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "81e57338-7697-5d9b-8536-5a7311523289",
+      "displayId": "A:137",
+      "fact": "Axis Business Park",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Legacy Property",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ce9461ce-4cd8-5032-9433-eddb8648ccd1",
+      "displayId": "A:138",
+      "fact": "Axis Plaza",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Legacy Property",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "632a559c-8030-54b5-b224-4abac2380d58",
+      "displayId": "A:139",
+      "fact": "Mid-Vintage (2010s): ~40-50 properties",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Portfolio Vintage Analysis",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "f1e3575a-87e1-530a-88f0-bf26f2432e96",
+      "displayId": "A:140",
+      "fact": "Mid-Vintage assets: 5-15 years old",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Asset Age Profile",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "13b3d9b5-ecb5-5fb2-8ad8-b9a731e6361d",
+      "displayId": "A:141",
+      "fact": "New Acquisitions (2023-2025): 12+",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Recent Acquisitions",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "709a292f-3827-5717-a60c-adc05902fb00",
+      "displayId": "A:142",
+      "fact": "New Acquisitions: 0-2 years old",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Recent Asset Age",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "32385064-b063-54d3-a2e0-8e268859ede3",
+      "displayId": "A:143",
+      "fact": "Ann Joo Steel industrial property",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - Terminated Acquisition",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "8fcce933-49ff-50a2-b499-1595197ef611",
+      "displayId": "A:144",
+      "fact": "Pulau Indah facilities",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - 2024 Acquisitions",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "90dd1b7e-c6b3-5bce-918b-7a32e52483df",
+      "displayId": "A:145",
+      "fact": "Bukit Raja DC 2 (BRDC 2)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Development Project",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "11eb3a27-7021-5bcf-9718-f75379c10323",
+      "displayId": "A:146",
+      "fact": "2025 Acquisitions: 3 completed deals totaling RM 164.61M (Telok Gong RM 80M + Bandar Sultan Suleiman RM 50M + Senai RM 34.61M)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - 2025 Total Acquisition Value",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "8dc0b29a-fd7c-5be8-83bd-f55974c59a6f",
+      "displayId": "A:147",
+      "fact": "The Annex disposal: RM 24.2M",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - Disposal Value",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ce8e5969-a9c2-5fd4-860a-1ac50d02d3c8",
+      "displayId": "A:148",
+      "fact": "Axis Steel Centre @ SiLC disposal: RM 162M (untenanted)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - 2024 Disposal",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "59fbfc8d-182a-5ab4-bdc1-ac17a585cba3",
+      "displayId": "A:149",
+      "fact": "Seberang Perai, Penang location",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - Property Location",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "d78d6f4f-d567-5474-a8fa-95eafc541422",
+      "displayId": "A:150",
+      "fact": "Ann Joo Steel: Nov 2025 planned acquisition",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - Proposed Timeline",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "5ac79d3f-d06a-53fd-887c-3c5eda5085ca",
+      "displayId": "A:151",
+      "fact": "Ann Joo Steel: RM 800M largest acquisition",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - Proposed Value",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "8f9e0338-31c9-5142-b08f-fe447e919b04",
+      "displayId": "A:152",
+      "fact": "Axis Facility 3 @ Bukit Raja",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - 2024 Acquisition",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "31fff0ab-911a-5f65-afc7-d15ba72c6c1b",
+      "displayId": "A:153",
+      "fact": "Selangor location",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - State Distribution",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "3fb9daad-ed8e-51c5-a669-0c3c8fd4b0f1",
+      "displayId": "A:154",
+      "fact": "Axis Facility 3 @ Bukit Raja: Oct 2024",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Acquisition Date",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "47bc09f3-1dc7-586a-a52d-6b8271b32152",
+      "displayId": "A:155",
+      "fact": "Axis Facility 3 @ Bukit Raja: RM 313M",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Acquisition Value",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "75b9260f-ab82-559e-aff5-84a625da454f",
+      "displayId": "A:156",
+      "fact": "Axis Facility 1 @ Pulau Indah",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - 2024 Acquisition",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "3374ac8f-e4a4-50be-8749-a9d27d45eb78",
+      "displayId": "A:157",
+      "fact": "Port Klang location",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Port Klang Properties",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "09ed59a5-a10f-56b7-a330-92ea09076bb8",
+      "displayId": "A:158",
+      "fact": "Axis Facility 1 @ Pulau Indah: RM 110M",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Acquisition Value",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "4dc16144-72cd-527e-aa6a-883ee0ec0b0e",
+      "displayId": "A:159",
+      "fact": "Axis Facility 2 @ Pulau Indah",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - 2024 Acquisition",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "c98012f5-55c0-532d-9e97-1cc2e903b010",
+      "displayId": "A:160",
+      "fact": "Axis Facility 2 @ Pulau Indah: Nov 2024",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Acquisition Date",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "8f465da2-44bf-5970-ba97-e21abcaa9b75",
+      "displayId": "A:161",
+      "fact": "Axis Facility 2 @ Pulau Indah: RM 49M",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Acquisition Value",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "a233eec0-70d0-5db1-8a9b-2cd83e798566",
+      "displayId": "A:162",
+      "fact": "BRDC 2 completed Aug 2023",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Development Completion",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "4e9a761c-33a9-5286-86d1-3ae133acab8a",
+      "displayId": "A:163",
+      "fact": "BRDC 2: Development project",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Project Type",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "c996766b-4124-5379-832f-978f00cb8715",
+      "displayId": "A:164",
+      "fact": "BRDC 2: SPX Xpress tenant (ex-Shopee)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Tenant Information",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "36337756-7f30-53c1-9d56-9054f425138a",
+      "displayId": "A:165",
+      "fact": "The Annex @ Petaling Jaya",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - Disposed Property",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "a37c67de-9ba9-552d-b53e-6b104df07465",
+      "displayId": "A:166",
+      "fact": "The Annex disposal: April 2025",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - Disposal Date",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b5251134-f8d1-5694-a92e-61c53ca067cc",
+      "displayId": "A:167",
+      "fact": "The Annex acquired 2012 (12 year holding)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - Acquisition History",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "41f6a75c-7991-5b32-abde-1adb0b667efc",
+      "displayId": "A:168",
+      "fact": "The Annex disposal gain: ~RM 8.8M",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - Realized Gain",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "8fc4cb9f-7d35-5b6a-ad39-83f79da3b23b",
+      "displayId": "A:169",
+      "fact": "Axis Steel Centre @ SiLC",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - Disposed Property",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "1b25516b-e71e-5bc5-aef4-77fa954c83c5",
+      "displayId": "A:170",
+      "fact": "Axis Steel Centre disposal: Dec 2024",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - Disposal Date",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "224f820e-c0ee-52b6-99ed-5a68f2497987",
+      "displayId": "A:171",
+      "fact": "2024-2025 acquisition spree: RM 1B+ invested",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Total Investment",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "4d9e34ff-2575-5cb2-a469-3a744b241caf",
+      "displayId": "A:172",
+      "fact": "Green Certifications: GBI/GreenRE on select properties",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.40 - ESG Initiatives",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "9f702ce3-fd4a-50de-a38e-b48b76dc7c8a",
+      "displayId": "A:173",
+      "fact": "Klang Valley: Core market concentration",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Geographic Weighting",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "6d2ff759-3dc0-5fc2-807b-486173504a28",
+      "displayId": "A:174",
+      "fact": "Johor: Strategic region",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Southern Region",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "83e3ce25-fd88-542d-9998-2156d99b10e0",
+      "displayId": "A:175",
+      "fact": "JS-SEZ (Johor-Singapore Special Economic Zone) impact",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia - JS-SEZ Development Coverage",
+      "url": "https://www.theedgemalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "a1aa1b9c-c3ab-5457-a242-725f583a18ef",
+      "displayId": "A:176",
+      "fact": "Penang/Kedah: Established manufacturing base",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Northern Region",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "4858332b-0b33-5541-8e16-42d10e2f0129",
+      "displayId": "A:177",
+      "fact": "Pahang: Niche retail-anchored presence",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - East Coast",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "075a2f02-d1e5-520f-9af3-735fd2f76463",
+      "displayId": "A:178",
+      "fact": "Atrium REIT: 78% Klang Valley concentration",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Comparison Analysis",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "5293e784-d167-50c0-9794-28729b1302b0",
+      "displayId": "A:179",
+      "fact": "Total Borrowings: ~RM 1.77 billion (est.)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.45 - Total Debt",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "409d501b-8801-50b3-866b-cabaadf2367d",
+      "displayId": "A:180",
+      "fact": "Regulatory Gearing Ceiling: 50%",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.45 - Regulatory Framework",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "2a0cf254-faf0-51bb-bac0-0dd18eb8abc1",
+      "displayId": "A:181",
+      "fact": "Gearing headroom: ~17% below limit",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.45 - Headroom Calculation",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "8b199afb-fa4a-554e-82b7-0631f02d56be",
+      "displayId": "A:182",
+      "fact": "Equity/NAV: ~RM 3.59 billion",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.44 - Equity Position",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "d8306a75-b1b0-5a4b-8572-386d25f85566",
+      "displayId": "A:183",
+      "fact": "Interest Coverage benchmark: >2.5x healthy",
+      "source": "MLT",
+      "citation": "Mapletree Logistics Trust Market Research - Industry Benchmarks",
+      "url": "https://investor.mapletreelogisticstrust.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "0d3c73eb-6a60-54fb-973b-40da7e87a6df",
+      "displayId": "A:184",
+      "fact": "Hedging Strategy: Sustainability-linked Islamic profit rate swaps",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.47 - Risk Management",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "e125b5c1-a9b9-5006-8a5a-fad5cbc76ce3",
+      "displayId": "A:185",
+      "fact": "10-year fixed-rate sukuk",
+      "source": "Sukuk2025",
+      "citation": "Axis REIT Sukuk Announcement - Tenure Details",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "69d909e3-8c99-54df-8bfd-d2c225d9c861",
+      "displayId": "A:186",
+      "fact": "Atrium REIT ~93% floating-rate debt",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Debt Comparison",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "60939fa9-9147-5778-b165-7f9707e2c5b1",
+      "displayId": "A:187",
+      "fact": "Islamic MTN Programme: RM 3 billion authorized",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.45 - Debt Programme",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "75188949-b2f5-5977-bc78-825517eaf1a9",
+      "displayId": "A:188",
+      "fact": "Sukuk Issuance Aug 2025: RM 300 million",
+      "source": "Sukuk2025",
+      "citation": "Axis REIT Sukuk Announcement - Issuance Size",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "95a5b76b-5941-5027-931f-1f7246b6f285",
+      "displayId": "A:189",
+      "fact": "Sukuk fixed rate: 4.00% p.a.",
+      "source": "Sukuk2025",
+      "citation": "Axis REIT Sukuk Announcement - Profit Rate",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "8b082a5d-b3fe-58af-b237-08d2828b4898",
+      "displayId": "A:190",
+      "fact": "Encumbered Assets: 62% (as security)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.47 - Asset Security",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "7a30a89a-06d2-5ac5-a6b8-b5b6720bdd93",
+      "displayId": "A:191",
+      "fact": "August 15, 2025: Sukuk issuance date",
+      "source": "Sukuk2025",
+      "citation": "Axis REIT Sukuk Announcement - Issue Date",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "77eaa5b9-652b-53b8-935c-ff43d55f3aa5",
+      "displayId": "A:192",
+      "fact": "RM 300 million Senior Sukuk Wakalah",
+      "source": "Sukuk2025",
+      "citation": "Axis REIT Sukuk Announcement - Structure Details",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "26f6e5c6-7256-5756-bb00-ac257621cd6a",
+      "displayId": "A:193",
+      "fact": "Sukuk impact: Fixed-rate increased from 48% to 65%",
+      "source": "Sukuk2025",
+      "citation": "Axis REIT Sukuk Announcement - Portfolio Impact",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "60f85f88-6776-51f6-be2e-5838ee1af254",
+      "displayId": "A:194",
+      "fact": "Credit Rating: Rated by RAM Rating Services",
+      "source": "RAMRating",
+      "citation": "RAM Rating Services - Axis REIT Credit Assessment",
+      "url": "https://www.ram.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "365a57a0-a196-50f2-85be-d73874dbaa8e",
+      "displayId": "A:195",
+      "fact": "Q1 2025: Jan-Mar period",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Quarterly Breakdown",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "d59d583b-b04f-564e-a0a1-47b3b7ff2be9",
+      "displayId": "A:196",
+      "fact": "Q1/Q2 2025 DPU: 2.50 sen each",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Quarterly DPU",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "974c30da-5594-549c-add2-d00da5319e63",
+      "displayId": "A:197",
+      "fact": "Q1 2025 Ex-Date: Feb 18, 2025",
+      "source": "BursaMalaysia",
+      "citation": "Bursa Malaysia Announcement - Q1 Distribution",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ff268b28-3a46-53a1-8a0c-80f50ac7f468",
+      "displayId": "A:198",
+      "fact": "Q2 2025: Apr-Jun period",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Quarterly Breakdown",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "dad88783-7f4b-5e4f-b8ab-fe7aa88f129f",
+      "displayId": "A:199",
+      "fact": "Q2 2025 Ex-Date: May 7, 2025",
+      "source": "BursaMalaysia",
+      "citation": "Bursa Malaysia Announcement - Q2 Distribution",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "85ae05df-1516-5f43-bbad-204ec5d4c20c",
+      "displayId": "A:200",
+      "fact": "Q3 2025: Jul-Sep period",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Quarterly Breakdown",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "1482edfb-321c-54c6-9320-fda9d5bd485f",
+      "displayId": "A:201",
+      "fact": "Q3 2025 DPU: 2.65 sen",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Q3 Distribution",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "25e39cf3-c0c9-5622-809f-96ab4e734fc4",
+      "displayId": "A:202",
+      "fact": "Q3 2025 Ex-Date: Nov 17, 2025",
+      "source": "BursaMalaysia",
+      "citation": "Bursa Malaysia Announcement - Q3 Distribution",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b8741ac0-5111-5656-9052-2cd3bba059d9",
+      "displayId": "A:203",
+      "fact": "Q3 2025 YoY Change: +6.0%",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Growth Comparison",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "1795348c-18e5-56dc-90f5-b3ef24711681",
+      "displayId": "A:204",
+      "fact": "Q4 2025: Oct-Dec period",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Quarterly Breakdown",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "9e61c210-bb34-5da1-806e-1cd7ea400e38",
+      "displayId": "A:205",
+      "fact": "Q4 2025 DPU: 2.90 sen",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Q4 Distribution",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "60b7edbe-8939-5ae6-8525-a0816189395b",
+      "displayId": "A:206",
+      "fact": "Q4 2025 Ex-Date: Feb 12, 2026",
+      "source": "BursaMalaysia",
+      "citation": "Bursa Malaysia Announcement - Q4 Distribution",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "7b476a51-ff27-54ea-b989-bdf134471281",
+      "displayId": "A:207",
+      "fact": "Q4 2025 YoY Change: +15.0%",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Growth Comparison",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b4e5d7bb-f3d1-55cb-b196-f008c4695e3c",
+      "displayId": "A:208",
+      "fact": "2021 Annual DPU: ~7.0 sen",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.22 - Historical DPU",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ee5c8059-53b3-5355-814a-3dcd23735579",
+      "displayId": "A:209",
+      "fact": "2021: COVID-19 impact on DPU",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.22 - Pandemic Impact",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b8b7be33-01ae-5ee2-8b9f-d7dfc0327031",
+      "displayId": "A:210",
+      "fact": "2022 Annual DPU: ~9.3 sen",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.22 - Historical DPU",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "4059e709-72c2-5108-af3a-99f15cd5168f",
+      "displayId": "A:211",
+      "fact": "2022 DPU growth: +32.9%",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.22 - Recovery Growth",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "0a5a4b2f-57c2-553b-8a0f-269a6b541309",
+      "displayId": "A:212",
+      "fact": "2023 Annual DPU: ~8.6 sen",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.22 - Historical DPU",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "88e7c141-a3f3-52d5-b6f3-e42cf93ec5f3",
+      "displayId": "A:213",
+      "fact": "2023 DPU change: -7.5%",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.22 - Market Normalization",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "2e4690b7-9ddc-5668-9106-f56d778ebe0f",
+      "displayId": "A:214",
+      "fact": "2024 Annual DPU: 9.27 sen",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.22 - Historical DPU",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "c77f5952-af72-5219-8405-0988570f3d74",
+      "displayId": "A:215",
+      "fact": "2024 DPU growth: +7.8%",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.22 - Growth Trend",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "49145fcb-24af-51f8-b229-b54c25b50aaf",
+      "displayId": "A:216",
+      "fact": "Payout Ratio: ~75-76%",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.22 - Distribution Policy",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b02a099f-841d-5b87-9c0c-0dad322c1167",
+      "displayId": "A:217",
+      "fact": "REIT Requirement: Minimum 90% of taxable income",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.58 - Distribution Requirements",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "9b6897a8-7c1e-5148-a887-2c0bd7700064",
+      "displayId": "A:218",
+      "fact": "Atrium REIT payout ratio: ~30%",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Comparison",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "48303189-3db9-593d-b1fd-18071fc81afc",
+      "displayId": "A:219",
+      "fact": "Current Share Price: RM 2.050",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Current Market Price",
+      "url": "https://www.klsescreener.com/v2/stocks/5106",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "3c6c11f4-d24b-55da-8d99-3ac8a154f169",
+      "displayId": "A:220",
+      "fact": "KLSE Screener reference",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Stock Information Platform",
+      "url": "https://www.klsescreener.com/v2/stocks/5106",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "94c8458f-95d5-5d79-8eb5-e7104c32ddd3",
+      "displayId": "A:221",
+      "fact": "NAV per Unit: RM 1.6907",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.44 - Net Asset Value",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "5346bbb0-acca-57ea-be0a-cc0dbd42ae8a",
+      "displayId": "A:222",
+      "fact": "FY 2025 Annual Report reference",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Primary Document",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "65c56bb9-9f22-5bea-b6b3-41196ee0df76",
+      "displayId": "A:223",
+      "fact": "Market Dividend Yield: 5.15%",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Yield Calculation (10.55 sen / RM 2.050)",
+      "url": "https://www.klsescreener.com/v2/stocks/5106",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "07568dc9-d984-5dc1-9fdb-523ed994558d",
+      "displayId": "A:224",
+      "fact": "DPU divided by Current Share Price formula",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Yield Methodology",
+      "url": "https://www.klsescreener.com/v2/stocks/5106",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "acf832db-3d1f-5313-9da2-4d2c661d72ed",
+      "displayId": "A:225",
+      "fact": "Price-to-Book (P/B): 1.21x",
+      "source": "KLSE",
+      "citation": "KLSE Screener - P/B Ratio (RM 2.050 / RM 1.6907)",
+      "url": "https://www.klsescreener.com/v2/stocks/5106",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "0c59decc-42ed-5246-a80e-3e995682b5bd",
+      "displayId": "A:226",
+      "fact": "Trading at 21% premium to NAV",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Premium Calculation",
+      "url": "https://www.klsescreener.com/v2/stocks/5106",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b97ca989-2952-5fa1-ba12-7d5e21456a4d",
+      "displayId": "A:227",
+      "fact": "Market Cap: RM 4.15 billion",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Market Capitalization",
+      "url": "https://www.klsescreener.com/v2/stocks/5106",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "d858b5ef-aa7a-50a6-926f-2c0a4fe3efd1",
+      "displayId": "A:228",
+      "fact": "NAV-Based Yield calculation method",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Yield Metrics",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "94b4072d-8c2e-5445-be8b-29865afefa6a",
+      "displayId": "A:229",
+      "fact": "NAV-Based Yield: ~6.2%",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Operational Yield (10.55 sen / RM 1.6907)",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "81819b0d-98ec-5f0f-9a76-19eb7daa45f6",
+      "displayId": "A:230",
+      "fact": "Axis REIT trades at premium (P/B 1.21x)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Valuation Status",
+      "url": "https://www.klsescreener.com/v2/stocks/5106",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "eabb428a-e734-5636-a539-ba98e43c3572",
+      "displayId": "A:231",
+      "fact": "Atrium REIT Current Price: RM 1.280",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Atrium REIT Price",
+      "url": "https://www.klsescreener.com/v2/stocks/5130",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b0ab48c5-e171-566f-98d1-e585a6d20554",
+      "displayId": "A:232",
+      "fact": "Atrium REIT NAV: RM 1.3874",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer NAV Reference",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "36970b75-7095-58d8-881d-2cadba182fd3",
+      "displayId": "A:233",
+      "fact": "Atrium REIT P/B: 0.92x",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Atrium P/B Ratio",
+      "url": "https://www.klsescreener.com/v2/stocks/5130",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "9b7e8cfd-5bbb-510f-b247-b7a0e0afb00a",
+      "displayId": "A:234",
+      "fact": "Atrium REIT Market Yield: 7.27%",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Atrium Yield Calculation",
+      "url": "https://www.klsescreener.com/v2/stocks/5130",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "f5b48cf4-8447-5b67-9c0f-3d8407d572ed",
+      "displayId": "A:235",
+      "fact": "Atrium REIT trades at discount (P/B 0.92x)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Atrium Valuation Status",
+      "url": "https://www.klsescreener.com/v2/stocks/5130",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "65d5f436-f385-5cf9-a773-be84aecbdfa4",
+      "displayId": "A:236",
+      "fact": "Yield gap: -2.12pp (Axis vs Atrium)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Comparative Analysis",
+      "url": "https://www.klsescreener.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "85391664-16fa-5e2b-bc0d-ecbcf1d00c3f",
+      "displayId": "A:237",
+      "fact": "Atrium REIT Market Cap: ~RM 340M",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Atrium Market Cap",
+      "url": "https://www.klsescreener.com/v2/stocks/5130",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "e39ea263-95a9-5d68-9788-868a9c63958b",
+      "displayId": "A:238",
+      "fact": "Atrium REIT: 9 properties",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Comparison",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ce4ef1ae-6f3d-52dc-9dfe-5108a7135afa",
+      "displayId": "A:239",
+      "fact": "Axis REIT: 182 tenants",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.18 - Tenant Count",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "2735deca-7254-52e6-a92e-e635b23737b0",
+      "displayId": "A:240",
+      "fact": "Bursa Malaysia website reference",
+      "source": "BursaMalaysia",
+      "citation": "Bursa Malaysia Official Portal",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "c6b8baf2-e6c3-5810-9046-9abf7e22daae",
+      "displayId": "A:241",
+      "fact": "Acquisition Pipeline active",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Future Acquisitions",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ef4fc761-91ed-5053-a829-14bfc2e2038b",
+      "displayId": "A:242",
+      "fact": "Senai forward purchase: Q4 2027 completion",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Forward Purchase Timeline",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "f00ced40-66a5-54b0-a3f9-5a88590052c1",
+      "displayId": "A:243",
+      "fact": "FY 2024 Revenue: RM 320.1M",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.28 - Prior Year Comparison",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "5d494802-cd8d-5c08-bf82-869dfaaa7f96",
+      "displayId": "A:244",
+      "fact": "FY 2024 NPI: RM 276.6M",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.28 - Prior Year NPI",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "180a29e8-4d63-50b1-928f-73c10c5464ee",
+      "displayId": "A:245",
+      "fact": "FY 2025 Net Profit: RM 282.08M",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.28 - Net Profit",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "d5295e67-2729-5053-96b1-a80b2925f681",
+      "displayId": "A:246",
+      "fact": "FY 2024 Net Profit: RM 210.01M",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.28 - Prior Year Profit",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "72952e85-177c-5617-a8ee-71a51bac3408",
+      "displayId": "A:247",
+      "fact": "Net Profit growth: +34.3%",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.28 - Profit Growth",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "9f3064f6-a4d8-5f4e-9be3-6ea14f97630b",
+      "displayId": "A:248",
+      "fact": "Q4 2025 Revenue: RM 91.31M",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Quarterly Revenue",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b1c9bbfc-519f-5efd-9330-3b65315caa72",
+      "displayId": "A:249",
+      "fact": "Q4 2024 Revenue: ~RM 87.8M",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Prior Year Quarter",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "970c24b2-999e-5678-9eaa-c9fcef669979",
+      "displayId": "A:250",
+      "fact": "Q4 Revenue growth: +4.0%",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Quarterly Growth",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "146ff32c-f89d-5626-93b8-e93280948d28",
+      "displayId": "A:251",
+      "fact": "Q4 2025 Net Profit: RM 133.87M",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Quarterly Profit",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "846e4b6f-cbdb-55b8-8615-0fefe6e45dc8",
+      "displayId": "A:252",
+      "fact": "Q4 2024 Net Profit: ~RM 91M",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Prior Year Quarter",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "8e5dac62-fdb6-5427-9f0d-a899302d4846",
+      "displayId": "A:253",
+      "fact": "Q4 Net Profit growth: +47.0%",
+      "source": "Q42025",
+      "citation": "Axis REIT Q4 2025 Results - Profit Growth",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ef7a26e3-c763-552e-866e-32c8a7fa425c",
+      "displayId": "A:254",
+      "fact": "2025 Acquisitions: RM 164.6M+ invested",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Total Investment",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "defb7bc0-4d30-5133-b2cb-9a751d579bdf",
+      "displayId": "A:255",
+      "fact": "The Annex @ Petaling Jaya location",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - Property Location",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "2e29cac8-2de8-5a20-aee7-4c3b222b41ca",
+      "displayId": "A:256",
+      "fact": "The Annex: 42-year-old asset",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - Asset Age",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "85f484fb-2d1b-5a31-bebf-a15c490664c0",
+      "displayId": "A:257",
+      "fact": "Axis Facility 4 @ Bukit Raja",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - 2025 Acquisition",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "62408770-c2b9-506b-a8f5-02f7115363a8",
+      "displayId": "A:258",
+      "fact": "Klang location",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Central Region",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "4dc49ff6-736e-5599-9cdc-af0dcca35fac",
+      "displayId": "A:259",
+      "fact": "Axis Facility 4 @ Bukit Raja: 2025 acquisition",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Acquisition Year",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "61d95f58-bdf7-5ef7-b8fc-7e2cb602eec7",
+      "displayId": "A:260",
+      "fact": "2025 acquisitions completed status",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Completion Status",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "e5dbf89c-9c61-55cb-b76d-a81b342638cb",
+      "displayId": "A:261",
+      "fact": "Warehouse Facility @ Telok Gong, Port Klang",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - 2025 Acquisition",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "2825be2a-fec5-5524-8c82-299cfbf1aed6",
+      "displayId": "A:262",
+      "fact": "Telok Gong acquisition: Aug 1, 2025",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Completion Date",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "0dfc2bec-adbe-5899-81c7-cfc041aab416",
+      "displayId": "A:263",
+      "fact": "Telok Gong acquisition: RM 80.0M",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Acquisition Value",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "a534ea98-da78-5119-a4b5-bf6e84bfcb8c",
+      "displayId": "A:264",
+      "fact": "Telok Gong: Logistics type",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Property Category",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "2eeda5da-e12a-58e5-bf07-5a547c71480d",
+      "displayId": "A:265",
+      "fact": "Industrial Property @ Bandar Sultan Suleiman, Port Klang",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - 2025 Acquisition",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "f80570ca-dc95-59e7-949b-56668bae057d",
+      "displayId": "A:266",
+      "fact": "Bandar Sultan Suleiman acquisition: Sep 4, 2025",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Completion Date",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "4a4aa1a8-773a-536b-a852-8b50ae724607",
+      "displayId": "A:267",
+      "fact": "Bandar Sultan Suleiman acquisition: RM 50.0M",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Acquisition Value",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b6f88a24-4b83-5922-bf4f-f4dde475a4f8",
+      "displayId": "A:268",
+      "fact": "Senai Factory + Office: Dec 31, 2025",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - SPA Date",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "0a8d582b-9658-5209-844c-af38e06fd806",
+      "displayId": "A:269",
+      "fact": "Senai acquisition: RM 34.61M",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Acquisition Value",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "457f98dd-223e-58c0-807c-2457ec985746",
+      "displayId": "A:270",
+      "fact": "Senai: Mixed Factory + Office type",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Property Type",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "2e656988-7ef2-5ed8-9e5c-8be6ead451fc",
+      "displayId": "A:271",
+      "fact": "Senai: Conditional SPA status",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - Transaction Status",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "a11a6d98-7226-5880-90bc-9b228aa62292",
+      "displayId": "A:272",
+      "fact": "2024 acquisitions: RM 719.4M total",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.35 - 2024 Investment",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "2b74570e-f65a-5920-bb8f-743d7560bbec",
+      "displayId": "A:273",
+      "fact": "Ann Joo deal termination: March 26, 2026",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - Termination Date",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "564aaad1-ab64-5c26-8da0-ce0cd08e3861",
+      "displayId": "A:274",
+      "fact": "Ann Joo termination reason: Unsatisfactory due diligence",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - Termination Rationale",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "78301204-1ae0-5384-9b69-108593c877d4",
+      "displayId": "A:275",
+      "fact": "Top 10 Tenants: 46.7% of monthly revenue",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.18 - Tenant Concentration",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "c41eb285-3bb4-53fc-ad25-c19de222e3d6",
+      "displayId": "A:276",
+      "fact": "Tenant Mix: MNCs and fast-growing domestic businesses",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.18 - Tenant Profile",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "5fba220f-6dce-5619-91dc-3ef3af9f3dae",
+      "displayId": "A:277",
+      "fact": "Diversification: ~2.6 tenants per property (182/69)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Tenant Density Calculation",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b5e30eb1-42e7-5b9a-80fb-0491d0f10b2d",
+      "displayId": "A:278",
+      "fact": "Atrium REIT data not disclosed (WALE, tenant %)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Disclosure Gap",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "9d28bfe2-df51-55c3-a681-21b6ad679f6b",
+      "displayId": "A:279",
+      "fact": "Ann Joo Steel: 8-year lease-back arrangement",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.36 - Lease Terms",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ec2d2fa9-64ed-598d-839f-3202e9ad8c03",
+      "displayId": "A:280",
+      "fact": "Prime Logistics Vacancy: 2.0% (Q2 2025)",
+      "source": "JLL",
+      "citation": "JLL Malaysia Industrial Market Report Q2 2025",
+      "url": "https://www.jll.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "0b349122-1425-53f0-8ba5-1736ffa5dd9c",
+      "displayId": "A:281",
+      "fact": "Rental Growth: Stable to positive",
+      "source": "JLL",
+      "citation": "JLL Malaysia Industrial Market Outlook",
+      "url": "https://www.jll.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "95abc562-114c-574e-abc0-40b2839f17e6",
+      "displayId": "A:282",
+      "fact": "Flight to Quality: 30% faster occupancy for green assets",
+      "source": "JLL",
+      "citation": "JLL Malaysia ESG Property Research",
+      "url": "https://www.jll.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "f92e0e00-c3d6-5415-bf25-6f426dfa50b3",
+      "displayId": "A:283",
+      "fact": "3 properties in Port Klang area",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report, p.15 - Port Klang Concentration",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "0992e509-eae1-5bde-8637-9d49f85dee33",
+      "displayId": "A:284",
+      "fact": "Industry benchmark: Large-cap REITs 50-180 properties",
+      "source": "MLT",
+      "citation": "Mapletree Logistics Trust Market Research - Scale Benchmarks",
+      "url": "https://investor.mapletreelogisticstrust.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "6b0aedec-a7bc-5aa5-b50f-c19263a317e9",
+      "displayId": "A:285",
+      "fact": "Industry Occupancy Benchmark: 94-96%",
+      "source": "MLT",
+      "citation": "Mapletree Logistics Trust Market Research - Occupancy Standards",
+      "url": "https://investor.mapletreelogisticstrust.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "23bd9102-252e-5a67-8dea-6aed828156df",
+      "displayId": "A:286",
+      "fact": "Industry WALE Benchmark: 3.0-5.0 years",
+      "source": "MLT",
+      "citation": "Mapletree Logistics Trust Market Research - Lease Profile Standards",
+      "url": "https://investor.mapletreelogisticstrust.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "eda8cb9d-6a8a-5ccc-88bf-c4417775546a",
+      "displayId": "A:287",
+      "fact": "Industry Gearing Benchmark: 30-43%",
+      "source": "MLT",
+      "citation": "Mapletree Logistics Trust Market Research - Debt Standards",
+      "url": "https://investor.mapletreelogisticstrust.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b76dda0d-f161-5d4c-b0a9-123472d6de22",
+      "displayId": "A:288",
+      "fact": "Industry Interest Coverage Benchmark: 2.5-4.0x",
+      "source": "MLT",
+      "citation": "Mapletree Logistics Trust Market Research - Coverage Standards",
+      "url": "https://investor.mapletreelogisticstrust.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "effb4d4e-d36c-50c8-8864-348dae77a7dc",
+      "displayId": "A:289",
+      "fact": "Industry DPU Growth Benchmark: 10-15%",
+      "source": "MLT",
+      "citation": "Mapletree Logistics Trust Market Research - Growth Standards",
+      "url": "https://investor.mapletreelogisticstrust.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "182d06f9-9aef-5809-83f7-4548bc372041",
+      "displayId": "A:290",
+      "fact": "Mapletree Logistics Trust (MLT) reference",
+      "source": "MLT",
+      "citation": "Mapletree Logistics Trust - Asia Pacific REIT Benchmark",
+      "url": "https://www.mapletreelogisticstrust.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "cc66e680-8ffd-5fb4-9d9d-4611cbcd9e37",
+      "displayId": "A:291",
+      "fact": "MLT AUM: S$13.3B",
+      "source": "MLT",
+      "citation": "Mapletree Logistics Trust Annual Report - AUM Figure",
+      "url": "https://www.mapletreelogisticstrust.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "7f9b86cf-5b1d-5421-a739-0e39c80fac9d",
+      "displayId": "A:292",
+      "fact": "Atrium REIT AUM: RM 723M",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer AUM Reference",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "144fdccc-87a3-5c23-a69e-4ef7ca7493dc",
+      "displayId": "A:293",
+      "fact": "MLT: 180 properties",
+      "source": "MLT",
+      "citation": "Mapletree Logistics Trust Annual Report - Portfolio Size",
+      "url": "https://www.mapletreelogisticstrust.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ea1b2503-b419-571c-bf36-bdca599446f9",
+      "displayId": "A:294",
+      "fact": "MLT: 9 countries",
+      "source": "MLT",
+      "citation": "Mapletree Logistics Trust Annual Report - Geographic Spread",
+      "url": "https://www.mapletreelogisticstrust.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "64f2d383-5e6a-5878-9ae0-e8beca87a3de",
+      "displayId": "A:295",
+      "fact": "Atrium REIT: 2 regions",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Geographic Reference",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "4e1c0e0a-dd52-5724-b9a4-dbcc4ca750b6",
+      "displayId": "A:296",
+      "fact": "Axis REIT: Mid-cap Goldilocks zone",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Market Positioning",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "32d21fae-3b9e-5ba0-8181-dc69b9465fbe",
+      "displayId": "A:297",
+      "fact": "E-commerce Growth trend",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia - E-commerce Logistics Coverage",
+      "url": "https://www.theedgemalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "75749c26-fc74-5f76-9048-09ad10556961",
+      "displayId": "A:298",
+      "fact": "Supply Chain Shifts trend",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia - Supply Chain Relocation Coverage",
+      "url": "https://www.theedgemalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "433a23e2-b77f-5fad-af7b-7a80ff352730",
+      "displayId": "A:299",
+      "fact": "Malaysia beneficiary of supply chain shifts",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia - Malaysia Industrial Advantage",
+      "url": "https://www.theedgemalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "88326aef-cdd7-5c08-b722-8d1a0add5c67",
+      "displayId": "A:300",
+      "fact": "Data Center Boom trend",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia - Data Center Market Coverage",
+      "url": "https://www.theedgemalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b551546f-1ac1-564a-a69d-583c017d4d97",
+      "displayId": "A:301",
+      "fact": "Interest Rate Easing trend",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia - Interest Rate Outlook",
+      "url": "https://www.theedgemalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "74b155e1-2838-530c-80c5-3246edca245e",
+      "displayId": "A:302",
+      "fact": "ESG Requirements trend",
+      "source": "APREA",
+      "citation": "Asia Pacific Real Assets Association - ESG Standards",
+      "url": "https://www.aprea.asia",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "e39c7cb7-2c0a-5b4c-9de0-d82e86dd5a48",
+      "displayId": "A:303",
+      "fact": "Atrium REIT Stock Code: 5130.KL",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Atrium REIT Listing",
+      "url": "https://www.klsescreener.com/v2/stocks/5130",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "40ed5e56-416a-56d6-830d-5f7a6c149df5",
+      "displayId": "A:304",
+      "fact": "Portfolio size difference: 7.7x (Axis vs Atrium)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Scale Comparison",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "c0769f19-4a0e-5604-918d-d4cdefee04da",
+      "displayId": "A:305",
+      "fact": "AUM difference: 7.4x (Axis vs Atrium)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - AUM Comparison",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "a54a8dd1-9037-53bf-b1a5-738e9344dbd4",
+      "displayId": "A:306",
+      "fact": "Atrium REIT Occupancy: 100%",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Occupancy",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ca7c7d01-5bc6-5781-9d46-9699b4fb872b",
+      "displayId": "A:307",
+      "fact": "Atrium REIT Gearing: 43.5%",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Gearing",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "9d1165e5-a977-5a9d-ae0d-26c52522780f",
+      "displayId": "A:308",
+      "fact": "Gearing difference: -10.5pp (Axis vs Atrium)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Debt Comparison",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "92d57afb-ee28-5fd0-baaa-43c498ab8554",
+      "displayId": "A:309",
+      "fact": "Atrium REIT Interest Coverage: ~2.09x",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Coverage",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "f2a9368b-f26d-5ed2-9e1c-15ffb245d519",
+      "displayId": "A:310",
+      "fact": "Interest coverage advantage: +1.7x (Axis vs Atrium)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Coverage Comparison",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "1157ac27-faa9-5cf4-8387-a73a3a8cf8cc",
+      "displayId": "A:311",
+      "fact": "Fixed-rate debt advantage: +58pp (Axis vs Atrium)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Rate Risk Comparison",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "12574f9a-1603-50aa-b33a-e182f98d9678",
+      "displayId": "A:312",
+      "fact": "Atrium REIT 2025 DPU: 9.30 sen",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Atrium DPU",
+      "url": "https://www.klsescreener.com/v2/stocks/5130",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "0da24e13-f655-51b6-9362-5465cda7085c",
+      "displayId": "A:313",
+      "fact": "DPU advantage: +13.4% (Axis vs Atrium)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - DPU Comparison",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "a9941413-5cef-57e9-b314-b235c7725b5a",
+      "displayId": "A:314",
+      "fact": "Atrium REIT DPU Growth: +22.4%",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Atrium Growth Rate",
+      "url": "https://www.klsescreener.com/v2/stocks/5130",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "a308cd83-f735-56a8-856e-bb5d90ac35f0",
+      "displayId": "A:315",
+      "fact": "DPU growth difference: +8.6pp (Atrium vs Axis)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Growth Comparison",
+      "url": "https://www.klsescreener.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "8218f50a-46d5-59f2-95d9-aa6ba4e70b1e",
+      "displayId": "A:316",
+      "fact": "Atrium REIT NAV-Based Yield: ~6.7%",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Yield",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b452f814-b8de-5a08-bf44-e2fab3593332",
+      "displayId": "A:317",
+      "fact": "Atrium REIT: Not Shariah compliant",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Compliance Status",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "41a2a775-ad19-5ab8-bf98-dc7aaf5ae432",
+      "displayId": "A:318",
+      "fact": "Atrium REIT: 0 acquisitions (AEI only)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Activity",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "cd8c768b-9037-50c8-86b1-38969e5daf46",
+      "displayId": "A:319",
+      "fact": "Market Cap difference: 12.2x (Axis vs Atrium)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Scale Comparison",
+      "url": "https://www.klsescreener.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": true,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b73adfbd-4aa1-5b98-ad79-4af57d994b90",
+      "displayId": "A:320",
+      "fact": "Atrium REIT: ~10 years listed",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer History",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "21f61cf6-1ffe-52ff-a81f-dcba2f7f713d",
+      "displayId": "A:321",
+      "fact": "Interest coverage: 81% better (Axis vs Atrium)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Coverage Analysis",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "2b4c1498-af20-53da-847b-3b114809915d",
+      "displayId": "A:322",
+      "fact": "Fixed-rate debt: 9x more (Axis vs Atrium)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Rate Structure Comparison",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "6ae6eeac-28f6-5f25-9c17-e2e5058edc42",
+      "displayId": "A:323",
+      "fact": "Atrium REIT: ~83% long-term debt",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Debt Maturity",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "199d29da-6ddb-56c5-aec3-17ca2d3734d7",
+      "displayId": "A:324",
+      "fact": "Axis REIT NPI Margin: ~87%",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Margin Analysis (316.2M/364.2M)",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "59d185a9-66a7-57cd-b605-57f1b0e22ab9",
+      "displayId": "A:325",
+      "fact": "Atrium REIT NPI Margin: ~90%",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Margin",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "f4b2d7d1-41b2-5958-b421-82b5550bab17",
+      "displayId": "A:326",
+      "fact": "Axis REIT: Larger, more experienced management team",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Management Resources",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "4988b88b-8b82-5100-9d03-3e811bb97e94",
+      "displayId": "A:327",
+      "fact": "Atrium REIT: Pure-play industrial (no hypermarket/office)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Property Mix",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "ae641246-fcab-5bcd-80ff-8740de9a70b5",
+      "displayId": "A:328",
+      "fact": "Atrium REIT: 59% Chan Kam Tuck family control",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Ownership Structure",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b475c930-cb60-5ee5-a599-5a5007048008",
+      "displayId": "A:329",
+      "fact": "Atrium REIT: Acting CEO since Sept 2024 (interim)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Management Change",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "a6ad29f7-13cd-5bf6-b619-710a870b672c",
+      "displayId": "A:330",
+      "fact": "Atrium REIT: CFO forced into dual Acting CEO role",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Governance Issue",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "612795b2-571e-5172-b0ed-f409908e98a6",
+      "displayId": "A:331",
+      "fact": "Atrium REIT: Chan Kam Tuck controls Manager + ~23.7% units",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Related Party Risk",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "08101dfc-70bd-5f23-b345-fab2d28f9ae8",
+      "displayId": "A:332",
+      "fact": "Atrium REIT: Former CEO was Chan Kam Tuck's brother",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Family Connection",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "6494abba-08f0-5c30-80c0-7845ed2a36fd",
+      "displayId": "A:333",
+      "fact": "Atrium Real Estate Investment Trust reference",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Reference",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "6d5038b5-0fda-510a-af20-fc611e24e9e0",
+      "displayId": "A:334",
+      "fact": "Atrium REIT: Former CEO retired Aug 2024",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer CEO Retirement",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "07936b5d-9c83-55ac-801f-ed5d5aa00ef6",
+      "displayId": "A:335",
+      "fact": "Atrium REIT: 2 committees only (Audit, Nominating)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Governance Structure",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "aef25169-2d5b-5442-ba4e-c39cebc2c5ef",
+      "displayId": "A:336",
+      "fact": "Atrium REIT: No performance fees, no increase protection",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Fee Structure",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "85cfe65a-8667-548e-9346-5ad944627486",
+      "displayId": "A:337",
+      "fact": "Investment Grade: B+/A-",
+      "source": "Kenanga",
+      "citation": "Kenanga Research - Axis REIT Credit Assessment",
+      "url": "https://www.kenanga.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "9bb38b1f-6992-5d90-8e41-ead997431a23",
+      "displayId": "A:338",
+      "fact": "Axis REIT Official Website reference",
+      "source": "ARWebsite",
+      "citation": "Axis REIT Corporate Portal",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "aea11acd-76f9-548b-9a66-21fbb151c8c7",
+      "displayId": "A:339",
+      "fact": "Axis REIT website URL",
+      "source": "ARWebsite",
+      "citation": "https://www.axis-reit.com.my",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "5c5edebb-cbee-5b55-bf8a-259993804ad9",
+      "displayId": "A:340",
+      "fact": "Bursa Malaysia Announcements reference",
+      "source": "BursaMalaysia",
+      "citation": "Bursa Malaysia Company Announcements Portal",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "c89f03b1-f3c7-51ab-b7a3-1792c5d4983e",
+      "displayId": "A:341",
+      "fact": "Atrium REIT website URL",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Peer Website Reference",
+      "url": "https://www.atriumreit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "e037c236-fc4e-530c-a0f9-b20d10a0f7b9",
+      "displayId": "A:342",
+      "fact": "MLT (SGX) stock reference",
+      "source": "MLT",
+      "citation": "Mapletree Logistics Trust SGX Listing",
+      "url": "https://www.mapletreelogisticstrust.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "dc95336a-b2e5-5b1b-b2f8-d0d9bd792f60",
+      "displayId": "A:343",
+      "fact": "Mapletree Logistics Trust website URL",
+      "source": "MLT",
+      "citation": "https://www.mapletreelogisticstrust.com",
+      "url": "https://www.mapletreelogisticstrust.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "bb203062-2638-59af-a404-dc68c5a2c721",
+      "displayId": "A:344",
+      "fact": "MLT Independent Market Research Report 2024-25",
+      "source": "MLT",
+      "citation": "Mapletree Logistics Trust Independent Market Research Report",
+      "url": "https://investor.mapletreelogisticstrust.com/misc/independent-market-research-report24-25.pdf",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "8b55f995-5c3a-5d16-9a51-ab21730871b1",
+      "displayId": "A:345",
+      "fact": "Asia Pacific Real Assets Association (APREA) reference",
+      "source": "APREA",
+      "citation": "APREA Industry Association",
+      "url": "https://www.aprea.asia",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "099dd1ac-39f4-592b-8205-e0cdea044a45",
+      "displayId": "A:346",
+      "fact": "JLL Malaysia reference",
+      "source": "JLL",
+      "citation": "JLL Malaysia Industrial Market Research",
+      "url": "https://www.jll.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "7be69124-76d9-507b-9d38-c963ec3cb06a",
+      "displayId": "A:347",
+      "fact": "The Edge Malaysia reference",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia Business News",
+      "url": "https://www.theedgemalaysia.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "3eaabfbf-2b0b-5d8a-84ab-b7b2409df29d",
+      "displayId": "A:348",
+      "fact": "The Star Business reference",
+      "source": "TheStar",
+      "citation": "The Star Malaysia Business Section",
+      "url": "https://www.thestar.com.my/business",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "8d264639-0f74-549b-be3a-4ee254c8a489",
+      "displayId": "A:349",
+      "fact": "ChartNexus reference",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Financial Data Platform",
+      "url": "https://www.chartnexus.com",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "89627c3a-5c3d-5e4d-86ef-bff88d1e186b",
+      "displayId": "A:350",
+      "fact": "Kenanga Research reference",
+      "source": "Kenanga",
+      "citation": "Kenanga Investment Bank Research",
+      "url": "https://www.kenanga.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b7461c4b-0048-52d7-9cae-e06662bd0978",
+      "displayId": "A:351",
+      "fact": "Data updates through March 2026",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Data Cut-off",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    },
+    {
+      "id": "b6466300-4ace-5e0f-903f-a37c039f9f9d",
+      "displayId": "A:352",
+      "fact": "Next Expected Update: Q1 2026 results (April-May 2026)",
+      "source": "AR2025",
+      "citation": "Axis REIT 2025 Annual Report - Forward Schedule",
+      "url": "https://www.axis-reit.com.my",
+      "dateAccessed": "2026-04-24",
+      "timeSensitive": false,
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "8d567588-5bd2-46d1-9f75-50a09d0b43f8",
+      "metricType": "portfolio_size",
+      "value": 69,
+      "unit": "properties",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:8",
+        "A:132",
+        "A:169"
+      ]
+    },
+    {
+      "id": "ad1e2269-1157-45d4-9362-8efdcd3bd748",
+      "metricType": "total_assets",
+      "value": 5360,
+      "unit": "RM million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:9",
+        "A:130"
+      ]
+    },
+    {
+      "id": "cb570a58-40e7-4c85-b99a-f522f3a20046",
+      "metricType": "property_count",
+      "value": 69,
+      "unit": "properties",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:8",
+        "A:132"
+      ]
+    },
+    {
+      "id": "b345a97c-762e-4f91-b3a6-4f6225a8c2d9",
+      "metricType": "net_lettable_area",
+      "value": 15000000,
+      "unit": "sq ft",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:10"
+      ]
+    },
+    {
+      "id": "21c9c719-d731-4f41-b133-fb9b4ca66261",
+      "metricType": "gross_revenue",
+      "value": 364.2,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:23",
+        "A:248"
+      ]
+    },
+    {
+      "id": "98ef9aac-55d0-48a5-bcd1-27e5be412179",
+      "metricType": "net_property_income",
+      "value": 316.2,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:25",
+        "A:244"
+      ]
+    },
+    {
+      "id": "cda48cd2-64ab-44df-8413-06bf4382c8ef",
+      "metricType": "net_profit",
+      "value": 282.08,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:245",
+        "A:251"
+      ]
+    },
+    {
+      "id": "e9accd5d-a377-4893-9179-bc75167ddd09",
+      "metricType": "nav_per_unit",
+      "value": 1.6907,
+      "unit": "RM",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:221",
+        "A:232"
+      ]
+    },
+    {
+      "id": "6d499446-97a7-423d-ad92-c5f63ce7e6b0",
+      "metricType": "market_cap",
+      "value": 4150,
+      "unit": "RM million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "A:227",
+        "A:237"
+      ]
+    },
+    {
+      "id": "19bad785-8285-4893-98d8-f9d92034497f",
+      "metricType": "share_price",
+      "value": 2.05,
+      "unit": "RM",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "A:219"
+      ]
+    },
+    {
+      "id": "119ae1dd-d16d-420f-b0c2-b132af8ae4ad",
+      "metricType": "dpu",
+      "value": 10.55,
+      "unit": "sen",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:21",
+        "A:196",
+        "A:201",
+        "A:205"
+      ]
+    },
+    {
+      "id": "5d6ca48a-234f-4206-9ab2-1503ee36bc5c",
+      "metricType": "dpu_growth_yoy",
+      "value": 13.8,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:22",
+        "A:203",
+        "A:207"
+      ]
+    },
+    {
+      "id": "e5d9c4ea-20c2-4495-a2ae-3af86fbdab22",
+      "metricType": "dividend_yield_market",
+      "value": 5.15,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "A:223"
+      ]
+    },
+    {
+      "id": "e85d303f-9113-4d04-8d24-ce436ee2ec70",
+      "metricType": "dividend_yield_nav",
+      "value": 6.2,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:229"
+      ]
+    },
+    {
+      "id": "25e4444b-40ec-4559-afb2-d2a5efa6d26d",
+      "metricType": "payout_ratio",
+      "value": 75,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:216"
+      ]
+    },
+    {
+      "id": "6cf641ae-1b81-4b2e-a796-2b4629ce5581",
+      "metricType": "gearing_ratio",
+      "value": 33,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:16",
+        "A:307",
+        "A:308"
+      ]
+    },
+    {
+      "id": "40e9713a-95fc-4d37-bbb4-1f204e43fd38",
+      "metricType": "interest_coverage",
+      "value": 3.9,
+      "unit": "x",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:18",
+        "A:309",
+        "A:310"
+      ]
+    },
+    {
+      "id": "088e537c-10fa-44dd-b7e7-b7f62e63c187",
+      "metricType": "total_borrowings",
+      "value": 1770,
+      "unit": "RM million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:179"
+      ]
+    },
+    {
+      "id": "d7480201-9200-4f69-a322-14adbf75e8f2",
+      "metricType": "fixed_rate_debt_pct",
+      "value": 65,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:19",
+        "A:311"
+      ]
+    },
+    {
+      "id": "c03cfcd1-a702-4863-ad08-15ba48692e34",
+      "metricType": "floating_rate_debt_pct",
+      "value": 35,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:20"
+      ]
+    },
+    {
+      "id": "43b501c8-e024-40c5-af7b-a475e1b42bfc",
+      "metricType": "occupancy_rate",
+      "value": 94,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:14"
+      ]
+    },
+    {
+      "id": "4d564f8b-a7f5-4e0f-ba09-07347a0fb6d5",
+      "metricType": "wale_years",
+      "value": 4.4,
+      "unit": "years",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:15"
+      ]
+    },
+    {
+      "id": "d44cbd16-6dd9-4e8c-8a87-c3ccbf2fdd4b",
+      "metricType": "tenant_count",
+      "value": 182,
+      "unit": "tenants",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:239"
+      ]
+    },
+    {
+      "id": "f1e09ec1-b6a5-4c6c-8276-d76bb3f7a2ef",
+      "metricType": "top_tenant_concentration",
+      "value": 46.7,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:275"
+      ]
+    },
+    {
+      "id": "bcbf65cc-36fd-4dc8-9575-22bd42f99a7f",
+      "metricType": "rental_reversion",
+      "value": 5,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:121"
+      ]
+    },
+    {
+      "id": "84e86dac-e0c3-482a-9f19-9679b56c17f9",
+      "metricType": "lease_renewal_rate",
+      "value": 73,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:118"
+      ]
+    },
+    {
+      "id": "629d871e-f592-4707-8fc5-f21b91f1c06e",
+      "metricType": "npi_margin",
+      "value": 86.8,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "A:324"
+      ]
+    },
+    {
+      "id": "deeabf78-1614-41d8-b885-f60b2d46f7e1",
+      "metricType": "price_to_book",
+      "value": 1.21,
+      "unit": "x",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "A:225"
+      ]
+    },
+    {
+      "id": "54d7a3d3-042e-4f3b-979d-d57bf70a57f3",
+      "metricType": "premium_discount_to_nav",
+      "value": 21,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "A:226",
+        "A:230"
+      ]
+    }
+  ],
+  "timeSeries": [
+    {
+      "id": "1c8debdb-08b7-4094-ac44-69265dc691f7",
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73",
+      "metricType": "dpu",
+      "frequency": "annual",
+      "unit": "sen",
+      "dataPoints": [
+        {
+          "date": "2021-12-31",
+          "value": 7,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:208"
+        },
+        {
+          "date": "2022-12-31",
+          "value": 9.3,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:210"
+        },
+        {
+          "date": "2023-12-31",
+          "value": 8.6,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:212"
+        },
+        {
+          "date": "2024-12-31",
+          "value": 9.27,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:214"
+        },
+        {
+          "date": "2025-12-31",
+          "value": 10.55,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:21"
+        }
+      ],
+      "sourceDisplayIds": [
+        "A:208",
+        "A:210",
+        "A:212",
+        "A:214",
+        "A:21"
+      ]
+    },
+    {
+      "id": "b2a5d9ad-642f-4f19-9b21-ac98a20c78d7",
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73",
+      "metricType": "portfolio_size",
+      "frequency": "annual",
+      "unit": "properties",
+      "dataPoints": [
+        {
+          "date": "2021-12-31",
+          "value": 45,
+          "isInterpolated": true
+        },
+        {
+          "date": "2022-12-31",
+          "value": 52,
+          "isInterpolated": true
+        },
+        {
+          "date": "2023-12-31",
+          "value": 58,
+          "isInterpolated": true
+        },
+        {
+          "date": "2024-12-31",
+          "value": 64,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:8"
+        },
+        {
+          "date": "2025-12-31",
+          "value": 69,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:8"
+        }
+      ],
+      "sourceDisplayIds": [
+        "A:8",
+        "A:132"
+      ]
+    },
+    {
+      "id": "2d190b0a-23b6-4005-bb1b-feb76fa7f7af",
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73",
+      "metricType": "occupancy_rate",
+      "frequency": "annual",
+      "unit": "%",
+      "dataPoints": [
+        {
+          "date": "2021-12-31",
+          "value": 91,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:14"
+        },
+        {
+          "date": "2022-12-31",
+          "value": 92,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:14"
+        },
+        {
+          "date": "2023-12-31",
+          "value": 93,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:14"
+        },
+        {
+          "date": "2024-12-31",
+          "value": 93,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:14"
+        },
+        {
+          "date": "2025-12-31",
+          "value": 94,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:14"
+        }
+      ],
+      "sourceDisplayIds": [
+        "A:14"
+      ]
+    },
+    {
+      "id": "f67171f4-5e5c-42a1-9124-9e73e1f67e1c",
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73",
+      "metricType": "nav_per_unit",
+      "frequency": "annual",
+      "unit": "RM",
+      "dataPoints": [
+        {
+          "date": "2021-12-31",
+          "value": 1.45,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:221"
+        },
+        {
+          "date": "2022-12-31",
+          "value": 1.52,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:221"
+        },
+        {
+          "date": "2023-12-31",
+          "value": 1.58,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:221"
+        },
+        {
+          "date": "2024-12-31",
+          "value": 1.64,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:232"
+        },
+        {
+          "date": "2025-12-31",
+          "value": 1.6907,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:221"
+        }
+      ],
+      "sourceDisplayIds": [
+        "A:221",
+        "A:232"
+      ]
+    },
+    {
+      "id": "80ff5fa1-2da3-415f-a87c-8951004b7668",
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73",
+      "metricType": "gearing_ratio",
+      "frequency": "annual",
+      "unit": "%",
+      "dataPoints": [
+        {
+          "date": "2021-12-31",
+          "value": 36,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:16"
+        },
+        {
+          "date": "2022-12-31",
+          "value": 35,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:16"
+        },
+        {
+          "date": "2023-12-31",
+          "value": 34,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:16"
+        },
+        {
+          "date": "2024-12-31",
+          "value": 34,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:16"
+        },
+        {
+          "date": "2025-12-31",
+          "value": 33,
+          "isInterpolated": false,
+          "sourceDisplayId": "A:16"
+        }
+      ],
+      "sourceDisplayIds": [
+        "A:16",
+        "A:307"
+      ]
+    }
+  ],
+  "riskAssessment": {
+    "id": "4fc36426-155f-4f6a-926b-5ac8dd4a2b26",
+    "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73",
+    "assessmentDate": "2026-04-24",
+    "overallRiskRating": "moderate",
+    "overallScore": 2,
+    "riskFactors": [
+      {
+        "id": "4c136c06-878a-4b90-86ac-77d9f2320c09",
+        "category": "concentration",
+        "severity": "medium",
+        "title": "Moderate Tenant Concentration",
+        "description": "Top 10 tenants contribute 46.7% of revenue across 182 tenant base and 69 properties.",
+        "currentScore": 2.5,
+        "peerComparison": "similar",
+        "mitigatingFactors": [
+          {
+            "factor": "182 tenants provides meaningful diversification",
+            "impact": "significant"
+          },
+          {
+            "factor": "69 properties reduces single-asset risk",
+            "impact": "significant"
+          },
+          {
+            "factor": "MNC and established local business mix",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "Top 10 at 46.7% is above ideal threshold",
+            "impact": "moderate"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Top tenant lease expiry schedule",
+          "Tenant credit rating changes"
+        ],
+        "sourceDisplayIds": [
+          "A:275",
+          "A:239",
+          "A:276"
+        ]
+      },
+      {
+        "id": "5db3f466-2eab-47f2-8a26-c040f0ef542b",
+        "category": "interest_rate",
+        "severity": "low",
+        "title": "Strong Interest Rate Protection",
+        "description": "65% fixed-rate debt with 10-year sukuk at 4.00% and active hedging via Islamic profit rate swaps.",
+        "currentScore": 1.5,
+        "peerComparison": "better",
+        "quantitativeBacking": [
+          {
+            "metricType": "fixed_rate_debt_pct",
+            "value": 65,
+            "context": "Above industry average"
+          }
+        ],
+        "mitigatingFactors": [
+          {
+            "factor": "65% fixed-rate debt",
+            "impact": "significant"
+          },
+          {
+            "factor": "10-year sukuk locked at 4.00%",
+            "impact": "significant"
+          },
+          {
+            "factor": "Active Islamic profit rate swaps",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Interest coverage at 3.8-4.0x provides cushion",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Sukuk refinancing timeline (2035)",
+          "Floating rate portion repricing"
+        ],
+        "sourceDisplayIds": [
+          "A:19",
+          "A:185",
+          "A:189",
+          "A:184",
+          "A:18"
+        ]
+      },
+      {
+        "id": "034dd025-f631-48b7-b50e-ef075aa97019",
+        "category": "governance",
+        "severity": "low",
+        "title": "Professional Management Structure",
+        "description": "Institutional-grade governance with dispersed ownership, stable leadership (19-year CEO tenure), and comprehensive board committees.",
+        "currentScore": 1.5,
+        "peerComparison": "better",
+        "mitigatingFactors": [
+          {
+            "factor": "Leong Kit May 19-year tenure with progressive promotion",
+            "impact": "significant"
+          },
+          {
+            "factor": "CEO is MRMA Chairman with industry awards",
+            "impact": "significant"
+          },
+          {
+            "factor": "4 board committees including Remuneration",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Dispersed institutional ownership (EPF, KWAP, etc.)",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Fee increases require 2/3 unitholder approval",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "CEO succession planning",
+          "Board independence maintenance"
+        ],
+        "sourceDisplayIds": [
+          "A:64",
+          "A:52",
+          "A:76",
+          "A:79",
+          "A:39",
+          "A:102"
+        ]
+      },
+      {
+        "id": "7e6c76ef-4b2c-4461-a03f-b22bba3429da",
+        "category": "transparency",
+        "severity": "low",
+        "title": "Comprehensive Disclosure",
+        "description": "Full disclosure of WALE, tenant count, top tenant concentration, and unencumbered assets.",
+        "currentScore": 1.5,
+        "peerComparison": "better",
+        "mitigatingFactors": [
+          {
+            "factor": "WALE disclosed at 4.4 years",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Top 10 tenant % disclosed",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Unencumbered assets disclosed at 38%",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Continued disclosure maintenance"
+        ],
+        "sourceDisplayIds": [
+          "A:15",
+          "A:275",
+          "A:29"
+        ]
+      },
+      {
+        "id": "124a84cf-b659-44ed-a64a-3b8a4d12c20c",
+        "category": "tenant_rollover",
+        "severity": "low",
+        "title": "Manageable Lease Profile",
+        "description": "4.4-year WALE with 73% renewal rate and positive rental reversions.",
+        "currentScore": 2,
+        "peerComparison": "similar",
+        "mitigatingFactors": [
+          {
+            "factor": "4.4-year WALE above industry average",
+            "impact": "significant"
+          },
+          {
+            "factor": "73% renewal rate demonstrates tenant satisfaction",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Positive rental reversions (>5%) on renewals",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "27% of expiring space required re-tenanting",
+            "impact": "minor"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Annual lease expiry profile",
+          "Rental reversion trends"
+        ],
+        "sourceDisplayIds": [
+          "A:15",
+          "A:118",
+          "A:121"
+        ]
+      },
+      {
+        "id": "93c40a11-d1b9-4d9d-8fba-148c3881253f",
+        "category": "geographic",
+        "severity": "low",
+        "title": "Geographic Concentration in Klang Valley",
+        "description": "67% of portfolio by NLA concentrated in Selangor/Klang Valley, creating regional economic exposure.",
+        "currentScore": 2,
+        "peerComparison": "similar",
+        "mitigatingFactors": [
+          {
+            "factor": "Klang Valley is Malaysia economic hub with stable demand",
+            "impact": "significant"
+          },
+          {
+            "factor": "6-state diversification across Malaysia",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Strategic locations near ports and airports",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "67% concentration in single economic region",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Selangor industrial property supply increasing",
+            "impact": "minor"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Klang Valley industrial property vacancy rates",
+          "Regional economic indicators",
+          "New industrial supply pipeline"
+        ],
+        "sourceDisplayIds": [
+          "A:12",
+          "A:169"
+        ]
+      }
+    ],
+    "peerComparison": {
+      "vsPeerId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920",
+      "relativeRisk": "lower",
+      "keyDifferences": [
+        "Lower gearing (33% vs 43.5%)",
+        "Strong interest rate protection (65% fixed vs ~7%)",
+        "Full disclosure vs data gaps",
+        "Professional management vs family control"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "f50b89a5-860a-41de-90e1-e195588282c8",
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73",
+      "observationType": "executive_summary",
+      "priority": "positive",
+      "title": "Record Performance in 20th Anniversary Year",
+      "content": "Axis REIT celebrated its 20th anniversary on Bursa Malaysia with record FY2025 performance: RM 5.36B AUM, 10.55 sen DPU (+13.8% YoY), and 3 successful acquisitions.",
+      "summary": "Record DPU, 20-year milestone, active growth",
+      "keyFacts": [
+        {
+          "label": "DPU",
+          "value": 10.55,
+          "unit": "sen"
+        },
+        {
+          "label": "DPU Growth",
+          "value": 13.8,
+          "unit": "%"
+        },
+        {
+          "label": "AUM",
+          "value": 5.36,
+          "unit": "RM B"
+        }
+      ],
+      "indicator": {
+        "icon": "check",
+        "color": "green"
+      },
+      "relatedMetrics": [
+        {
+          "metricType": "dpu",
+          "value": 10.55
+        },
+        {
+          "metricType": "dpu_growth_yoy",
+          "value": 13.8
+        },
+        {
+          "metricType": "total_assets",
+          "value": 5360
+        }
+      ],
+      "relatedRisks": [],
+      "sourceDisplayIds": [
+        "A:5",
+        "A:21",
+        "A:22",
+        "A:9"
+      ],
+      "primaryCitation": "A:5"
+    },
+    {
+      "id": "2627a5d6-4b92-4f84-b60d-cb7d7316e1e0",
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73",
+      "observationType": "debt_sustainability",
+      "priority": "positive",
+      "title": "Strong Debt Management",
+      "content": "Conservative 33% gearing with 17% headroom to 50% limit. RM 300M 10-year sukuk at 4.00% increased fixed-rate portion to 65%, providing insulation from rate volatility.",
+      "summary": "33% gearing, 65% fixed-rate, investment-grade structure",
+      "keyFacts": [
+        {
+          "label": "Gearing",
+          "value": 33,
+          "unit": "%"
+        },
+        {
+          "label": "Fixed Rate Debt",
+          "value": 65,
+          "unit": "%"
+        },
+        {
+          "label": "Interest Coverage",
+          "value": 3.9,
+          "unit": "x"
+        }
+      ],
+      "indicator": {
+        "icon": "check",
+        "color": "green"
+      },
+      "relatedMetrics": [
+        {
+          "metricType": "gearing_ratio",
+          "value": 33
+        },
+        {
+          "metricType": "fixed_rate_debt_pct",
+          "value": 65
+        },
+        {
+          "metricType": "interest_coverage",
+          "value": 3.9
+        }
+      ],
+      "relatedRisks": [],
+      "sourceDisplayIds": [
+        "A:16",
+        "A:19",
+        "A:188",
+        "A:189"
+      ],
+      "primaryCitation": "A:16"
+    },
+    {
+      "id": "58704eaa-d88f-46eb-b2e2-2af6aa2ed28d",
+      "entityId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73",
+      "observationType": "portfolio_analysis",
+      "priority": "positive",
+      "title": "Active Capital Recycling",
+      "content": "Disposed 42-year-old The Annex at gain of ~RM 8.8M while acquiring 3 modern facilities for RM 164.6M+, demonstrating disciplined portfolio optimization.",
+      "summary": "Strategic disposals, quality acquisitions, portfolio refresh",
+      "keyFacts": [
+        {
+          "label": "Disposal Gain",
+          "value": 8.8,
+          "unit": "RM M"
+        },
+        {
+          "label": "Acquisition Investment",
+          "value": 164.6,
+          "unit": "RM M"
+        }
+      ],
+      "indicator": {
+        "icon": "check",
+        "color": "green"
+      },
+      "relatedMetrics": [
+        {
+          "metricType": "portfolio_size",
+          "value": 69
+        }
+      ],
+      "relatedRisks": [],
+      "sourceDisplayIds": [
+        "A:27",
+        "A:28",
+        "A:147",
+        "A:168",
+        "A:254"
+      ],
+      "primaryCitation": "A:27"
+    }
+  ]
+}
