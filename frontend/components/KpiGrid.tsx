@@ -4,7 +4,7 @@
  * KpiGrid - Key Performance Indicator grid with citation badges
  */
 
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import type { NormalizedReitData, MetricCategory } from '@/types/frontend';
 import { METRIC_REGISTRY, getCategoryDisplayName } from '@/lib/data-utils';
 import { formatMetricValue } from '@/lib/formatters';
@@ -19,7 +19,18 @@ interface KpiGridProps {
 export function KpiGrid({ entities, category, onMetricClick }: KpiGridProps) {
   const [hoveredMetric, setHoveredMetric] = useState<string | null>(null);
   const [hoveredEntity, setHoveredEntity] = useState<string | null>(null);
-  
+
+  // Deduplicated handler for activating metric citations
+  const handleActivate = useCallback((metricType: string, hasAny: boolean) => {
+    if (!hasAny || !onMetricClick) return;
+    const ids = Array.from(new Set(
+      entities
+        .map(e => e.metrics.find(m => m.metricType === metricType))
+        .flatMap(m => m?.sourceDisplayIds ?? [])
+    ));
+    if (ids.length > 0) onMetricClick(ids);
+  }, [entities, onMetricClick]);
+   
   // Get all unique metric types across entities
   const allMetricTypes = new Set<string>();
   entities.forEach(entity => {
@@ -66,14 +77,7 @@ export function KpiGrid({ entities, category, onMetricClick }: KpiGridProps) {
                   className={`flex items-center justify-between p-4 ${
                     idx > 0 ? 'border-t border-neutral-100' : ''
                   } ${hasAnyCitations ? 'cursor-pointer hover:bg-neutral-50' : ''}`}
-                  onClick={() => {
-                    if (!hasAnyCitations) return;
-                    const citationIds = entities
-                      .map(e => e.metrics.find(m => m.metricType === metricType))
-                      .filter(Boolean)
-                      .flatMap(m => m?.sourceDisplayIds || []);
-                    if (citationIds.length > 0) onMetricClick?.(citationIds);
-                  }}
+                  onClick={() => handleActivate(metricType, hasAnyCitations)}
                   onMouseEnter={() => setHoveredMetric(metricType)}
                   onMouseLeave={() => setHoveredMetric(null)}
                   role={hasAnyCitations ? 'button' : undefined}
@@ -81,11 +85,7 @@ export function KpiGrid({ entities, category, onMetricClick }: KpiGridProps) {
                   onKeyDown={(e) => {
                     if (hasAnyCitations && (e.key === 'Enter' || e.key === ' ')) {
                       e.preventDefault();
-                      const citationIds = entities
-                        .map(e => e.metrics.find(m => m.metricType === metricType))
-                        .filter(Boolean)
-                        .flatMap(m => m?.sourceDisplayIds || []);
-                      if (citationIds.length > 0) onMetricClick?.(citationIds);
+                      handleActivate(metricType, hasAnyCitations);
                     }
                   }}
                   aria-label={hasAnyCitations ? `View citations for ${definition?.displayName || metricType}` : undefined}

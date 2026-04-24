@@ -46,6 +46,14 @@ const sizeClasses = {
   lg: 'text-base px-3 py-1.5',
 };
 
+// Static bar colors for Tailwind JIT - must be literal strings
+const severityBarColors: Record<RiskSeverity, string> = {
+  low: 'bg-emerald-500',
+  medium: 'bg-amber-500',
+  high: 'bg-orange-500',
+  critical: 'bg-red-500',
+};
+
 export function RiskBadge({
   severity,
   size = 'sm',
@@ -158,14 +166,13 @@ interface RiskBarProps {
 }
 
 export function RiskBar({ value, severity, className = '', citationCount = 0, onCitationClick }: RiskBarProps) {
-  const colors = severityColors[severity];
   const hasCitations = citationCount > 0 && onCitationClick;
   
   return (
     <div className={`flex items-center gap-2 ${className}`}>
       <div className="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden">
         <div 
-          className={`h-full rounded-full ${colors.bg.replace('bg-', 'bg-').replace('-50', '-500')}`}
+          className={`h-full rounded-full ${severityBarColors[severity]}`}
           style={{ width: `${Math.min(Math.max(value, 0), 100)}%` }}
         />
       </div>
@@ -192,6 +199,16 @@ interface RiskSummaryProps {
 }
 
 export function RiskSummary({ risks, showDetails = false, className = '', onCitationClick }: RiskSummaryProps) {
+  // Handle empty risks array - render neutral state
+  if (risks.length === 0) {
+    return (
+      <div className={`flex items-center gap-2 ${className}`}>
+        <span className="text-xs px-2 py-1 bg-gray-100 text-gray-500 rounded">N/A</span>
+        <span className="text-xs text-gray-500">No risk factors assessed</span>
+      </div>
+    );
+  }
+
   // Count by severity
   const counts = risks.reduce((acc, r) => {
     acc[r.severity] = (acc[r.severity] || 0) + 1;

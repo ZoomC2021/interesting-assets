@@ -181,10 +181,9 @@ describe('CitationPanel', () => {
     
     // The backdrop is the first sibling after the live regions
     const backdrop = document.querySelector('.bg-black\\/40');
-    if (backdrop) {
-      fireEvent.click(backdrop);
-      expect(mockOnClose).toHaveBeenCalled();
-    }
+    expect(backdrop).not.toBeNull();
+    fireEvent.click(backdrop!);
+    expect(mockOnClose).toHaveBeenCalled();
   });
 
   it('should display source group badges', () => {

@@ -75,6 +75,11 @@ export default function MonitorPage() {
       );
     }
     
+    // Apply sector filter
+    if (filters.sector && filters.sector !== 'all') {
+      result = result.filter(e => e.entity.sector === filters.sector);
+    }
+    
     return result;
   }, [entities, filters]);
   

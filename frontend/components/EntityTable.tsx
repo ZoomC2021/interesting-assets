@@ -31,6 +31,7 @@ interface EntityTableProps {
   comparisons: Map<string, Map<MetricType, EntityBenchmarkComparison | undefined>>;
   selectedIds: string[];
   onSelect: (id: string) => void;
+  onSelectAll?: (ids: string[]) => void;
   sort: SortState;
   onSort: (field: SortField) => void;
   dpuHistories: Map<string, number[]>;
@@ -109,6 +110,7 @@ export function EntityTable({
   comparisons,
   selectedIds,
   onSelect,
+  onSelectAll,
   sort,
   onSort,
   dpuHistories,
@@ -186,15 +188,11 @@ export function EntityTable({
                 type="checkbox"
                 checked={selectedIds.length === data.length && data.length > 0}
                 onChange={() => {
-                  if (selectedIds.length === data.length) {
-                    data.forEach(d => onSelect(d.entity.id));
-                  } else {
-                    data.forEach(d => {
-                      if (!selectedIds.includes(d.entity.id)) {
-                        onSelect(d.entity.id);
-                      }
-                    });
-                  }
+                  if (!onSelectAll) return;
+                  // Use atomic selection update to avoid stale-closure bug
+                  onSelectAll(
+                    selectedIds.length === data.length ? [] : data.map(d => d.entity.id)
+                  );
                 }}
                 className="rounded border-gray-300"
                 aria-label="Select all REITs"
@@ -384,7 +382,7 @@ export function EntityTable({
   );
 }
 
-// Export column count for verification
-export const ENTITY_TABLE_COLUMN_COUNT = columns.length;
+// Export column count for verification (data columns + select + actions)
+export const ENTITY_TABLE_COLUMN_COUNT = columns.length + 2;
 
 export default EntityTable;

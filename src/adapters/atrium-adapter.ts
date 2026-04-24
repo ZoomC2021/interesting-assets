@@ -78,7 +78,7 @@ export class AtriumAdapter {
    * Build normalized entity object
    */
   buildEntity(): Entity {
-    const entityRefs = this.getDisplayIds(['T:1', 'T:5', 'T:20', 'T:21', 'T:23', 'T:30', 'T:31', 'T:32', 'T:112']);
+    const entityRefs = ['T:1', 'T:5', 'T:20', 'T:21', 'T:23', 'T:30', 'T:31', 'T:32', 'T:112'];
     
     // Convert display IDs to reference UUIDs
     const refUuids: string[] = [];
@@ -569,7 +569,7 @@ export class AtriumAdapter {
     return {
       id: this.generateId(),
       entityId: this.entityId,
-      assessmentDate: '2026-04-24',
+      assessmentDate: new Date().toISOString().split('T')[0],
       overallRiskRating: 'moderate_high',
       overallScore: 3.5,
       riskFactors: riskFactors as any,
@@ -858,10 +858,6 @@ export class AtriumAdapter {
         metricType: params.metricType
       });
     }
-  }
-
-  private getDisplayIds(ids: string[]): string[] {
-    return ids;
   }
 
   private generateId(): string {

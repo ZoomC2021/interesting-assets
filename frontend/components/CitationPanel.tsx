@@ -5,7 +5,7 @@
  * Includes: focus trapping, keyboard navigation, source filtering, copy-to-clipboard
  */
 
-import { useState, useMemo, useCallback, useRef } from 'react';
+import { useState, useMemo, useCallback, useRef, useEffect } from 'react';
 import type { NormalizedReitData, Reference } from '@/types/frontend';
 import { formatDate } from '@/lib/formatters';
 import { useFocusTrap } from '@/hooks/useFocusTrap';
@@ -39,8 +39,11 @@ export function CitationPanel({ isOpen, onClose, citationIds, entities }: Citati
     returnFocusOnDeactivate: true,
   });
 
-  // Get all references from entities
-  const allReferences = entities.flatMap(e => e.references);
+  // Get all references from entities (memoized to prevent recreating array each render)
+  const allReferences = useMemo(
+    () => entities.flatMap(e => e.references),
+    [entities]
+  );
 
   // Find matching citations
   const citations = useMemo(() => {
@@ -95,15 +98,19 @@ export function CitationPanel({ isOpen, onClose, citationIds, entities }: Citati
     announce(`Filtering citations by ${label}`, 'polite');
   }, [announce]);
 
+  // Announce filter results when filter changes
+  useEffect(() => {
+    if (isOpen && activeFilter !== 'all' && filteredCitations.length > 0) {
+      announce(`Showing ${filteredCitations.length} citations from ${SOURCE_GROUPS[activeFilter].label}`, 'polite');
+    }
+  }, [activeFilter, filteredCitations.length, isOpen, announce]);
+
   if (!isOpen) return null;
 
   return (
     <>
       {/* Screen reader live regions */}
-      <div {...liveRegionProps.polite} aria-label="Screen reader announcements polite">
-        {filteredCitations.length > 0 && activeFilter !== 'all' && 
-          `Showing ${filteredCitations.length} citations from ${SOURCE_GROUPS[activeFilter].label}`}
-      </div>
+      <div {...liveRegionProps.polite} aria-label="Screen reader announcements polite" />
       <div {...liveRegionProps.assertive} aria-label="Screen reader announcements assertive" />
 
       {/* Backdrop */}

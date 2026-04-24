@@ -154,10 +154,10 @@ export function MultiSparkline({
   height = 30,
   className = '',
 }: MultiSparklineProps) {
-  if (series.length === 0) return null;
-  
-  // Find global min/max across all series
   const allValues = series.flatMap(s => s.data);
+  if (allValues.length === 0) return null;
+
+  // Find global min/max across all series
   const min = Math.min(...allValues);
   const max = Math.max(...allValues);
   const range = max - min || 1;

@@ -39,39 +39,34 @@ interface UseAnnouncerResult {
 
 export function useAnnouncer(): UseAnnouncerResult {
   const [announcements, setAnnouncements] = useState<Announcement[]>([]);
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const timeoutsRef = useRef<Map<string, NodeJS.Timeout>>(new Map());
 
-  // Clear any pending timeouts on unmount
+  // Clear all pending timeouts on unmount
   useEffect(() => {
     return () => {
-      if (timeoutRef.current) {
-        clearTimeout(timeoutRef.current);
-      }
+      timeoutsRef.current.forEach(clearTimeout);
+      timeoutsRef.current.clear();
     };
   }, []);
 
   const announce = useCallback((message: string, priority: AnnouncePriority = 'polite') => {
-    // Clear any existing timeout
-    if (timeoutRef.current) {
-      clearTimeout(timeoutRef.current);
-    }
-
     const id = `announcement-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
     
     setAnnouncements(prev => [...prev, { message, priority, id }]);
 
     // Auto-clear announcement after it's been read
     // Screen readers typically need a short delay to register the change
-    timeoutRef.current = setTimeout(() => {
+    const timeout = setTimeout(() => {
       setAnnouncements(prev => prev.filter(a => a.id !== id));
+      timeoutsRef.current.delete(id);
     }, 1000);
+    timeoutsRef.current.set(id, timeout);
   }, []);
 
   const clearAnnouncements = useCallback(() => {
     setAnnouncements([]);
-    if (timeoutRef.current) {
-      clearTimeout(timeoutRef.current);
-    }
+    timeoutsRef.current.forEach(clearTimeout);
+    timeoutsRef.current.clear();
   }, []);
 
   const liveRegionProps = {

@@ -20,6 +20,9 @@ export function useEntityData(entityCodes: string[]): UseEntityDataResult {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  // Create a stable key from entityCodes to prevent infinite re-renders
+  const stableKey = entityCodes.join('|');
+
   const fetchData = useCallback(async () => {
     setIsLoading(true);
     setError(null);
@@ -38,7 +41,8 @@ export function useEntityData(entityCodes: string[]): UseEntityDataResult {
     } finally {
       setIsLoading(false);
     }
-  }, [entityCodes]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [stableKey]);
 
   useEffect(() => {
     fetchData();

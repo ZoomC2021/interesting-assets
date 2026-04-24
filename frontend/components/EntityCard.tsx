@@ -118,16 +118,16 @@ export function EntityCard({
       
       {/* Key metrics grid */}
       <div className="grid grid-cols-3 gap-px bg-gray-100 border-t border-gray-200">
-        <MetricCell label="DPU" value={dpu ? `${dpu.toFixed(2)} sen` : '—'} />
-        <MetricCell label="Yield" value={dividendYield ? formatPercentage(dividendYield) : '—'} />
-        <MetricCell label="NAV" value={nav ? formatRM(nav) : '—'} highlight />
+        <MetricCell label="DPU" value={typeof dpu === 'number' ? `${dpu.toFixed(2)} sen` : '—'} />
+        <MetricCell label="Yield" value={typeof dividendYield === 'number' ? formatPercentage(dividendYield) : '—'} />
+        <MetricCell label="NAV" value={typeof nav === 'number' ? formatRM(nav) : '—'} highlight />
       </div>
       
       {/* Secondary metrics */}
       <div className="grid grid-cols-3 gap-px bg-gray-100 border-t border-gray-200">
-        <MetricCell label="Gearing" value={gearing ? formatPercentage(gearing / 100) : '—'} />
-        <MetricCell label="Occupancy" value={occupancy ? formatPercentage(occupancy / 100) : '—'} />
-        <MetricCell label="Market Cap" value={marketCap ? formatRM(marketCap / 1e6, 1) : '—'} />
+        <MetricCell label="Gearing" value={typeof gearing === 'number' ? formatPercentage(gearing / 100) : '—'} />
+        <MetricCell label="Occupancy" value={typeof occupancy === 'number' ? formatPercentage(occupancy / 100) : '—'} />
+        <MetricCell label="Market Cap" value={typeof marketCap === 'number' ? formatRM(marketCap / 1e6, 1) : '—'} />
       </div>
       
       {/* Actions */}

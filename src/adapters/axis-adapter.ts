@@ -80,7 +80,7 @@ export class AxisAdapter {
    * Build normalized entity object
    */
   buildEntity(): Entity {
-    const entityRefs = this.getDisplayIds(['A:1', 'A:6', 'A:31', 'A:32', 'A:35', 'A:38']);
+    const entityRefs = ['A:1', 'A:6', 'A:31', 'A:32', 'A:35', 'A:38'];
     
     // Convert display IDs to reference UUIDs
     const refUuids: string[] = [];
@@ -825,10 +825,6 @@ export class AxisAdapter {
         metricType: params.metricType
       });
     }
-  }
-
-  private getDisplayIds(ids: string[]): string[] {
-    return ids;
   }
 
   private generateId(): string {

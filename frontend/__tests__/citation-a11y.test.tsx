@@ -68,7 +68,7 @@ const mockEntity: NormalizedReitData = {
   riskAssessment: {
     id: 'risk-1',
     entityId: 'entity-1',
-    assessmentDate: new Date().toISOString(),
+    assessmentDate: new Date().toISOString().slice(0, 10),
     overallRiskRating: 'moderate',
     riskFactors: [],
   },

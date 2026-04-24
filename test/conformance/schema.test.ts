@@ -18,15 +18,18 @@ describe('Schema Conformance', () => {
     const samplesDir = path.join(__dirname, '..', 'samples');
     
     try {
-      atriumData = JSON.parse(fs.readFileSync(path.join(samplesDir, 'atrium-normalized.json'), 'utf-8'));
+      const raw = fs.readFileSync(path.join(samplesDir, 'atrium-normalized.json'), 'utf-8');
+      atriumData = JSON.parse(raw);
     } catch (e) {
-      // Data may not exist yet during development
+      // eslint-disable-next-line no-console
+      console.warn('[schema.test] atrium-normalized.json not readable:', (e as Error).message);
     }
     
     try {
       axisData = JSON.parse(fs.readFileSync(path.join(samplesDir, 'axis-normalized.json'), 'utf-8'));
     } catch (e) {
-      // Data may not exist yet during development
+      // eslint-disable-next-line no-console
+      console.warn('[schema.test] axis-normalized.json not readable:', (e as Error).message);
     }
   });
 
@@ -130,9 +133,9 @@ describe('Schema Conformance', () => {
       if (!atriumData?.metrics) return;
       
       for (const metric of atriumData.metrics) {
-        if (typeof metric.value === 'number') {
-          expect(isNaN(metric.value)).toBe(false);
-        }
+        // Ensure value is a number, not string/null/undefined/object
+        expect(typeof metric.value).toBe('number');
+        expect(isNaN(metric.value)).toBe(false);
       }
     });
 
