@@ -52,22 +52,27 @@ export default function MonitorPage() {
     maxMarketCap: null,
   });
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
-  const [sort, setSort] = useState<{ field: SortField; direction: SortDirection }>({
-    field: 'market_cap',
-    direction: 'desc',
-  });
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
 
-  // Sync FilterBar sort controls to table sort state
-  React.useEffect(() => {
-    const newField = SORT_FIELD_MAP[filters.sortBy];
-    if (newField) {
-      setSort(prev => ({
-        field: newField,
-        direction: filters.sortOrder
-      }));
-    }
-  }, [filters.sortBy, filters.sortOrder]);
+  // Derive sort state from filters (single source of truth)
+  const sort = useMemo(() => ({
+    field: SORT_FIELD_MAP[filters.sortBy] || 'name',
+    direction: filters.sortOrder,
+  }), [filters.sortBy, filters.sortOrder]);
+
+  // Reverse mapping for updating filters from table sort (only mappable fields)
+  const getFilterSortBy = (field: SortField): string | null => {
+    const map: Partial<Record<SortField, string>> = {
+      'market_cap': 'market_cap',
+      'dpu': 'dpu',
+      'dividend_yield_market': 'yield',
+      'gearing_ratio': 'gearing',
+      'name': 'name',
+      'code': 'code',
+      'citation_count': 'citation_count',
+    };
+    return map[field] || null;
+  };
 
   // Citation panel state
   const [citationOpen, setCitationOpen] = useState(false);
@@ -137,13 +142,13 @@ export default function MonitorPage() {
     });
   }, [filteredEntities, sort]);
   
-  // Handle sort
+  // Handle sort - updates filters directly (URL state)
   const handleSort = (field: SortField) => {
-    setSort(prev => ({
-      field,
-      direction: prev.field === field && prev.direction === 'desc' ? 'asc' : 'desc',
-    }));
-    announce(`Sorted by ${field} in ${sort.direction === 'desc' ? 'ascending' : 'descending'} order`, 'polite');
+    const filterSortBy = getFilterSortBy(field);
+    if (!filterSortBy) return; // Field not mappable to filter state
+    const newSortOrder = sort.field === field && sort.direction === 'desc' ? 'asc' : 'desc';
+    setFilters(prev => ({ ...prev, sortBy: filterSortBy, sortOrder: newSortOrder }));
+    announce(`Sorted by ${field} in ${newSortOrder === 'desc' ? 'descending' : 'ascending'} order`, 'polite');
   };
   
   // Handle selection

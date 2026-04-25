@@ -11,8 +11,7 @@ import { RiskMatrix } from '../../components/RiskMatrix';
 import { CitationPanel } from '../../components/CitationPanel';
 import { useAnnouncer } from '../../hooks/useAnnouncer';
 import { analyzeCitationCoverage } from '../../lib/citation-utils';
-
-const entityColors = ['#2563eb', '#16a34a', '#ea580c']; // blue, green, orange
+import { entityColors } from '../../lib/grid-utils';
 
 export default function ComparePage() {
   const { selectedEntities, metricCategory, toggleEntity, setMetricCategory } = useUrlState();
@@ -197,26 +196,26 @@ export default function ComparePage() {
 
             {/* Charts Section */}
             {chartsVisible && (
-              <div id="charts-section" className="space-y-3">
-                {/* Charts Row */}
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
-                  {/* DPU Trend */}
-                  <div className="bg-surface rounded-lg shadow-card p-3">
-                    <h3 className="text-sm font-semibold text-ink mb-2">DPU Trend (5-Year)</h3>
-                    <DpuTrendChart entities={data} />
+              <div id="charts-section" className="space-y-4">
+                <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+                  <div className="flex min-h-0 flex-col rounded-lg border border-stroke bg-surface p-4 shadow-card">
+                    <h3 className="mb-2 text-sm font-semibold text-ink">DPU trend (5 years)</h3>
+                    <div className="min-h-0 flex-1">
+                      <DpuTrendChart entities={data} />
+                    </div>
                   </div>
 
-                  {/* Revenue Trend */}
-                  <div className="bg-surface rounded-lg shadow-card p-3">
-                    <h3 className="text-sm font-semibold text-ink mb-2">Quarterly Revenue</h3>
-                    <RevenueTrendChart entities={data} />
+                  <div className="flex min-h-0 flex-col rounded-lg border border-stroke bg-surface p-4 shadow-card">
+                    <h3 className="mb-2 text-sm font-semibold text-ink">Quarterly revenue</h3>
+                    <div className="min-h-0 flex-1">
+                      <RevenueTrendChart entities={data} />
+                    </div>
                   </div>
                 </div>
 
-                {/* Risk Matrix */}
-                <div className="bg-surface rounded-lg shadow-card p-3">
-                  <h3 className="text-sm font-semibold text-ink mb-2">Risk Assessment</h3>
-                  <RiskMatrix entities={data} onCitationClick={handleMetricClick} />
+                <div className="rounded-lg border border-stroke bg-surface p-4 shadow-card">
+                  <h3 className="mb-2 text-sm font-semibold text-ink">Risk assessment</h3>
+                  <RiskMatrix entities={data} onCitationClick={handleMetricClick} embedInPanel />
                 </div>
               </div>
             )}

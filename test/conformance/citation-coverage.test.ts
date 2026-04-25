@@ -194,6 +194,23 @@ describe('Citation Coverage', () => {
       expect(result.valid.length).toBe(3);
       expect(result.invalid.length).toBe(0);
     });
+
+    it('should accept valid CMMT display IDs as format-valid', () => {
+      // CMMT uses C: prefix with 5180.KL entity code
+      // Note: validateDisplayIds checks both format AND registration
+      // C: IDs won't be "valid" until registered, but should NOT be "invalid" (format error)
+      const result = atriumLinker.validateDisplayIds(['C:1', 'C:100', 'C:500']);
+      // These should pass format validation (not invalid), but be marked as missing (not registered)
+      expect(result.invalid.length).toBe(0); // Format is valid
+      expect(result.missing.length).toBe(3); // But not registered yet
+    });
+
+    it('should reject invalid C-prefixed display IDs with bad format', () => {
+      // Invalid: no number after C:
+      const result = atriumLinker.validateDisplayIds(['C:', 'C:abc', 'C:10000']);
+      // C: and C:abc should be format-invalid; C:10000 may be valid format depending on regex
+      expect(result.invalid.length).toBeGreaterThan(0);
+    });
   });
 
   describe('Citation Link Quality', () => {

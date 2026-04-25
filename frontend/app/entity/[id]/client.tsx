@@ -5,7 +5,6 @@ import { useEntityData, AVAILABLE_ENTITIES } from '../../../hooks/useEntityData'
 import { KpiGrid } from '../../../components/KpiGrid';
 import { DpuTrendChart } from '../../../components/DpuTrendChart';
 import { RiskMatrix } from '../../../components/RiskMatrix';
-import { MetricCard } from '../../../components/MetricCard';
 import { CitationPanel } from '../../../components/CitationPanel';
 import { useAnnouncer } from '../../../hooks/useAnnouncer';
 import { useState, useMemo } from 'react';
@@ -102,6 +101,13 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
     );
   }
 
+  const cardShell =
+    'rounded-lg border border-stroke bg-surface p-4 shadow-card';
+  const cardTitle = 'text-sm font-semibold text-neutral-900 mb-2';
+  const metricLabel = 'text-xs text-neutral-500 mb-1';
+  const metricValue = 'text-xl font-bold text-neutral-900';
+  const metricSub = 'text-xs text-neutral-500 mt-2';
+
   return (
     <div className="min-h-screen bg-neutral-50">
       {/* Screen reader announcements */}
@@ -146,7 +152,7 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
 
       <main className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 py-5">
         {/* Citation Filter Bar */}
-        <div className="mb-4 bg-white rounded-lg shadow-card p-3">
+        <div className={cardShell + ' mb-4'}>
           <div className="flex flex-wrap items-center gap-2">
             <span className="text-xs font-medium text-neutral-600">Filter sources by type:</span>
             <div className="flex flex-wrap gap-2">
@@ -190,66 +196,75 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
           </div>
         </div>
 
-        {/* Overview Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-          {/* Portfolio Size */}
-          <div className="bg-white rounded-xl shadow-card p-6">
-            <p className="text-sm text-neutral-500 mb-1">Portfolio Size</p>
-            <p className="text-2xl font-bold text-neutral-900">
-              {entity.metrics.find(m => m.metricType === 'property_count')?.value || 'N/A'} 
-              <span className="text-sm font-normal text-neutral-500 ml-1">properties</span>
-            </p>
-            <p className="text-sm text-neutral-500 mt-2">
-              RM {(entity.metrics.find(m => m.metricType === 'total_assets')?.value as number / 1e6).toFixed(1)}M AUM
-            </p>
-          </div>
-
-          {/* DPU */}
-          <div className="bg-white rounded-xl shadow-card p-6">
-            <p className="text-sm text-neutral-500 mb-1">Distribution Per Unit</p>
-            <p className="text-2xl font-bold text-neutral-900">
-              {entity.metrics.find(m => m.metricType === 'dpu')?.value || 'N/A'}
-              <span className="text-sm font-normal text-neutral-500 ml-1">sen</span>
-            </p>
-            <p className="text-sm text-neutral-500 mt-2">
-              Yield: {formatPercentage((entity.metrics.find(m => m.metricType === 'dividend_yield_market')?.value as number) / 100)}
+        <div className="mb-6 grid grid-cols-1 gap-4 md:grid-cols-3 md:items-stretch">
+          <div className={cardShell + ' flex min-h-0 flex-col justify-between'}>
+            <div>
+              <p className={metricLabel}>Portfolio Size</p>
+              <p className={metricValue}>
+                {entity.metrics.find(m => m.metricType === 'property_count')?.value || 'N/A'}
+                <span className="ml-1 text-xs font-normal text-neutral-500">properties</span>
+              </p>
+            </div>
+            <p className={metricSub}>
+              RM {((entity.metrics.find(m => m.metricType === 'total_assets')?.value as number) / 1e6).toFixed(1)}M
+              AUM
             </p>
           </div>
 
-          {/* Gearing */}
-          <div className="bg-white rounded-xl shadow-card p-6">
-            <p className="text-sm text-neutral-500 mb-1">Gearing Ratio</p>
-            <p className="text-2xl font-bold text-neutral-900">
-              {formatPercentage((entity.metrics.find(m => m.metricType === 'gearing_ratio')?.value as number) / 100)}
-            </p>
-            <p className="text-sm text-neutral-500 mt-2">
-              IC: {entity.metrics.find(m => m.metricType === 'interest_coverage')?.value || 'N/A'}x
+          <div className={cardShell + ' flex min-h-0 flex-col justify-between'}>
+            <div>
+              <p className={metricLabel}>Distribution per unit</p>
+              <p className={metricValue}>
+                {entity.metrics.find(m => m.metricType === 'dpu')?.value || 'N/A'}
+                <span className="ml-1 text-xs font-normal text-neutral-500">sen</span>
+              </p>
+            </div>
+            <p className={metricSub}>
+              Yield: {(() => {
+                const val = entity.metrics.find(m => m.metricType === 'dividend_yield_market')?.value;
+                return (val == null || typeof val !== 'number') ? 'N/A' : formatPercentage(val / 100);
+              })()}
             </p>
           </div>
-        </div>
 
-        {/* Charts */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-          <div className="bg-white rounded-xl shadow-card p-6">
-            <h3 className="text-sm font-semibold text-neutral-900 mb-3">DPU Trend</h3>
-            <DpuTrendChart entities={data} />
-          </div>
-
-          <div className="bg-white rounded-xl shadow-card p-6">
-            <h3 className="text-sm font-semibold text-neutral-900 mb-3">Risk Profile</h3>
-            <RiskMatrix entities={data} onCitationClick={handleMetricClick} />
+          <div className={cardShell + ' flex min-h-0 flex-col justify-between'}>
+            <div>
+              <p className={metricLabel}>Gearing ratio</p>
+              <p className={metricValue}>
+                {formatPercentage(
+                  (entity.metrics.find(m => m.metricType === 'gearing_ratio')?.value as number) / 100,
+                )}
+              </p>
+            </div>
+            <p className={metricSub}>
+              IC: {entity.metrics.find(m => m.metricType === 'interest_coverage')?.value || 'N/A'}×
+            </p>
           </div>
         </div>
 
-        {/* Key Metrics */}
-        <div className="mb-8">
-          <h3 className="text-sm font-semibold text-neutral-900 mb-3">All Metrics</h3>
+        <div className="mb-6 grid grid-cols-1 gap-4 lg:grid-cols-2 lg:items-stretch">
+          <div className={cardShell + ' flex min-h-0 flex-col'}>
+            <h3 className={cardTitle}>DPU trend (5 years)</h3>
+            <div className="min-h-0 flex-1">
+              <DpuTrendChart entities={data} />
+            </div>
+          </div>
+
+          <div className={cardShell + ' flex min-h-0 flex-col'}>
+            <h3 className={cardTitle}>Risk profile</h3>
+            <div className="min-h-0 flex-1">
+              <RiskMatrix entities={data} onCitationClick={handleMetricClick} embedInPanel />
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-6">
+          <h3 className="mb-3 text-sm font-semibold text-neutral-900">All metrics</h3>
           <KpiGrid entities={data} category="all" onMetricClick={handleMetricClick} />
         </div>
 
-        {/* Management Info */}
-        <div className="bg-white rounded-xl shadow-card p-6 mb-8">
-          <h3 className="text-sm font-semibold text-neutral-900 mb-3">Management</h3>
+        <div className={cardShell + ' mb-6'}>
+          <h3 className={cardTitle}>Management</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <p className="text-sm text-neutral-500">REIT Manager</p>

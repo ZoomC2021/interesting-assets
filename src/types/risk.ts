@@ -74,7 +74,7 @@ export const RiskFactorDetailSchema = z.object({
   monitoringTriggers: z.array(z.string()),
   
   // Citations
-  sourceDisplayIds: z.array(z.string().regex(/^[TA]:\d+$/)).min(1)
+  sourceDisplayIds: z.array(z.string().regex(/^[TAC]:\d+$/)).min(1)
 });
 
 // ============================================================================
@@ -146,7 +146,7 @@ export const RiskAssessmentExtendedSchema = z.object({
   }),
   
   // Citations
-  sourceDisplayIds: z.array(z.string().regex(/^[TA]:\d+$/)).min(1)
+  sourceDisplayIds: z.array(z.string().regex(/^[TAC]:\d+$/)).min(1)
 });
 
 // ============================================================================

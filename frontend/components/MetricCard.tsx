@@ -105,7 +105,7 @@ export function MetricCard({
       
       {/* Metric value with quality indicators */}
       <div className="flex items-center gap-2">
-        <p className="text-2xl font-bold text-neutral-900">
+        <p className="text-xl font-bold text-neutral-900">
           {formattedValue}
         </p>
         

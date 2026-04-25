@@ -1,0 +1,74 @@
+diff --git a/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js b/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+index 77d0d1a..1289a8d 100644
+--- a/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
++++ b/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+@@ -235,9 +235,13 @@ async function startWatcher(opts) {
+             let conflictingPageChange = 0;
+             let hasRootAppNotFound = false;
+             const { appFiles, pageFiles } = opts.fsChecker;
+-            appFiles.clear();
+-            pageFiles.clear();
+-            _shared1.devPageFiles.clear();
++            // Do not clear route sets until the scan loop finishes. Clearing at the
++            // start of an async loop yields the event loop, so in-flight requests can
++            // see an empty set and get 404 (vercel/next.js#82315).
++            const pendingAppFiles = new Set();
++            const pendingPageFiles = new Set();
++            const pendingDevPageFiles = new Set();
++            const pendingNextDataRoutes = new Set();
+             const sortedKnownFiles = [
+                 ...knownFiles.keys()
+             ].sort((0, _entries.sortByPageExts)(nextConfig.pageExtensions));
+@@ -313,7 +317,7 @@ async function startWatcher(opts) {
+                     continue;
+                 }
+                 // Collect all current filenames for the TS plugin to use
+-                _shared1.devPageFiles.add(fileName);
++                pendingDevPageFiles.add(fileName);
+                 let pageName = (0, _absolutepathtopage.absolutePathToPage)(fileName, {
+                     dir: isAppPath ? appDir : pagesDir,
+                     extensions: nextConfig.pageExtensions,
+@@ -344,17 +348,17 @@ async function startWatcher(opts) {
+                     }
+                     appPaths[pageName].push(originalPageName);
+                     if (useFileSystemPublicRoutes) {
+-                        appFiles.add(pageName);
++                        pendingAppFiles.add(pageName);
+                     }
+                     if (routedPages.includes(pageName)) {
+                         continue;
+                     }
+                 } else {
+                     if (useFileSystemPublicRoutes) {
+-                        pageFiles.add(pageName);
++                        pendingPageFiles.add(pageName);
+                         // always add to nextDataRoutes for now but in future only add
+                         // entries that actually use getStaticProps/getServerSideProps
+-                        opts.fsChecker.nextDataRoutes.add(pageName);
++                        pendingNextDataRoutes.add(pageName);
+                     }
+                 }
+                 (isAppPath ? appPageFilePaths : pagesPageFilePaths).set(pageName, fileName);
+@@ -372,6 +376,22 @@ async function startWatcher(opts) {
+                 }
+                 routedPages.push(pageName);
+             }
++            appFiles.clear();
++            for (const p of pendingAppFiles){
++                appFiles.add(p);
++            }
++            pageFiles.clear();
++            for (const p of pendingPageFiles){
++                pageFiles.add(p);
++            }
++            _shared1.devPageFiles.clear();
++            for (const f of pendingDevPageFiles){
++                _shared1.devPageFiles.add(f);
++            }
++            opts.fsChecker.nextDataRoutes.clear();
++            for (const p of pendingNextDataRoutes){
++                opts.fsChecker.nextDataRoutes.add(p);
++            }
+             const numConflicting = conflictingAppPagePaths.size;
+             conflictingPageChange = numConflicting - previousConflictingPagePaths.size;
+             if (conflictingPageChange !== 0) {

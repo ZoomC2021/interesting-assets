@@ -1,7 +1,8 @@
 /**
  * Generate Sample Normalized Data
  * 
- * Creates validated sample outputs for both Atrium and Axis REITs.
+ * Creates validated sample outputs for all 6 REITs.
+ * Writes to both test/samples/ and frontend/public/data/
  * Run: npx ts-node scripts/generate-samples.ts
  */
 
@@ -10,6 +11,30 @@ import * as path from 'path';
 import { createCitationLinker } from '../src/adapters/citation-linker';
 import { createAtriumAdapter } from '../src/adapters/atrium-adapter';
 import { createAxisAdapter } from '../src/adapters/axis-adapter';
+import { createSunwayAdapter } from '../src/adapters/sunway-adapter';
+import { createPavilionAdapter } from '../src/adapters/pavilion-adapter';
+import { createIgbAdapter } from '../src/adapters/igb-adapter';
+import { createUoaAdapter } from '../src/adapters/uoa-adapter';
+import { createCMMTAdapter } from '../src/adapters/cmmt-adapter';
+
+/**
+ * Write output to both test/samples and frontend/public/data directories
+ */
+function writeOutputFiles(entityName: string, output: unknown): void {
+  const jsonContent = JSON.stringify(output, null, 2);
+
+  // Write to test/samples/[entity]-normalized.json
+  const testPath = path.join(__dirname, '..', 'test', 'samples', `${entityName}-normalized.json`);
+  fs.mkdirSync(path.dirname(testPath), { recursive: true });
+  fs.writeFileSync(testPath, jsonContent);
+  console.log(`   ✅ Test sample: ${testPath}`);
+
+  // Write to frontend/public/data/[entity].json
+  const frontendPath = path.join(__dirname, '..', 'frontend', 'public', 'data', `${entityName}.json`);
+  fs.mkdirSync(path.dirname(frontendPath), { recursive: true });
+  fs.writeFileSync(frontendPath, jsonContent);
+  console.log(`   ✅ Frontend data: ${frontendPath}`);
+}
 
 function generateAtriumSample(): void {
   console.log('Generating Atrium REIT sample...');
@@ -27,17 +52,14 @@ function generateAtriumSample(): void {
   // Generate output
   const output = adapter.generateOutput();
 
-  // Write to file
-  const outputPath = path.join(__dirname, '..', 'test', 'samples', 'atrium-normalized.json');
-  fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-  fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
+  // Write to both locations
+  writeOutputFiles('atrium', output);
   
-  console.log(`✅ Atrium sample written to ${outputPath}`);
-  console.log(`   - ${output.references.length} references`);
-  console.log(`   - ${output.metrics.length} metrics`);
-  console.log(`   - ${output.timeSeries.length} time series`);
-  console.log(`   - ${output.observations.length} observations`);
-  console.log(`   - ${output.riskAssessment.riskFactors.length} risk factors`);
+  console.log(`   📊 ${output.references.length} references`);
+  console.log(`   📊 ${output.metrics.length} metrics`);
+  console.log(`   📊 ${output.timeSeries.length} time series`);
+  console.log(`   📊 ${output.observations.length} observations`);
+  console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
 }
 
 function generateAxisSample(): void {
@@ -56,20 +78,143 @@ function generateAxisSample(): void {
   // Generate output
   const output = adapter.generateOutput();
 
-  // Write to file
-  const outputPath = path.join(__dirname, '..', 'test', 'samples', 'axis-normalized.json');
-  fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-  fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
+  // Write to both locations
+  writeOutputFiles('axis', output);
   
-  console.log(`✅ Axis sample written to ${outputPath}`);
-  console.log(`   - ${output.references.length} references`);
-  console.log(`   - ${output.metrics.length} metrics`);
-  console.log(`   - ${output.timeSeries.length} time series`);
-  console.log(`   - ${output.observations.length} observations`);
-  console.log(`   - ${output.riskAssessment.riskFactors.length} risk factors`);
+  console.log(`   📊 ${output.references.length} references`);
+  console.log(`   📊 ${output.metrics.length} metrics`);
+  console.log(`   📊 ${output.timeSeries.length} time series`);
+  console.log(`   📊 ${output.observations.length} observations`);
+  console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
+}
+
+function generateSunwaySample(): void {
+  console.log('Generating Sunway REIT sample...');
+
+  const linker = createCitationLinker();
+  
+  const sunwayRefs = JSON.parse(fs.readFileSync(
+    path.join(__dirname, '..', 'sunway-reit-references.json'), 'utf-8'
+  ));
+  
+  const adapter = createSunwayAdapter(linker);
+  adapter.processReferences(sunwayRefs);
+  
+  const output = adapter.generateOutput();
+
+  // Write to both locations
+  writeOutputFiles('sunway', output);
+  
+  console.log(`   📊 ${output.references.length} references`);
+  console.log(`   📊 ${output.metrics.length} metrics`);
+  console.log(`   📊 ${output.timeSeries.length} time series`);
+  console.log(`   📊 ${output.observations.length} observations`);
+  console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
+}
+
+function generatePavilionSample(): void {
+  console.log('Generating Pavilion REIT sample...');
+
+  const linker = createCitationLinker();
+  
+  const pavilionRefs = JSON.parse(fs.readFileSync(
+    path.join(__dirname, '..', 'pavilion-reit-references.json'), 'utf-8'
+  ));
+  
+  const adapter = createPavilionAdapter(linker);
+  adapter.processReferences(pavilionRefs);
+  
+  const output = adapter.generateOutput();
+
+  // Write to both locations
+  writeOutputFiles('pavilion', output);
+  
+  console.log(`   📊 ${output.references.length} references`);
+  console.log(`   📊 ${output.metrics.length} metrics`);
+  console.log(`   📊 ${output.timeSeries.length} time series`);
+  console.log(`   📊 ${output.observations.length} observations`);
+  console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
+}
+
+function generateIgbSample(): void {
+  console.log('Generating IGB REIT sample...');
+
+  const linker = createCitationLinker();
+  
+  const igbRefs = JSON.parse(fs.readFileSync(
+    path.join(__dirname, '..', 'igb-reit-references.json'), 'utf-8'
+  ));
+  
+  const adapter = createIgbAdapter(linker);
+  adapter.processReferences(igbRefs);
+  
+  const output = adapter.generateOutput();
+
+  // Write to both locations
+  writeOutputFiles('igb', output);
+  
+  console.log(`   📊 ${output.references.length} references`);
+  console.log(`   📊 ${output.metrics.length} metrics`);
+  console.log(`   📊 ${output.timeSeries.length} time series`);
+  console.log(`   📊 ${output.observations.length} observations`);
+  console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
+}
+
+function generateUoaSample(): void {
+  console.log('Generating UOA REIT sample...');
+
+  const linker = createCitationLinker();
+  
+  const uoaRefs = JSON.parse(fs.readFileSync(
+    path.join(__dirname, '..', 'uoa-reit-references.json'), 'utf-8'
+  ));
+  
+  const adapter = createUoaAdapter(linker);
+  adapter.processReferences(uoaRefs);
+  
+  const output = adapter.generateOutput();
+
+  // Write to both locations
+  writeOutputFiles('uoa', output);
+  
+  console.log(`   📊 ${output.references.length} references`);
+  console.log(`   📊 ${output.metrics.length} metrics`);
+  console.log(`   📊 ${output.timeSeries.length} time series`);
+  console.log(`   📊 ${output.observations.length} observations`);
+  console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
+}
+
+function generateCMMTSample(): void {
+  console.log('Generating CMMT (CapitaLand Malaysia Trust) sample...');
+
+  const linker = createCitationLinker();
+  
+  // Load references
+  const cmmtRefs = JSON.parse(fs.readFileSync(
+    path.join(__dirname, '..', 'cmmt-reit-references.json'), 'utf-8'
+  ));
+  
+  // Process through adapter
+  const adapter = createCMMTAdapter(linker);
+  adapter.processReferences(cmmtRefs);
+  const output = adapter.generateOutput();
+  
+  // Write output files
+  writeOutputFiles('cmmt', output);
+  
+  console.log(`   📊 ${output.references.length} references`);
+  console.log(`   📊 ${output.metrics.length} metrics`);
+  console.log(`   📊 ${output.timeSeries.length} time series`);
+  console.log(`   📊 ${output.observations.length} observations`);
+  console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
 }
 
 // Run generation
 generateAtriumSample();
 generateAxisSample();
+generateSunwaySample();
+generatePavilionSample();
+generateIgbSample();
+generateUoaSample();
+generateCMMTSample();
 console.log('\n✅ Sample generation complete');

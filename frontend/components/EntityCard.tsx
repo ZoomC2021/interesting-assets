@@ -121,7 +121,9 @@ export function EntityCard({
         <div className="flex items-end justify-between">
           <div>
             <div className="text-label">Dividend Yield</div>
-            <div className="text-metric">{formatPercentage(dividendYield / 100)}</div>
+            <div className="text-metric">
+              {typeof dividendYield === 'number' ? formatPercentage(dividendYield / 100) : 'N/A'}
+            </div>
           </div>
           <RiskBadge severity={riskSeverity} size="sm" />
         </div>
@@ -140,11 +142,15 @@ export function EntityCard({
           </div>
           <div>
             <dt className="text-label">Gearing</dt>
-            <dd className="text-metric-sm">{formatPercentage(gearing / 100) || '—'}</dd>
+            <dd className="text-metric-sm">
+              {typeof gearing === 'number' ? formatPercentage(gearing / 100) : '—'}
+            </dd>
           </div>
           <div>
             <dt className="text-label">Occupancy</dt>
-            <dd className="text-metric-sm">{formatPercentage(occupancy / 100) || '—'}</dd>
+            <dd className="text-metric-sm">
+              {typeof occupancy === 'number' ? formatPercentage(occupancy / 100) : '—'}
+            </dd>
           </div>
         </dl>
       </div>

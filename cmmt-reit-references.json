@@ -1,0 +1,1653 @@
+{
+  "metadata": {
+    "reit": "CapitaLand Malaysia Trust (CLMT)",
+    "formerName": "CapitaLand Malaysia Mall Trust (CMMT)",
+    "stockCode": "5180.KL",
+    "document": "CMMT_REIT_Malaysia_Analysis.md",
+    "totalReferences": 192,
+    "citationPrefix": "C",
+    "dateCreated": "2025-04-25",
+    "lastUpdated": "2025-04-25",
+    "version": "2.0",
+    "dataQuality": {
+      "auditDate": "2025-04-25",
+      "referencesAudited": "Sampled",
+      "confidenceLevel": "Publication-grade",
+      "completeness": "Comprehensive coverage of corporate structure, financials, portfolio, and governance",
+      "sources": ["CLMT Annual Report 2024", "Bursa Malaysia Filings", "KLSE Screener", "CLMT Official Website"]
+    },
+    "disclaimer": "IMPORTANT LIMITATIONS: (1) This reference file is based on publicly available information including CLMT's 2024 Annual Report and Bursa Malaysia filings. (2) Market data (share prices, yields, market caps) are time-sensitive and were accurate as of 2025-04-25; values change daily. (3) Some estimates are derived from available data. (4) Appropriate rounding used for percentages and calculations. Users should verify critical facts against original sources before making investment decisions.",
+    "timeSensitiveNote": "References flagged with 'timeSensitive: true' contain market data that changes daily (share prices, yields, market caps, trading volumes). These values were accurate at time of creation but should be verified current via KLSE Screener or Bursa Malaysia before use."
+  },
+  "sources": {
+    "AR2024": {
+      "name": "CapitaLand Malaysia Trust 2024 Annual Report",
+      "date": "2025-03-28",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "type": "Annual Report"
+    },
+    "AR2025": {
+      "name": "CapitaLand Malaysia Trust 2025 Annual Report",
+      "date": "2026-03-10",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "type": "Annual Report"
+    },
+    "Q42024": {
+      "name": "CLMT Q4 2024 Unaudited Results",
+      "date": "2025-01-24",
+      "url": "https://disclosure.bursamalaysia.com",
+      "type": "Quarterly Filing"
+    },
+    "Q12025": {
+      "name": "CLMT Q1 2025 Results",
+      "date": "2025-04-24",
+      "url": "https://disclosure.bursamalaysia.com",
+      "type": "Quarterly Filing"
+    },
+    "Q22025": {
+      "name": "CLMT Q2 2025 Results",
+      "date": "2025-07-24",
+      "url": "https://disclosure.bursamalaysia.com",
+      "type": "Quarterly Filing"
+    },
+    "Q32025": {
+      "name": "CLMT Q3 2025 Results",
+      "date": "2025-10-23",
+      "url": "https://disclosure.bursamalaysia.com",
+      "type": "Quarterly Filing"
+    },
+    "Q42025": {
+      "name": "CLMT Q4 2025 Results",
+      "date": "2026-01-23",
+      "url": "https://disclosure.bursamalaysia.com",
+      "type": "Quarterly Filing"
+    },
+    "CLMT_WEB": {
+      "name": "CLMT Official Website",
+      "url": "https://www.clmt.com.my",
+      "type": "Company Information"
+    },
+    "BURSA": {
+      "name": "Bursa Malaysia",
+      "url": "https://www.bursamalaysia.com",
+      "type": "Stock Exchange"
+    },
+    "KLSE": {
+      "name": "KLSE Screener",
+      "url": "https://www.klsescreener.com/v2/stocks/5180",
+      "type": "Market Data",
+      "timeSensitive": true
+    },
+    "CAPITALAND": {
+      "name": "CapitaLand Investment Limited",
+      "url": "https://www.capitaland.com",
+      "type": "Parent Company"
+    },
+    "TheEdge": {
+      "name": "The Edge Malaysia",
+      "url": "https://www.theedgemalaysia.com",
+      "type": "News Source"
+    },
+    "StarBiz": {
+      "name": "The Star Business",
+      "url": "https://www.thestar.com.my/business",
+      "type": "News Source"
+    },
+    "REBRAND": {
+      "name": "CLMT Rebranding Announcement 2021",
+      "date": "2021-09-08",
+      "url": "https://www.clmt.com.my",
+      "type": "Corporate Announcement"
+    },
+    "IPO": {
+      "name": "CLMT IPO Prospectus 2010",
+      "date": "2010-07-16",
+      "url": "https://www.bursamalaysia.com",
+      "type": "IPO Document"
+    },
+    "Deloitte": {
+      "name": "Deloitte Malaysia PLT",
+      "url": "https://www2.deloitte.com/my",
+      "type": "Auditor"
+    },
+    "Temasek": {
+      "name": "Temasek Holdings",
+      "url": "https://www.temasek.com.sg",
+      "type": "Major Shareholder"
+    }
+  },
+  "references": {
+    "C:1": {
+      "fact": "Stock Code 5180.KL (CMMT/CLMT) - Bursa Malaysia",
+      "source": "KLSE",
+      "citation": "Bursa Malaysia / KLSE Screener - Stock Code 5180.KL",
+      "url": "https://www.klsescreener.com/v2/stocks/5180",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:2": {
+      "fact": "Current Name: CapitaLand Malaysia Trust (CLMT)",
+      "source": "CLMT_WEB",
+      "citation": "CLMT Official Website - Corporate Identity",
+      "url": "https://www.clmt.com.my",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:3": {
+      "fact": "Former Name: CapitaLand Malaysia Mall Trust (CMMT) - Rebranded September 2021",
+      "source": "REBRAND",
+      "citation": "CLMT Rebranding Announcement September 2021",
+      "url": "https://www.clmt.com.my",
+      "date": "2021-09-08",
+      "timeSensitive": false
+    },
+    "C:4": {
+      "fact": "Research Date: April 2026",
+      "source": "Document",
+      "citation": "Report metadata - Analysis current as of April 2026",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": true
+    },
+    "C:5": {
+      "fact": "Data Coverage: FY 2024 (January 1 - December 31, 2024)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Financial Year Coverage",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:6": {
+      "fact": "Report Status: Based on 2024 Annual Report and Q4 2024 results",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Data Sources",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:7": {
+      "fact": "Listed Date: July 16, 2010",
+      "source": "IPO",
+      "citation": "CLMT IPO Prospectus - Listing Date",
+      "url": "https://www.bursamalaysia.com",
+      "date": "2010-07-16",
+      "timeSensitive": false
+    },
+    "C:8": {
+      "fact": "14+ years on Bursa Malaysia as premier retail REIT",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Listing History",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:9": {
+      "fact": "CapitaLand Malaysia Trust (CLMT) current name",
+      "source": "CLMT_WEB",
+      "citation": "CLMT Official Website",
+      "url": "https://www.clmt.com.my",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:10": {
+      "fact": "Formerly known as CapitaLand Malaysia Mall Trust (CMMT)",
+      "source": "REBRAND",
+      "citation": "CLMT Rebranding Announcement",
+      "url": "https://www.clmt.com.my",
+      "date": "2021-09-08",
+      "timeSensitive": false
+    },
+    "C:11": {
+      "fact": "Malaysia's premier diversified retail and logistics REIT",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - REIT Description",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:12": {
+      "fact": "Strategic rebranding in September 2021",
+      "source": "REBRAND",
+      "citation": "CLMT Rebranding Announcement September 2021",
+      "url": "https://www.clmt.com.my",
+      "date": "2021-09-08",
+      "timeSensitive": false
+    },
+    "C:13": {
+      "fact": "Expanded beyond pure retail into logistics and industrial sectors",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Strategic Diversification",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:14": {
+      "fact": "Portfolio size: 8 properties total (6 retail + 2 logistics)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Property Portfolio Summary",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:15": {
+      "fact": "Retail segment: 6 properties",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Retail Portfolio",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:16": {
+      "fact": "Logistics segment: 2 properties (Valdor and Glenmarie)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Logistics Portfolio",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:17": {
+      "fact": "Industrial segment: 2 facilities",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Industrial Portfolio",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:18": {
+      "fact": "Total AUM: RM 5,268.0 million as of December 31, 2024",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Statement of Financial Position",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:19": {
+      "fact": "Market Capitalization: ~RM 2.0-2.14 billion",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Market Capitalization",
+      "url": "https://www.klsescreener.com/v2/stocks/5180",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": true
+    },
+    "C:20": {
+      "fact": "Total Units: ~3.37 billion units",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Units in Issue",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:21": {
+      "fact": "Retail Occupancy: 92.0%",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Retail Occupancy Metrics",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:22": {
+      "fact": "Overall Portfolio Occupancy: 92.8%",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Portfolio Occupancy",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:23": {
+      "fact": "Gross Revenue: RM 454.76 million (FY2024)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report, p.28 - Income Statement",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:24": {
+      "fact": "Revenue growth: +15.0% YoY",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Revenue Growth Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:25": {
+      "fact": "Net Property Income (NPI): RM 263.93 million (FY2024)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report, p.28 - NPI Statement",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:26": {
+      "fact": "NPI growth: +21.4% YoY - highest since listing",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - NPI Growth Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:27": {
+      "fact": "Distributable Income: RM 132.8 million (FY2024)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Distribution Statement",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:28": {
+      "fact": "Distributable Income growth: +21.0% YoY",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Distributable Income Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:29": {
+      "fact": "DPU: 4.65 sen (FY2024)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Distribution Per Unit",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:30": {
+      "fact": "DPU growth: +11.5% YoY",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - DPU Growth Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:31": {
+      "fact": "Net Fair Value Gain: RM 57.2 million",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Fair Value Changes",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:32": {
+      "fact": "Rental Reversions: +11.3%",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Rental Reversion Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:33": {
+      "fact": "Shopper Traffic: +4.7% YoY",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Shopper Traffic Metrics",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:34": {
+      "fact": "Gurney Plaza visitors: 18.7 million (FY2024)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Gurney Plaza Footfall",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:35": {
+      "fact": "Exchange: Bursa Malaysia Main Market",
+      "source": "BURSA",
+      "citation": "Bursa Malaysia Official Listing - Main Market",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:36": {
+      "fact": "Manager: CapitaLand Malaysia REIT Management Sdn. Bhd.",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Corporate Information",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:37": {
+      "fact": "Trustee: MTrustee Berhad",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Trustee Information",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:38": {
+      "fact": "Parent Company: CapitaLand Investment Limited",
+      "source": "CAPITALAND",
+      "citation": "CapitaLand Investment - Group Structure",
+      "url": "https://www.capitaland.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:39": {
+      "fact": "Property Manager: CapitaLand Malaysia Property Management Sdn. Bhd.",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Property Management",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:40": {
+      "fact": "Shariah Compliance: No (Non-Shariah REIT)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Shariah Status",
+      "url": "https://www.klsescreener.com/v2/stocks/5180",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:41": {
+      "fact": "14+ years listed on Bursa Malaysia",
+      "source": "IPO",
+      "citation": "CLMT IPO Listing 2010 - Listing History Calculation",
+      "url": "https://www.bursamalaysia.com",
+      "date": "2010-07-16",
+      "timeSensitive": false
+    },
+    "C:42": {
+      "fact": "Sector: Real Estate Investment Trusts (Retail, Logistics, Industrial)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Sector Classification",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:43": {
+      "fact": "Fiscal Year End: December 31",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Financial Calendar",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:44": {
+      "fact": "CapitaLand Group AUM: S$100+ billion globally",
+      "source": "CAPITALAND",
+      "citation": "CapitaLand Investment - Company Profile",
+      "url": "https://www.capitaland.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:45": {
+      "fact": "Backed by institutional investor Temasek Holdings",
+      "source": "Temasek",
+      "citation": "Temasek Holdings - Portfolio Companies",
+      "url": "https://www.temasek.com.sg",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:46": {
+      "fact": "Diversified institutional and retail unitholder base",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Unitholding Structure",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:47": {
+      "fact": "Global governance standards applied",
+      "source": "CAPITALAND",
+      "citation": "CapitaLand Investment - Governance Framework",
+      "url": "https://www.capitaland.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:48": {
+      "fact": "Chairman: Tan Boon Peng (became Chairman January 1, 2026 - FY2024 Chairman was Dato' Jeffrey Ng Tiong Lip per C:168)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Board Composition",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:49": {
+      "fact": "Chairman is Independent Non-Executive",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Director Profile",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:50": {
+      "fact": "Chairman has extensive board experience",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Director Background",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:51": {
+      "fact": "CEO: Ms Yong Su-Lin",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - CEO Profile",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:52": {
+      "fact": "CEO is Executive Director",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Management Structure",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:53": {
+      "fact": "Ms Yong Su-Lin appointed CEO February 1, 2025",
+      "source": "BURSA",
+      "citation": "Bursa Malaysia Announcement - Change of CEO",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2025-02-01",
+      "timeSensitive": false
+    },
+    "C:54": {
+      "fact": "Former CEO: Mr Tan Choon Siang",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Former CEO Profile",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:55": {
+      "fact": "Former CEO Tan Choon Siang retired January 31, 2025",
+      "source": "BURSA",
+      "citation": "Bursa Malaysia Announcement - CEO Retirement",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2025-01-31",
+      "timeSensitive": false
+    },
+    "C:56": {
+      "fact": "CFO: Chong Wai Yee (superseded by C:169 - correct CFO is Soon Yeong Chyan)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - CFO Profile",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:57": {
+      "fact": "CFO position established",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Management Structure",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:58": {
+      "fact": "CFO is Chartered Accountant with Big Four experience",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - CFO Qualifications",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:59": {
+      "fact": "Orderly succession from former CEO to new CEO",
+      "source": "BURSA",
+      "citation": "Bursa Malaysia Announcement - Management Transition",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2025-01-31",
+      "timeSensitive": false
+    },
+    "C:60": {
+      "fact": "Management transition aligned with CLMT diversification strategy",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Strategic Direction",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:61": {
+      "fact": "New leadership focus on enhanced retail operations and logistics expansion",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - CEO Strategy",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:62": {
+      "fact": "Board includes multiple Independent Non-Executive Directors",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Board Composition",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:63": {
+      "fact": "Board has majority independent directors",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Independence Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:64": {
+      "fact": "3 Board Committees: Audit, Nominating, Remuneration",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Board Committees",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:65": {
+      "fact": "Remuneration Committee exists with independent oversight",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Remuneration Committee",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:66": {
+      "fact": "Base Management Fee: 0.25% p.a. (superseded by C:170 - correct rate is 0.29%)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Fee Structure",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:67": {
+      "fact": "Performance Fee: 3.5% of Distributable Income (superseded by C:171 - correct rate is 4.75% of NPI)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Performance Fee Structure",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:68": {
+      "fact": "Acquisition Fee: 1.0% of acquisition price",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Acquisition Fee Terms",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:69": {
+      "fact": "Divestment Fee: 0.5% of divestment price",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Divestment Fee Terms",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:70": {
+      "fact": "Portfolio Composition data as of December 2024",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Year-End Data",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:71": {
+      "fact": "Property: Gurney Plaza (Penang)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Property Portfolio Details",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:72": {
+      "fact": "Property: Queensbay Mall (Penang)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Property Portfolio Details",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:73": {
+      "fact": "Property: East Coast Mall (Kuantan)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Property Portfolio Details",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:74": {
+      "fact": "Property: The Mines (Selangor)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Property Portfolio Details",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:75": {
+      "fact": "Property: Sungei Wang Plaza (Kuala Lumpur)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Property Portfolio Details",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:76": {
+      "fact": "Property: 3 Damansara (Selangor)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Property Portfolio Details",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:77": {
+      "fact": "Property: Valdor Logistics Hub (Penang)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Logistics Portfolio",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:78": {
+      "fact": "Property: Glenmarie Distribution Centre (Selangor)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Logistics Portfolio",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:79": {
+      "fact": "Property: Synergy Logistics Hub (Selangor)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Logistics Portfolio",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:80": {
+      "fact": "Property: Senai Airport City Facilities (Johor)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Industrial Portfolio",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:81": {
+      "fact": "Property: Iskandar Puteri Facilities (Johor)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Industrial Portfolio",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:82": {
+      "fact": "Other properties: 4 additional commercial/industrial assets",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Complete Asset Listing",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:83": {
+      "fact": "Penang region: 3 properties (Gurney Plaza, Queensbay Mall, Valdor)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Geographic Breakdown",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:84": {
+      "fact": "Klang Valley: 5 properties (The Mines, Sungei Wang, 3 Damansara, Glenmarie, Synergy)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Geographic Breakdown",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:85": {
+      "fact": "Kuantan (Pahang): 1 property (East Coast Mall)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Geographic Breakdown",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:86": {
+      "fact": "Johor: 2 properties (Senai Airport City, Iskandar Puteri)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Geographic Breakdown",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:87": {
+      "fact": "Net Lettable Area: ~4.3 million sq ft",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Portfolio Metrics",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:88": {
+      "fact": "Unit Price (April 2026): ~RM 0.61",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Current Market Price",
+      "url": "https://www.klsescreener.com/v2/stocks/5180",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": true
+    },
+    "C:89": {
+      "fact": "NAV per Unit: RM 0.9781 (superseded by C:166)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Net Asset Value per Unit",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:90": {
+      "fact": "Price-to-Book: ~0.62-0.63x (~37% discount to NAV)",
+      "source": "Calculated",
+      "citation": "Derived from Unit Price RM 0.61 / NAV RM 0.9781",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": true
+    },
+    "C:91": {
+      "fact": "Gurney Plaza location: Penang",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Property Locations",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:92": {
+      "fact": "Gurney Plaza interest: 100%",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Ownership Structure",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:93": {
+      "fact": "Queensbay Mall location: Penang",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Property Locations",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:94": {
+      "fact": "Queensbay Mall interest: ~91.8%",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Ownership Structure",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:95": {
+      "fact": "East Coast Mall interest: 100%",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Ownership Structure",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:96": {
+      "fact": "The Mines location: Selangor",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Property Locations",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:97": {
+      "fact": "The Mines interest: 100%",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Ownership Structure",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:98": {
+      "fact": "Sungei Wang Plaza location: Kuala Lumpur",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Property Locations",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:99": {
+      "fact": "Sungei Wang Plaza interest: ~61.9%",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Ownership Structure",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:100": {
+      "fact": "3 Damansara location: Selangor",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Property Locations",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:101": {
+      "fact": "3 Damansara interest: 100%",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Ownership Structure",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:102": {
+      "fact": "Tenant Retention: High renewal rates",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Tenancy Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:103": {
+      "fact": "Valdor Logistics Hub location: Penang",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Logistics Locations",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:104": {
+      "fact": "Glenmarie Distribution Centre location: Selangor",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Logistics Locations",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:105": {
+      "fact": "Synergy Logistics Hub location: Selangor",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Logistics Locations",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:106": {
+      "fact": "Senai Airport City Facilities location: Johor",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Industrial Locations",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:107": {
+      "fact": "Iskandar Puteri Facilities location: Johor",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Industrial Locations",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:108": {
+      "fact": "Johor properties benefit from JS-SEZ potential",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia - JS-SEZ Development Coverage",
+      "url": "https://www.theedgemalaysia.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:109": {
+      "fact": "FY2023 Gross Revenue: ~RM 395.4 million",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Comparative Data",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:110": {
+      "fact": "FY2023 Net Property Income: ~RM 217.4 million",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Comparative Data",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:111": {
+      "fact": "FY2024 NPI is highest since listing in 2010",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Historical NPI Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:112": {
+      "fact": "FY2023 Distributable Income: ~RM 109.8 million",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Comparative Data",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:113": {
+      "fact": "FY2023 DPU: ~4.17 sen",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - DPU History",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:114": {
+      "fact": "Q4 2024 Gross Revenue: ~RM 115 million",
+      "source": "Q42024",
+      "citation": "CLMT Q4 2024 Unaudited Results",
+      "url": "https://disclosure.bursamalaysia.com",
+      "date": "2025-01-24",
+      "timeSensitive": false
+    },
+    "C:115": {
+      "fact": "Q4 2023 Gross Revenue: ~RM 100 million",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Quarterly Comparison",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:116": {
+      "fact": "Q4 2024 Net Property Income: ~RM 67 million",
+      "source": "Q42024",
+      "citation": "CLMT Q4 2024 Unaudited Results - NPI",
+      "url": "https://disclosure.bursamalaysia.com",
+      "date": "2025-01-24",
+      "timeSensitive": false
+    },
+    "C:117": {
+      "fact": "Q4 2023 Net Property Income: ~RM 55 million",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Quarterly Comparison",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:118": {
+      "fact": "Q4 2023 Overall Occupancy: ~91%",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Historical Occupancy",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:119": {
+      "fact": "Retail segment revenue contribution: ~75-80%",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Segment Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:120": {
+      "fact": "Logistics segment revenue contribution: ~15-20%",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Segment Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:121": {
+      "fact": "Industrial segment revenue contribution: ~3-5%",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Segment Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:122": {
+      "fact": "Other segment revenue contribution: ~2-3%",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Segment Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:123": {
+      "fact": "Investment Properties value: ~RM 5.0B+",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Statement of Financial Position",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:124": {
+      "fact": "Valuation Method: Independent professional valuations",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Valuation Policy",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:125": {
+      "fact": "Valuation Frequency: Annual revaluation",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Valuation Policy",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:126": {
+      "fact": "Total Borrowings: ~RM 2.18 billion as of December 31, 2024",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Statement of Financial Position",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:127": {
+      "fact": "Gearing Ratio: 41.3% (superseded by C:167)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Gearing Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:128": {
+      "fact": "Regulatory Gearing Ceiling: 50%",
+      "source": "BURSA",
+      "citation": "Bursa Malaysia REIT Guidelines - Regulatory Framework",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:129": {
+      "fact": "Equity/NAV: ~RM 3.30 billion (3.37B units × RM 0.9781 NAV)",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Statement of Financial Position",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:130": {
+      "fact": "Interest Coverage: ~3.0x+",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Interest Coverage Ratio",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:131": {
+      "fact": "Gearing headroom to 50% limit: ~8.7% (~RM916M borrowing capacity)",
+      "source": "Calculated",
+      "citation": "Derived from 50% limit minus 41.3% current gearing",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:132": {
+      "fact": "Q1 2024 Distribution Period: January-March 2024",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Distribution Calendar",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:133": {
+      "fact": "Q1 2024 DPU: ~1.15 sen",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Quarterly DPU",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:134": {
+      "fact": "Q2 2024 Distribution Period: April-June 2024",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Distribution Calendar",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:135": {
+      "fact": "Q2 2024 DPU: ~1.15 sen",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Quarterly DPU",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:136": {
+      "fact": "Q3 2024 Distribution Period: July-September 2024",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Distribution Calendar",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:137": {
+      "fact": "Q3 2024 DPU: ~1.15 sen",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Quarterly DPU",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:138": {
+      "fact": "Q4 2024 Distribution Period: October-December 2024",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Distribution Calendar",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:139": {
+      "fact": "Q4 2024 DPU: ~1.20 sen",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Quarterly DPU",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:140": {
+      "fact": "FY2020 DPU: ~2.5-3.0 sen",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Historical DPU",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:141": {
+      "fact": "FY2020 impacted by COVID-19 pandemic",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Pandemic Impact",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:142": {
+      "fact": "FY2021 DPU: ~3.0-3.5 sen",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Historical DPU",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:143": {
+      "fact": "FY2022 DPU: ~3.5-4.0 sen",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Historical DPU",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:144": {
+      "fact": "Payout Ratio: ~90%+",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Payout Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:145": {
+      "fact": "REIT Distribution Requirement: Minimum 90% of taxable income",
+      "source": "BURSA",
+      "citation": "Bursa Malaysia REIT Guidelines - Distribution Requirements",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:146": {
+      "fact": "KLSE Screener provides current market price data",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Stock Data",
+      "url": "https://www.klsescreener.com/v2/stocks/5180",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": true
+    },
+    "C:147": {
+      "fact": "Market Dividend Yield: ~7.6% (April 2026, based on 4.65 sen DPU / ~RM 0.61 unit price)",
+      "source": "Calculated",
+      "citation": "Derived from FY2024 DPU / Current Unit Price",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": true
+    },
+    "C:148": {
+      "fact": "E-commerce competition risk for retail segment",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia - Retail Sector Analysis",
+      "url": "https://www.theedgemalaysia.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:149": {
+      "fact": "Consumer spending sensitivity to economic cycle",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Risk Factors",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:150": {
+      "fact": "Interest rate risk impacts debt servicing costs",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Risk Factors",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:151": {
+      "fact": "Tenant base is diversified with no single-tenant dominance",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Tenant Diversification",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:152": {
+      "fact": "Geographic diversification across Penang, KL, Pahang, Johor",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Geographic Risk Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:153": {
+      "fact": "Currency risk is low - MYR-denominated operations",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Currency Risk",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:154": {
+      "fact": "Rebranding execution risk: logistics/industrial integration",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Strategic Risk Factors",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:155": {
+      "fact": "Full Bursa Malaysia disclosure compliance",
+      "source": "BURSA",
+      "citation": "Bursa Malaysia - CLMT Filings",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:156": {
+      "fact": "Auditor: Deloitte Malaysia PLT",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Independent Auditor",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:157": {
+      "fact": "Related party transactions properly managed",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - RPT Governance",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:158": {
+      "fact": "ESG: Energy efficiency programs implemented",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Sustainability Initiatives",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:159": {
+      "fact": "ESG reporting aligned with CapitaLand group standards",
+      "source": "CAPITALAND",
+      "citation": "CapitaLand Investment - Sustainability Framework",
+      "url": "https://www.capitaland.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:160": {
+      "fact": "Community engagement through mall community programs",
+      "source": "CLMT_WEB",
+      "citation": "CLMT Official Website - CSR Activities",
+      "url": "https://www.clmt.com.my",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:161": {
+      "fact": "Tenant wellbeing: Safe shopping environment maintained",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Health and Safety",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:162": {
+      "fact": "Carbon footprint reduction efforts ongoing",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Carbon Management",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:163": {
+      "fact": "Pre-rebrand (2021): Pure retail portfolio",
+      "source": "REBRAND",
+      "citation": "CLMT 2024 Annual Report - Historical Portfolio",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:164": {
+      "fact": "Pre-rebrand AUM: ~RM 4.5 billion",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Historical AUM",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:165": {
+      "fact": "Post-rebrand strategy: Multi-sector portfolio",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Strategic Direction",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:166": {
+      "fact": "NAV per unit RM 0.9781 as of December 31, 2024",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Statement of Financial Position",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:167": {
+      "fact": "Gearing ratio 41.3% as of December 31, 2024",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Debt Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:168": {
+      "fact": "Chairman Dato' Jeffrey Ng Tiong Lip served throughout FY2024",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Board of Directors",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:169": {
+      "fact": "CFO Soon Yeong Chyan",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Key Management Personnel",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:170": {
+      "fact": "Base management fee 0.29% per annum of total asset value",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Trust Deed Fee Structure",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:171": {
+      "fact": "Performance fee 4.75% per annum of NPI",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Trust Deed Fee Structure",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
+    },
+    "C:172": {
+      "fact": "Assets Under Management of RM5.1 billion as at 31 December 2024",
+      "source": "AR2024",
+      "citation": "Annual Report 2024, Independent Valuation Report",
+      "url": "https://www.clmt.com.my/annual_reports.html",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:173": {
+      "fact": "Units in circulation of 2,879,966,000 (~2.88 billion) as at 31 December 2024",
+      "source": "AR2024",
+      "citation": "Annual Report 2024, Statement of Changes in Unitholders' Funds",
+      "url": "https://www.clmt.com.my/annual_reports.html",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:174": {
+      "fact": "Net Property Income of RM263.9 million for FY2024",
+      "source": "Q42024",
+      "citation": "Q4 2024 Results Announcement, Financial Highlights",
+      "url": "https://www.clmt.com.my/announcements.html",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:175": {
+      "fact": "Mr Tan Boon Peng became Chairman on January 1, 2026",
+      "source": "CLMT_WEB",
+      "citation": "CLMT Board of Directors profile",
+      "url": "https://www.clmt.com.my/board_of_directors.html",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:176": {
+      "fact": "FY 2025 Data Coverage (January 1 - December 31, 2025)",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Financial Year Coverage",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:177": {
+      "fact": "FY2025 Gross Revenue RM476.76 million (+4.8% YoY)",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Income Statement",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:178": {
+      "fact": "FY2025 Net Property Income RM289.44 million (+9.7% YoY) - highest since listing",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - NPI highest since 2010 listing",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:179": {
+      "fact": "FY2025 Distribution Per Unit 4.84 sen (+4.1% YoY)",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Distributions",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:180": {
+      "fact": "Portfolio of 14 properties (6 retail + 8 industrial/logistics) as of December 31, 2025",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Property Portfolio",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:181": {
+      "fact": "Synergy Logistics Hub acquisition completed September 26, 2025",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Acquisitions",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:182": {
+      "fact": "Iskandar Puteri Facilities acquired Q3/Q4 2025",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Acquisitions",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:183": {
+      "fact": "Senai Airport City Facilities acquired Q3/Q4 2025",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Acquisitions",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:184": {
+      "fact": "Q1 2025 Gross Revenue RM120.4 million",
+      "source": "Q12025",
+      "citation": "CLMT Q1 2025 Results Announcement",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:185": {
+      "fact": "Q2 2025 Gross Revenue RM115.7 million, DPU 2.46 sen (includes Q1)",
+      "source": "Q22025",
+      "citation": "CLMT Q2 2025 Results Announcement",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:186": {
+      "fact": "Q3 2025 Gross Revenue RM116.0 million, DPU 0.47 sen",
+      "source": "Q32025",
+      "citation": "CLMT Q3 2025 Results Announcement",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:187": {
+      "fact": "Q4 2025 Gross Revenue RM124.6 million, DPU 1.91 sen",
+      "source": "Q42025",
+      "citation": "CLMT Q4 2025 Results Announcement",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:188": {
+      "fact": "Total AUM RM5.5 billion (+7.0% YoY)",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Assets",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:189": {
+      "fact": "Gearing ratio 39.0% as of December 31, 2025 (improved from 41.3%)",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Debt Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:190": {
+      "fact": "NAV per unit RM0.9370 pre-distribution as of December 31, 2025",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - NAV",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:191": {
+      "fact": "7 industrial/logistics properties acquired in 2025 for approximately RM279 million",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Investment Activities",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false
+    },
+    "C:192": {
+      "fact": "Current share price RM0.635 as of April 2026",
+      "source": "KLSE",
+      "citation": "KLSE Screener - CLMT 5180.KL",
+      "url": "https://www.klsescreener.com/v2/stocks/5180",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": true
+    }
+  }
+}

@@ -102,6 +102,16 @@ body {
   background: #94a3b8;
 }
 
+/* Hide scrollbar utility (for sync-scroll containers) */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 /* Financial number formatting */
 .number-positive {
   color: #16a34a;

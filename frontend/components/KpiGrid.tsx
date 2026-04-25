@@ -4,11 +4,12 @@
  * KpiGrid - Key Performance Indicator grid with citation badges (high-density table format)
  */
 
-import { useState, useCallback } from 'react';
+import { useCallback } from 'react';
 import type { NormalizedReitData, MetricCategory } from '@/types/frontend';
 import { METRIC_REGISTRY, getCategoryDisplayName } from '@/lib/data-utils';
 import { formatMetricValue } from '@/lib/formatters';
 import { getDataQualityIndicators } from '@/lib/citation-utils';
+import { entityColors } from '@/lib/grid-utils';
 
 interface KpiGridProps {
   entities: NormalizedReitData[];
@@ -17,8 +18,6 @@ interface KpiGridProps {
 }
 
 export function KpiGrid({ entities, category, onMetricClick }: KpiGridProps) {
-  const [activeMetric, setActiveMetric] = useState<string | null>(null);
-
   // Deduplicated handler for activating metric citations
   const handleActivate = useCallback((metricType: string, hasAny: boolean) => {
     if (!hasAny || !onMetricClick) return;
@@ -52,8 +51,6 @@ export function KpiGrid({ entities, category, onMetricClick }: KpiGridProps) {
     groupedByCategory[cat].push(type);
   });
 
-  const entityColors = ['#2563eb', '#16a34a', '#ea580c']; // blue, green, orange
-
   return (
     <div className="space-y-2">
       {Object.entries(groupedByCategory).map(([cat, types]) => (
@@ -70,16 +67,12 @@ export function KpiGrid({ entities, category, onMetricClick }: KpiGridProps) {
                 const m = e.metrics.find(m => m.metricType === metricType);
                 return m?.sourceDisplayIds && m.sourceDisplayIds.length > 0;
               });
-              const isActive = activeMetric === metricType;
-              
               return (
                 <div
                   key={metricType}
-                  className={`grid items-center py-1 text-[12.5px] leading-4 ${hasAnyCitations ? 'cursor-pointer hover:bg-surface-alt' : ''} ${isActive ? 'bg-surface-alt' : ''} ${idx > 0 ? 'border-t border-stroke' : ''}`}
+                  className={`grid items-center py-1 text-[12.5px] leading-4 ${hasAnyCitations ? 'cursor-pointer hover:bg-surfaceAlt' : ''} ${idx > 0 ? 'border-t border-stroke' : ''}`}
                   style={{ gridTemplateColumns: `200px repeat(${entities.length}, minmax(120px, 1fr))` }}
                   onClick={() => handleActivate(metricType, hasAnyCitations)}
-                  onMouseEnter={() => setActiveMetric(metricType)}
-                  onMouseLeave={() => setActiveMetric(null)}
                   role={hasAnyCitations ? 'button' : undefined}
                   tabIndex={hasAnyCitations ? 0 : undefined}
                   onKeyDown={(e) => {
@@ -102,7 +95,7 @@ export function KpiGrid({ entities, category, onMetricClick }: KpiGridProps) {
                   </div>
                   
                   {/* Entity value columns */}
-                  {entities.map((entity, entityIdx) => {
+                  {entities.map((entity) => {
                     const metric = entity.metrics.find(m => m.metricType === metricType);
                     const value = metric?.value;
                     const indicators = metric ? getDataQualityIndicators(metric) : null;

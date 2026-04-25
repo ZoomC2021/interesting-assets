@@ -33,9 +33,15 @@ export const SourceTypeSchema = z.enum([
 // ============================================================================
 
 export const DisplayIdPattern = {
-  ATRIUM: /^T:\d{1,3}$/,
-  AXIS: /^A:\d{1,3}$/,
-  VALID: /^[TA]:\d{1,3}$/
+  ATRIUM: /^T:\d{1,3}[a-z]?$/,
+  AXIS: /^A:\d{1,3}[a-z]?$/,
+  SUNWAY: /^S:\d{1,3}[a-z]?$/,
+  PAVILION: /^P:\d{1,3}[a-z]?$/,
+  IGB: /^I:\d{1,3}[a-z]?$/,
+  UOA: /^U:\d{1,3}[a-z]?$/,
+  CMMT: /^C:\d{1,3}[a-z]?$/,
+  HEKTAR: /^H:\d{1,3}[a-z]?$/,
+  VALID: /^[TAPSUICH]:\d{1,3}[a-z]?$/
 };
 
 // ============================================================================
@@ -161,26 +167,47 @@ export function isValidDisplayId(displayId: string): boolean {
   return DisplayIdPattern.VALID.test(displayId);
 }
 
-export function parseDisplayId(displayId: string): { prefix: 'T' | 'A'; number: number } | null {
+export function parseDisplayId(displayId: string): { prefix: 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H'; number: number; suffix?: string } | null {
   if (!isValidDisplayId(displayId)) return null;
-  const match = displayId.match(/^([TA]):(\d+)$/);
+  const match = displayId.match(/^([TAPSUICH]):(\d+)([a-z]?)$/);
   if (!match) return null;
   return {
-    prefix: match[1] as 'T' | 'A',
-    number: parseInt(match[2], 10)
+    prefix: match[1] as 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H',
+    number: parseInt(match[2], 10),
+    suffix: match[3] || undefined
   };
 }
 
-export function generateDisplayId(prefix: 'T' | 'A', number: number): string {
+export function generateDisplayId(prefix: 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H', number: number): string {
   return `${prefix}:${number}`;
 }
 
-export function entityCodeFromPrefix(prefix: 'T' | 'A'): string {
-  return prefix === 'T' ? '5130.KL' : '5106.KL';
+export function entityCodeFromPrefix(prefix: 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H'): string {
+  const mapping: Record<string, string> = {
+    'T': '5130.KL',
+    'A': '5106.KL',
+    'S': '5176.KL',
+    'P': '5212.KL',
+    'I': '5227.KL',
+    'U': '5110.KL',
+    'C': '5180.KL',
+    'H': '5121.KL'
+  };
+  return mapping[prefix];
 }
 
-export function prefixFromEntityCode(code: string): 'T' | 'A' {
-  return code === '5130.KL' ? 'T' : 'A';
+export function prefixFromEntityCode(code: string): 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H' {
+  const mapping: Record<string, 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H'> = {
+    '5130.KL': 'T',
+    '5106.KL': 'A',
+    '5176.KL': 'S',
+    '5212.KL': 'P',
+    '5227.KL': 'I',
+    '5110.KL': 'U',
+    '5180.KL': 'C',
+    '5121.KL': 'H'
+  };
+  return mapping[code];
 }
 
 // ============================================================================

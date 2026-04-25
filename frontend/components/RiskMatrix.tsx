@@ -5,12 +5,18 @@
  */
 
 import { useState } from 'react';
+import clsx from 'clsx';
 import type { NormalizedReitData, RiskCategory, RiskSeverity } from '@/types/frontend';
 import { getRiskSeverityColor, getRiskSeverityEmoji, getRiskSeverityLabel } from '@/lib/comparison-model';
 
 interface RiskMatrixProps {
   entities: NormalizedReitData[];
   onCitationClick?: (citationIds: string[]) => void;
+  /**
+   * When true, no outer card frame (parent already provides border/padding).
+   * When false, renders the bordered panel (e.g. standalone on Compare).
+   */
+  embedInPanel?: boolean;
 }
 
 const RISK_CATEGORIES: { key: RiskCategory; label: string; description: string }[] = [
@@ -22,12 +28,17 @@ const RISK_CATEGORIES: { key: RiskCategory; label: string; description: string }
   { key: 'governance', label: 'Governance', description: 'Management structure' },
 ];
 
-export function RiskMatrix({ entities, onCitationClick }: RiskMatrixProps) {
+export function RiskMatrix({ entities, onCitationClick, embedInPanel = false }: RiskMatrixProps) {
   const severityOrder: RiskSeverity[] = ['low', 'medium', 'high', 'critical'];
   const [hoveredCell, setHoveredCell] = useState<{entityId: string; category: RiskCategory} | null>(null);
   
   return (
-    <div className="bg-surface rounded-xl border border-stroke overflow-hidden">
+    <div
+      className={clsx(
+        'w-full overflow-hidden',
+        embedInPanel ? 'rounded-md' : 'rounded-xl border border-stroke bg-surface',
+      )}
+    >
       <div className="overflow-x-auto">
         <table className="w-full text-[12.5px] leading-4 text-ink" role="grid" aria-label="Risk assessment matrix">
           <thead>
