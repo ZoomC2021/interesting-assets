@@ -295,19 +295,21 @@ export function MonitorPage() {
               <thead>
                 <tr>
                   <th className={`${thClass} w-10 text-center`}>
-                    <input
-                      type="checkbox"
-                      aria-label="Select all visible REITs"
-                      className="h-3.5 w-3.5 min-h-[44px] min-w-[44px] rounded-sm border-stroke text-accent focus:ring-accent"
-                      checked={selectedCap > 0 && selectedReitIds.size === selectedCap}
-                      onChange={(event) => {
-                        if (event.target.checked) {
-                          setSelectedReitIds(new Set(filteredAndSortedData.slice(0, 6).map((reit) => reit.id)));
-                        } else {
-                          setSelectedReitIds(new Set());
-                        }
-                      }}
-                    />
+                    <span className="flex h-11 w-11 items-center justify-center">
+                      <input
+                        type="checkbox"
+                        aria-label="Select all visible REITs"
+                        className="h-3.5 w-3.5 rounded-sm border-stroke text-accent focus:ring-accent"
+                        checked={selectedCap > 0 && selectedReitIds.size === selectedCap}
+                        onChange={(event) => {
+                          if (event.target.checked) {
+                            setSelectedReitIds(new Set(filteredAndSortedData.slice(0, 6).map((reit) => reit.id)));
+                          } else {
+                            setSelectedReitIds(new Set());
+                          }
+                        }}
+                      />
+                    </span>
                   </th>
                   <th className={`${thClass} sticky left-0 z-20`} onClick={() => handleSort('name')}>
                     <div className="flex items-center gap-1">
@@ -414,13 +416,15 @@ export function MonitorPage() {
                       }`}
                     >
                       <td className={`${tdClass} p-0 text-center`}>
-                        <input
-                          type="checkbox"
-                          aria-label={`Select ${reit.name}`}
-                          checked={isSelected}
-                          onChange={() => toggleSelection(reit.id)}
-                          className="h-3.5 w-3.5 min-h-[44px] min-w-[44px] rounded-sm border-stroke text-accent focus:ring-accent"
-                        />
+                        <label className="flex h-11 w-11 cursor-pointer items-center justify-center">
+                          <input
+                            type="checkbox"
+                            aria-label={`Select ${reit.name}`}
+                            checked={isSelected}
+                            onChange={() => toggleSelection(reit.id)}
+                            className="h-3.5 w-3.5 rounded-sm border-stroke text-accent focus:ring-accent"
+                          />
+                        </label>
                       </td>
                       <td className={`${tdClass} sticky left-0 z-10 ${stickyCellBg}`}>
                         <div className="font-medium text-ink">{reit.name}</div>

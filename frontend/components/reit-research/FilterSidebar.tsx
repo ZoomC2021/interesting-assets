@@ -222,12 +222,14 @@ export function FilterSidebar({
         <div className="space-y-2">
           {sectors.map((sector) => (
             <label key={sector} className="group flex cursor-pointer items-center gap-2 py-1.5">
-              <input
-                type="checkbox"
-                checked={selectedSectors.includes(sector)}
-                onChange={() => onSectorChange(sector)}
-                className="h-3.5 w-3.5 min-h-[44px] min-w-[44px] cursor-pointer rounded-sm border-stroke bg-surface text-accent focus:ring-accent focus:ring-offset-0"
-              />
+              <span className="flex h-11 w-11 items-center justify-center">
+                <input
+                  type="checkbox"
+                  checked={selectedSectors.includes(sector)}
+                  onChange={() => onSectorChange(sector)}
+                  className="h-3.5 w-3.5 cursor-pointer rounded-sm border-stroke bg-surface text-accent focus:ring-accent focus:ring-offset-0"
+                />
+              </span>
               <span className="text-sm text-ink-muted transition-colors group-hover:text-ink">{sector}</span>
             </label>
           ))}
@@ -236,12 +238,14 @@ export function FilterSidebar({
 
       <FilterSection title="Compliance">
         <label className="group flex cursor-pointer items-center gap-2 py-1.5">
-          <input
-            type="checkbox"
-            checked={shariahOnly}
-            onChange={(event) => onShariahChange(event.target.checked)}
-            className="h-3.5 w-3.5 min-h-[44px] min-w-[44px] cursor-pointer rounded-sm border-stroke bg-surface text-accent focus:ring-accent focus:ring-offset-0"
-          />
+          <span className="flex h-11 w-11 items-center justify-center">
+            <input
+              type="checkbox"
+              checked={shariahOnly}
+              onChange={(event) => onShariahChange(event.target.checked)}
+              className="h-3.5 w-3.5 cursor-pointer rounded-sm border-stroke bg-surface text-accent focus:ring-accent focus:ring-offset-0"
+            />
+          </span>
           <span className="text-sm text-ink-muted transition-colors group-hover:text-ink">
             Shariah Compliant Only
           </span>
