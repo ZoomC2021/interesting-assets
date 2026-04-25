@@ -29,17 +29,21 @@ export interface Entity {
   references: string[];
 }
 
+export interface GeographicDistribution {
+  region: string;
+  propertyCount: number;
+  percentageOfPortfolio: number;
+  totalValuationRM?: number;
+  totalNlaSqFt?: number;
+}
+
 export interface EntityExtended extends Entity {
   portfolio: {
     totalProperties: number;
     totalAssetsRM: number;
     investmentPropertiesRM: number;
     netLettableAreaSqFt?: number;
-    geographicDistribution: Array<{
-      region: string;
-      propertyCount: number;
-      percentageOfPortfolio: number;
-    }>;
+    geographicDistribution: GeographicDistribution[];
   };
 }
 

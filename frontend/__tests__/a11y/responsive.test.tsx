@@ -15,6 +15,7 @@ import '@testing-library/jest-dom';
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import HomePage from '../../app/page';
+import { DesignStateProvider } from '../../components/reit-research/DesignStateProvider';
 import type { NormalizedReitData, Metric } from '../../types/frontend';
 
 // Mock Next.js Link
@@ -66,7 +67,11 @@ describe('Responsive Design: Home Page', () => {
       });
 
       it(`should render home page at ${width}px`, () => {
-        render(<HomePage />);
+        render(
+          <DesignStateProvider>
+            <HomePage />
+          </DesignStateProvider>
+        );
         
         expect(screen.getByText('Malaysian REIT Monitor')).toBeInTheDocument();
         expect(screen.getByText('Monitor')).toBeInTheDocument();
@@ -74,7 +79,11 @@ describe('Responsive Design: Home Page', () => {
       });
 
       it(`should maintain layout at ${width}px`, () => {
-        render(<HomePage />);
+        render(
+          <DesignStateProvider>
+            <HomePage />
+          </DesignStateProvider>
+        );
         
         // Content should be visible
         const heading = screen.getByRole('heading', { level: 1 });
@@ -437,7 +446,11 @@ describe('Mobile Design (375px)', () => {
   });
 
   it('should stack navigation cards on mobile', () => {
-    render(<HomePage />);
+    render(
+      <DesignStateProvider>
+        <HomePage />
+      </DesignStateProvider>
+    );
     
     // Cards should be stacked (grid-cols-1 on mobile)
     const monitorCard = screen.getByText('Monitor').closest('a');
@@ -448,7 +461,11 @@ describe('Mobile Design (375px)', () => {
   });
 
   it('should have readable text at mobile size', () => {
-    render(<HomePage />);
+    render(
+      <DesignStateProvider>
+        <HomePage />
+      </DesignStateProvider>
+    );
 
     const heading = screen.getByRole('heading', { level: 1 });
     expect(heading).toHaveClass('text-3xl');
@@ -465,7 +482,11 @@ describe('Tablet Design (768px)', () => {
   });
 
   it('should show two-column grid on tablet', () => {
-    render(<HomePage />);
+    render(
+      <DesignStateProvider>
+        <HomePage />
+      </DesignStateProvider>
+    );
     
     // Should show 2-column layout (sm:grid-cols-2)
     expect(screen.getByText('Malaysian REIT Monitor')).toBeInTheDocument();
@@ -482,7 +503,11 @@ describe('Desktop Design (1024px+)', () => {
   });
 
   it('should render full layout on desktop', () => {
-    render(<HomePage />);
+    render(
+      <DesignStateProvider>
+        <HomePage />
+      </DesignStateProvider>
+    );
     
     expect(screen.getByText('Malaysian REIT Monitor')).toBeInTheDocument();
     expect(screen.getByText('Monitor')).toBeInTheDocument();
@@ -502,7 +527,11 @@ describe('Orientation Changes', () => {
       value: { type: 'portrait-primary' },
     });
     
-    render(<HomePage />);
+    render(
+      <DesignStateProvider>
+        <HomePage />
+      </DesignStateProvider>
+    );
     expect(screen.getByText('Malaysian REIT Monitor')).toBeInTheDocument();
   });
 
@@ -513,7 +542,11 @@ describe('Orientation Changes', () => {
       value: { type: 'landscape-primary' },
     });
     
-    render(<HomePage />);
+    render(
+      <DesignStateProvider>
+        <HomePage />
+      </DesignStateProvider>
+    );
     expect(screen.getByText('Malaysian REIT Monitor')).toBeInTheDocument();
   });
 });
@@ -531,7 +564,11 @@ describe('Zoom Levels', () => {
       value: 2,
     });
     
-    render(<HomePage />);
+    render(
+      <DesignStateProvider>
+        <HomePage />
+      </DesignStateProvider>
+    );
     expect(screen.getByText('Malaysian REIT Monitor')).toBeInTheDocument();
   });
 });
@@ -547,7 +584,11 @@ describe('Content Visibility at All Sizes', () => {
     it(`should show all essential content at ${width}px`, () => {
       setViewport(width);
       
-      render(<HomePage />);
+      render(
+        <DesignStateProvider>
+          <HomePage />
+        </DesignStateProvider>
+      );
       
       // All these elements should be visible
       const essentials = [

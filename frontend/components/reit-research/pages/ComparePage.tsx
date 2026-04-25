@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import type { MetricType } from '@/types/frontend';
 import {
   adaptReitsData,
@@ -11,10 +11,13 @@ import {
   REIT,
 } from '@/data/reits';
 import { useEntityData } from '@/hooks/useEntityData';
+import { useFocusTrap } from '@/hooks/useFocusTrap';
+import { useAnnouncer } from '@/hooks/useAnnouncer';
 import { CitationPanel } from '../CitationPanel';
 import { RiskChip } from '../RiskChip';
 import { Sparkline } from '../Sparkline';
-import { ArrowLeft, Info, Settings2, X } from '../icons';
+import { AddReitModal } from '../AddReitModal';
+import { ArrowLeft, Info, Settings2, X, Eye, EyeOff, Check, Plus } from '../icons';
 
 const CATEGORIES = ['All', 'Portfolio', 'Financial', 'Per-Share', 'Leverage', 'Operational', 'Risk', 'Market'];
 
@@ -59,6 +62,10 @@ interface ComparePageProps {
   initialIds?: string[];
 }
 
+// All metrics are visible by default
+const DEFAULT_VISIBLE_METRICS: MetricId[] = ['mcap', 'price', 'dpu', 'yield', 'gearing', 'icr', 'occ', 'wale', 'pb'];
+const STORAGE_KEY = 'reit-compare-visible-metrics';
+
 export function ComparePage({ initialIds = EMPTY_INITIAL_IDS }: ComparePageProps) {
   const initialIdsKey = initialIds.join('|');
   const seedIds = useMemo(() => {
@@ -70,7 +77,40 @@ export function ComparePage({ initialIds = EMPTY_INITIAL_IDS }: ComparePageProps
   const [selectedIds, setSelectedIds] = useState<string[]>(seedIds);
   const [activeCategory, setActiveCategory] = useState('All');
   const [citationPanelOpen, setCitationPanelOpen] = useState(false);
+  const [isCustomizeOpen, setIsCustomizeOpen] = useState(false);
+  const [isAddReitOpen, setIsAddReitOpen] = useState(false);
+  const [visibleMetricIds, setVisibleMetricIds] = useState<MetricId[]>(DEFAULT_VISIBLE_METRICS);
   const { data: entityData, isLoading, error } = useEntityData(selectedIds);
+
+  // Load visible metrics from localStorage on mount
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      try {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        if (saved) {
+          const parsed = JSON.parse(saved) as MetricId[];
+          // Validate that saved metrics are valid
+          const validMetrics = parsed.filter((id) => metrics.some((m) => m.id === id));
+          if (validMetrics.length > 0) {
+            setVisibleMetricIds(validMetrics);
+          }
+        }
+      } catch {
+        // Ignore localStorage errors, use defaults
+      }
+    }
+  }, []);
+
+  // Save visible metrics to localStorage when changed
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(visibleMetricIds));
+      } catch {
+        // Ignore localStorage errors
+      }
+    }
+  }, [visibleMetricIds]);
 
   useEffect(() => {
     setSelectedIds((current) => (current.join('|') === seedIdsKey ? current : seedIds));
@@ -155,8 +195,51 @@ export function ComparePage({ initialIds = EMPTY_INITIAL_IDS }: ComparePageProps
     };
   };
 
-  const filteredMetrics =
-    activeCategory === 'All' ? metrics : metrics.filter((metric) => metric.category === activeCategory);
+  // Toggle metric visibility
+  const toggleMetricVisibility = useCallback((metricId: MetricId) => {
+    setVisibleMetricIds((current) => {
+      if (current.includes(metricId)) {
+        // Don't allow hiding all metrics
+        if (current.length <= 1) return current;
+        return current.filter((id) => id !== metricId);
+      }
+      return [...current, metricId];
+    });
+  }, []);
+
+  // Show all metrics
+  const showAllMetrics = useCallback(() => {
+    setVisibleMetricIds(DEFAULT_VISIBLE_METRICS);
+  }, []);
+
+  // Hide all metrics (except keep at least one)
+  const hideAllMetrics = useCallback(() => {
+    setVisibleMetricIds([metrics[0].id]);
+  }, []);
+
+  // Handle adding a REIT to comparison with 6-REIT limit enforcement
+  const handleAddReit = useCallback((entityCode: string) => {
+    setSelectedIds((current) => {
+      // Don't add if already exists
+      if (current.includes(entityCode)) {
+        return current;
+      }
+      // Don't exceed 6-REIT limit
+      if (current.length >= 6) {
+        return current;
+      }
+      return [...current, entityCode];
+    });
+  }, []);
+
+  // Filter metrics by category and visibility
+  const filteredMetrics = useMemo(() => {
+    let filtered = metrics.filter((metric) => visibleMetricIds.includes(metric.id));
+    if (activeCategory !== 'All') {
+      filtered = filtered.filter((metric) => metric.category === activeCategory);
+    }
+    return filtered;
+  }, [activeCategory, visibleMetricIds]);
 
   return (
     <div className="min-h-screen bg-canvas pb-24">
@@ -173,10 +256,17 @@ export function ComparePage({ initialIds = EMPTY_INITIAL_IDS }: ComparePageProps
           </div>
           <button
             type="button"
+            onClick={() => setIsCustomizeOpen(true)}
             className="flex items-center gap-1.5 rounded-sm border border-stroke bg-surface px-3 py-1.5 text-sm text-ink-muted transition-colors hover:text-ink"
+            aria-label="Customize visible metrics"
+            aria-expanded={isCustomizeOpen}
+            aria-haspopup="dialog"
           >
             <Settings2 className="h-4 w-4" />
             Customize View
+            <span className="ml-1 rounded-sm bg-accent/10 px-1.5 py-0.5 text-[10px] text-accent">
+              {visibleMetricIds.length}
+            </span>
           </button>
         </div>
 
@@ -205,6 +295,19 @@ export function ComparePage({ initialIds = EMPTY_INITIAL_IDS }: ComparePageProps
               </button>
             </div>
           ))}
+
+          {/* Add REIT button - shown when less than 6 REITs */}
+          {selectedReits.length < 6 && (
+            <button
+              type="button"
+              onClick={() => setIsAddReitOpen(true)}
+              className="flex min-w-[140px] shrink-0 items-center justify-center gap-2 rounded-sm border border-stroke bg-surface px-4 py-2 text-sm text-ink-muted transition-all hover:border-accent hover:text-accent"
+              aria-label="Add REIT to comparison"
+            >
+              <Plus className="h-4 w-4" />
+              Add REIT
+            </button>
+          )}
         </div>
 
         <div className="no-scrollbar flex items-center gap-2 overflow-x-auto bg-surface-alt/50 px-4 py-2 md:px-6">
@@ -366,6 +469,193 @@ export function ComparePage({ initialIds = EMPTY_INITIAL_IDS }: ComparePageProps
         onClose={() => setCitationPanelOpen(false)}
         citations={compareCitations}
       />
+
+      <CustomizePanel
+        isOpen={isCustomizeOpen}
+        onClose={() => setIsCustomizeOpen(false)}
+        metrics={metrics}
+        visibleMetricIds={visibleMetricIds}
+        onToggleMetric={toggleMetricVisibility}
+        onShowAll={showAllMetrics}
+        onHideAll={hideAllMetrics}
+      />
+
+      <AddReitModal
+        isOpen={isAddReitOpen}
+        onClose={() => setIsAddReitOpen(false)}
+        selectedIds={selectedIds}
+        onAdd={handleAddReit}
+      />
     </div>
+  );
+}
+
+// =============================================================================
+// CustomizePanel Component
+// =============================================================================
+
+interface CustomizePanelProps {
+  isOpen: boolean;
+  onClose: () => void;
+  metrics: CompareMetric[];
+  visibleMetricIds: MetricId[];
+  onToggleMetric: (metricId: MetricId) => void;
+  onShowAll: () => void;
+  onHideAll: () => void;
+}
+
+function CustomizePanel({
+  isOpen,
+  onClose,
+  metrics,
+  visibleMetricIds,
+  onToggleMetric,
+  onShowAll,
+  onHideAll,
+}: CustomizePanelProps) {
+  const { announce, liveRegionProps } = useAnnouncer();
+  const modalRef = useFocusTrap<HTMLDivElement>({
+    isActive: isOpen,
+    onEscape: onClose,
+    returnFocusOnDeactivate: true,
+  });
+
+  // Group metrics by category
+  const metricsByCategory = useMemo(() => {
+    const grouped = new Map<string, CompareMetric[]>();
+    for (const metric of metrics) {
+      const list = grouped.get(metric.category) ?? [];
+      list.push(metric);
+      grouped.set(metric.category, list);
+    }
+    return grouped;
+  }, [metrics]);
+
+  // Announce changes
+  const handleToggle = useCallback((metricId: MetricId) => {
+    const metric = metrics.find((m) => m.id === metricId);
+    const willBeVisible = !visibleMetricIds.includes(metricId);
+    announce(`${metric?.name} ${willBeVisible ? 'visible' : 'hidden'}`, 'polite');
+    onToggleMetric(metricId);
+  }, [metrics, visibleMetricIds, onToggleMetric, announce]);
+
+  if (!isOpen) return null;
+
+  return (
+    <>
+      {/* Backdrop */}
+      <button
+        type="button"
+        className="fixed inset-0 z-[60] bg-canvas/60 backdrop-blur-sm"
+        onClick={onClose}
+        aria-hidden="true"
+        tabIndex={-1}
+      />
+
+      {/* Panel */}
+      <div
+        ref={modalRef}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Customize visible metrics"
+        className="fixed right-0 top-12 bottom-0 z-[70] w-full max-w-[360px] border-l border-stroke bg-surface shadow-popover"
+      >
+        {/* Header */}
+        <div className="flex items-center justify-between border-b border-stroke px-4 py-3">
+          <div>
+            <h2 className="text-sm font-semibold text-ink">Customize View</h2>
+            <p className="text-xs text-ink-muted">
+              {visibleMetricIds.length} of {metrics.length} metrics visible
+            </p>
+          </div>
+          <button
+            type="button"
+            onClick={onClose}
+            className="rounded-sm p-1.5 text-ink-muted transition-colors hover:bg-surface-alt hover:text-ink"
+            aria-label="Close customize panel"
+          >
+            <X className="h-4 w-4" />
+          </button>
+        </div>
+
+        {/* Bulk Actions */}
+        <div className="flex items-center gap-2 border-b border-stroke px-4 py-2">
+          <button
+            type="button"
+            onClick={onShowAll}
+            className="rounded-sm border border-stroke bg-surface-alt px-3 py-1 text-xs font-medium text-ink transition-colors hover:border-stroke-strong"
+          >
+            Show All
+          </button>
+          <button
+            type="button"
+            onClick={onHideAll}
+            className="rounded-sm border border-stroke bg-surface-alt px-3 py-1 text-xs font-medium text-ink-muted transition-colors hover:border-stroke-strong hover:text-ink"
+          >
+            Show Minimal
+          </button>
+        </div>
+
+        {/* Metrics List */}
+        <div className="divide-y divide-stroke overflow-y-auto" style={{ maxHeight: 'calc(100vh - 140px)' }}>
+          {Array.from(metricsByCategory.entries()).map(([category, categoryMetrics]) => (
+            <div key={category} className="px-4 py-3">
+              <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-ink-muted">
+                {category}
+              </h3>
+              <div className="space-y-1">
+                {categoryMetrics.map((metric) => {
+                  const isVisible = visibleMetricIds.includes(metric.id);
+                  const isDisabled = isVisible && visibleMetricIds.length <= 1;
+
+                  return (
+                    <button
+                      key={metric.id}
+                      type="button"
+                      onClick={() => handleToggle(metric.id)}
+                      disabled={isDisabled}
+                      className={`flex w-full items-center justify-between rounded-sm px-2 py-2 text-left transition-colors ${
+                        isDisabled
+                          ? 'cursor-not-allowed opacity-50'
+                          : 'hover:bg-surface-alt'
+                      }`}
+                      aria-pressed={isVisible}
+                      aria-label={`${metric.name} (${isVisible ? 'visible' : 'hidden'})`}
+                    >
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm text-ink">{metric.name}</span>
+                        <span className="text-[10px] text-ink-muted">({metric.unit})</span>
+                      </div>
+                      <div className={`flex h-5 w-5 items-center justify-center rounded-sm border transition-colors ${
+                        isVisible
+                          ? 'border-accent bg-accent text-white'
+                          : 'border-stroke bg-surface-alt'
+                      }`}>
+                        {isVisible ? (
+                          <Check className="h-3.5 w-3.5" />
+                        ) : (
+                          <EyeOff className="h-3.5 w-3.5 text-ink-muted" />
+                        )}
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Footer */}
+        <div className="absolute bottom-0 left-0 right-0 border-t border-stroke bg-surface-alt/50 px-4 py-3">
+          <p className="text-xs text-ink-muted">
+            Changes are saved automatically and persist across sessions.
+          </p>
+        </div>
+
+        {/* Screen reader announcements */}
+        <div {...liveRegionProps.polite} />
+        <div {...liveRegionProps.assertive} />
+      </div>
+    </>
   );
 }

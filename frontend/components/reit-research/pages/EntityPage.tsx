@@ -1,10 +1,11 @@
 'use client';
 
 import Link from 'next/link';
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { adaptReitData, type REIT } from '@/data/reits';
 import { useEntityData } from '@/hooks/useEntityData';
 import { extractMemoOutline, type MemoOutlineEntry } from '@/lib/memo-outline';
+import type { GeographicDistribution } from '@/types/frontend';
 import { Callout } from '../Callout';
 import { CitationChip } from '../CitationChip';
 import { CitationPanel } from '../CitationPanel';
@@ -13,7 +14,7 @@ import { MemoMarkdown } from '../MemoMarkdown';
 import { RiskChip } from '../RiskChip';
 import { SectionHeader } from '../SectionHeader';
 import { Sparkline } from '../Sparkline';
-import { ArrowLeft, ArrowUp, ArrowUpRight, ChevronRight, Download, Share } from '../icons';
+import { ArrowLeft, ArrowUp, ArrowUpRight, ArrowDownRight, ChevronRight, Download, Share, Check } from '../icons';
 
 // Must stay aligned with the <section id="..."> elements rendered in the
 // placeholder-fallback branch below, otherwise outline links will scroll
@@ -66,6 +67,8 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
   const [citationPanelOpen, setCitationPanelOpen] = useState(false);
   const [activeCitationId, setActiveCitationId] = useState<string | null>(null);
   const [showBackToTop, setShowBackToTop] = useState(false);
+  const [shareFeedback, setShareFeedback] = useState<'idle' | 'copied' | 'shared'>('idle');
+  const [downloadFeedback, setDownloadFeedback] = useState<'idle' | 'downloaded'>('idle');
   const discountToNav = reit ? Math.max(0, ((reit.navPerUnit - reit.sharePrice) / reit.navPerUnit) * 100) : 0;
 
   useEffect(() => {
@@ -104,6 +107,135 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
     setActiveCitationId(id);
     setCitationPanelOpen(true);
   };
+
+  // ============================================================================
+  // Share & Download Handlers (must be before any conditional returns)
+  // ============================================================================
+
+  const handleShare = useCallback(async () => {
+    if (!reit) return;
+
+    const shareData = {
+      title: `${reit.name} (${reit.ticker}) - REIT Analysis`,
+      text: `Check out ${reit.name} trading at RM ${reit.sharePrice.toFixed(2)} with ${reit.yield.toFixed(1)}% yield`,
+      url: window.location.href,
+    };
+
+    // Try Web Share API first
+    if (navigator.share && navigator.canShare?.(shareData)) {
+      try {
+        await navigator.share(shareData);
+        setShareFeedback('shared');
+        setTimeout(() => setShareFeedback('idle'), 2000);
+        return;
+      } catch (err) {
+        // User cancelled or share failed, fall through to clipboard
+        if (err instanceof Error && err.name === 'AbortError') {
+          return; // User cancelled, don't show error
+        }
+      }
+    }
+
+    // Fallback to clipboard
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      setShareFeedback('copied');
+      setTimeout(() => setShareFeedback('idle'), 2000);
+    } catch {
+      // Clipboard failed silently - no feedback needed
+    }
+  }, [reit]);
+
+  const handleDownload = useCallback(() => {
+    if (!reit) return;
+
+    const snapshot = {
+      exportedAt: new Date().toISOString(),
+      entity: {
+        ticker: reit.ticker,
+        name: reit.name,
+        sector: reit.sector,
+        managerName: reit.managerName,
+        shariahCompliant: reit.shariahCompliant,
+      },
+      metrics: {
+        sharePrice: reit.sharePrice,
+        navPerUnit: reit.navPerUnit,
+        priceToBook: reit.priceToBook,
+        dpu: reit.dpu,
+        yield: reit.yield,
+        gearing: reit.gearing,
+        interestCover: reit.interestCover,
+        occupancy: reit.occupancy,
+        wale: reit.wale,
+        marketCap: reit.marketCap,
+      },
+      raw: reit.raw,
+    };
+
+    const blob = new Blob([JSON.stringify(snapshot, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `${reit.ticker.replace('.', '_')}_snapshot_${new Date().toISOString().split('T')[0]}.json`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+
+    setDownloadFeedback('downloaded');
+    setTimeout(() => setDownloadFeedback('idle'), 2000);
+  }, [reit]);
+
+  // ============================================================================
+  // Price Change Calculation (must be before any conditional returns)
+  // ============================================================================
+
+  const priceChange = useMemo(() => {
+    if (!reit?.raw?.timeSeries) return null;
+
+    const sharePriceSeries = reit.raw.timeSeries.find(ts => ts.metricType === 'share_price');
+    if (!sharePriceSeries?.dataPoints?.length) return null;
+
+    const sorted = [...sharePriceSeries.dataPoints]
+      .filter(dp => typeof dp.value === 'number')
+      .sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
+
+    if (sorted.length < 2) return null;
+
+    const latest = sorted[0].value as number;
+    const previous = sorted[1].value as number;
+
+    if (previous === 0) return null;
+
+    const change = latest - previous;
+    const percent = (change / previous) * 100;
+
+    return {
+      value: change,
+      percent,
+      isPositive: change >= 0,
+    };
+  }, [reit]);
+
+  // ============================================================================
+  // Geographic Distribution (must be before any conditional returns)
+  // ============================================================================
+
+  const geographicData = useMemo<GeographicDistribution[]>(() => {
+    if (!reit?.raw?.entity) return [];
+
+    // Try to get geographic distribution from extended entity data
+    const extended = reit.raw.entity as typeof reit.raw.entity & {
+      portfolio?: {
+        geographicDistribution?: GeographicDistribution[];
+      };
+    };
+
+    return extended.portfolio?.geographicDistribution ?? [];
+  }, [reit]);
+
+  const hasGeographicData = geographicData.length > 0;
 
   const renderCitationChip = (citation?: REIT['citations'][number]) => {
     if (!citation) {
@@ -195,11 +327,33 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
             <span className="font-data text-ink">{formatDisplayDate(reit.assessmentDate)}</span>
           </div>
           <div className="ml-2 flex items-center gap-2">
-            <button type="button" className="rounded-sm p-1.5 text-ink-muted transition-colors hover:bg-surface-alt hover:text-ink">
-              <Share className="h-4 w-4" />
+            <button
+              type="button"
+              onClick={handleShare}
+              aria-label={shareFeedback === 'copied' ? 'Link copied to clipboard' : shareFeedback === 'shared' ? 'Shared successfully' : 'Share this page'}
+              className={`rounded-sm p-1.5 transition-colors hover:bg-surface-alt focus:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
+                shareFeedback !== 'idle' ? 'text-success' : 'text-ink-muted hover:text-ink'
+              }`}
+            >
+              {shareFeedback === 'copied' || shareFeedback === 'shared' ? (
+                <Check className="h-4 w-4" aria-hidden="true" />
+              ) : (
+                <Share className="h-4 w-4" aria-hidden="true" />
+              )}
             </button>
-            <button type="button" className="rounded-sm p-1.5 text-ink-muted transition-colors hover:bg-surface-alt hover:text-ink">
-              <Download className="h-4 w-4" />
+            <button
+              type="button"
+              onClick={handleDownload}
+              aria-label={downloadFeedback === 'downloaded' ? 'Download started' : 'Download entity snapshot'}
+              className={`rounded-sm p-1.5 transition-colors hover:bg-surface-alt focus:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
+                downloadFeedback !== 'idle' ? 'text-success' : 'text-ink-muted hover:text-ink'
+              }`}
+            >
+              {downloadFeedback === 'downloaded' ? (
+                <Check className="h-4 w-4" aria-hidden="true" />
+              ) : (
+                <Download className="h-4 w-4" aria-hidden="true" />
+              )}
             </button>
           </div>
         </div>
@@ -298,14 +452,50 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
                     caption="Figure 1. Portfolio NLA breakdown by region"
                     source={overviewSource ? `Company Filings ${overviewSource}` : undefined}
                   >
-                    <div className="flex h-48 items-end justify-center gap-4 pb-4">
-                      <div className="group relative h-[80%] w-16 bg-accent" />
-                      <div className="group relative h-[20%] w-16 bg-accent/60" />
-                    </div>
-                    <div className="mt-2 flex justify-center gap-8 text-xs font-medium text-ink-muted">
-                      <span>Core Markets</span>
-                      <span>Other Assets</span>
-                    </div>
+                    {hasGeographicData ? (
+                      <>
+                        <div className="flex h-48 items-end justify-center gap-2 pb-4 px-2">
+                          {geographicData.map((region, index) => {
+                            const maxPercent = Math.max(...geographicData.map(r => r.percentageOfPortfolio));
+                            const heightPercent = maxPercent > 0
+                              ? (region.percentageOfPortfolio / maxPercent) * 100
+                              : 0;
+                            return (
+                              <div
+                                key={region.region}
+                                className="group relative flex flex-col items-center"
+                                title={`${region.region}: ${region.percentageOfPortfolio.toFixed(1)}%`}
+                              >
+                                <div
+                                  className="w-12 bg-accent transition-all hover:bg-accent-hover"
+                                  style={{
+                                    height: `${Math.max(heightPercent, 8)}%`,
+                                    opacity: 1 - (index * 0.15),
+                                  }}
+                                  aria-label={`${region.region}: ${region.percentageOfPortfolio.toFixed(1)}%`}
+                                />
+                                <span className="mt-2 text-[10px] text-ink-muted max-w-[60px] truncate">
+                                  {region.percentageOfPortfolio.toFixed(0)}%
+                                </span>
+                              </div>
+                            );
+                          })}
+                        </div>
+                        <div className="mt-2 flex flex-wrap justify-center gap-x-4 gap-y-1 text-xs text-ink-muted">
+                          {geographicData.map((region) => (
+                            <span key={region.region} className="flex items-center gap-1">
+                              <span className="inline-block w-2 h-2 rounded-sm bg-accent" />
+                              {region.region}
+                            </span>
+                          ))}
+                        </div>
+                      </>
+                    ) : (
+                      <div className="flex h-48 flex-col items-center justify-center gap-2 text-ink-muted">
+                        <span className="text-sm">Geographic distribution data unavailable</span>
+                        <span className="text-xs">Check Data Room for portfolio details</span>
+                      </div>
+                    )}
                   </Figure>
                 </section>
 
@@ -342,9 +532,14 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
                 <section id="thesis" className="scroll-mt-28">
                   <div className="mb-8 h-px w-full bg-stroke" />
                   <h2 className="mb-4 font-serif text-lg font-semibold text-ink">Outlook &amp; Thesis</h2>
-                  <p className="font-serif text-[15px] leading-[1.65] text-ink">
-                    Once the written research note is published it will replace this placeholder block with the full
-                    long-form thesis, keeping all other chrome on the page unchanged.
+                  <Callout type="thesis">
+                    No written research memo has been published for {reit.name} yet. This section will display
+                    the full investment thesis and outlook analysis once available. The Data Room below provides
+                    the foundational metrics used to inform that analysis.
+                  </Callout>
+                  <p className="font-serif text-[15px] leading-[1.65] text-ink-muted">
+                    Key metrics to watch: DPU sustainability at {reit.dpu.toFixed(2)} sen, refinancing trajectory
+                    with {reit.gearing.toFixed(1)}% gearing, and occupancy trends around {reit.occupancy.toFixed(1)}%.
                   </p>
                 </section>
               </>
@@ -401,10 +596,22 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
             <div className="mb-4 flex items-center justify-between border-b border-stroke pb-4">
               <div>
                 <div className="font-data text-2xl font-semibold text-ink">RM {reit.sharePrice.toFixed(2)}</div>
-                <div className="mt-1 flex items-center gap-1 font-data text-sm text-success">
-                  <ArrowUpRight className="h-3.5 w-3.5" />
-                  <span>0.02 (1.4%)</span>
-                </div>
+                {priceChange ? (
+                  <div className={`mt-1 flex items-center gap-1 font-data text-sm ${priceChange.isPositive ? 'text-success' : 'text-danger'}`}>
+                    {priceChange.isPositive ? (
+                      <ArrowUpRight className="h-3.5 w-3.5" aria-hidden="true" />
+                    ) : (
+                      <ArrowDownRight className="h-3.5 w-3.5" aria-hidden="true" />
+                    )}
+                    <span>
+                      {priceChange.isPositive ? '+' : ''}{priceChange.value.toFixed(2)} ({priceChange.isPositive ? '+' : ''}{priceChange.percent.toFixed(1)}%)
+                    </span>
+                  </div>
+                ) : (
+                  <div className="mt-1 font-data text-sm text-ink-muted">
+                    <span aria-label="Price change unavailable">—</span>
+                  </div>
+                )}
               </div>
               <div className="text-right">
                 <RiskChip level={reit.overallRisk} />

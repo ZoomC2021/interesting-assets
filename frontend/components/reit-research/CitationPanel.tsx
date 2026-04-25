@@ -1,7 +1,8 @@
 'use client';
 
+import { useState, useCallback } from 'react';
 import type { ResearchCitation } from '@/data/reits';
-import { Copy, ExternalLink, Filter, X } from './icons';
+import { Copy, ExternalLink, Filter, X, Check, FileText } from './icons';
 
 interface CitationPanelProps {
   isOpen: boolean;
@@ -10,29 +11,45 @@ interface CitationPanelProps {
   citations?: ResearchCitation[];
 }
 
-const fallbackCitations = [
-  {
-    id: 'T:127',
-    type: 'Annual Report',
-    title: 'Atrium REIT Annual Report 2023',
-    date: '28 Feb 2024',
-  },
-  {
-    id: 'T:89',
-    type: 'Company Filing',
-    title: 'Q4 2023 Financial Results Presentation',
-    date: '25 Jan 2024',
-  },
-  {
-    id: 'T:142',
-    type: 'Press Release',
-    title: 'Extension of Medium Term Note Programme',
-    date: '15 Mar 2024',
-  },
-];
+interface CopiedState {
+  id: string;
+  timeoutId: ReturnType<typeof setTimeout> | null;
+}
+
+function formatCitationText(citation: ResearchCitation): string {
+  return `${citation.id} - ${citation.title} (${citation.type}, ${citation.date})`;
+}
 
 export function CitationPanel({ isOpen, onClose, activeCitationId, citations }: CitationPanelProps) {
-  const displayedCitations = citations && citations.length > 0 ? citations : fallbackCitations;
+  const [copiedState, setCopiedState] = useState<CopiedState | null>(null);
+
+  const displayedCitations = citations ?? [];
+  const hasCitations = displayedCitations.length > 0;
+
+  const handleCopyCitation = useCallback(async (citation: ResearchCitation) => {
+    // Clear any existing timeout
+    if (copiedState?.timeoutId) {
+      clearTimeout(copiedState.timeoutId);
+    }
+
+    try {
+      await navigator.clipboard.writeText(formatCitationText(citation));
+      
+      // Set new copied state with auto-clear timeout
+      const timeoutId = setTimeout(() => {
+        setCopiedState(null);
+      }, 2000);
+      
+      setCopiedState({ id: citation.id, timeoutId });
+    } catch (err) {
+      console.error('Failed to copy citation:', err);
+    }
+  }, [copiedState]);
+
+  const handleViewSource = useCallback((url: string | undefined) => {
+    if (!url) return;
+    window.open(url, '_blank', 'noopener,noreferrer');
+  }, []);
 
   return (
     <>
@@ -75,51 +92,78 @@ export function CitationPanel({ isOpen, onClose, activeCitationId, citations }: 
         </div>
 
         <div className="flex-1 space-y-4 overflow-y-auto p-4">
-          {displayedCitations.map((citation) => {
-            const isActive = activeCitationId === citation.id;
+          {!hasCitations ? (
+            <div className="flex flex-col items-center justify-center py-12 text-center">
+              <FileText className="h-10 w-10 text-ink-muted/50" aria-hidden="true" />
+              <p className="mt-3 text-sm font-medium text-ink">No citations available</p>
+              <p className="mt-1 text-xs text-ink-muted">
+                This document does not have any reference citations.
+              </p>
+            </div>
+          ) : (
+            displayedCitations.map((citation) => {
+              const isActive = activeCitationId === citation.id;
+              const isCopied = copiedState?.id === citation.id;
+              const hasUrl = Boolean(citation.url);
 
-            return (
-              <div
-                key={citation.id}
-                className={`rounded-sm border p-3 transition-colors ${
-                  isActive ? 'border-accent bg-accent/5' : 'border-stroke hover:border-stroke-strong'
-                }`}
-              >
-                <div className="mb-2 flex items-start justify-between gap-3">
-                  <div className="flex items-center gap-2">
-                    <span className="rounded-sm border border-stroke bg-surface px-1 font-data text-xs font-medium text-accent">
-                      {citation.id}
-                    </span>
-                    <span className="text-[10px] font-medium uppercase tracking-wider text-ink-muted">
-                      {citation.type}
-                    </span>
+              return (
+                <div
+                  key={citation.id}
+                  className={`rounded-sm border p-3 transition-colors ${
+                    isActive ? 'border-accent bg-accent/5' : 'border-stroke hover:border-stroke-strong'
+                  }`}
+                  data-citation-id={citation.id}
+                >
+                  <div className="mb-2 flex items-start justify-between gap-3">
+                    <div className="flex items-center gap-2">
+                      <span className="rounded-sm border border-stroke bg-surface px-1 font-data text-xs font-medium text-accent">
+                        {citation.id}
+                      </span>
+                      <span className="text-[10px] font-medium uppercase tracking-wider text-ink-muted">
+                        {citation.type}
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-1">
+                      <button
+                        type="button"
+                        onClick={() => handleCopyCitation(citation)}
+                        className={`rounded p-1 transition-colors ${
+                          isCopied
+                            ? 'bg-green-100 text-green-600'
+                            : 'text-ink-muted hover:text-ink hover:bg-surface-alt'
+                        }`}
+                        title={isCopied ? 'Copied!' : 'Copy citation'}
+                        aria-label={isCopied ? `Citation ${citation.id} copied` : `Copy citation ${citation.id}`}
+                      >
+                        {isCopied ? <Check className="h-3 w-3" /> : <Copy className="h-3 w-3" />}
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => handleViewSource(citation.url)}
+                        disabled={!hasUrl}
+                        className={`rounded p-1 transition-colors ${
+                          hasUrl
+                            ? 'text-ink-muted hover:text-ink hover:bg-surface-alt'
+                            : 'cursor-not-allowed text-ink-muted/30'
+                        }`}
+                        title={hasUrl ? 'View source' : 'No source URL available'}
+                        aria-label={hasUrl ? `View source for citation ${citation.id}` : `No source URL for citation ${citation.id}`}
+                        aria-disabled={!hasUrl}
+                      >
+                        <ExternalLink className="h-3 w-3" />
+                      </button>
+                    </div>
                   </div>
-                  <div className="flex items-center gap-1">
-                    <button
-                      type="button"
-                      className="p-1 text-ink-muted transition-colors hover:text-ink"
-                      title="Copy citation"
-                    >
-                      <Copy className="h-3 w-3" />
-                    </button>
-                    <button
-                      type="button"
-                      className="p-1 text-ink-muted transition-colors hover:text-ink"
-                      title="View source"
-                    >
-                      <ExternalLink className="h-3 w-3" />
-                    </button>
+
+                  <h4 className="mb-1 text-sm font-medium leading-snug text-ink">{citation.title}</h4>
+
+                  <div className="flex items-center gap-3 font-data text-xs text-ink-muted">
+                    <span>{citation.date}</span>
                   </div>
                 </div>
-
-                <h4 className="mb-1 text-sm font-medium leading-snug text-ink">{citation.title}</h4>
-
-                <div className="flex items-center gap-3 font-data text-xs text-ink-muted">
-                  <span>{citation.date}</span>
-                </div>
-              </div>
-            );
-          })}
+              );
+            })
+          )}
         </div>
       </aside>
     </>

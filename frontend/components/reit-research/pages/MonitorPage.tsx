@@ -7,10 +7,12 @@ import { useEntityData } from '@/hooks/useEntityData';
 import { AVAILABLE_ENTITIES } from '@/lib/available-entities';
 import { useDesignState } from '../DesignStateProvider';
 import { CompareTray } from '../CompareTray';
-import { FilterSidebar } from '../FilterSidebar';
+import { FilterSidebar, RangeFilter, DEFAULT_MARKET_CAP_RANGE, DEFAULT_YIELD_RANGE } from '../FilterSidebar';
 import { RiskChip } from '../RiskChip';
 import { Sparkline } from '../Sparkline';
 import { ArrowDown, ArrowRight, ArrowUp, ArrowUpDown } from '../icons';
+
+// Default range values are imported from FilterSidebar
 
 type SortField =
   | 'name'
@@ -73,6 +75,10 @@ export function MonitorPage() {
   const [selectedReitIds, setSelectedReitIds] = useState<Set<string>>(new Set());
   const [sortField, setSortField] = useState<SortField | null>(null);
   const [sortDirection, setSortDirection] = useState<SortDirection>(null);
+  
+  // Range filter state
+  const [marketCapRange, setMarketCapRange] = useState<RangeFilter>(DEFAULT_MARKET_CAP_RANGE);
+  const [yieldRange, setYieldRange] = useState<RangeFilter>(DEFAULT_YIELD_RANGE);
 
   const entityCodes = useMemo(() => AVAILABLE_ENTITIES.map(({ code }) => code), []);
   const { data: entityData, isLoading, error } = useEntityData(entityCodes);
@@ -93,6 +99,29 @@ export function MonitorPage() {
   }, [reitsData]);
 
   const allSectors = useMemo(() => Array.from(new Set(reitsData.map((reit) => reit.sector))), [reitsData]);
+
+  // Compute min/max values from data for range sliders
+  const marketCapMinMax = useMemo(() => {
+    if (reitsData.length === 0) {
+      return { min: DEFAULT_MARKET_CAP_RANGE.min, max: DEFAULT_MARKET_CAP_RANGE.max };
+    }
+    const values = reitsData.map((r) => r.marketCap);
+    return {
+      min: Math.floor(Math.min(...values)),
+      max: Math.ceil(Math.max(...values)),
+    };
+  }, [reitsData]);
+
+  const yieldMinMax = useMemo(() => {
+    if (reitsData.length === 0) {
+      return { min: DEFAULT_YIELD_RANGE.min, max: DEFAULT_YIELD_RANGE.max };
+    }
+    const values = reitsData.map((r) => r.yield);
+    return {
+      min: Math.floor(Math.min(...values) * 10) / 10,
+      max: Math.ceil(Math.max(...values) * 10) / 10,
+    };
+  }, [reitsData]);
 
   const handleSectorChange = (sector: string) => {
     setSelectedSectors((previous) =>
@@ -126,6 +155,17 @@ export function MonitorPage() {
     setSelectedReitIds(next);
   };
 
+  const handleReset = () => {
+    setSearchQuery('');
+    setSelectedSectors([]);
+    setShariahOnly(false);
+    setMarketCapRange(DEFAULT_MARKET_CAP_RANGE);
+    setYieldRange(DEFAULT_YIELD_RANGE);
+    setSelectedReitIds(new Set());
+    setSortField(null);
+    setSortDirection(null);
+  };
+
   const filteredAndSortedData = useMemo(() => {
     let result = [...reitsData];
 
@@ -143,6 +183,26 @@ export function MonitorPage() {
 
     if (shariahOnly) {
       result = result.filter((reit) => reit.shariahCompliant);
+    }
+
+    // Apply market cap range filter (inclusive)
+    const isMarketCapFiltered = 
+      marketCapRange.min > marketCapMinMax.min || 
+      marketCapRange.max < marketCapMinMax.max;
+    if (isMarketCapFiltered) {
+      result = result.filter(
+        (reit) => reit.marketCap >= marketCapRange.min && reit.marketCap <= marketCapRange.max,
+      );
+    }
+
+    // Apply yield range filter (inclusive)
+    const isYieldFiltered = 
+      yieldRange.min > yieldMinMax.min || 
+      yieldRange.max < yieldMinMax.max;
+    if (isYieldFiltered) {
+      result = result.filter(
+        (reit) => reit.yield >= yieldRange.min && reit.yield <= yieldRange.max,
+      );
     }
 
     if (sortField && sortDirection) {
@@ -167,7 +227,18 @@ export function MonitorPage() {
     }
 
     return result;
-  }, [reitsData, searchQuery, selectedSectors, shariahOnly, sortField, sortDirection]);
+  }, [
+    reitsData, 
+    searchQuery, 
+    selectedSectors, 
+    shariahOnly, 
+    sortField, 
+    sortDirection,
+    marketCapRange,
+    yieldRange,
+    marketCapMinMax,
+    yieldMinMax,
+  ]);
 
   const selectedReitsList = reitsData.filter((reit) => selectedReitIds.has(reit.id));
   const selectedCap = Math.min(filteredAndSortedData.length, 6);
@@ -179,6 +250,8 @@ export function MonitorPage() {
   return (
     <div className="flex min-h-[calc(100vh-48px)] flex-col bg-canvas pb-20">
       <div className="flex h-10 items-center border-b border-stroke bg-surface-alt px-4 text-sm text-ink-muted">
+        <h1 className="font-semibold text-ink">Malaysian REIT Monitor</h1>
+        <span className="mx-2 text-stroke-strong">|</span>
         <span className="font-medium text-ink">{filteredAndSortedData.length} covered</span>
         <span className="mx-2 text-stroke-strong">|</span>
         <span>{totalCitationCount.toLocaleString()} citations</span>
@@ -195,6 +268,13 @@ export function MonitorPage() {
           onShariahChange={setShariahOnly}
           searchQuery={searchQuery}
           onSearchChange={setSearchQuery}
+          marketCapRange={marketCapRange}
+          onMarketCapRangeChange={setMarketCapRange}
+          yieldRange={yieldRange}
+          onYieldRangeChange={setYieldRange}
+          marketCapMinMax={marketCapMinMax}
+          yieldMinMax={yieldMinMax}
+          onReset={handleReset}
         />
 
         <main className="relative flex-1 overflow-auto">
@@ -211,7 +291,8 @@ export function MonitorPage() {
                   <th className={`${thClass} w-10 text-center`}>
                     <input
                       type="checkbox"
-                      className="h-3.5 w-3.5 rounded-sm border-stroke text-accent focus:ring-accent"
+                      aria-label="Select all visible REITs"
+                      className="h-3.5 w-3.5 min-h-[44px] min-w-[44px] rounded-sm border-stroke text-accent focus:ring-accent"
                       checked={selectedCap > 0 && selectedReitIds.size === selectedCap}
                       onChange={(event) => {
                         if (event.target.checked) {
@@ -291,7 +372,9 @@ export function MonitorPage() {
                     </div>
                     <div className="mt-0.5 text-[10px] font-normal uppercase tracking-wider text-ink-faint">Count</div>
                   </th>
-                  <th className={`${thClass} w-24`} />
+                  <th className={`${thClass} w-24`}>
+                    <span className="sr-only">Actions</span>
+                  </th>
                 </tr>
               </thead>
 
@@ -324,12 +407,13 @@ export function MonitorPage() {
                             : 'bg-canvas hover:bg-surface-alt'
                       }`}
                     >
-                      <td className={`${tdClass} text-center`}>
+                      <td className={`${tdClass} p-0 text-center`}>
                         <input
                           type="checkbox"
+                          aria-label={`Select ${reit.name}`}
                           checked={isSelected}
                           onChange={() => toggleSelection(reit.id)}
-                          className="h-3.5 w-3.5 rounded-sm border-stroke text-accent focus:ring-accent"
+                          className="h-3.5 w-3.5 min-h-[44px] min-w-[44px] rounded-sm border-stroke text-accent focus:ring-accent"
                         />
                       </td>
                       <td className={`${tdClass} sticky left-0 z-10 ${stickyCellBg}`}>

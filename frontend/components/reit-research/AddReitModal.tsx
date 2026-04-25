@@ -1,163 +1,51 @@
 'use client';
 
-import Link from 'next/link';
-import { usePathname, useRouter } from 'next/navigation';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { AVAILABLE_ENTITIES, type AvailableEntity } from '@/lib/available-entities';
 import { useFocusTrap } from '@/hooks/useFocusTrap';
 import { useAnnouncer } from '@/hooks/useAnnouncer';
-import { AlignJustify, AlignLeft, Moon, Search, Sun, X, ArrowRight } from './icons';
+import { Search, X, Plus } from './icons';
 
-interface GlobalNavProps {
-  isCompact: boolean;
-  setIsCompact: (value: boolean) => void;
-  isDark: boolean;
-  setIsDark: (value: boolean) => void;
-}
-
-export function GlobalNav({
-  isCompact,
-  setIsCompact,
-  isDark,
-  setIsDark,
-}: GlobalNavProps) {
-  const pathname = usePathname();
-  const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const searchTriggerRef = useRef<HTMLButtonElement>(null);
-
-  const navLinks = [
-    { name: 'Monitor', path: '/' },
-    { name: 'Compare', path: '/compare' },
-    { name: 'Coverage', path: '/coverage' },
-    { name: 'Methodology', path: '/methodology' },
-  ];
-
-  // Keyboard shortcut: Cmd/Ctrl+K to open search
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
-        e.preventDefault();
-        setIsSearchOpen(true);
-      }
-    };
-
-    document.addEventListener('keydown', handleKeyDown);
-    return () => document.removeEventListener('keydown', handleKeyDown);
-  }, []);
-
-  return (
-    <>
-      <header className="sticky top-0 z-50 flex h-12 items-center justify-between border-b border-stroke bg-canvas px-3 md:px-4">
-        <div className="flex h-full items-center gap-3 md:gap-6">
-          <Link href="/" className="group flex items-center gap-2">
-            <div className="flex h-5 w-5 items-center justify-center rounded-sm bg-accent transition-colors group-hover:bg-accent-hover">
-              <div className="h-2 w-2 rounded-[1px] bg-canvas" />
-            </div>
-            <span className="text-label hidden tracking-widest text-ink sm:inline-block">REIT RESEARCH</span>
-          </Link>
-
-          <nav className="ml-1 flex h-full items-center gap-1 md:ml-4" aria-label="Primary navigation">
-            {navLinks.map((link) => {
-              const isActive =
-                pathname === link.path ||
-                (link.path === '/' && pathname === '/monitor') ||
-                (link.path !== '/' && pathname?.startsWith(link.path));
-
-              return (
-                <Link
-                  key={link.name}
-                  href={link.path}
-                  className={`relative flex h-full items-center px-3 text-sm font-medium transition-colors ${
-                    isActive ? 'text-accent' : 'text-ink-muted hover:text-ink'
-                  }`}
-                >
-                  {link.name}
-                  {isActive && <span className="absolute bottom-0 left-0 right-0 h-[2px] bg-accent" />}
-                </Link>
-              );
-            })}
-          </nav>
-        </div>
-
-        <div className="flex items-center gap-3 md:gap-4">
-          <button
-            ref={searchTriggerRef}
-            onClick={() => setIsSearchOpen(true)}
-            className="hidden cursor-text items-center gap-2 rounded-sm border border-stroke bg-surface-alt px-2 py-1 text-xs text-ink-muted transition-colors hover:border-stroke-strong hover:text-ink lg:flex"
-            aria-label="Open search (Cmd+K)"
-          >
-            <Search className="h-3.5 w-3.5" />
-            <span className="w-24 text-left xl:w-32">Search...</span>
-            <kbd className="rounded-[2px] border border-stroke bg-canvas px-1 font-sans text-[10px]">
-              <span className="sr-only">Keyboard shortcut:</span>⌘K
-            </kbd>
-          </button>
-
-          <div className="flex items-center gap-1 border-l border-stroke pl-3 md:pl-4">
-            <button
-              onClick={() => setIsCompact(!isCompact)}
-              className="rounded-sm p-1.5 text-ink-muted transition-colors hover:bg-surface-alt hover:text-ink"
-              title={isCompact ? 'Switch to comfortable density' : 'Switch to compact density'}
-              aria-label={isCompact ? 'Switch to comfortable density' : 'Switch to compact density'}
-            >
-              {isCompact ? <AlignJustify className="h-4 w-4" /> : <AlignLeft className="h-4 w-4" />}
-            </button>
-            <button
-              onClick={() => setIsDark(!isDark)}
-              className="rounded-sm p-1.5 text-ink-muted transition-colors hover:bg-surface-alt hover:text-ink"
-              title="Toggle theme"
-              aria-label="Toggle theme"
-            >
-              {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
-            </button>
-          </div>
-
-          <div className="hidden border-l border-stroke pl-4 text-xs text-ink-faint xl:block">
-            Last updated 24 Apr 2025
-          </div>
-        </div>
-      </header>
-
-      <SearchModal
-        isOpen={isSearchOpen}
-        onClose={() => setIsSearchOpen(false)}
-        triggerRef={searchTriggerRef}
-      />
-    </>
-  );
-}
-
-// =============================================================================
-// SearchModal Component
-// =============================================================================
-
-interface SearchModalProps {
+interface AddReitModalProps {
   isOpen: boolean;
   onClose: () => void;
-  triggerRef: React.RefObject<HTMLButtonElement>;
+  selectedIds: string[];
+  onAdd: (entityCode: string) => void;
 }
 
-function SearchModal({ isOpen, onClose, triggerRef }: SearchModalProps) {
-  const router = useRouter();
+const MAX_REITS = 6;
+
+export function AddReitModal({ isOpen, onClose, selectedIds, onAdd }: AddReitModalProps) {
   const { announce, liveRegionProps } = useAnnouncer();
   const [query, setQuery] = useState('');
   const [selectedIndex, setSelectedIndex] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // Filter entities based on search query
+  // Create a set of selected IDs for efficient lookup
+  const selectedIdsSet = useMemo(() => new Set(selectedIds), [selectedIds]);
+
+  // Check if we've reached the limit
+  const isAtLimit = selectedIds.length >= MAX_REITS;
+
+  // Filter entities based on search query and exclude already selected
   const filteredEntities = useMemo(() => {
-    if (!query.trim()) return AVAILABLE_ENTITIES.slice(0, 6); // Show first 6 by default
-    
+    // Filter out already selected entities
+    const availableEntities = AVAILABLE_ENTITIES.filter(
+      (entity) => !selectedIdsSet.has(entity.code)
+    );
+
+    if (!query.trim()) return availableEntities.slice(0, 6); // Show first 6 available by default
+
     const normalizedQuery = query.toLowerCase().trim();
-    return AVAILABLE_ENTITIES.filter((entity) => {
+    return availableEntities.filter((entity) => {
       const nameMatch = entity.name.toLowerCase().includes(normalizedQuery);
       const codeMatch = entity.code.toLowerCase().includes(normalizedQuery);
-      const aliasMatch = entity.aliases?.some((alias) => 
+      const aliasMatch = entity.aliases?.some((alias) =>
         alias.toLowerCase().includes(normalizedQuery)
       );
       return nameMatch || codeMatch || aliasMatch;
     });
-  }, [query]);
+  }, [query, selectedIdsSet]);
 
   // Reset selection when filtered results change
   useEffect(() => {
@@ -183,16 +71,21 @@ function SearchModal({ isOpen, onClose, triggerRef }: SearchModalProps) {
   }, [isOpen]);
 
   const handleSelect = useCallback((entity: AvailableEntity) => {
+    if (isAtLimit) {
+      announce(`Cannot add ${entity.name}. Maximum of ${MAX_REITS} REITs reached.`, 'assertive');
+      return;
+    }
+    onAdd(entity.code);
+    announce(`${entity.name} added to comparison`, 'polite');
     onClose();
-    router.push(`/entity/${entity.code}`);
-  }, [onClose, router]);
+  }, [isAtLimit, onAdd, onClose, announce]);
 
   // Handle keyboard navigation
   const handleKeyDown = useCallback((e: React.KeyboardEvent) => {
     switch (e.key) {
       case 'ArrowDown':
         e.preventDefault();
-        setSelectedIndex((prev) => 
+        setSelectedIndex((prev) =>
           prev < filteredEntities.length - 1 ? prev + 1 : prev
         );
         break;
@@ -202,7 +95,7 @@ function SearchModal({ isOpen, onClose, triggerRef }: SearchModalProps) {
         break;
       case 'Enter':
         e.preventDefault();
-        if (filteredEntities[selectedIndex]) {
+        if (filteredEntities[selectedIndex] && !isAtLimit) {
           handleSelect(filteredEntities[selectedIndex]);
         }
         break;
@@ -215,7 +108,7 @@ function SearchModal({ isOpen, onClose, triggerRef }: SearchModalProps) {
         e.preventDefault();
         break;
     }
-  }, [filteredEntities, selectedIndex, handleSelect, onClose]);
+  }, [filteredEntities, selectedIndex, handleSelect, onClose, isAtLimit]);
 
   // Focus trap for the modal
   const modalRef = useFocusTrap<HTMLDivElement>({
@@ -223,13 +116,6 @@ function SearchModal({ isOpen, onClose, triggerRef }: SearchModalProps) {
     onEscape: onClose,
     returnFocusOnDeactivate: true,
   });
-
-  // Return focus to trigger when closing
-  useEffect(() => {
-    if (!isOpen && triggerRef.current) {
-      triggerRef.current.focus();
-    }
-  }, [isOpen, triggerRef]);
 
   if (!isOpen) return null;
 
@@ -249,10 +135,24 @@ function SearchModal({ isOpen, onClose, triggerRef }: SearchModalProps) {
         ref={modalRef}
         role="dialog"
         aria-modal="true"
-        aria-label="Search entities"
+        aria-label="Add REIT to comparison"
         className="fixed left-1/2 top-[15vh] z-[70] w-[90vw] max-w-lg -translate-x-1/2 rounded-lg border border-stroke bg-surface shadow-popover"
         onKeyDown={handleKeyDown}
       >
+        {/* Header with limit indicator */}
+        <div className="flex items-center justify-between border-b border-stroke px-4 py-3">
+          <h2 className="text-sm font-semibold text-ink">Add REIT to Compare</h2>
+          <span
+            className={`rounded-sm px-2 py-0.5 text-xs font-medium ${
+              isAtLimit
+                ? 'bg-danger/10 text-danger'
+                : 'bg-surface-alt text-ink-muted'
+            }`}
+          >
+            {selectedIds.length} / {MAX_REITS} REITs
+          </span>
+        </div>
+
         {/* Search Input */}
         <div className="flex items-center gap-3 border-b border-stroke px-4 py-3">
           <Search className="h-5 w-5 text-ink-muted" aria-hidden="true" />
@@ -263,9 +163,10 @@ function SearchModal({ isOpen, onClose, triggerRef }: SearchModalProps) {
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search REITs by name or ticker..."
             className="flex-1 bg-transparent text-sm text-ink placeholder:text-ink-muted focus:outline-none"
-            aria-label="Search entities"
+            aria-label="Search REITs"
             autoComplete="off"
             spellCheck={false}
+            disabled={isAtLimit}
           />
           {query && (
             <button
@@ -285,16 +186,29 @@ function SearchModal({ isOpen, onClose, triggerRef }: SearchModalProps) {
           </kbd>
         </div>
 
+        {/* Limit Warning */}
+        {isAtLimit && (
+          <div className="border-b border-stroke bg-danger/5 px-4 py-2 text-xs text-danger">
+            Maximum of {MAX_REITS} REITs reached. Remove a REIT to add another.
+          </div>
+        )}
+
         {/* Results */}
-        <div 
+        <div
           className="max-h-[50vh] overflow-y-auto py-2"
           role="listbox"
           aria-label="Search results"
         >
           {filteredEntities.length === 0 ? (
             <div className="px-4 py-8 text-center text-sm text-ink-muted">
-              <p>No entities found</p>
-              <p className="mt-1 text-xs">Try searching by name, ticker, or alias</p>
+              {isAtLimit ? (
+                <p>Remove a REIT to add more to comparison</p>
+              ) : (
+                <>
+                  <p>No REITs found</p>
+                  <p className="mt-1 text-xs">Try searching by name, ticker, or alias</p>
+                </>
+              )}
             </div>
           ) : (
             filteredEntities.map((entity, index) => {
@@ -306,10 +220,13 @@ function SearchModal({ isOpen, onClose, triggerRef }: SearchModalProps) {
                   role="option"
                   aria-selected={isSelected}
                   onClick={() => handleSelect(entity)}
+                  disabled={isAtLimit}
                   className={`flex w-full items-center justify-between px-4 py-2.5 text-left transition-colors ${
-                    isSelected
-                      ? 'bg-accent/10 text-accent'
-                      : 'text-ink hover:bg-surface-alt'
+                    isAtLimit
+                      ? 'cursor-not-allowed opacity-50'
+                      : isSelected
+                        ? 'bg-accent/10 text-accent'
+                        : 'text-ink hover:bg-surface-alt'
                   }`}
                 >
                   <div className="flex items-center gap-3">
@@ -323,8 +240,8 @@ function SearchModal({ isOpen, onClose, triggerRef }: SearchModalProps) {
                       </p>
                     </div>
                   </div>
-                  {isSelected && (
-                    <ArrowRight className="h-4 w-4 text-accent" aria-hidden="true" />
+                  {!isAtLimit && isSelected && (
+                    <Plus className="h-4 w-4 text-accent" aria-hidden="true" />
                   )}
                 </button>
               );
@@ -342,10 +259,10 @@ function SearchModal({ isOpen, onClose, triggerRef }: SearchModalProps) {
             </span>
             <span className="flex items-center gap-1">
               <kbd className="rounded-[2px] border border-stroke bg-canvas px-1.5 py-0.5 font-sans">↵</kbd>
-              <span>to select</span>
+              <span>to add</span>
             </span>
           </div>
-          <span>{filteredEntities.length} entities</span>
+          <span>{filteredEntities.length} available</span>
         </div>
 
         {/* Screen reader announcements */}
