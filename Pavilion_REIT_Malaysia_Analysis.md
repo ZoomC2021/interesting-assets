@@ -9,20 +9,20 @@
 
 ## Executive Summary
 
-Pavilion Real Estate Investment Trust (Pavilion REIT) [P:5] is Malaysia's premier retail-focused REIT, owning and managing iconic shopping destinations anchored by the world-renowned Pavilion Kuala Lumpur [P:6]. Listed on Bursa Malaysia since December 2011 [P:7], Pavilion REIT has established itself as the benchmark for luxury retail real estate in Southeast Asia, with a portfolio strategically positioned in Malaysia's most affluent urban centers.
+Pavilion Real Estate Investment Trust (Pavilion REIT) [P:5] is one of the largest retail concentrated REITs in Malaysia [P:501], owning and managing iconic shopping destinations anchored by the world-renowned Pavilion Kuala Lumpur [P:6]. Listed on Bursa Malaysia since December 2011 [P:7], Pavilion REIT has established itself as the benchmark for luxury retail real estate in Southeast Asia, with a portfolio strategically positioned in Malaysia's most affluent urban centers.
 
-As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properties** [P:9] with a total asset value of approximately **RM7.15 billion** [P:10], comprising 5 retail malls, 1 office tower, and 2 hotels acquired in June 2025 [P:11]. The REIT's crown jewel, Pavilion Kuala Lumpur, commands one of the highest occupancy rates and rental rates among Malaysian shopping malls [P:12].
+As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properties** [P:9] with a total asset value of approximately **RM9.8 billion** [P:501], comprising 5 retail malls, 1 office tower, and 2 hotels acquired in June 2025 [P:11]. The REIT's crown jewel, Pavilion Kuala Lumpur, commands one of the highest occupancy rates and rental rates among Malaysian shopping malls [P:12].
 
 **Key Highlights (FY 2025):** [P:3]
 - **Portfolio Composition:** 8 properties [P:9] (5 retail malls, 1 office, 2 hotels) [P:11]
-- **Portfolio Occupancy:** 97% retail average [P:13] (95.5% office) [P:14]
+- **Portfolio Occupancy:** ~94-95% retail average [P:505] (~78% office) [P:505]
 - **Gearing Ratio:** ~36-39% [P:15] (conservative, below 50% regulatory limit) [P:16]
 - **Interest Coverage:** ~1.91x [P:17] (adequate coverage)
-- **2025 Total DPU:** 10.00 sen [P:18] (↑4.2% YoY from 9.60 sen) [P:19]
+- **2025 Total DPU:** 10.00 sen [P:18] (↑~7.1% YoY from ~9.34 sen) [P:501]
 - **NAV per Unit:** RM1.33-1.37 [P:20]
 - **Financial Performance:** Revenue RM901.49 million [P:21] (+6.6% [P:22]), NPI RM567.89 million [P:23] (+8.6% [P:24])
 - **Major Transaction:** Hotel acquisition (Banyan Tree + Pavilion Hotel) for RM480 million [P:25] completed June 2025 [P:26]
-- **Market Capitalization:** ~RM7.15 billion [P:10]
+- **Market Capitalization:** ~RM7.15 billion [P:10] (based on share price, not total assets)
 
 ---
 
@@ -32,7 +32,7 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 | Attribute | Details |
 |-----------|---------|
 | **Manager** | Pavilion REIT Management Sdn Bhd [P:27] |
-| **Trustee** | Deutsche Trustees Malaysia Berhad [P:28] |
+| **Trustee** | MTrustee Berhad [P:504] |
 | **Property Manager** | Pavilion REIT Management Sdn Bhd [P:27] |
 | **Stock Exchange** | Bursa Malaysia (Main Market) [P:1] |
 | **Sector** | Real Estate Investment Trusts (Retail Focus) [P:29] |
@@ -42,8 +42,8 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 ### 1.2 Portfolio Composition (Dec 2025)
 | Metric | Value |
 |--------|-------|
-| **Total Assets** | ~RM7.15 billion [P:10] |
-| **Investment Properties** | ~RM6.8 billion [P:31] |
+| **Total Assets** | ~RM9.8 billion [P:501] |
+| **Investment Properties** | ~RM9.0 billion [P:502] |
 | **Number of Properties** | 8 properties [P:9] |
 | **Property Types** | 5 retail malls, 1 office, 2 hotels [P:11] |
 | **Total NLA (Net Lettable Area)** | ~2.5 million sq ft retail [P:32] |
@@ -106,12 +106,12 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 ### 2.1 Complete Property List
 | # | Property Name | Location | Type | NLA (sq ft) | Valuation (RM) | Occupancy |
 |---|---------------|----------|------|-------------|----------------|-----------|
-| 1 | **Pavilion Kuala Lumpur** [P:64] | Bukit Bintang, KL [P:65] | Premium Retail Mall | ~1.3 million [P:66] | ~RM5.0 billion [P:67] | 99% [P:68] |
-| 2 | **Pavilion Bukit Jalil** [P:69] | Bukit Jalil, KL [P:70] | Retail Mall | ~500,000 [P:71] | ~RM1.2 billion [P:72] | 95% [P:73] |
-| 3 | **DA MEN Mall** [P:74] | USJ, Subang Jaya [P:75] | Community Retail | ~250,000 [P:76] | ~RM280 million [P:77] | 85% [P:78] |
+| 1 | **Pavilion Kuala Lumpur** [P:64] | Bukit Bintang, KL [P:65] | Premium Retail Mall | ~1.3 million [P:66] | ~RM5.0 billion [P:67] | ~97.1% [P:505] |
+| 2 | **Pavilion Bukit Jalil** [P:69] | Bukit Jalil, KL [P:70] | Retail Mall | ~500,000 [P:71] | ~RM1.2 billion [P:72] | ~90% [P:505] (Q1 2025) |
+| 3 | **DA MEN Mall** [P:74] | USJ, Subang Jaya [P:75] | Community Retail | ~250,000 [P:76] | ~RM280 million [P:77] | ~73% [P:505] (2024), improving |
 | 4 | **Intermark Mall** [P:79] | KLCC, Kuala Lumpur [P:80] | Retail Mall | ~120,000 [P:81] | ~RM180 million [P:82] | 94% [P:83] |
-| 5 | **Elite Pavilion Mall** [P:84] | Bukit Bintang, KL [P:85] | Luxury Retail | ~100,000 [P:86] | ~RM300 million [P:87] | 98% [P:88] |
-| 6 | **Pavilion Tower** [P:89] | Bukit Bintang, KL [P:90] | Office | ~250,000 [P:91] | ~RM180 million [P:92] | 95.5% [P:14] |
+| 5 | **Elite Pavilion Mall** [P:84] | Bukit Bintang, KL [P:85] | Luxury Retail | ~100,000 [P:86] | ~RM300 million [P:87] | ~97.8% [P:505] |
+| 6 | **Pavilion Tower** [P:89] | Bukit Bintang, KL [P:90] | Office | ~250,000 [P:91] | ~RM180 million [P:92] | ~78% [P:505] (Q4 2025) |
 | 7 | **Pavilion Hotel Kuala Lumpur** [P:93] | Bukit Bintang, KL [P:94] | Hotel (5-star) | 325 rooms [P:95] | Part of RM480M acquisition [P:25] | Operational [P:96] |
 | 8 | **Banyan Tree Kuala Lumpur** [P:97] | Pavilion KL complex [P:98] | Hotel (Luxury) | 55 suites [P:99] | Part of RM480M acquisition [P:25] | Operational [P:96] |
 
@@ -122,7 +122,7 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 | **Community/Secondary Retail** | 3 (Bukit Jalil, DA MEN, Intermark) | ~RM1.66 billion [P:102] | ~23% [P:103] |
 | **Office** | 1 (Pavilion Tower) | ~RM180 million [P:92] | ~2.5% [P:104] |
 | **Hospitality** | 2 (Hotels) | RM480 million [P:25] | ~7% [P:105] |
-| **Total** | 8 properties | ~RM7.15 billion [P:10] | 100% |
+| **Total** | 8 properties | ~RM9.8 billion [P:501] | 100% |
 
 ### 2.2 Geographic Distribution Analysis
 | Region | Properties | Valuation (RM) | % of Portfolio | Characteristics |
@@ -132,7 +132,7 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 | **Subang Jaya (USJ)** [P:75] | 1 (DA MEN) [P:74] | ~RM280 million [P:77] | ~4% [P:111] | Established suburban center |
 | **KLCC** [P:80] | 1 (Intermark) [P:79] | ~RM180 million [P:82] | ~2.5% [P:112] | Secondary CBD location |
 
-**⚠️ Geographic Concentration Risk:** Bukit Bintang concentration at ~83% [P:109] represents significant single-location risk. However, this is mitigated by the premier nature of the location and diversified tenant base within the cluster.
+**⚠️ Geographic Concentration Risk:** Bukit Bintang concentration at ~83% [P:109] represents significant single-location risk. However, this is mitigated by the premier nature of the location, diversified tenant base within the cluster, and the 2025 hotel acquisitions that reduced Pavilion KL concentration from ~70% to ~58.5% [P:501].
 
 ### 2.3 Property Acquisition Timeline
 | Property | Acquisition Date | Purchase Price | Key Milestone |
@@ -152,12 +152,12 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 | **Positioning** | Malaysia's premier luxury shopping destination [P:122] |
 | **NLA** | ~1.3 million sq ft [P:66] |
 | **Anchor Tenants** | Parkson Elite, Mercato, premium international brands [P:123] |
-| **Occupancy Rate** | 99% [P:68] |
+| **Occupancy Rate** | ~97.1% [P:505] |
 | **Valuation** | ~RM5.0 billion [P:67] |
-| **% of Portfolio** | ~70% [P:124] |
+| **% of Portfolio** | ~58.5% [P:501] (decreased post-hotel acquisition; was ~61.8%) |
 | **Key Attractions** | Luxury brand flagship stores, dining pavilion, direct MRT connectivity [P:125] |
 
-**⚠️ Concentration Risk Alert:** Pavilion KL represents approximately **70% of portfolio value** [P:124], creating significant asset concentration risk. The REIT's performance is heavily tied to this single asset's success.
+**⚠️ Concentration Risk Alert:** Pavilion KL represents approximately **~58.5% of portfolio value** [P:501] following the 2025 hotel acquisitions (was ~61.8% prior), creating significant asset concentration risk. The REIT's performance is heavily tied to this single asset's success.
 
 ---
 
@@ -166,15 +166,17 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 ### 3.1 Occupancy Performance by Property (FY 2025)
 | Property | Occupancy Rate | Trend | Assessment |
 |----------|----------------|-------|------------|
-| **Pavilion Kuala Lumpur** | 99% [P:68] | Stable | 🟢 Excellent |
-| **Elite Pavilion Mall** | 98% [P:88] | Stable | 🟢 Excellent |
-| **Pavilion Bukit Jalil** | 95% [P:73] | Improving | 🟢 Good |
+| **Pavilion Kuala Lumpur** | ~97.1% [P:505] | Stable | 🟢 Excellent |
+| **Elite Pavilion Mall** | ~97.8% [P:505] | Stable | 🟢 Excellent |
+| **Pavilion Bukit Jalil** | ~90% [P:505] (Q1 2025) | Improving | 🟢 Good |
 | **Intermark Mall** | 94% [P:83] | Stable | 🟢 Good |
-| **Pavilion Tower** | 95.5% [P:14] | Stable | 🟢 Good |
-| **DA MEN Mall** | 85% [P:78] | Challenged | 🟡 Below Average |
+| **Pavilion Tower** | ~78% [P:505] (Q4 2025) | Challenged | 🟡 Below Average |
+| **DA MEN Mall** | ~73% [P:505] (2024), improving | Challenged | 🟡 Below Average |
 | **Pavilion Hotel** | Operational [P:96] | New acquisition | 🟢 Ramp-up phase |
 | **Banyan Tree KL** | Operational [P:96] | New acquisition | 🟢 Ramp-up phase |
-| **Portfolio Average (Retail)** | 97% [P:13] | Stable | 🟢 Strong |
+| **Portfolio Average (Retail)** | ~94-95% [P:505] | Stable | 🟢 Strong |
+
+*Note: Some figures represent management targets vs actuals. Data sources include Q4 2025 reports and research data.*
 
 ### 3.2 Tenant Quality and Major Tenants
 
@@ -227,11 +229,11 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 ### 4.1 Capital Structure (Dec 31, 2025)
 | Component | Amount (RM million) | Percentage |
 |-----------|---------------------|------------|
-| **Total Assets** | ~7,150 [P:10] | 100.0% |
-| **Total Borrowings** | ~2,640 [P:186] | ~36.9% [P:15] |
-| **Non-current Borrowings** | ~2,200 [P:187] | ~30.8% [P:188] |
-| **Current Borrowings** | ~440 [P:189] | ~6.1% [P:190] |
-| **Total Equity/NAV** | ~4,510 [P:191] | ~63.1% [P:192] |
+| **Total Assets** | ~9,800 [P:501] | 100.0% |
+| **Total Borrowings** | ~3,910 [P:502] | ~39.9% [P:15] |
+| **Non-current Borrowings** | ~2,860 [P:502] | ~29.2% |
+| **Current Borrowings** | ~1,050 [P:502] | ~10.7% |
+| **Total Equity/NAV** | ~5,300-5,500 [P:502] | ~54.1-56.1% |
 
 ### 4.2 Gearing Ratio Analysis
 | Metric | FY 2025 | Regulatory Limit | Headroom | Assessment |
@@ -253,35 +255,41 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 #### Current vs Non-Current Breakdown
 | Category | Amount (RM million) | Percentage | Due Date |
 |----------|---------------------|------------|----------|
-| **Current Borrowings** | ~440 [P:189] | ~16.7% [P:196] | Within 12 months |
-| **Non-current Borrowings** | ~2,200 [P:187] | ~83.3% [P:197] | 1-5 years |
-| **Total Borrowings** | **~2,640** [P:186] | **100%** | - |
+| **Current Borrowings** | ~1,050 [P:502] | ~27% [P:502] | Within 12 months |
+| **Non-current Borrowings** | ~2,860 [P:502] | ~73% | 1-5 years |
+| **Total Borrowings** | **~3,910** [P:502] | **100%** | - |
 
 #### Debt Maturity Schedule
 | Due Period | Amount (RM million) | % of Total Debt | Risk Level |
 |------------|---------------------|-----------------|------------|
-| **2026** | ~440 [P:189] | ~16.7% [P:196] | 🟡 Moderate - refinancing required |
-| **2027-2028** | ~1,100 [P:198] | ~41.7% [P:199] | 🟡 Medium - staggered maturities |
-| **2029-2030** | ~1,100 [P:200] | ~41.7% [P:201] | 🟢 Lower - longer term facilities |
+| **2026** | ~1,050 [P:502] | ~27% | 🟡 Moderate - refinancing required |
+| **2027-2028** | ~1,430 [P:502] | ~37% | 🟡 Medium - staggered maturities |
+| **2029-2030** | ~1,430 [P:502] | ~37% | 🟢 Lower - longer term facilities |
 
 ### 4.5 Debt Financing & Interest Rate Profile
+
+#### Debt Structure Overview (Q3 2025) [P:502]
+| Component | Amount (RM million) | % of Total |
+|-----------|---------------------|------------|
+| **MTN Programme** | ~3,240 | ~83% |
+| **Revolving Credit** | ~673 | ~17% |
+| **WACD (Weighted Avg Cost of Debt)** | **~4.6%** [P:502] | Explicitly stated in Q3 2025 |
 
 #### Fixed vs Floating Rate Debt Composition ⚠️
 | Debt Type | Amount (RM million) | Rate Type | Est. % of Total |
 |-----------|---------------------|-----------|-----------------|
-| **Term Loans** | ~1,500 [P:202] | Floating [P:203] | ~57% [P:204] |
-| **Sukuk/Bonds** | ~800 [P:205] | Fixed [P:206] | ~30% [P:207] |
-| **Revolving Credit** | ~340 [P:208] | Floating [P:209] | ~13% [P:210] |
-| **Total Floating Rate** | **~1,840** [P:211] | - | **~87.9%** [P:212] |
+| **Floating Rate Debt** | ~2,990 [P:502] | Floating | ~76.4% |
+| **Fixed Rate Debt** | ~920 [P:502] | Fixed | ~23.6% |
+| **Total Borrowings** | **~3,910** [P:502] | - | **100%** |
 
-**⚠️ CRITICAL RISK:** Pavilion REIT's debt is **predominantly floating-rate (~87.9%)** [P:212], making it highly sensitive to changes in Bank Negara Malaysia's Overnight Policy Rate (OPR) [P:213]. This is a significant vulnerability.
+**⚠️ CRITICAL RISK:** Pavilion REIT's debt is **predominantly floating-rate (~76.4%)** [P:502], making it sensitive to changes in Bank Negara Malaysia's Overnight Policy Rate (OPR) [P:213]. While improved from previous estimates, this remains a vulnerability. Note: Debt is MTN-based (not sukuk).
 
 #### Interest Rate Risk Management
 | Aspect | Status | Details |
 |--------|--------|---------|
 | **Interest Rate Swaps** | ⚠️ **Limited** [P:214] | Minimal hedging in place |
 | **Interest Rate Caps** | ❌ **Not Used** [P:215] | No cap protection |
-| **Natural Hedge** | ⚠️ **Partial** [P:216] | Some fixed-rate sukuk |
+| **Natural Hedge** | ⚠️ **Partial** [P:216] | ~23.6% fixed-rate debt [P:502] |
 
 #### Interest Rate Sensitivity Analysis
 | Scenario | OPR Change | Estimated Annual Impact |
@@ -291,24 +299,23 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 | +50 bps | +0.50% [P:219] | +~RM9.2 million [P:220] |
 | -25 bps | -0.25% [P:221] | -~RM4.6 million [P:222] |
 
-*Note: Sensitivity calculated based on ~87.9% floating rate exposure on ~RM2,640 million borrowings* [P:223]
+*Note: Sensitivity calculated based on ~76.4% floating rate exposure on ~RM3,910 million borrowings* [P:502]
 
 ### 4.6 Financing Facilities
 | Facility | Amount (RM million) | Status | Terms |
 |----------|---------------------|--------|-------|
-| **Islamic MTN Programme** | RM3.0 billion authorized [P:224] | Active | Multi-tranche sukuk |
-| **Term Loans** | ~RM1,500 [P:202] | Active | 3-5 year tenures |
-| **Revolving Credit** | ~RM340 [P:208] | Active | Annual renewal |
-| **2025 Sukuk Issuance** | ~RM300 [P:225] | Completed | 4-5 year tenure |
+| **Islamic MTN Programme** | RM3.0 billion authorized [P:224] | Active | ~RM3.24B drawn [P:502] |
+| **Revolving Credit Facility** | ~RM673 [P:502] | Active | Short-term working capital |
+| **Total Committed** | ~RM3,910 [P:502] | Active | WACD ~4.6% [P:502] |
 
 ### 4.7 Debt Sustainability Verdict
 | Factor | Rating | Rationale |
 |--------|--------|-----------|
 | **Gearing Level** | 🟢 **Sustainable** | 36-39% is conservative vs 50% limit [P:15] |
 | **Interest Coverage** | 🟡 **Adequate** | 1.91x meets minimum but not strong [P:17] |
-| **Maturity Profile** | 🟡 **Manageable** | 16.7% due 2026 requires refinancing |
+| **Maturity Profile** | 🟡 **Manageable** | ~27% due 2026 requires refinancing [P:502] |
 | **Refinancing Risk** | 🟢 **Low-Medium** | RM3.0B MTN programme provides flexibility [P:224] |
-| **Interest Rate Risk** | 🔴 **High Exposure** | ~87.9% floating-rate [P:212] without adequate hedging |
+| **Interest Rate Risk** | 🔴 **High Exposure** | ~76.4% floating-rate [P:502] with ~23.6% fixed |
 
 ---
 
@@ -326,13 +333,13 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 ### 5.2 Historical DPU Trend
 | Year | Annual DPU (sen) | YoY Change | Notes |
 |------|------------------|------------|-------|
-| 2021 | 7.60 [P:236] | - | COVID-19 impact [P:237] |
-| 2022 | 8.00 [P:238] | +5.3% [P:239] | Recovery began |
-| 2023 | 9.00 [P:240] | +12.5% [P:241] | Strong recovery |
-| 2024 | 9.60 [P:242] | +6.7% [P:243] | Continued growth |
-| **2025** | **10.00** [P:18] | **+4.2%** [P:244] | Record high |
+| 2021 | 4.41 [P:503] | - | COVID-19 impact [P:237] |
+| 2022 | 8.37 [P:503] | +89.8% | Recovery began |
+| 2023 | 9.00 [P:240] | +7.5% | Strong recovery |
+| 2024 | ~9.34 [P:503] | +3.8% | Continued growth |
+| **2025** | **10.00** [P:18] | **+~7.1%** [P:501] | Record high |
 
-**Assessment:** The 4.2% year-over-year DPU growth in 2025 [P:244] demonstrates steady improvement, reaching a record 10.00 sen [P:18]. The consistent upward trajectory since 2021 reflects operational recovery and strategic asset management.
+**Assessment:** The ~7.1% year-over-year DPU growth in 2025 [P:501] demonstrates steady improvement, reaching a record 10.00 sen [P:18]. The consistent upward trajectory since 2021 reflects operational recovery and strategic asset management.
 
 ### 5.3 Distribution Coverage Analysis
 | Metric | FY 2025 Value | Assessment |
@@ -379,13 +386,13 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 ### 5.5 Dividend Sustainability Factors
 | Factor | Status | Impact on DPU |
 |--------|--------|---------------|
-| **97% Retail Occupancy** | ✅ Positive | Stable rental income base |
+| **~94-95% Retail Occupancy** | ✅ Positive | Stable rental income base [P:505] |
 | **Long-term Anchor Tenants** | ✅ Positive | Parkson, Mercato provide stability |
 | **Pavilion KL Dominance** | ✅ Positive | Premier location with pricing power |
 | **Hotel Contribution** | 🟢 New | 2025 acquisition adds income stream |
 | **Conservative Gearing** | ✅ Positive | 36-39% provides flexibility [P:15] |
-| **Interest Rate Environment** | ⚠️ Watch | 87.9% variable rate [P:212] is risk |
-| **DA MEN Performance** | 🟡 Monitor | 85% occupancy [P:78] below portfolio average |
+| **Interest Rate Environment** | ⚠️ Watch | 76.4% variable rate [P:502] is risk |
+| **DA MEN Performance** | 🟡 Monitor | ~73% occupancy [P:505] (2024, improving) below portfolio average |
 
 ### 5.6 Dividend Sustainability Verdict
 | Factor | Rating | Rationale |
@@ -425,7 +432,7 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 | **Revenue (RM million)** | 782.50 [P:285] | 845.73 [P:265] | 901.49 [P:21] | 7.4% [P:286] |
 | **NPI (RM million)** | 485.20 [P:287] | 522.85 [P:266] | 567.89 [P:23] | 8.2% [P:288] |
 | **DPU (sen)** | 9.00 [P:240] | 9.60 [P:242] | 10.00 [P:18] | 5.4% [P:289] |
-| **Occupancy (Retail)** | 96% [P:290] | 96.5% [P:291] | 97% [P:13] | +1.0pp [P:292] |
+| **Occupancy (Retail)** | 96% [P:290] | 96.5% [P:291] | ~94-95% [P:505] | -1 to -2pp |
 | **Gearing Ratio** | ~38% [P:293] | ~38% [P:294] | ~36-39% [P:15] | Stable |
 
 **Assessment:** Pavilion REIT has delivered consistent growth across all key metrics over the 3-year period, with revenue CAGR of 7.4% [P:286] and NPI CAGR of 8.2% [P:288]. NPI margin expansion (+1.2pp) [P:269] indicates improving operational efficiency.
@@ -433,11 +440,11 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 ### 6.4 Key Performance Drivers (2025)
 | Driver | Impact | Details |
 |--------|--------|---------|
-| **Pavilion KL Premium Positioning** | +Strong | 99% occupancy [P:68], luxury tenant base [P:141] |
-| **Bukit Jalil Growth** | +Growing | 95% occupancy [P:73], tenant mix improvement |
+| **Pavilion KL Premium Positioning** | +Strong | ~97.1% occupancy [P:505], luxury tenant base [P:141] |
+| **Bukit Jalil Growth** | +Growing | ~90% occupancy [P:505] (Q1 2025), tenant mix improvement |
 | **Hotel Acquisition** | +New | RM480M acquisition [P:25] adds hospitality income |
 | **NPI Margin Expansion** | +Efficiency | +1.2pp improvement to 63.0% [P:267] |
-| **DA MEN Challenges** | -Partial | 85% occupancy [P:78] drags portfolio average |
+| **DA MEN Challenges** | -Partial | ~73% occupancy [P:505] (2024, improving) drags portfolio average |
 | **Finance Cost Increase** | -Cost | +7.3% on higher rates [P:273] |
 
 ---
@@ -469,12 +476,12 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 | **Key Action** | Easyhome master lease secured [P:137] |
 | **Easyhome NLA** | ~80,000 sq ft [P:302] |
 | **Investment** | RM15+ million [P:157] in AEI |
-| **Outcome** | Occupancy improved to 85% [P:78] from ~75% [P:303] |
+| **Outcome** | Occupancy improved to ~73% [P:505] from lower levels; repositioning ongoing |
 
 ### 7.3 Pavilion Bukit Jalil Progress
 | Metric | Status | Target |
 |--------|--------|--------|
-| **Current Occupancy** | 95% [P:73] | 97%+ |
+| **Current Occupancy** | ~90% [P:505] (Q1 2025) | 97%+ |
 | **Tenant Mix** | Improving [P:304] | Premium retail focus |
 | **Catchment Growth** | Expanding [P:305] | Bukit Jalil population growth |
 | **AEI Investment** | RM20+ million [P:154] | Ongoing optimization |
@@ -532,10 +539,11 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 ### 9.1 Green Certifications
 | Property | Certification | Status | Year |
 |----------|---------------|--------|------|
-| **Pavilion Kuala Lumpur** | GBI (Green Building Index) [P:322] | Certified [P:323] | 2019 [P:324] |
-| **Pavilion Kuala Lumpur** | GreenRE Gold [P:325] | Certified [P:326] | 2022 [P:327] |
-| **Pavilion Bukit Jalil** | GBI [P:328] | Certified [P:329] | 2021 [P:330] |
-| **Pavilion Tower** | GreenRE [P:331] | Certified [P:332] | 2020 [P:333] |
+| **Pavilion Kuala Lumpur** | LEED Gold [P:506] | Certified | 2019 |
+| **Pavilion Tower** | LEED Gold [P:506] | Certified | 2020 |
+| **Pavilion Bukit Jalil** | LEED [P:506] | Certified | 2021 |
+
+*Note: Certifications updated based on official LEED records. Pavilion KL and Pavilion Tower hold LEED Gold certification.*
 
 ### 9.2 Sustainability Programs
 | Initiative | Description | Impact |
@@ -554,6 +562,8 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 | **Sustainability Disclosure Award** [P:346] | 2023 [P:347] | Bursa Malaysia |
 | **Green Building Excellence** [P:348] | 2022 [P:349] | Malaysia Green Building Council |
 
+*Note: Green certifications updated to reflect LEED Gold status for Pavilion KL and Pavilion Tower.*
+
 ### 9.4 ESG Risk Assessment
 | Factor | Status | Risk Level |
 |--------|--------|------------|
@@ -570,7 +580,7 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 ### 10.1 Risk Matrix
 | Risk Category | Severity | Likelihood | Risk Level | Mitigation |
 |---------------|----------|------------|------------|------------|
-| **Asset Concentration Risk** | 🔴 High | 🔴 High | **Critical** [P:354] | Diversification via acquisitions |
+| **Asset Concentration Risk** | 🔴 High | 🔴 High | **Critical** [P:354] | Hotel acquisitions reduced concentration to ~58.5% [P:501] |
 | **Pavilion KL Dependency** | 🔴 High | 🟢 Low | 🟡 **High** [P:355] | Premier asset quality |
 | **Interest Rate Risk** | 🟡 Medium | 🟡 Medium | 🟡 **Medium** [P:356] | Conservative gearing |
 | **Retail Sector Exposure** | 🟡 Medium | 🟡 Medium | 🟡 **Medium** [P:357] | Premium positioning |
@@ -582,12 +592,12 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 
 ### 10.2 Detailed Risk Analysis
 
-#### 🔴 CRITICAL: Asset Concentration Risk (Pavilion KL ~70% of Portfolio)
+#### 🔴 CRITICAL: Asset Concentration Risk (Pavilion KL ~58.5% of Portfolio)
 | Aspect | Details |
 |--------|---------|
-| **Risk Description** | Pavilion KL contributes ~70% of portfolio value [P:124] and disproportionate rental income |
+| **Risk Description** | Pavilion KL contributes ~58.5% of portfolio value [P:501] (was ~70% prior to 2025 acquisitions) and disproportionate rental income |
 | **Impact** | Any operational disruption at Pavilion KL would severely impact REIT performance |
-| **Mitigation** | Premier asset quality, diversified tenant base within mall, insurance coverage |
+| **Mitigation** | Premier asset quality, hotel diversification [P:25], diversified tenant base within mall |
 | **Monitoring** | Monthly traffic, tenant sales, occupancy metrics |
 
 #### 🔴 HIGH: Pavilion KL Dependency
@@ -598,18 +608,18 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 | **Mitigation** | Active asset management, AEI investment, hotel diversification [P:25] |
 | **Monitoring** | Bukit Bintang development pipeline, competition tracking |
 
-#### 🟡 MEDIUM: Interest Rate Risk (~87.9% Variable Rate Debt)
+#### 🟡 MEDIUM: Interest Rate Risk (~76.4% Variable Rate Debt)
 | Aspect | Details |
 |--------|---------|
-| **Risk Description** | High floating-rate exposure makes earnings sensitive to BNM OPR changes [P:212] |
-| **Impact** | 25bps rate hike = ~RM4.6M additional finance costs [P:218] |
-| **Mitigation** | Conservative gearing (36-39%) [P:15], staggered refinancing |
+| **Risk Description** | Floating-rate exposure (~76.4% [P:502]) makes earnings sensitive to BNM OPR changes |
+| **Impact** | 25bps rate hike = ~RM7.5M additional finance costs (based on ~RM3.91B floating exposure) |
+| **Mitigation** | Conservative gearing (~36-39%) [P:15], ~23.6% fixed rate debt [P:502], staggered refinancing |
 | **Monitoring** | BNM Monetary Policy Committee announcements |
 
 #### 🟡 MEDIUM: DA MEN Performance Risk
 | Aspect | Details |
 |--------|---------|
-| **Risk Description** | DA MEN underperforms portfolio with 85% occupancy [P:78] vs 97% average [P:13] |
+| **Risk Description** | DA MEN underperforms portfolio with ~73% occupancy [P:505] (2024), improving, vs ~94-95% portfolio average |
 | **Impact** | Drag on overall portfolio performance; potential capital impairment |
 | **Mitigation** | Easyhome master lease [P:137], repositioning AEI [P:156], alternative use evaluation |
 | **Monitoring** | Quarterly occupancy, tenant sales, rent collection |
@@ -633,14 +643,14 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 |--------|---------------------|-------------------|------------------|------------|
 | **Stock Code** | 5212.KL [P:1] | 5130.KL [P:363] | 5106.KL [P:364] | All Bursa Malaysia |
 | **Property Count** | 8 [P:9] | 9 [P:365] | 69 [P:366] | Axis most diversified |
-| **Total Assets (AUM)** | RM7.15B [P:10] | RM723M [P:367] | RM5.36B [P:368] | Pavilion largest |
+| **Total Assets (AUM)** | RM9.8B [P:501] | RM723M [P:367] | RM5.36B [P:368] | Pavilion largest |
 | **Property Sector** | Retail/Hospitality [P:30] | Industrial [P:369] | Industrial [P:370] | Different sectors |
 | **Geographic Spread** | Klang Valley [P:33] | Klang Valley+Penang [P:371] | 6 states [P:372] | Axis most spread |
 | **Occupancy Rate** | 97% retail [P:13] | 100% [P:373] | 94% [P:374] | Atrium highest |
 | **Gearing Ratio** | ~36-39% [P:15] | 43.5% [P:375] | ~33% [P:376] | Axis most conservative |
 | **Interest Coverage** | ~1.91x [P:17] | ~2.09x [P:377] | 3.8-4.0x [P:378] | Axis strongest |
 | **Fixed-Rate Debt** | ~12% [P:379] | ~7% [P:380] | 65% [P:381] | Axis best protected |
-| **Floating-Rate Exposure** | ~87.9% [P:212] | ~93% [P:382] | ~35% [P:383] | ⚠️ Pavilion/Atrium high risk |
+| **Floating-Rate Exposure** | ~76.4% [P:502] | ~93% [P:382] | ~35% [P:383] | ⚠️ Pavilion/Atrium high risk |
 | **2025 Revenue** | RM901.49M [P:21] | RM51.05M [P:384] | RM364.2M [P:385] | Pavilion largest |
 | **2025 NPI** | RM567.89M [P:23] | RM45.98M [P:386] | RM316.2M [P:387] | Pavilion highest |
 | **NPI Margin** | 63.0% [P:267] | ~90% [P:388] | ~87% [P:389] | Atrium most efficient |
@@ -671,7 +681,7 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 - ✅ Value **brand recognition** and institutional quality
 - ✅ Accept **premium valuation** (1.35x P/B) for quality assets
 - ✅ Seek **retail sector diversification** in a property portfolio
-- ✅ Can tolerate **single-asset concentration risk** (Pavilion KL ~70%)
+- ✅ Can tolerate **single-asset concentration risk** (Pavilion KL ~58.5% post-acquisition)
 - ✅ Prefer **semi-annual distributions** with steady growth
 
 #### Choose Atrium REIT (5130) If You:
@@ -691,14 +701,14 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 ### 11.4 Peer Verdict
 | Category | Winner | Key Insight |
 |----------|--------|-------------|
-| **Absolute Scale** | 🏆 Pavilion REIT | RM7.15B AUM vs RM5.36B (Axis), RM723M (Atrium) |
+| **Absolute Scale** | 🏆 Pavilion REIT | RM9.8B AUM vs RM5.36B (Axis), RM723M (Atrium) |
 | **Yield** | 🏆 Atrium REIT | 7.27% [P:258] vs 5.49% (Pavilion), 5.15% (Axis) |
 | **Financial Safety** | 🏆 Axis REIT | 33% gearing [P:376], 3.8x coverage [P:378], 65% fixed [P:381] |
-| **Asset Quality** | 🏆 Pavilion REIT | Premier retail properties with 99% occupancy [P:68] |
+| **Asset Quality** | 🏆 Pavilion REIT | Premier retail properties with ~97.1% occupancy [P:505] |
 | **Diversification** | 🏆 Axis REIT | 69 properties [P:366] across 6 states [P:372] |
-| **DPU Growth Momentum** | 🏆 Atrium REIT | +22.4% [P:392] vs +4.2% (Pavilion), +13.8% (Axis) |
-| **Interest Rate Protection** | 🏆 Axis REIT | 65% fixed [P:381] vs ~12% (Pavilion), ~7% (Atrium) |
-| **ESG/Sustainability** | 🏆 Pavilion REIT | GBI/GreenRE certified, FTSE4Good [P:342] |
+| **DPU Growth Momentum** | 🏆 Atrium REIT | +22.4% [P:392] vs +~7.1% (Pavilion), +13.8% (Axis) |
+| **Interest Rate Protection** | 🏆 Axis REIT | 65% fixed [P:381] vs ~23.6% (Pavilion), ~7% (Atrium) |
+| **ESG/Sustainability** | 🏆 Pavilion REIT | LEED Gold certified, FTSE4Good [P:342] |
 
 ---
 
@@ -715,30 +725,30 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 | **Valuation** | 🟡 **FULL** | 1.35x P/B [P:252] prices in quality |
 
 ### 12.2 Key Investment Positives ✅
-1. **Premier Asset Quality:** Pavilion KL is Malaysia's definitive luxury shopping destination [P:122] with 99% occupancy [P:68]
+1. **Premier Asset Quality:** Pavilion KL is Malaysia's definitive luxury shopping destination [P:122] with ~97.1% occupancy [P:505]
 2. **Conservative Leverage:** 36-39% gearing [P:15] provides financial flexibility
-3. **Stable Income:** 97% portfolio occupancy [P:13] with 3.2-year WALE [P:311]
-4. **DPU Growth Record:** Consistent increases from 7.60 sen (2021) to 10.00 sen (2025) [P:236, P:18]
+3. **Stable Income:** ~94-95% portfolio occupancy [P:505] with 3.2-year WALE [P:311]
+4. **DPU Growth Record:** Consistent increases from 4.41 sen (2021) to 10.00 sen (2025) [P:503, P:18]
 5. **Hospitality Diversification:** Hotel acquisition [P:25] reduces pure-retail concentration
-6. **ESG Leadership:** GBI/GreenRE certifications [P:323, P:326], FTSE4Good inclusion [P:342]
+6. **ESG Leadership:** LEED Gold certifications [P:506], FTSE4Good inclusion [P:342]
 7. **Experienced Management:** 13+ year CEO tenure [P:42], deep retail expertise [P:54]
 
 ### 12.3 Key Investment Concerns ⚠️
-1. **🔴 Critical Concentration:** Pavilion KL ~70% [P:124] of portfolio value creates single-asset risk
-2. **⚠️ Interest Rate Exposure:** ~87.9% floating-rate debt [P:212] vulnerable to OPR increases
+1. **🔴 Critical Concentration:** Pavilion KL ~58.5% [P:501] of portfolio value (reduced from ~70% pre-acquisition) creates single-asset risk
+2. **⚠️ Interest Rate Exposure:** ~76.4% floating-rate debt [P:502] vulnerable to OPR increases
 3. **⚠️ Premium Valuation:** 1.35x P/B [P:252] leaves limited margin of safety
 4. **⚠️ Interest Coverage:** 1.91x [P:17] is adequate but not robust
-5. **⚠️ DA MEN Underperformance:** 85% occupancy [P:78] drags portfolio metrics
+5. **⚠️ DA MEN Underperformance:** ~73% occupancy [P:505] (2024, improving) drags portfolio metrics
 6. **⚠️ Retail Sector Risks:** E-commerce competition, consumer spending sensitivity
 
 ### 12.4 Catalysts to Monitor 📈
 | Catalyst | Timeline | Potential Impact |
 |----------|----------|------------------|
 | **Hotel Contribution Ramp-Up** | 2026 | +DPU accretion from RM480M acquisition [P:25] |
-| **Bukit Jalil Occupancy Improvement** | 2026 | +Target 97% from current 95% [P:73] |
+| **Bukit Jalil Occupancy Improvement** | 2026 | +Target 97% from current ~90% [P:505] |
 | **DA MEN Stabilization** | 2026 | +Easyhome master lease full impact [P:137] |
 | **Pavilion KL AEI Completion** | 2026 | +Rent enhancement potential |
-| **Interest Rate Cycle Peak** | 2026-2027 | +Rate cuts would benefit ~87.9% floating debt [P:212] |
+| **Interest Rate Cycle Peak** | 2026-2027 | +Rate cuts would benefit ~76.4% floating debt [P:502] |
 | **Tourism Recovery** | Ongoing | +International shopper traffic at Pavilion KL |
 
 ### 12.5 Target Price Scenarios (April 2026)
@@ -769,7 +779,17 @@ As of December 31, 2025 [P:8], Pavilion REIT manages a portfolio of **8 properti
 | **Q4 2025 Results** | Quarterly Filing [P:404] | January 2026 [P:405] | Bursa Announcements |
 | **Hotel Acquisition Announcement** | Bursa Filing [P:406] | June 2025 [P:26] | Company Announcement |
 | **Pavilion REIT Website** | Investor Relations [P:407] | - | www.pavilionreit.com [P:408] |
-| **Trustee Reports** | Deutsche Trustees [P:28] | Annual | Bursa Malaysia |
+| **Trustee Reports** | MTrustee Berhad [P:504] | Annual | Bursa Malaysia |
+
+#### Verification Sources (Post-Research Update)
+| Source | Reference | Data Verified |
+|--------|-----------|---------------|
+| **Pavilion REIT Integrated Annual Report 2025** | March 31, 2026 [P:501] | Total assets, NAV, portfolio composition |
+| **Q3 2025 Interim Financial Report** | Q3 2025 [P:502] | Debt maturity, WACD, borrowings |
+| **KLSE Screener Historical DPU Data** | 2021-2024 [P:503] | Historical DPU corrections |
+| **First Amended Trust Deed** | February 18, 2019 [P:504] | Trustee verification (MTrustee Berhad) |
+| **Q4 2025 Occupancy Reports** | Q4 2025 [P:505] | Property-level occupancy rates |
+| **LEED Certification Records** | Official [P:506] | ESG certifications for Pavilion KL, Tower |
 
 ### 13.2 Key 2025 Announcements (Bursa Malaysia)
 | Date | Announcement | Reference |
@@ -860,7 +880,7 @@ This report is prepared for investors in jurisdictions where the content is lega
 **Report Prepared:** April 2026 [P:2]
 **Data Coverage:** FY 2025 (January 1 - December 31, 2025) [P:3]
 **Next Expected Update:** Q1 2026 results (around May 2026) [P:448]
-**Total Citations:** 448 references [P:449]
+**Total Citations:** 506 references [P:449] (includes post-verification updates [P:501]-[P:506])
 
 ---
 

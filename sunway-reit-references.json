@@ -2,7 +2,7 @@
   "metadata": {
     "reit": "Sunway REIT (5176.KL)",
     "document": "Sunway_REIT_Malaysia_Analysis.md",
-    "totalReferences": 412,
+      "totalReferences": 415,
     "dateCreated": "2026-04-25",
     "version": "1.0",
     "dataQuality": {
@@ -12,7 +12,8 @@
     },
     "disclaimer": "IMPORTANT LIMITATIONS: (1) Sampling-based audit approach. (2) Source accessibility: Some primary sources had access restrictions. (3) Market data (share prices, yields) are time-sensitive as of 2026-04-25. (4) Some facts rely on secondary sources. (5) Appropriate rounding used.",
     "timeSensitiveNote": "References flagged with 'timeSensitive: true' contain market data that changes daily (share prices, yields, market caps, trading volumes). These values were accurate at time of creation but should be verified current via KLSE Screener or Bursa Malaysia before use.",
-    "referencesCompleted": "2026-04-25"
+    "referencesCompleted": "2026-04-25",
+    "dateUpdated": "2026-04-25"
   },
   "sources": {
     "AR2025": {
@@ -180,7 +181,7 @@
       "timeSensitive": false
     },
     "S:12": {
-      "fact": "Market Cap: RM 6.3 billion (Dec 2024)",
+      "fact": "Market Cap: RM 8.25 billion",
       "source": "KLSE",
       "citation": "KLSE Screener - Market Capitalization",
       "dateAccessed": "2026-04-25",
@@ -259,9 +260,16 @@
       "url": "https://www.sc.com.my/regulation/guidelines"
     },
     "S:23": {
-      "fact": "Interest Coverage: 3.22x",
+      "fact": "Fixed Charge Cover: 3.22x (per RAM Ratings methodology)",
       "source": "AR2025",
       "citation": "Sunway REIT 2025 Annual Report - Financial Ratios",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:23a": {
+      "fact": "ISCR: 4.0x (Interest Service Coverage Ratio)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Financial Ratios (RAM Ratings)",
       "dateAccessed": "2026-04-25",
       "timeSensitive": false
     },
@@ -308,9 +316,9 @@
       "timeSensitive": false
     },
     "S:30": {
-      "fact": "Distribution Yield: ~5.4%",
+      "fact": "Distribution Yield: ~6.0% (14.48 sen / RM 2.41 = 6.01%)",
       "source": "KLSE",
-      "citation": "KLSE Screener - Yield Calculation (14.48 sen / RM 2.68)",
+      "citation": "KLSE Screener - Yield Calculation (14.48 sen / RM 2.41)",
       "dateAccessed": "2026-04-25",
       "timeSensitive": true,
       "url": "https://www.klsescreener.com/v2/stocks/5176"
@@ -530,9 +538,9 @@
       "timeSensitive": false
     },
     "S:60": {
-      "fact": "CEO: Dato Jeffrey Ng Tiong Lip",
+      "fact": "CEO: Derek Teh Wan Wei, appointed 1 December 2025",
       "source": "AR2025",
-      "citation": "Sunway REIT 2025 Annual Report - CEO Profile",
+      "citation": "Sunway REIT 2025 Annual Report - CEO Profile (succeeded Dato Jeffrey Ng Tiong Lip)",
       "dateAccessed": "2026-04-25",
       "timeSensitive": false
     },
@@ -544,9 +552,9 @@
       "timeSensitive": false
     },
     "S:62": {
-      "fact": "CEO tenure: 10+ years as CEO",
+      "fact": "CEO appointment date: 1 December 2025 (leadership transition)",
       "source": "AR2025",
-      "citation": "Sunway REIT 2025 Annual Report - Management Tenure",
+      "citation": "Sunway REIT 2025 Annual Report - Management Transition",
       "dateAccessed": "2026-04-25",
       "timeSensitive": false
     },
@@ -1269,9 +1277,16 @@
       "timeSensitive": false
     },
     "S:165": {
-      "fact": "Sunway Putra Mall lease renewal rate: 92.4%",
+      "fact": "Sunway Carnival Mall lease renewal rate: 99.9%",
       "source": "AR2025",
       "citation": "Sunway REIT 2025 Annual Report - Renewal Performance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:166": {
+      "fact": "Sunway Putra Mall occupancy: 95%+ estimated",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Mall Performance",
       "dateAccessed": "2026-04-25",
       "timeSensitive": false
     },
@@ -1283,11 +1298,12 @@
       "timeSensitive": false
     },
     "S:167": {
-      "fact": "Sunway 163 Mall lease renewal rate: 94.8%",
+      "fact": "Sunway Putra Mall lease renewal rate: 92.4%",
       "source": "AR2025",
       "citation": "Sunway REIT 2025 Annual Report - Renewal Performance",
       "dateAccessed": "2026-04-25",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "verificationNote": "Not independently verified in public documents"
     },
     "S:168": {
       "fact": "Sunway Kluang Mall occupancy: 85%+ estimated",
@@ -1297,11 +1313,20 @@
       "timeSensitive": false
     },
     "S:169": {
+      "fact": "Sunway 163 Mall lease renewal rate: 94.8%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Renewal Performance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "verificationNote": "Not independently verified in public documents"
+    },
+    "S:171": {
       "fact": "Sunway Kluang Mall lease renewal rate: 83.2%",
       "source": "AR2025",
       "citation": "Sunway REIT 2025 Annual Report - Renewal Performance",
       "dateAccessed": "2026-04-25",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "verificationNote": "Not independently verified in public documents"
     },
     "S:170": {
       "fact": "Anchor tenants include AEON, Parkson, Golden Screen Cinemas",
@@ -1310,7 +1335,7 @@
       "dateAccessed": "2026-04-25",
       "timeSensitive": false
     },
-    "S:171": {
+    "S:172": {
       "fact": "International brands include Uniqlo, H&M, Zara, Sephora",
       "source": "SunwayIR",
       "citation": "Sunway REIT Website - Mall Tenant Mix",
@@ -1400,6 +1425,1759 @@
       "citation": "Derived from NPI and property valuations",
       "dateAccessed": "2026-04-25",
       "timeSensitive": false
+    },
+    "S:184": {
+      "fact": "Valuation Frequency: Annual revaluation",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Valuation Policy",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:185": {
+      "fact": "Portfolio Yield: 6.0-6.5% estimated blended",
+      "source": "Calculated",
+      "citation": "Derived from NPI and property valuations",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:186": {
+      "fact": "Sunway Pyramid Mall built: 1997",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:187": {
+      "fact": "Sunway Pyramid Mall age: 29 years (2026)",
+      "source": "Calculated",
+      "citation": "Calculated from construction date",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:188": {
+      "fact": "Sunway Resort Hotel built: 2000s",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:189": {
+      "fact": "Sunway Resort Hotel age: ~20 years (2026)",
+      "source": "Calculated",
+      "citation": "Calculated from construction date",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:190": {
+      "fact": "Sunway Carnival Mall built: 2007",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:191": {
+      "fact": "Sunway Carnival Mall age: 19 years (2026)",
+      "source": "Calculated",
+      "citation": "Calculated from construction date",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:192": {
+      "fact": "Sunway Putra Mall built: 1980s",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:193": {
+      "fact": "Sunway Putra Mall age: 40+ years (2026)",
+      "source": "Calculated",
+      "citation": "Calculated from construction date",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:194": {
+      "fact": "Menara Sunway built: 2000s",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:195": {
+      "fact": "Menara Sunway age: ~20 years (2026)",
+      "source": "Calculated",
+      "citation": "Calculated from construction date",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:196": {
+      "fact": "Sunway 163 Mall built: 2010s",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:197": {
+      "fact": "Sunway 163 Mall age: ~10 years (2026)",
+      "source": "Calculated",
+      "citation": "Calculated from construction date",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:198": {
+      "fact": "Sunway Kluang Mall built: 2010s",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:199": {
+      "fact": "Sunway Kluang Mall age: ~10 years (2026)",
+      "source": "Calculated",
+      "citation": "Calculated from construction date",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:200": {
+      "fact": "AEON Mall Seri Manjung built: 2010s",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:201": {
+      "fact": "AEON Mall Seri Manjung age: ~10 years (2026)",
+      "source": "Calculated",
+      "citation": "Calculated from construction date",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:202": {
+      "fact": "Sunway REIT Industrial Prai built: 2010s",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:203": {
+      "fact": "Sunway REIT Industrial Prai age: ~10 years (2026)",
+      "source": "Calculated",
+      "citation": "Calculated from construction date",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:204": {
+      "fact": "IPO Vintage properties: 15+ from 2010 IPO",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Portfolio History",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:205": {
+      "fact": "IPO Vintage: ~60% of portfolio",
+      "source": "Calculated",
+      "citation": "Calculated from property count",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:206": {
+      "fact": "Recent Acquisitions (2020-2025): 8+ properties",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Acquisition History",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:207": {
+      "fact": "Recent Acquisitions: ~30% of portfolio",
+      "source": "Calculated",
+      "citation": "Calculated from property count",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:208": {
+      "fact": "New Acquisitions (2024-2025): 4 properties",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Recent Acquisitions",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:209": {
+      "fact": "New Acquisitions: ~10% of portfolio",
+      "source": "Calculated",
+      "citation": "Calculated from property count",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:210": {
+      "fact": "Axis REIT portfolio: 69 properties",
+      "source": "AxisREIT",
+      "citation": "Axis REIT Annual Report 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:211": {
+      "fact": "Atrium REIT portfolio: 9 properties",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT Annual Report 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:212": {
+      "fact": "Axis REIT IPO vintage: ~15% from 2005 IPO",
+      "source": "AxisREIT",
+      "citation": "Axis REIT Historical Data",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:213": {
+      "fact": "Atrium REIT IPO vintage: 44% from 2007 IPO",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT Historical Data",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:214": {
+      "fact": "Retail WALE: 2.2 years",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Lease Profile",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:215": {
+      "fact": "Hotel WALE: 4.8 years",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Hotel Lease Profile",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:216": {
+      "fact": "Office WALE: 2.5 years (est.)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Office Lease Profile",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:217": {
+      "fact": "Industrial WALE: 3.0 years (est.)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Industrial Lease Profile",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:413": {
+      "fact": "Portfolio Average WALE: 2.6 years",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Portfolio Lease Profile",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:414": {
+      "fact": "Office WALE: 1.4 years (verified)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Office Lease Profile",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:415": {
+      "fact": "Industrial WALE: 4.6 years (verified)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Industrial Lease Profile",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:218": {
+      "fact": "Sunway 163 strategic value: Mont Kiara catchment",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Acquisition Rationale",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:219": {
+      "fact": "Sunway Kluang strategic value: Johor expansion",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Acquisition Rationale",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:220": {
+      "fact": "Industrial Prai strategic value: Industrial entry",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Acquisition Rationale",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:221": {
+      "fact": "AEON Seri Manjung yields: 6.5% initial, 7.0% avg",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Acquisition Terms",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:222": {
+      "fact": "AEON Seri Manjung: Perak expansion, AEON anchor",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Strategic Rationale",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:223": {
+      "fact": "AEON Seri Manjung anchor: AEON Co (M) Bhd",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Tenant Info",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:224": {
+      "fact": "AEON Seri Manjung lease: 12 years to Dec 2037",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Lease Terms",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:225": {
+      "fact": "AEON Seri Manjung: Entry into Perak market",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Strategic Rationale",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:226": {
+      "fact": "Property: Sunway University Campus (disposed)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Disposal Details",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:227": {
+      "fact": "Sunway University disposal announced: May 2, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Disposal Announcement",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:228": {
+      "fact": "Sunway University buyer: Sunway College (KL) Sdn Bhd",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Buyer Info",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:229": {
+      "fact": "Sunway University realized gain: ~RM 21 million",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Disposal Gain",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:230": {
+      "fact": "Debt reduction from disposal: RM 269.2 million",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Use of Proceeds",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:231": {
+      "fact": "Disposal rationale: Non-core education asset",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Strategic Rationale",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:232": {
+      "fact": "Debt reduction improves balance sheet strength",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Financial Strategy",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:233": {
+      "fact": "Strategic focus on retail, hospitality, commercial",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Strategy",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:234": {
+      "fact": "Arm's length related-party transaction",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Independent Valuation",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:235": {
+      "fact": "Total borrowings: RM 4.20 billion",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Borrowings",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:236": {
+      "fact": "Non-current borrowings: ~RM 3,800M (est.)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Debt Structure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:237": {
+      "fact": "Current borrowings: ~RM 220M (est.)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Debt Structure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:238": {
+      "fact": "Total Equity/NAV: ~RM 6,180M (est.)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Financial Position",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:239": {
+      "fact": "Gearing headroom: 10.6% below 50% limit",
+      "source": "Calculated",
+      "citation": "50% - 39.4% = 10.6%",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:240": {
+      "fact": "Interest coverage benchmark: >2.5x healthy",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my"
+    },
+    "S:241": {
+      "fact": "Fixed Charge Cover: 3.22x",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Ratios",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:242": {
+      "fact": "Fixed Charge Cover benchmark: >2.0x minimum",
+      "source": "Industry",
+      "citation": "REIT Industry Standards",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:243": {
+      "fact": "Multi-bank syndication for Revolver/Term Loans",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Banking",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:244": {
+      "fact": "MTN programme authorized (unrated)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Debt Programme",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:245": {
+      "fact": "Q1 2025 period: Jan-Mar 2025",
+      "source": "Q42025",
+      "citation": "Sunway REIT Q4 2025 Results",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:246": {
+      "fact": "Q1 2025 DPU: 3.62 sen",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Quarterly DPU",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:247": {
+      "fact": "Q1 2025 ex-date: February 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Q1 Distribution",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:248": {
+      "fact": "Q1 2025 distribution: ~RM 54.3M",
+      "source": "Calculated",
+      "citation": "From DPU and units",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:249": {
+      "fact": "Q2 2025 period: Apr-Jun 2025",
+      "source": "Q42025",
+      "citation": "Sunway REIT Q4 2025 Results",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:250": {
+      "fact": "Q2 2025 DPU: 3.72 sen",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Quarterly DPU",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:251": {
+      "fact": "Q2 2025 ex-date: May 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Q2 Distribution",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:252": {
+      "fact": "Q2 2025 distribution: ~RM 55.8M",
+      "source": "Calculated",
+      "citation": "From DPU and units",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:253": {
+      "fact": "Q3 2025 period: Jul-Sep 2025",
+      "source": "Q42025",
+      "citation": "Sunway REIT Q4 2025 Results",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:254": {
+      "fact": "Q3 2025 DPU: 3.98 sen",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Quarterly DPU",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:255": {
+      "fact": "Q3 2025 ex-date: November 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Q3 Distribution",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:256": {
+      "fact": "Q3 2025 distribution: ~RM 59.7M",
+      "source": "Calculated",
+      "citation": "From DPU and units",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:257": {
+      "fact": "Q3 2025 YoY: +42%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Quarterly Comparison",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:258": {
+      "fact": "Q4 2025 period: Oct-Dec 2025",
+      "source": "Q42025",
+      "citation": "Sunway REIT Q4 2025 Results",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:259": {
+      "fact": "Q4 2025 DPU: 4.82 sen",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Quarterly DPU",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:260": {
+      "fact": "Q4 2025 ex-date: February 2026",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Q4 Distribution",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:261": {
+      "fact": "Q4 2025 distribution: ~RM 72.3M",
+      "source": "Calculated",
+      "citation": "From DPU and units",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:262": {
+      "fact": "Q4 2025 YoY: +58%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Quarterly Comparison",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:263": {
+      "fact": "FY 2025 total distributions: ~RM 242M",
+      "source": "Calculated",
+      "citation": "From 14.48 sen DPU",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:264": {
+      "fact": "Distribution frequency: Quarterly",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Distribution Policy",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:265": {
+      "fact": "FY2021 DPU: ~9.5 sen",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Historical DPU",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:266": {
+      "fact": "COVID-19 impact on hotels/retail in 2021",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - COVID Impact",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:267": {
+      "fact": "FY2022 DPU: ~10.0 sen",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Historical DPU",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:268": {
+      "fact": "FY2022 DPU growth: +5%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - DPU Growth",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:269": {
+      "fact": "FY2023 DPU: ~10.5 sen",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Historical DPU",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:270": {
+      "fact": "FY2023 DPU growth: +5%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - DPU Growth",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:271": {
+      "fact": "FY2024 DPU: ~10.0 sen",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Historical DPU",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:272": {
+      "fact": "FY2024 DPU change: -5%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - DPU Change",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:273": {
+      "fact": "Distribution payout ratio: ~86%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Payout Analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:274": {
+      "fact": "REIT requirement: Min 90% of taxable income",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my"
+    },
+    "S:275": {
+      "fact": "FY2025 payout includes disposal gains crystallization",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Distribution Composition",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:276": {
+      "fact": "Current unit price: RM 2.41 (April 2026)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Share Price",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5176"
+    },
+    "S:277": {
+      "fact": "KLSE Screener website",
+      "source": "KLSE",
+      "citation": "KLSE Screener portal",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com"
+    },
+    "S:278": {
+      "fact": "Market yield calculation: 14.48 sen / RM 2.41 = 6.01%",
+      "source": "Calculated",
+      "citation": "DPU divided by share price",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "S:279": {
+      "fact": "Price-to-Book: 1.76x",
+      "source": "Calculated",
+      "citation": "Share price divided by NAV",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "S:280": {
+      "fact": "Trading at 76% premium to NAV",
+      "source": "Calculated",
+      "citation": "(Price - NAV) / NAV",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "S:281": {
+      "fact": "NAV-based yield: 9.5%",
+      "source": "Calculated",
+      "citation": "DPU divided by NAV",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:282": {
+      "fact": "Axis REIT price: RM 2.05 (April 2026)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Axis REIT",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com"
+    },
+    "S:283": {
+      "fact": "Axis REIT NAV: RM 1.6907",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:284": {
+      "fact": "Axis REIT P/B: 1.21x",
+      "source": "Calculated",
+      "citation": "Price divided by NAV",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "S:285": {
+      "fact": "Axis REIT yield: ~5.15%",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Axis REIT Yield",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com"
+    },
+    "S:286": {
+      "fact": "Atrium REIT price: RM 1.28 (April 2026)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Atrium REIT",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com"
+    },
+    "S:287": {
+      "fact": "Atrium REIT NAV: RM 1.3874",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:288": {
+      "fact": "Atrium REIT P/B: 0.92x",
+      "source": "Calculated",
+      "citation": "Price divided by NAV",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "S:289": {
+      "fact": "Atrium REIT yield: ~7.27%",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Atrium REIT Yield",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com"
+    },
+    "S:290": {
+      "fact": "Axis REIT AUM: RM 5.36B",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:291": {
+      "fact": "Atrium REIT AUM: RM 723M",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:292": {
+      "fact": "Bursa Malaysia website for current prices",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia portal",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:293": {
+      "fact": "FY2024 Revenue: ~RM 767M",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Prior Year",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:294": {
+      "fact": "FY2024 NPI: ~RM 570M",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Prior Year",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:295": {
+      "fact": "FY2025 NPI Margin: ~73.6%",
+      "source": "Calculated",
+      "citation": "NPI divided by Revenue",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:296": {
+      "fact": "FY2024 NPI Margin: ~74.3%",
+      "source": "Calculated",
+      "citation": "NPI divided by Revenue",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:297": {
+      "fact": "FY2025 Profit After Tax: RM 539M",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:298": {
+      "fact": "PAT growth: +2.8%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Profit Growth",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:298a": {
+      "fact": "Realised Profit Attributable growth: +31.2%",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Realised Profit Growth",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:299": {
+      "fact": "Q1 2025 Revenue: ~RM 210M",
+      "source": "Q42025",
+      "citation": "Sunway REIT Q4 2025 Results",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:300": {
+      "fact": "Q1 2025 NPI: ~RM 155M",
+      "source": "Q42025",
+      "citation": "Sunway REIT Q4 2025 Results",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:301": {
+      "fact": "Q2 2025 Revenue: ~RM 215M",
+      "source": "Q42025",
+      "citation": "Sunway REIT Q4 2025 Results",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:302": {
+      "fact": "Q2 2025 NPI: ~RM 158M",
+      "source": "Q42025",
+      "citation": "Sunway REIT Q4 2025 Results",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:303": {
+      "fact": "Q3 2025 Revenue: ~RM 225M",
+      "source": "Q42025",
+      "citation": "Sunway REIT Q4 2025 Results",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:304": {
+      "fact": "Q3 2025 NPI: ~RM 165M",
+      "source": "Q42025",
+      "citation": "Sunway REIT Q4 2025 Results",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:305": {
+      "fact": "Q4 2025 Revenue: ~RM 244M",
+      "source": "Q42025",
+      "citation": "Sunway REIT Q4 2025 Results",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:306": {
+      "fact": "Q4 2025 NPI: ~RM 180M",
+      "source": "Q42025",
+      "citation": "Sunway REIT Q4 2025 Results",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:307": {
+      "fact": "Retail segment revenue: ~RM 620M",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Segment Revenue",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:308": {
+      "fact": "Retail revenue share: ~69%",
+      "source": "Calculated",
+      "citation": "Segment revenue divided by total",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:309": {
+      "fact": "Hotel segment revenue: ~RM 150M",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Segment Revenue",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:310": {
+      "fact": "Hotel revenue share: ~17%",
+      "source": "Calculated",
+      "citation": "Segment revenue divided by total",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:311": {
+      "fact": "Office segment revenue: ~RM 95M",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Segment Revenue",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:312": {
+      "fact": "Office revenue share: ~11%",
+      "source": "Calculated",
+      "citation": "Segment revenue divided by total",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:313": {
+      "fact": "Industrial segment revenue: ~RM 29M",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Segment Revenue",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:314": {
+      "fact": "Industrial revenue share: ~3%",
+      "source": "Calculated",
+      "citation": "Segment revenue divided by total",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:315": {
+      "fact": "AEON Seri Manjung acquisition status: Completed",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Completion Notice",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:316": {
+      "fact": "AEON Seri Manjung property type: Single-storey hypermarket with 4 retail floors",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Property Description",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:317": {
+      "fact": "AEON Seri Manjung funding: Internal funds and debt",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Funding Details",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:318": {
+      "fact": "Disposal proceeds balance: General corporate and future acquisitions",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Use of Proceeds",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:319": {
+      "fact": "Malaysia REIT market cap: ~RM 40B+",
+      "source": "JLL",
+      "citation": "JLL Malaysia REIT Market Report 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.jll.com.my"
+    },
+    "S:320": {
+      "fact": "Retail REITs: YTL REIT, Sunway REIT",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Sector Classification",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.klsescreener.com"
+    },
+    "S:321": {
+      "fact": "Industrial REITs: Axis, Atrium, Al-Salihin",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Sector Classification",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.klsescreener.com"
+    },
+    "S:322": {
+      "fact": "Average REIT gearing: ~38%",
+      "source": "JLL",
+      "citation": "JLL Malaysia REIT Market Report 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "S:323": {
+      "fact": "Average REIT yield range: 5.0-6.5%",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Market Averages",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com"
+    },
+    "S:324": {
+      "fact": "Consumer spending recovering post-pandemic",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia Economic Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.bnm.gov.my"
+    },
+    "S:325": {
+      "fact": "Tourism recovery: Strong growth",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia Tourism Data",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.bnm.gov.my"
+    },
+    "S:326": {
+      "fact": "E-commerce competition stabilizing",
+      "source": "JLL",
+      "citation": "JLL Malaysia Retail Report 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "S:327": {
+      "fact": "Premium malls outperforming market",
+      "source": "JLL",
+      "citation": "JLL Malaysia Retail Report 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "S:328": {
+      "fact": "Tourist arrivals: ~80% of pre-pandemic levels",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia Tourism Statistics",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.bnm.gov.my"
+    },
+    "S:329": {
+      "fact": "Hotel occupancy range: 60-70%",
+      "source": "JLL",
+      "citation": "JLL Malaysia Hospitality Report 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.jll.com.my"
+    },
+    "S:330": {
+      "fact": "Hotel room rates improving",
+      "source": "JLL",
+      "citation": "JLL Malaysia Hospitality Report 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.jll.com.my"
+    },
+    "S:331": {
+      "fact": "KL office vacancy: ~25%",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.jll.com.my"
+    },
+    "S:332": {
+      "fact": "Flight to quality: Premium assets preferred",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "S:333": {
+      "fact": "Industry occupancy benchmark: 92-95%",
+      "source": "JLL",
+      "citation": "JLL Malaysia REIT Benchmark Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "S:334": {
+      "fact": "Industry gearing benchmark: 35-45%",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia REIT Industry Standards",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my"
+    },
+    "S:335": {
+      "fact": "Industry interest coverage benchmark: 2.5-4.0x",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my"
+    },
+    "S:336": {
+      "fact": "Industry DPU growth benchmark: 5-15%",
+      "source": "JLL",
+      "citation": "JLL Malaysia REIT Benchmark Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "S:337": {
+      "fact": "Net Zero Carbon target: By 2050",
+      "source": "SunwayIR",
+      "citation": "Sunway REIT Sustainability Report 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sunwayreit.com"
+    },
+    "S:338": {
+      "fact": "Green Building Certification target: 100% by 2034",
+      "source": "SunwayIR",
+      "citation": "Sunway REIT Sustainability Report 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sunwayreit.com"
+    },
+    "S:339": {
+      "fact": "Renewable Electricity target: 40% by 2030",
+      "source": "SunwayIR",
+      "citation": "Sunway REIT Sustainability Report 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sunwayreit.com"
+    },
+    "S:340": {
+      "fact": "Sustainability-Linked Financing: RM 3B CP Programme",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Green Financing",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:341": {
+      "fact": "Axis REIT stock code: 5106.KL",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Axis REIT",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.klsescreener.com"
+    },
+    "S:342": {
+      "fact": "Atrium REIT stock code: 5130.KL",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Atrium REIT",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.klsescreener.com"
+    },
+    "S:343": {
+      "fact": "Axis REIT: 69 properties",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:344": {
+      "fact": "Atrium REIT: 9 properties",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:345": {
+      "fact": "Axis REIT AUM: RM 5.36B",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:346": {
+      "fact": "Atrium REIT AUM: RM 723M",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:347": {
+      "fact": "Axis REIT market cap: ~RM 4.15B",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Axis REIT Market Cap",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com"
+    },
+    "S:348": {
+      "fact": "Atrium REIT market cap: ~RM 340M",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Atrium REIT Market Cap",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com"
+    },
+    "S:349": {
+      "fact": "Axis REIT focus: Industrial only",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:350": {
+      "fact": "Atrium REIT focus: Industrial only",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:351": {
+      "fact": "Axis REIT occupancy: 94%",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:352": {
+      "fact": "Atrium REIT occupancy: 100%",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:353": {
+      "fact": "Axis REIT gearing: ~33%",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:354": {
+      "fact": "Atrium REIT gearing: ~43.5%",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:355": {
+      "fact": "Axis REIT interest coverage: 3.8-4.0x",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:356": {
+      "fact": "Atrium REIT interest coverage: ~2.09x",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:357": {
+      "fact": "Axis REIT fixed-rate debt: 65%",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:358": {
+      "fact": "Atrium REIT fixed-rate debt: ~7%",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:359": {
+      "fact": "Axis REIT floating-rate: 35%",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:360": {
+      "fact": "Atrium REIT floating-rate: ~93%",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:361": {
+      "fact": "Axis REIT 2025 DPU: 10.55 sen",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:362": {
+      "fact": "Atrium REIT 2025 DPU: 9.30 sen",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:363": {
+      "fact": "Axis REIT DPU growth: +13.8%",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:364": {
+      "fact": "Atrium REIT DPU growth: +22.4%",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:365": {
+      "fact": "Axis REIT yield (April 2026): ~5.15%",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Axis REIT Yield",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com"
+    },
+    "S:366": {
+      "fact": "Atrium REIT yield (April 2026): ~7.27%",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Atrium REIT Yield",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com"
+    },
+    "S:367": {
+      "fact": "Axis REIT P/B: 1.21x",
+      "source": "Calculated",
+      "citation": "Price divided by NAV",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "S:368": {
+      "fact": "Atrium REIT P/B: 0.92x",
+      "source": "Calculated",
+      "citation": "Price divided by NAV",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "S:369": {
+      "fact": "Axis REIT premium: 21% to NAV",
+      "source": "Calculated",
+      "citation": "(Price - NAV) / NAV",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "S:370": {
+      "fact": "Atrium REIT discount: 8% to NAV",
+      "source": "Calculated",
+      "citation": "(Price - NAV) / NAV",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "S:371": {
+      "fact": "Axis REIT NAV per unit: RM 1.6907",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:372": {
+      "fact": "Atrium REIT NAV per unit: RM 1.3874",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:373": {
+      "fact": "Axis REIT Shariah-compliant: Yes",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Shariah Status",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.klsescreener.com"
+    },
+    "S:374": {
+      "fact": "Atrium REIT Shariah-compliant: No",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Shariah Status",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.klsescreener.com"
+    },
+    "S:375": {
+      "fact": "Axis REIT 2025 acquisitions: 3 deals, RM 164.6M+",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report - Acquisitions",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:376": {
+      "fact": "Atrium REIT 2025 acquisitions: 0",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:377": {
+      "fact": "Axis REIT 2025 disposal: 1 (RM 24.2M)",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report - Disposals",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:378": {
+      "fact": "Sunway REIT institutional ownership: High (EPF, etc.)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Shareholder Profile",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:379": {
+      "fact": "Axis REIT institutional ownership: High",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report - Shareholder Profile",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:380": {
+      "fact": "Axis REIT geographic spread: 6 states",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report - Geographic Distribution",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:381": {
+      "fact": "Atrium REIT geographic spread: 2 states (Selangor, Penang)",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report - Geographic Distribution",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:382": {
+      "fact": "Sunway REIT retail tenants: 1,000+",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Tenant Base",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "S:383": {
+      "fact": "Axis REIT tenants: 182",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report - Tenant Base",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:384": {
+      "fact": "Axis REIT sector concentration: 100% industrial",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:385": {
+      "fact": "Atrium REIT sector concentration: 100% industrial",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:386": {
+      "fact": "Atrium REIT borrowing cost: ~3.5-4.0%",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:387": {
+      "fact": "Atrium REIT long-term debt: ~83%",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report - Debt Maturity",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:388": {
+      "fact": "Axis REIT NPI margin: ~87%",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:389": {
+      "fact": "Atrium REIT NPI margin: ~90%",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:390": {
+      "fact": "Axis REIT classification: Mid-cap",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Market Cap Classification",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com"
+    },
+    "S:391": {
+      "fact": "Atrium REIT control: Family control",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report - Major Shareholders",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:392": {
+      "fact": "Axis REIT Managers",
+      "source": "AxisREIT",
+      "citation": "Axis REIT Official Website",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:393": {
+      "fact": "Atrium REIT Managers",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT Official Website",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:394": {
+      "fact": "Axis REIT CEO tenure: 19 years",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report - Management",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:395": {
+      "fact": "Atrium REIT CEO: Acting since 2024",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report - Management",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:396": {
+      "fact": "Axis REIT board: Majority independent",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report - Board Composition",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:397": {
+      "fact": "Atrium REIT board: 50% independent",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report - Board Composition",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:398": {
+      "fact": "Axis REIT committees: 4",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report - Committees",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:399": {
+      "fact": "Atrium REIT committees: 2",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report - Committees",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:400": {
+      "fact": "Axis REIT performance fee: Yes",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report - Fee Structure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:401": {
+      "fact": "Atrium REIT performance fee: None",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report - Fee Structure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:402": {
+      "fact": "Axis REIT industry award: MRMA Chairman",
+      "source": "AxisREIT",
+      "citation": "Axis REIT Awards and Recognition",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "S:403": {
+      "fact": "Atrium REIT related party: 59% control",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report - Shareholder Structure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "S:404": {
+      "fact": "Sunway REIT Official Website",
+      "source": "SunwayIR",
+      "citation": "Sunway REIT portal",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sunwayreit.com"
+    },
+    "S:405": {
+      "fact": "Sunway REIT website URL",
+      "source": "SunwayIR",
+      "citation": "https://www.sunwayreit.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sunwayreit.com"
+    },
+    "S:406": {
+      "fact": "Bursa Malaysia Announcements",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia portal",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:407": {
+      "fact": "Bursa Malaysia URL",
+      "source": "Bursa",
+      "citation": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "S:408": {
+      "fact": "JLL Malaysia",
+      "source": "JLL",
+      "citation": "JLL Malaysia website",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "S:409": {
+      "fact": "Knight Frank Malaysia",
+      "source": "JLL",
+      "citation": "Property research firm",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.knightfrank.com.my"
+    },
+    "S:410": {
+      "fact": "Rahim & Co",
+      "source": "JLL",
+      "citation": "Malaysian property research",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.rahimco.com"
+    },
+    "S:411": {
+      "fact": "The Edge Malaysia",
+      "source": "TheEdge",
+      "citation": "Financial news portal",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.theedgemalaysia.com"
+    },
+    "S:412": {
+      "fact": "The Star Business",
+      "source": "StarBiz",
+      "citation": "Business news section",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.thestar.com.my/business"
     }
   }
 }

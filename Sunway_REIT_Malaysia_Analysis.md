@@ -10,7 +10,7 @@
 
 ## Executive Summary
 
-Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier diversified REIT with a portfolio spanning retail, hospitality, office, and industrial segments. Listed on Bursa Malaysia since July 8, 2010 [S:7], Sunway REIT is sponsored by Sunway Berhad [S:8], one of Malaysia's most established conglomerates. As of December 31, 2025 [S:9], the REIT manages **28 properties** [S:10] with a total portfolio value of approximately **RM 10.2 billion** [S:11] and a market capitalization of approximately **RM 6.3 billion** [S:12].
+Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier diversified REIT with a portfolio spanning retail, hospitality, office, and industrial segments. Listed on Bursa Malaysia since July 8, 2010 [S:7], Sunway REIT is sponsored by Sunway Berhad [S:8], one of Malaysia's most established conglomerates. As of December 31, 2025 [S:9], the REIT manages **28 properties** [S:10] with a total portfolio value of approximately **RM 10.2 billion** [S:11] and a market capitalization of approximately **RM 8.25 billion** [S:12].
 
 **Key Highlights (FY 2025):** [S:3]
 - **Portfolio Composition:** 28 properties [S:10] across Retail (14), Hotels (6), Offices (5), and Industrial (3) [S:13]
@@ -20,11 +20,12 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 - **Office Occupancy:** 82% [S:17] (down from 83% due to Wisma Sunway non-renewal [S:18])
 - **Industrial Occupancy:** 87% [S:19] (up from 80% [S:20])
 - **Gearing Ratio:** 39.4% [S:21] (comfortably below 50% regulatory limit [S:22])
-- **Interest Coverage:** 3.22x [S:23] (strong coverage above 2.5x threshold)
+- **Fixed Charge Cover:** 3.22x [S:23] (strong coverage above 2.5x threshold)
+- **ISCR:** 4.0x [S:23a] (additional interest coverage metric)
 - **Average Borrowing Cost:** 3.79% [S:24] (down from 3.89% in 2024 [S:25])
 - **Fixed Rate Debt:** 56% [S:26] with 44% floating [S:27]
 - **2025 Total DPU:** **14.48 sen** [S:28] (record high, +44.8% YoY [S:29])
-- **Distribution Yield:** ~5.4% [S:30]
+- **Distribution Yield:** ~6.0% [S:30]
 - **Financial Performance:** Revenue RM 894.3M [S:31] (+16.6% YoY [S:32]), NPI RM 658.0M [S:33] (+15.5% YoY [S:34])
 - **NAV per Unit:** RM 1.5211 [S:35]
 - **Recent Acquisitions:** AEON Mall Seri Manjung acquired July 2025 [S:36] for RM 138M [S:37]
@@ -72,14 +73,14 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 | Name | Position | Background | Tenure | Status |
 |------|----------|------------|--------|--------|
 | **Tan Sri Amirsham Bin A Aziz** [S:57] | Chairman | Former Minister in Prime Minister's Department (Economic Planning), former MD/CEO of Maybank [S:58] | Appointed 2014 [S:59] | ✅ Experienced |
-| **Dato' Jeffrey Ng Tiong Lip** [S:60] | CEO | Former CFO at Sunway Berhad, extensive property and REIT experience [S:61] | 10+ years as CEO [S:62] | ✅ Stable leadership |
+| **Derek Teh Wan Wei** [S:60] | CEO | Former CFO at Sunway REIT, extensive property and REIT experience [S:61] | Appointed 1 Dec 2025 [S:62] | ✅ New leadership transition |
 | **Dato' Ngeow Voon Yean** [S:63] | Independent Non-Executive Director | Former partner at PwC Malaysia [S:64] | Long-standing | ✅ Independent oversight |
 
 #### Management Stability - EXCELLENT ✅
-**No recent changes - stable leadership:**
-- Dato' Jeffrey Ng: 10+ years as CEO [S:62] (longest-serving REIT CEO in Malaysia)
+**Recent Leadership Transition:**
+- Derek Teh Wan Wei: Appointed CEO on 1 December 2025 [S:62] (succeeded Dato' Jeffrey Ng)
 - Tan Sri Amirsham: Chairman since 2014 [S:59]
-- Consistent executive team with low turnover [S:65]
+- Smooth leadership transition maintained stability [S:65]
 
 #### Board Governance (🟢 Strong)
 | Metric | Sunway REIT | Best Practice | Assessment |
@@ -108,7 +109,7 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 | Category | Rating | Rationale |
 |----------|--------|-----------|
 | **Ownership Structure** | 🟢 **Excellent** | Strong sponsor (Sunway Berhad) [S:8] provides pipeline |
-| **Management Stability** | 🟢 **Excellent** | 10+ year CEO tenure [S:62], stable team |
+| **Management Stability** | 🟢 **Excellent** | Recent CEO transition completed smoothly [S:62], stable team |
 | **Governance Practices** | 🟢 **Strong** | Majority independent board [S:67], proper committees [S:68] |
 | **Succession Planning** | 🟢 **Clear** | Professional development within group |
 | **Related Party Risk** | 🟢 **Managed** | Sponsor relationship disclosed and managed [S:78] |
@@ -219,9 +220,9 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 |----------|---------------|-------------------|
 | **Sunway Pyramid Mall** [S:83] | 98%+ (est.) [S:162] | 91.2% [S:163] |
 | **Sunway Carnival Mall** [S:85] | 95%+ (est.) [S:164] | 99.9% [S:165] |
-| **Sunway Putra Mall** [S:87] | 95%+ (est.) [S:166] | 92.4% [S:167] |
-| **Sunway 163 Mall** [S:89] | 90%+ (est.) [S:168] | 94.8% [S:169] |
-| **Sunway Kluang Mall** [S:91] | 85%+ (est.) [S:170] | 83.2% [S:171] |
+| **Sunway Putra Mall** [S:87] | 95%+ (est.) [S:166] | 92.4% [S:167] (not independently verified in public documents) |
+| **Sunway 163 Mall** [S:89] | 90%+ (est.) [S:168] | 94.8% [S:169] (not independently verified in public documents) |
+| **Sunway Kluang Mall** [S:91] | 85%+ (est.) [S:170] | 83.2% [S:171] (not independently verified in public documents) |
 
 **Assessment:** The 97% retail occupancy [S:14] is exceptional, demonstrating Sunway REIT's strong tenant relationships and prime mall locations. The portfolio-wide occupancy improvement (+1pp YoY) reflects successful lease management.
 
@@ -321,17 +322,18 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 |---------|------|------------|
 | **Retail** [S:214] | **2.2 years** | Standard for retail |
 | **Hotel** [S:215] | **4.8 years** | Long-term management contracts |
-| **Office** [S:216] | **2.5 years** (est.) | Typical office leases |
-| **Industrial** [S:217] | **3.0 years** (est.) | Standard industrial |
+| **Office** [S:216] | **1.4 years** [S:414] | Verified data |
+| **Industrial** [S:217] | **4.6 years** [S:415] | Verified data |
+| **Portfolio Average** [S:413] | **2.6 years** | New verified data |
 
 **Retail Lease Renewal Performance FY2025:**
 | Property | Lease Renewal Rate | Assessment |
 |----------|-------------------|------------|
 | **Sunway Pyramid Mall** [S:83] | 91.2% [S:163] | 🟢 Strong retention |
 | **Sunway Carnival Mall** [S:85] | 99.9% [S:165] | 🟢 Excellent retention |
-| **Sunway Putra Mall** [S:87] | 92.4% [S:167] | 🟢 Strong retention |
-| **Sunway 163 Mall** [S:89] | 94.8% [S:169] | 🟢 Excellent retention |
-| **Sunway Kluang Mall** [S:91] | 83.2% [S:171] | 🟡 Newer asset, building tenancy |
+| **Sunway Putra Mall** [S:87] | 92.4% [S:167] | 🟢 Strong retention (not independently verified) |
+| **Sunway 163 Mall** [S:89] | 94.8% [S:169] | 🟢 Excellent retention (not independently verified) |
+| **Sunway Kluang Mall** [S:91] | 83.2% [S:171] | 🟡 Newer asset, building tenancy (not independently verified) |
 
 **Assessment:** The 91%+ renewal rates across key malls demonstrate strong tenant satisfaction and asset competitiveness. The 2.2-year retail WALE [S:214] is standard for Malaysian retail REITs.
 
@@ -387,7 +389,7 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 | Component | Amount (RM million) | Percentage |
 |-----------|---------------------|------------|
 | **Total Assets** | 10,200 [S:11] | 100.0% |
-| **Total Borrowings** | ~4,020 (est.) [S:235] | ~39.4% [S:21] |
+| **Total Borrowings** | RM 4.20 billion [S:235] | ~39.4% [S:21] |
 | **Non-current Borrowings** | ~3,800 (est.) [S:236] | ~37.3% |
 | **Current Borrowings** | ~220 (est.) [S:237] | ~2.2% |
 | **Total Equity/NAV** | ~6,180 [S:238] | ~60.6% |
@@ -403,10 +405,10 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 ### 3.3 Interest Coverage Ratio
 | Metric | Value | Benchmark | Assessment |
 |--------|-------|-----------|------------|
-| **Interest Coverage** | **3.22x** [S:23] | >2.5x healthy [S:240] | 🟢 Strong |
-| **Fixed Charge Cover** | **3.22x** [S:241] | >2.0x minimum [S:242] | 🟢 Good |
+| **Fixed Charge Cover** | **3.22x** [S:23] | >2.5x healthy [S:240] | 🟢 Strong |
+| **ISCR** | **4.0x** [S:23a] | >2.0x minimum [S:242] | 🟢 Strong |
 
-**Assessment:** The 3.22x interest coverage [S:23] is strong and well above minimum thresholds. This indicates healthy earnings relative to debt service obligations.
+**Assessment:** The 3.22x Fixed Charge Cover [S:23] and 4.0x ISCR [S:23a] are both strong and well above minimum thresholds (per RAM Ratings methodology). This indicates healthy earnings relative to debt service obligations.
 
 ### 3.4 Interest Rate Risk Management
 
@@ -461,7 +463,7 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 | Factor | Rating | Rationale |
 |--------|--------|-----------|
 | **Gearing Level** | ✅ **Strong** | 39.4% [S:21] is conservative vs 50% limit [S:22] |
-| **Interest Coverage** | ✅ **Strong** | 3.22x [S:23] well above 2.5x threshold [S:240] |
+| **Interest Coverage** | ✅ **Strong** | 3.22x Fixed Charge Cover [S:23], 4.0x ISCR [S:23a] well above 2.5x threshold [S:240] |
 | **Rate Risk Management** | ✅ **Good** | 56% fixed-rate [S:26] provides stability |
 | **Maturity Profile** | ✅ **Adequate** | Well-laddered with limited near-term cliffs |
 | **Refinancing Flexibility** | ✅ **Good** | Strong sponsor support, bank relationships |
@@ -514,30 +516,30 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 #### Current Market Data (April 2026)
 | Metric | Value | Source | Time-Sensitive |
 |--------|-------|--------|----------------|
-| **Current Unit Price** | **RM 2.68** [S:276] | KLSE Screener [S:277] | ✅ Yes |
+| **Current Unit Price** | **RM 2.41** [S:276] | KLSE Screener [S:277] | ✅ Yes |
 | **NAV per Unit** | RM 1.5211 [S:35] | FY2025 Annual Report | No |
 | **2025 DPU** | 14.48 sen [S:28] | Full year distribution | No |
-| **Market Dividend Yield** | **5.4%** [S:30] | 14.48 sen / RM 2.68 [S:278] | ✅ Yes |
-| **Price-to-Book (P/B)** | **1.76x** [S:279] | Trading at 76% premium to NAV [S:280] | ✅ Yes |
-| **Market Cap** | RM 6.3 billion [S:12] | Mid-cap classification | ✅ Yes |
+| **Market Dividend Yield** | **~6.0%** [S:30] | 14.48 sen / RM 2.41 = 6.01% [S:278] | ✅ Yes |
+| **Price-to-Book (P/B)** | **1.58x** [S:279] | Trading at 58% premium to NAV [S:280] | ✅ Yes |
+| **Market Cap** | RM 8.25 billion [S:12] | Large-cap classification | ✅ Yes |
 
 #### Understanding Yield Metrics
 
 | Yield Type | Calculation | Sunway REIT | What It Means |
 |------------|-------------|-------------|---------------|
-| **Market Yield** | DPU ÷ Current Unit Price | **5.4%** [S:30] | ✅ Actual investor return |
+| **Market Yield** | DPU ÷ Current Unit Price | **~6.0%** [S:30] | ✅ Actual investor return |
 | **NAV-Based Yield** | DPU ÷ NAV per unit | **9.5%** [S:281] | Operational efficiency metric |
 
 **Why the difference?**
-- Sunway REIT trades at **RM 2.68** [S:276] vs NAV of **RM 1.5211** [S:35]
-- This is a **76% premium to NAV** (P/B = 1.76x) [S:280]
-- The premium causes **yield compression**: 5.4% market yield [S:30] vs 9.5% NAV yield [S:281]
+- Sunway REIT trades at **RM 2.41** [S:276] vs NAV of **RM 1.5211** [S:35]
+- This is a **58% premium to NAV** (P/B = 1.58x) [S:280]
+- The premium causes **yield compression**: ~6.0% market yield [S:30] vs 9.5% NAV yield [S:281]
 - Premium reflects: Brand value, sponsor quality, flagship assets, liquidity
 
 #### Comparison Context (April 2026)
 | REIT | Current Price | NAV | P/B | Market Yield | Status |
 |------|---------------|-----|-----|--------------|--------|
-| **Sunway REIT** | RM 2.68 [S:276] | RM 1.5211 [S:35] | **1.76x** [S:279] | **5.4%** [S:30] | Premium |
+| **Sunway REIT** | RM 2.41 [S:276] | RM 1.5211 [S:35] | **1.58x** [S:279] | **~6.0%** [S:30] | Premium |
 | **Axis REIT** | RM 2.05 [S:282] | RM 1.6907 [S:283] | **1.21x** [S:284] | **5.15%** [S:285] | Premium |
 | **Atrium REIT** | RM 1.28 [S:286] | RM 1.3874 [S:287] | **0.92x** [S:288] | **7.27%** [S:289] | Discount |
 
@@ -545,20 +547,20 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 
 #### Key Insights
 
-**Sunway REIT's 5.4% Market Yield:**
-- ✅ Comparable to Axis REIT's 5.15% [S:285] (slightly higher)
-- ✅ Lower than Atrium REIT's 7.27% [S:289] (by 1.87pp)
-- ✅ But trades at **highest premium** (1.76x P/B [S:279]) reflecting quality
+**Sunway REIT's ~6.0% Market Yield:**
+- ✅ Higher than Axis REIT's 5.15% [S:285] (by ~0.85pp)
+- ✅ Lower than Atrium REIT's 7.27% [S:289] (by ~1.27pp)
+- ✅ Trades at **premium valuation** (1.58x P/B [S:279]) reflecting quality
 
 **Yield Compression Factors:**
-The 5.4% market yield [S:30] vs 9.5% NAV yield [S:281] difference reflects:
+The ~6.0% market yield [S:30] vs 9.5% NAV yield [S:281] difference reflects:
 - **Brand Premium:** Sunway name and flagship assets [S:83]
 - **Scale:** RM 10.2B portfolio [S:11] vs RM 5.36B (Axis) [S:290] vs RM 723M (Atrium) [S:291]
 - **Diversification:** 4 asset classes vs pure industrial peers
 - **Sponsor Quality:** Sunway Berhad backing [S:8]
 - **Liquidity:** Higher trading volume than smaller REITs
 
-**⚠️ For Investment Decisions:** Always use **market price-based yield** (5.4% at current RM 2.68 [S:276]), not NAV yield. Verify latest price on KLSE Screener [S:277] or Bursa Malaysia [S:292].
+**⚠️ For Investment Decisions:** Always use **market price-based yield** (~6.0% at current RM 2.41 [S:276]), not NAV yield. Verify latest price on KLSE Screener [S:277] or Bursa Malaysia [S:292].
 
 ### 4.5 Dividend Sustainability Factors
 | Factor | Status | Impact on DPU |
@@ -593,7 +595,8 @@ The 5.4% market yield [S:30] vs 9.5% NAV yield [S:281] difference reflects:
 | **Net Property Income (NPI)** | RM 658.0M [S:33] | ~RM 570M [S:294] | **+15.5%** [S:34] | 🟢 Strong margin |
 | **NPI Margin** | ~73.6% [S:295] | ~74.3% [S:296] | -0.7pp | 🟢 Stable |
 | **Realised Income** | ~RM 280M (est.) | ~RM 200M (est.) | +40% | 🟢 Strong growth |
-| **Profit After Tax** | RM 539M [S:297] | ~RM 450M (est.) | +19.8% [S:298] | 🟢 Excellent |
+| **Profit After Tax** | RM 539M [S:297] | ~RM 525M | +2.8% [S:298] | 🟢 Stable |
+| **Realised Profit Attributable** | ~RM 280M | ~RM 213M | +31.2% [S:298a] | 🟢 Strong growth |
 | **DPU** | 14.48 sen [S:28] | 10.0 sen [S:271] | **+44.8%** [S:29] | 🟢 Record high |
 
 ### 5.2 Quarterly Performance Trend (2025)
@@ -689,12 +692,12 @@ The 5.4% market yield [S:30] vs 9.5% NAV yield [S:281] difference reflects:
 
 | Metric | Market Data | Sunway REIT Position |
 |--------|-------------|---------------------|
-| **Total REIT Market Cap** | ~RM 40B+ [S:319] | ~RM 6.3B [S:12] (15% share) |
+| **Total REIT Market Cap** | ~RM 40B+ [S:319] | ~RM 8.25B [S:12] (21% share) |
 | **Largest REIT by AUM** | Sunway REIT [S:11] | RM 10.2B [S:11] |
 | **Retail REITs** | YTL REIT, Sunway REIT [S:320] | Market leader |
 | **Industrial REITs** | Axis, Atrium, Al-Salihin [S:321] | Industrial segment small |
 | **Average Gearing** | ~38% [S:322] | 39.4% [S:21] (market average) |
-| **Average Yield** | 5.0-6.5% [S:323] | 5.4% [S:30] (within range) |
+| **Average Yield** | 5.0-6.5% [S:323] | ~6.0% [S:30] (within range) |
 
 ### 7.2 Malaysia Property Market Outlook (2025-2026)
 
@@ -760,7 +763,7 @@ The 5.4% market yield [S:30] vs 9.5% NAV yield [S:281] difference reflects:
 |--------|------------------|------------------|-------------------|------------|
 | **Portfolio Size** | 28 properties [S:10] | 69 properties [S:343] | 9 properties [S:344] | Axis most diversified |
 | **Total Assets (AUM)** | **RM 10.2B** [S:11] | RM 5.36B [S:345] | RM 723M [S:346] | Sunway largest |
-| **Market Cap** | **~RM 6.3B** [S:12] | ~RM 4.15B [S:347] | ~RM 340M [S:348] | Sunway largest |
+| **Market Cap** | **~RM 8.25B** [S:12] | ~RM 4.15B [S:347] | ~RM 340M [S:348] | Sunway largest |
 | **Asset Focus** | Retail/Hotel/Office/Industrial [S:47] | Industrial [S:349] | Industrial [S:350] | Sunway diversified |
 | **Retail Exposure** | **70%** [S:82] | 0% | 0% | Sunway unique |
 | **Hotel Exposure** | **18%** [S:111] | 0% | 0% | Sunway unique |
@@ -771,7 +774,7 @@ The 5.4% market yield [S:30] vs 9.5% NAV yield [S:281] difference reflects:
 | **Floating-Rate Exposure** | **44%** [S:27] | 35% [S:359] | ~93% [S:360] | Atrium highest risk |
 | **2025 DPU** | **14.48 sen** [S:28] | 10.55 sen [S:361] | 9.30 sen [S:362] | Sunway highest |
 | **DPU Growth (2025)** | **+44.8%** [S:29] | +13.8% [S:363] | +22.4% [S:364] | Sunway best growth |
-| **Market Yield (April 2026)** | **~5.4%** [S:30] | ~5.15% [S:365] | ~7.27% [S:366] | Atrium highest yield |
+| **Market Yield (April 2026)** | **~6.0%** [S:30] | ~5.15% [S:365] | ~7.27% [S:366] | Atrium highest yield |
 | **Price-to-Book** | **1.76x** [S:279] | 1.21x [S:367] | 0.92x [S:368] | Sunway highest premium |
 | **Trading Status** | 76% premium [S:280] | 21% premium [S:369] | 8% discount [S:370] | Sunway most valued |
 | **NAV per Unit** | RM 1.5211 [S:35] | RM 1.6907 [S:371] | RM 1.3874 [S:372] | Axis highest NAV |
@@ -896,7 +899,7 @@ Acquisition Activity      1 deal [S:94]     3 deals [S:375]  0 deals [S:376] Axi
 | **Financial Strength** | Axis REIT | 33% gearing [S:353], 3.8-4.0x coverage [S:355] best in class |
 | **Interest Rate Protection** | Axis REIT | 65% fixed [S:357] vs 56% (Sunway) vs ~7% (Atrium) |
 | **Occupancy** | Atrium REIT | 100% [S:352] vs 94-97% peers |
-| **Yield (April 2026)** | Atrium REIT | 7.27% [S:366] vs 5.15% (Axis) vs 5.4% (Sunway) |
+| **Yield (April 2026)** | Atrium REIT | 7.27% [S:366] vs 5.15% (Axis) vs ~6.0% (Sunway) |
 | **Valuation (P/B)** | Atrium REIT | 0.92x discount [S:370] vs premiums for peers |
 | **Shariah Compliance** | Sunway/Axis | Both compliant [S:50] [S:373] vs Atrium non-compliant [S:374] |
 | **Risk-Adjusted Returns** | Axis REIT | Lower risk, stable returns |
@@ -936,7 +939,7 @@ Acquisition Activity      1 deal [S:94]     3 deals [S:375]  0 deals [S:376] Axi
 | **Tenant Concentration** | 🟢 Low | Diversified 1,000+ retail tenants [S:382] | 97% occupancy [S:14]; strong renewal rates [S:163] |
 | **Gearing Risk** | 🟢 Low | 39.4% [S:21] with 50% ceiling [S:22] | 10.6% headroom [S:239]; proactive debt reduction [S:230] |
 | **Sponsor Related Party** | 🟢 Managed | Sunway Berhad sponsor [S:8] | Arm's length transactions [S:234]; professional governance [S:52] |
-| **Liquidity Risk** | 🟢 Low | RM 6.3B market cap [S:12] | Large-cap REIT; institutional following [S:378] |
+| **Liquidity Risk** | 🟢 Low | RM 8.25B market cap [S:12] | Large-cap REIT; institutional following [S:378] |
 | **Regulatory Risk** | 🟢 Low | Shariah-compliant [S:50] | Long track record; SC Malaysia oversight [S:72] |
 
 ### 9.2 Risk Mitigation Strengths

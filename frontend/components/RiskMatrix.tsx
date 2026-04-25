@@ -27,14 +27,14 @@ export function RiskMatrix({ entities, onCitationClick }: RiskMatrixProps) {
   const [hoveredCell, setHoveredCell] = useState<{entityId: string; category: RiskCategory} | null>(null);
   
   return (
-    <div className="bg-white rounded-xl shadow-card overflow-hidden">
+    <div className="bg-surface rounded-xl border border-stroke overflow-hidden">
       <div className="overflow-x-auto">
-        <table className="w-full" role="grid" aria-label="Risk assessment matrix">
+        <table className="w-full text-[12.5px] leading-4 text-ink" role="grid" aria-label="Risk assessment matrix">
           <thead>
-            <tr className="bg-neutral-50 border-b border-neutral-200">
+            <tr className="bg-surfaceAlt border-b border-stroke">
               <th 
                 scope="col"
-                className="text-left py-3 px-4 text-xs font-semibold text-neutral-600 uppercase tracking-wide"
+                className="text-left py-2 px-3 text-label font-semibold text-muted"
               >
                 Risk Category
               </th>
@@ -42,14 +42,14 @@ export function RiskMatrix({ entities, onCitationClick }: RiskMatrixProps) {
                 <th 
                   key={entity.entity.id} 
                   scope="col"
-                  className="text-center py-3 px-4 text-xs font-semibold text-neutral-600 uppercase tracking-wide"
+                  className="text-center py-2 px-3 text-label font-semibold text-muted"
                 >
                   {entity.entity.code}
                 </th>
               ))}
               <th 
                 scope="col"
-                className="text-left py-3 px-4 text-xs font-semibold text-neutral-600 uppercase tracking-wide"
+                className="text-left py-2 px-3 text-label font-semibold text-muted"
               >
                 Description
               </th>
@@ -59,10 +59,10 @@ export function RiskMatrix({ entities, onCitationClick }: RiskMatrixProps) {
             {RISK_CATEGORIES.map((category, idx) => (
               <tr 
                 key={category.key}
-                className={idx > 0 ? 'border-t border-neutral-100' : ''}
+                className={idx > 0 ? 'border-t border-stroke' : ''}
               >
-                <td className="py-4 px-4" role="rowheader">
-                  <p className="font-medium text-neutral-900">{category.label}</p>
+                <td className="py-2 px-3" role="rowheader">
+                  <p className="font-medium text-ink">{category.label}</p>
                 </td>
                 
                 {entities.map(entity => {
@@ -77,7 +77,7 @@ export function RiskMatrix({ entities, onCitationClick }: RiskMatrixProps) {
                   return (
                     <td 
                       key={entity.entity.id} 
-                      className="py-4 px-4 text-center" 
+                      className="py-2 px-3 text-center" 
                       role="gridcell"
                     >
                       <button
@@ -89,7 +89,7 @@ export function RiskMatrix({ entities, onCitationClick }: RiskMatrixProps) {
                         onMouseEnter={() => setHoveredCell({ entityId: entity.entity.id, category: category.key })}
                         onMouseLeave={() => setHoveredCell(null)}
                         disabled={!hasCitations}
-                        className={`inline-flex flex-col items-center gap-1 px-3 py-1.5 rounded-lg text-sm font-medium transition-all ${
+                        className={`inline-flex flex-col items-center gap-0.5 px-2 py-1 rounded-md text-[12.5px] font-medium leading-tight transition-all ${
                           hasCitations 
                             ? 'cursor-pointer hover:ring-2 hover:ring-offset-1 focus:outline-none focus:ring-2 focus:ring-offset-1' 
                             : 'cursor-default'
@@ -121,8 +121,8 @@ export function RiskMatrix({ entities, onCitationClick }: RiskMatrixProps) {
                   );
                 })}
                 
-                <td className="py-4 px-4">
-                  <p className="text-sm text-neutral-500">{category.description}</p>
+                <td className="py-2 px-3">
+                  <p className="text-muted leading-snug">{category.description}</p>
                 </td>
               </tr>
             ))}
@@ -131,13 +131,13 @@ export function RiskMatrix({ entities, onCitationClick }: RiskMatrixProps) {
       </div>
       
       {/* Legend */}
-      <div className="bg-neutral-50 px-4 py-3 border-t border-neutral-200">
-        <div className="flex items-center gap-4 text-xs">
-          <span className="text-neutral-500">Risk Level:</span>
+      <div className="bg-surfaceAlt px-3 py-2 border-t border-stroke">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[11px] leading-4">
+          <span className="font-medium uppercase tracking-wide text-muted">Risk level</span>
           {severityOrder.map(severity => (
-            <div key={severity} className="flex items-center gap-1">
+            <div key={severity} className="flex items-center gap-1 text-ink">
               <span>{getRiskSeverityEmoji(severity)}</span>
-              <span className="text-neutral-600 capitalize">{severity}</span>
+              <span className="capitalize">{severity}</span>
             </div>
           ))}
         </div>

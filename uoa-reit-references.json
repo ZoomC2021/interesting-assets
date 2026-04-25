@@ -2,7 +2,7 @@
   "metadata": {
     "reit": "UOA REIT (5110.KL)",
     "document": "UOA_REIT_Malaysia_Analysis.md",
-    "totalReferences": 344,
+    "totalReferences": 349,
     "dateCreated": "2026-04-25",
     "version": "1.0",
     "dataQuality": {
@@ -1466,12 +1466,12 @@
       "url": "https://www.klsescreener.com/v2/stocks/5110"
     },
     "U:192": {
-      "fact": "52-Week Range: RM0.785 - RM0.900",
-      "source": "KLSE",
-      "citation": "KLSE Screener - Price History",
-      "dateAccessed": "2026-04-25",
-      "timeSensitive": true,
-      "url": "https://www.klsescreener.com/v2/stocks/5110"
+      "fact": "FY2025 DPU: 6.95 sen (3.03 + 3.92)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
     },
     "U:193": {
       "fact": "Distribution Yield: 8.48% (calculated from 6.95 sen DPU / RM0.82 price)",
@@ -2574,6 +2574,42 @@
       "fact": "Past performance not indicative of future results; REITs carry capital loss risk",
       "source": "Document",
       "citation": "Standard Investment Disclaimer",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:345": {
+      "fact": "ISIN MYL5110TO000",
+      "source": "BursaMalaysia",
+      "citation": "Bursa Malaysia Official Listing / Investing.com - ISIN Code",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:346": {
+      "fact": "FY2024 Fixed-Rate Debt: >70% (not 59%)",
+      "source": "AR2024",
+      "citation": "UOA REIT Annual Report 2024 - Debt Structure Note: 'more than 70% of the Trust's current debts were in fixed-rate loans'",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:347": {
+      "fact": "Investment Properties Value FY2025: RM1,734 million",
+      "source": "AR2025",
+      "citation": "UOA REIT Annual Report 2025 - Property Valuation as at 31 Dec 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:348": {
+      "fact": "Total Assets FY2025: RM1,762.86 million",
+      "source": "AR2025",
+      "citation": "UOA REIT Annual Report 2025 - Statement of Financial Position",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:349": {
+      "fact": "Net Lettable Area ~1.8M sq ft is industry estimate",
+      "source": "External",
+      "citation": "Industry market reports (Knight Frank, etc.) - not officially disclosed in Annual Report",
       "dateAccessed": "2026-04-25",
       "timeSensitive": false
     }

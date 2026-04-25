@@ -22,14 +22,32 @@
     },
     "references": [
       "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-      "b2c3d4e5-f6g7-8901-bcde-f23456789012",
-      "c3d4e5f6-g7h8-9012-cdef-345678901234",
-      "d4e5f6g7-h8i9-0123-defa-456789012345",
-      "e5f6g7h8-i9j0-1234-efab-567890123456",
-      "f6g7h8i9-j0k1-2345-fabc-678901234567",
-      "g7h8i9j0-k1l2-3456-abcd-789012345678",
-      "h8i9j0k1-l2m3-4567-bcde-890123456789",
-      "i9j0k1l2-m3n4-5678-cdef-901234567890"
+      "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "d4e5f6a7-b8c9-0123-defa-456789012345",
+      "e5f6a7b8-c9d0-1234-efab-567890123456",
+      "f6a7b8c9-d0e1-2345-fabc-678901234567",
+      "a7b8c9d0-e1f2-3456-abcd-789012345678",
+      "b8c9d0e1-f2a3-4567-bcde-890123456789",
+      "c9d0e1f2-a3b4-5678-cdef-901234567890",
+      "d0e1f2a3-b4c5-6789-defa-012345678901",
+      "e1f2a3b4-c5d6-7890-abcd-123456789012",
+      "f2a3b4c5-d6e7-8901-bcde-234567890123",
+      "a3b4c5d6-e7f8-9012-cdef-345678901234",
+      "b4c5d6e7-f8a9-0123-defa-456789012345",
+      "c5d6e7f8-a9b0-1234-efab-567890123456",
+      "d6e7f8a9-b0c1-2345-fabc-678901234567",
+      "e7f8a9b0-c1d2-3456-abcd-789012345678",
+      "f8a9b0c1-d2e3-4567-bcde-890123456789",
+      "a9b0c1d2-e3f4-5678-cdef-901234567890",
+      "b0c1d2e3-f4a5-6789-defa-012345678901",
+      "c1d2e3f4-a5b6-7890-abcd-123456789012",
+      "d2e3f4a5-b6c7-8901-bcde-234567890123",
+      "e3f4a5b6-c7d8-9012-cdef-456789012345",
+      "f4a5b6c7-d8e9-0123-defa-567890123456",
+      "a5b6c7d8-e9f0-1234-efab-678901234567",
+      "b6c7d8e9-f0a1-2345-fabc-789012345678",
+      "c7d8e9f0-a1b2-3456-abcd-890123456789"
     ]
   },
   "references": [
@@ -45,7 +63,7 @@
       "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
     },
     {
-      "id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+      "id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
       "displayId": "U:2",
       "fact": "Market Capitalization RM554.0 million",
       "source": "KLSE",
@@ -56,7 +74,7 @@
       "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
     },
     {
-      "id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+      "id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
       "displayId": "U:3",
       "fact": "UOA Real Estate Investment Trust name",
       "source": "AR2025",
@@ -66,7 +84,7 @@
       "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
     },
     {
-      "id": "d4e5f6g7-h8i9-0123-defa-456789012345",
+      "id": "d4e5f6a7-b8c9-0123-defa-456789012345",
       "displayId": "U:6",
       "fact": "Listing Date: 30 December 2005",
       "source": "AR2025",
@@ -76,7 +94,7 @@
       "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
     },
     {
-      "id": "e5f6g7h8-i9j0-1234-efab-567890123456",
+      "id": "e5f6a7b8-c9d0-1234-efab-567890123456",
       "displayId": "U:10",
       "fact": "Shariah Compliance: Non-Shariah Compliant",
       "source": "AR2025",
@@ -86,7 +104,7 @@
       "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
     },
     {
-      "id": "f6g7h8i9-j0k1-2345-fabc-678901234567",
+      "id": "f6a7b8c9-d0e1-2345-fabc-678901234567",
       "displayId": "U:11",
       "fact": "Manager: UOA Asset Management Sdn Bhd (Company No. 692639-U)",
       "source": "AR2025",
@@ -96,7 +114,7 @@
       "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
     },
     {
-      "id": "g7h8i9j0-k1l2-3456-abcd-789012345678",
+      "id": "a7b8c9d0-e1f2-3456-abcd-789012345678",
       "displayId": "U:15",
       "fact": "Trustee: RHB Trustees Berhad",
       "source": "AR2025",
@@ -106,7 +124,7 @@
       "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
     },
     {
-      "id": "h8i9j0k1-l2m3-4567-bcde-890123456789",
+      "id": "b8c9d0e1-f2a3-4567-bcde-890123456789",
       "displayId": "U:36",
       "fact": "Number of Properties: 6 commercial buildings",
       "source": "AR2025",
@@ -116,7 +134,7 @@
       "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
     },
     {
-      "id": "i9j0k1l2-m3n4-5678-cdef-901234567890",
+      "id": "c9d0e1f2-a3b4-5678-cdef-901234567890",
       "displayId": "U:139",
       "fact": "Gearing Ratio: 40.5%",
       "source": "AR2025",
@@ -126,7 +144,7 @@
       "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
     },
     {
-      "id": "j0k1l2m3-n4o5-6789-defa-012345678901",
+      "id": "d0e1f2a3-b4c5-6789-defa-012345678901",
       "displayId": "U:140",
       "fact": "Total Floating-Rate Debt: RM713.5 million (100% of borrowings)",
       "source": "AR2025",
@@ -136,7 +154,7 @@
       "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
     },
     {
-      "id": "k1l2m3n4-o5p6-7890-abcd-123456789012",
+      "id": "e1f2a3b4-c5d6-7890-abcd-123456789012",
       "displayId": "U:181",
       "fact": "FY2025 DPU: 6.95 sen (3.03 + 3.92) +13.2% YoY",
       "source": "AR2025",
@@ -146,7 +164,7 @@
       "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
     },
     {
-      "id": "l2m3n4o5-p6q7-8901-bcde-234567890123",
+      "id": "f2a3b4c5-d6e7-8901-bcde-234567890123",
       "displayId": "U:191",
       "fact": "Unit Price April 2026: RM0.82",
       "source": "KLSE",
@@ -157,7 +175,7 @@
       "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
     },
     {
-      "id": "m3n4o5p6-q7r8-9012-cdef-345678901234",
+      "id": "a3b4c5d6-e7f8-9012-cdef-345678901234",
       "displayId": "U:213",
       "fact": "NAV Per Unit: RM1.4248",
       "source": "AR2025",
@@ -167,7 +185,7 @@
       "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
     },
     {
-      "id": "n4o5p6q7-r8s9-0123-defa-456789012345",
+      "id": "b4c5d6e7-f8a9-0123-defa-456789012345",
       "displayId": "U:215",
       "fact": "P/B Ratio: 0.58x (significant discount)",
       "source": "Calculated",
@@ -177,7 +195,7 @@
       "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
     },
     {
-      "id": "o5p6q7r8-s9t0-1234-efab-567890123456",
+      "id": "c5d6e7f8-a9b0-1234-efab-567890123456",
       "displayId": "U:329",
       "fact": "Manager: UOA Asset Management Sdn Bhd",
       "source": "AR2025",
@@ -187,7 +205,7 @@
       "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
     },
     {
-      "id": "p6q7r8s9-t0u1-2345-fabc-678901234567",
+      "id": "d6e7f8a9-b0c1-2345-fabc-678901234567",
       "displayId": "U:330",
       "fact": "Website: www.uoareit.com.my",
       "source": "UOAIR",
@@ -196,6 +214,808 @@
       "dateAccessed": "2026-04-25",
       "timeSensitive": false,
       "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "e7f8a9b0-c1d2-3456-abcd-789012345678",
+      "displayId": "U:132",
+      "fact": "Units Outstanding: 694.2 million",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Units in Issue",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "f8a9b0c1-d2e3-4567-bcde-890123456789",
+      "displayId": "U:41",
+      "fact": "WALE: 1.36 years",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Lease Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "a9b0c1d2-e3f4-5678-cdef-901234567890",
+      "displayId": "U:193",
+      "fact": "Distribution Yield: 8.48%",
+      "source": "Calculated",
+      "citation": "Calculated from DPU and unit price",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "b0c1d2e3-f4a5-6789-defa-012345678901",
+      "displayId": "U:110",
+      "fact": "Gross Rental Income FY2025: RM121.055 million",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "c1d2e3f4-a5b6-7890-abcd-123456789012",
+      "displayId": "U:114",
+      "fact": "Net Property Income FY2025: RM77.534 million",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - NPI",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "d2e3f4a5-b6c7-8901-bcde-234567890123",
+      "displayId": "U:116",
+      "fact": "Net Profit FY2025: RM48.1 million",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Profit",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "e3f4a5b6-c7d8-9012-cdef-456789012345",
+      "displayId": "U:345",
+      "fact": "ISIN MYL5110TO000",
+      "source": "BursaMalaysia",
+      "citation": "Bursa Malaysia Official Listing / Investing.com - ISIN Code",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "f4a5b6c7-d8e9-0123-defa-567890123456",
+      "displayId": "U:346",
+      "fact": "FY2024 Fixed-Rate Debt: >70% (not 59%)",
+      "source": "AR2024",
+      "citation": "UOA REIT Annual Report 2024 - Debt Structure Note: 'more than 70% of the Trust's current debts were in fixed-rate loans'",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "a5b6c7d8-e9f0-1234-efab-678901234567",
+      "displayId": "U:347",
+      "fact": "Investment Properties Value FY2025: RM1,734 million",
+      "source": "AR2025",
+      "citation": "UOA REIT Annual Report 2025 - Property Valuation as at 31 Dec 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "b6c7d8e9-f0a1-2345-fabc-789012345678",
+      "displayId": "U:348",
+      "fact": "Total Assets FY2025: RM1,762.86 million",
+      "source": "AR2025",
+      "citation": "UOA REIT Annual Report 2025 - Statement of Financial Position",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    },
+    {
+      "id": "c7d8e9f0-a1b2-3456-abcd-890123456789",
+      "displayId": "U:349",
+      "fact": "Net Lettable Area ~1.8M sq ft is industry estimate",
+      "source": "External",
+      "citation": "Industry market reports (Knight Frank, etc.) - not officially disclosed in Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "e3f4a5b6-c7d8-9012-cdef-345678901234",
+      "metricType": "portfolio_size",
+      "value": 6,
+      "unit": "properties",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": ["U:36"]
+    },
+    {
+      "id": "f4a5b6c7-d8e9-0123-defa-456789012345",
+      "metricType": "total_assets",
+      "value": 1762.86,
+      "unit": "RM million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": ["U:348"]
+    },
+    {
+      "id": "a5b6c7d8-e9f0-1234-efab-567890123456",
+      "metricType": "market_cap",
+      "value": 554,
+      "unit": "RM million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": ["U:2"]
+    },
+    {
+      "id": "b6c7d8e9-f0a1-2345-fabc-678901234567",
+      "metricType": "share_price",
+      "value": 0.82,
+      "unit": "RM",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": ["U:191"]
+    },
+    {
+      "id": "c7d8e9f0-a1b2-3456-abcd-789012345678",
+      "metricType": "nav_per_unit",
+      "value": 1.4248,
+      "unit": "RM",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": ["U:213"]
+    },
+    {
+      "id": "d8e9f0a1-b2c3-4567-bcde-890123456789",
+      "metricType": "price_to_book",
+      "value": 0.58,
+      "unit": "x",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": ["U:215"]
+    },
+    {
+      "id": "e9f0a1b2-c3d4-5678-cdef-901234567890",
+      "metricType": "dpu",
+      "value": 6.95,
+      "unit": "sen",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": ["U:181"]
+    },
+    {
+      "id": "f0a1b2c3-d4e5-6789-defa-012345678901",
+      "metricType": "dpu_growth_yoy",
+      "value": 13.2,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": ["U:181"]
+    },
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-123456789012",
+      "metricType": "dividend_yield_market",
+      "value": 8.48,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": ["U:193"]
+    },
+    {
+      "id": "b2c3d4e5-f6a7-8901-bcde-234567890123",
+      "metricType": "gearing_ratio",
+      "value": 40.5,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": ["U:139"]
+    },
+    {
+      "id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "metricType": "floating_rate_debt_pct",
+      "value": 100,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": ["U:140"]
+    },
+    {
+      "id": "d4e5f6a7-b8c9-0123-defa-456789012345",
+      "metricType": "fixed_rate_debt_pct",
+      "value": 0,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": ["U:140"]
+    },
+    {
+      "id": "e5f6a7b8-c9d0-1234-efab-567890123456",
+      "metricType": "total_borrowings",
+      "value": 713.5,
+      "unit": "RM million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": ["U:140"]
+    },
+    {
+      "id": "f6a7b8c9-d0e1-2345-fabc-678901234567",
+      "metricType": "wale_years",
+      "value": 1.36,
+      "unit": "years",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": ["U:41"]
+    },
+    {
+      "id": "a7b8c9d0-e1f2-3456-abcd-789012345678",
+      "metricType": "gross_revenue",
+      "value": 125.3,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": ["U:112"]
+    },
+    {
+      "id": "b8c9d0e1-f2a3-4567-bcde-890123456789",
+      "metricType": "net_property_income",
+      "value": 77.5,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": ["U:114"]
+    },
+    {
+      "id": "c9d0e1f2-a3b4-5678-cdef-901234567890",
+      "metricType": "net_profit",
+      "value": 48.1,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": ["U:116"]
+    },
+    {
+      "id": "d0e1f2a3-b4c5-6789-defa-012345678901",
+      "metricType": "units_outstanding",
+      "value": 694.2,
+      "unit": "million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": ["U:132"]
+    },
+    {
+      "id": "e1f2a3b4-c5d6-7890-abcd-123456789012",
+      "metricType": "interest_coverage",
+      "value": 3.0,
+      "unit": "x",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": ["U:166"]
+    }
+  ],
+  "timeSeries": [
+    {
+      "id": "f2a3b4c5-d6e7-8901-bcde-234567890123",
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c",
+      "metricType": "dpu",
+      "frequency": "annual",
+      "unit": "sen",
+      "dataPoints": [
+        {
+          "date": "2019-12-31",
+          "value": 9.33,
+          "isInterpolated": false,
+          "sourceDisplayId": "U:175"
+        },
+        {
+          "date": "2020-12-31",
+          "value": 8.85,
+          "isInterpolated": false,
+          "sourceDisplayId": "U:176"
+        },
+        {
+          "date": "2021-12-31",
+          "value": 8.64,
+          "isInterpolated": false,
+          "sourceDisplayId": "U:177"
+        },
+        {
+          "date": "2022-12-31",
+          "value": 8.62,
+          "isInterpolated": false,
+          "sourceDisplayId": "U:178"
+        },
+        {
+          "date": "2023-12-31",
+          "value": 8.28,
+          "isInterpolated": false,
+          "sourceDisplayId": "U:179"
+        },
+        {
+          "date": "2024-12-31",
+          "value": 6.14,
+          "isInterpolated": false,
+          "sourceDisplayId": "U:180"
+        },
+        {
+          "date": "2025-12-31",
+          "value": 6.95,
+          "isInterpolated": false,
+          "sourceDisplayId": "U:181"
+        }
+      ],
+      "sourceDisplayIds": ["U:175", "U:176", "U:177", "U:178", "U:179", "U:180", "U:181"]
+    },
+    {
+      "id": "a3b4c5d6-e7f8-9012-cdef-345678901234",
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c",
+      "metricType": "nav_per_unit",
+      "frequency": "annual",
+      "unit": "RM",
+      "dataPoints": [
+        {
+          "date": "2021-12-31",
+          "value": 1.38,
+          "isInterpolated": true
+        },
+        {
+          "date": "2022-12-31",
+          "value": 1.39,
+          "isInterpolated": true
+        },
+        {
+          "date": "2023-12-31",
+          "value": 1.40,
+          "isInterpolated": true
+        },
+        {
+          "date": "2024-12-31",
+          "value": 1.405,
+          "isInterpolated": false,
+          "sourceDisplayId": "U:131"
+        },
+        {
+          "date": "2025-12-31",
+          "value": 1.4248,
+          "isInterpolated": false,
+          "sourceDisplayId": "U:213"
+        }
+      ],
+      "sourceDisplayIds": ["U:131", "U:213"]
+    },
+    {
+      "id": "b4c5d6e7-f8a9-0123-defa-456789012345",
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c",
+      "metricType": "gearing_ratio",
+      "frequency": "annual",
+      "unit": "%",
+      "dataPoints": [
+        {
+          "date": "2021-12-31",
+          "value": 38,
+          "isInterpolated": true
+        },
+        {
+          "date": "2022-12-31",
+          "value": 39,
+          "isInterpolated": true
+        },
+        {
+          "date": "2023-12-31",
+          "value": 40,
+          "isInterpolated": true
+        },
+        {
+          "date": "2024-12-31",
+          "value": 40,
+          "isInterpolated": true
+        },
+        {
+          "date": "2025-12-31",
+          "value": 40.5,
+          "isInterpolated": false,
+          "sourceDisplayId": "U:139"
+        }
+      ],
+      "sourceDisplayIds": ["U:139"]
+    }
+  ],
+  "riskAssessment": {
+    "id": "c5d6e7f8-a9b0-1234-efab-567890123456",
+    "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c",
+    "assessmentDate": "2026-04-25",
+    "overallRiskRating": "elevated",
+    "overallScore": 3.5,
+    "riskFactors": [
+      {
+        "id": "d6e7f8a9-b0c1-2345-fabc-678901234567",
+        "category": "interest_rate",
+        "severity": "high",
+        "title": "100% Floating-Rate Debt Exposure",
+        "description": "UOA REIT has 100% floating-rate debt with no fixed-rate hedging, making it fully exposed to interest rate volatility from Bank Negara Malaysia policy changes.",
+        "currentScore": 4.5,
+        "peerComparison": "worse",
+        "quantitativeBacking": [
+          {
+            "metricType": "floating_rate_debt_pct",
+            "value": 100,
+            "context": "Highest in peer group"
+          }
+        ],
+        "mitigatingFactors": [
+          {
+            "factor": "Gearing at 40.5% provides 19.5% headroom to 60% limit",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Interest coverage at ~3.0x provides some cushion",
+            "impact": "minor"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "100% floating with no hedging or fixed-rate debt",
+            "impact": "severe"
+          },
+          {
+            "factor": "Every 25bps rate change impacts DPU by ~0.26 sen",
+            "impact": "significant"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Bank Negara Malaysia OPR announcements",
+          "Debt refinancing activity",
+          "Interest rate swap implementation"
+        ],
+        "sourceDisplayIds": ["U:140", "U:139", "U:166"]
+      },
+      {
+        "id": "e7f8a9b0-c1d2-3456-abcd-789012345678",
+        "category": "tenant_rollover",
+        "severity": "high",
+        "title": "Short Weighted Average Lease Expiry (WALE)",
+        "description": "1.36-year WALE is significantly shorter than industrial REIT peers (Axis: 4.4 years), creating near-term re-leasing pressure and income volatility risk.",
+        "currentScore": 4,
+        "peerComparison": "worse",
+        "quantitativeBacking": [
+          {
+            "metricType": "wale_years",
+            "value": 1.36,
+            "context": "Below 2-year threshold"
+          }
+        ],
+        "mitigatingFactors": [
+          {
+            "factor": "Prime KL Golden Triangle locations provide tenant demand",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Government/GLC tenants provide stability",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Improving occupancy trend at Menara UOA Bangsar",
+            "impact": "minor"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "Office sector faces structural headwinds from hybrid work",
+            "impact": "significant"
+          },
+          {
+            "factor": "Short leases create near-term income volatility",
+            "impact": "significant"
+          }
+        ],
+        "trend": "improving",
+        "monitoringTriggers": [
+          "Lease expiry schedule",
+          "Rental reversion trends",
+          "Occupancy rates by property"
+        ],
+        "sourceDisplayIds": ["U:41", "U:99", "U:102"]
+      },
+      {
+        "id": "f8a9b0c1-d2e3-4567-bcde-890123456789",
+        "category": "sector",
+        "severity": "medium",
+        "title": "Office Sector Concentration",
+        "description": "100% office exposure concentrates risk in a sector facing structural headwinds from hybrid work adoption, unlike diversified industrial REIT peers.",
+        "currentScore": 3,
+        "peerComparison": "similar",
+        "mitigatingFactors": [
+          {
+            "factor": "Prime KL Golden Triangle and established suburban locations",
+            "impact": "significant"
+          },
+          {
+            "factor": "GBI-certified green building (UOA Corporate Tower)",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Quality tenant base with MNCs and government agencies",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "No industrial diversification",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Hybrid work reducing office space demand structurally",
+            "impact": "significant"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Office market vacancy rates",
+          "Return-to-office trends",
+          "New office supply pipeline"
+        ],
+        "sourceDisplayIds": ["U:232", "U:263", "U:264"]
+      },
+      {
+        "id": "a9b0c1d2-e3f4-5678-cdef-901234567890",
+        "category": "geographic",
+        "severity": "medium",
+        "title": "Klang Valley Geographic Concentration",
+        "description": "All 6 properties are concentrated in KL Golden Triangle and Damansara/Bangsar areas, creating exposure to regional economic conditions.",
+        "currentScore": 2.5,
+        "peerComparison": "similar",
+        "mitigatingFactors": [
+          {
+            "factor": "KL Golden Triangle is Malaysia's prime commercial hub",
+            "impact": "significant"
+          },
+          {
+            "factor": "Established Damansara/Bangsar precincts have stable demand",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "100% concentration in single metropolitan area",
+            "impact": "moderate"
+          },
+          {
+            "factor": "No geographic diversification across Malaysia",
+            "impact": "minor"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "KL office market vacancy rates",
+          "Klang Valley economic indicators"
+        ],
+        "sourceDisplayIds": ["U:78", "U:79", "U:80"]
+      }
+    ],
+    "peerComparison": {
+      "vsPeerId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73",
+      "relativeRisk": "higher",
+      "keyDifferences": [
+        "100% floating-rate debt vs 65% fixed (Axis)",
+        "1.36-year WALE vs 4.4 years (Axis)",
+        "100% office vs industrial focus (Axis/Atrium)",
+        "Higher gearing 40.5% vs 33% (Axis)"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "b0c1d2e3-f4a5-6789-defa-012345678901",
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c",
+      "observationType": "executive_summary",
+      "priority": "positive",
+      "title": "DPU Recovery in FY2025",
+      "content": "UOA REIT achieved +13.2% DPU growth to 6.95 sen in FY2025, recovering from the 6.14 sen trough in FY2024. Occupancy improved significantly at Menara UOA Bangsar with 19% gain.",
+      "summary": "DPU recovery, occupancy gains, improving trend",
+      "keyFacts": [
+        {
+          "label": "DPU FY2025",
+          "value": 6.95,
+          "unit": "sen"
+        },
+        {
+          "label": "DPU Growth",
+          "value": 13.2,
+          "unit": "%"
+        },
+        {
+          "label": "Occupancy Gain",
+          "value": 19,
+          "unit": "%"
+        }
+      ],
+      "indicator": {
+        "icon": "check",
+        "color": "green"
+      },
+      "relatedMetrics": [
+        {
+          "metricType": "dpu",
+          "value": 6.95
+        },
+        {
+          "metricType": "dpu_growth_yoy",
+          "value": 13.2
+        }
+      ],
+      "relatedRisks": [],
+      "sourceDisplayIds": ["U:181", "U:102", "U:188"],
+      "primaryCitation": "U:181"
+    },
+    {
+      "id": "c1d2e3f4-a5b6-7890-abcd-123456789012",
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c",
+      "observationType": "debt_sustainability",
+      "priority": "negative",
+      "title": "Critical Interest Rate Risk",
+      "content": "100% floating-rate debt exposes UOA REIT to full interest rate volatility. Every 25bps rate change impacts annual finance costs by ~RM1.78M (0.26 sen DPU). No hedging strategy is apparent.",
+      "summary": "100% floating debt, high rate sensitivity, no hedging",
+      "keyFacts": [
+        {
+          "label": "Floating Rate Debt",
+          "value": 100,
+          "unit": "%"
+        },
+        {
+          "label": "Fixed Rate Debt",
+          "value": 0,
+          "unit": "%"
+        },
+        {
+          "label": "25bps Impact",
+          "value": 1.78,
+          "unit": "RM M"
+        }
+      ],
+      "indicator": {
+        "icon": "alert",
+        "color": "red"
+      },
+      "relatedMetrics": [
+        {
+          "metricType": "floating_rate_debt_pct",
+          "value": 100
+        },
+        {
+          "metricType": "gearing_ratio",
+          "value": 40.5
+        }
+      ],
+      "relatedRisks": ["d6e7f8a9-b0c1-2345-fabc-678901234567"],
+      "sourceDisplayIds": ["U:140", "U:139", "U:151"],
+      "primaryCitation": "U:140"
+    },
+    {
+      "id": "d2e3f4a5-b6c7-8901-bcde-234567890123",
+      "entityId": "5200b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c",
+      "observationType": "valuation",
+      "priority": "positive",
+      "title": "Deep Discount to NAV",
+      "content": "Trading at 0.58x P/B with 42% discount to NAV (RM0.82 vs RM1.42 NAV), offering potential value opportunity if office market stabilizes and debt concerns ease.",
+      "summary": "0.58x P/B, 42% NAV discount, value opportunity",
+      "keyFacts": [
+        {
+          "label": "P/B Ratio",
+          "value": 0.58,
+          "unit": "x"
+        },
+        {
+          "label": "NAV Discount",
+          "value": 42,
+          "unit": "%"
+        },
+        {
+          "label": "Unit Price",
+          "value": 0.82,
+          "unit": "RM"
+        }
+      ],
+      "indicator": {
+        "icon": "check",
+        "color": "green"
+      },
+      "relatedMetrics": [
+        {
+          "metricType": "price_to_book",
+          "value": 0.58
+        },
+        {
+          "metricType": "nav_per_unit",
+          "value": 1.4248
+        }
+      ],
+      "relatedRisks": [],
+      "sourceDisplayIds": ["U:215", "U:216", "U:213"],
+      "primaryCitation": "U:215"
     }
   ]
 }

@@ -131,17 +131,17 @@ export function CitationPanel({ isOpen, onClose, citationIds, entities }: Citati
         tabIndex={-1}
       >
         {/* Header */}
-        <div className="flex items-center justify-between px-6 py-4 border-b border-neutral-200 bg-neutral-50">
+        <div className="flex items-center justify-between px-4 py-2.5 border-b border-neutral-200 bg-neutral-50">
           <div>
             <h2 
               id="citation-panel-title" 
-              className="text-lg font-semibold text-neutral-900"
+              className="text-sm font-semibold text-neutral-900"
             >
               Sources & Citations
             </h2>
             <p 
               id="citation-panel-description"
-              className="text-sm text-neutral-500"
+              className="text-xs text-neutral-500"
             >
               {citations.length} reference{citations.length !== 1 ? 's' : ''} from {entities.length} source{entities.length !== 1 ? 's' : ''}
             </p>

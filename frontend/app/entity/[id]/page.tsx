@@ -1,11 +1,9 @@
 import EntityDetailClient from './client';
+import { AVAILABLE_ENTITIES } from '@/lib/available-entities';
 
-// Generate static params for entity pages
+/** `output: export` requires all visited `/entity/*` paths at build time. */
 export function generateStaticParams() {
-  return [
-    { id: '5130.KL' },
-    { id: '5106.KL' },
-  ];
+  return AVAILABLE_ENTITIES.map((e) => ({ id: e.code }));
 }
 
 export default function EntityDetailPage({ params }: { params: { id: string } }) {

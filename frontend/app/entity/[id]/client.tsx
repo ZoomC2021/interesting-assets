@@ -109,32 +109,34 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
       <div {...liveRegionProps.assertive} />
 
       {/* Header */}
-      <header className="bg-white border-b border-neutral-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <div className="flex items-center gap-4">
+      <header className="bg-white border-b border-neutral-200 sticky top-0 z-30">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
+          <div className="flex items-center justify-between gap-2 h-12 min-h-12">
+            <div className="flex items-center gap-2 min-w-0">
               <button
                 onClick={() => router.push('/compare')}
-                className="text-neutral-500 hover:text-neutral-700 focus:outline-none focus:ring-2 focus:ring-primary-500 rounded p-1"
+                className="text-neutral-500 hover:text-neutral-700 focus:outline-none focus:ring-2 focus:ring-primary-500 rounded p-0.5 shrink-0"
                 aria-label="Go back"
               >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                 </svg>
               </button>
-              <div>
-                <h1 className="text-xl font-semibold text-neutral-900">{entity.entity.name}</h1>
-                <p className="text-sm text-neutral-500">{entity.entity.code}</p>
+              <div className="min-w-0 flex flex-col justify-center sm:flex-row sm:items-baseline sm:gap-1.5">
+                <h1 className="text-sm font-semibold text-neutral-900 truncate leading-tight">{entity.entity.name}</h1>
+                <span className="text-[11px] text-neutral-500 font-mono leading-tight">{entity.entity.code}</span>
               </div>
             </div>
-            
-            <div className="flex items-center gap-2">
-              <span className="text-xs px-2 py-1 bg-neutral-100 rounded text-neutral-600">
+            <div className="flex items-center gap-1.5 shrink-0">
+              <span className="text-[10px] px-1.5 py-0.5 bg-neutral-100 rounded text-neutral-600">
                 {entity.entity.exchange}
               </span>
               {entity.entity.isShariahCompliant && (
-                <span className="text-xs px-2 py-1 bg-success-100 text-success-700 rounded">
-                  Shariah Compliant
+                <span
+                  className="text-[10px] px-1.5 py-0.5 bg-success-100 text-success-700 rounded"
+                  title="Shariah compliant"
+                >
+                  Shariah
                 </span>
               )}
             </div>
@@ -142,12 +144,11 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
         </div>
       </header>
 
-      {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 py-5">
         {/* Citation Filter Bar */}
-        <div className="mb-6 bg-white rounded-xl shadow-card p-4">
-          <div className="flex flex-wrap items-center gap-3">
-            <span className="text-sm font-medium text-neutral-700">Filter sources by type:</span>
+        <div className="mb-4 bg-white rounded-lg shadow-card p-3">
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="text-xs font-medium text-neutral-600">Filter sources by type:</span>
             <div className="flex flex-wrap gap-2">
               <button
                 onClick={() => handleFilterChange('all')}
@@ -230,25 +231,25 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
         {/* Charts */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
           <div className="bg-white rounded-xl shadow-card p-6">
-            <h3 className="text-lg font-semibold text-neutral-900 mb-4">DPU Trend</h3>
+            <h3 className="text-sm font-semibold text-neutral-900 mb-3">DPU Trend</h3>
             <DpuTrendChart entities={data} />
           </div>
 
           <div className="bg-white rounded-xl shadow-card p-6">
-            <h3 className="text-lg font-semibold text-neutral-900 mb-4">Risk Profile</h3>
+            <h3 className="text-sm font-semibold text-neutral-900 mb-3">Risk Profile</h3>
             <RiskMatrix entities={data} onCitationClick={handleMetricClick} />
           </div>
         </div>
 
         {/* Key Metrics */}
         <div className="mb-8">
-          <h3 className="text-lg font-semibold text-neutral-900 mb-4">All Metrics</h3>
+          <h3 className="text-sm font-semibold text-neutral-900 mb-3">All Metrics</h3>
           <KpiGrid entities={data} category="all" onMetricClick={handleMetricClick} />
         </div>
 
         {/* Management Info */}
         <div className="bg-white rounded-xl shadow-card p-6 mb-8">
-          <h3 className="text-lg font-semibold text-neutral-900 mb-4">Management</h3>
+          <h3 className="text-sm font-semibold text-neutral-900 mb-3">Management</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <p className="text-sm text-neutral-500">REIT Manager</p>

@@ -1,11 +1,14 @@
 import ComparePageContent from '../page';
 import { Suspense } from 'react';
+import { AVAILABLE_ENTITIES } from '@/lib/available-entities';
 
-// Generate static params for common entity combinations
+/**
+ * `output: export` — one static page per single-entity path (e.g. /compare/5227.KL).
+ * The main table uses /compare?entities=…; this covers path-based URLs and bookmarks.
+ */
 export function generateStaticParams() {
   return [
-    { entityIds: '5130.KL' },
-    { entityIds: '5106.KL' },
+    ...AVAILABLE_ENTITIES.map((e) => ({ entityIds: e.code })),
     { entityIds: '5130.KL,5106.KL' },
   ];
 }

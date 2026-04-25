@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-UOA Real Estate Investment Trust (UOA REIT) is a Malaysia-listed office-focused REIT that owns and operates six commercial properties predominantly located in Kuala Lumpur's Golden Triangle and Damansara/Bangsar areas [U:1]. With a market capitalization of approximately RM554.0 million and a portfolio value of RM1,726 million, UOA REIT represents a pure-play office REIT with exposure to Malaysia's prime commercial real estate markets [U:2].
+UOA Real Estate Investment Trust (UOA REIT) is a Malaysia-listed office-focused REIT that owns and operates six commercial properties predominantly located in Kuala Lumpur's Golden Triangle and Damansara/Bangsar areas [U:1]. With a market capitalization of approximately RM554.0 million and a portfolio value of RM1,734 million, UOA REIT represents a pure-play office REIT with exposure to Malaysia's prime commercial real estate markets [U:2].
 
 ### Investment Thesis Summary
 
@@ -123,9 +123,9 @@ The significant ownership by United Overseas Australia Ltd creates alignment bet
 | Metric | Value | Source |
 |--------|-------|--------|
 | **Number of Properties** | 6 commercial buildings | [U:36] |
-| **Investment Properties Value** | RM1,726 million | [U:37] |
-| **Total Assets** | RM1,760.23 million | [U:38] |
-| **Net Lettable Area** | ~1.8 million sq ft (estimated) | [U:39] |
+| **Investment Properties Value** | RM1,734 million | [U:347] |
+| **Total Assets** | RM1,762.86 million | [U:348] |
+| **Net Lettable Area** | ~1.8 million sq ft (industry estimate, not disclosed in Annual Report) | [U:349] |
 | **Portfolio Occupancy** | Improving (19% gain at key property) | [U:40] |
 | **Portfolio WALE** | 1.36 years | [U:41] |
 
@@ -303,8 +303,8 @@ The five-year trend shows recovery from pandemic-impacted years, with FY2025 rep
 
 | Metric | FY 2025 | FY 2024 | Change | Source |
 |--------|---------|---------|--------|--------|
-| **Total Assets** | RM1,760.23M | RM1,750.5M | +0.6% | [U:127] |
-| **Investment Properties** | RM1,726M | RM1,725M | +0.1% | [U:128] |
+| **Total Assets** | RM1,762.86M | RM1,750.5M | +0.7% | [U:348] |
+| **Investment Properties** | RM1,734M | RM1,725M | +0.5% | [U:347] |
 | **Total Borrowings** | RM713.5M | RM680.2M | +4.9% | [U:129] |
 | **Net Asset Value (NAV)** | RM989.1M | RM975.3M | +1.4% | [U:130] |
 | **NAV Per Unit** | RM1.4248 | RM1.4050 | +1.4% | [U:131] |
@@ -336,16 +336,16 @@ The five-year trend shows recovery from pandemic-impacted years, with FY2025 rep
 | **Fixed-Rate Debt** | RM0 | **0% Fixed** | [U:141] |
 | **Interest Rate Swaps/Hedges** | Not disclosed | **No Hedging** | [U:142] |
 
-**⚠️ MAJOR RISK ALERT**: UOA REIT has shifted to **100% floating-rate debt** as of FY2025, representing a significant change from the 59% fixed-rate structure in FY2024 [U:143]. This exposes the REIT to full interest rate volatility from Bank Negara Malaysia's Overnight Policy Rate (OPR) movements [U:144].
+**⚠️ MAJOR RISK ALERT**: UOA REIT has shifted to **100% floating-rate debt** as of FY2025, representing a significant change from the >70% fixed-rate structure in FY2024 [U:143]. This exposes the REIT to full interest rate volatility from Bank Negara Malaysia's Overnight Policy Rate (OPR) movements [U:144].
 
 ### 5.3 Debt Structure Change Analysis
 
 | Period | Fixed Rate % | Floating Rate % | Risk Profile | Source |
 |--------|--------------|-----------------|--------------|--------|
-| **FY2024** | ~59% | ~41% | Moderate | [U:145] |
+| **FY2024** | >70% | <30% | Moderate | [U:346] |
 | **FY2025** | **0%** | **100%** | 🔴 High | [U:146] |
 
-The complete shift to floating-rate debt represents a significant strategic change that amplifies interest rate risk [U:147]. This could have been driven by refinancing decisions, loan repricing, or a bet on rate cuts that has not materialized [U:148].
+The shift from >70% fixed-rate to 0% fixed-rate represents a significant strategic change that amplifies interest rate risk [U:147]. This could have been driven by refinancing decisions, loan repricing, or a bet on rate cuts that has not materialized [U:148].
 
 ### 5.4 Interest Rate Sensitivity Analysis
 
@@ -473,7 +473,7 @@ The FY2025 DPU recovery is encouraging, but sustainability depends on: (1) maint
 | **Unit Price** | RM0.82 | [U:209] |
 | **52-Week Range** | RM0.785 - RM0.900 | [U:210] |
 | **Market Capitalization** | RM554.0 million | [U:211] |
-| **Units Outstanding** | ~675.6 million | [U:212] |
+| **Units Outstanding** | 694.2 million | [U:212] |
 
 ### 7.2 Price-to-Book (P/B) Analysis
 
@@ -515,13 +515,13 @@ The 8.48% yield represents a significant premium to peers, reflecting the higher
 
 | Metric | UOA REIT (5110.KL) | Axis REIT (5106.KL) | Atrium REIT (5130.KL) | Best-in-Class | Source |
 |--------|-------------------|---------------------|----------------------|---------------|--------|
-| **Market Cap** | RM554M | ~RM2.1B | ~RM332M | Axis REIT | [U:229] |
-| **Portfolio Value** | RM1,726M | ~RM5.4B | RM685M | Axis REIT | [U:230] |
+| **Market Cap** | RM554M | ~RM4.15B | ~RM340M | Axis REIT | [U:229] |
+| **Portfolio Value** | RM1,734M | ~RM5.36B | RM723M | Axis REIT | [U:347] |
 | **Properties** | 6 | 69 | 9 | Axis REIT | [U:231] |
 | **Sector Focus** | Office | Industrial | Industrial | Axis/Atrium | [U:232] |
-| **P/B Ratio** | 🔴 **0.58x** | ~1.0x | ~0.90x | UOA (value) | [U:233] |
-| **Distribution Yield** | 🟢 **8.48%** | ~4.8% | ~7.5% | UOA (yield) | [U:234] |
-| **Gearing Ratio** | 40.5% | ~33% | 43.5% | Axis REIT | [U:235] |
+| **P/B Ratio** | 🔴 **0.58x** | ~1.21x | ~0.90x | UOA (value) | [U:233] |
+| **Distribution Yield** | 🟢 **8.48%** | ~5.15% | ~7.27% | UOA (yield) | [U:234] |
+| **Gearing Ratio** | 40.5% | ~33% | ~43.5% | Axis REIT | [U:235] |
 | **Interest Cover** | ~3.0x | 3.8-4.0x | ~2.09x | Axis REIT | [U:236] |
 | **Floating Rate %** | 🔴 **100%** | ~35% | ~93% | Axis REIT | [U:237] |
 | **Fixed Rate %** | 🔴 **0%** | ~65% | ~7% | Axis REIT | [U:238] |
@@ -537,24 +537,24 @@ The 8.48% yield represents a significant premium to peers, reflecting the higher
 
 | Factor | Comparison | Source |
 |--------|------------|--------|
-| **Scale** | UOA is ~4x smaller by market cap | [U:244] |
+| **Scale** | UOA is ~7.5x smaller by market cap | [U:244] |
 | **Sector Risk** | Office (UOA) vs Industrial (Axis) - Industrial preferred | [U:245] |
 | **Debt Risk** | UOA 100% floating vs Axis 65% fixed - Axis wins | [U:246] |
 | **WALE** | UOA 1.36 yrs vs Axis 4.4 yrs - Axis wins | [U:247] |
-| **Yield** | UOA 8.48% vs Axis 4.8% - UOA wins for income | [U:248] |
-| **Valuation** | UOA 0.58x vs Axis 1.0x - UOA more attractive | [U:249] |
+| **Yield** | UOA 8.48% vs Axis ~5.15% - UOA wins for income | [U:248] |
+| **Valuation** | UOA 0.58x vs Axis ~1.21x - UOA more attractive | [U:249] |
 
 #### UOA REIT vs Atrium REIT
 
 | Factor | Comparison | Source |
 |--------|------------|--------|
-| **Scale** | UOA ~1.7x larger by market cap | [U:250] |
+| **Scale** | UOA ~1.6x larger by market cap (RM554M vs RM340M) | [U:250] |
 | **Sector** | Office (UOA) vs Industrial (Atrium) - Industrial preferred | [U:251] |
 | **Debt Risk** | Both high floating exposure (UOA 100%, Atrium 93%) | [U:252] |
 | **Occupancy** | Atrium 100% vs UOA improving - Atrium wins | [U:253] |
 | **WALE** | UOA 1.36 yrs short, Atrium mixed (Lumileds 15-yr anchor) | [U:254] |
-| **Yield** | UOA 8.48% vs Atrium 7.5% - UOA wins | [U:255] |
-| **Valuation** | UOA 0.58x vs Atrium 0.90x - UOA deeper discount | [U:256] |
+| **Yield** | UOA 8.48% vs Atrium ~7.27% - UOA wins | [U:255] |
+| **Valuation** | UOA 0.58x vs Atrium ~0.90x - UOA deeper discount | [U:256] |
 
 ### 8.3 Investment Profile Comparison
 
@@ -735,7 +735,7 @@ UOA REIT presents a high-risk, high-yield investment proposition best suited for
 | **Stock Code** | 5110.KL | [U:319] |
 | **Exchange** | Bursa Malaysia (Main Market) | [U:320] |
 | **Sector** | Real Estate Investment Trusts | [U:321] |
-| **ISIN** | MYL5110OO003 | [U:322] |
+| **ISIN** | MYL5110TO000 | [U:345] |
 | **Reuters** | 5110.KL | [U:323] |
 | **Bloomberg** | UOA:MK | [U:324] |
 

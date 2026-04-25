@@ -59,7 +59,7 @@ export function KpiGrid({ entities, category, onMetricClick }: KpiGridProps) {
       {Object.entries(groupedByCategory).map(([cat, types]) => (
         <div key={cat}>
           <div className="flex items-center gap-2 py-1 border-b border-stroke">
-            <span className="text-label text-sm font-medium text-ink">{getCategoryDisplayName(cat as MetricCategory)}</span>
+            <span className="text-label font-medium text-ink">{getCategoryDisplayName(cat as MetricCategory)}</span>
             <span className="text-xs text-muted">({types.length})</span>
           </div>
           
@@ -75,7 +75,7 @@ export function KpiGrid({ entities, category, onMetricClick }: KpiGridProps) {
               return (
                 <div
                   key={metricType}
-                  className={`grid items-center py-1 ${hasAnyCitations ? 'cursor-pointer hover:bg-surface-alt' : ''} ${isActive ? 'bg-surface-alt' : ''} ${idx > 0 ? 'border-t border-stroke' : ''}`}
+                  className={`grid items-center py-1 text-[12.5px] leading-4 ${hasAnyCitations ? 'cursor-pointer hover:bg-surface-alt' : ''} ${isActive ? 'bg-surface-alt' : ''} ${idx > 0 ? 'border-t border-stroke' : ''}`}
                   style={{ gridTemplateColumns: `200px repeat(${entities.length}, minmax(120px, 1fr))` }}
                   onClick={() => handleActivate(metricType, hasAnyCitations)}
                   onMouseEnter={() => setActiveMetric(metricType)}
@@ -93,7 +93,7 @@ export function KpiGrid({ entities, category, onMetricClick }: KpiGridProps) {
                   {/* Metric name column */}
                   <div className="px-3">
                     <div className="flex items-center gap-1.5">
-                      <span className="text-data text-sm text-ink">{definition?.displayName || metricType}</span>
+                      <span className="text-ink font-medium">{definition?.displayName || metricType}</span>
                       {hasAnyCitations && (
                         <span className="text-[10px] text-accent">●</span>
                       )}
@@ -110,7 +110,7 @@ export function KpiGrid({ entities, category, onMetricClick }: KpiGridProps) {
                     return (
                       <div key={entity.entity.id} className="px-3 border-l border-stroke text-right">
                         <div className="flex items-center justify-end gap-1.5">
-                          <span className="text-metric-sm tabular text-sm text-ink">
+                          <span className="tabular font-semibold text-ink">
                             {formatMetricValue(value, definition?.format || 'number', definition?.unit)}
                           </span>
                           {indicators && indicators.citationCount > 0 && (

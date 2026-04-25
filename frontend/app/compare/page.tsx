@@ -43,17 +43,17 @@ export default function ComparePage() {
       <div {...liveRegionProps.polite} />
       <div {...liveRegionProps.assertive} />
 
-      {/* Header */}
+      {/* Header: row 1 = title + actions; row 2 = REIT pickers (full width) */}
       <header className="bg-surface border-b border-stroke sticky top-0 z-30">
         <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
-          <div className="flex items-center justify-between h-14">
-            <div className="flex items-center gap-2">
-              <div className="w-7 h-7 bg-primary-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xs">R</span>
+          <div className="flex items-center justify-between h-12 min-h-12 gap-2">
+            <div className="flex min-w-0 items-center gap-2">
+              <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-primary-600">
+                <span className="text-[10px] font-bold text-white">R</span>
               </div>
-              <div>
-                <h1 className="text-lg font-semibold text-ink">REIT Comparison</h1>
-                <nav className="text-xs text-muted" aria-label="Breadcrumb">
+              <div className="min-w-0">
+                <h1 className="text-sm font-semibold leading-tight text-ink">REIT Comparison</h1>
+                <nav className="text-[11px] leading-tight text-muted" aria-label="Breadcrumb">
                   <a href="/" className="hover:text-ink">Home</a>
                   <span className="mx-1">/</span>
                   <a href="/monitor" className="hover:text-ink">Monitor</a>
@@ -62,19 +62,18 @@ export default function ComparePage() {
                 </nav>
               </div>
             </div>
-            
-            <div className="flex items-center gap-3">
-              {/* Citation Coverage Badge */}
+
+            <div className="flex shrink-0 items-center gap-2">
               {data.length > 0 && (
-                <div 
-                  className={`hidden sm:flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium ${
+                <div
+                  className={`hidden items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-medium sm:flex ${
                     coverageStats.coveragePercentage >= 100
                       ? 'bg-success-100 text-success-700'
                       : 'bg-warning-100 text-warning-700'
                   }`}
                   title={`${coverageStats.citedMetrics} of ${coverageStats.totalMetrics} metrics have citations`}
                 >
-                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
                     {coverageStats.coveragePercentage >= 100 ? (
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     ) : (
@@ -82,22 +81,29 @@ export default function ComparePage() {
                     )}
                   </svg>
                   <span>
-                    {coverageStats.coveragePercentage.toFixed(0)}% cited
-                    ({coverageStats.citedMetrics}/{coverageStats.totalMetrics})
+                    {coverageStats.coveragePercentage.toFixed(0)}% cited ({coverageStats.citedMetrics}/
+                    {coverageStats.totalMetrics})
                   </span>
                 </div>
               )}
-              
-              <a
-                href="/monitor"
-                className="text-sm text-muted hover:text-ink hidden sm:block"
-              >
-                ← Back to Monitor
+
+              <a href="/monitor" className="hidden text-xs text-muted hover:text-ink sm:block">
+                ← Monitor
               </a>
+            </div>
+          </div>
+
+          <div className="border-t border-stroke bg-surfaceAlt/80 py-2.5">
+            <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:gap-3">
+              <p id="compare-reit-label" className="m-0 text-label shrink-0 sm:pt-1.5">
+                REITs
+              </p>
               <EntitySelector
                 availableEntities={AVAILABLE_ENTITIES}
                 selectedEntities={selectedEntities}
                 onToggle={toggleEntity}
+                labelledBy="compare-reit-label"
+                className="min-w-0 w-full sm:flex-1 sm:justify-start"
               />
             </div>
           </div>
@@ -113,7 +119,7 @@ export default function ComparePage() {
               <button
                 key={cat}
                 onClick={() => setMetricCategory(cat)}
-                className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+                className={`px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
                   metricCategory === cat
                     ? 'bg-primary-600 text-white'
                     : 'bg-surface text-muted hover:bg-surface-alt border border-stroke'
@@ -143,16 +149,16 @@ export default function ComparePage() {
           <>
             {/* Sticky Entity Header */}
             {data.length > 0 && (
-              <div className="sticky top-14 z-40 bg-surface border-b border-stroke mb-3">
+              <div className="sticky top-40 z-40 border-b border-stroke bg-surface mb-3">
                 <div className="grid" style={{ gridTemplateColumns: `200px repeat(${data.length}, minmax(120px, 1fr))` }}>
-                  <div className="py-2 px-3 text-label text-sm font-medium text-muted">Metric</div>
+                  <div className="py-2 px-3 text-label font-medium text-muted">Metric</div>
                   {data.map((entityData, idx) => (
-                    <div key={entityData.entity.id} className="py-2 px-3 border-l border-stroke">
+                    <div key={entityData.entity.id} className="py-2 px-3 border-l border-stroke text-[12.5px] leading-4">
                       <div className="flex items-center gap-2">
                         <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: entityColors[idx % entityColors.length] }} />
-                        <span className="font-semibold text-sm text-ink truncate">{entityData.entity.name}</span>
+                        <span className="font-semibold text-ink truncate">{entityData.entity.name}</span>
                       </div>
-                      <div className="text-xs text-muted truncate">{entityData.entity.code}</div>
+                      <div className="text-[11px] text-muted truncate">{entityData.entity.code}</div>
                     </div>
                   ))}
                 </div>

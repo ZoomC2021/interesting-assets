@@ -26,6 +26,9 @@ interface SortState {
   direction: SortDirection;
 }
 
+/** Sticky thead offset: app bar (`h-12`) + FilterBar — see FilterBar. */
+const TABLE_HEAD_STICKY_TOP = 'top-44';
+
 interface EntityTableProps {
   data: NormalizedReitData[];
   comparisons: Map<string, Map<MetricType, EntityBenchmarkComparison | undefined>>;
@@ -36,6 +39,8 @@ interface EntityTableProps {
   onSort: (field: SortField) => void;
   dpuHistories: Map<string, number[]>;
   className?: string;
+  /** className for `thead` `sticky` `top` (default stacks below Monitor header + FilterBar) */
+  stickyHeaderTopClassName?: string;
   onCitationClick?: (entityId: string, citationIds: string[]) => void;
 }
 
@@ -126,6 +131,7 @@ export function EntityTable({
   onSort,
   dpuHistories,
   className = '',
+  stickyHeaderTopClassName = TABLE_HEAD_STICKY_TOP,
   onCitationClick,
 }: EntityTableProps) {
   const [hoveredRow, setHoveredRow] = useState<string | null>(null);
@@ -193,7 +199,9 @@ export function EntityTable({
   };
   
   return (
-    <div className={`overflow-x-auto ${className}`}>
+    <div
+      className={`overflow-x-auto overflow-y-visible rounded-xl isolate ${className}`}
+    >
       {/* Column group selector */}
       <div className="flex items-center gap-1 rounded-lg border border-stroke bg-surfaceAlt p-1 mb-3">
         {(Object.keys(COLUMN_GROUPS) as Array<keyof typeof COLUMN_GROUPS>).map(group => (
@@ -210,7 +218,9 @@ export function EntityTable({
       </div>
 
       <table className="w-full text-[12.5px] leading-4" role="grid" aria-label="REIT data table">
-        <thead className="sticky top-[104px] z-10 bg-surface/95 backdrop-blur">
+        <thead
+          className={`sticky z-30 bg-surface/95 backdrop-blur border-b border-stroke ${stickyHeaderTopClassName}`}
+        >
           <tr>
             {/* Selection header */}
             <th className="px-2.5 py-2 text-left w-10" scope="col">

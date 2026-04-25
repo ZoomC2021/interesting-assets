@@ -217,15 +217,15 @@ export default function MonitorPage() {
 
       {/* Header */}
       <header className="bg-white border-b border-gray-200 sticky top-0 z-30">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">M</span>
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
+          <div className="flex items-center justify-between h-12 min-h-12">
+            <div className="flex items-center gap-2 min-w-0">
+              <div className="w-6 h-6 shrink-0 bg-blue-600 rounded-md flex items-center justify-center">
+                <span className="text-white font-bold text-[10px]">M</span>
               </div>
-              <div>
-                <h1 className="text-xl font-semibold text-gray-900">Monitor</h1>
-                <nav className="text-xs text-gray-500" aria-label="Breadcrumb">
+              <div className="min-w-0">
+                <h1 className="text-sm font-semibold text-gray-900 leading-tight">Monitor</h1>
+                <nav className="text-[11px] text-gray-500 leading-tight" aria-label="Breadcrumb">
                   <Link href="/" className="hover:text-gray-700">Home</Link>
                   <span className="mx-1">/</span>
                   <span className="text-gray-900">Monitor</span>
@@ -233,24 +233,21 @@ export default function MonitorPage() {
               </div>
             </div>
             
-            <div className="flex items-center gap-3">
-              {/* Compare button */}
+            <div className="flex items-center gap-2 shrink-0">
               {selectedIds.length > 0 && (
                 <Link
                   href={`/compare?entities=${selectedIds.map(id => {
                     const e = entities.find(en => en.entity.id === id);
                     return e?.entity.code || id;
                   }).join(',')}`}
-                  className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="px-2.5 py-1.5 bg-blue-600 text-white text-xs font-medium rounded-md hover:bg-blue-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500"
                 >
                   Compare ({selectedIds.length})
                 </Link>
               )}
-              
-              {/* Navigation */}
               <Link
                 href="/compare"
-                className="text-sm text-gray-600 hover:text-gray-900 px-3 py-2"
+                className="text-xs text-gray-600 hover:text-gray-900 px-2 py-1"
               >
                 Comparison
               </Link>
@@ -275,19 +272,18 @@ export default function MonitorPage() {
       />
       
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        {/* Stats Bar */}
-        <div className="flex items-center gap-4 mb-6 text-sm">
-          <span className="text-gray-600">
-            Showing <strong>{sortedEntities.length}</strong> of <strong>{entities.length}</strong> REITs
+      <main className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 py-4">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 mb-4 text-xs text-gray-600">
+          <span>
+            Showing <strong className="text-gray-800">{sortedEntities.length}</strong> of <strong className="text-gray-800">{entities.length}</strong> REITs
           </span>
-          <span className="text-gray-400">|</span>
-          <span className="text-gray-600">
-            Columns: <strong>{ENTITY_TABLE_COLUMN_COUNT}</strong>
+          <span className="text-gray-300" aria-hidden>|</span>
+          <span>
+            <strong className="text-gray-800">{ENTITY_TABLE_COLUMN_COUNT}</strong> columns
           </span>
-          <span className="text-gray-400">|</span>
-          <span className="text-gray-600">
-            Benchmarks calculated: <strong>{Object.keys(benchmarks).length}</strong> metrics
+          <span className="text-gray-300" aria-hidden>|</span>
+          <span>
+            <strong className="text-gray-800">{Object.keys(benchmarks).length}</strong> benchmark metrics
           </span>
         </div>
         
@@ -309,7 +305,7 @@ export default function MonitorPage() {
           <>
             {/* Table View (Desktop) */}
             {viewMode === 'table' && (
-              <div className="hidden lg:block bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm">
+              <div className="hidden lg:block bg-white rounded-xl border border-gray-200 shadow-sm">
                 <EntityTable
                   data={sortedEntities}
                   comparisons={comparisonsMap}
