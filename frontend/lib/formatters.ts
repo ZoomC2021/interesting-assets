@@ -162,9 +162,18 @@ export function formatMetricValue(
   
   switch (format) {
     case 'currency':
+      // Metrics with unit 'RM million' / 'MYR million' are stored in millions
+      // (e.g. total_assets = 16800 represents RM 16.8B). Scale to base units so
+      // the auto K/M/B suffix in formatCurrency produces correct output.
+      if (unit === 'RM million' || unit === 'MYR million') {
+        return formatCurrency(value * 1e6, 'RM');
+      }
       return formatCurrency(value, unit || 'RM');
     case 'percentage':
-      return formatPercentage(value);
+      // Percentage metrics are stored in percent units (e.g. 78 means 78%),
+      // but formatPercentage multiplies by 100 (it expects a ratio). Normalize
+      // here so callers passing metric values display correctly.
+      return formatPercentage(value / 100);
     case 'ratio':
       return formatRatio(value);
     case 'years':

@@ -276,6 +276,7 @@ export type ObservationPriority = 'info' | 'positive' | 'warning' | 'critical';
 export interface Observation {
   id: string;
   observationType: ObservationType;
+  title?: string;
   content: string;
   summary?: string;
   priority: ObservationPriority;
