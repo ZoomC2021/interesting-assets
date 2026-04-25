@@ -135,13 +135,13 @@ export function CitationPanel({ isOpen, onClose, citationIds, entities }: Citati
           <div className="min-w-0 pr-2">
             <h2 
               id="citation-panel-title" 
-              className="text-sm font-semibold text-ink"
+              className="text-body font-semibold text-ink"
             >
               Sources & citations
             </h2>
-            <p 
+            <p
               id="citation-panel-description"
-              className="text-[11px] leading-snug text-muted"
+              className="text-label leading-snug text-muted"
             >
               {citations.length} reference{citations.length !== 1 ? 's' : ''} from {entities.length} source{entities.length !== 1 ? 's' : ''}
             </p>
@@ -165,7 +165,7 @@ export function CitationPanel({ isOpen, onClose, citationIds, entities }: Citati
               <span className="text-label">Filter</span>
               <button
                 onClick={() => handleFilterChange('all')}
-                className={`rounded-full px-2 py-0.5 text-xs font-medium transition-colors ${
+                className={`rounded-full px-2 py-0.5 text-body-sm font-medium transition-colors ${
                   activeFilter === 'all'
                     ? 'border border-primary-300 bg-primary-100 text-primary-700'
                     : 'border border-transparent bg-surfaceAlt text-muted hover:bg-surface'
@@ -184,7 +184,7 @@ export function CitationPanel({ isOpen, onClose, citationIds, entities }: Citati
                   <button
                     key={groupType}
                     onClick={() => handleFilterChange(groupType)}
-                    className={`rounded-full px-2 py-0.5 text-xs font-medium transition-colors ${
+                    className={`rounded-full px-2 py-0.5 text-body-sm font-medium transition-colors ${
                       activeFilter === groupType
                         ? `${group.colorClass} border border-current`
                         : 'border border-transparent bg-surfaceAlt text-muted hover:bg-surface'
@@ -206,7 +206,7 @@ export function CitationPanel({ isOpen, onClose, citationIds, entities }: Citati
           <div className="border-b border-stroke bg-surface px-3 py-1.5">
             <button
               onClick={handleCopyAll}
-              className="inline-flex items-center gap-1 rounded-md px-2 py-1 text-xs font-medium text-primary-600 transition-colors hover:bg-primary-50 focus:outline-none focus:ring-2 focus:ring-primary-500"
+              className="inline-flex items-center gap-1 rounded-md px-2 py-1 text-body-sm font-medium text-primary-600 transition-colors hover:bg-primary-50 focus:outline-none focus:ring-2 focus:ring-primary-500"
               aria-label={`Copy all ${filteredCitations.length} citations to clipboard`}
             >
               <svg className="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -224,14 +224,14 @@ export function CitationPanel({ isOpen, onClose, citationIds, entities }: Citati
               <svg className="mx-auto mb-2 h-8 w-8 text-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
               </svg>
-              <p className="text-xs text-muted">No citations available</p>
+              <p className="text-body-sm text-muted">No citations available</p>
             </div>
           ) : filteredCitations.length === 0 ? (
             <div className="py-6 text-center">
-              <p className="text-xs text-muted">No citations match the selected filter</p>
+              <p className="text-body-sm text-muted">No citations match the selected filter</p>
               <button
                 onClick={() => handleFilterChange('all')}
-                className="mt-2 text-xs text-primary-600 hover:text-primary-700"
+                className="mt-2 text-body-sm text-primary-600 hover:text-primary-700"
               >
                 Show all citations
               </button>
@@ -255,12 +255,12 @@ export function CitationPanel({ isOpen, onClose, citationIds, entities }: Citati
                     onMouseLeave={() => setHoveredCitation(null)}
                   >
                     <div className="flex items-start gap-2">
-                      <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary-100 text-[11px] font-semibold text-primary-700">
-                        {idx + 1}
-                      </span>
+              <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary-100 text-label font-semibold text-primary-700">
+                {idx + 1}
+              </span>
                       <div className="min-w-0 flex-1">
                         <div className="mb-0.5 flex items-center gap-1.5">
-                          <p className="text-xs font-semibold text-ink">
+                          <p className="text-body-sm font-semibold text-ink">
                             {citation.displayId}
                           </p>
                           <button
@@ -285,11 +285,11 @@ export function CitationPanel({ isOpen, onClose, citationIds, entities }: Citati
                           </button>
                         </div>
 
-                        <p className="mb-1.5 text-[12.5px] leading-5 text-ink">
+                        <p className="mb-1.5 text-data leading-5 text-ink">
                           {citation.fact}
                         </p>
 
-                        <div className="mb-1.5 flex flex-wrap gap-1 text-[10px]">
+                        <div className="mb-1.5 flex flex-wrap gap-1 text-2xs">
                           <span className={`rounded px-1.5 py-0.5 ${groupConfig.colorClass}`}>
                             {groupConfig.label}
                           </span>
@@ -306,11 +306,11 @@ export function CitationPanel({ isOpen, onClose, citationIds, entities }: Citati
                           )}
                         </div>
 
-                        <p className="mt-1.5 rounded border border-stroke bg-surface p-1.5 text-[11px] leading-relaxed text-muted">
+                        <p className="mt-1.5 rounded border border-stroke bg-surface p-1.5 text-label leading-relaxed text-muted">
                           <span className="font-medium text-ink">Citation:</span> {citation.citation}
                         </p>
 
-                        <p className="mt-1 text-[10px] text-muted">
+                        <p className="mt-1 text-2xs text-muted">
                           <span className="font-medium text-ink">Accessed:</span> {formatDate(citation.dateAccessed)}
                         </p>
 
@@ -319,7 +319,7 @@ export function CitationPanel({ isOpen, onClose, citationIds, entities }: Citati
                             href={citation.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="mt-1.5 inline-flex items-center gap-0.5 rounded px-0.5 py-0.5 text-[11px] text-primary-600 hover:text-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500"
+                            className="mt-1.5 inline-flex items-center gap-0.5 rounded px-0.5 py-0.5 text-label text-primary-600 hover:text-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500"
                             aria-label={`View source for ${citation.displayId} (opens in new tab)`}
                           >
                             View Source
@@ -340,10 +340,10 @@ export function CitationPanel({ isOpen, onClose, citationIds, entities }: Citati
         {/* Footer */}
         <div className="border-t border-stroke bg-surfaceAlt px-3 py-2">
           <div className="flex items-start justify-between gap-2">
-            <p className="text-[10px] leading-snug text-muted">
+            <p className="text-2xs leading-snug text-muted">
               Sources verified from annual reports and Bursa Malaysia announcements.
             </p>
-            <span className="shrink-0 text-[10px] text-muted" aria-live="polite">
+            <span className="shrink-0 text-2xs text-muted" aria-live="polite">
               {copiedId ? 'Copied' : ''}
             </span>
           </div>

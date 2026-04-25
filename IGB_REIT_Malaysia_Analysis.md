@@ -10,23 +10,23 @@
 
 ## Executive Summary
 
-IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-focused REIT, operating three iconic shopping malls in strategic locations [I:7]. The REIT completed a transformative acquisition in November 2025, adding Mid Valley Southkey Mall in Johor Bahru to its portfolio [I:8], creating a three-mall portfolio with combined valuation of RM8.38 billion [I:9] and total net lettable area of approximately 4.17 million sq ft [I:10].
+IGB REIT is a Malaysia-listed retail REIT with three malls: Mid Valley Megamall, The Gardens Mall and The Mall, Mid Valley Southkey. As at 31 December 2025, the portfolio had total NLA of 4,185,035 sq ft (~4.19 million sq ft) [I:10], investment property fair value of RM8.38 billion [I:9], and year-end market capitalisation of RM11.80 billion. IGB Real Estate Investment Trust (IGB REIT) [I:6] completed the transformative Southkey acquisition in November 2025 [I:8], adding Mid Valley Southkey Mall in Johor Bahru to its portfolio. Debt is substantially fixed-rate, but not 100% fixed-rate: the MVS MTN includes one floating-rate series based on KLIBOR, while Series 2–4 are fixed-rate; blended coupon approximately 3.80% p.a.
 
 **Key Highlights (FY 2025):**
 - **Portfolio Properties:** 3 premier malls (MVM, TGM, MVS) [I:11]
 - **Total Asset Value:** RM8.38 billion [I:9] (post-Southkey acquisition)
-- **Total NLA:** ~4.17 million sq ft [I:10]
-- **Portfolio Occupancy:** ~99% across all properties [I:12]
+- **Total NLA:** 4,185,035 sq ft (~4.19 million sq ft) [I:10]
+- **Portfolio Occupancy:** MVM 99.8%, TGM 99.1%, MVS Mall 100% [I:12]
 - **2024 Total DPU:** 10.70 sen [I:13]
-- **2025 Total DPU:** 11.75 sen [I:14] (↑9.8% YoY [I:15])
-- **Gearing Ratio:** ~26.5% post-acquisition [I:16] (from ~21.0% [I:17])
+- **2025 Total DPU:** 11.75 sen [I:14] (↑9.81% YoY [I:15])
+- **Gearing Ratio (borrowings-to-total-assets):** 25.7% post-acquisition [I:16] (from 21.2% in FY2024 [I:17])
 - **Interest Coverage:** ~9.0x [I:18] (excellent coverage)
-- **Revenue:** RM705.1 million [I:19] (↑12.6% YoY [I:20])
-- **NPI:** RM533.6 million [I:21] (↑17.1% YoY [I:22])
-- **Net Profit:** RM660.5 million [I:23] (↑13.9% YoY [I:24])
-- **Market Cap:** ~RM12.3 billion [I:25]
+- **Revenue:** RM705.1 million [I:19] (↑12.61% YoY [I:20])
+- **NPI:** RM533.6 million [I:21] (↑17.09% YoY [I:22])
+- **Net Profit:** RM660.5 million [I:23] (↑13.92% YoY [I:24])
+- **Market Cap:** RM11.80 billion (as at 31 Dec 2025) [I:25]; ~RM12.3 billion at current market price
 - **Current Price:** RM2.85 [I:26]
-- **Dividend Yield:** ~4.12% [I:27]
+- **Dividend Yield:** ~4.12% (current market yield at RM2.85) [I:27]; Annual Report yield as at 31 Dec 2025 was 4.31% (at closing price RM2.73)
 
 ---
 
@@ -45,8 +45,9 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 | **Fiscal Year End** | December 31 [I:34] |
 | **Listed Since** | September 21, 2012 [I:5] |
 | **Shariah Status** | Non-Shariah compliant [I:35] |
-| **Total Units Outstanding (Dec 2024)** | 3,615,387,000 [I:36] |
+| **Total Units Outstanding (Dec 2025)** | 4,323,119,000 (4.323 billion) [I:36] |
 | **NAV per Unit (Dec 2024)** | RM1.1770 [I:37] |
+| **NAV per Unit (Dec 2025)** | RM1.4499 (after income distribution) |
 
 ### 1.2 REIT Manager Deep Dive: IGB REIT Management Sdn Bhd
 
@@ -118,7 +119,7 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 |--------|-------|
 | **Total Properties** | 3 malls [I:11] |
 | **Total Asset Value** | RM8.38 billion [I:9] |
-| **Net Lettable Area** | ~4.17 million sq ft [I:10] |
+| **Net Lettable Area** | 4,185,035 sq ft (~4.19 million sq ft) [I:10] |
 | **Property Type** | Prime regional shopping malls [I:78] |
 | **Geographic Coverage** | Kuala Lumpur (2) + Johor Bahru (1) [I:79] |
 | **Pre-Acquisition Assets (Dec 2024)** | RM5.74 billion [I:80] |
@@ -128,10 +129,10 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 
 | Property Name | Location | Valuation | NLA (sq ft) | Occupancy | Key Characteristics |
 |---------------|----------|-----------|-------------|-----------|---------------------|
-| **Mid Valley Megamall (MVM)** [I:81] | Mid Valley City, KL [I:82] | RM4.08 billion [I:83] | 1,798,148 [I:84] | ~99% [I:85] | Flagship asset, 430+ retailers [I:86] |
-| **The Gardens Mall (TGM)** [I:87] | Mid Valley City, KL [I:88] | RM1.50 billion [I:89] | 839,118 [I:90] | ~99% [I:91] | Luxury positioning, 200+ outlets [I:92] |
-| **Mid Valley Southkey (MVS)** [I:93] | Johor Bahru [I:94] | RM2.80 billion [I:95] | 1.53 million [I:96] | ~99% [I:97] | Acquired Nov 2025 [I:98] |
-| **Total Portfolio** | - | **RM8.38 billion** [I:9] | **~4.17 million** [I:10] | **~99%** [I:12] | **3 premier malls** [I:11] |
+| **Mid Valley Megamall (MVM)** [I:81] | Mid Valley City, KL [I:82] | RM4.08 billion [I:83] | 1,798,148 [I:84] | 99.8% [I:85] | Flagship asset, 430+ retailers [I:86] |
+| **The Gardens Mall (TGM)** [I:87] | Mid Valley City, KL [I:88] | RM1.50 billion [I:89] | 839,118 [I:90] | 99.1% [I:91] | Luxury positioning, 200+ outlets [I:92] |
+| **Mid Valley Southkey (MVS)** [I:93] | Johor Bahru [I:94] | RM2.80 billion [I:95] | ~1,547,769 (~1.55m) [I:96] | 100% [I:97] | Acquired Nov 2025 [I:98] |
+| **Total Portfolio** | - | **RM8.38 billion** [I:9] | **4,185,035 sq ft (~4.19 million)** [I:10] | **MVM 99.8%, TGM 99.1%, MVS 100%** [I:12] | **3 premier malls** [I:11] |
 
 ### 1.5 Geographic Distribution
 | Region | Properties | Asset Value | % of Portfolio | Strategic Significance |
@@ -150,7 +151,7 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 | Q1 2025 | ~99% [I:109] | ~99% [I:110] | N/A | ~99% [I:111] |
 | Q2 2025 | ~99% [I:112] | ~99% [I:113] | N/A | ~99% [I:114] |
 | Q3 2025 | ~99% [I:115] | ~99% [I:116] | N/A | ~99% [I:117] |
-| Q4 2025 | ~99% [I:118] | ~99% [I:119] | ~99% [I:120] | ~99% [I:12] |
+| Q4 2025 | 99.8% [I:118] | 99.1% [I:119] | 100% [I:120] | ~99.7% (avg) [I:12] |
 
 **Assessment:** Near-perfect occupancy rates across all three properties demonstrate exceptional asset quality and tenant demand for prime retail space in strategic locations. [I:121]
 
@@ -161,7 +162,7 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 |--------|-------|
 | **Valuation** | RM4.08 billion [I:83] |
 | **NLA** | 1,798,148 sq ft [I:84] |
-| **Occupancy** | ~99% [I:85] |
+| **Occupancy** | 99.8% [I:85] |
 | **Retailers** | 430+ [I:86] |
 | **Positioning** | Mass market + family [I:122] |
 | **Anchor Tenants** | AEON, GSC Cinemas, Metrojaya [I:123] |
@@ -181,7 +182,7 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 |--------|-------|
 | **Valuation** | RM1.50 billion [I:89] |
 | **NLA** | 839,118 sq ft [I:90] |
-| **Occupancy** | ~99% [I:91] |
+| **Occupancy** | 99.1% [I:91] |
 | **Retailers** | 200+ outlets [I:92] |
 | **Positioning** | Premium/luxury [I:133] |
 | **Anchor Tenants** | Isetan, Jaya Grocer [I:134] |
@@ -199,9 +200,9 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 | **Acquisition Date** | November 2025 [I:98] |
 | **Acquisition Price** | RM2.65 billion [I:141] |
 | **Current Valuation** | RM2.80 billion [I:95] |
-| **NLA** | 1.53 million sq ft [I:96] |
+| **NLA** | ~1,547,769 sq ft (~1.55m sq ft) [I:96] |
 | **Location** | Johor Bahru [I:94] |
-| **Occupancy** | ~99% [I:97] |
+| **Occupancy** | 100% [I:97] |
 | **Strategic Value** | Singapore corridor exposure [I:105] |
 | **Valuation Uplift** | +5.7% post-acquisition [I:142] |
 
@@ -254,50 +255,57 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 ### 3.1 Debt Profile Summary
 | Metric | Dec 2024 | Dec 2025 | Change |
 |--------|----------|----------|--------|
-| **Gearing Ratio** | ~21.0% [I:17] | ~26.5% [I:16] | +5.5pp [I:171] |
-| **Total Borrowings** | RM1.21 billion [I:172] | ~RM2.2 billion [I:173] | +~RM1.0B [I:174] |
+| **Gearing Ratio (borrowings-to-total-assets)** | 21.2% [I:17] | 25.7% [I:16] | +4.5pp [I:171] |
+| **Total Borrowings** | RM1.2148 billion [I:172] | RM2,247.5m (~RM2.25 billion) [I:173] | +~RM1.033B [I:174] |
 | **Interest Coverage** | ~9.0x [I:175] | ~9.0x [I:18] | Stable [I:176] |
-| **Debt Structure** | Fixed rate [I:177] | Fixed rate [I:178] | Conservative |
+| **Debt Structure** | Fixed rate [I:177] | Substantially fixed rate (MVS MTN Series 1 floating-KLIBOR; Series 2–4 fixed) [I:178] | Conservative |
 
 **Debt Assessment:** 🟢 Low Risk Despite Moderate Gearing Increase [I:179]
 
 ### 3.2 Southkey Acquisition Financing
 | Financing Component | Amount | Terms |
 |---------------------|--------|-------|
-| **Debt Financing (MTN)** | RM1.0 billion [I:180] | 3.79% p.a. fixed [I:181] |
+| **Debt Financing (MVS MTN)** | RM1.030 billion [I:180] | Series 1–4: RM200m+RM200m+RM200m+RM430m; Series 1 floating (KLIBOR); Series 2–4 fixed; blended ~3.80% p.a. [I:181] |
 | **Equity Financing (New Units)** | RM1.65 billion [I:182] | 699.15 million units at RM2.36/unit [I:183] |
 | **Total Acquisition Price** | RM2.65 billion [I:141] | - |
-| **Interest Rate** | 3.79% fixed [I:181] | Protected from rate hikes [I:184] |
+| **Blended Interest Rate** | ~3.80% p.a. [I:181] | Substantially fixed; Series 1 has KLIBOR floating exposure [I:184] |
 | **Tenor** | Long-term [I:185] | Aligned with asset life |
 | **Purpose** | Southkey acquisition [I:186] | Accretive expansion |
 
 **Financing Strategy Assessment:** [I:187]
-- The 3.79% fixed-rate MTN funding [I:181] represents highly favorable terms
+- The MVS MTN (Series 1–4) with blended coupon of ~3.80% p.a. [I:181] represents favorable financing terms
+- Note: MVS MTN Series 1 (RM200m) is floating-rate based on KLIBOR; Series 2–4 (RM830m combined) are fixed-rate. The description of "100% fixed-rate debt" is inaccurate.
 - Equity component (699.15M units at RM2.36) [I:183] minimizes leverage increase
 - Combined funding maintains conservative capital structure
 
 ### 3.3 Key Debt Metrics vs Regulatory Limits
 | Metric | IGB REIT | Regulatory Limit | Headroom |
 |--------|----------|-----------------|----------|
-| **Gearing Ratio** | ~26.5% [I:16] | 50% [I:188] | ~23.5pp [I:189] |
+| **Gearing Ratio** | 25.7% [I:16] | 50% [I:188] | ~24.3pp [I:189] |
 | **Interest Coverage** | ~9.0x [I:18] | 2.0x minimum [I:190] | Excellent [I:191] |
 | **Unencumbered Assets** | Limited [I:192] | N/A | 🔴 Low flexibility |
 
 ### 3.4 Debt Maturity Profile
-| Due Period | Amount (RM million) | % of Total | Risk Level |
-|------------|---------------------|------------|------------|
-| **2026** | ~100 [I:193] | ~4.5% [I:194] | 🟢 Minimal |
-| **2027-2028** | ~800 [I:195] | ~36.4% [I:196] | 🟡 Moderate |
-| **2029-2030** | ~1,300 [I:197] | ~59.1% [I:198] | 🟢 Long-term |
-| **Total** | **~2,200** [I:173] | **100%** | - |
+*Based on Annual Report contractual undiscounted maturity schedule (includes principal and interest payable):*
+
+| Maturity Bucket | Amount (RM million) | % of Total (undiscounted) | Risk Level |
+|-----------------|---------------------|--------------------------|------------|
+| **< 1 year** | 92.893 [I:193] | ~3.5% [I:194] | 🟢 Minimal |
+| **1–2 years** | 1,293.0 [I:195] | ~49.1% [I:196] | 🟡 Elevated — largest single bucket |
+| **2–3 years** | 38.905 [I:197] | ~1.5% [I:198] | 🟢 Minimal |
+| **> 3 years** | 1,207.0 [I:193] | ~45.9% | 🟢 Long-term |
+| **Total (undiscounted, incl. interest)** | **~2,632** | **100%** | - |
+| **Total principal borrowings only** | **2,247.5 (RM2,247,524m)** [I:173] | - | - |
+
+**Note:** The undiscounted total of RM2,632m includes interest payable over the life of the borrowings. Actual principal outstanding is RM2,247.5m. The 1–2 year bucket concentration reflects the IGBRC MTN structure and should be monitored for refinancing risk.
 
 ### 3.5 Debt Risk Assessment
 | Risk Factor | Status | Impact | Mitigation |
 |-------------|--------|--------|------------|
 | **Gearing Increase** | 🟢 Manageable | Moderate leverage risk [I:199] | Strong cash flows cover interest [I:200] |
-| **Interest Rate Risk** | 🟢 Protected | 100% fixed rate [I:178] | Rate hikes won't impact cost [I:201] |
-| **Refinancing Risk** | 🟢 Low | Staggered maturities [I:202] | Long tenor provides stability [I:203] |
-| **Debt Maturity** | 🟢 Manageable | No near-term maturities [I:204] | Cash flow covers obligations [I:205] |
+| **Interest Rate Risk** | 🟡 Low-Moderate | Substantially fixed rate; MVS MTN Series 1 floating (KLIBOR) [I:178] | Rate sensitivity is reduced but not eliminated [I:201] |
+| **Refinancing Risk** | 🟡 Watch | 1–2 year bucket: RM1,293m [I:202] | Long-term maturities offset; monitor refinancing pipeline [I:203] |
+| **Debt Maturity** | 🟢 Manageable | Staggered overall [I:204] | Cash flow covers obligations [I:205] |
 
 ### 3.6 Interest Coverage Analysis
 | Period | Interest Cover | Assessment |
@@ -308,14 +316,16 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 
 **Coverage Assessment:** 🟢 Interest coverage of ~9.0x provides substantial cushion above the 2.0x regulatory minimum [I:190], indicating strong ability to service debt obligations even if earnings decline. [I:210]
 
+**Note on coverage methodology:** The report states ~9.0x interest coverage. The Annual Report discloses MTN covenant thresholds including ISCR requirements. Readers should verify the precise calculation basis (ISCR, income-to-interest-expense, or another metric) against the Annual Report before relying on this figure.
+
 ### 3.7 Debt Strategy Assessment
 | Aspect | Assessment |
 |--------|------------|
-| **Fixed Rate Strategy** | 🟢 Prudent - protects against rising rates [I:211] |
-| **Gearing Level** | 🟢 Conservative - 26.5% well below 50% limit [I:212] |
+| **Fixed Rate Strategy** | 🟡 Substantially prudent — MVS MTN Series 2–4 fixed; Series 1 floating (KLIBOR) [I:211] |
+| **Gearing Level** | 🟢 Conservative - 25.7% well below 50% limit [I:212] |
 | **Acquisition Timing** | 🟢 Strategic - opportunistic expansion [I:213] |
 | **Debt Serviceability** | 🟢 Excellent coverage ratio [I:214] |
-| **Cost of Debt** | 🟢 Very competitive at 3.79% [I:181] |
+| **Cost of Debt** | 🟢 Competitive blended ~3.80% p.a. [I:181] |
 
 ---
 
@@ -328,7 +338,7 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 | 2022 | 9.94 [I:217] | +25.0% [I:218] | Strong rebound [I:219] |
 | 2023 | 10.27 [I:220] | +3.3% [I:221] | Steady growth [I:222] |
 | 2024 | 10.70 [I:13] | +4.2% [I:223] | Modest growth [I:224] |
-| 2025 | 11.75 [I:14] | +9.8% [I:15] | Southkey accretion [I:225] |
+| 2025 | 11.75 [I:14] | +9.81% [I:15] | Southkey accretion [I:225] |
 
 **5-Year CAGR:** ~10.3% [I:226] - Strong dividend growth trajectory
 
@@ -344,16 +354,17 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 ### 4.3 Dividend Sustainability Metrics
 | Metric | FY2024 | FY2025 | Trend |
 |--------|--------|--------|-------|
-| **DPU (sen)** | 10.70 [I:13] | 11.75 [I:14] | ↑9.8% [I:15] |
-| **Distribution Amount** | ~RM387M [I:241] | ~RM512M [I:242] | ↑32% [I:243] |
-| **Payout Ratio** | ~95% [I:244] | ~95% [I:245] | Stable [I:246] |
+| **DPU (sen)** | 10.70 [I:13] | 11.75 [I:14] | ↑9.81% [I:15] |
+| **Distributable Income** | ~RM407M | RM457.4M [I:242] | - |
+| **Income Distributed / to be Distributed** | ~RM387M [I:241] | RM446.6M [I:242] | ↑15.3% [I:243] |
+| **Payout Ratio** | ~95% [I:244] | ~97.6% (446.6/457.4) [I:245] | ↑ [I:246] |
 | **Dividend Yield** | ~6.0% [I:247] | ~4.12% [I:27] | Lower due to price appreciation [I:248] |
 
 ### 4.4 Distribution Coverage Analysis
 | Metric | Value | Assessment |
 |--------|-------|------------|
 | **NPI to DPU Coverage** | Strong [I:249] | NPI of RM533.6M [I:21] supports distributions [I:250] |
-| **Payout Ratio** | ~95% [I:245] | Within REIT norm (90-100%) [I:251] |
+| **Payout Ratio** | ~97.6% [I:245] | Within REIT norm (90-100%) [I:251] |
 | **Retained Earnings** | Minimal [I:252] | Most earnings distributed [I:253] |
 | **Working Capital** | Managed [I:254] | Stable cash generation [I:255] |
 
@@ -362,7 +373,7 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 |-------------|--------------|------------|
 | **2026 Lease Renewals** | 🔴 High | 40.5% MVM NLA expiry could pressure income [I:256] |
 | **Economic Downturn** | 🟡 Medium | Retail discretionary spend vulnerable [I:257] |
-| **Interest Rate Impact** | 🟢 Low | Fixed rate debt shields DPU [I:258] |
+| **Interest Rate Impact** | 🟡 Low-Moderate | Substantially fixed-rate debt reduces DPU rate sensitivity; MVS MTN Series 1 floating [I:258] |
 | **Southkey Integration** | 🟢 Low | Accretive from day one [I:259] |
 | **Tenant Concentration** | 🟡 Medium | Key anchor tenants critical [I:260] |
 | **Units Dilution** | 🟡 Medium | 699.15M new units issued [I:261] | Partially offset by acquisition |
@@ -371,7 +382,7 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 | Category | Rating | Rationale |
 |----------|--------|-----------|
 | **Historical Track Record** | 🟢 Strong | 5-year growth, no cuts [I:262] |
-| **Current Coverage** | 🟢 Good | ~95% payout, sustainable [I:263] |
+| **Current Coverage** | 🟢 Good | ~97.6% payout of distributable income, sustainable [I:263] |
 | **Forward Outlook** | 🟡 Cautious | 2026 lease expiry headwind [I:264] |
 | **Yield Attractiveness** | 🟢 Fair | ~4.12% at current price [I:27] |
 | **Growth Potential** | 🟢 Positive | Southkey full-year contribution 2026 [I:265] |
@@ -399,16 +410,16 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 | **Net Profit (RM million)** | 501.8 [I:279] | 580.0 [I:283] | 660.5 [I:23] | 14.7% [I:287] |
 | **DPU (sen)** | 10.27 [I:220] | 10.70 [I:13] | 11.75 [I:14] | 6.9% [I:288] |
 | **NPI Margin** | 72.5% [I:278] | 72.8% [I:282] | 75.7% [I:284] | +3.2pp [I:289] |
-| **Gearing Ratio** | ~18% [I:290] | ~21.0% [I:17] | ~26.5% [I:16] | +8.5pp [I:291] |
+| **Gearing Ratio** | ~18% [I:290] | 21.2% [I:17] | 25.7% [I:16] | +~7.7pp [I:291] |
 
 ### 5.3 Revenue & NPI Growth Analysis
 | Metric | FY2024 | FY2025 | YoY Change |
 |--------|--------|--------|------------|
-| **Gross Revenue** | RM626.1M [I:280] | RM705.1M [I:19] | +12.6% [I:20] |
-| **Net Property Income** | RM455.7M [I:281] | RM533.6M [I:21] | +17.1% [I:22] |
+| **Gross Revenue** | RM626.1M [I:280] | RM705.1M [I:19] | +12.61% [I:20] |
+| **Net Property Income** | RM455.7M [I:281] | RM533.6M [I:21] | +17.09% [I:22] |
 | **NPI Margin** | 72.8% [I:282] | 75.7% [I:284] | +2.9pp [I:292] |
 | **Operating Expenses** | RM170.4M [I:293] | RM171.5M [I:294] | +0.6% [I:295] |
-| **Net Profit** | RM580.0M [I:283] | RM660.5M [I:23] | +13.9% [I:24] |
+| **Net Profit** | RM580.0M [I:283] | RM660.5M [I:23] | +13.92% [I:24] |
 
 ### 5.4 Operating Efficiency Metrics
 | Metric | FY2024 | FY2025 | Trend |
@@ -432,9 +443,9 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 ### 5.6 Profitability Analysis
 | Metric | FY2025 Value | Assessment |
 |--------|--------------|------------|
-| **Revenue Growth** | +12.6% [I:20] | Strong [I:320] |
-| **NPI Growth** | +17.1% [I:22] | Excellent [I:321] |
-| **Net Profit Growth** | +13.9% [I:24] | Strong [I:322] |
+| **Revenue Growth** | +12.61% [I:20] | Strong [I:320] |
+| **NPI Growth** | +17.09% [I:22] | Excellent [I:321] |
+| **Net Profit Growth** | +13.92% [I:24] | Strong [I:322] |
 | **Margin Expansion** | +2.9pp [I:292] | Operating leverage [I:323] |
 | **Per-Unit Metrics** | Growing [I:324] | Accretive acquisition [I:325] |
 
@@ -443,10 +454,10 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 |--------|-------|------------------|
 | **Total Assets** | RM8.38 billion [I:9] | +RM2.64B [I:326] |
 | **Investment Properties** | RM8.38 billion [I:9] | +RM2.64B [I:327] |
-| **Total Borrowings** | ~RM2.2 billion [I:173] | +~RM1.0B [I:328] |
+| **Total Borrowings** | ~RM2.25 billion (RM2,247.5m) [I:173] | +~RM1.033B [I:328] |
 | **Net Assets** | ~RM5.8 billion [I:329] | +RM0.9B [I:330] |
-| **NAV per Unit** | ~RM1.44 [I:331] | Diluted by new units [I:332] |
-| **Units Outstanding** | ~4.31 billion [I:333] | +699.15M [I:261] |
+| **NAV per Unit** | RM1.4499 (after income distribution) [I:331] | FY2024: RM1.1770 [I:332] |
+| **Units Outstanding** | 4.323 billion (4,323,119,000) [I:333] | +699.15M [I:261] |
 
 ---
 
@@ -460,14 +471,14 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 | **Purchase Price** | RM2.65 billion [I:141] |
 | **Completion Date** | November 2025 [I:98] |
 | **NLA** | 1.53 million sq ft [I:96] |
-| **Occupancy at Acquisition** | ~99% [I:97] |
+| **Occupancy at Acquisition / Current** | 100% [I:97] |
 | **Current Valuation** | RM2.80 billion [I:95] |
 | **Valuation Uplift** | +5.7% [I:142] |
 
 #### Acquisition Funding Structure
 | Component | Amount | Details |
 |-----------|--------|---------|
-| **Debt Financing** | RM1.0 billion [I:180] | Islamic MTN at 3.79% p.a. fixed [I:181] |
+| **Debt Financing (MVS MTN)** | RM1.030 billion [I:180] | Series 1–4 (RM200m+RM200m+RM200m+RM430m); Series 1 floating (KLIBOR); Series 2–4 fixed; blended ~3.80% p.a. [I:181] |
 | **Equity Financing** | RM1.65 billion [I:182] | 699.15 million new units issued [I:183] |
 | **Issue Price** | RM2.36/unit [I:334] | At premium to NAV [I:335] |
 | **Total Funding** | RM2.65 billion [I:141] | - |
@@ -495,9 +506,9 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 |--------|---------------------------|-----------------------------|--------|
 | **Properties** | 2 malls [I:346] | 3 malls [I:11] | +1 property |
 | **Total Asset Value** | RM5.74 billion [I:80] | RM8.38 billion [I:9] | +46.0% [I:347] |
-| **Total NLA** | 2.64 million sq ft [I:348] | 4.17 million sq ft [I:10] | +58.0% [I:349] |
+| **Total NLA** | 2.64 million sq ft [I:348] | 4,185,035 sq ft (~4.19 million) [I:10] | +~58.5% [I:349] |
 | **Geographic Presence** | Klang Valley only [I:350] | KL + Johor [I:79] | Diversified |
-| **Revenue Run-rate** | ~RM626M [I:280] | ~RM705M [I:19] | +12.6% [I:20] |
+| **Revenue Run-rate** | ~RM626M [I:280] | ~RM705M [I:19] | +12.61% [I:20] |
 
 ---
 
@@ -506,10 +517,10 @@ IGB Real Estate Investment Trust (IGB REIT) [I:6] is Malaysia's premier retail-f
 ### 7.1 Portfolio Occupancy Summary
 | Property Category | Occupancy Rate | WALE (Years) | Assessment |
 |-------------------|----------------|--------------|------------|
-| **Mid Valley Megamall** | ~99% [I:85] | ~2.8 [I:351] | 🟢 Excellent |
-| **The Gardens Mall** | ~99% [I:91] | ~3.5 [I:352] | 🟢 Excellent |
-| **Mid Valley Southkey** | ~99% [I:97] | ~3.2 [I:353] | 🟢 Excellent |
-| **Portfolio Average** | **~99%** [I:12] | **~3.0** [I:152] | 🟢 Best-in-class |
+| **Mid Valley Megamall** | 99.8% [I:85] | ~2.8 [I:351] | 🟢 Excellent |
+| **The Gardens Mall** | 99.1% [I:91] | ~3.5 [I:352] | 🟢 Excellent |
+| **Mid Valley Southkey** | 100% [I:97] | ~3.2 [I:353] | 🟢 Excellent |
+| **Portfolio Average** | **~99.7%** [I:12] | **~3.0** [I:152] | 🟢 Best-in-class |
 
 ### 7.2 WALE (Weighted Average Lease Expiry) Analysis
 | Metric | Value | Assessment |
@@ -592,25 +603,25 @@ IGB REIT has progressively integrated Environmental, Social, and Governance (ESG
 ### 8.3 Energy Efficiency & Carbon Reduction
 | Initiative | Description | Impact |
 |------------|-------------|--------|
-| **LED Lighting Retrofit** | 100% LED conversion across all malls [I:414] | ~20% lighting energy reduction [I:415] |
-| **Smart HVAC Systems** | AI-controlled cooling optimization [I:416] | ~15% HVAC energy savings [I:417] |
+| **LED Lighting Retrofit** | LED conversion across malls [I:414] | ~20% lighting energy reduction (unverified — check Annual Report sustainability section) [I:415] |
+| **Smart HVAC Systems** | Cooling optimization program [I:416] | ~15% HVAC energy savings (unverified — check Annual Report) [I:417] |
 | **Energy Management System** | Real-time monitoring platform [I:418] | Enhanced operational visibility [I:419] |
-| **Carbon Footprint Reduction** | Scope 1 & 2 emissions tracking [I:420] | ~12% reduction vs 2020 baseline [I:421] |
-| **Renewable Energy** | Solar PV feasibility studies [I:422] | Target 5% renewable by 2028 [I:423] |
+| **Carbon Footprint Reduction** | Scope 1 & 2 emissions tracking [I:420] | ~12% reduction vs 2020 baseline (unverified — check Annual Report sustainability section) [I:421] |
+| **Renewable Energy** | Solar PV feasibility studies [I:422] | Target 5% renewable by 2028 (unverified — check Annual Report) [I:423] |
 
 ### 8.4 Water & Waste Management
 | Initiative | Description | Impact |
 |------------|-------------|--------|
 | **Water Conservation** | Low-flow fixtures, leak detection [I:424] | ~15% water reduction [I:425] |
 | **Rainwater Harvesting** | Collection for landscape irrigation [I:426] | ~5% water offset [I:427] |
-| **Waste Segregation** | Comprehensive recycling programs [I:428] | ~35% waste diversion from landfill [I:429] |
+| **Waste Segregation** | Comprehensive recycling programs [I:428] | ~35% waste diversion from landfill (unverified — check Annual Report) [I:429] |
 | **Food Waste Composting** | Partnership with vendors [I:430] | ~25% F&B waste processed [I:431] |
 
 ### 8.5 Social Initiatives
 | Initiative | Description | Community Impact |
 |------------|-------------|------------------|
 | **MV Club Membership** | 500,000+ members [I:432] | Enhanced customer engagement |
-| **Community Programs** | Local charity partnerships [I:433] | ~RM2M annual contributions [I:434] |
+| **Community Programs** | Local charity partnerships [I:433] | ~RM2M annual contributions (unverified — check Annual Report) [I:434] |
 | **Accessibility** | OKU-friendly facilities [I:435] | Universal design compliance |
 | **Tenant Support** | SME retailer programs [I:436] | Business growth support |
 | **Safety Standards** | 24/7 security, CCTV [I:437] | Safe shopping environment |
@@ -638,8 +649,8 @@ IGB REIT has progressively integrated Environmental, Social, and Governance (ESG
 |-------|------|--------------|
 | **GreenRE Gold Certification** | 2021-2023 [I:452] | GreenRE |
 | **GBI Certified Building** | 2023 [I:453] | Green Building Index Malaysia |
-| **Bursa Malaysia ESG Disclosure Award** | 2024 [I:454] | Bursa Malaysia |
-| **REIT Association ESG Award** | 2023 [I:455] | REIT Association Malaysia |
+| **Bursa Malaysia ESG Disclosure Award** | 2024 [I:454] | Bursa Malaysia (unverified — check Annual Report or Bursa records) |
+| **REIT Association ESG Award** | 2023 [I:455] | REIT Association Malaysia (unverified — check Annual Report) |
 
 ---
 
@@ -651,7 +662,7 @@ IGB REIT has progressively integrated Environmental, Social, and Governance (ESG
 | **Business & Market** | Retail market sensitivity | 🟡 Medium | 🟡 Medium | 🟡 Medium [I:456] | Diversified portfolio, prime assets |
 | **Tenant** | Lease renewal concentration | 🔴 High | 🟡 Medium | 🔴 High [I:457] | Long-term anchor leases, active management |
 | **Operating** | Cost inflation | 🟡 Medium | 🟡 Medium | 🟡 Medium [I:458] | Operational efficiency programs |
-| **Financial** | Interest rate exposure | 🟢 Low | 🟢 Low | 🟢 Low [I:459] | 100% fixed-rate debt [I:460] |
+| **Financial** | Interest rate exposure | 🟡 Low-Mod | 🟢 Low | 🟡 Low-Mod [I:459] | Substantially fixed-rate; MVS MTN Series 1 floating (KLIBOR) [I:460] |
 | **Geographic** | Klang Valley concentration | 🟡 Medium | 🟢 Low | 🟡 Medium [I:461] | MVS Johor diversification [I:462] |
 | **Acquisition** | Integration risk | 🟡 Medium | 🟢 Low | 🟡 Medium [I:463] | Proven management track record |
 | **Governance** | Related party transactions | 🟡 Medium | 🟢 Low | 🟡 Medium [I:464] | Independent oversight [I:465] |
@@ -682,13 +693,13 @@ IGB REIT has progressively integrated Environmental, Social, and Governance (ESG
 | **Mitigation Measures** | Energy efficiency investments [I:477]; smart building technology [I:478]; operational scale benefits [I:479] |
 | **Current Status** | NPI margin improved to 75.7% [I:284] despite cost pressures |
 
-#### 🟢 LOW: Interest Rate Exposure
+#### 🟡 LOW-MODERATE: Interest Rate Exposure
 | Aspect | Details |
 |--------|---------|
-| **Risk Description** | Higher interest rates increase finance costs [I:480] |
-| **Current Protection** | 100% fixed-rate debt at 3.79% [I:181]; no floating rate exposure [I:481] |
-| **Refinancing Risk** | Staggered maturities; strong interest coverage provides buffer [I:482] |
-| **Assessment** | Best-in-class interest rate protection among Malaysian REITs [I:483] |
+| **Risk Description** | Higher interest rates increase finance costs; floating-rate exposure in MVS MTN Series 1 [I:480] |
+| **Current Protection** | MVS MTN Series 2–4 are fixed-rate (RM830m combined); Series 1 (RM200m) is floating based on KLIBOR; blended coupon ~3.80% p.a. [I:181]; IGBRC MTN (existing pre-acquisition debt) also largely fixed [I:481] |
+| **Refinancing Risk** | Staggered maturities; strong interest coverage provides buffer; 1–2 year bucket of RM1,293m should be monitored [I:482] |
+| **Assessment** | Strong interest-rate protection, but rate sensitivity is reduced — not eliminated — due to MVS MTN Series 1 floating exposure [I:483] |
 
 #### 🟡 MEDIUM: Geographic Concentration
 | Aspect | Details |
@@ -704,7 +715,7 @@ IGB REIT has progressively integrated Environmental, Social, and Governance (ESG
 | Lease Concentration | Early renewal focus, tenant retention programs [I:486] | 🟡 Partial - 2026 will be key test |
 | Market Sensitivity | Prime asset positioning, diverse tenant base [I:487] | 🟢 Strong |
 | Cost Inflation | Energy efficiency, operational scale [I:488] | 🟢 Good |
-| Interest Rate Risk | 100% fixed-rate debt structure [I:489] | 🟢 Excellent |
+| Interest Rate Risk | Substantially fixed-rate debt; MVS MTN Series 1 is KLIBOR floating; blended ~3.80% [I:489] | 🟢 Strong |
 | Geographic Risk | MVS diversification, Singapore corridor [I:490] | 🟢 Improving |
 | Governance Risk | Independent oversight, RRPT framework [I:491] | 🟡 Adequate |
 
@@ -742,7 +753,7 @@ IGB REIT has progressively integrated Environmental, Social, and Governance (ESG
 | Factor | Status | REIT Impact |
 |--------|--------|-------------|
 | **OPR (Overnight Policy Rate)** | 3.00% [I:520] | Stable [I:521] |
-| **Fixed vs Floating Debt** | 100% fixed [I:178] | 🟢 Protected [I:522] |
+| **Fixed vs Floating Debt** | Substantially fixed; MVS MTN Series 1 floating (KLIBOR) [I:178] | 🟡 Largely Protected [I:522] |
 | **Cap Rate Pressure** | Minimal [I:523] | Prime assets stable [I:524] |
 | **Investor Yield Demand** | Moderate [I:525] | 4.12% yield vs alternatives [I:27] |
 
@@ -750,22 +761,24 @@ IGB REIT has progressively integrated Environmental, Social, and Governance (ESG
 
 ## 11. Malaysian Peer Comparison
 
-### 11.1 Retail-Focused REIT Comparison (4-Way: IGB vs Pavilion vs Atrium vs Axis)
+### 11.1 Mixed-Sector REIT Comparison (4-Way: IGB vs Pavilion vs Atrium vs Axis)
+
+**Note:** This is a mixed-sector comparison. IGB REIT and Pavilion REIT are retail-focused REITs; Atrium REIT and Axis REIT are industrial REITs. They are included for yield, debt, and gearing benchmarking purposes only — direct peer comparison on asset quality or tenant risk metrics is not appropriate across different property types. Market caps, yields, and DPU figures are time-sensitive and should be independently verified before use.
 | Metric | IGB REIT | Pavilion REIT | Atrium REIT | Axis REIT |
 |--------|----------|---------------|-------------|-----------|
 | **Stock Code** | 5227.KL [I:1] | 5212.KL [I:526] | 5130.KL [I:527] | 5106.KL [I:528] |
 | **Sector** | Retail [I:33] | Retail/Hospitality [I:529] | Industrial [I:530] | Industrial [I:531] |
-| **Market Cap** | ~RM12.3B [I:25] | ~RM7.15B [I:532] | ~RM340M [I:533] | ~RM4.15B [I:534] |
+| **Market Cap** | RM11.80B (31 Dec 2025); ~RM12.3B current [I:25] | ~RM7.15B [I:532] | ~RM340M [I:533] | ~RM4.15B [I:534] |
 | **Properties** | 3 malls [I:11] | 8 properties [I:535] | 9 properties [I:536] | 69 properties [I:537] |
 | **Total Assets** | RM8.38B [I:9] | RM7.15B [I:532] | RM723M [I:538] | RM5.36B [I:539] |
 | **2025 Revenue** | RM705.1M [I:19] | RM901.5M [I:540] | RM51.1M [I:541] | RM364.2M [I:542] |
 | **2025 DPU** | 11.75 sen [I:14] | 10.00 sen [I:543] | 9.30 sen [I:544] | 10.55 sen [I:545] |
 | **DPU Growth** | +9.8% [I:15] | +4.2% [I:546] | +22.4% [I:547] | +13.8% [I:548] |
 | **Dividend Yield** | ~4.12% [I:27] | ~5.49% [I:549] | ~7.27% [I:550] | ~5.15% [I:551] |
-| **Gearing Ratio** | ~26.5% [I:16] | ~36-39% [I:552] | ~43.5% [I:553] | ~33% [I:554] |
+| **Gearing Ratio** | 25.7% [I:16] | ~36-39% [I:552] | ~43.5% [I:553] | ~33% [I:554] |
 | **Interest Coverage** | ~9.0x [I:18] | ~1.91x [I:555] | ~2.09x [I:556] | ~3.8-4.0x [I:557] |
-| **Fixed Rate Debt** | 100% [I:178] | ~12% [I:558] | ~7% [I:559] | 65% [I:560] |
-| **Occupancy** | ~99% [I:12] | 97% [I:561] | 100% [I:562] | 94% [I:563] |
+| **Fixed Rate Debt** | Substantially fixed* (Series 1 floating KLIBOR) [I:178] | ~12% [I:558] | ~7% [I:559] | 65% [I:560] |
+| **Occupancy** | ~99.7% avg (MVM 99.8%, TGM 99.1%, MVS 100%) [I:12] | 97% [I:561] | 100% [I:562] | 94% [I:563] |
 | **P/B Ratio** | ~1.97x [I:564] | ~1.35x [I:565] | ~0.92x [I:566] | ~1.21x [I:567] |
 | **WALE** | ~3.0 years [I:152] | ~3.2 years [I:568] | N/A [I:569] | ~4.4 years [I:570] |
 
@@ -777,17 +790,17 @@ IGB REIT has progressively integrated Environmental, Social, and Governance (ESG
 | **Growth** | Acquisitive [I:579] | Stable [I:580] | High growth [I:581] | Steady [I:582] |
 | **Yield** | Lower (price appreciation) [I:583] | Moderate [I:584] | Highest [I:585] | Moderate [I:586] |
 | **Geography** | KL + JB [I:79] | KL focused [I:587] | KL + Penang [I:588] | 6 states [I:589] |
-| **Interest Rate Risk** | 🟢 Lowest [I:590] | 🔴 Highest [I:591] | 🔴 High [I:592] | 🟢 Protected [I:593] |
+| **Interest Rate Risk** | 🟡 Low (substantially fixed; Series 1 floating) [I:590] | 🔴 Highest [I:591] | 🔴 High [I:592] | 🟢 Protected [I:593] |
 | **Debt Safety** | 🟢 Excellent [I:594] | 🟡 Adequate [I:595] | 🟡 Moderate [I:596] | 🟢 Good [I:597] |
 
 ### 11.3 4-Way Peer Verdict
 | Category | Winner | Key Insight |
 |----------|--------|-------------|
-| **Absolute Scale** | 🏆 IGB REIT | RM12.3B market cap [I:25], RM8.38B AUM [I:9] |
-| **Asset Quality (Retail)** | 🏆 Pavilion REIT | Premier luxury positioning |
-| **Current Yield** | 🏆 Atrium REIT | 7.27% [I:550] vs 4.12% (IGB) |
-| **Financial Safety** | 🏆 IGB REIT | 9.0x coverage [I:18], 100% fixed debt [I:178] |
-| **Interest Rate Protection** | 🏆 IGB REIT | 100% fixed [I:178] vs ~12% (Pavilion) |
+| **Absolute Scale** | 🏆 IGB REIT | RM11.80B year-end market cap [I:25], RM8.38B AUM [I:9] |
+| **Asset Quality (Retail)** | 🏆 Pavilion REIT | Premier luxury positioning (note: Atrium/Axis are industrial) |
+| **Current Yield** | 🏆 Atrium REIT | 7.27% [I:550] vs 4.12% (IGB); note different asset class |
+| **Financial Safety** | 🏆 IGB REIT | 9.0x coverage [I:18], substantially fixed-rate debt [I:178] |
+| **Interest Rate Protection** | 🏆 IGB REIT | Substantially fixed (Series 1 floating) [I:178] vs ~12% (Pavilion) |
 | **Diversification** | 🏆 Axis REIT | 69 properties across 6 states [I:537] |
 | **DPU Growth Momentum** | 🏆 Atrium REIT | +22.4% [I:547] vs +9.8% (IGB) |
 | **Valuation Premium** | 🏆 IGB REIT | 1.97x P/B [I:564] reflects quality |
@@ -796,8 +809,8 @@ IGB REIT has progressively integrated Environmental, Social, and Governance (ESG
 
 #### Choose IGB REIT (5227) If You:
 - ✅ Want exposure to **Malaysia's dominant retail REIT** with scale
-- ✅ Value **superior debt metrics** (9.0x coverage [I:18], 26.5% gearing [I:16])
-- ✅ Need **100% interest rate protection** via fixed-rate debt [I:178]
+- ✅ Value **superior debt metrics** (9.0x coverage [I:18], 25.7% gearing [I:16])
+- ✅ Need **strong interest rate protection** via substantially fixed-rate debt [I:178] (note: MVS MTN Series 1 is KLIBOR floating)
 - ✅ Believe in **Malaysia-Singapore corridor growth** via MVS [I:105]
 - ✅ Accept **premium valuation** (1.97x P/B [I:564]) for defensive qualities
 - ✅ Can tolerate **2026 lease renewal concentration risk** [I:457]
@@ -835,10 +848,10 @@ IGB REIT has progressively integrated Environmental, Social, and Governance (ESG
 | **Valuation** | 🟡 **FULL** | 1.97x P/B [I:564] prices in quality; limited margin of safety |
 
 ### 12.2 Key Investment Positives ✅
-1. **Dominant Scale:** Malaysia's largest retail REIT with RM12.3B market cap [I:25]
-2. **Premier Asset Quality:** 99% occupancy across three flagship malls [I:12]
-3. **Best-in-Class Debt Metrics:** 9.0x interest coverage [I:18], 26.5% conservative gearing [I:16]
-4. **Superior Interest Rate Protection:** 100% fixed-rate debt at 3.79% [I:181]
+1. **Dominant Scale:** Malaysia's largest retail REIT with RM11.80B year-end market cap (31 Dec 2025) [I:25]
+2. **Premier Asset Quality:** ~99.7% avg occupancy (MVM 99.8%, TGM 99.1%, MVS 100%) [I:12]
+3. **Comfortable Debt Metrics:** 9.0x interest coverage [I:18], 25.7% conservative gearing [I:16]
+4. **Strong Interest Rate Protection:** Substantially fixed-rate debt at blended ~3.80% p.a. [I:181]; MVS MTN Series 1 has KLIBOR floating exposure
 5. **DPU Growth Record:** 5-year CAGR of ~10.3% [I:226]
 6. **Geographic Diversification:** MVS adds Johor Bahru exposure, reducing KL concentration [I:462]
 7. **Singapore Corridor Play:** MVS benefits from JB-Singapore economic integration [I:105]
@@ -853,13 +866,16 @@ IGB REIT has progressively integrated Environmental, Social, and Governance (ESG
 6. **⚠️ Consumer Discretionary Risk:** Retail exposure vulnerable to economic downturns [I:470]
 
 ### 12.4 Analyst Target Prices (2026)
+
+**⚠️ Disclaimer:** The following analyst target prices are secondary-source / unverified estimates. They should be treated as approximate only and should be independently confirmed via the respective broker reports before use. This is not a verified consensus.
+
 | Broker | Target Price (RM) | Rating | Date |
 |--------|-------------------|--------|------|
 | **Kenanga Investment Bank** | RM2.52 [I:598] | Hold [I:599] | January 2026 [I:600] |
 | **Maybank Investment Bank** | RM2.56 [I:601] | Hold [I:602] | June 2025 [I:603] |
 | **Public Investment Bank** | RM2.60 [I:604] | Buy [I:605] | February 2026 [I:606] |
 | **CGS-CIMB** | RM2.48 [I:607] | Hold [I:608] | March 2026 [I:609] |
-| **Average Target** | **RM2.54** [I:610] | - | - |
+| **Unverified Average** | **RM2.54** [I:610] | - | - |
 | **Current Price** | **RM2.85** [I:26] | - | - |
 | **Upside/(Downside)** | **-10.9%** [I:611] | - | - |
 
@@ -896,14 +912,14 @@ IGB REIT has progressively integrated Environmental, Social, and Governance (ESG
 | **Growth-Oriented** | 🟡 Moderate | Moderate DPU growth, 2026 uncertainty |
 | **Yield-Seeking** | 🟡 Moderate | 4.12% yield lower than industrial peers [I:615] |
 | **ESG-Focused** | 🟢 Good | GreenRE/GBI certifications [I:393] |
-| **Risk-Averse** | 🟢 Good | Best-in-class interest rate protection |
+| **Risk-Averse** | 🟢 Good | Strong interest rate protection (substantially fixed-rate debt) |
 | **Institutional** | 🟢 Excellent | Large-cap liquidity, quality assets |
 | **Retail Trader** | 🟡 Moderate | 2026 overhang may limit near-term upside |
 
 ### 12.9 Investment Recommendation Rationale
 
 **HOLD Rationale:** [I:616]
-IGB REIT represents a high-quality defensive investment with best-in-class debt metrics and 100% interest rate protection. The portfolio of three premier malls generates stable cash flows with 99% occupancy. However, the stock trades at a premium valuation (1.97x P/B, RM2.85/share) that largely reflects these defensive qualities, while the elevated 2026 lease expiry concentration at MVM (~40.5% NLA) creates near-term uncertainty.
+IGB REIT represents a high-quality defensive investment with comfortable debt metrics and strong — but not total — interest rate protection. The portfolio of three premier malls generates stable cash flows with ~99.7% average occupancy (MVM 99.8%, TGM 99.1%, MVS 100%). Debt metrics remain conservative: FY2025 borrowings-to-total-assets ratio of 25.7% versus 21.2% in FY2024, with substantial fixed-rate protection; however, the debt profile is not 100% fixed-rate because MVS MTN Series 1 is floating-rate based on KLIBOR. The stock trades at a premium valuation (1.97x P/B, RM2.85/share) that largely reflects these defensive qualities, while the elevated 2026 lease expiry concentration at MVM (~40.5% NLA) creates near-term uncertainty. The 40.5% MVM renewal figure comes from analyst/sector estimates; readers should verify against the actual Annual Report lease expiry disclosure.
 
 **Key Decision Factors:** [I:617]
 - **Buy if:** You prioritize capital preservation and accept lower yield for defensive qualities; believe 2026 renewals will be executed successfully
@@ -999,7 +1015,7 @@ This analysis is prepared for **informational and educational purposes only** [I
 ### 14.2 Data Limitations
 - Financial data is compiled from publicly available sources as of December 31, 2025 [I:3]
 - Some metrics are derived/calculated from available data and should be verified against the official Annual Report [I:658]
-- **Exact fixed vs floating rate debt split** verified at 100% fixed for IGB REIT [I:178]
+- **Fixed vs floating rate debt:** MVS MTN Series 1 is floating-rate (KLIBOR); Series 2–4 are fixed-rate; the debt profile is substantially but not 100% fixed-rate. The 4.49% coupon cited elsewhere in some references relates to the older IGBRC MTN Tranche 2 (2022 issuance), not the MVS MTN. Do not conflate the two instruments [I:178]
 - **Top tenant percentages** are estimates based on available disclosures [I:659]
 - Market prices and yields change daily; verify current values before any transaction [I:660]
 - Southkey acquisition contribution estimates based on pro forma calculations [I:661]
@@ -1025,7 +1041,7 @@ All data sources cited belong to their respective owners [I:671]. Analysis conte
 *Data Coverage: FY 2025 (ended December 31, 2025)* [I:3]
 *Annual Report Reference: Published March 30, 2026* [I:4]
 
-**Citation Reference Count:** 672 references
+**Citation Reference Count:** 380 references (per igb-reit-references.json)
 **Citation Prefix:** [I:X] for IGB REIT
 
 ---

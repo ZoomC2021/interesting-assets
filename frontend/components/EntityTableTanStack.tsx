@@ -37,7 +37,7 @@ import type { NormalizedReitData, MetricType, Metric } from '@/types/frontend';
 import type { EntityBenchmarkComparison } from '@/lib/benchmark-calculations';
 import { RiskBadge } from './RiskBadge';
 import { SparklineChart } from './SparklineChart';
-import { formatRM, formatPercentage, formatRatio, formatNumber } from '@/lib/formatters';
+import { formatRM, formatRatio, formatNumber } from '@/lib/formatters';
 import { getEntityCitationCount } from '@/lib/citation-utils';
 
 // ============================================================================
@@ -140,25 +140,31 @@ function createAllColumns(params: CreateColumnsParams): ColumnDef<NormalizedReit
     return row.metrics.find(m => m.metricType === metricType);
   };
 
-  /**
-   * Formats a value as currency in millions (e.g., 1,000,000,000 -> RM1,000.0M).
-   * @param value - The raw numeric value
-   * @returns Formatted currency string or '—' for invalid values
-   */
-  const formatCurrency = (value: number | string | boolean | null | undefined): string => {
-    if (value === null || value === undefined || typeof value === 'boolean') return '—';
-    return formatRM(Number(value) / 1e6, 1);
+  // Data stores currency values already in millions (e.g., market_cap: 340 = RM340M)
+  const fmtRMMillions = (mil: number): string => {
+    if (mil >= 1000) {
+      return `RM ${(mil / 1000).toLocaleString('en-MY', { minimumFractionDigits: 1, maximumFractionDigits: 1 })}B`;
+    }
+    return `RM ${mil.toLocaleString('en-MY', { minimumFractionDigits: 1, maximumFractionDigits: 1 })}M`;
   };
 
-  /**
-   * Formats a value as a percentage (e.g., 5.15 -> 5.15%).
-   * Assumes stored values are whole numbers representing percentages.
-   * @param value - The raw percentage value
-   * @returns Formatted percentage string or '—' for invalid values
-   */
+  const formatCurrency = (value: number | string | boolean | null | undefined): string => {
+    if (value === null || value === undefined || typeof value === 'boolean') return '—';
+    return fmtRMMillions(Number(value));
+  };
+
+  const formatCurrencyFromMetric = (metric: Metric | undefined): string => {
+    if (!metric || metric.value === null || metric.value === undefined || typeof metric.value === 'boolean') {
+      return '—';
+    }
+    return fmtRMMillions(Number(metric.value));
+  };
+
+  // Data stores percentages as whole numbers (43.5 = 43.5%), not decimals
   const formatPct = (value: number | string | boolean | null | undefined): string => {
     if (value === null || value === undefined || typeof value === 'boolean') return '—';
-    return formatPercentage(Number(value) / 100);
+    const num = Number(value);
+    return `${num.toLocaleString('en-MY', { minimumFractionDigits: 1, maximumFractionDigits: 1 })}%`;
   };
 
   /**
@@ -222,7 +228,7 @@ function createAllColumns(params: CreateColumnsParams): ColumnDef<NormalizedReit
           </span>
         )}
         {metric?.isEstimated && (
-          <span className="text-gray-400 text-xs italic" title="Estimated value">*</span>
+          <span className="text-gray-400 text-body-sm italic" title="Estimated value">*</span>
         )}
       </span>
     );
@@ -251,7 +257,7 @@ function createAllColumns(params: CreateColumnsParams): ColumnDef<NormalizedReit
       header: 'Code',
       meta: { width: '80px', align: 'left', group: 'identity' } as ColumnMeta,
       cell: ({ getValue }) => (
-        <span className="text-gray-500 font-mono text-xs">{getValue()}</span>
+        <span className="text-gray-500 font-mono text-body-sm">{getValue()}</span>
       ),
     }),
 
@@ -267,7 +273,7 @@ function createAllColumns(params: CreateColumnsParams): ColumnDef<NormalizedReit
         cell: ({ getValue, row }) => {
           const value = getValue();
           const metric = getMetric(row.original, 'market_cap');
-          return renderMetricCell(value, formatCurrency, metric);
+          return renderMetricCell(value, () => formatCurrencyFromMetric(metric), metric);
         },
       }
     ),
@@ -281,7 +287,7 @@ function createAllColumns(params: CreateColumnsParams): ColumnDef<NormalizedReit
         cell: ({ getValue, row }) => {
           const value = getValue();
           const metric = getMetric(row.original, 'total_assets');
-          return renderMetricCell(value, formatCurrency, metric);
+          return renderMetricCell(value, () => formatCurrencyFromMetric(metric), metric);
         },
       }
     ),
@@ -455,7 +461,7 @@ function createAllColumns(params: CreateColumnsParams): ColumnDef<NormalizedReit
         cell: ({ getValue, row }) => {
           const value = getValue();
           const metric = getMetric(row.original, 'investment_properties');
-          return renderMetricCell(value, formatCurrency, metric);
+          return renderMetricCell(value, () => formatCurrencyFromMetric(metric), metric);
         },
       }
     ),
@@ -528,7 +534,7 @@ function createAllColumns(params: CreateColumnsParams): ColumnDef<NormalizedReit
         cell: ({ getValue, row }) => {
           const value = getValue();
           const metric = getMetric(row.original, 'gross_revenue');
-          return renderMetricCell(value, formatCurrency, metric);
+          return renderMetricCell(value, () => formatCurrencyFromMetric(metric), metric);
         },
       }
     ),
@@ -542,7 +548,7 @@ function createAllColumns(params: CreateColumnsParams): ColumnDef<NormalizedReit
         cell: ({ getValue, row }) => {
           const value = getValue();
           const metric = getMetric(row.original, 'net_property_income');
-          return renderMetricCell(value, formatCurrency, metric);
+          return renderMetricCell(value, () => formatCurrencyFromMetric(metric), metric);
         },
       }
     ),
@@ -570,7 +576,7 @@ function createAllColumns(params: CreateColumnsParams): ColumnDef<NormalizedReit
         cell: ({ getValue, row }) => {
           const value = getValue();
           const metric = getMetric(row.original, 'realised_income');
-          return renderMetricCell(value, formatCurrency, metric);
+          return renderMetricCell(value, () => formatCurrencyFromMetric(metric), metric);
         },
       }
     ),
@@ -615,7 +621,7 @@ function createAllColumns(params: CreateColumnsParams): ColumnDef<NormalizedReit
         cell: ({ getValue, row }) => {
           const value = getValue();
           const metric = getMetric(row.original, 'total_borrowings');
-          return renderMetricCell(value, formatCurrency, metric);
+          return renderMetricCell(value, () => formatCurrencyFromMetric(metric), metric);
         },
       }
     ),
@@ -717,7 +723,7 @@ function createAllColumns(params: CreateColumnsParams): ColumnDef<NormalizedReit
             onClick={handleCitationClick}
             onMouseEnter={() => setHoveredCitation(entity.id)}
             onMouseLeave={() => setHoveredCitation(null)}
-            className={`inline-flex items-center gap-1.5 px-2 py-1 rounded-full text-xs font-medium transition-all ${
+            className={`inline-flex items-center gap-1.5 px-2 py-1 rounded-full text-body-sm font-medium transition-all ${
               isHovered
                 ? 'bg-primary-600 text-white'
                 : 'bg-primary-100 text-primary-700 hover:bg-primary-200'
@@ -986,8 +992,8 @@ export function EntityTableTanStack({
             onClick={() => handleGroupChange(group)}
             onKeyDown={(e) => handleGroupKeyDown(e, index)}
             className={activeGroup === group
-              ? 'rounded-md bg-surface px-3 py-1.5 text-[12px] font-medium text-ink shadow-sm'
-              : 'rounded-md px-3 py-1.5 text-[12px] text-muted hover:text-ink'}
+              ? 'rounded-md bg-surface px-3 py-1.5 text-body-sm font-medium text-ink shadow-sm'
+              : 'rounded-md px-3 py-1.5 text-body-sm text-muted hover:text-ink'}
             role="tab"
             aria-selected={activeGroup === group}
             aria-pressed={activeGroup === group}
@@ -1005,7 +1011,7 @@ export function EntityTableTanStack({
           className="overflow-x-auto scrollbar-hide"
           onScroll={handleHeaderScroll}
         >
-          <table className="w-full text-[12.5px] leading-4" aria-hidden="true">
+          <table className="w-full text-data leading-4" aria-hidden="true">
             {renderColgroup()}
             <thead className="border-b border-stroke">
               {table.getHeaderGroups().map(headerGroup => (
@@ -1094,7 +1100,7 @@ export function EntityTableTanStack({
         className="overflow-x-auto"
         onScroll={handleBodyScroll}
       >
-        <table className="w-full text-[12.5px] leading-4" role="grid" aria-label="REIT data table">
+        <table className="w-full text-data leading-4" role="grid" aria-label="REIT data table">
           {renderColgroup()}
           {/* Visually hidden thead for accessibility */}
           <thead className="sr-only">
@@ -1166,14 +1172,14 @@ export function EntityTableTanStack({
                     <div className="flex items-center justify-center gap-2">
                       <Link
                         href={`/entity/${entity.code}`}
-                        className="text-primary-600 hover:text-primary-800 text-xs font-medium"
+                        className="text-primary-600 hover:text-primary-800 text-body-sm font-medium"
                       >
                         View
                       </Link>
                       <span className="text-muted">|</span>
                       <Link
                         href={`/compare?entities=${entity.code}`}
-                        className="text-muted hover:text-ink text-xs font-medium"
+                        className="text-muted hover:text-ink text-body-sm font-medium"
                       >
                         Compare
                       </Link>

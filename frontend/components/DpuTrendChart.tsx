@@ -58,7 +58,7 @@ export function DpuTrendChart({ entities, chartAreaClassName }: DpuTrendChartPro
           'flex items-center justify-center',
         )}
       >
-        <p className="text-sm text-neutral-400">No DPU trend data available</p>
+        <p className="text-body text-neutral-400">No DPU trend data available</p>
       </div>
     );
   }
@@ -68,17 +68,17 @@ export function DpuTrendChart({ entities, chartAreaClassName }: DpuTrendChartPro
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={chartData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
-          <XAxis 
-            dataKey="date" 
-            tick={{ fontSize: 12 }}
+          <XAxis
+            dataKey="date"
+            tick={{ className: 'text-body-sm' }}
             tickFormatter={(value) => {
               const date = new Date(value);
               return `${date.getFullYear()}`;
             }}
           />
-          <YAxis 
-            tick={{ fontSize: 12 }}
-            label={{ value: 'sen', angle: -90, position: 'insideLeft', style: { fontSize: 12 } }}
+          <YAxis
+            tick={{ className: 'text-body-sm' }}
+            label={{ value: 'sen', angle: -90, position: 'insideLeft', style: { fontSize: '0.75rem', lineHeight: '1rem' }}}
           />
           <Tooltip
             formatter={(value: number) => [`${value.toFixed(2)} sen`, '']}

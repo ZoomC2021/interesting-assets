@@ -1284,13 +1284,6 @@
       "timeSensitive": false
     },
     "S:166": {
-      "fact": "Sunway Putra Mall occupancy: 95%+ estimated",
-      "source": "AR2025",
-      "citation": "Sunway REIT 2025 Annual Report - Mall Performance",
-      "dateAccessed": "2026-04-25",
-      "timeSensitive": false
-    },
-    "S:166": {
       "fact": "Sunway 163 Mall occupancy: 90%+ estimated",
       "source": "AR2025",
       "citation": "Sunway REIT 2025 Annual Report - Mall Performance",
@@ -1339,13 +1332,6 @@
       "fact": "International brands include Uniqlo, H&M, Zara, Sephora",
       "source": "SunwayIR",
       "citation": "Sunway REIT Website - Mall Tenant Mix",
-      "dateAccessed": "2026-04-25",
-      "timeSensitive": false
-    },
-    "S:172": {
-      "fact": "Wide range of F&B options in retail malls",
-      "source": "SunwayIR",
-      "citation": "Sunway REIT Website - Mall Amenities",
       "dateAccessed": "2026-04-25",
       "timeSensitive": false
     },

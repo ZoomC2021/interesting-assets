@@ -11,7 +11,6 @@ import { RiskMatrix } from '../../components/RiskMatrix';
 import { CitationPanel } from '../../components/CitationPanel';
 import { useAnnouncer } from '../../hooks/useAnnouncer';
 import { analyzeCitationCoverage } from '../../lib/citation-utils';
-import { entityColors } from '../../lib/grid-utils';
 
 export default function ComparePage() {
   const { selectedEntities, metricCategory, toggleEntity, setMetricCategory } = useUrlState();
@@ -48,11 +47,11 @@ export default function ComparePage() {
           <div className="flex items-center justify-between h-12 min-h-12 gap-2">
             <div className="flex min-w-0 items-center gap-2">
               <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-primary-600">
-                <span className="text-[10px] font-bold text-white">R</span>
+                <span className="text-micro font-semibold text-white">R</span>
               </div>
               <div className="min-w-0">
-                <h1 className="text-sm font-semibold leading-tight text-ink">REIT Comparison</h1>
-                <nav className="text-[11px] leading-tight text-muted" aria-label="Breadcrumb">
+                <h1 className="text-body-sm font-semibold leading-tight text-ink">REIT Comparison</h1>
+                <nav className="text-micro leading-tight text-muted" aria-label="Breadcrumb">
                   <a href="/" className="hover:text-ink">Home</a>
                   <span className="mx-1">/</span>
                   <a href="/monitor" className="hover:text-ink">Monitor</a>
@@ -65,7 +64,7 @@ export default function ComparePage() {
             <div className="flex shrink-0 items-center gap-2">
               {data.length > 0 && (
                 <div
-                  className={`hidden items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-medium sm:flex ${
+                  className={`hidden items-center gap-1 rounded-full px-2 py-0.5 text-micro font-medium sm:flex ${
                     coverageStats.coveragePercentage >= 100
                       ? 'bg-success-100 text-success-700'
                       : 'bg-warning-100 text-warning-700'
@@ -86,7 +85,7 @@ export default function ComparePage() {
                 </div>
               )}
 
-              <a href="/monitor" className="hidden text-xs text-muted hover:text-ink sm:block">
+              <a href="/monitor" className="hidden text-label text-muted hover:text-ink sm:block">
                 ← Monitor
               </a>
             </div>
@@ -112,30 +111,40 @@ export default function ComparePage() {
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 py-4">
         {/* Category Filter */}
-        <div className="mb-3">
-          <div className="flex flex-wrap gap-2">
-            {['all', 'portfolio', 'financial_performance', 'per_share', 'leverage', 'operational', 'market'].map((cat) => (
-              <button
-                key={cat}
-                onClick={() => setMetricCategory(cat)}
-                className={`px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
-                  metricCategory === cat
-                    ? 'bg-primary-600 text-white'
-                    : 'bg-surface text-muted hover:bg-surface-alt border border-stroke'
-                }`}
-                aria-pressed={metricCategory === cat}
-                aria-label={`Filter by ${cat === 'all' ? 'all categories' : cat.replace(/_/g, ' ')}`}
-              >
-                {cat === 'all' ? 'All Metrics' : cat.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
-              </button>
-            ))}
+        <div className="mb-4 rounded-[1.25rem] border border-stroke bg-gradient-to-br from-surface to-surfaceAlt/80 p-3 shadow-card sm:p-4">
+          <div className="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
+            <div>
+              <p className="text-label text-muted">Compare Workspace</p>
+              <h2 className="mt-1 text-metric text-ink">Fixed-width columns, faster scanning</h2>
+              <p className="mt-1 max-w-2xl text-body-sm text-muted">
+                The comparison grid stays compact on wide screens and turns into a clean horizontal scroll surface on smaller ones.
+              </p>
+            </div>
+
+            <div className="flex flex-wrap gap-2">
+              {['all', 'portfolio', 'financial_performance', 'per_share', 'leverage', 'operational', 'market'].map((cat) => (
+                <button
+                  key={cat}
+                  onClick={() => setMetricCategory(cat)}
+                  className={`rounded-full border px-2.5 py-1 text-label font-medium transition-colors ${
+                    metricCategory === cat
+                      ? 'border-primary-600 bg-primary-600 text-white'
+                      : 'border-stroke bg-surface text-muted hover:bg-surfaceAlt'
+                  }`}
+                  aria-pressed={metricCategory === cat}
+                  aria-label={`Filter by ${cat === 'all' ? 'all categories' : cat.replace(/_/g, ' ')}`}
+                >
+                  {cat === 'all' ? 'All Metrics' : cat.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
 
         {/* Error State */}
         {error && (
-          <div className="mb-3 p-3 bg-red-50 border border-red-200 rounded-lg" role="alert">
-            <p className="text-red-700 text-sm">{error}</p>
+          <div className="mb-3 p-3 bg-danger-50 border border-danger-200 rounded-lg" role="alert">
+            <p className="text-danger-700 text-body-sm">{error}</p>
           </div>
         )}
 
@@ -146,39 +155,23 @@ export default function ComparePage() {
           </div>
         ) : (
           <>
-            {/* Sticky Entity Header */}
-            {data.length > 0 && (
-              <div className="sticky top-40 z-40 border-b border-stroke bg-surface mb-3">
-                <div className="grid" style={{ gridTemplateColumns: `200px repeat(${data.length}, minmax(120px, 1fr))` }}>
-                  <div className="py-2 px-3 text-label font-medium text-muted">Metric</div>
-                  {data.map((entityData, idx) => (
-                    <div key={entityData.entity.id} className="py-2 px-3 border-l border-stroke text-[12.5px] leading-4">
-                      <div className="flex items-center gap-2">
-                        <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: entityColors[idx % entityColors.length] }} />
-                        <span className="font-semibold text-ink truncate">{entityData.entity.name}</span>
-                      </div>
-                      <div className="text-[11px] text-muted truncate">{entityData.entity.code}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-
             {/* KPI Grid */}
             <div className="mb-4">
               <KpiGrid
                 entities={data}
                 category={metricCategory}
                 onMetricClick={handleMetricClick}
+                showEntityHeader
+                stickyHeaderTopClassName="top-14"
               />
             </div>
 
             {/* Charts Toggle */}
             <div className="flex items-center justify-between mb-3">
-              <h3 className="text-sm font-semibold text-ink">Charts & Risk Assessment</h3>
+              <h3 className="text-body-sm font-semibold text-ink">Charts & Risk Assessment</h3>
               <button
                 onClick={() => setChartsVisible(!chartsVisible)}
-                className="text-xs text-primary-600 hover:text-primary-700 flex items-center gap-1 px-2 py-1 rounded hover:bg-primary-50 transition-colors"
+                className="text-label text-primary-600 hover:text-primary-700 flex items-center gap-1 px-2 py-1 rounded hover:bg-primary-50 transition-colors"
                 aria-expanded={chartsVisible}
                 aria-controls="charts-section"
               >
@@ -199,14 +192,14 @@ export default function ComparePage() {
               <div id="charts-section" className="space-y-4">
                 <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
                   <div className="flex min-h-0 flex-col rounded-lg border border-stroke bg-surface p-4 shadow-card">
-                    <h3 className="mb-2 text-sm font-semibold text-ink">DPU trend (5 years)</h3>
+                    <h3 className="mb-2 text-body-sm font-semibold text-ink">DPU trend (5 years)</h3>
                     <div className="min-h-0 flex-1">
                       <DpuTrendChart entities={data} />
                     </div>
                   </div>
 
                   <div className="flex min-h-0 flex-col rounded-lg border border-stroke bg-surface p-4 shadow-card">
-                    <h3 className="mb-2 text-sm font-semibold text-ink">Quarterly revenue</h3>
+                    <h3 className="mb-2 text-body-sm font-semibold text-ink">Quarterly revenue</h3>
                     <div className="min-h-0 flex-1">
                       <RevenueTrendChart entities={data} />
                     </div>
@@ -214,7 +207,7 @@ export default function ComparePage() {
                 </div>
 
                 <div className="rounded-lg border border-stroke bg-surface p-4 shadow-card">
-                  <h3 className="mb-2 text-sm font-semibold text-ink">Risk assessment</h3>
+                  <h3 className="mb-2 text-body-sm font-semibold text-ink">Risk assessment</h3>
                   <RiskMatrix entities={data} onCitationClick={handleMetricClick} embedInPanel />
                 </div>
               </div>

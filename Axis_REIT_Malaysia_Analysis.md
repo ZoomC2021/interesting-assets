@@ -10,10 +10,10 @@
 
 ## Executive Summary
 
-Axis Real Estate Investment Trust (Axis REIT) [A:6] is Malaysia's premier diversified industrial REIT and the larger peer to Atrium REIT [A:7]. Celebrating its 20th anniversary on Bursa Malaysia in 2025 [A:5], Axis REIT manages a portfolio of **69 properties** [A:8] with total assets under management (AUM) of approximately **RM 5.36 billion** [A:9] and net lettable area of ~15 million sq ft [A:10]. The REIT is Shariah-compliant [A:11], making it eligible for Islamic investment mandates.
+Axis Real Estate Investment Trust (Axis REIT) [A:6] is Malaysia's premier diversified industrial REIT and the larger peer to Atrium REIT [A:7]. Celebrating its 20th anniversary on Bursa Malaysia in 2025 [A:5], Axis REIT manages a portfolio of **70 properties** [A:8] (following a Port Klang acquisition completed in late January 2026) with total assets under management (AUM) of approximately **RM 5.36 billion** [A:9] and net lettable area of ~15 million sq ft [A:10]. The REIT is Shariah-compliant [A:11], making it eligible for Islamic investment mandates.
 
 **Key Highlights (FY 2025):** [A:3]
-- **Portfolio Size:** 69 properties [A:8] across 6 states [A:12] (Klang Valley, Johor, Penang, Kedah, Pahang) [A:13]
+- **Portfolio Size:** 70 properties [A:8] across 6 states [A:12] (Klang Valley, Johor, Penang, Kedah, Pahang) [A:13]
 - **Portfolio Occupancy:** 94% [A:14] with WALE of 4.4 years [A:15]
 - **Gearing Ratio:** ~33% [A:16] (conservative, well below 50% regulatory limit) [A:17]
 - **Interest Coverage:** 3.8x - 4.0x [A:18] (strong coverage)
@@ -47,7 +47,7 @@ Axis Real Estate Investment Trust (Axis REIT) [A:6] is Malaysia's premier divers
 |--------|---------|------------|
 | **Established** | 2005 [A:35] (concurrent with Malaysia's first REIT) [A:37] | ✅ Pioneer |
 | **Ownership Structure** | Professional external manager with dispersed ownership [A:38] | ✅ Lower conflict risk |
-| **REIT Unitholders** | Highly institutional (EPF, KWAP, Public Mutual, Tabung Haji ~50%+) [A:39] | ✅ Professional oversight |
+| **REIT Unitholders** | Highly institutional (EPF, KWAP, Public Mutual, Tabung Haji ~50%+) [A:39]; EPF shows continuous active accumulation per April 18–24, 2026 shareholding notices | ✅ Professional oversight |
 | **Governance** | Designed to serve as independent professional manager | ✅ Better governance |
 
 #### Key Executives & Management Team (🟢 Industry-Leading)
@@ -113,7 +113,7 @@ Axis Real Estate Investment Trust (Axis REIT) [A:6] is Malaysia's premier divers
 ### 1.3 Portfolio Composition (Dec 2025) [A:103]
 | Metric | Value |
 |--------|-------|
-| **Total Properties** | 69 [A:8] |
+| **Total Properties** | 70 [A:8] (post Jan 2026 Port Klang acquisition) |
 | **Total AUM** | ~RM 5.36 billion [A:9] |
 | **Net Lettable Area (NLA)** | ~15 million sq ft [A:10] |
 | **Property Types** | Logistics warehouses, manufacturing, industrial offices, hypermarkets [A:104] |
@@ -213,7 +213,7 @@ Axis Real Estate Investment Trust (Axis REIT) [A:6] is Malaysia's premier divers
 | **Focus** | Brownfield redevelopment + development | Property-by-property refurbishment |
 | **Strategy** | Systematic capital recycling + AEIs | Concentrated AEI on specific assets |
 | **Development Capability** | ✅ Build-to-suit (BRDC 2) | ❌ No development capability |
-| **Portfolio Impact** | Continuous refresh across 69 properties | Targeted enhancement of 9 properties |
+| **Portfolio Impact** | Continuous refresh across 70 properties | Targeted enhancement of 9 properties |
 
 **Assessment:**
 - **Consistent Investment:** ~RM 13M+ annual capex maintains property quality across the 69-property portfolio
@@ -382,48 +382,48 @@ Axis Real Estate Investment Trust (Axis REIT) [A:6] is Malaysia's premier divers
 #### Current Market Data (April 2026) [A:2]
 | Metric | Value | Source |
 |--------|-------|--------|
-| **Current Share Price** | **RM 2.050** [A:219] | KLSE Screener [A:220] |
+| **Current Share Price** | **RM 2.02** [A:219] | KLSE Screener [A:220] (April 24, 2026; range RM 1.99–2.03) |
 | **NAV per Unit** | RM 1.6907 [A:221] | FY 2025 Annual Report [A:222] |
 | **2025 DPU** | 10.55 sen [A:21] | Full year distribution |
-| **Market Dividend Yield** | **5.15%** [A:223] | 10.55 sen ÷ RM 2.050 [A:224] |
-| **Price-to-Book (P/B)** | **1.21x** [A:225] | Trading at 21% premium to NAV [A:226] |
-| **Market Cap** | RM 4.15 billion [A:227] | Mid-cap classification |
+| **Market Dividend Yield** | **5.22%** [A:223] | 10.55 sen ÷ RM 2.02 [A:224] |
+| **Price-to-Book (P/B)** | **1.20x** [A:225] | Trading at 19.5% premium to NAV [A:226] |
+| **Market Cap** | ~RM 4.09 billion [A:227] | Mid-cap classification |
 
 #### Understanding Yield Metrics
 
 | Yield Type | Calculation | Axis REIT | What It Means |
 |------------|-------------|-----------|---------------|
-| **Market Yield** | DPU ÷ Current Share Price [A:224] | **5.15%** [A:223] | ✅ Actual investor return |
+| **Market Yield** | DPU ÷ Current Share Price [A:224] | **5.22%** [A:223] | ✅ Actual investor return |
 | **NAV-Based Yield** | DPU ÷ NAV per unit [A:228] | **6.2%** [A:229] | Operational efficiency metric |
 
 **Why the difference?**
-- Axis REIT trades at **RM 2.050** [A:219] vs NAV of **RM 1.6907** [A:221]
-- This is a **21% premium to NAV** (P/B = 1.21x) [A:226]
-- The premium causes **yield compression**: 5.15% market yield [A:223] vs 6.2% NAV yield [A:229]
+- Axis REIT trades at **RM 2.02** [A:219] vs NAV of **RM 1.6907** [A:221]
+- This is a **19.5% premium to NAV** (P/B = 1.20x) [A:226]
+- The premium causes **yield compression**: 5.22% market yield [A:223] vs 6.2% NAV yield [A:229]
 
 #### Comparison Context (April 2026) [A:2]
 | REIT | Current Price | NAV | P/B | Market Yield | Status |
 |------|---------------|-----|-----|--------------|--------|
-| **Axis REIT** | RM 2.050 [A:219] | RM 1.6907 [A:221] | **1.21x** [A:225] | **5.15%** [A:223] | Premium [A:230] |
-| **Atrium REIT** | RM 1.280 [A:231] | RM 1.3874 [A:232] | **0.92x** [A:233] | **7.27%** [A:234] | Discount [A:235] |
-| **Difference** | - | - | - | **-2.12pp** [A:236] | Axis lower yield |
+| **Axis REIT** | RM 2.02 [A:219] | RM 1.6907 [A:221] | **1.20x** [A:225] | **5.22%** [A:223] | Premium [A:230] |
+| **Atrium REIT** | RM 1.26 [A:231] | RM 1.3874 [A:232] | **0.91x** [A:233] | **7.38%** [A:234] | Discount [A:235] |
+| **Difference** | - | - | - | **-2.16pp** [A:236] | Axis lower yield |
 
 #### Key Insights
 
-**Axis REIT's 5.15% Market Yield:** [A:223]
-- ✅ Lower than Atrium REIT's 7.27% [A:234] (by 2.12 percentage points [A:236])
-- ✅ But trades at **premium** (1.21x P/B) [A:230] vs Atrium at **discount** (0.92x P/B) [A:235]
+**Axis REIT's 5.22% Market Yield:** [A:223]
+- ✅ Lower than Atrium REIT's 7.38% [A:234] (by 2.16 percentage points [A:236])
+- ✅ But trades at **premium** (1.20x P/B) [A:230] vs Atrium at **discount** (0.91x P/B) [A:235]
 - ✅ Premium reflects market's confidence: scale [A:9], diversification [A:12], stability, Shariah compliance [A:11]
 
 **Lower Yield is "Cost" of Quality:**
 The ~2.1pp yield disadvantage [A:236] is the **price paid for lower risk**:
-- Liquidity premium (RM 4.15B [A:227] vs RM 340M [A:237] market cap)
+- Liquidity premium (RM 4.09B [A:227] vs RM 335M [A:237] market cap)
 - Diversification (69 [A:8] vs 9 properties [A:238], 182 tenants [A:239])
 - Interest rate protection (65% fixed [A:19] vs ~93% floating [A:186])
 - Professional risk management (active hedging [A:184])
 - 20-year track record [A:5], Shariah compliance [A:11]
 
-**⚠️ For Investment Decisions:** Always use **market price-based yield** (5.15% [A:223] at current RM 2.050 [A:219]), not NAV yield [A:229]. Verify latest price on [KLSE Screener](https://www.klsescreener.com/v2/stocks/5106) [A:220] or [Bursa Malaysia](https://www.bursamalaysia.com) [A:240].
+**⚠️ For Investment Decisions:** Always use **market price-based yield** (5.22% [A:223] at current RM 2.02 [A:219]), not NAV yield [A:229]. Verify latest price on [KLSE Screener](https://www.klsescreener.com/v2/stocks/5106) [A:220] or [Bursa Malaysia](https://www.bursamalaysia.com) [A:240].
 
 ### 4.5 Dividend Sustainability Factors
 | Factor | Status | Impact |
@@ -525,7 +525,7 @@ Strategy: Sell older, lower-yielding assets → Buy modern, higher-yielding faci
 | **Total Tenants** | 182 (as of Sep 30, 2025) [A:239] |
 | **Top 10 Tenants Revenue %** | 46.7% of monthly revenue [A:275] |
 | **Tenant Mix** | MNCs and fast-growing domestic businesses [A:276] |
-| **Diversification** | 182 tenants [A:239] across 69 properties [A:8] = ~2.6 tenants per property [A:277] |
+| **Diversification** | 182 tenants [A:239] across 70 properties [A:8] = ~2.6 tenants per property [A:277] |
 
 ### 7.2 Tenant Concentration Assessment
 | Concentration Level | Axis REIT | Atrium REIT |
@@ -557,7 +557,7 @@ Strategy: Sell older, lower-yielding assets → Buy modern, higher-yielding faci
 ### 8.2 Asia Pacific Logistics REIT Benchmarks
 | Metric | Axis REIT | Industry Benchmark | Assessment |
 |--------|-----------|-------------------|------------|
-| **Portfolio Size** | 69 properties [A:8] | 50-180 (large-cap) [A:284] | ✅ Within range |
+| **Portfolio Size** | 70 properties [A:8] | 50-180 (large-cap) [A:284] | ✅ Within range |
 | **Occupancy** | 94% [A:14] | 94-96% [A:285] | ✅ At benchmark |
 | **WALE** | 4.4 years [A:15] | 3.0-5.0 years [A:286] | ✅ Within range |
 | **Gearing** | ~33% [A:16] | 30-43% [A:287] | ✅ Conservative |
@@ -568,7 +568,7 @@ Strategy: Sell older, lower-yielding assets → Buy modern, higher-yielding faci
 | Factor | Large-Cap (MLT) [A:290] | Mid-Cap (Axis) | Small-Cap (Atrium) |
 |--------|-----------------|----------------|-------------------|
 | **AUM** | S$13.3B [A:291] | RM 5.36B [A:9] | RM 723M [A:292] |
-| **Scale** | 180 properties [A:293] | 69 properties [A:8] | 9 properties [A:238] |
+| **Scale** | 180 properties [A:293] | 70 properties [A:8] | 9 properties [A:238] |
 | **Geographic** | 9 countries [A:294] | 6 states (Malaysia) [A:12] | 2 regions [A:295] |
 | **Liquidity** | High | Moderate-High | Lower |
 | **Analyst Coverage** | Extensive | Moderate | Limited |
@@ -594,7 +594,7 @@ Strategy: Sell older, lower-yielding assets → Buy modern, higher-yielding faci
 
 | Metric | Axis REIT (5106) [A:1] | Atrium REIT (5130) [A:303] | Winner | Delta |
 |--------|------------------|-------------------|--------|-------|
-| **Portfolio Size** | 69 properties [A:8] | 9 properties [A:238] | Axis | 7.7x [A:304] |
+| **Portfolio Size** | 70 properties [A:8] | 9 properties [A:238] | Axis | 7.8x [A:304] |
 | **AUM** | RM 5.36 billion [A:9] | RM 723 million [A:292] | Axis | 7.4x [A:305] |
 | **Occupancy** | 94% [A:14] | 100% [A:306] | Atrium | -6% |
 | **WALE** | 4.4 years [A:15] | Not disclosed [A:278] | Axis | Known vs unknown |
@@ -604,10 +604,10 @@ Strategy: Sell older, lower-yielding assets → Buy modern, higher-yielding faci
 | **2025 DPU** | **10.55 sen** [A:21] | 9.30 sen [A:312] | Axis | +13.4% [A:313] |
 | **DPU Growth** | +13.8% [A:22] | +22.4% [A:314] | Atrium | +8.6pp [A:315] |
 | **NAV-Based Yield** | ~6.2% [A:229] | ~6.7% [A:316] | Atrium | +0.5pp |
-| **Market Yield (Actual)** | **5.15%** [A:223] | **7.27%** [A:234] | Atrium | **-2.12pp lower** [A:236] |
-| **Trading Status** | 21% premium (P/B 1.21x) [A:230] | 8% discount (P/B 0.92x) [A:235] | - | Opposite valuations |
+| **Market Yield (Actual)** | **5.22%** [A:223] | **7.38%** [A:234] | Atrium | **-2.16pp lower** [A:236] |
+| **Trading Status** | 19.5% premium (P/B 1.20x) [A:230] | 9.2% discount (P/B 0.91x) [A:235] | - | Opposite valuations |
 
-*Source: KLSE Screener [A:220], April 2026 [A:2]. Axis RM 2.050 [A:219], Atrium RM 1.280 [A:231]
+*Source: KLSE Screener [A:220], April 2026 [A:2]. Axis RM 2.02 [A:219], Atrium RM 1.26 [A:231]
 | **NAV per Unit** | RM 1.6907 [A:221] | RM 1.3874 [A:232] | Axis | +21% [A:226] |
 | **Analyst Coverage** | Moderate | Limited | Axis | Better research |
 | **Shariah Compliance** | Yes [A:11] | No [A:317] | Axis | Broader investor base |
@@ -615,7 +615,7 @@ Strategy: Sell older, lower-yielding assets → Buy modern, higher-yielding faci
 | **Top 10 Tenant %** | 46.7% [A:275] | Not disclosed [A:278] | Axis | Disclosure advantage |
 | **Unencumbered Assets** | 38% [A:29] | Not disclosed [A:278] | Axis | Known flexibility |
 | **Acquisition Activity** | 3 completed [A:27] | 0 (AEI only) [A:318] | Axis | Active growth |
-| **Market Cap** | ~RM 4.15B [A:227] | ~RM 340M [A:237] | Axis | 12.2x [A:319] |
+| **Market Cap** | ~RM 4.09B [A:227] | ~RM 335M [A:237] | Axis | 12.2x [A:319] |
 | **Liquidity** | Higher | Lower | Axis | Easier trading |
 | **Listing History** | 20 years (2005) [A:5] | ~10 years [A:320] | Axis | Track record |
 | **Management Scale** | Larger team | Smaller team | Axis | Resources |
@@ -644,7 +644,7 @@ Occupancy Rate            94% [A:14]     100% [A:306]    Atrium     6pp higher
 2025 DPU                  10.55 sen [A:21] 9.30 sen [A:312] Axis       13% higher [A:313]
 DPU Growth (YoY)          +13.8% [A:22]  +22.4% [A:314]  Atrium     Stronger momentum [A:315]
 NPI Margin                ~87% [A:324]  ~90% [A:325]   Atrium     Slightly better
-Diversification           69 properties [A:8] 9 properties [A:238] Axis       Much lower risk
+Diversification           70 properties [A:8] 9 properties [A:238] Axis       Much lower risk
 Geographic Spread         6 states [A:12] 2 regions [A:295] Axis       Lower concentration
 Acquisition Pipeline      Active (3) [A:27] None [A:318] Axis       Growth visibility
 ```
@@ -652,7 +652,7 @@ Acquisition Pipeline      Active (3) [A:27] None [A:318] Axis       Growth visib
 ### 9.4 Strategic Differentiators
 
 #### Axis REIT Advantages:
-1. **Scale & Diversification** - 69 properties [A:8] vs 9 [A:238] (7.7x [A:304])
+1. **Scale & Diversification** - 70 properties [A:8] vs 9 [A:238] (7.8x [A:304])
 2. **Financial Strength** - 33% gearing [A:16] vs 43.5% [A:307], 3.8-4.0x coverage [A:18] vs 2.09x [A:309]
 3. **Interest Rate Protection** - 65% fixed-rate [A:19] vs ~7% [A:186], active hedging [A:184]
 4. **Transparency** - Discloses WALE [A:15], top tenant % [A:275], unencumbered assets [A:29]
@@ -675,7 +675,7 @@ Acquisition Pipeline      Active (3) [A:27] None [A:318] Axis       Growth visib
 
 | Risk Category | Axis REIT | Atrium REIT | Lower Risk |
 |---------------|-----------|-------------|------------|
-| **Concentration Risk** | 🟢 Low (69 properties [A:8]) | 🔴 High (9 properties [A:238]) | Axis |
+| **Concentration Risk** | 🟢 Low (70 properties [A:8]) | 🔴 High (9 properties [A:238]) | Axis |
 | **Gearing Risk** | 🟢 Low (~33% [A:16]) | 🟡 Medium (43.5% [A:307]) | Axis |
 | **Interest Rate Risk** | 🟢 Low (65% fixed [A:19]) | 🔴 High (~93% floating [A:186]) | Axis |
 | **Tenant Rollover Risk** | 🟢 Low (4.4yr WALE [A:15]) | 🟡 Unknown (no WALE [A:278]) | Axis |
@@ -738,7 +738,7 @@ Acquisition Pipeline      Active (3) [A:27] None [A:318] Axis       Growth visib
 | **Operational Efficiency** | Atrium REIT | Narrow | 100% [A:306] vs 94% occupancy [A:14] |
 | **DPU Growth Momentum** | Atrium REIT | Moderate | +22.4% [A:314] vs +13.8% [A:22] (2025) |
 | **NAV-Based Yield** | Atrium REIT | Narrow | ~6.7% [A:316] vs ~6.2% [A:229] |
-| **Market Yield (Actual April 2026)** | Atrium REIT | **Significant** | **7.27% [A:234] vs 5.15% [A:223]** |
+| **Market Yield (Actual April 2026)** | Atrium REIT | **Significant** | **7.38% [A:234] vs 5.22% [A:223]** |
 | **Risk-Adjusted Returns** | Axis REIT | Significant | Lower risk, strong returns |
 | **Institutional Suitability** | Axis REIT | Significant | Liquidity [A:227], coverage, compliance [A:11] |
 | **Retail/Value Investor Appeal** | Atrium REIT | Moderate | Higher yield [A:316], potential upside [A:235] |
@@ -764,24 +764,24 @@ Acquisition Pipeline      Active (3) [A:27] None [A:318] Axis       Growth visib
 **Yield Clarification (April 2026 Actuals):** [A:2]
 
 **Current Market Yields:**
-- Atrium REIT: **7.27%** [A:234] (at RM 1.280 [A:231], P/B 0.92x [A:233])
-- Axis REIT: **5.15%** [A:223] (at RM 2.050 [A:219], P/B 1.21x [A:225])
-- **Gap: 2.12 percentage points** [A:236]
+- Atrium REIT: **7.38%** [A:234] (at RM 1.26 [A:231], P/B 0.91x [A:233])
+- Axis REIT: **5.22%** [A:223] (at RM 2.02 [A:219], P/B 1.20x [A:225])
+- **Gap: 2.16 percentage points** [A:236]
 
 **Why Axis REIT Accepts Lower Yield:**
-The 5.15% [A:223] vs 7.27% [A:234] difference is the **"price" investors pay for quality**:
+The 5.22% [A:223] vs 7.38% [A:234] difference is the **"price" investors pay for quality**:
 
 | Quality Factor | Axis REIT | Atrium REIT |
 |---------------|-----------|-------------|
-| **Scale** | RM 4.15B market cap [A:227] | RM 340M market cap [A:237] |
-| **Diversification** | 69 properties [A:8], 182 tenants [A:239] | 9 properties [A:238], undisclosed [A:278] |
+| **Scale** | RM 4.09B market cap [A:227] | RM 335M market cap [A:237] |
+| **Diversification** | 70 properties [A:8], 182 tenants [A:239] | 9 properties [A:238], undisclosed [A:278] |
 | **Debt Safety** | 33% gearing [A:16], 65% fixed [A:19] | 43.5% gearing [A:307], ~93% floating [A:186] |
 | **Coverage** | 3.8-4.0x interest coverage [A:18] | ~2.09x interest coverage [A:309] |
 | **Transparency** | 4.4yr WALE [A:15], 46.7% top 10 disclosed [A:275] | WALE, tenant % unknown [A:278] |
 | **Track Record** | 20 years listed [A:5] | ~10 years listed [A:320] |
 | **Compliance** | Shariah compliant [A:11] | Not Shariah compliant [A:317] |
 
-**Key Insight:** The ~2.1pp yield gap [A:236] is **not unfair** - it reflects real differences in risk profiles. Conservative investors accept 5.15% [A:223] for sleep-at-night stability; risk-tolerant investors chase 7.27% [A:234] with eyes wide open to the risks.
+**Key Insight:** The ~2.2pp yield gap [A:236] is **not unfair** - it reflects real differences in risk profiles. Conservative investors accept 5.22% [A:223] for sleep-at-night stability; risk-tolerant investors chase 7.38% [A:234] with eyes wide open to the risks.
 
 ---
 
@@ -807,7 +807,7 @@ The 5.15% [A:223] vs 7.27% [A:234] difference is the **"price" investors pay for
 2. **Debt Management:** Conservative 33% gearing [A:16] with 65% fixed-rate protection [A:19]
 3. **Portfolio Quality:** Active capital recycling (disposals [A:147] + acquisitions [A:27])
 4. **Lease Management:** Strong WALE (4.4 years [A:15]) and renewal rates (73% [A:118])
-5. **Diversification:** 69 properties [A:8], 182 tenants [A:239], 6 states [A:12]
+5. **Diversification:** 70 properties [A:8], 182 tenants [A:239], 6 states [A:12]
 6. **Discipline:** Terminated RM800M deal [A:151] on due diligence concerns [A:274]
 7. **Flexibility:** 38% unencumbered assets [A:29] for refinancing
 
@@ -835,6 +835,7 @@ The 5.15% [A:223] vs 7.27% [A:234] difference is the **"price" investors pay for
 - ⚠️ **Asset Age:** Legacy IPO assets (~20 years) [A:135] need monitoring for capex/AEI requirements [A:125]; ensure capital recycling continues to refresh portfolio [A:141]
 
 ### 11.3 2026 Catalysts
+- 📅 **Q1 2026 Results — April 29, 2026:** Board announced on April 22, 2026 that Q1 2026 unaudited results will be released on **Wednesday, April 29, 2026** — key near-term monitoring point for investors
 - Senai acquisition completion (Q4 2027) [A:242]
 - Potential further acquisitions from RM 3B MTN programme [A:187]
 - JS-SEZ implementation [A:175] benefiting Johor properties [A:174]
@@ -845,7 +846,7 @@ The 5.15% [A:223] vs 7.27% [A:234] difference is the **"price" investors pay for
 ## 12. Summary Assessment
 
 ### 12.1 Asset Quality: **VERY GOOD** ⭐⭐⭐⭐⭐
-- 69 properties [A:8] with 94% occupancy [A:14]
+- 70 properties [A:8] with 94% occupancy [A:14]
 - 4.4-year WALE [A:15] provides excellent income stability
 - **Balanced asset age profile:** Legacy 2005 IPO assets (~20 years [A:135]) + 12+ modern acquisitions (2023-2025 [A:141])
 - **Active AEI strategy:** ~RM 13M+ annually (2025) maintains competitiveness across portfolio
@@ -872,7 +873,7 @@ The 5.15% [A:223] vs 7.27% [A:234] difference is the **"price" investors pay for
 
 ### 12.4 Overall Investment Grade: **B+/A- (Investment Grade)** [A:337]
 Axis REIT demonstrates institutional-grade quality with:
-- Scale (RM 5.36B AUM [A:9]) and diversification (69 properties [A:8])
+- Scale (RM 5.36B AUM [A:9]) and diversification (70 properties [A:8])
 - Conservative financial management (33% gearing [A:16], 65% fixed-rate [A:19])
 - Strong operational metrics (94% occupancy [A:14], 4.4yr WALE [A:15])
 - Record distribution growth (10.55 sen DPU [A:21])
@@ -977,4 +978,4 @@ This report reflects data as of **December 31, 2025** [A:103] with updates throu
 
 **Report Prepared:** April 2026 [A:2]  
 **Data Coverage:** FY 2025 (January 1 - December 31, 2025) [A:3]  
-**Next Expected Update:** Q1 2026 results (April-May 2026) [A:352]
+**Next Expected Update:** Q1 2026 results (confirmed April 29, 2026) [A:352]

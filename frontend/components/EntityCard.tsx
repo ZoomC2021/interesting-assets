@@ -82,9 +82,9 @@ export function EntityCard({
               </h3>
             </Link>
             <div className="flex items-center gap-2 mt-1">
-              <span className="text-xs font-medium text-muted">{entity.code}</span>
+              <span className="text-body-sm font-medium text-muted">{entity.code}</span>
               {entity.isShariahCompliant && (
-                <span className="text-xs px-1.5 py-0.5 bg-emerald-50 text-emerald-700 rounded">
+                <span className="text-body-sm px-1.5 py-0.5 bg-emerald-50 text-emerald-700 rounded">
                   Shariah
                 </span>
               )}
@@ -104,7 +104,7 @@ export function EntityCard({
         {comparison && (
           <div className="mt-3 pt-3 border-t border-stroke">
             <div className="flex items-center gap-2">
-              <span className="text-xs text-muted">Sector ranking:</span>
+              <span className="text-body-sm text-muted">Sector ranking:</span>
               <PercentileBar
                 percentile={comparison.percentile}
                 isHigherBetter={true}
@@ -122,7 +122,7 @@ export function EntityCard({
           <div>
             <div className="text-label">Dividend Yield</div>
             <div className="text-metric">
-              {typeof dividendYield === 'number' ? formatPercentage(dividendYield / 100) : 'N/A'}
+              {typeof dividendYield === 'number' ? formatPercentage(dividendYield) : 'N/A'}
             </div>
           </div>
           <RiskBadge severity={riskSeverity} size="sm" />
@@ -143,13 +143,13 @@ export function EntityCard({
           <div>
             <dt className="text-label">Gearing</dt>
             <dd className="text-metric-sm">
-              {typeof gearing === 'number' ? formatPercentage(gearing / 100) : '—'}
+              {typeof gearing === 'number' ? formatPercentage(gearing) : '—'}
             </dd>
           </div>
           <div>
             <dt className="text-label">Occupancy</dt>
             <dd className="text-metric-sm">
-              {typeof occupancy === 'number' ? formatPercentage(occupancy / 100) : '—'}
+              {typeof occupancy === 'number' ? formatPercentage(occupancy) : '—'}
             </dd>
           </div>
         </dl>
@@ -159,13 +159,13 @@ export function EntityCard({
       <div className="p-3 border-t border-stroke flex items-center gap-2">
         <Link
           href={`/entity/${entity.code}`}
-          className="flex-1 text-center py-2 text-sm font-medium text-primary-600 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors"
+          className="flex-1 text-center py-2 text-body font-medium text-primary-600 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors"
         >
           View Details
         </Link>
         <Link
           href={`/compare?entities=${entity.code}`}
-          className="flex-1 text-center py-2 text-sm font-medium text-ink bg-surfaceAlt rounded-lg hover:bg-surfaceHover transition-colors"
+          className="flex-1 text-center py-2 text-body font-medium text-ink bg-surfaceAlt rounded-lg hover:bg-surfaceHover transition-colors"
         >
           Compare
         </Link>
@@ -184,10 +184,10 @@ interface MetricCellProps {
 function MetricCell({ label, value, highlight = false }: MetricCellProps) {
   return (
     <div className="bg-white p-3 text-center">
-      <div className={`text-sm font-semibold ${highlight ? 'text-blue-600' : 'text-gray-900'}`}>
+      <div className={`text-metric-sm ${highlight ? 'text-blue-600' : 'text-gray-900'}`}>
         {value}
       </div>
-      <div className="text-xs text-gray-500 mt-0.5">{label}</div>
+      <div className="text-body-sm text-gray-500 mt-0.5">{label}</div>
     </div>
   );
 }
@@ -254,11 +254,11 @@ export function FilterBottomSheet({
         <div className="p-4">
           <div className="w-12 h-1 bg-gray-300 rounded-full mx-auto mb-4" />
           
-          <h3 className="text-lg font-semibold mb-4">Filters</h3>
+          <h3 className="text-metric mb-4">Filters</h3>
           
           {/* Sector filter */}
           <div className="mb-4">
-            <label className="block text-sm font-medium text-gray-700 mb-2">Sector</label>
+            <label className="block text-body font-medium text-gray-700 mb-2">Sector</label>
             <select
               value={filters.sector}
               onChange={(e) => onFilterChange({ ...filters, sector: e.target.value })}
@@ -273,13 +273,13 @@ export function FilterBottomSheet({
           
           {/* Shariah filter */}
           <div className="mb-6">
-            <label className="block text-sm font-medium text-gray-700 mb-2">Type</label>
+            <label className="block text-body font-medium text-gray-700 mb-2">Type</label>
             <div className="flex gap-2">
               {(['all', 'yes', 'no'] as const).map((option) => (
                 <button
                   key={option}
                   onClick={() => onFilterChange({ ...filters, shariah: option })}
-                  className={`flex-1 py-2 rounded-lg border text-sm font-medium ${
+                  className={`flex-1 py-2 rounded-lg border text-body font-medium ${
                     filters.shariah === option
                       ? 'border-blue-500 bg-blue-50 text-blue-700'
                       : 'border-gray-300 text-gray-700'

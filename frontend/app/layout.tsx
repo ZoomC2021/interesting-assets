@@ -40,7 +40,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased bg-neutral-50 text-neutral-900">
+      <body className="antialiased bg-canvas text-ink">
         {/* Skip to main content link for accessibility */}
         <a href="#main-content" className="skip-link">
           Skip to main content

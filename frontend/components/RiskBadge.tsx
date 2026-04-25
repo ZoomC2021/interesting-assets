@@ -59,9 +59,9 @@ const severityColors: Record<RiskSeverity, {
 };
 
 const sizeClasses = {
-  sm: 'px-2 py-1 text-[11px]',
-  md: 'px-2.5 py-1 text-xs',
-  lg: 'px-3 py-1.5 text-sm',
+  sm: 'px-2 py-1 text-label',
+  md: 'px-2.5 py-1 text-data',
+  lg: 'px-3 py-1.5 text-body',
 };
 
 // Static bar colors for Tailwind JIT - must be literal strings
@@ -110,7 +110,7 @@ export function RiskBadge({
         title={`Risk: ${label} (${citationCount} sources)`}
       >
         {badgeContent}
-        <span className={`inline-flex items-center justify-center min-w-[14px] h-3.5 px-0.5 rounded-full text-[10px] bg-white/70 ${isHovered ? 'bg-white' : ''}`}>
+        <span className={`inline-flex items-center justify-center min-w-[14px] h-3.5 px-0.5 rounded-full text-2xs bg-white/70 ${isHovered ? 'bg-white' : ''}`}>
           {citationCount}
         </span>
       </button>
@@ -161,7 +161,7 @@ export function RiskDot({ severity, size = 'sm', className = '', citationCount =
       >
         <span className="relative inline-flex items-center justify-center">
           <span className={`rounded-full ${dotSizeClasses[size]} ${colors.dot}`} />
-          <span className="absolute -top-1 -right-1 w-3 h-3 bg-primary-500 text-white text-[8px] rounded-full flex items-center justify-center">
+          <span className="absolute -top-1 -right-1 w-3 h-3 bg-primary-500 text-white text-2xs rounded-full flex items-center justify-center">
             {citationCount}
           </span>
         </span>
@@ -224,8 +224,8 @@ export function RiskSummary({ risks, showDetails = false, className = '', onCita
   if (risks.length === 0) {
     return (
       <div className={`flex items-center gap-2 ${className}`}>
-        <span className="text-xs px-2 py-1 bg-gray-100 text-gray-500 rounded">N/A</span>
-        <span className="text-xs text-gray-500">No risk factors assessed</span>
+        <span className="text-body-sm px-2 py-1 bg-gray-100 text-gray-500 rounded">N/A</span>
+        <span className="text-body-sm text-gray-500">No risk factors assessed</span>
       </div>
     );
   }
@@ -249,7 +249,7 @@ export function RiskSummary({ risks, showDetails = false, className = '', onCita
     return (
       <div className={`flex items-center gap-2 ${className}`}>
         <RiskBadge severity={overall} size="sm" showLabel />
-        <span className="text-xs text-gray-500">
+        <span className="text-body-sm text-gray-500">
           {risks.length} factors
         </span>
       </div>
@@ -260,7 +260,7 @@ export function RiskSummary({ risks, showDetails = false, className = '', onCita
     <div className={`space-y-2 ${className}`}>
       <div className="flex items-center gap-2">
         <RiskBadge severity={overall} size="sm" showLabel />
-        <span className="text-xs text-gray-500">
+        <span className="text-body-sm text-gray-500">
           {risks.length} risk factors assessed
         </span>
       </div>
@@ -276,7 +276,7 @@ export function RiskSummary({ risks, showDetails = false, className = '', onCita
           />
         ))}
         {risks.length > 4 && (
-          <span className="text-xs text-gray-400">+{risks.length - 4}</span>
+          <span className="text-body-sm text-gray-400">+{risks.length - 4}</span>
         )}
       </div>
     </div>

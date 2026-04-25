@@ -4,26 +4,19 @@
 
 @layer base {
   body {
-    @apply bg-canvas text-ink antialiased;
+    /* Default body text uses the compact `text-body` token (13px / 18px lh) */
+    @apply bg-canvas text-ink antialiased text-body;
     font-feature-settings: "tnum" 1, "lnum" 1;
   }
 }
 
 @layer utilities {
+  /* Manual numeric-style utility. All typography size tokens
+     (text-micro, text-label, text-body-sm, text-data, text-metric-sm,
+      text-body, text-metric) are defined in tailwind.config.ts
+     (fontSize) and augmented by the typography plugin there. */
   .tabular {
     font-variant-numeric: tabular-nums lining-nums;
-  }
-  .text-label {
-    @apply text-[11px] font-medium uppercase tracking-[0.08em] text-muted;
-  }
-  .text-data {
-    @apply text-[13px] leading-5 text-ink;
-  }
-  .text-metric {
-    @apply tabular text-[18px] leading-6 font-semibold tracking-[-0.02em] text-ink;
-  }
-  .text-metric-sm {
-    @apply tabular text-[15px] leading-5 font-semibold text-ink;
   }
 }
 

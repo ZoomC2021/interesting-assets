@@ -311,7 +311,7 @@ Atrium REIT's 9-property portfolio has **higher age concentration risk** than Ax
 | **Aug-Oct 2022** [T:218] | Parent filed Chapter 11 bankruptcy; debt reduced from $1.7B to $400M [T:219] | 🔴 High |
 | **March 2025** [T:220] | S&P downgraded to **'SD' (Selective Default)** for deferring interest [T:221] | 🔴 **Critical** |
 | **Jan 2025** [T:222] | Lost PIK interest option; must pay cash interest [T:223] | 🔴 High |
-| **April 2026** [T:224] | Acquisition by San'an/Inari **blocked by US CFIUS** [T:225] | 🔴 Uncertainty |
+| **April 17, 2026** [T:224] | **Formal termination** of proposed $239M joint acquisition by San'an/Inari — **blocked by US CFIUS on national security grounds** [T:225] | 🔴 **Primary Headwind** |
 
 **Current S&P Rating:** **SD (Selective Default)** as of March 3, 2025 [T:226]
 
@@ -345,11 +345,13 @@ Atrium REIT's 9-property portfolio has **higher age concentration risk** than Ax
 - 🔴 Parent company in **selective default** (S&P rating 'SD') [T:244]
 - 🔴 **~21% revenue concentration** [T:245] - single tenant loss would be severe
 - 🔴 Recent Chapter 11 bankruptcy (2022) [T:246] and ongoing financial restructuring
-- 🔴 Failed acquisition (April 2026) [T:247] creates ownership uncertainty
+- 🔴 **$239M acquisition by San'an/Inari formally terminated April 17, 2026** [T:247] — blocked by US CFIUS on national security grounds; collapses the "stabilization deal" and increases long-term ownership uncertainty as a **primary headwind**
 - 🔴 Negative free cash flow and liquidity constraints at parent level [T:248]
 
 **Key Risk Summary for Atrium REIT Investors:**
 > Lumileds represents a **"good company, bad balance sheet"** scenario. The Malaysia operations are strategically important with a long-term lease commitment, but the parent company's financial distress (S&P 'SD' rating) introduces material counterparty risk. The 15-year lease provides contractual protection, but investors should monitor any restructuring actions that might affect subsidiary operations. The concentration risk (~21% of revenue) amplifies the impact of any Lumileds-related issues.
+>
+> **⚠️ April 2026 Update:** On **April 17, 2026**, the proposed $239M joint acquisition of Lumileds by Inari Amertron and San'an Optoelectronics was **formally terminated** after being blocked by US regulators (CFIUS) on national security grounds. This collapse of Lumileds' "stabilization deal" removes a potential ownership solution, increases long-term restructuring uncertainty, and elevates Lumileds tenant risk to a **primary headwind** for Atrium REIT.
 
 **Recommendation:** Monitor Lumileds' parent company restructuring developments, any announcements regarding the Malaysia subsidiary, and Atrium REIT's tenant concentration disclosures in future filings.
 
@@ -544,47 +546,47 @@ Atrium REIT's 9-property portfolio has **higher age concentration risk** than Ax
 #### Current Market Data (April 2026)
 | Metric | Value | Source |
 |--------|-------|--------|
-| **Current Share Price** | **RM 1.280** [T:371] | KLSE Screener [T:372] |
+| **Current Share Price** | **RM 1.26** [T:371] | KLSE Screener [T:372] (mid-April 2026) |
 | **NAV per Unit** | RM 1.3874 [T:373] | FY 2025 Annual Report |
 | **2025 DPU** | 9.30 sen [T:374] | Full year distribution |
-| **Market Dividend Yield** | **7.27%** [T:375] | 9.30 sen ÷ RM 1.280 |
-| **Price-to-Book (P/B)** | **0.92x** [T:376] | Trading at 8% discount to NAV [T:377] |
-| **Market Cap** | RM 340 million [T:378] | Small-cap classification |
+| **Market Dividend Yield** | **7.38%** [T:375] | 9.30 sen ÷ RM 1.26 |
+| **Price-to-Book (P/B)** | **0.91x** [T:376] | Trading at 9.2% discount to NAV [T:377] |
+| **Market Cap** | ~RM 335 million [T:378] | Small-cap classification |
 
 #### Understanding Yield Metrics
 
 | Yield Type | Calculation | Atrium REIT | What It Means |
 |------------|-------------|-------------|---------------|
-| **Market Yield** | DPU ÷ Current Share Price | **7.27%** [T:379] | ✅ Actual investor return |
+| **Market Yield** | DPU ÷ Current Share Price | **7.38%** [T:379] | ✅ Actual investor return |
 | **NAV-Based Yield** | DPU ÷ NAV per unit | **6.7%** [T:380] | Operational efficiency metric |
 
 **Why the difference?**
-- Atrium REIT trades at **RM 1.280** [T:381] vs NAV of **RM 1.3874** [T:382]
-- This is an **8% discount to NAV** (P/B = 0.92x) [T:383]
-- The discount provides **yield enhancement**: 7.27% market yield vs 6.7% NAV yield [T:384]
+- Atrium REIT trades at **RM 1.26** [T:381] vs NAV of **RM 1.3874** [T:382]
+- This is a **9.2% discount to NAV** (P/B = 0.91x) [T:383]
+- The discount provides **yield enhancement**: 7.38% market yield vs 6.7% NAV yield [T:384]
 
 #### Comparison Context (April 2026)
 | REIT | Current Price | NAV | P/B | Market Yield | Status |
 |------|---------------|-----|-----|--------------|--------|
-| **Atrium REIT** | RM 1.280 [T:385] | RM 1.3874 [T:386] | **0.92x** [T:387] | **7.27%** [T:388] | Discount |
-| **Axis REIT** | RM 2.050 [T:389] | RM 1.6907 [T:390] | **1.21x** [T:391] | **5.15%** [T:392] | Premium |
-| **Difference** | - | - | - | **+2.12pp** [T:393] | Atrium advantage |
+| **Atrium REIT** | RM 1.26 [T:385] | RM 1.3874 [T:386] | **0.91x** [T:387] | **7.38%** [T:388] | Discount |
+| **Axis REIT** | RM 2.02 [T:389] | RM 1.6907 [T:390] | **1.20x** [T:391] | **5.22%** [T:392] | Premium |
+| **Difference** | - | - | - | **+2.16pp** [T:393] | Atrium advantage |
 
 #### Key Insights
 
-**Atrium REIT's 7.27% Market Yield:**
-- ✅ Higher than Axis REIT's 5.15% (by 2.12 percentage points) [T:394]
-- ⚠️ But trades at **discount** (0.92x P/B) [T:395] vs Axis at **premium** (1.21x P/B) [T:396]
+**Atrium REIT's 7.38% Market Yield:**
+- ✅ Higher than Axis REIT's 5.22% (by 2.16 percentage points) [T:394]
+- ⚠️ But trades at **discount** (0.91x P/B) [T:395] vs Axis at **premium** (1.20x P/B) [T:396]
 - ⚠️ Discount reflects market's risk pricing: liquidity, concentration, interest rate exposure [T:397]
 
 **Yield Premium is Compensation for Risk:**
 The ~2.1pp yield advantage is **not free money** [T:398] - it compensates for:
-- Liquidity risk (RM 340M vs RM 4.15B market cap) [T:399]
+- Liquidity risk (RM 335M vs RM 4.09B market cap) [T:399]
 - Concentration risk (9 vs 69 properties, Lumileds ~21% income) [T:400]
 - Interest rate risk (~93% floating vs 65% fixed) [T:401]
 - Transparency gaps (no WALE, tenant % disclosed) [T:402]
 
-**⚠️ For Investment Decisions:** Always use **market price-based yield** (7.27% at current RM 1.280) [T:403], not NAV yield. Verify latest price on [KLSE Screener](https://www.klsescreener.com/v2/stocks/5130) or [Bursa Malaysia](https://www.bursamalaysia.com).
+**⚠️ For Investment Decisions:** Always use **market price-based yield** (7.38% at current RM 1.26) [T:403], not NAV yield. Verify latest price on [KLSE Screener](https://www.klsescreener.com/v2/stocks/5130) or [Bursa Malaysia](https://www.bursamalaysia.com).
 
 ### 4.5 Dividend Sustainability Factors
 | Factor | Status | Impact on DPU |
@@ -730,7 +732,7 @@ Atrium REIT demonstrates strong operational metrics (occupancy, DPU growth) but 
 | Metric | Atrium REIT (5130) | Axis REIT (5106) | Winner | Delta |
 |--------|-------------------|------------------|--------|-------|
 | **Stock Code** | 5130.KL [T:446] | 5106.KL [T:447] | - | Both Bursa Malaysia Main Market |
-| **Portfolio Size** | 9 properties [T:448] | 69 properties [T:449] | Axis | 7.7x more properties |
+| **Portfolio Size** | 9 properties [T:448] | 70 properties [T:449] | Axis | 7.8x more properties |
 | **Total Assets (AUM)** | RM 723 million [T:450] | RM 5.36 billion [T:451] | Axis | 7.4x larger |
 | **Property Value** | RM 685 million [T:452] | ~RM 5.0 billion [T:453] | Axis | Based on disclosed data |
 | **Geographic Coverage** | Klang Valley (78%) + Penang (22%) [T:454] | Nationwide (6 states) [T:455] | Axis | Better diversification |
@@ -747,10 +749,10 @@ Atrium REIT demonstrates strong operational metrics (occupancy, DPU growth) but 
 | **2025 DPU** | 9.30 sen [T:475] | **10.55 sen** [T:476] | Axis | +13.4% higher |
 | **DPU Growth (2025)** | +22.4% [T:477] | +13.8% [T:478] | Atrium | +8.6pp higher growth |
 | **NAV-Based Yield** | ~6.7% [T:479] | ~6.2% [T:480] | Atrium | +0.5pp |
-| **Market Yield (Actual)** | **7.27%** [T:481] | **5.15%** [T:482] | Atrium | **+2.12pp higher** |
-| **Trading Status** | 8% discount (P/B 0.92x) [T:483] | 21% premium (P/B 1.21x) [T:484] | - | Opposite valuations |
+| **Market Yield (Actual)** | **7.38%** [T:481] | **5.22%** [T:482] | Atrium | **+2.16pp higher** |
+| **Trading Status** | 9.2% discount (P/B 0.91x) [T:483] | 19.5% premium (P/B 1.20x) [T:484] | - | Opposite valuations |
 
-*Source: KLSE Screener, April 2026. Atrium RM 1.280 [T:485], Axis RM 2.050 [T:486]
+*Source: KLSE Screener, April 2026. Atrium RM 1.26 [T:485], Axis RM 2.02 [T:486]
 | **Payout Ratio** | ~30% [T:487] | ~75-76% [T:488] | Atrium | More conservative |
 | **NAV per Unit** | RM 1.3874 [T:489] | RM 1.64 [T:490] | Axis | +18.2% higher |
 | **Tenant Count** | Not disclosed | **182 tenants** [T:491] | Axis | Diversification |
@@ -817,9 +819,9 @@ Top 10 Tenant %           Unknown        46.7%          Axis disclosure
 2025 DPU                  9.30 sen       10.55 sen      Axis +13.4% higher
 DPU Growth (YoY)          +22.4%         +13.8%         Atrium momentum
 NAV-Based Yield           ~6.7%          ~6.2%          Atrium +0.5pp
-Market Yield (Actual)     **7.27%**      **5.15%**      Atrium **+2.12pp**
-Current Price (April)     RM 1.280       RM 2.050       - RM 0.77 diff
-P/B Ratio                 0.92x (disc)   1.21x (prem)   Opposite valuations
+Market Yield (Actual)     **7.38%**      **5.22%**      Atrium **+2.16pp**
+Current Price (April)     RM 1.26        RM 2.02        - RM 0.76 diff
+P/B Ratio                 0.91x (disc)   1.20x (prem)   Opposite valuations
 Payout Ratio              ~30%           ~75-76%        Atrium conservative
 ```
 
@@ -921,7 +923,7 @@ Payout Ratio              ~30%           ~75-76%        Atrium conservative
 | **Absolute DPU** | Axis REIT | **Moderate** | 10.55 sen vs 9.30 sen (+13.4%) |
 | **DPU Growth Momentum** | Atrium REIT | **Moderate** | +22.4% vs +13.8% YoY |
 | **NAV-Based Yield** | Atrium REIT | **Narrow** | ~6.7% vs ~6.2% (+0.5pp) |
-| **Market Yield (Actual April 2026)** | Atrium REIT | **Significant** | **7.27% vs 5.15% (+2.12pp)** |
+| **Market Yield (Actual April 2026)** | Atrium REIT | **Significant** | **7.38% vs 5.22% (+2.16pp)** |
 | **Shariah Compliance** | Axis REIT | **Binary** | Yes vs No |
 | **Risk-Adjusted Returns** | Axis REIT | **Significant** | Lower risk, strong returns |
 | **Institutional Suitability** | Axis REIT | **Significant** | Liquidity, 20yr track record, compliance |
@@ -954,23 +956,23 @@ Atrium REIT's **~21% rental income concentration from Lumileds** - whose parent 
 **Yield Reality Check:**
 
 **Actual Market Yields (April 2026):**
-- Atrium REIT: **7.27%** (at RM 1.280 share price)
-- Axis REIT: **5.15%** (at RM 2.050 share price)
-- **Difference: +2.12 percentage points** in Atrium's favor
+- Atrium REIT: **7.38%** (at RM 1.26 share price)
+- Axis REIT: **5.22%** (at RM 2.02 share price)
+- **Difference: +2.16 percentage points** in Atrium's favor
 
 **Why the Large Yield Gap?**
 The ~2.1pp yield advantage is **compensation for risks**, not free returns:
 
 | Factor | Atrium REIT | Axis REIT |
 |--------|-------------|-----------|
-| **Market Valuation** | 8% discount (P/B 0.92x) | 21% premium (P/B 1.21x) |
-| **Market Cap** | RM 340M (small-cap) | RM 4.15B (mid-cap) |
+| **Market Valuation** | 9.2% discount (P/B 0.91x) | 19.5% premium (P/B 1.20x) |
+| **Market Cap** | RM 335M (small-cap) | RM 4.09B (mid-cap) |
 | **Liquidity Risk** | 🔴 High | 🟢 Low |
 | **Concentration Risk** | 🔴 9 properties, Lumileds ~21% | 🟢 69 properties, 182 tenants |
 | **Interest Rate Risk** | 🔴 ~93% floating, no hedging | 🟢 65% fixed, active hedging |
 | **Transparency Risk** | 🟡 WALE, tenant % unknown | 🟢 Disclosed (4.4yr, 46.7%) |
 
-**Bottom Line:** The 7.27% yield is **risk-adjusted compensation** - investors demand higher returns for bearing higher risks. Whether that compensation is adequate depends on individual risk tolerance.
+**Bottom Line:** The 7.38% yield is **risk-adjusted compensation** - investors demand higher returns for bearing higher risks. Whether that compensation is adequate depends on individual risk tolerance.
 
 **For most investors, Axis REIT's lower risk profile justifies its slightly lower yield.**
 
@@ -1014,12 +1016,15 @@ The ~2.1pp yield advantage is **compensation for risks**, not free returns:
 - ✅ **AEI Strategy Success:** ASA4 (DHL) and ASA5 (undisclosed) both secured tenants post-enhancement [T:542]
 
 ### 8.2 Areas to Monitor
-- 🔴 **Lumileds Credit Risk:** Parent company (Lumileds Holding B/V) in selective default (S&P 'SD' rating) [T:543]. Monitor restructuring developments and any impact on Malaysia subsidiary operations
-- ⚠️ **Tenant Concentration:** Lumileds contributes ~21% of rental income (RM 10.7M/year) [T:544]. Any operational/financial issues would severely impact Atrium REIT
+- 🔴 **Lumileds Credit Risk — Primary Headwind:** Parent company (Lumileds Holding B/V) in selective default (S&P 'SD' rating) [T:543]. On **April 17, 2026**, the proposed $239M joint acquisition by Inari Amertron and San'an Optoelectronics was **formally terminated after CFIUS blocked it on national security grounds**, eliminating a key stabilization path. Monitor for any new restructuring actions and impact on Malaysia subsidiary operations.
+- ⚠️ **Tenant Concentration:** Lumileds contributes ~21% of rental income (RM 10.7M/year) [T:544]. The collapse of the $239M acquisition deal amplifies the risk that any Lumileds-related operational or financial event would severely impact Atrium REIT
 - ⚠️ **Asset Age Concentration:** 44% of portfolio from 2007 IPO [T:545] (now ~18-36 years old [T:546]); Bayan Lepas 1 is 54 years old (built 1972) [T:547]. Monitor AEI needs and capex requirements for aging assets
 - ⚠️ **Interest Coverage:** 2.09x [T:548] is adequate but at lower end of comfort zone
 - ⚠️ **Single Asset Impact:** With only 9 properties [T:549], single tenant/Asset events have outsized impact
 - ⚠️ **Interest Rate Sensitivity:** Monitor borrowing cost trends in 2026 [T:550]
+
+### 8.2a Next Catalyst: Q1 2026 Results (Imminent)
+- 📅 **Q1 2026 Unaudited Results** — Based on historical filing patterns (Q4 2025 results released January 29, 2026), Q1 2026 results are expected around **April 29–30, 2026**. No official release date has been announced. This is an imminent monitoring point; results will show the first full-quarter contribution from ASA5 and any impact from Lumileds-related developments.
 
 ### 8.3 Comparative Context (vs Axis REIT 5106.KL)
 | Metric | Atrium REIT (5130) | Axis REIT (5106) |
@@ -1181,4 +1186,4 @@ This report reflects data as of **December 31, 2025** (FY 2025) [T:614] with the
 
 **Report Prepared:** April 2026 [T:616]
 **Data Coverage:** FY 2025 (January 1 - December 31, 2025) [T:617]
-**Next Expected Update:** Q1 2026 results (around May 2026) [T:618]
+**Next Expected Update:** Q1 2026 results (expected ~April 29–30, 2026 based on historical filing patterns) [T:618]

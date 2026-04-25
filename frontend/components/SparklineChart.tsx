@@ -30,7 +30,7 @@ export function SparklineChart({
   if (data.length < 2) {
     return (
       <svg width={width} height={height} className={className}>
-        <text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" fontSize="10" fill="#94a3b8">
+        <text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" className="text-label" fill="#94a3b8">
           -
         </text>
       </svg>
@@ -126,7 +126,7 @@ export function SparklineWithTrend({
       <SparklineChart {...sparklineProps} data={data} color={trendColor} />
       {showTrend && trend !== 0 && (
         <span 
-          className="text-xs font-medium"
+          className="text-body-sm font-medium"
           style={{ color: trendColor }}
         >
           {trendIcon}

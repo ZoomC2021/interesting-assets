@@ -79,7 +79,7 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-neutral-50 flex items-center justify-center">
+      <div className="min-h-screen bg-canvas flex items-center justify-center">
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600" aria-label="Loading" />
       </div>
     );
@@ -87,9 +87,9 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
 
   if (error || !entity) {
     return (
-      <div className="min-h-screen bg-neutral-50 flex items-center justify-center">
+      <div className="min-h-screen bg-canvas flex items-center justify-center">
         <div className="text-center">
-          <p className="text-red-600 mb-4">{error || 'Entity not found'}</p>
+          <p className="text-danger-600 mb-4">{error || 'Entity not found'}</p>
           <button
             onClick={() => router.push('/compare')}
             className="text-primary-600 hover:text-primary-700 font-medium"
@@ -103,25 +103,25 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
 
   const cardShell =
     'rounded-lg border border-stroke bg-surface p-4 shadow-card';
-  const cardTitle = 'text-sm font-semibold text-neutral-900 mb-2';
-  const metricLabel = 'text-xs text-neutral-500 mb-1';
-  const metricValue = 'text-xl font-bold text-neutral-900';
-  const metricSub = 'text-xs text-neutral-500 mt-2';
+  const cardTitle = 'text-body-sm font-semibold text-ink mb-2';
+  const metricLabel = 'text-label text-muted mb-1';
+  const metricValue = 'text-metric-sm text-ink';
+  const metricSub = 'text-label text-muted mt-2';
 
   return (
-    <div className="min-h-screen bg-neutral-50">
+    <div className="min-h-screen bg-canvas">
       {/* Screen reader announcements */}
       <div {...liveRegionProps.polite} />
       <div {...liveRegionProps.assertive} />
 
       {/* Header */}
-      <header className="bg-white border-b border-neutral-200 sticky top-0 z-30">
+      <header className="bg-surface border-b border-stroke sticky top-0 z-30">
         <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
           <div className="flex items-center justify-between gap-2 h-12 min-h-12">
             <div className="flex items-center gap-2 min-w-0">
               <button
                 onClick={() => router.push('/compare')}
-                className="text-neutral-500 hover:text-neutral-700 focus:outline-none focus:ring-2 focus:ring-primary-500 rounded p-0.5 shrink-0"
+                className="text-muted hover:text-ink focus:outline-none focus:ring-2 focus:ring-primary-500 rounded p-0.5 shrink-0"
                 aria-label="Go back"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -129,17 +129,17 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
                 </svg>
               </button>
               <div className="min-w-0 flex flex-col justify-center sm:flex-row sm:items-baseline sm:gap-1.5">
-                <h1 className="text-sm font-semibold text-neutral-900 truncate leading-tight">{entity.entity.name}</h1>
-                <span className="text-[11px] text-neutral-500 font-mono leading-tight">{entity.entity.code}</span>
+                <h1 className="text-body-sm font-semibold text-ink truncate leading-tight">{entity.entity.name}</h1>
+                <span className="text-micro text-muted font-mono leading-tight">{entity.entity.code}</span>
               </div>
             </div>
             <div className="flex items-center gap-1.5 shrink-0">
-              <span className="text-[10px] px-1.5 py-0.5 bg-neutral-100 rounded text-neutral-600">
+              <span className="text-micro px-1.5 py-0.5 bg-surfaceAlt rounded text-muted">
                 {entity.entity.exchange}
               </span>
               {entity.entity.isShariahCompliant && (
                 <span
-                  className="text-[10px] px-1.5 py-0.5 bg-success-100 text-success-700 rounded"
+                  className="text-micro px-1.5 py-0.5 bg-success-100 text-success-700 rounded"
                   title="Shariah compliant"
                 >
                   Shariah
@@ -154,14 +154,14 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
         {/* Citation Filter Bar */}
         <div className={cardShell + ' mb-4'}>
           <div className="flex flex-wrap items-center gap-2">
-            <span className="text-xs font-medium text-neutral-600">Filter sources by type:</span>
+            <span className="text-label text-muted">Filter sources by type:</span>
             <div className="flex flex-wrap gap-2">
               <button
                 onClick={() => handleFilterChange('all')}
-                className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
+                className={`px-3 py-1.5 rounded-full text-label font-medium transition-colors ${
                   activeCitationFilter === 'all'
                     ? 'bg-primary-600 text-white'
-                    : 'bg-neutral-100 text-neutral-600 hover:bg-neutral-200'
+                    : 'bg-surfaceAlt text-muted hover:bg-surface'
                 }`}
                 aria-pressed={activeCitationFilter === 'all'}
               >
@@ -175,10 +175,10 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
                   <button
                     key={type}
                     onClick={() => handleFilterChange(type)}
-                    className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
+                    className={`px-3 py-1.5 rounded-full text-label font-medium transition-colors ${
                       activeCitationFilter === type
                         ? 'bg-primary-100 text-primary-700 border border-primary-300'
-                        : 'bg-neutral-100 text-neutral-600 hover:bg-neutral-200'
+                        : 'bg-surfaceAlt text-muted hover:bg-surface'
                     }`}
                     aria-pressed={activeCitationFilter === type}
                     aria-label={`Filter by ${type} (${count} sources)`}
@@ -190,7 +190,7 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
                 );
               })}
             </div>
-            <span className="text-xs text-neutral-500 ml-auto">
+            <span className="text-label text-muted ml-auto">
               {filteredCitationIds.length} source{filteredCitationIds.length !== 1 ? 's' : ''} selected
             </span>
           </div>
@@ -202,7 +202,7 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
               <p className={metricLabel}>Portfolio Size</p>
               <p className={metricValue}>
                 {entity.metrics.find(m => m.metricType === 'property_count')?.value || 'N/A'}
-                <span className="ml-1 text-xs font-normal text-neutral-500">properties</span>
+                <span className="ml-1 text-label font-normal text-muted">properties</span>
               </p>
             </div>
             <p className={metricSub}>
@@ -216,7 +216,7 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
               <p className={metricLabel}>Distribution per unit</p>
               <p className={metricValue}>
                 {entity.metrics.find(m => m.metricType === 'dpu')?.value || 'N/A'}
-                <span className="ml-1 text-xs font-normal text-neutral-500">sen</span>
+                <span className="ml-1 text-label font-normal text-muted">sen</span>
               </p>
             </div>
             <p className={metricSub}>
@@ -259,7 +259,7 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
         </div>
 
         <div className="mb-6">
-          <h3 className="mb-3 text-sm font-semibold text-neutral-900">All metrics</h3>
+          <h3 className="mb-3 text-body-sm font-semibold text-ink">All metrics</h3>
           <KpiGrid entities={data} category="all" onMetricClick={handleMetricClick} />
         </div>
 
@@ -267,17 +267,17 @@ export default function EntityDetailClient({ entityId }: EntityDetailClientProps
           <h3 className={cardTitle}>Management</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-              <p className="text-sm text-neutral-500">REIT Manager</p>
-              <p className="font-medium text-neutral-900">{entity.entity.manager.name}</p>
+              <p className="text-body-sm text-muted">REIT Manager</p>
+              <p className="font-medium text-ink">{entity.entity.manager.name}</p>
             </div>
             <div>
-              <p className="text-sm text-neutral-500">Trustee</p>
-              <p className="font-medium text-neutral-900">{entity.entity.trustee}</p>
+              <p className="text-body-sm text-muted">Trustee</p>
+              <p className="font-medium text-ink">{entity.entity.trustee}</p>
             </div>
             {entity.entity.manager.ownershipStructure && (
               <div>
-                <p className="text-sm text-neutral-500">Ownership Structure</p>
-                <p className="font-medium text-neutral-900">{entity.entity.manager.ownershipStructure}</p>
+                <p className="text-body-sm text-muted">Ownership Structure</p>
+                <p className="font-medium text-ink">{entity.entity.manager.ownershipStructure}</p>
               </div>
             )}
           </div>

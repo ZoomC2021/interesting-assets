@@ -75,7 +75,7 @@ export function MetricCard({
           aria-hidden="true"
         >
           <span 
-            className={`inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 rounded-full text-xs font-medium transition-colors ${
+            className={`inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 rounded-full text-body-sm font-medium transition-colors ${
               isHovered 
                 ? 'bg-primary-600 text-white' 
                 : 'bg-primary-100 text-primary-700'
@@ -93,19 +93,19 @@ export function MetricCard({
           className="w-2 h-2 rounded-full" 
           style={{ backgroundColor: entityColor }}
         />
-        <span className="text-xs text-neutral-500 uppercase tracking-wide">
+        <span className="text-label text-neutral-500">
           {entityName}
         </span>
       </div>
       
       {/* Metric name */}
-      <p className="text-sm text-neutral-600 mb-1">
+      <p className="text-body-sm text-neutral-600 mb-1">
         {definition?.displayName || metric.metricType}
       </p>
       
       {/* Metric value with quality indicators */}
       <div className="flex items-center gap-2">
-        <p className="text-xl font-bold text-neutral-900">
+        <p className="text-metric text-neutral-900">
           {formattedValue}
         </p>
         
@@ -124,7 +124,7 @@ export function MetricCard({
           )}
           {metric.isEstimated && (
             <span 
-              className="text-xs text-neutral-400 italic"
+              className="text-body-sm text-neutral-400 italic"
               title="Estimated value"
             >
               est.
@@ -136,7 +136,7 @@ export function MetricCard({
       {/* Comparison value */}
       {showComparison && formattedComparison && (
         <div className="mt-2 pt-2 border-t border-neutral-100">
-          <p className="text-xs text-neutral-500">vs {formattedComparison}</p>
+          <p className="text-body-sm text-neutral-500">vs {formattedComparison}</p>
         </div>
       )}
       
@@ -154,7 +154,7 @@ export function MetricCard({
               }}
             />
           </div>
-          <div className="flex justify-between text-xs text-neutral-400 mt-1">
+          <div className="flex justify-between text-body-sm text-neutral-400 mt-1">
             <span>0</span>
             <span>{definition.benchmarkRange.max || metric.value}</span>
           </div>
@@ -163,7 +163,7 @@ export function MetricCard({
       
       {/* Citation hint */}
       {hasCitations && (
-        <p className="text-xs text-primary-600 mt-2 flex items-center gap-1 opacity-70 hover:opacity-100 transition-opacity">
+        <p className="text-body-sm text-primary-600 mt-2 flex items-center gap-1 opacity-70 hover:opacity-100 transition-opacity">
           <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
@@ -174,7 +174,7 @@ export function MetricCard({
       {/* Hover preview tooltip */}
       {isHovered && hasCitations && (
         <div 
-          className="absolute bottom-full left-0 right-0 mb-2 p-3 bg-neutral-900 text-white text-xs rounded-lg shadow-lg z-20 opacity-0 animate-fade-in pointer-events-none"
+          className="absolute bottom-full left-0 right-0 mb-2 p-3 bg-neutral-900 text-white text-body-sm rounded-lg shadow-lg z-20 opacity-0 animate-fade-in pointer-events-none"
           style={{ animation: 'fadeIn 0.15s ease-out forwards' }}
           role="tooltip"
         >

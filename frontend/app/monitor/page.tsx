@@ -215,25 +215,25 @@ export default function MonitorPage() {
   }, [entities, selectedEntityForCitation]);
   
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-canvas">
       {/* Screen reader announcements */}
       <div {...liveRegionProps.polite} />
       <div {...liveRegionProps.assertive} />
 
       {/* Header */}
-      <header className="bg-white border-b border-gray-200 sticky top-0 z-30">
+      <header className="bg-surface border-b border-stroke sticky top-0 z-30">
         <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
           <div className="flex items-center justify-between h-12 min-h-12">
             <div className="flex items-center gap-2 min-w-0">
-              <div className="w-6 h-6 shrink-0 bg-blue-600 rounded-md flex items-center justify-center">
-                <span className="text-white font-bold text-[10px]">M</span>
+              <div className="w-6 h-6 shrink-0 bg-accent rounded-md flex items-center justify-center">
+                <span className="text-white font-semibold text-micro">M</span>
               </div>
               <div className="min-w-0">
-                <h1 className="text-sm font-semibold text-gray-900 leading-tight">Monitor</h1>
-                <nav className="text-[11px] text-gray-500 leading-tight" aria-label="Breadcrumb">
-                  <Link href="/" className="hover:text-gray-700">Home</Link>
+                <h1 className="text-body-sm font-semibold text-ink leading-tight">Monitor</h1>
+                <nav className="text-micro text-muted leading-tight" aria-label="Breadcrumb">
+                  <Link href="/" className="hover:text-ink">Home</Link>
                   <span className="mx-1">/</span>
-                  <span className="text-gray-900">Monitor</span>
+                  <span className="text-ink">Monitor</span>
                 </nav>
               </div>
             </div>
@@ -245,14 +245,14 @@ export default function MonitorPage() {
                     const e = entities.find(en => en.entity.id === id);
                     return e?.entity.code || id;
                   }).join(',')}`}
-                  className="px-2.5 py-1.5 bg-blue-600 text-white text-xs font-medium rounded-md hover:bg-blue-700 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="px-2.5 py-1.5 bg-accent text-white text-label font-medium rounded-md hover:bg-accent-strong transition-colors focus:outline-none focus:ring-2 focus:ring-accent"
                 >
                   Compare ({selectedIds.length})
                 </Link>
               )}
               <Link
                 href="/compare"
-                className="text-xs text-gray-600 hover:text-gray-900 px-2 py-1"
+                className="text-label text-muted hover:text-ink px-2 py-1"
               >
                 Comparison
               </Link>
@@ -278,24 +278,24 @@ export default function MonitorPage() {
       
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 py-4">
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 mb-4 text-xs text-gray-600">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 mb-4 text-label text-muted">
           <span>
-            Showing <strong className="text-gray-800">{sortedEntities.length}</strong> of <strong className="text-gray-800">{entities.length}</strong> REITs
+            Showing <strong className="text-ink">{sortedEntities.length}</strong> of <strong className="text-ink">{entities.length}</strong> REITs
           </span>
-          <span className="text-gray-300" aria-hidden>|</span>
+          <span className="text-stroke" aria-hidden>|</span>
           <span>
-            <strong className="text-gray-800">{ENTITY_TABLE_COLUMN_COUNT}</strong> columns
+            <strong className="text-ink">{ENTITY_TABLE_COLUMN_COUNT}</strong> columns
           </span>
-          <span className="text-gray-300" aria-hidden>|</span>
+          <span className="text-stroke" aria-hidden>|</span>
           <span>
-            <strong className="text-gray-800">{Object.keys(benchmarks).length}</strong> benchmark metrics
+            <strong className="text-ink">{Object.keys(benchmarks).length}</strong> benchmark metrics
           </span>
         </div>
         
         {/* Error State */}
         {error && (
-          <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg" role="alert">
-            <p className="text-red-700">{error}</p>
+          <div className="mb-6 p-4 bg-danger-50 border border-danger-200 rounded-lg" role="alert">
+            <p className="text-danger-700">{error}</p>
           </div>
         )}
         
@@ -310,7 +310,7 @@ export default function MonitorPage() {
           <>
             {/* Table View (Desktop) */}
             {viewMode === 'table' && (
-              <div className="hidden lg:block bg-white rounded-xl border border-gray-200 shadow-sm">
+              <div className="hidden lg:block bg-surface rounded-xl border border-stroke shadow-sm">
                 <EntityTable
                   data={sortedEntities}
                   comparisons={comparisonsMap}
@@ -345,7 +345,7 @@ export default function MonitorPage() {
         {/* Empty State */}
         {!isLoading && sortedEntities.length === 0 && (
           <div className="text-center py-12">
-            <p className="text-gray-500">No REITs match your filters.</p>
+            <p className="text-muted">No REITs match your filters.</p>
             <button
               onClick={() => setFilters({
                 search: '',
@@ -356,7 +356,7 @@ export default function MonitorPage() {
                 minMarketCap: null,
                 maxMarketCap: null,
               })}
-              className="mt-4 text-blue-600 hover:text-blue-800"
+              className="mt-4 text-accent hover:text-accent-strong"
             >
               Clear all filters
             </button>

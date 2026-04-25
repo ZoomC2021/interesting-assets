@@ -29,7 +29,7 @@ export function BenchmarkIndicator({
 }: BenchmarkIndicatorProps) {
   if (!comparison) {
     return (
-      <span className={`text-gray-400 ${size === 'sm' ? 'text-xs' : 'text-sm'} ${className}`}>
+      <span className={`text-gray-400 ${size === 'sm' ? 'text-body-sm' : 'text-body'} ${className}`}>
         —
       </span>
     );
@@ -45,9 +45,9 @@ export function BenchmarkIndicator({
   const percentileColor = getPercentileColor(percentile, isHigherBetter);
   
   const sizeClasses = {
-    sm: 'text-xs',
-    md: 'text-sm',
-    lg: 'text-base',
+    sm: 'text-body-sm',
+    md: 'text-data',
+    lg: 'text-body',
   };
   
   return (
@@ -78,7 +78,7 @@ export function BenchmarkIndicator({
       {/* vs Median */}
       {showVsMedian && (
         <span
-          className={`text-gray-500 ${size === 'sm' ? 'text-xs' : 'text-sm'}`}
+          className={`text-gray-500 ${size === 'sm' ? 'text-body-sm' : 'text-body'}`}
         >
           {vsMedian > 0 ? '+' : ''}{vsMedian.toFixed(1)}%
         </span>
@@ -119,7 +119,7 @@ export function PercentileBar({
         />
       </div>
       {showValue && (
-        <span className={`text-gray-600 ${size === 'sm' ? 'text-xs' : 'text-sm'} font-medium w-8 text-right`}>
+        <span className={`text-gray-600 ${size === 'sm' ? 'text-body-sm' : 'text-body'} font-medium w-8 text-right`}>
           {Math.round(percentile)}
         </span>
       )}
@@ -140,9 +140,9 @@ export function RankBadge({ rank, total, showTotal = false, size = 'sm', classNa
   const badge = getRankBadge(rank, total);
   
   const sizeClasses = {
-    sm: 'text-xs px-1.5 py-0.5',
-    md: 'text-sm px-2 py-1',
-    lg: 'text-base px-2.5 py-1',
+    sm: 'text-body-sm px-1.5 py-0.5',
+    md: 'text-data px-2 py-1',
+    lg: 'text-body px-2.5 py-1',
   };
   
   return (
@@ -174,7 +174,7 @@ export function BenchmarkCard({ comparison, className = '' }: BenchmarkCardProps
   return (
     <div className={`p-3 bg-white rounded-lg border border-gray-200 ${className}`}>
       <div className="flex items-center justify-between mb-2">
-        <span className="text-sm text-gray-600">{metricDef?.displayName || metricType}</span>
+        <span className="text-body text-gray-600">{metricDef?.displayName || metricType}</span>
         <RankBadge rank={rank} total={rank * 2} size="sm" />
       </div>
       
@@ -186,7 +186,7 @@ export function BenchmarkCard({ comparison, className = '' }: BenchmarkCardProps
         />
       </div>
       
-      <div className="flex items-center justify-between text-xs text-gray-500">
+      <div className="flex items-center justify-between text-body-sm text-gray-500">
         <span>{formatPercentile(percentile)}</span>
         <span className={vsMedian > 0 ? 'text-emerald-600' : vsMedian < 0 ? 'text-red-600' : ''}>
           {vsMedian > 0 ? '+' : ''}{vsMedian.toFixed(1)}% vs median

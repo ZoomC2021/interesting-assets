@@ -339,6 +339,136 @@ export const METRIC_REGISTRY: Record<MetricType, MetricDefinition> = {
     format: 'string',
     isHigherBetter: false
   },
+  gearing_headroom: {
+    type: 'gearing_headroom',
+    category: 'risk',
+    displayName: 'Gearing Headroom',
+    description: 'Remaining capacity before regulatory gearing limit',
+    unit: '%',
+    format: 'percentage',
+    isHigherBetter: true
+  },
+
+  // Revenue Breakdown Metrics
+  revenue_australia_pct: {
+    type: 'revenue_australia_pct',
+    category: 'portfolio',
+    displayName: 'Revenue Australia %',
+    description: 'Percentage of revenue from Australian operations',
+    unit: '%',
+    format: 'percentage',
+    isHigherBetter: null
+  },
+  revenue_malaysia_pct: {
+    type: 'revenue_malaysia_pct',
+    category: 'portfolio',
+    displayName: 'Revenue Malaysia %',
+    description: 'Percentage of revenue from Malaysian operations',
+    unit: '%',
+    format: 'percentage',
+    isHigherBetter: null
+  },
+  revenue_japan_pct: {
+    type: 'revenue_japan_pct',
+    category: 'portfolio',
+    displayName: 'Revenue Japan %',
+    description: 'Percentage of revenue from Japanese operations',
+    unit: '%',
+    format: 'percentage',
+    isHigherBetter: null
+  },
+  revenue_australia: {
+    type: 'revenue_australia',
+    category: 'financial_performance',
+    displayName: 'Revenue Australia',
+    description: 'Revenue from Australian operations',
+    unit: 'RM million',
+    format: 'currency',
+    isHigherBetter: true
+  },
+  revenue_malaysia: {
+    type: 'revenue_malaysia',
+    category: 'financial_performance',
+    displayName: 'Revenue Malaysia',
+    description: 'Revenue from Malaysian operations',
+    unit: 'RM million',
+    format: 'currency',
+    isHigherBetter: true
+  },
+  revenue_japan: {
+    type: 'revenue_japan',
+    category: 'financial_performance',
+    displayName: 'Revenue Japan',
+    description: 'Revenue from Japanese operations',
+    unit: 'RM million',
+    format: 'currency',
+    isHigherBetter: true
+  },
+  reit_segment_revenue: {
+    type: 'reit_segment_revenue',
+    category: 'financial_performance',
+    displayName: 'REIT Segment Revenue',
+    description: 'Revenue specifically from REIT operations',
+    unit: 'RM million',
+    format: 'currency',
+    isHigherBetter: true
+  },
+  cost_of_debt: {
+    type: 'cost_of_debt',
+    category: 'leverage',
+    displayName: 'Cost of Debt',
+    description: 'Effective interest rate on total borrowings',
+    unit: '%',
+    format: 'percentage',
+    isHigherBetter: false
+  },
+
+  // Segment-Specific Operational Metrics
+  occupancy_rate_retail: {
+    type: 'occupancy_rate_retail',
+    category: 'operational',
+    displayName: 'Occupancy Rate (Retail)',
+    description: 'Occupancy rate specifically for retail properties',
+    unit: '%',
+    format: 'percentage',
+    isHigherBetter: true
+  },
+  wale_years_retail: {
+    type: 'wale_years_retail',
+    category: 'operational',
+    displayName: 'WALE (Retail)',
+    description: 'Weighted average lease expiry for retail properties',
+    unit: 'years',
+    format: 'years',
+    isHigherBetter: true
+  },
+  hotel_occupancy: {
+    type: 'hotel_occupancy',
+    category: 'operational',
+    displayName: 'Hotel Occupancy Rate',
+    description: 'Average occupancy rate for hotel properties',
+    unit: '%',
+    format: 'percentage',
+    isHigherBetter: true
+  },
+  hotel_adr: {
+    type: 'hotel_adr',
+    category: 'operational',
+    displayName: 'Hotel ADR',
+    description: 'Average daily rate for hotel rooms',
+    unit: 'RM',
+    format: 'currency',
+    isHigherBetter: true
+  },
+  hotel_revpar: {
+    type: 'hotel_revpar',
+    category: 'operational',
+    displayName: 'Hotel RevPAR',
+    description: 'Revenue per available room',
+    unit: 'RM',
+    format: 'currency',
+    isHigherBetter: true
+  },
 
   // Market Metrics
   price_to_book: {

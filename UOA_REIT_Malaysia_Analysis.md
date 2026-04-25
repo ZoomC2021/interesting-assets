@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-UOA Real Estate Investment Trust (UOA REIT) is a Malaysia-listed office-focused REIT that owns and operates six commercial properties predominantly located in Kuala Lumpur's Golden Triangle and Damansara/Bangsar areas [U:1]. With a market capitalization of approximately RM554.0 million and a portfolio value of RM1,734 million, UOA REIT represents a pure-play office REIT with exposure to Malaysia's prime commercial real estate markets [U:2].
+UOA Real Estate Investment Trust (UOA REIT) is a Malaysia-listed office-focused REIT that owns and operates six commercial properties [U:36] predominantly located in Kuala Lumpur's Golden Triangle and Damansara/Bangsar areas [U:78][U:79]. With a market capitalization of approximately RM554.0 million (as of April 2026) [U:2] and a portfolio value of RM1,734 million [U:347], UOA REIT represents a pure-play office REIT with exposure to Malaysia's prime commercial real estate markets.
 
 ### Investment Thesis Summary
 
@@ -80,16 +80,18 @@ RHB Trustees Berhad serves as the Trustee, holding the REIT's assets on behalf o
 | **Executive Director** | Kong Sze Choon | UOA Group veteran | 15+ years | [U:18] |
 | **CEO** | Chua Sook Fun | REIT management specialist | Since IPO era | [U:19] |
 
-The management team has demonstrated strong track record in managing the UOA REIT portfolio through various market cycles since listing in 2005 [U:20].
+The management team has managed the UOA REIT portfolio since its listing in 2005, operating through multiple market cycles including the Global Financial Crisis, the COVID-19 pandemic, and the post-pandemic rate cycle [U:20].
 
 #### Management Quality Assessment
 
-| Factor | Assessment | Rating | Source |
-|--------|------------|--------|--------|
-| **Experience** | 20+ years managing listed REIT since 2005 | ✅ Strong | [U:21] |
-| **Track Record** | Successfully navigated multiple economic cycles | ✅ Proven | [U:22] |
-| **Governance** | Professional management with Australian parent oversight | ✅ Good | [U:23] |
-| **Transparency** | Regular disclosures and investor communications | ✅ Adequate | [U:24] |
+> *Assessments below are analyst judgments based on public disclosures, distribution history, and governance structure. They are not externally audited quality ratings.*
+
+| Factor | Assessment (Analyst View) | Rating | Source |
+|--------|--------------------------|--------|--------|
+| **Experience** | 20+ years managing listed REIT since 2005 | 🟡 Long-tenured | [U:21] |
+| **Track Record** | 20-year operating history across multiple economic cycles | 🟡 Assessed Positive | [U:22] |
+| **Governance** | Professional management with Australian-listed parent; standard Malaysian REIT governance | 🟡 Assessed Adequate | [U:23] |
+| **Transparency** | Regular Bursa announcements and annual reports | 🟡 Assessed Adequate | [U:24] |
 | **Strategic Focus** | Office sector specialization with selective acquisitions | 🟡 Narrow | [U:25] |
 
 ### 1.4 Fee Structure
@@ -107,12 +109,14 @@ The fee structure is standard for Malaysian REITs and aligns manager compensatio
 
 | Shareholder Category | Estimated Holding | Source |
 |---------------------|-------------------|--------|
-| **United Overseas Australia Ltd (via subsidiaries)** | ~45-50% | [U:31] |
-| **Institutional Investors (EPF, KWAP, etc.)** | ~25-30% | [U:32] |
-| **Retail Investors** | ~20-25% | [U:33] |
-| **Free Float** | ~50-55% | [U:34] |
+| **United Overseas Australia Ltd (via subsidiaries)** | ~34% (last disclosed: 30 Jun 2024) | [U:31] |
+| **Institutional Investors (EPF, KWAP, etc.)** | ~25-30% (estimate) | [U:32] |
+| **Retail Investors** | ~20-25% (estimate) | [U:33] |
+| **Free Float** | Refer to latest annual report top-30 unitholder list | [U:34] |
 
-The significant ownership by United Overseas Australia Ltd creates alignment between the REIT Manager and unitholders, while maintaining adequate free float for market liquidity [U:35].
+> *Note: Sponsor holding is based on UOA Group's half-year report as at 30 June 2024 (approximately 33.96%). Current holding may differ. Investors should refer to the latest substantial unitholder disclosure or top-30 unitholder list in the most recent annual report for current figures. Institutional and retail estimates are derived from secondary market data and should be verified against the annual report.*
+
+The UOA Group's sponsorship stake creates alignment of interest between the REIT Manager and unitholders [U:35].
 
 ---
 
@@ -184,7 +188,7 @@ UOA Damansara II strengthens the REIT's position in the Damansara corridor, prov
 | **Occupancy Improvement** | +19% (significant recovery) | [U:66] |
 | **Notable Tenants** | Bank Kerjasama Rakyat Malaysia | [U:67] |
 
-Menara UOA Bangsar has shown significant occupancy improvement with a 19% gain, reflecting successful leasing efforts in this established Bangsar location [U:68]. The property houses Bank Kerjasama Rakyat Malaysia among its key tenants [U:69].
+Menara UOA Bangsar has shown significant occupancy improvement with a 19% gain, suggesting successful leasing efforts in this established Bangsar location [U:68]. The property houses Bank Kerjasama Rakyat Malaysia among its key tenants [U:69].
 
 #### Property 6: UOA Corporate Tower
 
@@ -200,8 +204,10 @@ UOA Corporate Tower represents the REIT's newest and most significant acquisitio
 
 ### 2.3 Portfolio Geographic Distribution
 
-| Region | Properties | Portfolio Share | Characteristics | Source |
-|--------|------------|-----------------|-----------------|--------|
+> *Portfolio share percentages below are analyst estimates inferred from property valuations; UOA REIT does not disclose official sub-market allocation percentages in its annual report.*
+
+| Region | Properties | Portfolio Share (Inferred Estimate) | Characteristics | Source |
+|--------|------------|-------------------------------------|-----------------|--------|
 | **KL Golden Triangle** | 2 (UOA Centre, UOA II) | ~35% | Prime CBD, highest rents | [U:78] |
 | **Damansara/Bangsar** | 3 (Damansara, Damansara II, Menara UOA Bangsar) | ~40% | Established commercial hubs | [U:79] |
 | **Bangsar South** | 1 (UOA Corporate Tower) | ~25% | Emerging modern commercial zone | [U:80] |
@@ -225,8 +231,10 @@ The portfolio benefits from strategic concentration in Kuala Lumpur's most estab
 
 ### 3.1 Tenant Mix Overview
 
-| Tenant Category | Estimated Share | Key Examples | Source |
-|-----------------|-----------------|--------------|--------|
+> *Tenant category shares below are indicative estimates inferred from disclosed key tenant names and property descriptions. UOA REIT does not publish a formal tenant category breakdown in its annual report. Percentages should be treated as approximate and directional only.*
+
+| Tenant Category | Estimated Share (Indicative) | Key Examples | Source |
+|-----------------|------------------------------|--------------|--------|
 | **Government/GLCs** | ~25-30% | Bank Kerjasama Rakyat Malaysia | [U:89] |
 | **Multinational Corporations** | ~30-35% | Various MNCs | [U:90] |
 | **Professional Services** | ~20-25% | Skrine law firm | [U:91] |
@@ -285,7 +293,7 @@ Skrine, one of Malaysia's leading law firms, maintains presence in the UOA portf
 - Strong gross rental income growth of 9.4% reflecting occupancy improvements and rental reversions [U:117]
 - Significant other income increase (430%) likely from one-off items or fee income [U:118]
 - NPI growth of 3.7% positive but slower than gross income due to higher operating expenses [U:119]
-- Net profit surge of 35.5% reflects income growth and potentially lower finance costs in earlier rate environment [U:120]
+- Net profit surge of 35.5% likely reflects income growth; finance cost movements would require specific confirmation from the FY2025 annual report notes [U:120]
 
 ### 4.2 Five-Year Financial Trend
 
@@ -334,9 +342,9 @@ The five-year trend shows recovery from pandemic-impacted years, with FY2025 rep
 |-----------|--------|-------------------|--------|
 | **Total Floating-Rate Debt** | RM713.5 million | **100% Floating** | [U:140] |
 | **Fixed-Rate Debt** | RM0 | **0% Fixed** | [U:141] |
-| **Interest Rate Swaps/Hedges** | Not disclosed | **No Hedging** | [U:142] |
+| **Interest Rate Swaps/Hedges** | Not disclosed in AR2025 | **No Disclosed Hedging** | [U:142] |
 
-**⚠️ MAJOR RISK ALERT**: UOA REIT has shifted to **100% floating-rate debt** as of FY2025, representing a significant change from the >70% fixed-rate structure in FY2024 [U:143]. This exposes the REIT to full interest rate volatility from Bank Negara Malaysia's Overnight Policy Rate (OPR) movements [U:144].
+**⚠️ MAJOR RISK ALERT**: UOA REIT has shifted to **100% floating-rate debt** as of FY2025, representing a significant change from the >70% fixed-rate structure reported in FY2024 [U:143][U:346]. This exposes the REIT to full interest rate volatility from Bank Negara Malaysia's Overnight Policy Rate (OPR) movements [U:144].
 
 ### 5.3 Debt Structure Change Analysis
 
@@ -345,7 +353,7 @@ The five-year trend shows recovery from pandemic-impacted years, with FY2025 rep
 | **FY2024** | >70% | <30% | Moderate | [U:346] |
 | **FY2025** | **0%** | **100%** | 🔴 High | [U:146] |
 
-The shift from >70% fixed-rate to 0% fixed-rate represents a significant strategic change that amplifies interest rate risk [U:147]. This could have been driven by refinancing decisions, loan repricing, or a bet on rate cuts that has not materialized [U:148].
+The shift from >70% fixed-rate to 0% fixed-rate represents a significant strategic change that amplifies interest rate risk [U:147]. The drivers behind this shift are not disclosed in the cited materials; management commentary from the annual report or results briefing would be needed to confirm the rationale.
 
 ### 5.4 Interest Rate Sensitivity Analysis
 
@@ -391,7 +399,7 @@ UOA REIT's 100% floating-rate exposure stands out as the highest risk profile am
 | **Gearing Level** | 40.5% - comfortable buffer below 60% limit | ✅ Adequate | [U:169] |
 | **Interest Cover** | ~3.0x - adequate coverage | 🟡 Adequate | [U:170] |
 | **Floating Rate Exposure** | **100% - highest risk** | 🔴 Poor | [U:171] |
-| **Hedging Strategy** | None apparent | 🔴 Unhedged | [U:172] |
+| **Hedging Strategy** | No disclosed hedging found in cited materials | 🔴 Unhedged | [U:172] |
 | **Refinancing Risk** | Manageable maturity profile | 🟡 Moderate | [U:173] |
 | **Liquidity** | RM143.3M unutilized facilities | ✅ Adequate | [U:174] |
 
@@ -445,7 +453,7 @@ The 8.48% distribution yield is attractive relative to Malaysian REIT sector ave
 | **Payout Ratio** | ~97.6% | Very high | [U:198] |
 | **Retained Earnings** | Minimal | Limited buffer | [U:199] |
 
-The 97.6% payout ratio leaves minimal retained earnings for capital improvements or debt reduction [U:200]. This high payout is necessary to maintain yield competitiveness but limits financial flexibility [U:201].
+The 97.6% payout ratio leaves minimal retained earnings for capital improvements or debt reduction [U:200]. **Interpretation (Analyst View)**: This high payout ratio may be considered necessary to maintain yield competitiveness in the current REIT market; however, it limits financial flexibility for capital reinvestment or debt reduction [U:201].
 
 ### 6.5 Distribution Sustainability Assessment
 
@@ -458,9 +466,9 @@ The 97.6% payout ratio leaves minimal retained earnings for capital improvements
 | **Lease Expiry Profile** | 1.36 years WALE | ⚠️ Re-leasing risk | [U:206] |
 | **Occupancy Trend** | Improving | ✅ Positive | [U:207] |
 
-**Distribution Sustainability Rating: 🟡 CAUTIOUS**
+**Distribution Sustainability Rating: 🟡 CAUTIOUS** *(Analyst Assessment)*
 
-The FY2025 DPU recovery is encouraging, but sustainability depends on: (1) maintaining occupancy gains, (2) managing interest rate costs given 100% floating exposure, and (3) successful lease renewals in a competitive office market [U:208].
+**Interpretation (Analyst View)**: The FY2025 DPU recovery is encouraging based on reported data. Sustainability — in this analyst's assessment — depends on: (1) maintaining occupancy gains, (2) managing interest rate costs given 100% floating exposure, and (3) successful lease renewals in a competitive office market [U:208].
 
 ---
 
@@ -473,7 +481,7 @@ The FY2025 DPU recovery is encouraging, but sustainability depends on: (1) maint
 | **Unit Price** | RM0.82 | [U:209] |
 | **52-Week Range** | RM0.785 - RM0.900 | [U:210] |
 | **Market Capitalization** | RM554.0 million | [U:211] |
-| **Units Outstanding** | 694.2 million | [U:212] |
+| **Units in Issue** | 694.2 million | [U:132] |
 
 ### 7.2 Price-to-Book (P/B) Analysis
 
@@ -496,16 +504,18 @@ At 0.58x P/B, UOA REIT trades at the deepest discount to NAV among the three REI
 
 The 8.48% yield represents a significant premium to peers, reflecting the higher risk profile [U:222].
 
-### 7.4 Valuation Summary
+### 7.4 Valuation Scenarios (Author Estimates)
 
-| Approach | Multiple/Metric | Implied Value | Assessment | Source |
-|----------|-----------------|---------------|------------|--------|
-| **P/B (at 0.75x)** | 0.75x | RM1.07 | +30% upside | [U:223] |
-| **P/B (at 0.90x)** | 0.90x | RM1.28 | +56% upside | [U:224] |
-| **NAV (Liquidation)** | 1.00x | RM1.42 | +73% upside | [U:225] |
-| **Yield Compression (to 7%)** | 7.0% yield | RM0.99 | +21% upside | [U:226] |
+> *The table below presents author scenario estimates applying P/B multiples to the AR2025 NAV per unit of RM1.4248. These are analytical inputs, not independently appraised valuations. The "Reported Metrics" section above (NAV, price, market cap) are factual inputs from cited sources; the scenario prices below are derived judgments.*
 
-**Valuation Conclusion**: UOA REIT trades at a significant discount to intrinsic value, offering potential upside if the office market stabilizes and debt concerns ease [U:227]. However, the 100% floating-rate debt creates near-term earnings uncertainty that may cap valuation expansion [U:228].
+| Scenario Approach | Multiple/Metric | Scenario-Implied Price | Potential Upside | Source |
+|-------------------|-----------------|------------------------|-----------------|--------|
+| **P/B (at 0.75x)** | 0.75x NAV | RM1.07 | +30% | [U:223] |
+| **P/B (at 0.90x)** | 0.90x NAV | RM1.28 | +56% | [U:224] |
+| **NAV (Liquidation)** | 1.00x NAV | RM1.42 | +73% | [U:225] |
+| **Yield Compression (to 7%)** | 7.0% yield | RM0.99 | +21% | [U:226] |
+
+**Analyst Valuation View**: At the current unit price of RM0.82 (April 2026), UOA REIT trades at a significant discount to its reported NAV. The scenario prices above represent the implied unit price if the market were to re-rate the REIT to those P/B multiples — they are not guaranteed outcomes [U:227]. The 100% floating-rate debt creates near-term earnings uncertainty that may constrain valuation expansion [U:228].
 
 ---
 
@@ -513,7 +523,9 @@ The 8.48% yield represents a significant premium to peers, reflecting the higher
 
 ### 8.1 Comparative Metrics Table
 
-| Metric | UOA REIT (5110.KL) | Axis REIT (5106.KL) | Atrium REIT (5130.KL) | Best-in-Class | Source |
+> *Peer metrics marked "~" are approximate, compiled from each REIT's latest available annual report and KLSE market data as of April 2026. Some figures are analyst calculations. Consult each REIT's primary filings for authoritative data.*
+
+| Metric | UOA REIT (5110.KL) | Axis REIT (5106.KL) (approx.) | Atrium REIT (5130.KL) (approx.) | Best-in-Class | Source |
 |--------|-------------------|---------------------|----------------------|---------------|--------|
 | **Market Cap** | RM554M | ~RM4.15B | ~RM340M | Axis REIT | [U:229] |
 | **Portfolio Value** | RM1,734M | ~RM5.36B | RM723M | Axis REIT | [U:347] |
@@ -584,10 +596,10 @@ The 8.48% yield represents a significant premium to peers, reflecting the higher
 | Factor | Current Status | Outlook | Impact on UOA REIT | Source |
 |--------|----------------|---------|-------------------|--------|
 | **BNM OPR** | 3.00% (as of April 2026) | Stable expected | 🟡 Neutral near-term | [U:266] |
-| **Rate Trajectory** | Pause after 2023 hikes | Cuts possible 2026-2027 | 🟢 Positive if cuts materialize | [U:267] |
+| **Rate Trajectory** | Pause after 2023 hikes | Cuts possible 2026-2027 (analyst scenario; not BNM guidance) | 🟢 Positive if cuts materialize | [U:267] |
 | **Floating Rate Risk** | 100% exposure | Immediate impact | 🔴 High sensitivity | [U:268] |
 
-Given UOA REIT's 100% floating-rate debt, the REIT is the most exposed to any BNM rate changes among peers [U:269]. Potential rate cuts in 2026-2027 would provide significant relief [U:270].
+Given UOA REIT's 100% floating-rate debt, the REIT is the most exposed to any BNM rate changes among peers [U:269]. In a scenario where BNM cuts rates in 2026-2027, this would provide significant relief to the REIT's finance costs [U:270].
 
 ### 9.3 Sector Trends
 
@@ -623,9 +635,9 @@ Given UOA REIT's 100% floating-rate debt, the REIT is the most exposed to any BN
 | **Rate Sensitivity** | Every 25bps = ~RM1.78M impact | [U:282] |
 | **Worst Case** | BNM hikes 100bps = ~RM7.1M cost increase | [U:283] |
 | **DPU Impact** | 100bps hike = ~-1.02 sen DPU | [U:284] |
-| **Mitigation** | None apparent; reliant on rate cuts | [U:285] |
+| **Mitigation** | No disclosed hedging instruments; income relief if rates fall | [U:285] |
 
-This is the single largest risk facing UOA REIT investors. The complete lack of fixed-rate debt hedging leaves the REIT fully exposed to interest rate volatility [U:286].
+**Analyst Risk Ranking**: In this analysis, the 100% floating-rate debt exposure is assessed as the single largest risk factor facing UOA REIT investors. The absence of any disclosed fixed-rate debt or hedging instruments leaves the REIT fully exposed to interest rate volatility [U:286].
 
 #### 🟡 Significant Risk: Short WALE
 
@@ -689,7 +701,9 @@ While office faces structural headwinds, UOA REIT's prime KL Golden Triangle and
 
 ### 12.2 Recommendation
 
-**RATING: 🟡 CAUTIOUS BUY / HIGH-YIELD SPECULATIVE**
+> *The rating, target price, and return scenarios below are author scenario-based estimates derived from the stated assumptions. They do not constitute investment advice, an offer to buy or sell, or independently verified valuations. Readers should conduct their own due diligence.*
+
+**RATING: 🟡 CAUTIOUS BUY / HIGH-YIELD SPECULATIVE** *(Analyst Scenario Estimate)*
 
 UOA REIT presents a high-risk, high-yield investment proposition best suited for income-focused investors with above-average risk tolerance [U:303].
 
@@ -721,7 +735,9 @@ UOA REIT presents a high-risk, high-yield investment proposition best suited for
 | **Base Case** | 0.70x | RM1.00 | +22% | [U:315] |
 | **Bull Case** | 0.90x | RM1.28 | +56% | [U:316] |
 
-**Base Case Target: RM1.00** (+22% capital appreciation + 8.48% yield = ~30% total return potential) [U:317]
+**Base Case Scenario Target: RM1.00** (+22% capital appreciation + 8.48% yield = ~30% total return potential in this scenario) [U:317]
+
+*Scenario prices above are derived by applying P/B multiples (0.50x–0.90x) to the AR2025 NAV per unit of RM1.4248. These represent author analytical scenarios, not independent appraisals or externally verified price targets.*
 
 ---
 
@@ -746,7 +762,7 @@ UOA REIT presents a high-risk, high-yield investment proposition best suited for
 | **Constitution** | 28 November 2005 | [U:325] |
 | **Listing** | 30 December 2005 | [U:326] |
 | **Fiscal Year End** | December 31 | [U:327] |
-| **Annual Report FY2025** | March 2026 | [U:328] |
+| **Annual Report FY2025** | April 2026 (approx.; exact filing date to be confirmed via Bursa) | [U:328] |
 
 ### 13.3 Contact Information
 
@@ -787,7 +803,7 @@ Past performance is not indicative of future results. REIT investments carry ris
 
 ---
 
-**Document Classification**: Publication-Grade Research Analysis  
-**Confidence Level**: High (based on audited annual report data)  
-**Citations**: 344 references (U:1 through U:344)
+**Document Classification**: Analytical Research Report (Not Externally Audited)  
+**Confidence Level**: Moderate (sampling-based reference audit; some figures rely on secondary sources or analyst estimates; market data time-sensitive as of April 2026)  
+**Citations**: 345 active references (U:37, U:38, U:145, U:322 deleted as superseded; highest index U:349)
 

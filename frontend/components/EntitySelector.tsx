@@ -36,7 +36,7 @@ export function EntitySelector({
             onClick={() => onToggle(entity.code)}
             aria-pressed={isSelected}
             className={clsx(
-              'inline-flex min-w-0 max-w-full items-center gap-1.5 rounded-md border px-2.5 py-1 text-left text-xs font-medium transition-colors sm:max-w-[14rem]',
+              'inline-flex min-w-0 max-w-full items-center gap-1.5 rounded-md border px-2.5 py-1 text-left text-data font-medium transition-colors sm:max-w-[14rem]',
               isSelected
                 ? 'border-primary-500 bg-primary-100 text-primary-700'
                 : 'border-neutral-200 bg-white text-neutral-600 hover:bg-neutral-100',

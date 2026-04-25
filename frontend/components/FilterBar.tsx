@@ -194,7 +194,7 @@ export function FilterBar({
               <button
                 key={sort.key}
                 onClick={() => handleSortChange(sort.key)}
-                className={`px-2 py-0.5 text-xs rounded transition-colors flex items-center gap-0.5 ${
+                className={`px-2 py-0.5 text-data rounded transition-colors flex items-center gap-0.5 ${
                   filters.sortBy === sort.key
                     ? 'bg-canvas text-blue-700 shadow-sm'
                     : 'text-muted hover:bg-gray-200'
@@ -219,7 +219,7 @@ export function FilterBar({
           {hasActiveFilters && (
             <button
               onClick={clearAllFilters}
-              className="text-xs text-blue-600 hover:text-blue-800 flex items-center gap-0.5"
+              className="text-data text-blue-600 hover:text-blue-800 flex items-center gap-0.5"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -234,19 +234,19 @@ export function FilterBar({
           {/* Selection count */}
           {selectedCount > 0 && (
             <div className="flex items-center gap-2">
-              <span className="text-xs text-muted">
+              <span className="text-body-sm text-muted">
                 {selectedCount} selected
               </span>
               <button
                 onClick={onClearSelection}
-                className="text-xs text-red-600 hover:text-red-800"
+                className="text-data text-red-600 hover:text-red-800"
               >
                 Clear
               </button>
             </div>
           )}
 
-          <span className="text-xs text-muted">
+          <span className="text-body-sm text-muted">
             {totalCount} REITs
           </span>
         </div>

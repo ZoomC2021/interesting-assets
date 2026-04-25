@@ -2,13 +2,14 @@
   "metadata": {
     "reit": "UOA REIT (5110.KL)",
     "document": "UOA_REIT_Malaysia_Analysis.md",
-    "totalReferences": 349,
+    "totalReferences": 345,
+    "deletedReferences": ["U:37 (superseded by U:347)", "U:38 (superseded by U:348)", "U:145 (superseded by U:346)", "U:322 (conflicting ISIN, superseded by U:345)"],
     "dateCreated": "2026-04-25",
     "version": "1.0",
     "dataQuality": {
       "auditDate": "2026-04-25",
       "referencesAudited": "Sampled",
-      "confidenceLevel": "Publication-grade"
+      "confidenceLevel": "Analytical Research (sampling-based audit; some figures from secondary sources or analyst estimates; market data time-sensitive as of 2026-04-25)"
     },
     "disclaimer": "IMPORTANT LIMITATIONS: (1) Sampling-based audit approach. (2) Source accessibility: Some primary sources had access restrictions. (3) Market data (share prices, yields) are time-sensitive as of 2026-04-25. (4) Some facts rely on secondary sources. (5) Appropriate rounding used.",
     "timeSensitiveNote": "References with 'timeSensitive: true' flag contain market data that changes daily.",
@@ -17,9 +18,10 @@
   "sources": {
     "AR2025": {
       "name": "UOA REIT 2025 Annual Report",
-      "date": "2026-03-26",
-      "url": "https://www.uoareit.com.my",
-      "type": "Annual Report"
+      "date": "2026-04 (approx.; official filing date to be confirmed via https://www.uoareit.com.my/investor-relations/reports/ and Bursa Malaysia announcement record)",
+      "url": "https://www.uoareit.com.my/investor-relations/reports/",
+      "type": "Annual Report",
+      "note": "Date updated from 2026-03-26 (board approval/signing date) to approximately April 2026 (public release). Add page-level references when the PDF is accessed directly."
     },
     "AR2024": {
       "name": "UOA REIT 2024 Annual Report",
@@ -319,11 +321,12 @@
       "url": "https://www.sc.com.my"
     },
     "U:31": {
-      "fact": "United Overseas Australia Ltd beneficial ownership ~45-50%",
+      "fact": "United Overseas Australia Ltd beneficial ownership ~33.96% as at 30 June 2024 (UOA Group H1 2024 half-year report); current holding to be verified against latest annual report substantial unitholder disclosure",
       "source": "AR2025",
-      "citation": "UOA REIT 2025 Annual Report - Substantial Shareholders",
+      "citation": "UOA REIT 2025 Annual Report - Substantial Shareholders / UOA Group 2024 Half-Year Report",
       "dateAccessed": "2026-03-26",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "Previous estimate of ~45-50% was unsupported. The 33.96% figure is from UOA Group H1 2024; FY2025 annual report figure should be used if available."
     },
     "U:32": {
       "fact": "Institutional Investors (EPF, KWAP, etc.) estimated ~25-30%",
@@ -361,20 +364,7 @@
       "dateAccessed": "2026-03-26",
       "timeSensitive": false
     },
-    "U:37": {
-      "fact": "Investment Properties Value: RM1,726 million",
-      "source": "AR2025",
-      "citation": "UOA REIT 2025 Annual Report - Statement of Financial Position",
-      "dateAccessed": "2026-03-26",
-      "timeSensitive": false
-    },
-    "U:38": {
-      "fact": "Total Assets: RM1,760.23 million",
-      "source": "AR2025",
-      "citation": "UOA REIT 2025 Annual Report - Statement of Financial Position",
-      "dateAccessed": "2026-03-26",
-      "timeSensitive": false
-    },
+
     "U:39": {
       "fact": "Net Lettable Area estimated ~1.8 million sq ft",
       "source": "Calculated",
@@ -640,9 +630,10 @@
       "fact": "UOA Corporate Tower acquired in 2020 for RM700 million",
       "source": "Bursa",
       "citation": "Bursa Malaysia Announcement - 2020 Acquisition",
-      "dateAccessed": "2020",
+      "dateAccessed": "2026-04-25",
       "timeSensitive": false,
-      "url": "https://www.bursamalaysia.com"
+      "url": "https://www.bursamalaysia.com",
+      "note": "Historical 2020 acquisition announcement; access date reflects research date 2026-04-25"
     },
     "U:76": {
       "fact": "UOA Corporate Tower GBI certification meets tenant ESG requirements",
@@ -1119,11 +1110,12 @@
       "timeSensitive": false
     },
     "U:143": {
-      "fact": "100% floating-rate debt significant change from 59% fixed in FY2024",
+      "fact": "100% floating-rate debt in FY2025 represents significant change from >70% fixed-rate structure in FY2024 (per U:346)",
       "source": "AR2025",
       "citation": "UOA REIT 2025 vs 2024 Annual Report Comparison",
       "dateAccessed": "2026-03-26",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "Previous version incorrectly stated '59% fixed in FY2024'. U:346 cites the AR2024 verbatim as '>70% fixed'. U:145 (which stated 59%) has been deleted as superseded."
     },
     "U:144": {
       "fact": "100% floating-rate debt exposes REIT to full OPR volatility",
@@ -1133,13 +1125,7 @@
       "timeSensitive": false,
       "url": "https://www.bnm.gov.my"
     },
-    "U:145": {
-      "fact": "FY2024 Debt Structure: ~59% fixed, ~41% floating",
-      "source": "AR2024",
-      "citation": "UOA REIT 2024 Annual Report - Debt Profile",
-      "dateAccessed": "2025-03-28",
-      "timeSensitive": false
-    },
+
     "U:146": {
       "fact": "FY2025 Debt Structure: 0% fixed, 100% floating",
       "source": "AR2025",
@@ -1612,11 +1598,13 @@
       "url": "https://www.klsescreener.com/v2/stocks/5110"
     },
     "U:212": {
-      "fact": "Units Outstanding: ~675.6 million",
-      "source": "AR2025",
-      "citation": "UOA REIT 2025 Annual Report - Units in Issue",
-      "dateAccessed": "2026-03-26",
-      "timeSensitive": false
+      "fact": "Market-float-implied units: ~675.6 million (derived: RM554M market cap / RM0.82 unit price); note total units in issue per AR2025 is 694.2M (see U:132). Discrepancy may reflect treasury units or different KLSE Screener calculation basis.",
+      "source": "KLSE",
+      "citation": "KLSE Screener - derived from market cap and unit price",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5110",
+      "note": "Revised from 'AR2025' source to 'KLSE' since this is a market-derived figure. The 694.2M figure from AR2025 (U:132) is used for NAV per unit calculations."
     },
     "U:213": {
       "fact": "NAV Per Unit: RM1.4248",
@@ -2013,12 +2001,13 @@
       "url": "https://www.bnm.gov.my"
     },
     "U:267": {
-      "fact": "Rate Trajectory: Pause after 2023 hikes, cuts possible 2026-2027",
+      "fact": "Rate Trajectory: BNM has held OPR at 3.00% following 2023 pause; rate cuts in 2026-2027 represent an analyst scenario, not BNM forward guidance",
       "source": "BNM",
       "citation": "Bank Negara Malaysia Monetary Policy Statement",
       "dateAccessed": "2026-04-25",
       "timeSensitive": false,
-      "url": "https://www.bnm.gov.my"
+      "url": "https://www.bnm.gov.my",
+      "note": "Revised to distinguish BNM's actual stance (rate hold) from analyst rate-cut scenario"
     },
     "U:268": {
       "fact": "Floating Rate Risk: 100% exposure - immediate OPR impact",
@@ -2410,14 +2399,7 @@
       "timeSensitive": false,
       "url": "https://www.bursamalaysia.com"
     },
-    "U:322": {
-      "fact": "ISIN: MYL5110OO003",
-      "source": "Bursa",
-      "citation": "Bursa Malaysia Security Information",
-      "dateAccessed": "2026-04-25",
-      "timeSensitive": false,
-      "url": "https://www.bursamalaysia.com"
-    },
+
     "U:323": {
       "fact": "Reuters: 5110.KL",
       "source": "KLSE",
@@ -2456,12 +2438,13 @@
       "timeSensitive": false
     },
     "U:328": {
-      "fact": "Annual Report FY2025 published March 2026",
+      "fact": "Annual Report FY2025 published approximately April 2026; exact filing date to be confirmed via Bursa announcement record or https://www.uoareit.com.my/investor-relations/reports/",
       "source": "Bursa",
-      "citation": "Bursa Malaysia Announcement",
-      "dateAccessed": "2026-03-26",
+      "citation": "Bursa Malaysia Announcement / UOA REIT IR Reports Page",
+      "dateAccessed": "2026-04-25",
       "timeSensitive": false,
-      "url": "https://www.bursamalaysia.com"
+      "url": "https://www.bursamalaysia.com",
+      "note": "Date revised from March 2026 to approximately April 2026 per Bursa-related coverage. The earlier March date may reflect board approval or report signing rather than public release."
     },
     "U:329": {
       "fact": "Manager: UOA Asset Management Sdn Bhd",
@@ -2578,12 +2561,13 @@
       "timeSensitive": false
     },
     "U:345": {
-      "fact": "ISIN MYL5110TO000",
-      "source": "BursaMalaysia",
+      "fact": "ISIN MYL5110TO000 (verify against Bursa Malaysia security information page for 5110.KL; conflicting entry MYL5110OO003 from previous U:322 has been deleted)",
+      "source": "Bursa",
       "citation": "Bursa Malaysia Official Listing / Investing.com - ISIN Code",
       "url": "https://www.bursamalaysia.com",
       "dateAccessed": "2026-04-25",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "Source key corrected from undefined 'BursaMalaysia' to valid 'Bursa' key. Supersedes deleted U:322 which contained a conflicting ISIN."
     },
     "U:346": {
       "fact": "FY2024 Fixed-Rate Debt: >70% (not 59%)",
@@ -2607,11 +2591,12 @@
       "timeSensitive": false
     },
     "U:349": {
-      "fact": "Net Lettable Area ~1.8M sq ft is industry estimate",
-      "source": "External",
-      "citation": "Industry market reports (Knight Frank, etc.) - not officially disclosed in Annual Report",
+      "fact": "Net Lettable Area ~1.8M sq ft is an industry estimate only; not officially disclosed in UOA REIT Annual Report",
+      "source": "Calculated",
+      "citation": "Industry market reports (e.g. Knight Frank, JLL Malaysia) - NLA not confirmed in AR2025",
       "dateAccessed": "2026-04-25",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "Source key corrected from undefined 'External' to valid 'Calculated'. The ~1.8M sq ft figure should be presented as an industry estimate, not a company disclosure."
     }
   }
 }

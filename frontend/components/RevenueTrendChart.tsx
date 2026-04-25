@@ -81,7 +81,7 @@ export function RevenueTrendChart({ entities, chartAreaClassName }: RevenueTrend
           'flex items-center justify-center',
         )}
       >
-        <p className="text-sm text-neutral-400">No quarterly revenue data available</p>
+        <p className="text-body text-neutral-400">No quarterly revenue data available</p>
       </div>
     );
   }
@@ -91,16 +91,16 @@ export function RevenueTrendChart({ entities, chartAreaClassName }: RevenueTrend
       <ResponsiveContainer width="100%" height="100%">
         <BarChart data={chartData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
-          <XAxis 
-            dataKey="label" 
-            tick={{ fontSize: 10 }}
+          <XAxis
+            dataKey="label"
+            tick={{ className: 'text-label' }}
             angle={-45}
             textAnchor="end"
             height={60}
           />
-          <YAxis 
-            tick={{ fontSize: 12 }}
-            label={{ value: 'RM Million', angle: -90, position: 'insideLeft', style: { fontSize: 12 } }}
+          <YAxis
+            tick={{ className: 'text-body-sm' }}
+            label={{ value: 'RM Million', angle: -90, position: 'insideLeft', style: { fontSize: '0.75rem', lineHeight: '1rem' } }}
           />
           <Tooltip
             formatter={(value: number) => [`RM ${value.toFixed(1)}M`, '']}

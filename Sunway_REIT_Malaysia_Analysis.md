@@ -14,7 +14,7 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 
 **Key Highlights (FY 2025):** [S:3]
 - **Portfolio Composition:** 28 properties [S:10] across Retail (14), Hotels (6), Offices (5), and Industrial (3) [S:13]
-- **Portfolio Valuation:** RM 10.2 billion [S:11] (largest Malaysian REIT by asset value)
+- **Portfolio Valuation:** RM 10.2 billion [S:11] (among the largest Malaysian REITs by asset value)
 - **Retail Occupancy:** 97% [S:14] (up from 96% in FY2024 [S:15])
 - **Hotel Occupancy:** 65% [S:16] (stable performance)
 - **Office Occupancy:** 82% [S:17] (down from 83% due to Wisma Sunway non-renewal [S:18])
@@ -184,21 +184,21 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 ### 1.5 Geographic Distribution
 | Region | Property Count | Percentage | Key Properties |
 |--------|----------------|------------|----------------|
-| **Klang Valley/Selangor** [S:145] | 20 [S:146] | ~71% [S:147] | Sunway Pyramid, Sunway Resort, Menara Sunway |
-| **Penang** [S:148] | 4 [S:149] | ~14% [S:150] | Sunway Carnival Mall, Sunway Hotel Georgetown |
-| **Johor** [S:151] | 2 [S:152] | ~7% [S:153] | Sunway Kluang Mall, Plentong Hypermarket |
-| **Perak** [S:154] | 2 [S:155] | ~7% [S:156] | AEON Seri Manjung, SunCity Ipoh |
+| **Klang Valley/Selangor** [S:144] | 20 [S:145] | ~71% [S:146] | Sunway Pyramid, Sunway Resort, Menara Sunway |
+| **Penang** [S:147] | 4 [S:148] | ~14% [S:149] | Sunway Carnival Mall, Sunway Hotel Georgetown |
+| **Johor** [S:150] | 2 [S:151] | ~7% [S:152] | Sunway Kluang Mall, Plentong Hypermarket |
+| **Perak** [S:153] | 2 [S:154] | ~7% [S:155] | AEON Seri Manjung, SunCity Ipoh |
 
-**Assessment:** Strong geographic concentration in Klang Valley (71% [S:147]) with strategic diversification into growth regions (Penang 14% [S:150], Johor 7% [S:153], Perak 7% [S:156]).
+**Assessment:** Strong geographic concentration in Klang Valley (71% [S:146]) with strategic diversification into growth regions (Penang 14% [S:149], Johor 7% [S:152], Perak 7% [S:155]).
 
 ### 1.6 Portfolio Segment Analysis by Value
 
 | Segment | Properties | % of Portfolio | Valuation (RM) | Key Assets |
 |---------|-----------|----------------|----------------|------------|
-| **Retail** | 14 [S:10] | **70%** [S:82] | ~RM 7.1B [S:157] | Sunway Pyramid (flagship) [S:83] |
-| **Hotels** | 6 [S:10] | **18%** [S:111] | ~RM 1.8B [S:158] | Sunway Resort [S:112] |
-| **Office** | 5 [S:10] | **10%** [S:127] | ~RM 1.0B [S:159] | Menara Sunway [S:128] |
-| **Industrial** | 3 [S:10] | **2%** [S:138] | ~RM 200M [S:160] | Prai Industrial [S:139] |
+| **Retail** | 14 [S:10] | **70%** [S:82] | ~RM 7.1B [S:156] | Sunway Pyramid (flagship) [S:83] |
+| **Hotels** | 6 [S:10] | **18%** [S:111] | ~RM 1.8B [S:157] | Sunway Resort [S:112] |
+| **Office** | 5 [S:10] | **10%** [S:127] | ~RM 1.0B [S:158] | Menara Sunway [S:128] |
+| **Industrial** | 3 [S:10] | **2%** [S:138] | ~RM 200M [S:159] | Prai Industrial [S:139] |
 | **Total** | **28** | **100%** | **RM 10.2B** [S:11] | - |
 
 ---
@@ -213,16 +213,16 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 | **Hotel** [S:16] | **65%** | 65% [S:161] | Stable | 🟡 Recovering |
 | **Office** [S:17] | **82%** | 83% [S:18] | -1pp | 🟡 Wisma Sunway impact |
 | **Industrial** [S:19] | **87%** | 80% [S:20] | +7pp | 🟢 Improved |
-| **Blended** | ~89% | ~88% | +1pp | 🟢 Stable |
+| **Blended** | ~89% (est.) | ~88% (est.) | +1pp (est.) | 🟢 Stable |
 
 **Retail Occupancy Detail:**
 | Property | Occupancy Rate | Lease Renewal Rate |
 |----------|---------------|-------------------|
-| **Sunway Pyramid Mall** [S:83] | 98%+ (est.) [S:162] | 91.2% [S:163] |
-| **Sunway Carnival Mall** [S:85] | 95%+ (est.) [S:164] | 99.9% [S:165] |
-| **Sunway Putra Mall** [S:87] | 95%+ (est.) [S:166] | 92.4% [S:167] (not independently verified in public documents) |
-| **Sunway 163 Mall** [S:89] | 90%+ (est.) [S:168] | 94.8% [S:169] (not independently verified in public documents) |
-| **Sunway Kluang Mall** [S:91] | 85%+ (est.) [S:170] | 83.2% [S:171] (not independently verified in public documents) |
+| **Sunway Pyramid Mall** [S:83] | 98%+ (est.) [S:160] | 91.2% [S:161] |
+| **Sunway Carnival Mall** [S:85] | 95%+ (est.) [S:162] | 99.9% [S:163] |
+| **Sunway Putra Mall** [S:87] | 95%+ (est.) [S:164] | 92.4% [S:167] |
+| **Sunway 163 Mall** [S:89] | 90%+ (est.) [S:166] | 94.8% [S:169] |
+| **Sunway Kluang Mall** [S:91] | 85%+ (est.) [S:168] | 83.2% [S:171] |
 
 **Assessment:** The 97% retail occupancy [S:14] is exceptional, demonstrating Sunway REIT's strong tenant relationships and prime mall locations. The portfolio-wide occupancy improvement (+1pp YoY) reflects successful lease management.
 
@@ -230,11 +230,11 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 
 | Factor | Assessment | Details |
 |--------|------------|---------|
-| **Anchor Tenants** | Strong | AEON, Parkson, Golden Screen Cinemas [S:172] |
-| **International Brands** | Excellent | Uniqlo, H&M, Zara, Sephora [S:173] |
+| **Anchor Tenants** | Strong | AEON, Parkson, Golden Screen Cinemas [S:170] |
+| **International Brands** | Excellent | Uniqlo, H&M, Zara, Sephora [S:172] |
 | **F&B Diversity** | Strong | Wide range of dining options [S:174] |
-| **Lease Structure** | Standard | 3-year typical retail leases with stepped rents [S:175] |
-| **Tenant Mix** | Balanced | Fashion, F&B, entertainment, services [S:176] |
+| **Lease Structure** | Standard | 3-year typical retail leases with stepped rents [S:173] |
+| **Tenant Mix** | Balanced | Fashion, F&B, entertainment, services [S:174] |
 
 ### 2.3 Property Enhancements (AEI) Activity
 
@@ -271,12 +271,12 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 ### 2.5 Geographic Concentration Analysis
 | Region | Property Count | Percentage | Risk Level |
 |--------|---------------|------------|------------|
-| **Klang Valley** [S:145] | 20 [S:146] | ~71% [S:147] | 🟡 Concentration |
-| **Penang** [S:148] | 4 [S:149] | ~14% [S:150] | 🟢 Diversification |
-| **Johor** [S:151] | 2 [S:152] | ~7% [S:153] | 🟢 Growth market |
-| **Perak** [S:154] | 2 [S:155] | ~7% [S:156] | 🟢 Regional diversification |
+| **Klang Valley** [S:144] | 20 [S:145] | ~71% [S:146] | 🟡 Concentration |
+| **Penang** [S:147] | 4 [S:148] | ~14% [S:149] | 🟢 Diversification |
+| **Johor** [S:150] | 2 [S:151] | ~7% [S:152] | 🟢 Growth market |
+| **Perak** [S:153] | 2 [S:154] | ~7% [S:155] | 🟢 Regional diversification |
 
-**Risk Assessment:** High Klang Valley concentration (71% [S:147]) presents both opportunity (proximity to 8+ million population) and risk (regional economic downturn impact). The 2024-2025 acquisitions into Johor (Kluang) [S:92] and Perak (Seri Manjung) [S:94] demonstrate active geographic diversification.
+**Risk Assessment:** High Klang Valley concentration (71% [S:146]) presents both opportunity (proximity to 8+ million population) and risk (regional economic downturn impact). The 2024-2025 acquisitions into Johor (Kluang) [S:92] and Perak (Seri Manjung) [S:94] demonstrate active geographic diversification.
 
 ### 2.6 Asset Age Profile & Portfolio Vintage
 
@@ -329,11 +329,11 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 **Retail Lease Renewal Performance FY2025:**
 | Property | Lease Renewal Rate | Assessment |
 |----------|-------------------|------------|
-| **Sunway Pyramid Mall** [S:83] | 91.2% [S:163] | 🟢 Strong retention |
-| **Sunway Carnival Mall** [S:85] | 99.9% [S:165] | 🟢 Excellent retention |
-| **Sunway Putra Mall** [S:87] | 92.4% [S:167] | 🟢 Strong retention (not independently verified) |
-| **Sunway 163 Mall** [S:89] | 94.8% [S:169] | 🟢 Excellent retention (not independently verified) |
-| **Sunway Kluang Mall** [S:91] | 83.2% [S:171] | 🟡 Newer asset, building tenancy (not independently verified) |
+| **Sunway Pyramid Mall** [S:83] | 91.2% [S:161] | 🟢 Strong retention |
+| **Sunway Carnival Mall** [S:85] | 99.9% [S:163] | 🟢 Excellent retention |
+| **Sunway Putra Mall** [S:87] | 92.4% [S:167] | 🟢 Strong retention |
+| **Sunway 163 Mall** [S:89] | 94.8% [S:169] | 🟢 Excellent retention |
+| **Sunway Kluang Mall** [S:91] | 83.2% [S:171] | 🟡 Newer asset, building tenancy |
 
 **Assessment:** The 91%+ renewal rates across key malls demonstrate strong tenant satisfaction and asset competitiveness. The 2.2-year retail WALE [S:214] is standard for Malaysian retail REITs.
 
@@ -450,7 +450,7 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 | **2027-2029** | ~RM 1,500M (est.) | ~37% | 🟡 Manageable |
 | **2030+** | ~RM 2,300M (est.) | ~58% | 🟢 Well-laddered |
 
-**Assessment:** The debt maturity profile appears well-laddered with the majority of debt due beyond 2030. Near-term refinancing needs are manageable.
+**Assessment:** The debt maturity profile appears well-laddered based on estimates; actual schedule requires verification from the full Annual Report or Bursa filings. Near-term refinancing needs appear manageable.
 
 ### 3.7 Financing Facilities
 | Facility | Status | Notes |
@@ -485,6 +485,8 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 
 **Distribution Frequency:** Quarterly [S:264]
 
+> ⚠️ **Note on ex-dates:** The Q1 ex-date shown as Feb 2025 may be the payment/ex-date for a prior-period distribution rather than the Jan–Mar 2025 quarter, as ex-dates typically follow quarter-end. Verify all ex-dates and payment dates against Bursa Malaysia announcements before use.
+
 ### 4.2 Historical DPU Trend
 | Year | Annual DPU (sen) | YoY Change | Key Drivers |
 |------|------------------|------------|-------------|
@@ -506,10 +508,10 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 |--------|---------------|------------|
 | **Realised Income** | ~RM 280M (est.) | Income available for distribution |
 | **Total Distributions** | ~RM 242M [S:263] | Based on 14.48 sen DPU [S:28] |
-| **Distribution Payout Ratio** | ~86% [S:273] | REIT-typical payout |
-| **REIT Requirement** | Minimum 90% of taxable income [S:274] | Compliant |
+| **Distribution Payout Ratio** | ~86% [S:273] | Of selected realised/distributable income measure (est.) |
+| **REIT Requirement** | Minimum 90% of taxable income [S:274] | Compliance requires verification against taxable income |
 
-**Note:** Malaysian REITs must distribute at least 90% of taxable income [S:274] to maintain tax-exempt status at the trust level. Sunway REIT's ~86% payout [S:273] is sustainable and REIT-compliant. The FY2025 payout includes crystallization of unrealized gains from the Sunway University disposal [S:275].
+**Note:** Sunway REIT's payout ratio is estimated at approximately 86% of the selected realised/distributable income measure [S:273]. Separately, Malaysian REIT tax transparency requires distribution of at least 90% of taxable income [S:274]; compliance should be verified against taxable income disclosed in the annual report. The FY2025 payout includes crystallization of unrealized gains from the Sunway University disposal [S:275].
 
 ### 4.4 Dividend Yield Analysis
 
@@ -522,6 +524,8 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 | **Market Dividend Yield** | **~6.0%** [S:30] | 14.48 sen / RM 2.41 = 6.01% [S:278] | ✅ Yes |
 | **Price-to-Book (P/B)** | **1.58x** [S:279] | Trading at 58% premium to NAV [S:280] | ✅ Yes |
 | **Market Cap** | RM 8.25 billion [S:12] | Large-cap classification | ✅ Yes |
+
+> ⚠️ **Market price, market cap, yield and P/B are as of 25 April 2026 and must be refreshed before investment use.** Verify current values via KLSE Screener [S:277] or Bursa Malaysia [S:407].
 
 #### Understanding Yield Metrics
 
@@ -566,7 +570,7 @@ The ~6.0% market yield [S:30] vs 9.5% NAV yield [S:281] difference reflects:
 | Factor | Status | Impact on DPU |
 |--------|--------|---------------|
 | **97% Retail Occupancy** [S:14] | ✅ Positive | Stable rental income base |
-| **Strong Lease Renewals** | ✅ Positive | 91%+ renewal rates [S:163] |
+| **Strong Lease Renewals** | ✅ Positive | 91%+ renewal rates [S:161] |
 | **AEON Seri Manjung Contribution** | ✅ Positive | New acquisition [S:36] |
 | **Conservative Gearing** | ✅ Positive | 39.4% [S:21] provides flexibility |
 | **Disposal Gains (One-off)** | ⚠️ Temporary | Sunway University gain [S:229] |
@@ -577,12 +581,12 @@ The ~6.0% market yield [S:30] vs 9.5% NAV yield [S:281] difference reflects:
 | Factor | Rating | Rationale |
 |--------|--------|-----------|
 | **Payout Ratio** | ✅ **Sustainable** | ~86% [S:273] is REIT-typical |
-| **Income Stability** | ✅ **Strong** | 97% retail occupancy [S:14], strong renewals [S:163] |
+| **Income Stability** | ✅ **Strong** | 97% retail occupancy [S:14], strong renewals [S:161] |
 | **Growth Trajectory** | ✅ **Improving** | Record 14.48 sen DPU [S:28] |
 | **REIT Compliance** | ✅ **Compliant** | Meets distribution requirements [S:274] |
 | **Payout Quality** | ⚠️ **Note** | FY2025 includes one-off disposal gains [S:275] |
 
-**Assessment:** The ~14.48 sen DPU [S:28] for FY2025 is sustainable at current levels, though future growth may normalize after the one-off disposal gain contribution. The core operational DPU (excluding one-offs) appears sustainable at ~12-13 sen level.
+**Assessment:** FY2025's 14.48 sen DPU [S:28] was a record year and may not be fully recurring due to one-off disposal gains [S:229]. A more conservative recurring/core DPU assumption appears to be around 12–13 sen, subject to full-year contributions from AEON Seri Manjung [S:36], the Oasis Wing [S:178], and continued retail/hotel recovery.
 
 ---
 
@@ -594,9 +598,9 @@ The ~6.0% market yield [S:30] vs 9.5% NAV yield [S:281] difference reflects:
 | **Gross Revenue** | RM 894.3M [S:31] | ~RM 767M [S:293] | **+16.6%** [S:32] | 🟢 Strong growth |
 | **Net Property Income (NPI)** | RM 658.0M [S:33] | ~RM 570M [S:294] | **+15.5%** [S:34] | 🟢 Strong margin |
 | **NPI Margin** | ~73.6% [S:295] | ~74.3% [S:296] | -0.7pp | 🟢 Stable |
-| **Realised Income** | ~RM 280M (est.) | ~RM 200M (est.) | +40% | 🟢 Strong growth |
-| **Profit After Tax** | RM 539M [S:297] | ~RM 525M | +2.8% [S:298] | 🟢 Stable |
-| **Realised Profit Attributable** | ~RM 280M | ~RM 213M | +31.2% [S:298a] | 🟢 Strong growth |
+| **Realised Income** | ~RM 280M (est. / derived) | ~RM 200M (est. / derived) | +40% (est.) | 🟢 Strong growth |
+| **Profit After Tax** | RM 539M [S:297] | ~RM 525M (est.) | +2.8% [S:298] | 🟢 Stable |
+| **Realised Profit Attributable** | ~RM 280M (est. / derived) | ~RM 213M (est. / derived) | +31.2% [S:298a] | 🟢 Strong growth |
 | **DPU** | 14.48 sen [S:28] | 10.0 sen [S:271] | **+44.8%** [S:29] | 🟢 Record high |
 
 ### 5.2 Quarterly Performance Trend (2025)
@@ -622,14 +626,16 @@ The ~6.0% market yield [S:30] vs 9.5% NAV yield [S:281] difference reflects:
 | **Interest Cost Reduction** | +Margin | 3.79% avg rate vs 3.89% prior year [S:24] |
 | **Debt Reduction** | +Stability | RM 269M reduction [S:230] |
 
-### 5.4 Revenue by Segment (Estimated)
+### 5.4 Revenue by Segment (Estimated / Author Calculation)
 | Segment | FY2025 Revenue (RM M) | % of Total | YoY Change |
 |---------|----------------------|------------|------------|
-| **Retail** | ~620 [S:307] | ~69% [S:308] | +18% (est.) |
-| **Hotels** | ~150 [S:309] | ~17% [S:310] | +12% (est.) |
-| **Office** | ~95 [S:311] | ~11% [S:312] | +8% (est.) |
-| **Industrial** | ~29 [S:313] | ~3% [S:314] | +15% (est.) |
+| **Retail** | ~620 (est.) [S:307] | ~69% (est.) [S:308] | +18% (est.) |
+| **Hotels** | ~150 (est.) [S:309] | ~17% (est.) [S:310] | +12% (est.) |
+| **Office** | ~95 (est.) [S:311] | ~11% (est.) [S:312] | +8% (est.) |
+| **Industrial** | ~29 (est.) [S:313] | ~3% (est.) [S:314] | +15% (est.) |
 | **Total** | **~894** [S:31] | **100%** | **+16.6%** [S:32] |
+
+*Segment revenue splits are estimates derived from disclosed occupancy and NPI data; verify against audited segment disclosures in the Annual Report.*
 
 ---
 
@@ -693,7 +699,7 @@ The ~6.0% market yield [S:30] vs 9.5% NAV yield [S:281] difference reflects:
 | Metric | Market Data | Sunway REIT Position |
 |--------|-------------|---------------------|
 | **Total REIT Market Cap** | ~RM 40B+ [S:319] | ~RM 8.25B [S:12] (21% share) |
-| **Largest REIT by AUM** | Sunway REIT [S:11] | RM 10.2B [S:11] |
+| **Among Largest REITs by AUM** | Sunway REIT [S:11] | RM 10.2B [S:11] |
 | **Retail REITs** | YTL REIT, Sunway REIT [S:320] | Market leader |
 | **Industrial REITs** | Axis, Atrium, Al-Salihin [S:321] | Industrial segment small |
 | **Average Gearing** | ~38% [S:322] | 39.4% [S:21] (market average) |
@@ -775,8 +781,8 @@ The ~6.0% market yield [S:30] vs 9.5% NAV yield [S:281] difference reflects:
 | **2025 DPU** | **14.48 sen** [S:28] | 10.55 sen [S:361] | 9.30 sen [S:362] | Sunway highest |
 | **DPU Growth (2025)** | **+44.8%** [S:29] | +13.8% [S:363] | +22.4% [S:364] | Sunway best growth |
 | **Market Yield (April 2026)** | **~6.0%** [S:30] | ~5.15% [S:365] | ~7.27% [S:366] | Atrium highest yield |
-| **Price-to-Book** | **1.76x** [S:279] | 1.21x [S:367] | 0.92x [S:368] | Sunway highest premium |
-| **Trading Status** | 76% premium [S:280] | 21% premium [S:369] | 8% discount [S:370] | Sunway most valued |
+| **Price-to-Book** | **1.58x** [S:279] | 1.21x [S:367] | 0.92x [S:368] | Sunway highest premium |
+| **Trading Status** | 58% premium [S:280] | 21% premium [S:369] | 8% discount [S:370] | Sunway most valued |
 | **NAV per Unit** | RM 1.5211 [S:35] | RM 1.6907 [S:371] | RM 1.3874 [S:372] | Axis highest NAV |
 | **Shariah Compliance** | **Yes** [S:50] | Yes [S:373] | No [S:374] | Sunway/Axis eligible |
 | **2025 Acquisitions** | 1 (RM 138M) [S:94] | 3 (RM 164.6M+) [S:375] | 0 [S:376] | Axis most active |
@@ -838,7 +844,7 @@ Acquisition Activity      1 deal [S:94]     3 deals [S:375]  0 deals [S:376] Axi
 | **Sector Concentration** | 🟡 Retail 70% [S:82] | 🟢 Diversified industrial | 🟢 Pure-play industrial | Axis/Atrium |
 | **Gearing Risk** | 🟢 39.4% [S:21] | 🟢 33% [S:353] | 🟡 43.5% [S:354] | Axis |
 | **Interest Rate Risk** | 🟡 44% floating [S:27] | 🟢 35% floating [S:359] | 🔴 93% floating [S:360] | Axis |
-| **Geographic Risk** | 🟡 71% Klang Valley [S:147] | 🟢 6 states [S:380] | 🔴 78% Klang Valley [S:381] | Axis |
+| **Geographic Risk** | 🟡 71% Klang Valley [S:146] | 🟢 6 states [S:380] | 🔴 78% Klang Valley [S:381] | Axis |
 | **Scale Risk** | 🟢 Large-cap [S:12] | 🟢 Mid-cap [S:390] | 🟡 Small-cap [S:348] | Sunway/Axis |
 | **Liquidity Risk** | 🟢 High | 🟢 Moderate-High | 🟡 Lower | Sunway/Axis |
 | **Transparency Risk** | 🟢 Good disclosure | 🟢 Good disclosure | 🟡 Data gaps | Sunway/Axis |
@@ -851,7 +857,7 @@ Acquisition Activity      1 deal [S:94]     3 deals [S:375]  0 deals [S:376] Axi
 | Factor | Sunway REIT Management [S:40] | Axis REIT Managers [S:392] | Atrium REIT Managers [S:393] | Sunway Advantage |
 |--------|------------------------------|--------------------------|----------------------------|------------------|
 | **Sponsor Support** | Sunway Berhad [S:8] | None | None | Significant |
-| **CEO Tenure** | 10+ years [S:62] | 19 years [S:394] | Acting since 2024 [S:395] | Significant |
+| **CEO Tenure** | <1 year as CEO (appointed Dec 2025; long prior tenure in Sunway Group) [S:62] | 19 years [S:394] | Acting since 2024 [S:395] | Axis has longest CEO tenure |
 | **Board Independence** | Majority independent [S:67] | Majority independent [S:396] | 50% [S:397] | Moderate |
 | **Committees** | 3+ [S:68] | 4 [S:398] | 2 [S:399] | Comparable |
 | **Fee Alignment** | Performance fee on DPU [S:74] | Performance fee [S:400] | None [S:401] | Comparable |
@@ -865,7 +871,7 @@ Acquisition Activity      1 deal [S:94]     3 deals [S:375]  0 deals [S:376] Axi
 - ✅ Want **diversified exposure** across retail, hotel, office, and industrial [S:47]
 - ✅ Believe in **Malaysia retail recovery** and tourism rebound
 - ✅ Value **sponsor backing** from Sunway Berhad [S:8]
-- ✅ Prefer **largest Malaysian REIT** by AUM (RM 10.2B [S:11])
+- ✅ Prefer one of the **largest Malaysian REITs** by AUM (RM 10.2B [S:11])
 - ✅ Seek **highest absolute DPU** (14.48 sen [S:28])
 - ✅ Need **Shariah-compliant** investment [S:50]
 - ✅ Want **flagship retail assets** (Sunway Pyramid [S:83])
@@ -932,11 +938,11 @@ Acquisition Activity      1 deal [S:94]     3 deals [S:375]  0 deals [S:376] Axi
 | Risk Category | Severity | Description | Mitigation |
 |---------------|----------|-------------|------------|
 | **Retail Concentration** | 🟡 Medium | 70% retail exposure [S:82] | Diversification across 14 malls [S:10]; strong occupancy 97% [S:14] |
-| **Klang Valley Concentration** | 🟡 Medium | 71% properties [S:147] | Expansion to Penang [S:148], Johor [S:151], Perak [S:154] |
+| **Klang Valley Concentration** | 🟡 Medium | 71% properties [S:146] | Expansion to Penang [S:147], Johor [S:150], Perak [S:153] |
 | **Hotel Recovery** | 🟡 Medium | 18% of portfolio [S:111], 65% occupancy [S:16] | Tourism recovery ongoing [S:325]; diversified hotel locations |
 | **Office Market Weakness** | 🟡 Medium | 10% of portfolio [S:127]; Wisma Sunway non-renewal [S:137] | Premium assets (Menara Sunway [S:128]); limited office exposure |
 | **Interest Rate Risk** | 🟡 Medium | 44% floating-rate debt [S:27] | 56% fixed-rate [S:26]; 3.22x coverage [S:23] provides buffer |
-| **Tenant Concentration** | 🟢 Low | Diversified 1,000+ retail tenants [S:382] | 97% occupancy [S:14]; strong renewal rates [S:163] |
+| **Tenant Concentration** | 🟢 Low | Diversified 1,000+ retail tenants [S:382] | 97% occupancy [S:14]; strong renewal rates [S:161] |
 | **Gearing Risk** | 🟢 Low | 39.4% [S:21] with 50% ceiling [S:22] | 10.6% headroom [S:239]; proactive debt reduction [S:230] |
 | **Sponsor Related Party** | 🟢 Managed | Sunway Berhad sponsor [S:8] | Arm's length transactions [S:234]; professional governance [S:52] |
 | **Liquidity Risk** | 🟢 Low | RM 8.25B market cap [S:12] | Large-cap REIT; institutional following [S:378] |
@@ -947,7 +953,7 @@ Acquisition Activity      1 deal [S:94]     3 deals [S:375]  0 deals [S:376] Axi
 2. **Scale:** RM 10.2B portfolio [S:11] provides stability
 3. **Sponsor Support:** Sunway Berhad [S:8] provides pipeline and brand strength
 4. **Conservative Gearing:** 39.4% [S:21] below 50% limit [S:22]
-5. **Strong Occupancy:** 97% retail [S:14] with 91%+ renewal rates [S:163]
+5. **Strong Occupancy:** 97% retail [S:14] with 91%+ renewal rates [S:161]
 6. **Proactive Management:** AEON Seri Manjung acquisition [S:36], debt reduction [S:230]
 7. **Shariah Compliance:** Access to Islamic investor base [S:50]
 8. **Interest Coverage:** 3.22x [S:23] provides debt service cushion
@@ -987,7 +993,7 @@ Acquisition Activity      1 deal [S:94]     3 deals [S:375]  0 deals [S:376] Axi
 - ✅ **Scale Advantage:** Largest Malaysian REIT by AUM [S:11]
 
 ### 10.2 Areas to Monitor
-- ⚠️ **Klang Valley Concentration:** 71% exposure [S:147] remains high
+- ⚠️ **Klang Valley Concentration:** 71% exposure [S:146] remains high
 - ⚠️ **Retail Sector Risk:** 70% of portfolio [S:82] exposed to consumer spending
 - ⚠️ **Hotel Recovery:** 65% occupancy [S:16] below pre-pandemic levels
 - ⚠️ **Office Market:** 10% exposure [S:127] to challenging sector
@@ -1010,7 +1016,7 @@ Acquisition Activity      1 deal [S:94]     3 deals [S:375]  0 deals [S:376] Axi
 - 97% retail occupancy [S:14] - exceptional performance
 - Flagship Sunway Pyramid [S:83] - premier Malaysian retail asset
 - Diversified across retail (70% [S:82]), hotels (18% [S:111]), office (10% [S:127]), industrial (2% [S:138])
-- Strong lease renewals: 91%+ across key malls [S:163]
+- Strong lease renewals: 91%+ across key malls [S:161]
 - Recent strategic acquisitions (AEON Seri Manjung [S:36], Sunway 163 [S:89])
 - Active asset enhancement (Oasis Wing opened [S:178])
 
@@ -1022,15 +1028,15 @@ Acquisition Activity      1 deal [S:94]     3 deals [S:375]  0 deals [S:376] Axi
 - Well-laddered maturity profile
 
 ### 11.3 Dividend Sustainability: **STRONG** ⭐⭐⭐⭐
-- Record 14.48 sen DPU [S:28] (+44.8% YoY [S:29])
-- Sustainable ~86% payout ratio [S:273]
+- Record 14.48 sen DPU [S:28] (+44.8% YoY [S:29]); recurring/core DPU estimated ~12–13 sen
+- ~86% payout ratio [S:273] of realised/distributable income; 90% of taxable income compliance to be verified against annual report [S:274]
 - 97% retail occupancy [S:14] provides income stability
-- Strong renewal rates 91%+ [S:163]
-- ⚠️ Note: FY2025 includes one-off disposal gains [S:229]; core DPU ~12-13 sen sustainable
+- Strong renewal rates 91%+ [S:161]
+- ⚠️ Note: FY2025 record DPU includes one-off disposal gains [S:229]; not fully recurring
 
-### 11.4 Overall Investment Grade: **A- (Investment Grade)**
+### 11.4 Overall Internal Quality Assessment: **A- (Internal Assessment)**
 Sunway REIT demonstrates institutional-grade quality with:
-- Scale: RM 10.2B AUM [S:11] - largest Malaysian REIT
+- Scale: RM 10.2B AUM [S:11] - among the largest Malaysian REITs by portfolio value
 - Diversification: 4 asset classes [S:47] across 4 states [S:81]
 - Strong sponsor: Sunway Berhad [S:8] backing
 - Financial stability: 39.4% gearing [S:21], 3.22x coverage [S:23]
@@ -1038,7 +1044,7 @@ Sunway REIT demonstrates institutional-grade quality with:
 - Record distributions: 14.48 sen DPU [S:28]
 - Unique positioning: Shariah-compliant [S:50] diversified REIT
 
-**Recommendation:** Sunway REIT is suitable for investors seeking diversified Malaysian real estate exposure with strong sponsor backing, institutional-grade governance, and stable income distributions. The premium valuation (1.76x P/B [S:279]) reflects quality assets and management.
+**Recommendation:** Sunway REIT is suitable for investors seeking diversified Malaysian real estate exposure with strong sponsor backing, institutional-grade governance, and stable income distributions. The premium valuation (1.58x P/B [S:279]) reflects quality assets and management. Note: the A- quality score is an internal assessment and does not represent an external credit rating agency opinion.
 
 ---
 

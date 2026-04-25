@@ -40,29 +40,29 @@ export function RiskMatrix({ entities, onCitationClick, embedInPanel = false }: 
       )}
     >
       <div className="overflow-x-auto">
-        <table className="w-full text-[12.5px] leading-4 text-ink" role="grid" aria-label="Risk assessment matrix">
+        <table className="w-full text-data leading-4 text-ink" role="grid" aria-label="Risk assessment matrix">
           <thead>
             <tr className="bg-surfaceAlt border-b border-stroke">
-              <th 
+              <th
                 scope="col"
-                className="text-left py-2 px-3 text-label font-semibold text-muted"
+                className="text-left py-2 px-3 font-semibold text-muted"
               >
-                Risk Category
+                <span className="text-label">Risk Category</span>
               </th>
               {entities.map(entity => (
-                <th 
-                  key={entity.entity.id} 
+                <th
+                  key={entity.entity.id}
                   scope="col"
-                  className="text-center py-2 px-3 text-label font-semibold text-muted"
+                  className="text-center py-2 px-3 font-semibold text-muted"
                 >
-                  {entity.entity.code}
+                  <span className="text-label">{entity.entity.code}</span>
                 </th>
               ))}
-              <th 
+              <th
                 scope="col"
-                className="text-left py-2 px-3 text-label font-semibold text-muted"
+                className="text-left py-2 px-3 font-semibold text-muted"
               >
-                Description
+                <span className="text-label">Description</span>
               </th>
             </tr>
           </thead>
@@ -100,9 +100,9 @@ export function RiskMatrix({ entities, onCitationClick, embedInPanel = false }: 
                         onMouseEnter={() => setHoveredCell({ entityId: entity.entity.id, category: category.key })}
                         onMouseLeave={() => setHoveredCell(null)}
                         disabled={!hasCitations}
-                        className={`inline-flex flex-col items-center gap-0.5 px-2 py-1 rounded-md text-[12.5px] font-medium leading-tight transition-all ${
-                          hasCitations 
-                            ? 'cursor-pointer hover:ring-2 hover:ring-offset-1 focus:outline-none focus:ring-2 focus:ring-offset-1' 
+                        className={`inline-flex flex-col items-center gap-0.5 px-2 py-1 rounded-md text-data font-medium leading-tight transition-all ${
+                          hasCitations
+                            ? 'cursor-pointer hover:ring-2 hover:ring-offset-1 focus:outline-none focus:ring-2 focus:ring-offset-1'
                             : 'cursor-default'
                         } ${isHovered && hasCitations ? 'ring-2 ring-offset-1' : ''}`}
                         style={{
@@ -120,7 +120,7 @@ export function RiskMatrix({ entities, onCitationClick, embedInPanel = false }: 
                           <span>{getRiskSeverityLabel(severity)}</span>
                         </span>
                         {hasCitations && (
-                          <span className="text-xs opacity-70 flex items-center gap-0.5">
+                          <span className="text-body-sm opacity-70 flex items-center gap-0.5">
                             <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                             </svg>
@@ -143,7 +143,7 @@ export function RiskMatrix({ entities, onCitationClick, embedInPanel = false }: 
       
       {/* Legend */}
       <div className="bg-surfaceAlt px-3 py-2 border-t border-stroke">
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[11px] leading-4">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-label leading-4">
           <span className="font-medium uppercase tracking-wide text-muted">Risk level</span>
           {severityOrder.map(severity => (
             <div key={severity} className="flex items-center gap-1 text-ink">

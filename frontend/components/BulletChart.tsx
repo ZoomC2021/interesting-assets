@@ -25,8 +25,8 @@ export function BulletChart({ value, target, max, label, unit, color }: BulletCh
   return (
     <div className="bg-white rounded-lg p-4">
       <div className="flex items-center justify-between mb-2">
-        <span className="text-sm font-medium text-neutral-900">{label}</span>
-        <span className="text-sm font-bold" style={{ color }}>
+        <span className="text-body font-medium text-neutral-900">{label}</span>
+        <span className="text-metric-sm" style={{ color }}>
           {value.toFixed(1)}{unit}
         </span>
       </div>
@@ -65,7 +65,7 @@ export function BulletChart({ value, target, max, label, unit, color }: BulletCh
       </div>
       
       {/* Legend */}
-      <div className="flex items-center justify-between mt-2 text-xs text-neutral-500">
+      <div className="flex items-center justify-between mt-2 text-body-sm text-neutral-500">
         <span>0</span>
         <span>Target: {target}{unit}</span>
         <span>Max: {max}{unit}</span>
