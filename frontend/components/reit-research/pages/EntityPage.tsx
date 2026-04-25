@@ -69,7 +69,9 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
   const [showBackToTop, setShowBackToTop] = useState(false);
   const [shareFeedback, setShareFeedback] = useState<'idle' | 'copied' | 'shared'>('idle');
   const [downloadFeedback, setDownloadFeedback] = useState<'idle' | 'downloaded'>('idle');
-  const discountToNav = reit ? Math.max(0, ((reit.navPerUnit - reit.sharePrice) / reit.navPerUnit) * 100) : 0;
+  const discountToNav = reit && reit.navPerUnit > 0
+    ? Math.max(0, ((reit.navPerUnit - reit.sharePrice) / reit.navPerUnit) * 100)
+    : 0;
 
   useEffect(() => {
     setActiveSection((current) =>
@@ -79,17 +81,35 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
     );
   }, [outlineSections]);
 
+  // Cache section element references to avoid DOM queries on every scroll
+  const sectionElementsRef = React.useRef<(HTMLElement | null)[]>([]);
+
   useEffect(() => {
+    // Update cached references when outlineSections change
+    sectionElementsRef.current = outlineSections.map(
+      (section) => document.getElementById(section.id) as HTMLElement | null
+    );
+  }, [outlineSections]);
+
+  useEffect(() => {
+    // Get element position relative to document (handles sticky ancestors correctly)
+    const getElementOffsetTop = (element: HTMLElement | null): number => {
+      if (!element) return 0;
+      // Use getBoundingClientRect for accurate position relative to viewport,
+      // then add scroll position to get document-relative position
+      return element.getBoundingClientRect().top + window.scrollY;
+    };
+
     const handleScroll = () => {
-      const sectionElements = outlineSections.map((section) => document.getElementById(section.id));
       // Sticky chrome takes ~104px (48px global nav + ~56px sub-header); bias
       // the scrollspy trigger a little below the sub-header so the active entry
       // updates the moment a heading crosses into the reading area.
       const scrollPosition = window.scrollY + 140;
 
-      for (let index = sectionElements.length - 1; index >= 0; index -= 1) {
-        const element = sectionElements[index];
-        if (element && element.offsetTop <= scrollPosition) {
+      for (let index = sectionElementsRef.current.length - 1; index >= 0; index -= 1) {
+        const element = sectionElementsRef.current[index];
+        const offsetTop = getElementOffsetTop(element);
+        if (element && offsetTop <= scrollPosition) {
           setActiveSection(outlineSections[index].id);
           break;
         }
@@ -279,11 +299,14 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
       return;
     }
 
+    // Use getBoundingClientRect for accurate document-relative position
+    // (handles sticky/fixed ancestors correctly, unlike offsetTop)
     // Offset accounts for the global nav (48px) + sub-header (~56px) stack so
     // the target heading lands just below the sticky chrome instead of being
     // hidden behind it.
+    const elementTop = element.getBoundingClientRect().top + window.scrollY;
     window.scrollTo({
-      top: element.offsetTop - 112,
+      top: elementTop - 112,
       behavior: 'smooth',
     });
   };

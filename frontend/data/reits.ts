@@ -1,6 +1,6 @@
 import type { Metric, MetricType, NormalizedReitData, Reference } from '@/types/frontend';
 
-export type RiskLevel = 'low' | 'moderate' | 'moderate-high' | 'high';
+export type RiskLevel = 'low' | 'moderate' | 'moderate-high' | 'high' | 'unknown';
 
 export interface ResearchCitation {
   id: string;
@@ -156,11 +156,16 @@ function getTimeSeriesValues(data: NormalizedReitData, metricType: MetricType, m
 }
 
 function mapRiskLevel(rating: NormalizedReitData['riskAssessment']['overallRiskRating']): RiskLevel {
-  if (rating === 'moderate_high') {
-    return 'moderate-high';
+  switch (rating) {
+    case 'moderate_high':
+      return 'moderate-high';
+    case 'low':
+    case 'moderate':
+    case 'high':
+      return rating;
+    default:
+      return 'unknown';
   }
-
-  return rating;
 }
 
 function resolveSharePrice(data: NormalizedReitData, navPerUnit: number, priceToBook: number, dpu: number, yieldPct: number) {
@@ -241,10 +246,12 @@ export function adaptNormalizedReitData(data: NormalizedReitData): REIT {
       normalize: (value) => normalizePercent(value),
     }) ?? 0;
   const navPerUnit = getMetricNumber(data, 'nav_per_unit') ?? 0;
+  // Avoid redundant resolveSharePrice call: compute sharePrice first, then derive priceToBook
+  const explicitPriceToBook = getMetricNumber(data, 'price_to_book');
+  const sharePrice = resolveSharePrice(data, navPerUnit, explicitPriceToBook ?? 0, dpu, yieldPct);
   const priceToBook =
-    getMetricNumber(data, 'price_to_book') ??
-    (navPerUnit > 0 ? resolveSharePrice(data, navPerUnit, 0, dpu, yieldPct) / navPerUnit : 0);
-  const sharePrice = resolveSharePrice(data, navPerUnit, priceToBook, dpu, yieldPct);
+    explicitPriceToBook ??
+    (navPerUnit > 0 ? sharePrice / navPerUnit : 0);
   const gearing =
     getMetricNumber(data, 'gearing_ratio', {
       excludeUnitIncludes: ['unencumbered'],
@@ -254,9 +261,16 @@ export function adaptNormalizedReitData(data: NormalizedReitData): REIT {
     getMetricNumber(data, 'occupancy_rate', {
       normalize: (value) => normalizePercent(value),
     }) ?? 0;
+  // Deduplicate citations by id
+  const seenIds = new Set<string>();
   const citations = [...data.references]
     .sort((left, right) => Date.parse(right.dateAccessed) - Date.parse(left.dateAccessed))
-    .map(adaptReference);
+    .map(adaptReference)
+    .filter((citation) => {
+      if (seenIds.has(citation.id)) return false;
+      seenIds.add(citation.id);
+      return true;
+    });
 
   return {
     id: ticker,
@@ -278,7 +292,7 @@ export function adaptNormalizedReitData(data: NormalizedReitData): REIT {
     navPerUnit,
     priceToBook,
     overallRisk: mapRiskLevel(data.riskAssessment.overallRiskRating),
-    citationCount: new Set(citations.map((citation) => citation.id)).size,
+    citationCount: citations.length,
     dpuHistory: getTimeSeriesValues(data, 'dpu'),
     managerName: data.entity.manager.name,
     assessmentDate: data.generatedAt,

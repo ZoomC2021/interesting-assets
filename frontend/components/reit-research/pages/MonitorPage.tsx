@@ -211,7 +211,13 @@ export function MonitorPage() {
         let rightValue = right[sortField];
 
         if (sortField === 'overallRisk') {
-          const riskWeight = { low: 1, moderate: 2, 'moderate-high': 3, high: 4 };
+          const riskWeight: Record<import('@/data/reits').RiskLevel, number> = {
+            low: 1,
+            moderate: 2,
+            'moderate-high': 3,
+            high: 4,
+            unknown: 5, // Unknown risk sorts last
+          };
           leftValue = riskWeight[left.overallRisk];
           rightValue = riskWeight[right.overallRisk];
         }

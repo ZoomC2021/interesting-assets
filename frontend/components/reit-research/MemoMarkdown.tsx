@@ -125,8 +125,11 @@ export function MemoMarkdown({ markdown }: MemoMarkdownProps) {
             {children}
           </td>
         ),
-        code: ({ children, className, inline, ...props }: ComponentPropsWithoutRef<'code'> & { inline?: boolean }) =>
-          inline ? (
+        code: ({ children, className, ...props }: ComponentPropsWithoutRef<'code'>) => {
+          // In react-markdown v9+, inline prop is removed.
+          // Detect inline code: no className means inline (fenced blocks have language-* class)
+          const isInline = !className;
+          return isInline ? (
             <code className="rounded-sm bg-surface-alt px-1.5 py-0.5 font-data text-[0.85em] text-ink" {...props}>
               {children}
             </code>
@@ -142,7 +145,8 @@ export function MemoMarkdown({ markdown }: MemoMarkdownProps) {
             >
               {children}
             </code>
-          ),
+          );
+        },
       }}
     >
       {content}

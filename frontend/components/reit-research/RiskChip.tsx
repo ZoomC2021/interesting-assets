@@ -7,15 +7,18 @@ interface RiskChipProps {
   className?: string;
 }
 
-export function RiskChip({ level, className = '' }: RiskChipProps) {
-  const config = {
-    low: { bg: 'bg-success', label: 'Low' },
-    moderate: { bg: 'bg-warning', label: 'Mod' },
-    'moderate-high': { bg: 'bg-[hsl(28,80%,52%)]', label: 'Mod-High' },
-    high: { bg: 'bg-danger', label: 'High' },
-  };
+// Hoisted config to avoid recreating on every render
+const config: Record<RiskLevel, { bg: string; label: string }> = {
+  low: { bg: 'bg-success', label: 'Low' },
+  moderate: { bg: 'bg-warning', label: 'Mod' },
+  'moderate-high': { bg: 'bg-accent-orange', label: 'Mod-High' },
+  high: { bg: 'bg-danger', label: 'High' },
+  unknown: { bg: 'bg-ink-muted', label: 'N/A' },
+};
 
-  const { bg, label } = config[level];
+export function RiskChip({ level, className = '' }: RiskChipProps) {
+  // Guard against unknown levels
+  const { bg, label } = config[level] ?? config.unknown;
 
   return (
     <span
