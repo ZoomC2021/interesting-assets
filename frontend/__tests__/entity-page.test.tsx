@@ -556,6 +556,36 @@ Some overview content here.`;
     // Check that bold text is rendered
     expect(screen.getByText(/bold/)).toBeInTheDocument();
   });
+
+  it('should render clickable citation references in markdown content', () => {
+    const markdownWithCitations = `## Executive Summary
+
+The REIT trades at a discount [T:001] with strong occupancy [U:002].
+
+See also the annual report [A:003] for more details.`;
+
+    render(<EntityPage ticker="5130.KL" analysisMarkdown={markdownWithCitations} />);
+    
+    // Citation chips should be rendered as buttons
+    const citationsButton = screen.getByRole('button', { name: /2 citations/i });
+    expect(citationsButton).toBeInTheDocument();
+  });
+
+  it('should open citation panel when citation chip is clicked', async () => {
+    const user = userEvent.setup();
+    const markdownWithCitations = `## Executive Summary
+
+The REIT trades at a discount [T:001].`;
+
+    render(<EntityPage ticker="5130.KL" analysisMarkdown={markdownWithCitations} />);
+    
+    // Click the citation count button in the sidebar
+    const citationsButton = screen.getByRole('button', { name: /2 citations/i });
+    await user.click(citationsButton);
+
+    // Citation panel should be visible
+    expect(screen.getByText('Citations & Sources')).toBeInTheDocument();
+  });
 });
 
 describe('EntityPage Loading States', () => {

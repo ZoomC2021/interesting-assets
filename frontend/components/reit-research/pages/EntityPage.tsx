@@ -10,6 +10,7 @@ import { Callout } from '../Callout';
 import { CitationChip } from '../CitationChip';
 import { CitationPanel } from '../CitationPanel';
 import { Figure } from '../Figure';
+import { KpiGrid } from '@/components/KpiGrid';
 import { MemoMarkdown } from '../MemoMarkdown';
 import { RiskChip } from '../RiskChip';
 import { SectionHeader } from '../SectionHeader';
@@ -63,15 +64,29 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
     return extracted.length > 0 ? extracted : FALLBACK_SECTIONS;
   }, [analysisMarkdown]);
 
+  const [activeTab, setActiveTab] = useState<'memo' | 'data-room'>('memo');
   const [activeSection, setActiveSection] = useState(outlineSections[0]?.id ?? '');
   const [citationPanelOpen, setCitationPanelOpen] = useState(false);
   const [activeCitationId, setActiveCitationId] = useState<string | null>(null);
+  const [selectedCitationIds, setSelectedCitationIds] = useState<string[]>([]);
   const [showBackToTop, setShowBackToTop] = useState(false);
   const [shareFeedback, setShareFeedback] = useState<'idle' | 'copied' | 'shared'>('idle');
   const [downloadFeedback, setDownloadFeedback] = useState<'idle' | 'downloaded'>('idle');
   const discountToNav = reit && reit.navPerUnit > 0
     ? Math.max(0, ((reit.navPerUnit - reit.sharePrice) / reit.navPerUnit) * 100)
     : 0;
+
+  const allCitationIds = useMemo(
+    () => (reit ? reit.citations.map((c) => c.id) : []),
+    [reit],
+  );
+
+  const handleMetricClick = useCallback((citationIds: string[]) => {
+    if (citationIds.length === 0) return;
+    setSelectedCitationIds(citationIds);
+    setActiveCitationId(null);
+    setCitationPanelOpen(true);
+  }, []);
 
   useEffect(() => {
     setActiveSection((current) =>
@@ -125,6 +140,7 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
 
   const handleCitationClick = (id: string) => {
     setActiveCitationId(id);
+    setSelectedCitationIds([id]);
     setCitationPanelOpen(true);
   };
 
@@ -317,7 +333,8 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
 
   return (
     <div className="min-h-screen bg-canvas pb-24">
-      <div className="sticky top-12 z-30 flex flex-wrap items-center justify-between gap-4 border-b border-stroke bg-surface/95 px-4 py-3 backdrop-blur-sm md:px-6">
+      <div className="sticky top-12 z-30 border-b border-stroke bg-surface/95 backdrop-blur-sm">
+      <div className="flex flex-wrap items-center justify-between gap-4 px-4 py-3 md:px-6">
         <div className="flex min-w-0 items-center gap-4">
           <Link href="/" className="text-ink-muted transition-colors hover:text-ink">
             <ArrowLeft className="h-4 w-4" />
@@ -382,8 +399,38 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
         </div>
       </div>
 
+        <div className="flex gap-1 border-t border-stroke px-4 md:px-6" role="tablist" aria-label="View">
+          <button
+            type="button"
+            role="tab"
+            aria-selected={activeTab === 'memo'}
+            onClick={() => setActiveTab('memo')}
+            className={`-mb-px border-b-2 px-4 py-2.5 text-sm font-medium transition-colors ${
+              activeTab === 'memo'
+                ? 'border-accent text-ink'
+                : 'border-transparent text-ink-muted hover:text-ink'
+            }`}
+          >
+            Memo
+          </button>
+          <button
+            type="button"
+            role="tab"
+            aria-selected={activeTab === 'data-room'}
+            onClick={() => setActiveTab('data-room')}
+            className={`-mb-px border-b-2 px-4 py-2.5 text-sm font-medium transition-colors ${
+              activeTab === 'data-room'
+                ? 'border-accent text-ink'
+                : 'border-transparent text-ink-muted hover:text-ink'
+            }`}
+          >
+            Data Room
+          </button>
+        </div>
+      </div>
+
       <div className="mx-auto mt-8 flex min-h-screen max-w-[1440px] items-start gap-12 px-4 md:px-6 xl:px-8">
-        <aside className="sticky top-28 hidden max-h-[calc(100vh-8rem)] w-[220px] shrink-0 self-start overflow-y-auto pr-2 lg:block">
+        {activeTab === 'memo' && <aside className="sticky top-28 hidden max-h-[calc(100vh-8rem)] w-[220px] shrink-0 self-start overflow-y-auto pr-2 lg:block">
           <div className="mb-4 flex items-center justify-between">
             <span className="text-label">Document Outline</span>
             <span className="font-data text-[11px] text-ink-faint">
@@ -413,10 +460,10 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
           <div className="mt-8 space-y-3 border-t border-stroke pt-6">
             <button
               type="button"
-              onClick={() => scrollToSection('data-room')}
+              onClick={() => setActiveTab('data-room')}
               className="flex w-full items-center gap-1 text-sm font-medium text-accent transition-colors hover:text-accent-hover"
             >
-              Jump to Data Room <ChevronRight className="h-4 w-4" />
+              Switch to Data Room <ChevronRight className="h-4 w-4" />
             </button>
             <button
               type="button"
@@ -426,12 +473,30 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
               <ArrowUp className="h-4 w-4" /> Back to top
             </button>
           </div>
-        </aside>
+        </aside>}
 
         <main className="min-w-0 max-w-[760px] flex-1">
+          {activeTab === 'data-room' ? (
+            <div className="pb-16">
+              <SectionHeader label="DATA ROOM" title="Financial & Operational Metrics" />
+              <p className="mt-2 mb-6 text-sm text-ink-muted">
+                All available metrics for {reit.name}, sourced from company filings and public disclosures.
+                Click any cited row to view supporting evidence.
+              </p>
+              <KpiGrid
+                entities={[reit.raw]}
+                category="all"
+                onMetricClick={handleMetricClick}
+              />
+            </div>
+          ) : (
           <article className="prose-container border-b border-stroke pb-16">
             {analysisMarkdown ? (
-              <MemoMarkdown markdown={analysisMarkdown} />
+              <MemoMarkdown
+                markdown={analysisMarkdown}
+                citations={reit.citations}
+                onCitationClick={handleCitationClick}
+              />
             ) : (
               <>
                 <section id="executive-summary" className="mb-12 scroll-mt-28">
@@ -568,50 +633,7 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
               </>
             )}
           </article>
-
-          <div id="data-room" className="mt-16 scroll-mt-28">
-            <SectionHeader label="DATA ROOM" title="Financial & Operational Metrics" />
-            <div className="mt-6 overflow-hidden rounded-sm border border-stroke bg-surface">
-              <table className="w-full border-collapse text-left">
-                <thead>
-                  <tr className="border-b border-stroke bg-surface-alt">
-                    <th className="w-1/3 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-ink">Metric</th>
-                    <th className="px-4 py-2 text-right text-xs font-semibold uppercase tracking-wider text-ink">Value</th>
-                    <th className="w-1/4 px-4 py-2 text-right text-xs font-semibold uppercase tracking-wider text-ink">Trend</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-stroke">
-                  <tr className="transition-colors hover:bg-surface-alt/50">
-                    <td className="px-4 py-2.5 text-sm font-medium text-ink">Market Capitalization</td>
-                    <td className="px-4 py-2.5 text-right font-data text-sm">RM {reit.marketCap}M</td>
-                    <td className="px-4 py-2.5 text-right" />
-                  </tr>
-                  <tr className="transition-colors hover:bg-surface-alt/50">
-                    <td className="px-4 py-2.5 text-sm font-medium text-ink">Distribution Per Unit (DPU)</td>
-                    <td className="px-4 py-2.5 text-right font-data text-sm">{reit.dpu.toFixed(2)} sen</td>
-                    <td className="flex justify-end px-4 py-2.5">
-                      <Sparkline data={reit.dpuHistory} width={60} height={16} />
-                    </td>
-                  </tr>
-                  <tr className="transition-colors hover:bg-surface-alt/50">
-                    <td className="px-4 py-2.5 text-sm font-medium text-ink">Distribution Yield</td>
-                    <td className="px-4 py-2.5 text-right font-data text-sm">{reit.yield.toFixed(1)}%</td>
-                    <td className="px-4 py-2.5 text-right" />
-                  </tr>
-                  <tr className="transition-colors hover:bg-surface-alt/50">
-                    <td className="px-4 py-2.5 text-sm font-medium text-ink">Gearing Ratio</td>
-                    <td className="px-4 py-2.5 text-right font-data text-sm">{reit.gearing.toFixed(1)}%</td>
-                    <td className="px-4 py-2.5 text-right" />
-                  </tr>
-                  <tr className="transition-colors hover:bg-surface-alt/50">
-                    <td className="px-4 py-2.5 text-sm font-medium text-ink">Portfolio Occupancy</td>
-                    <td className="px-4 py-2.5 text-right font-data text-sm">{reit.occupancy.toFixed(1)}%</td>
-                    <td className="px-4 py-2.5 text-right" />
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
+          )}
         </main>
 
         <aside className="sticky top-28 hidden max-h-[calc(100vh-8rem)] w-[300px] shrink-0 self-start overflow-y-auto xl:block">
@@ -675,7 +697,10 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
               <button
                 type="button"
                 className="flex items-center gap-1 transition-colors hover:text-ink"
-                onClick={() => setCitationPanelOpen(true)}
+                onClick={() => {
+                  setSelectedCitationIds(allCitationIds);
+                  setCitationPanelOpen(true);
+                }}
               >
                 {reit.citationCount} citations <ChevronRight className="h-3 w-3" />
               </button>
@@ -686,9 +711,14 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
 
       <CitationPanel
         isOpen={citationPanelOpen}
-        onClose={() => setCitationPanelOpen(false)}
+        onClose={() => {
+          setCitationPanelOpen(false);
+          setSelectedCitationIds([]);
+          setActiveCitationId(null);
+        }}
         activeCitationId={activeCitationId}
-        citations={reit.citations}
+        citationIds={selectedCitationIds.length > 0 ? selectedCitationIds : allCitationIds}
+        entities={[reit.raw]}
       />
 
       {/* Floating back-to-top button; fades in once the reader scrolls past the memo

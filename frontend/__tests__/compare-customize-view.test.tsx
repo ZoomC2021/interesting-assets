@@ -78,6 +78,11 @@ jest.mock('../data/reits', () => ({
       dpuHistory: [],
       overallRisk: 'moderate',
       citations: [],
+      raw: {
+        entity: { id: 'entity-1', code: '5130.KL' },
+        metrics: [],
+        references: [],
+      },
     },
     {
       id: 'entity-2',
@@ -95,6 +100,11 @@ jest.mock('../data/reits', () => ({
       dpuHistory: [],
       overallRisk: 'low',
       citations: [],
+      raw: {
+        entity: { id: 'entity-2', code: '5106.KL' },
+        metrics: [],
+        references: [],
+      },
     },
   ],
   getDefaultEntityCodes: () => ['5130.KL', '5106.KL'],
@@ -137,8 +147,11 @@ describe('ComparePage Customize View', () => {
       const customizeButton = screen.getByLabelText('Customize visible metrics');
       expect(customizeButton).toBeInTheDocument();
       
-      // Should show count badge (9 metrics visible by default)
-      expect(customizeButton).toHaveTextContent('9');
+      // Should show count badge (all registry metrics visible by default - 49 metrics)
+      const badge = customizeButton.querySelector('span');
+      expect(badge).toBeInTheDocument();
+      const count = parseInt(badge?.textContent || '0', 10);
+      expect(count).toBeGreaterThan(40); // All 49 registry metrics visible by default
     });
 
     it('should have proper ARIA attributes', () => {
@@ -174,7 +187,17 @@ describe('ComparePage Customize View', () => {
       // Should show panel header (use heading role to distinguish from button)
       const panelHeading = screen.getByRole('heading', { name: 'Customize View' });
       expect(panelHeading).toBeInTheDocument();
-      expect(screen.getByText('9 of 9 metrics visible')).toBeInTheDocument();
+      
+      // Should show all registry metrics visible by default (e.g., "49 of 49 metrics visible")
+      const summaryText = screen.getByText(/of \d+ metrics visible/);
+      expect(summaryText).toBeInTheDocument();
+      // Extract count from text like "49 of 49 metrics visible"
+      const match = summaryText.textContent?.match(/(\d+) of (\d+) metrics visible/);
+      expect(match).not.toBeNull();
+      if (match) {
+        expect(parseInt(match[1], 10)).toBeGreaterThan(40); // At least 40 metrics visible
+        expect(match[1]).toBe(match[2]); // All metrics visible (X of X)
+      }
       
       // Get the dialog/panel and search within it for category headers
       const panel = screen.getByRole('dialog');
@@ -185,6 +208,9 @@ describe('ComparePage Customize View', () => {
       expect(within(panel).getByRole('heading', { name: 'Financial' })).toBeInTheDocument();
       expect(within(panel).getByRole('heading', { name: 'Leverage' })).toBeInTheDocument();
       expect(within(panel).getByRole('heading', { name: 'Operational' })).toBeInTheDocument();
+      // Additional categories from registry
+      expect(within(panel).getByRole('heading', { name: 'Portfolio' })).toBeInTheDocument();
+      expect(within(panel).getByRole('heading', { name: 'Risk' })).toBeInTheDocument();
     });
 
     it('should close panel when close button is clicked', async () => {
@@ -259,13 +285,13 @@ describe('ComparePage Customize View', () => {
       const customizeButton = screen.getByLabelText('Customize visible metrics');
       await user.click(customizeButton);
       
-      // Find and click a metric toggle
-      const marketCapToggle = screen.getByLabelText('Market Cap (visible)');
+      // Find and click a metric toggle (using registry display name)
+      const marketCapToggle = screen.getByLabelText('Market Capitalization (visible)');
       await user.click(marketCapToggle);
       
       // Metric should now be marked as hidden
       await waitFor(() => {
-        expect(screen.getByLabelText('Market Cap (hidden)')).toBeInTheDocument();
+        expect(screen.getByLabelText('Market Capitalization (hidden)')).toBeInTheDocument();
       });
     });
 
@@ -303,8 +329,8 @@ describe('ComparePage Customize View', () => {
       const customizeButton = screen.getByLabelText('Customize visible metrics');
       await user.click(customizeButton);
       
-      // Check that metrics have aria-pressed
-      const marketCapToggle = screen.getByLabelText('Market Cap (visible)');
+      // Check that metrics have aria-pressed (using registry display name)
+      const marketCapToggle = screen.getByLabelText('Market Capitalization (visible)');
       expect(marketCapToggle).toHaveAttribute('aria-pressed', 'true');
     });
   });
@@ -321,8 +347,8 @@ describe('ComparePage Customize View', () => {
       const customizeButton = screen.getByLabelText('Customize visible metrics');
       await user.click(customizeButton);
       
-      // Hide a metric first
-      const marketCapToggle = screen.getByLabelText('Market Cap (visible)');
+      // Hide a metric first (using registry display name)
+      const marketCapToggle = screen.getByLabelText('Market Capitalization (visible)');
       await user.click(marketCapToggle);
       
       // Click Show All
@@ -331,7 +357,7 @@ describe('ComparePage Customize View', () => {
       
       // All metrics should be visible again
       await waitFor(() => {
-        expect(screen.getByLabelText('Market Cap (visible)')).toBeInTheDocument();
+        expect(screen.getByLabelText('Market Capitalization (visible)')).toBeInTheDocument();
       });
     });
 
@@ -347,9 +373,16 @@ describe('ComparePage Customize View', () => {
       const showMinimalButton = screen.getByText('Show Minimal');
       await user.click(showMinimalButton);
       
-      // Should show 1 metric visible
+      // Should show 1 metric visible (only 1 metric kept from full registry)
       await waitFor(() => {
-        expect(screen.getByText('1 of 9 metrics visible')).toBeInTheDocument();
+        const summaryText = screen.getByText(/of \d+ metrics visible/);
+        expect(summaryText).toBeInTheDocument();
+        const match = summaryText.textContent?.match(/(\d+) of (\d+) metrics visible/);
+        expect(match).not.toBeNull();
+        if (match) {
+          expect(parseInt(match[1], 10)).toBe(1); // Only 1 metric visible
+          expect(parseInt(match[2], 10)).toBeGreaterThan(40); // Total metrics from registry
+        }
       });
     });
   });
@@ -366,8 +399,8 @@ describe('ComparePage Customize View', () => {
       const customizeButton = screen.getByLabelText('Customize visible metrics');
       await user.click(customizeButton);
       
-      // Hide a metric
-      const marketCapToggle = screen.getByLabelText('Market Cap (visible)');
+      // Hide a metric (Market Capitalization is from the registry)
+      const marketCapToggle = screen.getByLabelText('Market Capitalization (visible)');
       await user.click(marketCapToggle);
       
       // Should have saved to localStorage
@@ -375,15 +408,27 @@ describe('ComparePage Customize View', () => {
         const saved = localStorageMock['reit-compare-visible-metrics'];
         expect(saved).toBeDefined();
         const parsed = JSON.parse(saved);
-        expect(parsed).not.toContain('mcap');
+        expect(parsed).not.toContain('market_cap'); // registry metric ID, not legacy 'mcap'
       });
     });
 
     it('should load visible metrics from localStorage on mount', async () => {
-      // Pre-populate localStorage with custom visibility (hide Market Cap)
-      localStorageMock['reit-compare-visible-metrics'] = JSON.stringify([
-        'price', 'dpu', 'yield', 'gearing', 'icr', 'occ', 'wale', 'pb'
-      ]);
+      // Pre-populate localStorage with custom visibility (hide Market Capitalization and Share Price)
+      // Using registry metric IDs (not legacy IDs)
+      const allMetricIds = [
+        'portfolio_size', 'total_assets', 'investment_properties', 'property_count', 'net_lettable_area', 'geographic_concentration',
+        'gross_revenue', 'net_property_income', 'realised_income', 'net_profit', 'nav_per_unit', 'market_cap', 'share_price',
+        'dpu', 'dpu_growth_yoy', 'dividend_yield_market', 'dividend_yield_nav', 'payout_ratio',
+        'gearing_ratio', 'interest_coverage', 'total_borrowings', 'fixed_rate_debt_pct', 'floating_rate_debt_pct', 'wacd',
+        'occupancy_rate', 'wale_years', 'tenant_count', 'top_tenant_concentration', 'rental_reversion', 'lease_renewal_rate', 'npi_margin',
+        'tenant_risk_rating', 'interest_rate_sensitivity', 'refinancing_risk', 'gearing_headroom',
+        'revenue_australia_pct', 'revenue_malaysia_pct', 'revenue_japan_pct',
+        'revenue_australia', 'revenue_malaysia', 'revenue_japan', 'reit_segment_revenue', 'cost_of_debt',
+        'occupancy_rate_retail', 'wale_years_retail', 'hotel_occupancy', 'hotel_adr', 'hotel_revpar',
+        'price_to_book', 'premium_discount_to_nav'
+      ];
+      const visibleIds = allMetricIds.filter(id => id !== 'market_cap' && id !== 'share_price');
+      localStorageMock['reit-compare-visible-metrics'] = JSON.stringify(visibleIds);
       
       const user = userEvent.setup();
       renderComparePage();
@@ -392,13 +437,15 @@ describe('ComparePage Customize View', () => {
       const customizeButton = screen.getByLabelText('Customize visible metrics');
       await user.click(customizeButton);
       
-      // Market Cap should be hidden
+      // Market Capitalization should be hidden (using display name from registry)
       await waitFor(() => {
-        expect(screen.getByLabelText('Market Cap (hidden)')).toBeInTheDocument();
+        expect(screen.getByLabelText('Market Capitalization (hidden)')).toBeInTheDocument();
       });
       
-      // Should show 8 metrics visible
-      expect(screen.getByText('8 of 9 metrics visible')).toBeInTheDocument();
+      // Should show N-2 metrics visible (total minus 2 hidden)
+      const totalMetrics = allMetricIds.length;
+      const summaryText = screen.getByText(new RegExp(`${totalMetrics - 2} of ${totalMetrics} metrics visible`));
+      expect(summaryText).toBeInTheDocument();
     });
 
     it('should handle invalid localStorage data gracefully', async () => {
@@ -412,8 +459,15 @@ describe('ComparePage Customize View', () => {
       const customizeButton = screen.getByLabelText('Customize visible metrics');
       await user.click(customizeButton);
       
-      // Should show all metrics (default behavior)
-      expect(screen.getByText('9 of 9 metrics visible')).toBeInTheDocument();
+      // Should show all registry metrics (default behavior) - at least 40
+      const summaryText = screen.getByText(/of \d+ metrics visible/);
+      expect(summaryText).toBeInTheDocument();
+      const match = summaryText.textContent?.match(/(\d+) of (\d+) metrics visible/);
+      expect(match).not.toBeNull();
+      if (match) {
+        expect(parseInt(match[1], 10)).toBeGreaterThan(40); // All metrics visible by default
+        expect(match[1]).toBe(match[2]); // X of X means all visible
+      }
     });
   });
 
@@ -422,17 +476,28 @@ describe('ComparePage Customize View', () => {
   // ==========================================================================
   describe('Table Updates', () => {
     it('should update table when metrics are hidden', async () => {
-      // Pre-populate localStorage to hide Market Cap
-      localStorageMock['reit-compare-visible-metrics'] = JSON.stringify([
-        'price', 'dpu', 'yield', 'gearing', 'icr', 'occ', 'wale', 'pb'
-      ]);
+      // Pre-populate localStorage to hide Market Capitalization and Share Price
+      // Using registry metric IDs
+      const allMetricIds = [
+        'portfolio_size', 'total_assets', 'investment_properties', 'property_count', 'net_lettable_area', 'geographic_concentration',
+        'gross_revenue', 'net_property_income', 'realised_income', 'net_profit', 'nav_per_unit', 'market_cap', 'share_price',
+        'dpu', 'dpu_growth_yoy', 'dividend_yield_market', 'dividend_yield_nav', 'payout_ratio',
+        'gearing_ratio', 'interest_coverage', 'total_borrowings', 'fixed_rate_debt_pct', 'floating_rate_debt_pct', 'wacd',
+        'occupancy_rate', 'wale_years', 'tenant_count', 'top_tenant_concentration', 'rental_reversion', 'lease_renewal_rate', 'npi_margin',
+        'tenant_risk_rating', 'interest_rate_sensitivity', 'refinancing_risk', 'gearing_headroom',
+        'revenue_australia_pct', 'revenue_malaysia_pct', 'revenue_japan_pct',
+        'revenue_australia', 'revenue_malaysia', 'revenue_japan', 'reit_segment_revenue', 'cost_of_debt',
+        'occupancy_rate_retail', 'wale_years_retail', 'hotel_occupancy', 'hotel_adr', 'hotel_revpar',
+        'price_to_book', 'premium_discount_to_nav'
+      ];
+      const visibleIds = allMetricIds.filter(id => id !== 'market_cap' && id !== 'share_price');
+      localStorageMock['reit-compare-visible-metrics'] = JSON.stringify(visibleIds);
       
       renderComparePage();
       
-      // Market Cap should not be visible in the table
+      // Market Capitalization should not be visible in the table (using display name from registry)
       await waitFor(() => {
-        const marketCapHeader = screen.queryByText('Market Cap', { selector: 'span' });
-        // It might not be in the document or it might be filtered out
+        const marketCapHeader = screen.queryByText('Market Capitalization', { selector: 'span' });
         expect(marketCapHeader).toBeNull();
       });
     });

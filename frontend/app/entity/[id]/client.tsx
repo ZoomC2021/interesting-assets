@@ -115,6 +115,7 @@ export default function EntityDetailClient({ entityId, analysisMarkdown }: Entit
   const { data, isLoading, error } = useEntityData([entityId]);
   const [citationOpen, setCitationOpen] = useState(false);
   const [selectedCitationIds, setSelectedCitationIds] = useState<string[]>([]);
+  const [activeCitationId, setActiveCitationId] = useState<string | null>(null);
   const { announce, liveRegionProps } = useAnnouncer();
 
   const entity = data[0];
@@ -231,6 +232,7 @@ export default function EntityDetailClient({ entityId, analysisMarkdown }: Entit
   const handleCloseCitation = () => {
     setCitationOpen(false);
     setSelectedCitationIds([]);
+    setActiveCitationId(null);
     announce('Citation panel closed', 'polite');
   };
 
@@ -240,8 +242,16 @@ export default function EntityDetailClient({ entityId, analysisMarkdown }: Entit
     }
 
     setSelectedCitationIds(citationIds);
+    setActiveCitationId(null); // Clear active citation when opening multiple
     setCitationOpen(true);
     announce(`Citation panel opened with ${citationIds.length} sources`, 'polite');
+  };
+
+  const handleCitationClick = (citationId: string) => {
+    setSelectedCitationIds([citationId]);
+    setActiveCitationId(citationId); // Set the active citation for targeted viewing
+    setCitationOpen(true);
+    announce(`Citation panel opened for citation ${citationId}`, 'polite');
   };
 
   if (isLoading) {
@@ -502,7 +512,11 @@ export default function EntityDetailClient({ entityId, analysisMarkdown }: Entit
 
               <div className="p-5 sm:p-6">
                 {analysisMarkdown ? (
-                  <AnalysisMarkdown markdown={analysisMarkdown} />
+                  <AnalysisMarkdown
+                    markdown={analysisMarkdown}
+                    references={entity?.references}
+                    onCitationClick={handleCitationClick}
+                  />
                 ) : (
                   <div className="rounded-[1.5rem] border border-dashed border-stroke bg-surfaceAlt/60 p-6">
                     <p className="text-body text-ink">No checked-in markdown memo yet for {entity.entity.name}.</p>
@@ -654,6 +668,7 @@ export default function EntityDetailClient({ entityId, analysisMarkdown }: Entit
         onClose={handleCloseCitation}
         citationIds={selectedCitationIds.length > 0 ? selectedCitationIds : allCitationIds}
         entities={data}
+        activeCitationId={activeCitationId}
       />
     </div>
   );

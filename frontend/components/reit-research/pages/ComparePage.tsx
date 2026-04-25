@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
-import type { MetricType } from '@/types/frontend';
+import type { MetricType, MetricDefinition, MetricCategory } from '@/types/frontend';
 import {
   adaptReitsData,
   getDefaultEntityCodes,
@@ -18,11 +18,35 @@ import { RiskChip } from '../RiskChip';
 import { Sparkline } from '../Sparkline';
 import { AddReitModal } from '../AddReitModal';
 import { ArrowLeft, Info, Settings2, X, Eye, EyeOff, Check, Plus } from '../icons';
+import { METRIC_REGISTRY, getMetricValueAsNumber } from '@/lib/data-utils';
 
 const CATEGORIES = ['All', 'Portfolio', 'Financial', 'Per-Share', 'Leverage', 'Operational', 'Risk', 'Market'];
 
+// Map registry category to Compare page category display name
+const REGISTRY_TO_COMPARE_CATEGORY: Record<MetricCategory, string> = {
+  portfolio: 'Portfolio',
+  financial_performance: 'Financial',
+  per_share: 'Per-Share',
+  leverage: 'Leverage',
+  operational: 'Operational',
+  risk: 'Risk',
+  market: 'Market',
+};
+
+// Map metric format to Compare page format
+const REGISTRY_TO_COMPARE_FORMAT: Record<MetricDefinition['format'], 'number' | 'percent'> = {
+  number: 'number',
+  percentage: 'percent',
+  currency: 'number',
+  ratio: 'number',
+  years: 'number',
+  count: 'number',
+  boolean: 'number',
+  string: 'number',
+};
+
 interface CompareMetric {
-  id: 'mcap' | 'price' | 'dpu' | 'yield' | 'gearing' | 'icr' | 'occ' | 'wale' | 'pb';
+  id: MetricType;
   name: string;
   unit: string;
   category: string;
@@ -34,28 +58,20 @@ interface CompareMetric {
   };
 }
 
-const metrics: CompareMetric[] = [
-  { id: 'mcap', name: 'Market Cap', unit: 'RM M', category: 'Market', format: 'number', sourceMetricType: 'market_cap' },
-  { id: 'price', name: 'Share Price', unit: 'RM', category: 'Market', format: 'number', sourceMetricType: 'share_price' },
-  { id: 'dpu', name: 'DPU', unit: 'sen', category: 'Per-Share', format: 'number', sourceMetricType: 'dpu' },
-  { id: 'yield', name: 'Yield', unit: '%', category: 'Financial', format: 'percent', sourceMetricType: 'dividend_yield_market' },
-  {
-    id: 'gearing',
-    name: 'Gearing',
-    unit: '%',
-    category: 'Leverage',
-    format: 'percent',
-    invertBest: true,
-    sourceMetricType: 'gearing_ratio',
-    sourceOptions: { excludeUnitIncludes: ['unencumbered'] },
-  },
-  { id: 'icr', name: 'Interest Cover', unit: 'x', category: 'Leverage', format: 'number', sourceMetricType: 'interest_coverage' },
-  { id: 'occ', name: 'Occupancy', unit: '%', category: 'Operational', format: 'percent', sourceMetricType: 'occupancy_rate' },
-  { id: 'wale', name: 'WALE', unit: 'yrs', category: 'Operational', format: 'number', sourceMetricType: 'wale_years' },
-  { id: 'pb', name: 'Price/Book', unit: 'x', category: 'Market', format: 'number', invertBest: true, sourceMetricType: 'price_to_book' },
-];
+// Generate metrics array from METRIC_REGISTRY
+const metrics: CompareMetric[] = Object.values(METRIC_REGISTRY).map((def): CompareMetric => ({
+  id: def.type,
+  name: def.displayName,
+  unit: def.unit,
+  category: REGISTRY_TO_COMPARE_CATEGORY[def.category],
+  format: REGISTRY_TO_COMPARE_FORMAT[def.format],
+  sourceMetricType: def.type,
+  invertBest: def.isHigherBetter === false, // Lower is better when isHigherBetter is false
+  // Add sourceOptions for specific metrics that need filtering
+  ...(def.type === 'gearing_ratio' ? { sourceOptions: { excludeUnitIncludes: ['unencumbered'] } } : {}),
+}));
 
-type MetricId = CompareMetric['id'];
+type MetricId = MetricType;
 const EMPTY_INITIAL_IDS: string[] = [];
 
 interface ComparePageProps {
@@ -63,7 +79,7 @@ interface ComparePageProps {
 }
 
 // All metrics are visible by default
-const DEFAULT_VISIBLE_METRICS: MetricId[] = ['mcap', 'price', 'dpu', 'yield', 'gearing', 'icr', 'occ', 'wale', 'pb'];
+const DEFAULT_VISIBLE_METRICS: MetricId[] = Object.keys(METRIC_REGISTRY) as MetricType[];
 const STORAGE_KEY = 'reit-compare-visible-metrics';
 
 export function ComparePage({ initialIds = EMPTY_INITIAL_IDS }: ComparePageProps) {
@@ -89,8 +105,9 @@ export function ComparePage({ initialIds = EMPTY_INITIAL_IDS }: ComparePageProps
         const saved = localStorage.getItem(STORAGE_KEY);
         if (saved) {
           const parsed = JSON.parse(saved) as MetricId[];
-          // Validate that saved metrics are valid
-          const validMetrics = parsed.filter((id) => metrics.some((m) => m.id === id));
+          // Validate that saved metrics are valid registry metric IDs
+          const validMetricIds = Object.keys(METRIC_REGISTRY) as MetricType[];
+          const validMetrics = parsed.filter((id) => validMetricIds.includes(id));
           if (validMetrics.length > 0) {
             setVisibleMetricIds(validMetrics);
           }
@@ -143,29 +160,9 @@ export function ComparePage({ initialIds = EMPTY_INITIAL_IDS }: ComparePageProps
     );
   }, [selectedReits]);
 
-  const getMetricValue = (reit: REIT, metricId: MetricId) => {
-    switch (metricId) {
-      case 'mcap':
-        return reit.marketCap;
-      case 'price':
-        return reit.sharePrice;
-      case 'dpu':
-        return reit.dpu;
-      case 'yield':
-        return reit.yield;
-      case 'gearing':
-        return reit.gearing;
-      case 'icr':
-        return reit.interestCover;
-      case 'occ':
-        return reit.occupancy;
-      case 'wale':
-        return reit.wale;
-      case 'pb':
-        return reit.priceToBook;
-      default:
-        return 0;
-    }
+  const getMetricValue = (reit: REIT, metricId: MetricId): number | null => {
+    // Read from raw normalized metric data for all metrics
+    return getMetricValueAsNumber(reit.raw, metricId);
   };
 
   const getMetricCitationCount = (metric: CompareMetric) => {
@@ -174,7 +171,11 @@ export function ComparePage({ initialIds = EMPTY_INITIAL_IDS }: ComparePageProps
     ).size;
   };
 
-  const formatValue = (value: number, format: string) => {
+  const formatValue = (value: number | null, format: string): string => {
+    // Handle missing metric values as N/A
+    if (value === null || value === undefined || Number.isNaN(value)) {
+      return 'N/A';
+    }
     if (format === 'percent') {
       return `${value.toFixed(1)}%`;
     }
@@ -185,7 +186,14 @@ export function ComparePage({ initialIds = EMPTY_INITIAL_IDS }: ComparePageProps
   };
 
   const getBestWorst = (metricId: MetricId, invertBest = false) => {
-    const values = selectedReits.map((reit) => getMetricValue(reit, metricId));
+    const values = selectedReits
+      .map((reit) => getMetricValue(reit, metricId))
+      .filter((v): v is number => v !== null && !Number.isNaN(v));
+    
+    if (values.length === 0) {
+      return { best: null, worst: null };
+    }
+    
     const max = Math.max(...values);
     const min = Math.min(...values);
 
@@ -209,12 +217,13 @@ export function ComparePage({ initialIds = EMPTY_INITIAL_IDS }: ComparePageProps
 
   // Show all metrics
   const showAllMetrics = useCallback(() => {
-    setVisibleMetricIds(DEFAULT_VISIBLE_METRICS);
+    setVisibleMetricIds(Object.keys(METRIC_REGISTRY) as MetricType[]);
   }, []);
 
   // Hide all metrics (except keep at least one)
   const hideAllMetrics = useCallback(() => {
-    setVisibleMetricIds([metrics[0].id]);
+    const allMetricIds = Object.keys(METRIC_REGISTRY) as MetricType[];
+    setVisibleMetricIds([allMetricIds[0]]);
   }, []);
 
   // Handle adding a REIT to comparison with 6-REIT limit enforcement
@@ -373,8 +382,9 @@ export function ComparePage({ initialIds = EMPTY_INITIAL_IDS }: ComparePageProps
 
                         {selectedReits.map((reit) => {
                           const value = getMetricValue(reit, metric.id);
-                          const isBest = value === best;
-                          const isWorst = value === worst;
+                          // Only highlight best/worst for valid numeric values
+                          const isBest = value !== null && best !== null && value === best;
+                          const isWorst = value !== null && worst !== null && value === worst;
 
                           return (
                             <td

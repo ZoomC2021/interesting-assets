@@ -24,13 +24,18 @@ interface CitationPanelProps {
   onClose: () => void;
   citationIds: string[];
   entities: NormalizedReitData[];
+  activeCitationId?: string | null;
 }
 
-export function CitationPanel({ isOpen, onClose, citationIds, entities }: CitationPanelProps) {
+export function CitationPanel({ isOpen, onClose, citationIds, entities, activeCitationId }: CitationPanelProps) {
   const [activeFilter, setActiveFilter] = useState<SourceGroupType | 'all'>('all');
   const [copiedId, setCopiedId] = useState<string | null>(null);
   const [hoveredCitation, setHoveredCitation] = useState<string | null>(null);
   const { announce, liveRegionProps } = useAnnouncer();
+  
+  // Ref for active citation scroll targeting
+  const activeCitationRef = useRef<HTMLDivElement | null>(null);
+  const contentRef = useRef<HTMLDivElement | null>(null);
   
   // Focus trap for accessibility
   const panelRef = useFocusTrap<HTMLDivElement>({
@@ -104,6 +109,42 @@ export function CitationPanel({ isOpen, onClose, citationIds, entities }: Citati
       announce(`Showing ${filteredCitations.length} citations from ${SOURCE_GROUPS[activeFilter].label}`, 'polite');
     }
   }, [activeFilter, filteredCitations.length, isOpen, announce]);
+
+  // Auto-scroll to active citation when panel opens
+  useEffect(() => {
+    if (isOpen && activeCitationId && activeCitationRef.current && contentRef.current) {
+      // Small delay to ensure DOM is ready and layout is complete
+      const timeoutId = setTimeout(() => {
+        const citationElement = activeCitationRef.current;
+        const containerElement = contentRef.current;
+        
+        if (citationElement && containerElement) {
+          const containerRect = containerElement.getBoundingClientRect();
+          const citationRect = citationElement.getBoundingClientRect();
+          
+          // Check if citation is not fully visible in the container
+          const isAboveViewport = citationRect.top < containerRect.top;
+          const isBelowViewport = citationRect.bottom > containerRect.bottom;
+          
+          if (isAboveViewport || isBelowViewport) {
+            const scrollTop = citationElement.offsetTop - containerElement.offsetTop - 16; // 16px padding offset
+            containerElement.scrollTo({
+              top: Math.max(0, scrollTop),
+              behavior: 'smooth',
+            });
+          }
+          
+          // Announce the active citation to screen readers
+          const activeCitation = citations.find(c => c.id === activeCitationId || c.displayId === activeCitationId);
+          if (activeCitation) {
+            announce(`Citation ${activeCitation.displayId} is now active`, 'polite');
+          }
+        }
+      }, 100);
+      
+      return () => clearTimeout(timeoutId);
+    }
+  }, [isOpen, activeCitationId, citations, announce]);
 
   if (!isOpen) return null;
 
@@ -218,7 +259,7 @@ export function CitationPanel({ isOpen, onClose, citationIds, entities }: Citati
         )}
 
         {/* Content */}
-        <div className="min-h-0 flex-1 overflow-y-auto p-3">
+        <div ref={contentRef} className="min-h-0 flex-1 overflow-y-auto p-3">
           {citations.length === 0 ? (
             <div className="py-8 text-center">
               <svg className="mx-auto mb-2 h-8 w-8 text-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
@@ -243,14 +284,22 @@ export function CitationPanel({ isOpen, onClose, citationIds, entities }: Citati
                 const groupConfig = SOURCE_GROUPS[sourceGroup];
                 const isCopied = copiedId === citation.id;
                 const isHovered = hoveredCitation === citation.id;
+                // Check if this citation is the active one (match by id or displayId)
+                const isActive = activeCitationId === citation.id || activeCitationId === citation.displayId;
                 
                 return (
                   <div
                     key={citation.id}
+                    ref={isActive ? activeCitationRef : null}
                     role="listitem"
-                    className={`rounded-lg border border-stroke bg-surfaceAlt p-3 transition-all ${
-                      isHovered ? 'border-primary-300 ring-2 ring-primary-100' : ''
-                    }`}
+                    aria-current={isActive ? 'true' : undefined}
+                    data-active={isActive ? 'true' : undefined}
+                    data-citation-id={citation.id}
+                    className={`rounded-lg border p-3 transition-all ${
+                      isActive 
+                        ? 'border-primary-500 bg-primary-50 ring-2 ring-primary-200' 
+                        : 'border-stroke bg-surfaceAlt'
+                    } ${isHovered && !isActive ? 'border-primary-300 ring-2 ring-primary-100' : ''}`}
                     onMouseEnter={() => setHoveredCitation(citation.id)}
                     onMouseLeave={() => setHoveredCitation(null)}
                   >

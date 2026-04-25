@@ -357,6 +357,97 @@ describe('CitationPanel', () => {
     expect(viewSourceLink).toHaveAttribute('target', '_blank');
     expect(viewSourceLink).toHaveAttribute('rel', 'noopener noreferrer');
   });
+
+  it('should apply active state styling when activeCitationId matches', () => {
+    render(
+      <CitationPanel
+        isOpen={true}
+        onClose={mockOnClose}
+        citationIds={['T:001', 'A:001']}
+        entities={[mockEntity]}
+        activeCitationId="A:001"
+      />
+    );
+    
+    // Find the citation items
+    const citationItems = screen.getAllByRole('listitem');
+    
+    // Find the active citation (A:001)
+    const activeCitation = citationItems.find(item => 
+      item.getAttribute('data-citation-id') === 'ref-2'
+    );
+    
+    // Find the inactive citation (T:001)
+    const inactiveCitation = citationItems.find(item => 
+      item.getAttribute('data-citation-id') === 'ref-1'
+    );
+    
+    // Active citation should have aria-current and data-active
+    expect(activeCitation).toHaveAttribute('aria-current', 'true');
+    expect(activeCitation).toHaveAttribute('data-active', 'true');
+    
+    // Active citation should have active styling classes
+    expect(activeCitation).toHaveClass('border-primary-500');
+    expect(activeCitation).toHaveClass('bg-primary-50');
+    expect(activeCitation).toHaveClass('ring-2');
+    
+    // Inactive citation should not have active attributes
+    expect(inactiveCitation).not.toHaveAttribute('aria-current');
+    expect(inactiveCitation).not.toHaveAttribute('data-active');
+    expect(inactiveCitation).not.toHaveClass('border-primary-500');
+  });
+
+  it('should match active citation by internal id as well as displayId', () => {
+    render(
+      <CitationPanel
+        isOpen={true}
+        onClose={mockOnClose}
+        citationIds={['T:001']}
+        entities={[mockEntity]}
+        activeCitationId="ref-1" // Using internal id instead of displayId
+      />
+    );
+    
+    const citationItem = screen.getByRole('listitem');
+    expect(citationItem).toHaveAttribute('aria-current', 'true');
+    expect(citationItem).toHaveAttribute('data-active', 'true');
+  });
+
+  it('should render without active state when activeCitationId is not provided', () => {
+    render(
+      <CitationPanel
+        isOpen={true}
+        onClose={mockOnClose}
+        citationIds={['T:001', 'A:001']}
+        entities={[mockEntity]}
+      />
+    );
+    
+    const citationItems = screen.getAllByRole('listitem');
+    
+    // None should have active state
+    citationItems.forEach(item => {
+      expect(item).not.toHaveAttribute('aria-current');
+      expect(item).not.toHaveAttribute('data-active');
+      expect(item).not.toHaveClass('border-primary-500');
+    });
+  });
+
+  it('should render without active state when activeCitationId does not match any citation', () => {
+    render(
+      <CitationPanel
+        isOpen={true}
+        onClose={mockOnClose}
+        citationIds={['T:001']}
+        entities={[mockEntity]}
+        activeCitationId="NON-EXISTENT"
+      />
+    );
+    
+    const citationItem = screen.getByRole('listitem');
+    expect(citationItem).not.toHaveAttribute('aria-current');
+    expect(citationItem).not.toHaveAttribute('data-active');
+  });
 });
 
 describe('CitationPanel with multiple entities', () => {

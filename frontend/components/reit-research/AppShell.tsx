@@ -27,7 +27,7 @@ function AppShellInner({ children }: { children: React.ReactNode }) {
 export function AppShell({ children }: { children: React.ReactNode }) {
   return (
     <DesignStateProvider>
-      <div className="overflow-x-hidden">
+      <div className="overflow-x-clip">
         <AppShellInner>{children}</AppShellInner>
       </div>
     </DesignStateProvider>

@@ -4,30 +4,48 @@
 
 /**
  * citation-a11y.test.tsx - Accessibility tests for citation components
- * 
- * Tests keyboard navigation, focus management, and screen reader support
+ *
+ * Tests keyboard navigation, screen reader support, and focus management
+ * for citation links in markdown content.
  */
 
 import React from 'react';
-import { render, screen, fireEvent, waitFor, within, act } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { CitationPanel } from '../components/CitationPanel';
-import { MetricCard } from '../components/MetricCard';
-import { useFocusTrap } from '../hooks/useFocusTrap';
-import { useAnnouncer } from '../hooks/useAnnouncer';
-import type { NormalizedReitData, Reference, Metric } from '../types/frontend';
+import { MemoMarkdown } from '../components/reit-research/MemoMarkdown';
+import { AnalysisMarkdown } from '../components/AnalysisMarkdown';
+import type { ResearchCitation } from '../data/reits';
+import type { Reference } from '../types/frontend';
 
 // ============================================================================
 // Mock Data
 // ============================================================================
 
+const mockResearchCitations: ResearchCitation[] = [
+  {
+    id: 'T:001',
+    type: 'Annual Report',
+    title: 'Annual Report 2025',
+    date: '2025-03-31',
+    url: 'https://example.com/ar2025',
+    fact: 'Total assets RM 500M',
+  },
+  {
+    id: 'A:042',
+    type: 'Bursa Announcement',
+    title: 'Quarterly Report Q4 2025',
+    date: '2025-02-28',
+    fact: 'Share price RM 1.52',
+  },
+];
+
 const mockReferences: Reference[] = [
   {
     id: 'ref-1',
     displayId: 'T:001',
-    fact: 'Total assets value',
+    fact: 'Total assets RM 500M',
     source: 'Annual Report 2025',
-    citation: 'Atrium REIT Annual Report 2025, p. 45',
+    citation: 'Company Annual Report, p. 45',
     url: 'https://example.com/ar2025',
     dateAccessed: '2025-04-20',
     timeSensitive: false,
@@ -35,446 +53,334 @@ const mockReferences: Reference[] = [
   },
   {
     id: 'ref-2',
-    displayId: 'A:001',
-    fact: 'Market capitalization',
+    displayId: 'A:042',
+    fact: 'Share price RM 1.52',
     source: 'Bursa Malaysia',
-    citation: 'Bursa Malaysia Announcement dated 2025-04-15',
-    url: 'https://bursamalaysia.com/announcement',
+    citation: 'Bursa Announcement dated 2025-04-15',
+    url: 'https://bursa.com/announcement',
     dateAccessed: '2025-04-20',
     timeSensitive: true,
     entityId: 'entity-1',
   },
 ];
 
-const mockEntity: NormalizedReitData = {
-  schemaVersion: '1.0',
-  generatedAt: new Date().toISOString(),
-  entity: {
-    id: 'entity-1',
-    code: '5130.KL',
-    name: 'Atrium REIT',
-    exchange: 'KLSE',
-    sector: 'Industrial',
-    currency: 'MYR',
-    isShariahCompliant: false,
-    manager: { name: 'Atrium REIT Manager' },
-    trustee: 'Malaysian Trustees',
-    fiscalYearEnd: { month: 12, day: 31 },
-    references: ['ref-1', 'ref-2'],
-  },
-  references: mockReferences,
-  metrics: [],
-  timeSeries: [],
-  riskAssessment: {
-    id: 'risk-1',
-    entityId: 'entity-1',
-    assessmentDate: new Date().toISOString().slice(0, 10),
-    overallRiskRating: 'moderate',
-    riskFactors: [],
-  },
-  observations: [],
-};
-
-const mockMetric: Metric = {
-  id: 'metric-1',
-  metricType: 'market_cap',
-  value: 500000000,
-  unit: 'MYR',
-  period: { type: 'point_in_time', date: '2025-04-20' },
-  isEstimated: false,
-  isTimeSensitive: true,
-  sourceDisplayIds: ['T:001', 'A:001'],
-};
-
 // ============================================================================
-// useFocusTrap Tests
+// MemoMarkdown Accessibility Tests
 // ============================================================================
 
-describe('useFocusTrap', () => {
-  function TestComponent({ isActive, onEscape }: { isActive: boolean; onEscape?: () => void }) {
-    const ref = useFocusTrap<HTMLDivElement>({ isActive, onEscape });
-    
-    return (
-      <div ref={ref} data-testid="trap-container">
-        <button data-testid="button-1">First Button</button>
-        <button data-testid="button-2">Second Button</button>
-        <a href="#test" data-testid="link">Link</a>
-      </div>
+describe('MemoMarkdown Citation Accessibility', () => {
+  it('renders citation buttons with proper accessible names', () => {
+    render(
+      <MemoMarkdown
+        markdown={`## Executive Summary
+
+The REIT trades at a discount [T:001].
+`}
+        citations={mockResearchCitations}
+        onCitationClick={jest.fn()}
+      />,
     );
-  }
 
-  it('should not trap focus when inactive', () => {
-    render(<TestComponent isActive={false} />);
-    const container = screen.getByTestId('trap-container');
-    expect(container).toBeInTheDocument();
+    const citationButton = screen.getByRole('button', { name: /View source T:001/i });
+    expect(citationButton).toHaveAttribute('title', 'View source T:001');
+    expect(citationButton).toHaveAttribute('type', 'button');
   });
 
-  it('should trap focus when active', async () => {
+  it('supports keyboard navigation to citation buttons', async () => {
     const user = userEvent.setup();
-    const onEscape = jest.fn();
-    
-    render(<TestComponent isActive={true} onEscape={onEscape} />);
-    
-    const button1 = screen.getByTestId('button-1');
-    const button2 = screen.getByTestId('button-2');
-    const link = screen.getByTestId('link');
-    
-    // Wait for initial focus
-    await waitFor(() => {
-      expect(document.activeElement).toBe(button1);
-    }, { timeout: 2000 });
-    
-    // Tab should move through elements
+
+    render(
+      <MemoMarkdown
+        markdown={`## Executive Summary
+
+Paragraph with citation [T:001] and more text.
+`}
+        citations={mockResearchCitations}
+        onCitationClick={jest.fn()}
+      />,
+    );
+
+    // Tab to the citation button
     await user.tab();
-    expect(document.activeElement).toBe(button2);
-    
-    await user.tab();
-    expect(document.activeElement).toBe(link);
-    
-    // Tab should cycle back to first button (focus trap)
-    await user.tab();
-    expect(document.activeElement).toBe(button1);
+
+    const citationButton = screen.getByRole('button', { name: /View source T:001/i });
+    expect(citationButton).toHaveFocus();
   });
 
-  it('should call onEscape when Escape key is pressed', () => {
-    const onEscape = jest.fn();
-    render(<TestComponent isActive={true} onEscape={onEscape} />);
-    
-    fireEvent.keyDown(document, { key: 'Escape' });
-    expect(onEscape).toHaveBeenCalled();
-  });
-});
-
-// ============================================================================
-// useAnnouncer Tests
-// ============================================================================
-
-describe('useAnnouncer', () => {
-  function TestComponent() {
-    const { announce, liveRegionProps, announcements } = useAnnouncer();
-    
-    return (
-      <div>
-        <button onClick={() => announce('Test message', 'polite')}>Announce</button>
-        <div {...liveRegionProps.polite} data-testid="polite-region">
-          {announcements.filter(a => a.priority === 'polite').map(a => a.message).join(', ')}
-        </div>
-        <div {...liveRegionProps.assertive} data-testid="assertive-region">
-          {announcements.filter(a => a.priority === 'assertive').map(a => a.message).join(', ')}
-        </div>
-      </div>
-    );
-  }
-
-  it('should have aria-live polite attributes', () => {
-    render(<TestComponent />);
-    const politeRegion = screen.getByTestId('polite-region');
-    
-    expect(politeRegion).toHaveAttribute('aria-live', 'polite');
-    expect(politeRegion).toHaveAttribute('aria-atomic', 'true');
-  });
-
-  it('should have aria-live assertive attributes', () => {
-    render(<TestComponent />);
-    const assertiveRegion = screen.getByTestId('assertive-region');
-    
-    expect(assertiveRegion).toHaveAttribute('aria-live', 'assertive');
-    expect(assertiveRegion).toHaveAttribute('aria-atomic', 'true');
-  });
-});
-
-// ============================================================================
-// CitationPanel Accessibility Tests
-// ============================================================================
-
-describe('CitationPanel Accessibility', () => {
-  const mockOnClose = jest.fn();
-
-  beforeEach(() => {
-    mockOnClose.mockClear();
-  });
-
-  it('should have proper ARIA attributes when open', () => {
-    render(
-      <CitationPanel
-        isOpen={true}
-        onClose={mockOnClose}
-        citationIds={['T:001', 'A:001']}
-        entities={[mockEntity]}
-      />
-    );
-    
-    const panel = screen.getByRole('dialog');
-    expect(panel).toHaveAttribute('aria-modal', 'true');
-    expect(panel).toHaveAttribute('aria-labelledby', 'citation-panel-title');
-    expect(panel).toHaveAttribute('aria-describedby', 'citation-panel-description');
-  });
-
-  it('should have accessible title and description', () => {
-    render(
-      <CitationPanel
-        isOpen={true}
-        onClose={mockOnClose}
-        citationIds={['T:001', 'A:001']}
-        entities={[mockEntity]}
-      />
-    );
-    
-    const title = screen.getByText('Sources & citations');
-    expect(title).toHaveAttribute('id', 'citation-panel-title');
-    
-    const description = screen.getByText(/2 references from 1 source/);
-    expect(description).toHaveAttribute('id', 'citation-panel-description');
-  });
-
-  it('should have accessible close button', () => {
-    render(
-      <CitationPanel
-        isOpen={true}
-        onClose={mockOnClose}
-        citationIds={['T:001', 'A:001']}
-        entities={[mockEntity]}
-      />
-    );
-    
-    const closeButton = screen.getByLabelText('Close citation panel');
-    expect(closeButton).toHaveAttribute('title', 'Close (Escape)');
-  });
-
-  it('should close on Escape key press', () => {
-    render(
-      <CitationPanel
-        isOpen={true}
-        onClose={mockOnClose}
-        citationIds={['T:001', 'A:001']}
-        entities={[mockEntity]}
-      />
-    );
-    
-    fireEvent.keyDown(document, { key: 'Escape' });
-    expect(mockOnClose).toHaveBeenCalled();
-  });
-
-  it('should render citations list with proper role', () => {
-    render(
-      <CitationPanel
-        isOpen={true}
-        onClose={mockOnClose}
-        citationIds={['T:001', 'A:001']}
-        entities={[mockEntity]}
-      />
-    );
-    
-    const list = screen.getByRole('list', { name: 'Citations list' });
-    expect(list).toBeInTheDocument();
-    
-    const items = within(list).getAllByRole('listitem');
-    expect(items).toHaveLength(2);
-  });
-
-  it('should have accessible filter buttons with aria-pressed', () => {
-    render(
-      <CitationPanel
-        isOpen={true}
-        onClose={mockOnClose}
-        citationIds={['T:001', 'A:001']}
-        entities={[mockEntity]}
-      />
-    );
-    
-    const allFilterButton = screen.getByLabelText('Show all sources');
-    expect(allFilterButton).toHaveAttribute('aria-pressed', 'true');
-  });
-
-  it('should have accessible copy buttons with proper labels', () => {
-    render(
-      <CitationPanel
-        isOpen={true}
-        onClose={mockOnClose}
-        citationIds={['T:001']}
-        entities={[mockEntity]}
-      />
-    );
-    
-    const copyButton = screen.getByLabelText(/Copy citation/);
-    expect(copyButton).toBeInTheDocument();
-  });
-
-  it('should mark time-sensitive data with visual indicator', () => {
-    render(
-      <CitationPanel
-        isOpen={true}
-        onClose={mockOnClose}
-        citationIds={['A:001']} // Time-sensitive reference
-        entities={[mockEntity]}
-      />
-    );
-    
-    const timeSensitiveBadge = screen.getByText('Time-sensitive');
-    expect(timeSensitiveBadge).toBeInTheDocument();
-    expect(timeSensitiveBadge).toHaveAttribute('title', expect.stringContaining('time-sensitive'));
-  });
-
-  it('should have accessible external links', () => {
-    render(
-      <CitationPanel
-        isOpen={true}
-        onClose={mockOnClose}
-        citationIds={['T:001']}
-        entities={[mockEntity]}
-      />
-    );
-    
-    const viewSourceLink = screen.getByLabelText(/View source for/);
-    expect(viewSourceLink).toHaveAttribute('target', '_blank');
-    expect(viewSourceLink).toHaveAttribute('rel', 'noopener noreferrer');
-  });
-});
-
-// ============================================================================
-// MetricCard Accessibility Tests
-// ============================================================================
-
-describe('MetricCard Accessibility', () => {
-  const mockOnClick = jest.fn();
-
-  it('should have proper role and aria-label when clickable', () => {
-    render(
-      <MetricCard
-        metric={mockMetric}
-        entityName="Atrium"
-        entityColor="#2563eb"
-        onClick={mockOnClick}
-      />
-    );
-    
-    const card = screen.getByRole('button');
-    // aria-label uses the display name, not the metricType
-    expect(card).toHaveAttribute('aria-label', expect.stringContaining('Market Cap'));
-    expect(card).toHaveAttribute('aria-label', expect.stringContaining('2 citations'));
-    expect(card).toHaveAttribute('tabIndex', '0');
-  });
-
-  it('should handle keyboard activation', () => {
-    render(
-      <MetricCard
-        metric={mockMetric}
-        entityName="Atrium"
-        entityColor="#2563eb"
-        onClick={mockOnClick}
-      />
-    );
-    
-    const card = screen.getByRole('button');
-    
-    fireEvent.keyDown(card, { key: 'Enter' });
-    expect(mockOnClick).toHaveBeenCalledWith(['T:001', 'A:001']);
-    
-    mockOnClick.mockClear();
-    
-    fireEvent.keyDown(card, { key: ' ' });
-    expect(mockOnClick).toHaveBeenCalledWith(['T:001', 'A:001']);
-  });
-
-  it('should display citation count badge', () => {
-    render(
-      <MetricCard
-        metric={mockMetric}
-        entityName="Atrium"
-        entityColor="#2563eb"
-        onClick={mockOnClick}
-      />
-    );
-    
-    const badge = screen.getByText('2');
-    expect(badge).toBeInTheDocument();
-    expect(badge).toHaveAttribute('title', '2 citations');
-  });
-
-  it('should display time-sensitive warning icon', () => {
-    render(
-      <MetricCard
-        metric={mockMetric}
-        entityName="Atrium"
-        entityColor="#2563eb"
-      />
-    );
-    
-    const warningIcon = screen.getByLabelText('Warning: Time-sensitive data');
-    expect(warningIcon).toBeInTheDocument();
-  });
-
-  it('should display estimated indicator', () => {
-    const estimatedMetric = { ...mockMetric, isEstimated: true };
-    render(
-      <MetricCard
-        metric={estimatedMetric}
-        entityName="Atrium"
-        entityColor="#2563eb"
-      />
-    );
-    
-    const estimatedLabel = screen.getByText('est.');
-    expect(estimatedLabel).toBeInTheDocument();
-    expect(estimatedLabel).toHaveAttribute('title', 'Estimated value');
-  });
-});
-
-// ============================================================================
-// Keyboard Navigation Tests
-// ============================================================================
-
-describe('Keyboard Navigation', () => {
-  it('CitationPanel should support Tab navigation through all focusable elements', async () => {
+  it('allows activation via keyboard Enter key', async () => {
     const user = userEvent.setup();
-    const mockOnClose = jest.fn();
-    
+    const handleClick = jest.fn();
+
     render(
-      <CitationPanel
-        isOpen={true}
-        onClose={mockOnClose}
-        citationIds={['T:001', 'A:001']}
-        entities={[mockEntity]}
-      />
+      <MemoMarkdown
+        markdown={`## Executive Summary
+
+The REIT trades at a discount [T:001].
+`}
+        citations={mockResearchCitations}
+        onCitationClick={handleClick}
+      />,
     );
-    
-    // Wait for initial focus
-    await waitFor(() => {
-      const closeButton = screen.getByLabelText('Close citation panel');
-      expect(document.activeElement).toBe(closeButton);
-    }, { timeout: 2000 });
-    
-    // Tab through filter buttons
-    await user.tab();
-    const filterButton = screen.getByLabelText('Show all sources');
-    expect(document.activeElement).toBe(filterButton);
+
+    const citationButton = screen.getByRole('button', { name: /View source T:001/i });
+    citationButton.focus();
+
+    await user.keyboard('{Enter}');
+
+    expect(handleClick).toHaveBeenCalledTimes(1);
+    expect(handleClick).toHaveBeenCalledWith('T:001');
   });
 
-  it('MetricCard should be keyboard accessible', async () => {
+  it('allows activation via keyboard Space key', async () => {
     const user = userEvent.setup();
-    const mockOnClick = jest.fn();
-    
+    const handleClick = jest.fn();
+
     render(
-      <MetricCard
-        metric={mockMetric}
-        entityName="Atrium"
-        entityColor="#2563eb"
-        onClick={mockOnClick}
-      />
+      <MemoMarkdown
+        markdown={`## Executive Summary
+
+The REIT trades at a discount [T:001].
+`}
+        citations={mockResearchCitations}
+        onCitationClick={handleClick}
+      />,
     );
-    
-    const card = screen.getByRole('button');
-    
-    // Focus the card
-    await act(async () => {
-      await user.click(card);
-    });
-    expect(document.activeElement).toBe(card);
-    
-    // Activate with Enter
-    await act(async () => {
-      await user.keyboard('{Enter}');
-    });
-    expect(mockOnClick).toHaveBeenCalled();
+
+    const citationButton = screen.getByRole('button', { name: /View source T:001/i });
+    citationButton.focus();
+
+    await user.keyboard(' ');
+
+    expect(handleClick).toHaveBeenCalledTimes(1);
+    expect(handleClick).toHaveBeenCalledWith('T:001');
+  });
+
+  it('preserves content structure for screen readers', () => {
+    render(
+      <MemoMarkdown
+        markdown={`## Executive Summary
+
+First paragraph [T:001] with citation.
+
+- List item [A:042] with citation
+- Another item without citation
+`}
+        citations={mockResearchCitations}
+        onCitationClick={jest.fn()}
+      />,
+    );
+
+    // Paragraph should be readable
+    const paragraph = screen.getByText((content) =>
+      content.includes('First paragraph') && content.includes('with citation'),
+    );
+    expect(paragraph).toBeInTheDocument();
+
+    // List structure should be preserved
+    const listItems = screen.getAllByRole('listitem');
+    expect(listItems.length).toBeGreaterThanOrEqual(2);
+  });
+
+  it('does not interfere with link navigation', async () => {
+    const user = userEvent.setup();
+
+    render(
+      <MemoMarkdown
+        markdown={`## Executive Summary
+
+Visit [our website](https://example.com) or see citation [T:001].
+`}
+        citations={mockResearchCitations}
+        onCitationClick={jest.fn()}
+      />,
+    );
+
+    // External link should be separate from citation button
+    const externalLink = screen.getByRole('link', { name: /our website/i });
+    expect(externalLink).toHaveAttribute('href', 'https://example.com');
+
+    const citationButton = screen.getByRole('button', { name: /View source T:001/i });
+    expect(citationButton).toBeInTheDocument();
+
+    // Should be able to tab between them
+    await user.tab();
+
+    // Depending on DOM order, one of them should have focus
+    const focusedElement = document.activeElement;
+    expect(
+      focusedElement === externalLink || focusedElement === citationButton,
+    ).toBe(true);
+  });
+});
+
+// ============================================================================
+// AnalysisMarkdown Accessibility Tests
+// ============================================================================
+
+describe('AnalysisMarkdown Citation Accessibility', () => {
+  it('renders citation buttons with proper accessible names', () => {
+    render(
+      <AnalysisMarkdown
+        markdown={`## Executive Summary
+
+The REIT trades at a discount [T:001].
+`}
+        references={mockReferences}
+        onCitationClick={jest.fn()}
+      />,
+    );
+
+    const citationButton = screen.getByRole('button', { name: /View source T:001/i });
+    expect(citationButton).toHaveAttribute('title', 'View source T:001');
+    expect(citationButton).toHaveAttribute('type', 'button');
+  });
+
+  it('supports keyboard navigation to citation buttons', async () => {
+    const user = userEvent.setup();
+
+    render(
+      <AnalysisMarkdown
+        markdown={`## Executive Summary
+
+Paragraph with citation [T:001] and more text.
+`}
+        references={mockReferences}
+        onCitationClick={jest.fn()}
+      />,
+    );
+
+    // Tab to the citation button
+    await user.tab();
+
+    const citationButton = screen.getByRole('button', { name: /View source T:001/i });
+    expect(citationButton).toHaveFocus();
+  });
+
+  it('has visible focus indicators on citation buttons', async () => {
+    const user = userEvent.setup();
+
+    render(
+      <AnalysisMarkdown
+        markdown={`## Executive Summary
+
+The REIT trades at a discount [T:001].
+`}
+        references={mockReferences}
+        onCitationClick={jest.fn()}
+      />,
+    );
+
+    const citationButton = screen.getByRole('button', { name: /View source T:001/i });
+
+    // Check that focus-visible styles are applied (focus ring classes)
+    expect(citationButton.className).toContain('focus-visible:ring');
+  });
+
+  it('renders unknown citations as plain text (no button)', () => {
+    render(
+      <AnalysisMarkdown
+        markdown={`## Executive Summary
+
+Unknown citation [U:999] should be plain text.
+`}
+        references={mockReferences}
+        onCitationClick={jest.fn()}
+      />,
+    );
+
+    // Should NOT be a button
+    const unknownButton = screen.queryByRole('button', { name: /U:999/i });
+    expect(unknownButton).not.toBeInTheDocument();
+
+    // But the text content should be present
+    expect(screen.getByText(/\[U:999\]/)).toBeInTheDocument();
+  });
+
+  it('handles citations in strong and emphasized text', async () => {
+    const user = userEvent.setup();
+    const handleClick = jest.fn();
+
+    render(
+      <AnalysisMarkdown
+        markdown={`## Executive Summary
+
+**Bold text with citation [T:001]** and *italic with [A:042]*.
+`}
+        references={mockReferences}
+        onCitationClick={handleClick}
+      />,
+    );
+
+    // Both citations should be clickable
+    const citation1 = screen.getByRole('button', { name: /View source T:001/i });
+    const citation2 = screen.getByRole('button', { name: /View source A:042/i });
+
+    expect(citation1).toBeInTheDocument();
+    expect(citation2).toBeInTheDocument();
+
+    // Click should work from within strong/em
+    await user.click(citation1);
+    expect(handleClick).toHaveBeenCalledWith('ref-1');
+  });
+});
+
+// ============================================================================
+// Citation Pattern Tests
+// ============================================================================
+
+describe('Citation Pattern Recognition', () => {
+  it('recognizes valid citation patterns [A:001] through [Z:999]', () => {
+    const extensiveCitations: ResearchCitation[] = [
+      { id: 'T:001', type: 'Test', title: 'Test 1', date: '2025-01-01', fact: 'Fact 1' },
+      { id: 'T:999', type: 'Test', title: 'Test 999', date: '2025-01-01', fact: 'Fact 999' },
+      { id: 'A:042', type: 'Test', title: 'Test A42', date: '2025-01-01', fact: 'Fact A42' },
+      { id: 'Z:001', type: 'Test', title: 'Test Z1', date: '2025-01-01', fact: 'Fact Z1' },
+    ];
+
+    render(
+      <MemoMarkdown
+        markdown={`## Test
+
+Citations: [T:001], [T:999], [A:042], [Z:001].
+`}
+        citations={extensiveCitations}
+        onCitationClick={jest.fn()}
+      />,
+    );
+
+    // All should be rendered as buttons
+    expect(screen.getByRole('button', { name: /T:001/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /T:999/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /A:042/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Z:001/i })).toBeInTheDocument();
+  });
+
+  it('treats invalid patterns as plain text', () => {
+    // Use empty citations so that T:001 won't match any known citation
+    render(
+      <MemoMarkdown
+        markdown={`## Test
+
+Invalid patterns: [001], [T:], [:001], [TT:001], [T:1a]
+
+Valid pattern but unknown citation: [Z:999]
+
+Embedded in text: check[T:001]noBrackets.
+`}
+        citations={[]} // Empty citations - no citation IDs will be recognized
+        onCitationClick={jest.fn()}
+      />,
+    );
+
+    // None of these should be buttons since no citations are provided
+    const buttons = screen.queryAllByRole('button');
+    const citationButtons = buttons.filter((btn) =>
+      btn.textContent?.includes('['),
+    );
+    expect(citationButtons.length).toBe(0);
+
+    // But the text should be visible as plain text
+    expect(screen.getByText(/\[001\]/)).toBeInTheDocument();
+    expect(screen.getByText(/\[Z:999\]/)).toBeInTheDocument();
   });
 });

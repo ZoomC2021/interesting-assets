@@ -16,6 +16,7 @@ module.exports = {
     }
   },
   moduleNameMapper: {
+    '^uuid$': '<rootDir>/__mocks__/uuid.js',
     '^@/(.*)$': '<rootDir>/src/$1'
   },
   verbose: true
