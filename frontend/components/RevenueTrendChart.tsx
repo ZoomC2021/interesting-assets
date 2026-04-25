@@ -11,12 +11,16 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 import type { NormalizedReitData } from '@/types/frontend';
+import { DASHBOARD_CHART_OUTER_CLASS } from '@/lib/chart-layout';
+import clsx from 'clsx';
 
 interface RevenueTrendChartProps {
   entities: NormalizedReitData[];
+  chartAreaClassName?: string;
 }
 
-export function RevenueTrendChart({ entities }: RevenueTrendChartProps) {
+export function RevenueTrendChart({ entities, chartAreaClassName }: RevenueTrendChartProps) {
+  const areaClass = chartAreaClassName ?? DASHBOARD_CHART_OUTER_CLASS;
   // Find quarterly revenue data from metrics
   const revenueData = entities.map(entity => {
     const quarterlyMetrics = entity.metrics.filter(m => 
@@ -71,14 +75,19 @@ export function RevenueTrendChart({ entities }: RevenueTrendChartProps) {
 
   if (chartData.length === 0) {
     return (
-      <div className="h-64 flex items-center justify-center">
-        <p className="text-neutral-400">No quarterly revenue data available</p>
+      <div
+        className={clsx(
+          areaClass,
+          'flex items-center justify-center',
+        )}
+      >
+        <p className="text-sm text-neutral-400">No quarterly revenue data available</p>
       </div>
     );
   }
 
   return (
-    <div className="h-64">
+    <div className={areaClass}>
       <ResponsiveContainer width="100%" height="100%">
         <BarChart data={chartData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />

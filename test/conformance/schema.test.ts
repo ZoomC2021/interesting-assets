@@ -89,7 +89,7 @@ describe('Schema Conformance', () => {
       if (!atriumData?.references) return;
       
       for (const ref of atriumData.references) {
-        expect(ref.displayId).toMatch(/^[TA]:\d{1,3}$/);
+        expect(ref.displayId).toMatch(/^[TAC]:\d{1,3}$/);
         expect(ref.id).toMatch(/^[0-9a-f-]{36}$/i);
         expect(ref.fact).toBeTruthy();
         expect(ref.source).toBeTruthy();
@@ -147,7 +147,7 @@ describe('Schema Conformance', () => {
         expect(metric.sourceDisplayIds.length).toBeGreaterThan(0);
         
         for (const id of metric.sourceDisplayIds) {
-          expect(id).toMatch(/^[TA]:\d{1,3}$/);
+          expect(id).toMatch(/^[TAC]:\d{1,3}$/);
         }
       }
     });

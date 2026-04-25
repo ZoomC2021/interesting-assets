@@ -18,6 +18,7 @@ A comprehensive monitoring and comparison tool for Malaysian Real Estate Investm
 - **Charts**: Recharts
 - **Testing**: Jest + React Testing Library
 - **Build**: Static export for deployment
+- **Tasks**: [Makefile](Makefile) at the repo root (wraps common npm commands)
 
 ## Quick Start
 
@@ -25,57 +26,77 @@ A comprehensive monitoring and comparison tool for Malaysian Real Estate Investm
 
 - Node.js 18+
 - npm 9+
+- GNU Make (optional, for `make` targets)
 
 ### Installation
 
 ```bash
-# Clone the repository
 git clone <repository-url>
 cd interesting-assets
-
-# Install dependencies
-npm install
-cd frontend && npm install
+make install
 ```
+
+To install without Make: `npm install` in the repository root, then `npm install` in `frontend/`.
 
 ### Development
 
 ```bash
-# Start development server
-cd frontend
-npm run dev
-
-# Open http://localhost:3000
+make dev
+# http://localhost:3000
 ```
+
+Without Make: `cd frontend && npm run dev`.
 
 ### Build
 
 ```bash
-# Production build
-cd frontend
-npm run build
-
-# Output will be in frontend/dist/
+# Typecheck the data contract, then build the Next app (output: frontend/dist/)
+make build
 ```
+
+Frontend only: `make build-frontend` or `cd frontend && npm run build`.
 
 ### Testing
 
 ```bash
-# Run all tests
-cd frontend
-npm test
-
-# Run with coverage
-npm run test:coverage
-
-# Type checking
-npm run type-check
+make test
+make test-coverage   # coverage (frontend)
 ```
+
+Without Make: `npm test` at the repo root (contract), and `cd frontend && npm test` (frontend). Typecheck: `make typecheck-all` or `cd frontend && npm run type-check`.
+
+### Full local check
+
+After installing dependencies, run typecheck, lint, and both test suites:
+
+```bash
+make ci
+```
+
+## Makefile
+
+Run `make` or `make help` to list all targets. Common ones:
+
+| Target | Description |
+|--------|-------------|
+| `install` | Install root and `frontend/` dependencies |
+| `dev` | Next.js dev server |
+| `start` | Production server (`next start`; build first) |
+| `build` | Contract typecheck + frontend production build |
+| `build-contract` / `build-frontend` | Only one part of `build` |
+| `typecheck-all` | TypeScript: root + frontend |
+| `lint` | `next lint` in `frontend/` |
+| `test` | Root Jest + frontend Jest |
+| `validate-atrium` / `validate-axis` | Schema validation on sample JSON |
+| `check-citations` / `verify-citations` | Citation checks (root / frontend) |
+| `clean` | Remove `dist`, `.next`, and coverage output |
+| `ci` | `typecheck-all`, `lint`, and `test` |
 
 ## Project Structure
 
 ```
 interesting-assets/
+├── Makefile                  # make install, dev, build, test, ci, …
 ├── frontend/                 # Next.js frontend application
 │   ├── app/                  # App router pages
 │   │   ├── page.tsx          # Home page
@@ -162,8 +183,8 @@ See [CHANGELOG.md](./CHANGELOG.md) for version history.
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
-4. Run tests: `npm test`
-5. Build verification: `npm run build`
+4. Run tests: `make test` (or `npm test` in the root and in `frontend/`)
+5. Build verification: `make build` and `make ci` before opening a pull request
 6. Submit a pull request
 
 ## Support

@@ -2,9 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-canvas text-ink antialiased;
+    font-feature-settings: "tnum" 1, "lnum" 1;
+  }
+}
+
+@layer utilities {
+  .tabular {
+    font-variant-numeric: tabular-nums lining-nums;
+  }
+  .text-label {
+    @apply text-[11px] font-medium uppercase tracking-[0.08em] text-muted;
+  }
+  .text-data {
+    @apply text-[13px] leading-5 text-ink;
+  }
+  .text-metric {
+    @apply tabular text-[18px] leading-6 font-semibold tracking-[-0.02em] text-ink;
+  }
+  .text-metric-sm {
+    @apply tabular text-[15px] leading-5 font-semibold text-ink;
+  }
+}
+
 :root {
   --foreground-rgb: 15, 23, 42;
   --background-rgb: 248, 250, 252;
+
+  /* Semantic color tokens - Light mode */
+  --color-canvas: 210 40% 98%;      /* very light blue-gray */
+  --color-surface: 0 0% 100%;        /* white */
+  --color-surface-alt: 210 40% 96%;  /* slight tint */
+  --color-stroke: 214 32% 91%;       /* subtle border */
+  --color-ink: 222 47% 11%;          /* near-black */
+  --color-muted: 215 16% 47%;        /* gray text */
+
+  --color-accent: 221 83% 53%;       /* institutional blue */
+  --color-accent-soft: 213 100% 96%; /* light blue */
+  --color-accent-strong: 222 47% 31%; /* deep blue */
+
+  --color-success: 142 76% 36%;      /* professional green */
+  --color-warning: 32 95% 44%;        /* amber */
+  --color-danger: 0 72% 51%;         /* red */
+}
+
+.dark {
+  /* Semantic color tokens - Dark mode */
+  --color-canvas: 222 47% 6%;
+  --color-surface: 222 47% 8%;
+  --color-surface-alt: 222 47% 11%;
+  --color-stroke: 217 33% 17%;
+  --color-ink: 210 40% 98%;
+  --color-muted: 215 20% 65%;
+
+  --color-accent: 217 91% 60%;
+  --color-accent-soft: 217 33% 17%;
+  --color-accent-strong: 213 100% 85%;
+
+  --color-success: 142 71% 45%;
+  --color-warning: 38 92% 50%;
+  --color-danger: 0 84% 60%;
 }
 
 * {
@@ -41,6 +100,16 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
+}
+
+/* Hide scrollbar utility (for sync-scroll containers) */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
 
 /* Financial number formatting */

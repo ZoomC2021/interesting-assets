@@ -29,7 +29,7 @@ export const DisplayIdRegex = {
 
 export const ReferenceSchema = z.object({
   id: z.string().uuid(),
-  displayId: z.string().regex(/^[TA]:\d+$/),
+  displayId: z.string().regex(/^[TAC]:\d+$/),
   fact: z.string().min(1),
   source: z.string().min(1),
   citation: z.string().min(1),
@@ -47,6 +47,7 @@ export const EntitySchema = z.object({
   sector: z.string().min(1),
   currency: z.string().default('MYR'),
   isShariahCompliant: z.boolean(),
+  isStapledSecurity: z.boolean().optional(),
   listingDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
   manager: z.object({
     name: z.string().min(1),
@@ -116,7 +117,25 @@ export const MetricSchema = z.object({
     'tenant_risk_rating',
     'interest_rate_sensitivity',
     'refinancing_risk',
-    
+    'gearing_headroom',
+
+    // Geographic revenue breakdown
+    'revenue_australia_pct',
+    'revenue_malaysia_pct',
+    'revenue_japan_pct',
+    'revenue_australia',
+    'revenue_malaysia',
+    'revenue_japan',
+
+    // KLCC-specific metrics
+    'reit_segment_revenue',
+    'cost_of_debt',
+    'occupancy_rate_retail',
+    'wale_years_retail',
+    'hotel_occupancy',
+    'hotel_adr',
+    'hotel_revpar',
+
     // Market metrics
     'price_to_book',
     'premium_discount_to_nav'
@@ -131,14 +150,14 @@ export const MetricSchema = z.object({
   }),
   isEstimated: z.boolean().default(false),
   isTimeSensitive: z.boolean().default(false),
-  sourceDisplayIds: z.array(z.string().regex(/^[TA]:\d+$/))
+  sourceDisplayIds: z.array(z.string().regex(/^[TAC]:\d+$/))
 });
 
 export const TimeSeriesPointSchema = z.object({
   date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   value: MetricValueSchema,
   isInterpolated: z.boolean().default(false),
-  sourceDisplayId: z.string().regex(/^[TA]:\d+$/).optional()
+  sourceDisplayId: z.string().regex(/^[TAC]:\d+$/).optional()
 });
 
 export const TimeSeriesSchema = z.object({
@@ -148,7 +167,7 @@ export const TimeSeriesSchema = z.object({
   frequency: z.enum(['daily', 'weekly', 'monthly', 'quarterly', 'annual']),
   unit: z.string(),
   dataPoints: z.array(TimeSeriesPointSchema).min(1),
-  sourceDisplayIds: z.array(z.string().regex(/^[TA]:\d+$/)),
+  sourceDisplayIds: z.array(z.string().regex(/^[TAC]:\d+$/)),
   metadata: z.object({
     startDate: z.string(),
     endDate: z.string(),
@@ -168,9 +187,13 @@ export const RiskFactorSchema = z.object({
     'counterparty',
     'governance',
     'market',
-    'operational'
+    'operational',
+    'tenant_concentration',
+    'lease_rollover',
+    'retail_cyclicality',
+    'hospitality_volatility'
   ]),
-  severity: z.enum(['low', 'medium', 'high', 'critical']),
+  severity: z.enum(['very_low', 'low', 'medium', 'high', 'critical']),
   title: z.string().min(1).optional(),
   description: z.string().min(1),
   currentScore: z.number().optional(),
@@ -192,7 +215,7 @@ export const RiskFactorSchema = z.object({
   trend: z.enum(['improving', 'stable', 'deteriorating', 'unknown']).optional(),
   monitoringTriggers: z.array(z.string()).optional(),
   relatedMetricTypes: z.array(MetricSchema.shape.metricType).optional(),
-  sourceDisplayIds: z.array(z.string().regex(/^[TA]:\d+$/))
+  sourceDisplayIds: z.array(z.string().regex(/^[TAC]:\d+$/))
 });
 
 export const RiskAssessmentSchema = z.object({
@@ -219,7 +242,11 @@ export const ObservationSchema = z.object({
     'dividend_sustainability',
     'risk_assessment',
     'peer_comparison',
-    'market_context'
+    'market_context',
+    'management_assessment',
+    'industry_benchmark',
+    'governance',
+    'tenant_analysis'
   ]),
   content: z.string().min(1),
   summary: z.string().min(1).optional(),
@@ -245,7 +272,7 @@ export const ObservationSchema = z.object({
   })).optional(),
   primaryCitation: z.string().optional(),
   relatedMetricTypes: z.array(MetricSchema.shape.metricType).optional(),
-  sourceDisplayIds: z.array(z.string().regex(/^[TA]:\d+$/)).min(1)
+  sourceDisplayIds: z.array(z.string().regex(/^[TAC]:\d+$/)).min(1)
 });
 
 // ============================================================================

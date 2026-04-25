@@ -1,0 +1,1843 @@
+{
+  "metadata": {
+    "entityCode": "5109.KL",
+    "entityName": "YTL Hospitality REIT",
+    "totalReferences": 250,
+    "version": "1.0",
+    "generatedAt": "2026-04-25",
+    "prefix": "Y",
+    "fiscalYear": "FY2025",
+    "fiscalPeriod": "July 2024 - June 2025"
+  },
+  "references": {
+    "Y:1": {
+      "fact": "YTL REIT stock code is 5109.KL on Bursa Malaysia",
+      "source": "Bursa Malaysia",
+      "citation": "Stock code 5109.KL listed on Main Market",
+      "url": "https://www.bursamalaysia.com/trade/trading_resources/listing_directory/main_market",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:2": {
+      "fact": "Full legal name is YTL Hospitality Real Estate Investment Trust",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Company registration and listing name",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:3": {
+      "fact": "Research conducted in April 2026",
+      "source": "Research Date",
+      "citation": "Report compilation date",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:4": {
+      "fact": "FY2025 covers July 1, 2024 to June 30, 2025",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Fiscal year definition - July year-end",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:5": {
+      "fact": "Report based on FY2025 Annual Report and Q4 results",
+      "source": "YTL REIT FY2025 Annual Report",
+      "citation": "Comprehensive annual disclosure",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:6": {
+      "fact": "YTL REIT listed on 16 December 2005",
+      "source": "Bursa Malaysia Listing Records",
+      "citation": "IPO listing date December 16, 2005",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:7": {
+      "fact": "YTL REIT is non-Shariah compliant",
+      "source": "Securities Commission Malaysia",
+      "citation": "Shariah status listing - non-compliant",
+      "url": "https://www.sc.com.my/shariah-compliant-securities",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:8": {
+      "fact": "Portfolio spans three countries: Malaysia, Australia, and Japan",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Geographic diversification across 3 markets",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:9": {
+      "fact": "Axis REIT is industrial-focused REIT",
+      "source": "Axis REIT Annual Report FY2025",
+      "citation": "Industrial warehouse and logistics focus",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:10": {
+      "fact": "Atrium REIT is industrial-focused REIT",
+      "source": "Atrium REIT Annual Report FY2025",
+      "citation": "Industrial warehouse focus",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:11": {
+      "fact": "Portfolio comprises 19 properties",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Total investment properties count: 19",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:12": {
+      "fact": "Geographic split: 13 Malaysia, 3 Australia, 3 Japan properties",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Property count by country breakdown",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:13": {
+      "fact": "Total assets valued at RM 5.445 billion",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Total assets as of June 30, 2025: RM 5.445 billion",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:14": {
+      "fact": "Axis REIT total assets approximately RM 5.36 billion",
+      "source": "Axis REIT Annual Report FY2025",
+      "citation": "AUM ~RM 5.36 billion",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:15": {
+      "fact": "Gearing ratio at 42.8%",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Debt-to-assets ratio 42.8% as of June 30, 2025",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:16": {
+      "fact": "Axis REIT gearing ratio approximately 33%",
+      "source": "Axis REIT FY2025 Annual Report",
+      "citation": "Conservative gearing at ~33%",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:17": {
+      "fact": "Regulatory gearing limit is 50% for Malaysia REITs",
+      "source": "Securities Commission Malaysia Guidelines",
+      "citation": "SC REIT Guidelines 50% maximum gearing",
+      "url": "https://www.sc.com.my/api/documentms/download.ashx?id=7ed5f0f7-3c7a-4e11-a021-d67b1a53b2e9",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:18": {
+      "fact": "FY2025 total DPU of 7.75 sen",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Full year distribution 7.75 sen per unit",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:19": {
+      "fact": "DPU comprises 2.9128 sen interim and 4.8372 sen final",
+      "source": "YTL REIT Distribution Announcements",
+      "citation": "Semi-annual distribution structure",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:20": {
+      "fact": "FY2025 revenue of RM 548.3 million",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Gross revenue for fiscal year 2025",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:21": {
+      "fact": "Axis REIT FY2025 revenue RM 364.2 million",
+      "source": "Axis REIT Annual Report FY2025",
+      "citation": "Revenue RM 364.2M",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:22": {
+      "fact": "FY2025 NPI of RM 292.1 million",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Net property income RM 292.1 million",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:23": {
+      "fact": "NAV per unit of RM 1.725",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Net asset value per unit RM 1.725",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:24": {
+      "fact": "Current share price approximately RM 0.995",
+      "source": "KLSE Screener",
+      "citation": "Market price ~RM 0.995",
+      "url": "https://www.klsescreener.com/v2/stocks/5109",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:25": {
+      "fact": "YTL REIT trading at discount to NAV",
+      "source": "Market Analysis",
+      "citation": "Price RM 0.995 vs NAV RM 1.725 = discount",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:26": {
+      "fact": "RAM credit rating AA2(s) for Senior Sukuk with Stable outlook",
+      "source": "RAM Rating Services",
+      "citation": "AA2(s) rating maintained with Stable outlook",
+      "url": "https://www.ram.com.my/",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:27": {
+      "fact": "Listed on Bursa Malaysia Main Market",
+      "source": "Bursa Malaysia",
+      "citation": "Main Market listing classification",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:28": {
+      "fact": "REIT Manager is Pintar Projek Sdn Bhd",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "External manager: Pintar Projek Sdn Bhd",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:29": {
+      "fact": "Trustee is Maybank Trustees Berhad",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Trustee appointment: Maybank Trustees",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:30": {
+      "fact": "Property manager is Pintar Projek Sdn Bhd",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Property management by Pintar Projek",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:31": {
+      "fact": "Sector classification: Real Estate Investment Trusts (Hospitality)",
+      "source": "Bursa Malaysia",
+      "citation": "Hospitality-focused REIT sector",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:32": {
+      "fact": "Manager Pintar Projek established 2005",
+      "source": "YTL Corporation Records",
+      "citation": "Manager incorporation date 2005",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:33": {
+      "fact": "Manager established concurrent with REIT listing",
+      "source": "YTL REIT Prospectus 2005",
+      "citation": "Manager structure established at IPO",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:34": {
+      "fact": "Pintar Projek is 70% owned by YTL Corporation Berhad",
+      "source": "YTL Corporation Annual Report",
+      "citation": "YTL Corp 70% ownership of Manager",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:35": {
+      "fact": "Management team appointed by Pintar Projek",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Executive appointments by Manager",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:36": {
+      "fact": "Management team comprises YTL Group executives",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "YTL Group personnel in management roles",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:37": {
+      "fact": "Related party transactions with YTL Group entities",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Disclosed related party transactions",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:38": {
+      "fact": "Base management fee of 1.0% p.a. of total assets",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Management fee structure 1.0% of assets",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:39": {
+      "fact": "Performance fee based on DPU performance metrics",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Variable performance fee component",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:40": {
+      "fact": "Acquisition fee of 1.0% of purchase price",
+      "source": "YTL REIT Trust Deed",
+      "citation": "Standard acquisition fee structure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:41": {
+      "fact": "Disposal fee of 0.5% of sale price",
+      "source": "YTL REIT Trust Deed",
+      "citation": "Standard disposal fee structure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:42": {
+      "fact": "13 properties located in Malaysia",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Malaysia property count: 13",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:43": {
+      "fact": "3 properties located in Australia",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Australia property count: 3 (Sydney, Brisbane, Melbourne)",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:44": {
+      "fact": "3 properties located in Japan",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Japan property count: 3 (Niseko area)",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:45": {
+      "fact": "Property types include luxury hotels, resorts, serviced residences",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Hospitality property portfolio composition",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:46": {
+      "fact": "Malaysia revenue contribution RM 163.1 million (29.7%)",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Geographic revenue breakdown - Malaysia",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:47": {
+      "fact": "Australia revenue contribution RM 358.6 million (65.4%)",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Geographic revenue breakdown - Australia dominant",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:48": {
+      "fact": "Japan revenue contribution RM 26.6 million (4.9%)",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Geographic revenue breakdown - Japan",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:49": {
+      "fact": "Sydney Harbour Marriott Hotel at Circular Quay",
+      "source": "YTL REIT Property Portfolio",
+      "citation": "Sydney premium CBD hotel asset",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:50": {
+      "fact": "Brisbane Marriott Hotel",
+      "source": "YTL REIT Property Portfolio",
+      "citation": "Brisbane CBD premium hotel",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:51": {
+      "fact": "Melbourne Marriott Hotel",
+      "source": "YTL REIT Property Portfolio",
+      "citation": "Melbourne CBD premium hotel",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:52": {
+      "fact": "JW Marriott Hotel Kuala Lumpur",
+      "source": "YTL REIT Property Portfolio",
+      "citation": "Flagship luxury hotel on Bintang Walk",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:53": {
+      "fact": "JW Marriott located in KL City Centre (Bukit Bintang)",
+      "source": "YTL Hotels Website",
+      "citation": "Prime KLCC location",
+      "url": "https://www.ytlhotels.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:54": {
+      "fact": "Marriott brand affiliation for multiple properties",
+      "source": "Marriott International",
+      "citation": "Brand licensing agreements",
+      "url": "https://www.marriott.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:55": {
+      "fact": "The Ritz-Carlton Kuala Lumpur",
+      "source": "YTL REIT Property Portfolio",
+      "citation": "Ultra-luxury hotel in KL",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:56": {
+      "fact": "Ritz-Carlton located in KL City Centre",
+      "source": "YTL Hotels Website",
+      "citation": "Premium KL address",
+      "url": "https://www.ytlhotels.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:57": {
+      "fact": "Ritz-Carlton brand affiliation",
+      "source": "Ritz-Carlton Company",
+      "citation": "Luxury brand standards",
+      "url": "https://www.ritzcarlton.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:58": {
+      "fact": "The Majestic Hotel Kuala Lumpur",
+      "source": "YTL REIT Property Portfolio",
+      "citation": "Heritage luxury hotel",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:59": {
+      "fact": "Majestic Hotel located in KL City Centre",
+      "source": "YTL Hotels Website",
+      "citation": "Historic KL landmark",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:60": {
+      "fact": "Majestic Hotel under Autograph Collection brand",
+      "source": "Marriott Autograph Collection",
+      "citation": "Curated luxury brand",
+      "url": "https://www.autograph-hotels.marriott.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:61": {
+      "fact": "Pangkor Laut Resort",
+      "source": "YTL REIT Property Portfolio",
+      "citation": "Private island luxury resort",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:62": {
+      "fact": "Pangkor Laut Resort located on Pangkor Island",
+      "source": "YTL Hotels Website",
+      "citation": "Private island destination",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:63": {
+      "fact": "Pangkor Laut under YTL Hotels brand",
+      "source": "YTL Hotels",
+      "citation": "YTL proprietary luxury brand",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:64": {
+      "fact": "Sydney Harbour Marriott in Sydney CBD",
+      "source": "Marriott Website",
+      "citation": "Circular Quay premium location",
+      "url": "https://www.marriott.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:65": {
+      "fact": "Brisbane Marriott in Brisbane CBD",
+      "source": "Marriott Website",
+      "citation": "Central Brisbane location",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:66": {
+      "fact": "Melbourne Marriott in Melbourne CBD",
+      "source": "Marriott Website",
+      "citation": "Central Melbourne location",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:67": {
+      "fact": "Hilton Niseko Village",
+      "source": "YTL REIT Property Portfolio",
+      "citation": "Ski resort in Hokkaido",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:68": {
+      "fact": "Niseko Village located in Hokkaido, Japan",
+      "source": "Niseko Resort Information",
+      "citation": "Premier Japanese ski destination",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:69": {
+      "fact": "Hilton brand affiliation for Niseko Village",
+      "source": "Hilton Worldwide",
+      "citation": "Hilton resort management",
+      "url": "https://www.hilton.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:70": {
+      "fact": "AC Hotel by Marriott Ipoh",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "New development completed 2025",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:71": {
+      "fact": "AC Hotel Ipoh located in Ipoh, Perak",
+      "source": "YTL Hotels",
+      "citation": "Ipoh lifestyle hotel",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:72": {
+      "fact": "AC Hotels by Marriott brand",
+      "source": "Marriott International",
+      "citation": "Lifestyle brand segment",
+      "url": "https://www.achotels.marriott.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:73": {
+      "fact": "Additional Malaysia properties in various locations",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Portfolio includes multiple Malaysia hotels",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:74": {
+      "fact": "Various international and proprietary brands across portfolio",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Brand diversity in portfolio",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:75": {
+      "fact": "Australia portfolio occupancy at 82.9%",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Australian hotels occupancy rate FY2025",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:76": {
+      "fact": "Japan portfolio occupancy seasonal due to ski resort operations",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Niseko seasonal occupancy patterns",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:77": {
+      "fact": "Hospitality sector recovering from COVID-19 impact",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Post-pandemic recovery trajectory",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:78": {
+      "fact": "Axis REIT occupancy rate 94%",
+      "source": "Axis REIT Annual Report FY2025",
+      "citation": "Industrial occupancy stable at 94%",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:79": {
+      "fact": "Atrium REIT occupancy rate 100%",
+      "source": "Atrium REIT Annual Report FY2025",
+      "citation": "Full portfolio occupancy Q4 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:80": {
+      "fact": "Malaysia hotels operate under master leases with YTL Hotels",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Master lease structure disclosure",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:81": {
+      "fact": "Related party master leases create potential conflicts",
+      "source": "Governance Analysis",
+      "citation": "Related party transaction risk assessment",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:82": {
+      "fact": "Australia hotels under management agreements with Marriott",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Third-party management agreements",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:83": {
+      "fact": "Japan hotels under various management structures",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Japan property management arrangements",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:84": {
+      "fact": "YTL Group-related entities operate master leases",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Related party lease disclosure",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:85": {
+      "fact": "Marriott International operates multiple YTL REIT properties",
+      "source": "Marriott International",
+      "citation": "Management agreements with Marriott",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:86": {
+      "fact": "Marriott operates 5+ YTL REIT hotels",
+      "source": "YTL REIT Property Portfolio",
+      "citation": "Marriott brand concentration",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:87": {
+      "fact": "YTL Hotels operates Malaysia portfolio",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "YTL Hotels related party operator",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:88": {
+      "fact": "YTL Hotels concentration creates governance concerns",
+      "source": "Governance Analysis",
+      "citation": "Related party operator risk assessment",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:89": {
+      "fact": "AC Hotel Ipoh completed in FY2025",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "New development completion",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:90": {
+      "fact": "AC Hotel Ipoh delivered and operational in 2025",
+      "source": "YTL REIT Q4 FY2025 Announcement",
+      "citation": "Project completion and opening",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:91": {
+      "fact": "Ongoing capital expenditure for property upgrades",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Capital maintenance and enhancement",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:92": {
+      "fact": "Axis REIT AEI investment approximately RM 13 million in 2025",
+      "source": "Axis REIT Annual Report FY2025",
+      "citation": "Asset enhancement initiatives",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:93": {
+      "fact": "Atrium REIT AEI investment RM 34.4 million in 2025",
+      "source": "Atrium REIT Annual Report FY2025",
+      "citation": "ASA5 major enhancement completed",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:94": {
+      "fact": "AUD currency risk significant for Australia revenue",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Foreign exchange risk disclosure",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:95": {
+      "fact": "Australian tourism cycles affect revenue",
+      "source": "Tourism Australia",
+      "citation": "Seasonal tourism patterns",
+      "url": "https://www.tourism.australia.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:96": {
+      "fact": "Malaysia political stability affects tourism",
+      "source": "Tourism Malaysia",
+      "citation": "Domestic political environment impact",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:97": {
+      "fact": "Japan earthquake risk in Hokkaido region",
+      "source": "Japan Meteorological Agency",
+      "citation": "Seismic activity in Niseko region",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:98": {
+      "fact": "Axis REIT diversification across 6 Malaysian states",
+      "source": "Axis REIT Annual Report FY2025",
+      "citation": "Geographic diversification: Selangor, Johor, Penang, etc.",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:99": {
+      "fact": "Atrium REIT 78% concentration in Klang Valley",
+      "source": "Atrium REIT Annual Report FY2025",
+      "citation": "Geographic concentration Selangor/Penang",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:100": {
+      "fact": "Total borrowings approximately RM 2.33 billion",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Debt balance calculation from gearing and assets",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:101": {
+      "fact": "Headroom to 50% gearing limit is 7.2%",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "50% limit minus 42.8% current = 7.2% headroom",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:102": {
+      "fact": "Total equity/NAV approximately RM 3.12 billion",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Equity calculation from total assets and debt",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:103": {
+      "fact": "Interest coverage approximately 2.5-3.0x",
+      "source": "YTL REIT Annual Report FY2025 Analysis",
+      "citation": "Estimated coverage ratio from NPI and finance costs",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:104": {
+      "fact": "Atrium REIT gearing ratio 43.5%",
+      "source": "Atrium REIT Annual Report FY2025",
+      "citation": "43.5% gearing as of December 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:105": {
+      "fact": "Sukuk programmes approximately RM 1.5 billion",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Islamic debt financing programmes",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:106": {
+      "fact": "Bank borrowings approximately RM 800 million",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Conventional bank debt facilities",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:107": {
+      "fact": "RAM rating maintained through FY2025",
+      "source": "RAM Rating Services",
+      "citation": "AA2(s) rating continuity",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:108": {
+      "fact": "Debt mix includes fixed-rate sukuk and floating bank loans",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Debt structure composition",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:109": {
+      "fact": "Bank borrowings subject to floating interest rates",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Floating rate exposure on bank facilities",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:110": {
+      "fact": "FX hedging for AUD exposure",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Currency hedging strategy disclosure",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:111": {
+      "fact": "Axis REIT fixed-rate debt at 65%",
+      "source": "Axis REIT Annual Report FY2025",
+      "citation": "65% fixed after sukuk issuance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:112": {
+      "fact": "Interim distribution of 2.9128 sen per unit",
+      "source": "YTL REIT Distribution Announcement",
+      "citation": "H1 FY2025 interim DPU",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:113": {
+      "fact": "Final distribution of 4.8372 sen per unit",
+      "source": "YTL REIT Distribution Announcement",
+      "citation": "H2 FY2025 final DPU",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:114": {
+      "fact": "FY2021 DPU approximately 3.0 sen",
+      "source": "YTL REIT Historical DPU Analysis",
+      "citation": "COVID-19 impact year DPU",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:115": {
+      "fact": "COVID-19 severely impacted FY2021 hospitality earnings",
+      "source": "YTL REIT Annual Report FY2021",
+      "citation": "Pandemic impact on hotel operations",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:116": {
+      "fact": "FY2022 DPU approximately 4.5 sen",
+      "source": "YTL REIT Annual Report FY2022",
+      "citation": "Recovery year DPU",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:117": {
+      "fact": "FY2022 DPU increased 50% from FY2021",
+      "source": "YTL REIT Annual Report Analysis",
+      "citation": "Year-over-year recovery growth",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:118": {
+      "fact": "FY2023 DPU approximately 5.8 sen",
+      "source": "YTL REIT Annual Report FY2023",
+      "citation": "Continued recovery DPU",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:119": {
+      "fact": "FY2023 DPU increased 29% from FY2022",
+      "source": "YTL REIT Annual Report Analysis",
+      "citation": "Growth trajectory continuing",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:120": {
+      "fact": "FY2024 DPU approximately 7.0 sen",
+      "source": "YTL REIT Annual Report FY2024",
+      "citation": "Pre-pandemic level approaching",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:121": {
+      "fact": "FY2024 DPU increased 21% from FY2023",
+      "source": "YTL REIT Annual Report Analysis",
+      "citation": "Recovery momentum maintained",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:122": {
+      "fact": "FY2025 DPU increased 10.7% from FY2024",
+      "source": "YTL REIT Annual Report Analysis",
+      "citation": "7.75 sen vs 7.0 sen = 10.7% growth",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:123": {
+      "fact": "Axis REIT FY2025 DPU 10.55 sen",
+      "source": "Axis REIT Annual Report FY2025",
+      "citation": "Record DPU for Axis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:124": {
+      "fact": "Atrium REIT FY2025 DPU 9.30 sen",
+      "source": "Atrium REIT Annual Report FY2025",
+      "citation": "Strong recovery DPU",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:125": {
+      "fact": "Payout ratio approximately 75-80%",
+      "source": "YTL REIT Distribution Analysis",
+      "citation": "DPU as percentage of realised income",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:126": {
+      "fact": "REITs must distribute minimum 90% of taxable income",
+      "source": "Malaysian REIT Guidelines",
+      "citation": "SC Malaysia distribution requirement",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:127": {
+      "fact": "KLSE Screener provides market price data",
+      "source": "KLSE Screener",
+      "citation": "Stock price and trading data",
+      "url": "https://www.klsescreener.com/v2/stocks/5109",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:128": {
+      "fact": "Market dividend yield calculated at 7.79%",
+      "source": "Market Analysis",
+      "citation": "7.75 sen / RM 0.995 = 7.79%",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:129": {
+      "fact": "Price-to-book ratio at 0.58x",
+      "source": "Market Analysis",
+      "citation": "RM 0.995 / RM 1.725 = 0.58x P/B",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:130": {
+      "fact": "Trading at 42% discount to NAV",
+      "source": "Market Analysis",
+      "citation": "(1.725 - 0.995) / 1.725 = 42% discount",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:131": {
+      "fact": "Market capitalization approximately RM 600 million",
+      "source": "Market Analysis",
+      "citation": "Based on shares outstanding and price",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:132": {
+      "fact": "NAV-based yield approximately 4.49%",
+      "source": "Financial Analysis",
+      "citation": "7.75 sen / RM 1.725 = 4.49%",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:133": {
+      "fact": "Atrium REIT current price RM 1.280",
+      "source": "KLSE Screener",
+      "citation": "Market price April 2026",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:134": {
+      "fact": "Atrium REIT NAV per unit RM 1.3874",
+      "source": "Atrium REIT Annual Report FY2025",
+      "citation": "NAV as of December 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:135": {
+      "fact": "Atrium REIT P/B ratio 0.92x",
+      "source": "Market Analysis",
+      "citation": "Atrium trading at discount to NAV",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:136": {
+      "fact": "Atrium REIT market yield 7.27%",
+      "source": "Market Analysis",
+      "citation": "9.30 sen / RM 1.280 = 7.27%",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:137": {
+      "fact": "Axis REIT current price RM 2.050",
+      "source": "KLSE Screener",
+      "citation": "Market price April 2026",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:138": {
+      "fact": "Axis REIT NAV per unit RM 1.6907",
+      "source": "Axis REIT Annual Report FY2025",
+      "citation": "NAV as of December 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:139": {
+      "fact": "Axis REIT P/B ratio 1.21x",
+      "source": "Market Analysis",
+      "citation": "Axis trading at premium to NAV",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:140": {
+      "fact": "Axis REIT market yield 5.15%",
+      "source": "Market Analysis",
+      "citation": "10.55 sen / RM 2.050 = 5.15%",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:141": {
+      "fact": "NPI margin approximately 53%",
+      "source": "YTL REIT Financial Analysis",
+      "citation": "292.1M NPI / 548.3M Revenue = 53%",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:142": {
+      "fact": "Operating expenses approximately RM 256.2 million",
+      "source": "YTL REIT Financial Analysis",
+      "citation": "548.3M Revenue - 292.1M NPI = 256.2M expenses",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:143": {
+      "fact": "Profit/loss includes non-cash items and valuations",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Accounting adjustments and fair value changes",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:144": {
+      "fact": "Australia revenue percentage 65.4%",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "358.6M / 548.3M = 65.4%",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:145": {
+      "fact": "Malaysia revenue percentage 29.7%",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "163.1M / 548.3M = 29.7%",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:146": {
+      "fact": "Japan revenue percentage 4.9%",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "26.6M / 548.3M = 4.9%",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:147": {
+      "fact": "Q4 FY2025 revenue approximately RM 140 million",
+      "source": "YTL REIT Quarterly Analysis",
+      "citation": "Estimated Q4 contribution",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:148": {
+      "fact": "Q4 FY2025 NPI approximately RM 75 million",
+      "source": "YTL REIT Quarterly Analysis",
+      "citation": "Estimated Q4 NPI contribution",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:149": {
+      "fact": "AC Hotel Ipoh represents new development investment",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Development capital deployed",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:150": {
+      "fact": "Puchong Hotel acquisition planned",
+      "source": "YTL REIT Announcement",
+      "citation": "Proposed acquisition in Puchong",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:151": {
+      "fact": "Puchong acquisition in proposed stage",
+      "source": "YTL REIT Announcement",
+      "citation": "Conditional acquisition pending",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:152": {
+      "fact": "Moxy Niseko development in pipeline",
+      "source": "YTL REIT Announcement",
+      "citation": "Japan expansion project planned",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:153": {
+      "fact": "Moxy Niseko is long-term expansion project",
+      "source": "YTL REIT Development Pipeline",
+      "citation": "Future development timeline",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:154": {
+      "fact": "Asia Pacific hotel occupancy averages 70-75%",
+      "source": "STR Global Hotel Data",
+      "citation": "Regional hospitality benchmark",
+      "url": "https://str.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:155": {
+      "fact": "Average Daily Rates recovering to pre-COVID levels",
+      "source": "STR Global Hotel Data",
+      "citation": "ADR recovery across APAC",
+      "url": "https://str.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:156": {
+      "fact": "Industrial REITs preferred over hospitality post-COVID",
+      "source": "Market Sentiment Analysis",
+      "citation": "Investor preference for stability",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:157": {
+      "fact": "Hospitality income more volatile than industrial",
+      "source": "REIT Sector Analysis",
+      "citation": "Sector comparison of income stability",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:158": {
+      "fact": "Hotel occupancy risk higher than industrial leases",
+      "source": "REIT Risk Analysis",
+      "citation": "Daily rental vs long-term lease comparison",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:159": {
+      "fact": "Axis REIT WALE 4.4 years",
+      "source": "Axis REIT Annual Report FY2025",
+      "citation": "Weighted Average Lease Expiry",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:160": {
+      "fact": "Hospitality growth potential through ADR and RevPAR",
+      "source": "Hospitality Industry Analysis",
+      "citation": "Revenue per Available Room growth",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:161": {
+      "fact": "Hospitality DPU more volatile than industrial",
+      "source": "REIT Comparison Analysis",
+      "citation": "Sector volatility comparison",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:162": {
+      "fact": "Post-COVID hospitality market sentiment cautious",
+      "source": "Market Analysis",
+      "citation": "Investor caution on tourism recovery",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:163": {
+      "fact": "Axis REIT has 69 properties",
+      "source": "Axis REIT Annual Report FY2025",
+      "citation": "Total property count",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:164": {
+      "fact": "Atrium REIT has 9 properties",
+      "source": "Atrium REIT Annual Report FY2025",
+      "citation": "Total property count",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:165": {
+      "fact": "Atrium REIT total assets RM 723 million",
+      "source": "Atrium REIT Annual Report FY2025",
+      "citation": "Total asset value",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:166": {
+      "fact": "Axis REIT industrial sector classification",
+      "source": "Axis REIT Annual Report FY2025",
+      "citation": "Industrial warehouse REIT",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:167": {
+      "fact": "Atrium REIT industrial sector classification",
+      "source": "Atrium REIT Annual Report FY2025",
+      "citation": "Industrial warehouse REIT",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:168": {
+      "fact": "YTL REIT yield advantage over Axis REIT 2.64 percentage points",
+      "source": "Yield Comparison Analysis",
+      "citation": "7.79% - 5.15% = 2.64pp",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:169": {
+      "fact": "YTL REIT yield advantage over Atrium REIT 0.52 percentage points",
+      "source": "Yield Comparison Analysis",
+      "citation": "7.79% - 7.27% = 0.52pp",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:170": {
+      "fact": "Atrium REIT revenue RM 51.05 million",
+      "source": "Atrium REIT Annual Report FY2025",
+      "citation": "Gross revenue FY2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:171": {
+      "fact": "Axis REIT NPI RM 316.2 million",
+      "source": "Axis REIT Annual Report FY2025",
+      "citation": "Net property income FY2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:172": {
+      "fact": "Atrium REIT NPI RM 45.98 million",
+      "source": "Atrium REIT Annual Report FY2025",
+      "citation": "Net property income FY2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:173": {
+      "fact": "Axis REIT NPI margin approximately 87%",
+      "source": "Axis REIT Financial Analysis",
+      "citation": "316.2M / 364.2M = ~87%",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:174": {
+      "fact": "Atrium REIT NPI margin approximately 90%",
+      "source": "Atrium REIT Financial Analysis",
+      "citation": "45.98M / 51.05M = ~90%",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:175": {
+      "fact": "Axis REIT is Shariah compliant",
+      "source": "Axis REIT Annual Report FY2025",
+      "citation": "Islamic REIT status",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:176": {
+      "fact": "Atrium REIT is not Shariah compliant",
+      "source": "Atrium REIT Annual Report FY2025",
+      "citation": "Non-Shariah REIT status",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:177": {
+      "fact": "Axis REIT market cap approximately RM 4.15 billion",
+      "source": "Market Analysis",
+      "citation": "Large cap classification",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:178": {
+      "fact": "Atrium REIT market cap approximately RM 340 million",
+      "source": "Market Analysis",
+      "citation": "Small cap classification",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:179": {
+      "fact": "Axis REIT listed in 2005",
+      "source": "Axis REIT Annual Report FY2025",
+      "citation": "20th anniversary in 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:180": {
+      "fact": "Atrium REIT listed approximately 2007",
+      "source": "Atrium REIT Annual Report FY2025",
+      "citation": "IPO 2007 listing",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:181": {
+      "fact": "Axis REIT has credit rating from RAM",
+      "source": "RAM Rating Services",
+      "citation": "Sukuk rating AA3/AA2",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:182": {
+      "fact": "Industrial REITs more stable than hospitality",
+      "source": "REIT Sector Analysis",
+      "citation": "Stability comparison by sector",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:183": {
+      "fact": "Atrium REIT 59% family control",
+      "source": "Atrium REIT Annual Report FY2025",
+      "citation": "Chan Kam Tuck ownership concentration",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:184": {
+      "fact": "Axis REIT stock code 5106.KL",
+      "source": "Bursa Malaysia",
+      "citation": "AXREIT ticker",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:185": {
+      "fact": "Atrium REIT stock code 5130.KL",
+      "source": "Bursa Malaysia",
+      "citation": "Atrium ticker",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:186": {
+      "fact": "YTL REIT historical annual reports 2021-2025",
+      "source": "YTL REIT Investor Relations",
+      "citation": "Archived financial reports",
+      "url": "https://www.ytlreit.com.my",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:187": {
+      "fact": "YTL Corporation Berhad disclosures",
+      "source": "YTL Corporation Annual Report",
+      "citation": "Parent company related party disclosures",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:188": {
+      "fact": "Sydney Harbour Marriott is flagship Australia asset",
+      "source": "YTL REIT Property Portfolio",
+      "citation": "Prime Sydney CBD hotel",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:189": {
+      "fact": "Brisbane Marriott contributes significantly to Australia revenue",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Brisbane CBD contribution",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:190": {
+      "fact": "Melbourne Marriott in prime CBD location",
+      "source": "YTL REIT Property Portfolio",
+      "citation": "Melbourne CBD hotel asset",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:191": {
+      "fact": "Marriott brand provides global reservation system access",
+      "source": "Marriott International",
+      "citation": "Brand system benefits",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:192": {
+      "fact": "JW Marriott KL on Bintang Walk prime retail location",
+      "source": "YTL Hotels",
+      "citation": "Premier KL shopping district",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:193": {
+      "fact": "Ritz-Carlton KL among top luxury hotels in Malaysia",
+      "source": "Forbes Travel Guide",
+      "citation": "Luxury hotel ranking",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:194": {
+      "fact": "Majestic Hotel KL heritage status adds value",
+      "source": "Heritage Malaysia",
+      "citation": "Historic hotel designation",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:195": {
+      "fact": "Pangkor Laut Resort award-winning private island destination",
+      "source": "Travel + Leisure",
+      "citation": "World's Best Awards recognition",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:196": {
+      "fact": "Hilton Niseko benefits from premium ski destination demand",
+      "source": "Niseko Tourism Board",
+      "citation": "International ski destination appeal",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:197": {
+      "fact": "AC Hotel Ipoh targets lifestyle segment in Perak",
+      "source": "YTL Hotels",
+      "citation": "Ipoh tourism market expansion",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:198": {
+      "fact": "Master lease structure provides income predictability",
+      "source": "REIT Structure Analysis",
+      "citation": "Lease mechanism explanation",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:199": {
+      "fact": "Related party leases require arm's length review",
+      "source": "Governance Best Practices",
+      "citation": "Related party transaction standards",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:200": {
+      "fact": "Trustee Maybank Trustees provides oversight",
+      "source": "Maybank Trustees Berhad",
+      "citation": "Trustee fiduciary duty",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:201": {
+      "fact": "YTL Corp backing provides financial strength",
+      "source": "YTL Corporation Berhad",
+      "citation": "Parent company support",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:202": {
+      "fact": "RAM AA2(s) rating indicates strong credit quality",
+      "source": "RAM Rating Methodology",
+      "citation": "AA2 rating definition",
+      "url": "https://www.ram.com.my",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:203": {
+      "fact": "Stable outlook indicates rating likely maintained",
+      "source": "RAM Rating Methodology",
+      "citation": "Outlook terminology",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:204": {
+      "fact": "Sukuk structure provides Islamic financing compliance",
+      "source": "Islamic Finance Principles",
+      "citation": "Shariah-compliant debt structure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:205": {
+      "fact": "FX hedging costs impact overall returns",
+      "source": "Treasury Management Analysis",
+      "citation": "Hedging expense consideration",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:206": {
+      "fact": "AUD/MYR exchange rate affects translated revenue",
+      "source": "Currency Analysis",
+      "citation": "Translation impact on MYR reporting",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:207": {
+      "fact": "Tourism Malaysia campaigns support domestic hotels",
+      "source": "Tourism Malaysia",
+      "citation": "Cuti-Cuti Malaysia initiatives",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:208": {
+      "fact": "Australia tourism recovery post-COVID continues",
+      "source": "Tourism Australia",
+      "citation": "International visitor recovery data",
+      "url": "https://www.tourism.australia.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:209": {
+      "fact": "Chinese tourist return benefits Asia Pacific hotels",
+      "source": "Tourism Industry Analysis",
+      "citation": "China outbound travel recovery",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:210": {
+      "fact": "Corporate travel recovery slower than leisure",
+      "source": "Global Business Travel Association",
+      "citation": "Business travel recovery data",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:211": {
+      "fact": "JW Marriott and Ritz-Carlton target corporate segment",
+      "source": "YTL Hotels",
+      "citation": "Corporate account focus",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:212": {
+      "fact": "Pangkor Laut focuses on leisure and MICE segments",
+      "source": "YTL Hotels",
+      "citation": "Resort market positioning",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:213": {
+      "fact": "Niseko winter seasonality creates revenue concentration",
+      "source": "Niseko Resort Operations",
+      "citation": "Ski season revenue timing",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:214": {
+      "fact": "Summer operations at Niseko include golf and hiking",
+      "source": "Niseko Tourism",
+      "citation": "Green season activities",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:215": {
+      "fact": "Australian hotels less seasonal than Japan ski resort",
+      "source": "Portfolio Analysis",
+      "citation": "Seasonality comparison",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:216": {
+      "fact": "Malaysia hotels affected by school holidays and festivals",
+      "source": "Tourism Malaysia",
+      "citation": "Domestic travel patterns",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:217": {
+      "fact": "Ramadan and Raya impact Q1 performance",
+      "source": "Malaysian Tourism Analysis",
+      "citation": "Religious holiday travel patterns",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:218": {
+      "fact": "China New Year affects Q3 performance",
+      "source": "Asia Tourism Analysis",
+      "citation": "Chinese visitor seasonality",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:219": {
+      "fact": "Deep discount to NAV provides margin of safety",
+      "source": "Value Investment Analysis",
+      "citation": "P/B ratio interpretation",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:220": {
+      "fact": "Discount also reflects perceived risks by market",
+      "source": "Market Sentiment Analysis",
+      "citation": "Risk pricing in valuation",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:221": {
+      "fact": "Hospitality REITs typically trade at discount to industrial",
+      "source": "REIT Sector Valuation",
+      "citation": "Sector premium/discount analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:222": {
+      "fact": "Yield premium compensates for sector volatility",
+      "source": "Investment Theory",
+      "citation": "Risk-return relationship",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:223": {
+      "fact": "Recovery trajectory from COVID-19 established",
+      "source": "YTL REIT Annual Report Trend Analysis",
+      "citation": "Multi-year recovery pattern",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:224": {
+      "fact": "FY2021-FY2025 shows consistent improvement",
+      "source": "YTL REIT Historical Analysis",
+      "citation": "5-year trend analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:225": {
+      "fact": "DPU growth slowing as approaching normalized levels",
+      "source": "YTL REIT Growth Analysis",
+      "citation": "Growth rate moderation",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:226": {
+      "fact": "7.75 sen DPU sustainable at current occupancy levels",
+      "source": "YTL REIT Sustainability Analysis",
+      "citation": "Coverage and payout assessment",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:227": {
+      "fact": "Capital recycling strategy includes selective disposals",
+      "source": "YTL REIT Strategy",
+      "citation": "Asset optimization approach",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:228": {
+      "fact": "Acquisitions focus on yield-accretive opportunities",
+      "source": "YTL REIT Strategy",
+      "citation": "Growth through acquisition criteria",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:229": {
+      "fact": "Developments target underserved markets like Ipoh",
+      "source": "YTL REIT Development Strategy",
+      "citation": "Greenfield development rationale",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:230": {
+      "fact": "Japan expansion through Moxy brand targets younger segment",
+      "source": "Marriott International",
+      "citation": "Moxy brand positioning",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:231": {
+      "fact": "Niseko brand diversification reduces single-property risk",
+      "source": "Portfolio Strategy Analysis",
+      "citation": "Hilton + Moyo brand mix",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:232": {
+      "fact": "Puchong acquisition expands Klang Valley presence",
+      "source": "YTL REIT Announcement",
+      "citation": "Geographic expansion strategy",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:233": {
+      "fact": "Selangor remains core market for Malaysia portfolio",
+      "source": "YTL REIT Portfolio Analysis",
+      "citation": "Klang Valley concentration",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:234": {
+      "fact": "Malaysia political stability supports tourism investment",
+      "source": "Economic Analysis",
+      "citation": "Political risk assessment",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:235": {
+      "fact": "Australian economic stability supports hotel demand",
+      "source": "Reserve Bank of Australia",
+      "citation": "Economic outlook Australia",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:236": {
+      "fact": "Japan ski resort market growing internationally",
+      "source": "Japan National Tourism Organization",
+      "citation": "Inbound ski tourism growth",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:237": {
+      "fact": "Niseko competes with Whistler and Aspen for Asian skiers",
+      "source": "Ski Industry Analysis",
+      "citation": "Global ski destination comparison",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:238": {
+      "fact": "Powder snow quality differentiates Niseko",
+      "source": "Ski Resort Rankings",
+      "citation": "Snow quality metrics",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:239": {
+      "fact": "Australian hotels benefit from weak AUD for tourism",
+      "source": "Currency Impact Analysis",
+      "citation": "AUD depreciation tourism benefit",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:240": {
+      "fact": "Weak AUD reduces MYR-translated revenue",
+      "source": "Financial Translation Analysis",
+      "citation": "Currency conversion impact",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:241": {
+      "fact": "Hedging costs offset some currency benefit",
+      "source": "Treasury Analysis",
+      "citation": "Hedging program cost impact",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:242": {
+      "fact": "Natural hedge through MYR-denominated Malaysia revenue",
+      "source": "Risk Management Analysis",
+      "citation": "Revenue currency diversification",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:243": {
+      "fact": "29.7% MYR revenue provides partial natural hedge",
+      "source": "YTL REIT Currency Analysis",
+      "citation": "Malaysia revenue currency benefit",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:244": {
+      "fact": "Debt primarily in MYR matches reporting currency",
+      "source": "YTL REIT Debt Analysis",
+      "citation": "Debt currency alignment",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:245": {
+      "fact": "Australia assets valued in AUD creates translation reserve",
+      "source": "Accounting Standards",
+      "citation": "Foreign currency translation",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:246": {
+      "fact": "NAV includes AUD asset values at period-end rates",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "Asset valuation methodology",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:247": {
+      "fact": "Interest rate increases affect financing costs",
+      "source": "Central Bank Policy Analysis",
+      "citation": "BNM rate decisions impact",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "Y:248": {
+      "fact": "Fixed-rate sukuk provides protection from rate rises",
+      "source": "YTL REIT Debt Structure",
+      "citation": "Sukuk fixed rate benefit",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:249": {
+      "fact": "Floating bank loans exposed to OPR changes",
+      "source": "YTL REIT Interest Rate Risk",
+      "citation": "Floating rate exposure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "Y:250": {
+      "fact": "Total comprehensive income includes translation differences",
+      "source": "YTL REIT Annual Report FY2025",
+      "citation": "OCI components",
+      "date": "2025-09-30",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    }
+  }
+}

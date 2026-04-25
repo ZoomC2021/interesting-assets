@@ -48,11 +48,11 @@ export function EntityCard({
     : 'low';
   
   return (
-    <div 
-      className={`bg-white rounded-xl border transition-all ${
-        isSelected 
-          ? 'border-blue-500 shadow-md ring-2 ring-blue-100' 
-          : 'border-gray-200 hover:border-gray-300'
+    <div
+      className={`bg-surface rounded-xl border border-stroke shadow-card transition-all ${
+        isSelected
+          ? 'border-primary-500 shadow-md ring-2 ring-primary-100'
+          : 'hover:border-strokeHover'
       } ${className}`}
     >
       {/* Header */}
@@ -63,7 +63,7 @@ export function EntityCard({
             onClick={() => onSelect(entity.id)}
             className={`mt-1 w-5 h-5 rounded border flex items-center justify-center transition-colors ${
               isSelected
-                ? 'bg-blue-500 border-blue-500 text-white'
+                ? 'bg-primary-500 border-primary-500 text-white'
                 : 'border-gray-300 hover:border-gray-400'
             }`}
           >
@@ -73,16 +73,16 @@ export function EntityCard({
               </svg>
             )}
           </button>
-          
+
           {/* Entity info */}
           <div className="flex-1 min-w-0">
             <Link href={`/entity/${entity.code}`} className="block">
-              <h3 className="font-semibold text-gray-900 truncate hover:text-blue-600">
+              <h3 className="font-semibold text-ink truncate hover:text-primary-600">
                 {entity.name}
               </h3>
             </Link>
             <div className="flex items-center gap-2 mt-1">
-              <span className="text-xs font-medium text-gray-500">{entity.code}</span>
+              <span className="text-xs font-medium text-muted">{entity.code}</span>
               {entity.isShariahCompliant && (
                 <span className="text-xs px-1.5 py-0.5 bg-emerald-50 text-emerald-700 rounded">
                   Shariah
@@ -91,7 +91,7 @@ export function EntityCard({
               <RiskBadge severity={riskSeverity} size="sm" />
             </div>
           </div>
-          
+
           {/* Sparkline */}
           {dpuHistory.length > 0 && (
             <div className="hidden sm:block">
@@ -99,14 +99,14 @@ export function EntityCard({
             </div>
           )}
         </div>
-        
+
         {/* Benchmark indicator */}
         {comparison && (
-          <div className="mt-3 pt-3 border-t border-gray-100">
+          <div className="mt-3 pt-3 border-t border-stroke">
             <div className="flex items-center gap-2">
-              <span className="text-xs text-gray-500">Sector ranking:</span>
-              <PercentileBar 
-                percentile={comparison.percentile} 
+              <span className="text-xs text-muted">Sector ranking:</span>
+              <PercentileBar
+                percentile={comparison.percentile}
                 isHigherBetter={true}
                 size="sm"
                 className="flex-1"
@@ -115,32 +115,57 @@ export function EntityCard({
           </div>
         )}
       </div>
-      
-      {/* Key metrics grid */}
-      <div className="grid grid-cols-3 gap-px bg-gray-100 border-t border-gray-200">
-        <MetricCell label="DPU" value={typeof dpu === 'number' ? `${dpu.toFixed(2)} sen` : '—'} />
-        <MetricCell label="Yield" value={typeof dividendYield === 'number' ? formatPercentage(dividendYield) : '—'} />
-        <MetricCell label="NAV" value={typeof nav === 'number' ? formatRM(nav) : '—'} highlight />
+
+      {/* Hero metric - Dividend Yield */}
+      <div className="px-4 py-3 border-b border-stroke">
+        <div className="flex items-end justify-between">
+          <div>
+            <div className="text-label">Dividend Yield</div>
+            <div className="text-metric">
+              {typeof dividendYield === 'number' ? formatPercentage(dividendYield / 100) : 'N/A'}
+            </div>
+          </div>
+          <RiskBadge severity={riskSeverity} size="sm" />
+        </div>
       </div>
-      
-      {/* Secondary metrics */}
-      <div className="grid grid-cols-3 gap-px bg-gray-100 border-t border-gray-200">
-        <MetricCell label="Gearing" value={typeof gearing === 'number' ? formatPercentage(gearing / 100) : '—'} />
-        <MetricCell label="Occupancy" value={typeof occupancy === 'number' ? formatPercentage(occupancy / 100) : '—'} />
-        <MetricCell label="Market Cap" value={typeof marketCap === 'number' ? formatRM(marketCap / 1e6, 1) : '—'} />
+
+      {/* Supporting metrics grid */}
+      <div className="px-4 py-3">
+        <dl className="grid grid-cols-2 gap-x-4 gap-y-3">
+          <div>
+            <dt className="text-label">DPU</dt>
+            <dd className="text-metric-sm">{dpu?.toFixed(2) || '—'} sen</dd>
+          </div>
+          <div>
+            <dt className="text-label">NAV / Unit</dt>
+            <dd className="text-metric-sm">{formatRM(nav) || '—'}</dd>
+          </div>
+          <div>
+            <dt className="text-label">Gearing</dt>
+            <dd className="text-metric-sm">
+              {typeof gearing === 'number' ? formatPercentage(gearing / 100) : '—'}
+            </dd>
+          </div>
+          <div>
+            <dt className="text-label">Occupancy</dt>
+            <dd className="text-metric-sm">
+              {typeof occupancy === 'number' ? formatPercentage(occupancy / 100) : '—'}
+            </dd>
+          </div>
+        </dl>
       </div>
-      
+
       {/* Actions */}
-      <div className="p-3 border-t border-gray-200 flex items-center gap-2">
+      <div className="p-3 border-t border-stroke flex items-center gap-2">
         <Link
           href={`/entity/${entity.code}`}
-          className="flex-1 text-center py-2 text-sm font-medium text-blue-600 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors"
+          className="flex-1 text-center py-2 text-sm font-medium text-primary-600 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors"
         >
           View Details
         </Link>
         <Link
           href={`/compare?entities=${entity.code}`}
-          className="flex-1 text-center py-2 text-sm font-medium text-gray-700 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"
+          className="flex-1 text-center py-2 text-sm font-medium text-ink bg-surfaceAlt rounded-lg hover:bg-surfaceHover transition-colors"
         >
           Compare
         </Link>

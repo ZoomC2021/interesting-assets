@@ -398,6 +398,139 @@ export const METRIC_REGISTRY: Record<MetricType, MetricDefinition> = {
     format: 'string',
     isHigherBetter: false
   },
+  gearing_headroom: {
+    type: 'gearing_headroom',
+    category: 'risk',
+    displayName: 'Gearing Headroom',
+    description: 'Remaining gearing capacity before hitting limit',
+    unit: '%',
+    format: 'percentage',
+    isHigherBetter: true
+  },
+
+  // Geographic Revenue Metrics (6)
+  revenue_australia_pct: {
+    type: 'revenue_australia_pct',
+    category: 'financial_performance',
+    displayName: 'Revenue from Australia',
+    description: 'Percentage of revenue from Australian properties',
+    unit: '%',
+    format: 'percentage',
+    isHigherBetter: null
+  },
+  revenue_malaysia_pct: {
+    type: 'revenue_malaysia_pct',
+    category: 'financial_performance',
+    displayName: 'Revenue from Malaysia',
+    description: 'Percentage of revenue from Malaysian properties',
+    unit: '%',
+    format: 'percentage',
+    isHigherBetter: null
+  },
+  revenue_japan_pct: {
+    type: 'revenue_japan_pct',
+    category: 'financial_performance',
+    displayName: 'Revenue from Japan',
+    description: 'Percentage of revenue from Japanese properties',
+    unit: '%',
+    format: 'percentage',
+    isHigherBetter: null
+  },
+  revenue_australia: {
+    type: 'revenue_australia',
+    category: 'financial_performance',
+    displayName: 'Australian Revenue',
+    description: 'Revenue from Australian properties',
+    unit: 'RM million',
+    format: 'currency',
+    isHigherBetter: true
+  },
+  revenue_malaysia: {
+    type: 'revenue_malaysia',
+    category: 'financial_performance',
+    displayName: 'Malaysian Revenue',
+    description: 'Revenue from Malaysian properties',
+    unit: 'RM million',
+    format: 'currency',
+    isHigherBetter: true
+  },
+  revenue_japan: {
+    type: 'revenue_japan',
+    category: 'financial_performance',
+    displayName: 'Japan Revenue',
+    description: 'Revenue from Japanese properties',
+    unit: 'RM million',
+    format: 'currency',
+    isHigherBetter: true
+  },
+
+  // KLCC-specific Metrics (7)
+  reit_segment_revenue: {
+    type: 'reit_segment_revenue',
+    category: 'financial_performance',
+    displayName: 'REIT Segment Revenue',
+    description: 'Revenue from REIT investment properties segment',
+    unit: 'RM million',
+    format: 'currency',
+    isHigherBetter: true
+  },
+  cost_of_debt: {
+    type: 'cost_of_debt',
+    category: 'leverage',
+    displayName: 'Cost of Debt',
+    description: 'Weighted average effective borrowing cost',
+    unit: '%',
+    format: 'percentage',
+    isHigherBetter: false
+  },
+  occupancy_rate_retail: {
+    type: 'occupancy_rate_retail',
+    category: 'operational',
+    displayName: 'Retail Occupancy Rate',
+    description: 'Occupancy rate for retail properties only',
+    unit: '%',
+    format: 'percentage',
+    isHigherBetter: true,
+    benchmarkRange: { min: 70, typical: 95, max: 100 }
+  },
+  wale_years_retail: {
+    type: 'wale_years_retail',
+    category: 'operational',
+    displayName: 'Retail WALE',
+    description: 'Weighted average lease expiry for retail only',
+    unit: 'years',
+    format: 'years',
+    isHigherBetter: null,
+    benchmarkRange: { min: 2, typical: 5, max: 10 }
+  },
+  hotel_occupancy: {
+    type: 'hotel_occupancy',
+    category: 'operational',
+    displayName: 'Hotel Occupancy',
+    description: 'Average hotel occupancy rate',
+    unit: '%',
+    format: 'percentage',
+    isHigherBetter: true,
+    benchmarkRange: { min: 60, typical: 75, max: 90 }
+  },
+  hotel_adr: {
+    type: 'hotel_adr',
+    category: 'operational',
+    displayName: 'Hotel ADR',
+    description: 'Average daily rate for hotel rooms',
+    unit: 'RM',
+    format: 'currency',
+    isHigherBetter: true
+  },
+  hotel_revpar: {
+    type: 'hotel_revpar',
+    category: 'operational',
+    displayName: 'Hotel RevPAR',
+    description: 'Revenue per available room',
+    unit: 'RM',
+    format: 'currency',
+    isHigherBetter: true
+  },
 
   // Market Metrics (2)
   price_to_book: {

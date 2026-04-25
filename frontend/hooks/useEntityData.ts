@@ -56,18 +56,7 @@ export function useEntityData(entityCodes: string[]): UseEntityDataResult {
   };
 }
 
-// Available entity codes for selector
-export const AVAILABLE_ENTITIES = [
-  { code: '5130.KL', name: 'Atrium REIT' },
-  { code: '5106.KL', name: 'Axis REIT' },
-  { code: '5176.KL', name: 'Sunway REIT' },
-  { code: '5204.KL', name: 'Pavilion REIT' },
-  { code: '5227.KL', name: 'IGB REIT' },
-  { code: '5235.KL', name: 'KLCC REIT' },
-  { code: '5180.KL', name: 'CMMT' },
-  { code: '5114.KL', name: 'Al-Salam REIT' },
-  { code: '5121.KL', name: 'Hektar REIT' },
-  { code: '5200.KL', name: 'UOA REIT' },
-] as const;
-
-export type AvailableEntityCode = typeof AVAILABLE_ENTITIES[number]['code'];
+export {
+  AVAILABLE_ENTITIES,
+  type AvailableEntityCode,
+} from '@/lib/available-entities';

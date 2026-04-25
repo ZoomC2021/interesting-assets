@@ -4,7 +4,7 @@
  * Hook for benchmark data calculations
  */
 
-import { useMemo } from 'react';
+import { useMemo, useCallback } from 'react';
 import type { NormalizedReitData, MetricType } from '@/types/frontend';
 import type { SectorBenchmark, EntityBenchmarkComparison } from '@/lib/benchmark-calculations';
 import { buildAllBenchmarks, getBenchmarkComparison } from '@/lib/benchmark-calculations';
@@ -26,9 +26,9 @@ export function useBenchmarkData(datasets: NormalizedReitData[]): UseBenchmarkDa
     return buildAllBenchmarks(datasets, metricTypes);
   }, [datasets]);
   
-  const getComparison = (entityId: string, metricType: MetricType): EntityBenchmarkComparison | undefined => {
+  const getComparison = useCallback((entityId: string, metricType: MetricType): EntityBenchmarkComparison | undefined => {
     return getBenchmarkComparison(benchmarks, entityId, metricType);
-  };
+  }, [benchmarks]);
   
   return {
     benchmarks,

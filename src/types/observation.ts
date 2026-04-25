@@ -21,7 +21,8 @@ export const ObservationTypeSchema = z.enum([
   'peer_comparison',
   'market_context',
   'management_assessment',
-  'industry_benchmark'
+  'industry_benchmark',
+  'governance'
 ]);
 
 export const ObservationPrioritySchema = z.enum([
@@ -75,8 +76,8 @@ export const ObservationExtendedSchema = z.object({
   })).default([]),
   
   // Citations
-  sourceDisplayIds: z.array(z.string().regex(/^[TA]:\d+$/)).min(1),
-  primaryCitation: z.string().regex(/^[TA]:\d+$/),
+  sourceDisplayIds: z.array(z.string().regex(/^[TAC]:\d+$/)).min(1),
+  primaryCitation: z.string().regex(/^[TAC]:\d+$/),
   
   // Context
   context: z.object({
@@ -194,6 +195,11 @@ export const OBSERVATION_TYPE_METADATA: Record<
     label: 'Industry Benchmark',
     description: 'Comparison with industry standards',
     order: 10
+  },
+  governance: {
+    label: 'Governance',
+    description: 'Corporate governance and related party management',
+    order: 11
   }
 };
 

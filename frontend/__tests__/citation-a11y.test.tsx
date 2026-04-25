@@ -220,7 +220,7 @@ describe('CitationPanel Accessibility', () => {
       />
     );
     
-    const title = screen.getByText('Sources & Citations');
+    const title = screen.getByText('Sources & citations');
     expect(title).toHaveAttribute('id', 'citation-panel-title');
     
     const description = screen.getByText(/2 references from 1 source/);

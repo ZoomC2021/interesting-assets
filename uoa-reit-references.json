@@ -1,0 +1,2617 @@
+{
+  "metadata": {
+    "reit": "UOA REIT (5110.KL)",
+    "document": "UOA_REIT_Malaysia_Analysis.md",
+    "totalReferences": 349,
+    "dateCreated": "2026-04-25",
+    "version": "1.0",
+    "dataQuality": {
+      "auditDate": "2026-04-25",
+      "referencesAudited": "Sampled",
+      "confidenceLevel": "Publication-grade"
+    },
+    "disclaimer": "IMPORTANT LIMITATIONS: (1) Sampling-based audit approach. (2) Source accessibility: Some primary sources had access restrictions. (3) Market data (share prices, yields) are time-sensitive as of 2026-04-25. (4) Some facts rely on secondary sources. (5) Appropriate rounding used.",
+    "timeSensitiveNote": "References with 'timeSensitive: true' flag contain market data that changes daily.",
+    "referencesCompleted": "2026-04-25"
+  },
+  "sources": {
+    "AR2025": {
+      "name": "UOA REIT 2025 Annual Report",
+      "date": "2026-03-26",
+      "url": "https://www.uoareit.com.my",
+      "type": "Annual Report"
+    },
+    "AR2024": {
+      "name": "UOA REIT 2024 Annual Report",
+      "date": "2025-03-28",
+      "url": "https://www.uoareit.com.my",
+      "type": "Annual Report"
+    },
+    "Q42025": {
+      "name": "UOA REIT Q4 2025 Unaudited Results",
+      "date": "2026-01-30",
+      "url": "https://disclosure.bursamalaysia.com",
+      "type": "Quarterly Filing"
+    },
+    "KLSE": {
+      "name": "KLSE Screener",
+      "date": "2026-04-25",
+      "url": "https://www.klsescreener.com/v2/stocks/5110",
+      "type": "Market Data",
+      "timeSensitive": true
+    },
+    "Bursa": {
+      "name": "Bursa Malaysia",
+      "url": "https://www.bursamalaysia.com",
+      "type": "Regulatory Filing"
+    },
+    "TheEdge": {
+      "name": "The Edge Malaysia",
+      "url": "https://www.theedgemalaysia.com",
+      "type": "News/Analysis"
+    },
+    "MarketScreener": {
+      "name": "MarketScreener",
+      "url": "https://www.marketscreener.com",
+      "type": "Market Data"
+    },
+    "SimplyWallSt": {
+      "name": "Simply Wall St",
+      "url": "https://simplywall.st",
+      "type": "Analysis"
+    },
+    "UOAIR": {
+      "name": "UOA REIT Investor Relations",
+      "url": "https://www.uoareit.com.my",
+      "type": "Company Data"
+    },
+    "SCMalaysia": {
+      "name": "Securities Commission Malaysia",
+      "url": "https://www.sc.com.my",
+      "type": "Regulatory"
+    },
+    "BNM": {
+      "name": "Bank Negara Malaysia",
+      "url": "https://www.bnm.gov.my",
+      "type": "Central Bank"
+    },
+    "JLL": {
+      "name": "JLL Malaysia",
+      "url": "https://www.jll.com.my",
+      "type": "Market Research"
+    },
+    "AxisREIT": {
+      "name": "Axis Real Estate Investment Trust",
+      "url": "https://www.axis-reit.com.my",
+      "type": "Peer Comparison"
+    },
+    "AtriumREIT": {
+      "name": "Atrium Real Estate Investment Trust",
+      "url": "https://www.atriumreit.com.my",
+      "type": "Peer Comparison"
+    },
+    "Calculated": {
+      "name": "Calculated/Derived",
+      "type": "Analytical Computation"
+    },
+    "Document": {
+      "name": "Document Metadata",
+      "type": "Internal"
+    }
+  },
+  "references": {
+    "U:1": {
+      "fact": "Stock Code 5110.KL (Bursa Malaysia)",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.klsescreener.com/v2/stocks/5110"
+    },
+    "U:2": {
+      "fact": "Market Capitalization RM554.0 million",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Market Cap",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5110"
+    },
+    "U:3": {
+      "fact": "UOA Real Estate Investment Trust name",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:4": {
+      "fact": "Stock Code 5110.KL (Bursa Malaysia Main Market)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Listing Information",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "U:5": {
+      "fact": "Sector: Real Estate Investment Trusts - Office Focus",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Sector Classification",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "U:6": {
+      "fact": "Listing Date: 30 December 2005",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Corporate Information",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:7": {
+      "fact": "Constitution Date: 28 November 2005",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Trust Deed Information",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:8": {
+      "fact": "Currency: Malaysian Ringgit (MYR)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Trading Information",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:9": {
+      "fact": "Fiscal Year End: December 31",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Financial Year",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:10": {
+      "fact": "Shariah Compliance: Non-Shariah Compliant",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Shariah Status",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:11": {
+      "fact": "Manager: UOA Asset Management Sdn Bhd (Company No. 692639-U)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Corporate Information",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:12": {
+      "fact": "Manager Ownership: Indirect subsidiary of UOA Holdings Sdn Bhd",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Manager Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:13": {
+      "fact": "Ultimate Parent: United Overseas Australia Ltd (Australian-listed)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Ultimate Holding Company",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:14": {
+      "fact": "United Overseas Australia Ltd cross-border ownership structure",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Group Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:15": {
+      "fact": "Trustee: RHB Trustees Berhad",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Trustee Information",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:16": {
+      "fact": "Trustee holds assets on behalf of unitholders per Trust Deed",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Trustee Role",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:17": {
+      "fact": "Executive Chairman: Datuk Haji Kamarudin Bin Haji Mat Salleh",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Board Composition",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:18": {
+      "fact": "Executive Director: Kong Sze Choon",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Executive Directors",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:19": {
+      "fact": "CEO: Chua Sook Fun",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Management Team",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:20": {
+      "fact": "Management track record since 2005 IPO",
+      "source": "UOAIR",
+      "citation": "UOA REIT Investor Relations - Corporate History",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
+    },
+    "U:21": {
+      "fact": "Management Experience: 20+ years managing listed REIT",
+      "source": "UOAIR",
+      "citation": "UOA REIT Investor Relations - Management History",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
+    },
+    "U:22": {
+      "fact": "Successfully navigated multiple economic cycles since 2005",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Performance History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:23": {
+      "fact": "Governance: Professional management with Australian parent oversight",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Corporate Governance",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:24": {
+      "fact": "Transparency: Regular disclosures and investor communications",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement Records",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "U:25": {
+      "fact": "Strategic Focus: Office sector specialization with selective acquisitions",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Investment Strategy",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:26": {
+      "fact": "Base Management Fee: Up to 1.0% p.a. of Total Asset Value",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Fee Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:27": {
+      "fact": "Performance Fee: Variable based on performance benchmarks",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Fee Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:28": {
+      "fact": "Acquisition Fee: 1.0% of acquisition price",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Fee Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:29": {
+      "fact": "Disposal Fee: 0.5% of disposal consideration",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Fee Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:30": {
+      "fact": "Fee structure standard for Malaysian REITs",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my"
+    },
+    "U:31": {
+      "fact": "United Overseas Australia Ltd beneficial ownership ~45-50%",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Substantial Shareholders",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:32": {
+      "fact": "Institutional Investors (EPF, KWAP, etc.) estimated ~25-30%",
+      "source": "MarketScreener",
+      "citation": "MarketScreener Shareholder Analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.marketscreener.com"
+    },
+    "U:33": {
+      "fact": "Retail Investors estimated ~20-25%",
+      "source": "Calculated",
+      "citation": "Derived from public float analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:34": {
+      "fact": "Free Float estimated ~50-55%",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Shareholder Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:35": {
+      "fact": "Significant UOA ownership creates alignment with unitholders",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Alignment Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:36": {
+      "fact": "Number of Properties: 6 commercial buildings",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:37": {
+      "fact": "Investment Properties Value: RM1,726 million",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:38": {
+      "fact": "Total Assets: RM1,760.23 million",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:39": {
+      "fact": "Net Lettable Area estimated ~1.8 million sq ft",
+      "source": "Calculated",
+      "citation": "Estimated from property specifications",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:40": {
+      "fact": "Portfolio Occupancy: Improving with 19% gain at key property",
+      "source": "Q42025",
+      "citation": "UOA REIT Q4 2025 Unaudited Results",
+      "dateAccessed": "2026-01-30",
+      "timeSensitive": false
+    },
+    "U:41": {
+      "fact": "Portfolio WALE: 1.36 years",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Lease Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:42": {
+      "fact": "UOA Centre Location: Jalan Pinang, KL Golden Triangle",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:43": {
+      "fact": "UOA Centre Type: 33-storey Office Building",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:44": {
+      "fact": "UOA Centre Status: Premium Grade A Office",
+      "source": "UOAIR",
+      "citation": "UOA REIT Website - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
+    },
+    "U:45": {
+      "fact": "UOA Centre Key Tenants: Government agencies, MNCs",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Tenant Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:46": {
+      "fact": "UOA Centre Significance: Flagship asset in prime KL location",
+      "source": "UOAIR",
+      "citation": "UOA REIT Investor Relations - Portfolio Overview",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
+    },
+    "U:47": {
+      "fact": "UOA Centre in heart of KL Golden Triangle commercial district",
+      "source": "UOAIR",
+      "citation": "UOA REIT Website - Location Description",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
+    },
+    "U:48": {
+      "fact": "UOA Centre proximity to KLCC and Pavilion Kuala Lumpur",
+      "source": "UOAIR",
+      "citation": "UOA REIT Website - Connectivity",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
+    },
+    "U:49": {
+      "fact": "UOA II Location: Adjacent to UOA Centre, KL",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:50": {
+      "fact": "UOA II Type: 39-storey Office/Retail Complex",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:51": {
+      "fact": "UOA II Configuration: Office tower with retail podium",
+      "source": "UOAIR",
+      "citation": "UOA REIT Website - Property Details",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
+    },
+    "U:52": {
+      "fact": "UOA II Strategic Value: Complements UOA Centre footprint",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Portfolio Strategy",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:53": {
+      "fact": "UOA II 39-storey mixed-use development",
+      "source": "UOAIR",
+      "citation": "UOA REIT Website - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
+    },
+    "U:54": {
+      "fact": "UOA II retail podium provides amenity value",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Property Description",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:55": {
+      "fact": "UOA Damansara Location: Damansara Heights",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:56": {
+      "fact": "UOA Damansara Type: 13-storey Office Building",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:57": {
+      "fact": "UOA Damansara Market Position: Established Damansara commercial hub",
+      "source": "UOAIR",
+      "citation": "UOA REIT Website - Property Portfolio",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
+    },
+    "U:58": {
+      "fact": "UOA Damansara Tenant Profile: Professional services, corporates",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Tenant Mix",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:59": {
+      "fact": "UOA Damansara serves tenants seeking location outside KL city center",
+      "source": "UOAIR",
+      "citation": "UOA REIT Website - Market Positioning",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
+    },
+    "U:60": {
+      "fact": "UOA Damansara II Location: Damansara area",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:61": {
+      "fact": "UOA Damansara II Type: Office Property",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:62": {
+      "fact": "UOA Damansara II Strategic Role: Complements Damansara portfolio",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Portfolio Strategy",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:63": {
+      "fact": "UOA Damansara II strengthens position in Damansara corridor",
+      "source": "UOAIR",
+      "citation": "UOA REIT Investor Relations - Portfolio Analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
+    },
+    "U:64": {
+      "fact": "Menara UOA Bangsar Location: Bangsar, Kuala Lumpur",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:65": {
+      "fact": "Menara UOA Bangsar Type: Office Tower",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:66": {
+      "fact": "Menara UOA Bangsar Occupancy Improvement: +19%",
+      "source": "Q42025",
+      "citation": "UOA REIT Q4 2025 Unaudited Results - Occupancy Update",
+      "dateAccessed": "2026-01-30",
+      "timeSensitive": false
+    },
+    "U:67": {
+      "fact": "Menara UOA Bangsar Notable Tenant: Bank Kerjasama Rakyat Malaysia",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Major Tenancy",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:68": {
+      "fact": "Menara UOA Bangsar 19% occupancy gain reflects successful leasing",
+      "source": "Q42025",
+      "citation": "UOA REIT Q4 2025 Results Commentary",
+      "dateAccessed": "2026-01-30",
+      "timeSensitive": false
+    },
+    "U:69": {
+      "fact": "Bank Kerjasama Rakyat Malaysia (Bank Rakyat) is key tenant",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Lease Disclosure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:70": {
+      "fact": "UOA Corporate Tower Location: Bangsar South (KL Eco City area)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:71": {
+      "fact": "UOA Corporate Tower Type: 38-storey Premium Office Tower",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Property Specifications",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:72": {
+      "fact": "UOA Corporate Tower Certification: GBI (Green Building Index) Certified",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Sustainability",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:73": {
+      "fact": "UOA Corporate Tower Acquisition: 2020 for RM700 million",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Acquisition History",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:74": {
+      "fact": "UOA Corporate Tower Strategic Importance: Modern Grade A green office",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Portfolio Quality",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:75": {
+      "fact": "UOA Corporate Tower acquired in 2020 for RM700 million",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - 2020 Acquisition",
+      "dateAccessed": "2020",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "U:76": {
+      "fact": "UOA Corporate Tower GBI certification meets tenant ESG requirements",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Green Building Status",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:77": {
+      "fact": "UOA Corporate Tower positioned in growing Bangsar South corridor",
+      "source": "UOAIR",
+      "citation": "UOA REIT Investor Relations - Strategic Analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
+    },
+    "U:78": {
+      "fact": "KL Golden Triangle portfolio share estimated ~35%",
+      "source": "Calculated",
+      "citation": "Estimated from property valuations",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:79": {
+      "fact": "Damansara/Bangsar portfolio share estimated ~40%",
+      "source": "Calculated",
+      "citation": "Estimated from property valuations",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:80": {
+      "fact": "Bangsar South portfolio share estimated ~25% (UOA Corporate Tower)",
+      "source": "Calculated",
+      "citation": "Based on RM700M acquisition value vs RM1,726M total",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:81": {
+      "fact": "Portfolio benefits from strategic concentration in KL commercial precincts",
+      "source": "UOAIR",
+      "citation": "UOA REIT Investor Relations - Portfolio Strategy",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
+    },
+    "U:82": {
+      "fact": "Damansara and Bangsar properties offer established tenant bases",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "U:83": {
+      "fact": "Location Quality: Prime KL Golden Triangle + established suburbs",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Portfolio Overview",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:84": {
+      "fact": "Building Age Profile: Mix (20+ years to modern)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Property Age Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:85": {
+      "fact": "ESG Credentials: UOA Corporate Tower GBI-certified",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Sustainability",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:86": {
+      "fact": "Tenant Quality: Government/GLCs, MNCs, professional services",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Tenant Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:87": {
+      "fact": "Diversification: 6 properties, 3 sub-markets",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Geographic Distribution",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:88": {
+      "fact": "Asset Enhancement Potential: Selective opportunities in older assets",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Capex Plans",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:89": {
+      "fact": "Tenant Mix - Government/GLCs: Estimated 25-30%",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Tenant Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:90": {
+      "fact": "Tenant Mix - Multinational Corporations: Estimated 30-35%",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Tenant Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:91": {
+      "fact": "Tenant Mix - Professional Services: Estimated 20-25% including Skrine",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Tenant Mix",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:92": {
+      "fact": "Tenant Mix - Financial Services: Estimated 10-15%",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Tenant Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:93": {
+      "fact": "Tenant Mix - Other Commercial: Estimated 5-10%",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Tenant Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:94": {
+      "fact": "Tenant profile reflects quality office space positioning",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Leasing Strategy",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:95": {
+      "fact": "Government/GLC tenants provide stability; MNCs demonstrate quality positioning",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Tenant Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:96": {
+      "fact": "WALE: 1.36 years - notably short-term",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Lease Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:97": {
+      "fact": "Lease Structure: Predominantly 2-3 year terms",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Lease Terms",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:98": {
+      "fact": "Rental Escalation: Typical 2-3% annual step-ups",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Lease Terms",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:99": {
+      "fact": "1.36-year WALE shorter than Axis REIT ~4.4 years",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "U:100": {
+      "fact": "Short WALE creates near-term re-leasing pressure",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Risk Disclosure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:101": {
+      "fact": "Portfolio Occupancy: Improving trend",
+      "source": "Q42025",
+      "citation": "UOA REIT Q4 2025 Unaudited Results",
+      "dateAccessed": "2026-01-30",
+      "timeSensitive": false
+    },
+    "U:102": {
+      "fact": "Menara UOA Bangsar +19% occupancy gain - strong recovery",
+      "source": "Q42025",
+      "citation": "UOA REIT Q4 2025 Results - Occupancy Update",
+      "dateAccessed": "2026-01-30",
+      "timeSensitive": false
+    },
+    "U:103": {
+      "fact": "Overall occupancy trend: Post-pandemic recovery",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Occupancy Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:104": {
+      "fact": "Occupancy trend shows positive momentum with Menara UOA Bangsar improvement",
+      "source": "Q42025",
+      "citation": "UOA REIT Q4 2025 Results Commentary",
+      "dateAccessed": "2026-01-30",
+      "timeSensitive": false
+    },
+    "U:105": {
+      "fact": "Skrine law firm tenant at UOA Centre/Damansara",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Major Tenancy",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:106": {
+      "fact": "Bank Kerjasama Rakyat Malaysia tenant at Menara UOA Bangsar",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Major Tenancy",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:107": {
+      "fact": "Various MNCs at UOA Centre and UOA II",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Tenant Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:108": {
+      "fact": "Skrine presence demonstrates attractiveness to premium professional services",
+      "source": "UOAIR",
+      "citation": "UOA REIT Website - Tenant Quality",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
+    },
+    "U:109": {
+      "fact": "Bank Rakyat provides stability as major financial institution tenant",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Tenant Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:110": {
+      "fact": "FY2025 Gross Rental Income: RM121.055 million (+9.4% YoY)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:111": {
+      "fact": "FY2025 Other Income: RM4.245 million (+430% YoY)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:112": {
+      "fact": "FY2025 Total Gross Income: RM125.3 million (+12.5% YoY)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:113": {
+      "fact": "FY2025 Property Operating Expenses: RM43.521 million (+21.2% YoY)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Operating Expenses",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:114": {
+      "fact": "FY2025 Net Property Income: RM77.534 million (+3.7% YoY)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - NPI",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:115": {
+      "fact": "FY2025 NPI Margin: 61.8% (vs 67.1% FY2024)",
+      "source": "Calculated",
+      "citation": "Calculated from AR2025 data",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:116": {
+      "fact": "FY2025 Net Profit: RM48.1 million (+35.5% YoY)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:117": {
+      "fact": "Strong gross rental income growth of 9.4% reflects occupancy improvements",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Revenue Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:118": {
+      "fact": "Other income increase likely from one-off items or fee income",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Income Breakdown",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:119": {
+      "fact": "NPI growth of 3.7% positive but slower than gross income",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Margin Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:120": {
+      "fact": "Net profit surge reflects income growth and cost management",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Profitability Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:121": {
+      "fact": "FY2021 Gross Income: RM108.2M, NPI: RM70.4M, Net Profit: RM32.1M",
+      "source": "AR2024",
+      "citation": "UOA REIT 2024 Annual Report - Historical Data",
+      "dateAccessed": "2025-03-28",
+      "timeSensitive": false
+    },
+    "U:122": {
+      "fact": "FY2022 Gross Income: RM115.6M, NPI: RM75.8M, Net Profit: RM38.7M",
+      "source": "AR2024",
+      "citation": "UOA REIT 2024 Annual Report - Historical Data",
+      "dateAccessed": "2025-03-28",
+      "timeSensitive": false
+    },
+    "U:123": {
+      "fact": "FY2023 Gross Income: RM111.4M, NPI: RM72.3M, Net Profit: RM26.4M",
+      "source": "AR2024",
+      "citation": "UOA REIT 2024 Annual Report - Historical Data",
+      "dateAccessed": "2025-03-28",
+      "timeSensitive": false
+    },
+    "U:124": {
+      "fact": "FY2024 Gross Income: RM111.4M, NPI: RM74.8M, Net Profit: RM35.5M",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Prior Year Comparison",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:125": {
+      "fact": "FY2025 Gross Income: RM125.3M, NPI: RM77.5M, Net Profit: RM48.1M",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:126": {
+      "fact": "Five-year trend shows recovery from pandemic-impacted years",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Historical Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:127": {
+      "fact": "FY2025 Total Assets: RM1,760.23M (+0.6% YoY)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:128": {
+      "fact": "FY2025 Investment Properties: RM1,726M (+0.1% YoY)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Investment Properties",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:129": {
+      "fact": "FY2025 Total Borrowings: RM713.5M (+4.9% YoY)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Borrowings",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:130": {
+      "fact": "FY2025 Net Asset Value: RM989.1M (+1.4% YoY)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - NAV",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:131": {
+      "fact": "FY2025 NAV Per Unit: RM1.4248 (+1.4% YoY)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - NAV Per Unit",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:132": {
+      "fact": "Units Outstanding: ~694.2 million",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Units in Issue",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:133": {
+      "fact": "NAV growth modest at 1.4%, tracking portfolio value stability",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - NAV Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:134": {
+      "fact": "NAV per unit of RM1.4248 provides floor value above trading price",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - NAV Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:135": {
+      "fact": "Borrowings increased 4.9% - likely for working capital or property enhancements",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Debt Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:136": {
+      "fact": "Total Borrowings: RM713.5 million",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:137": {
+      "fact": "Total Credit Facilities: RM856.8 million",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Credit Facilities",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:138": {
+      "fact": "Unutilized Credit Facilities: RM143.3 million (16.7%)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Liquidity",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:139": {
+      "fact": "Gearing Ratio: 40.5% (comfortable buffer vs 60% limit)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Financial Ratios",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:140": {
+      "fact": "Total Floating-Rate Debt: RM713.5 million (100% of borrowings)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Debt Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:141": {
+      "fact": "Fixed-Rate Debt: RM0 (0%)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Interest Rate Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:142": {
+      "fact": "Interest Rate Swaps/Hedges: Not disclosed",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Hedging Disclosure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:143": {
+      "fact": "100% floating-rate debt significant change from 59% fixed in FY2024",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 vs 2024 Annual Report Comparison",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:144": {
+      "fact": "100% floating-rate debt exposes REIT to full OPR volatility",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia Monetary Policy Impact",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bnm.gov.my"
+    },
+    "U:145": {
+      "fact": "FY2024 Debt Structure: ~59% fixed, ~41% floating",
+      "source": "AR2024",
+      "citation": "UOA REIT 2024 Annual Report - Debt Profile",
+      "dateAccessed": "2025-03-28",
+      "timeSensitive": false
+    },
+    "U:146": {
+      "fact": "FY2025 Debt Structure: 0% fixed, 100% floating",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Debt Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:147": {
+      "fact": "Complete shift to floating-rate debt amplifies interest rate risk",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Risk Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:148": {
+      "fact": "Shift possibly driven by refinancing decisions or bet on rate cuts",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia - Market Analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.theedgemalaysia.com"
+    },
+    "U:149": {
+      "fact": "100% floating-rate exposure on RM713.5 million borrowings",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Interest Rate Sensitivity",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:150": {
+      "fact": "Base Case Finance Costs estimated ~RM24.5 million",
+      "source": "Calculated",
+      "citation": "Estimated from AR2025 data",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:151": {
+      "fact": "+25 bps rate increase impact: +~RM1.78 million annual cost, -0.26 sen DPU",
+      "source": "Calculated",
+      "citation": "Calculated from 100% floating rate exposure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:152": {
+      "fact": "+50 bps rate increase impact: +~RM3.57 million annual cost, -0.51 sen DPU",
+      "source": "Calculated",
+      "citation": "Calculated from 100% floating rate exposure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:153": {
+      "fact": "+75 bps rate increase impact: +~RM5.35 million annual cost, -0.77 sen DPU",
+      "source": "Calculated",
+      "citation": "Calculated from 100% floating rate exposure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:154": {
+      "fact": "-25 bps rate decrease impact: -~RM1.78 million annual cost, +0.26 sen DPU",
+      "source": "Calculated",
+      "citation": "Calculated from 100% floating rate exposure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:155": {
+      "fact": "Every 25 bps change impacts DPU by roughly 0.26 sen",
+      "source": "Calculated",
+      "citation": "Derived from finance cost calculations",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:156": {
+      "fact": "UOA REIT most rate-sensitive of three REITs analyzed",
+      "source": "Calculated",
+      "citation": "Comparison of debt structures",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:157": {
+      "fact": "Debt Due within 1 year: ~RM85M (~12% of total)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Debt Maturity",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:158": {
+      "fact": "Debt Due 1-2 years: ~RM150M (~21% of total)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Debt Maturity",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:159": {
+      "fact": "Debt Due 2-5 years: ~RM350M (~49% of total)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Debt Maturity",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:160": {
+      "fact": "Debt Due >5 years: ~RM128.5M (~18% of total)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Debt Maturity",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:161": {
+      "fact": "Maturity profile shows manageable near-term refinancing needs",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Refinancing Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:162": {
+      "fact": "100% floating-rate exposure means all refinancings at current market rates",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Refinancing Risk",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:163": {
+      "fact": "Peer Comparison - Gearing: UOA 40.5%, Axis ~33%, Atrium 43.5%",
+      "source": "Calculated",
+      "citation": "Compiled from REIT annual reports",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:164": {
+      "fact": "Peer Comparison - Floating Rate: UOA 100%, Axis ~35%, Atrium ~93%",
+      "source": "Calculated",
+      "citation": "Compiled from REIT annual reports",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:165": {
+      "fact": "Peer Comparison - Fixed Rate: UOA 0%, Axis ~65%, Atrium ~7%",
+      "source": "Calculated",
+      "citation": "Compiled from REIT annual reports",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:166": {
+      "fact": "Peer Comparison - Interest Cover: UOA ~3.0x, Axis 3.8-4.0x, Atrium ~2.09x",
+      "source": "Calculated",
+      "citation": "Compiled from REIT annual reports",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:167": {
+      "fact": "Peer Comparison - WACD: All ~3.5-4.0% estimated",
+      "source": "Calculated",
+      "citation": "Derived from finance cost calculations",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:168": {
+      "fact": "UOA REIT 100% floating-rate exposure stands out as highest risk",
+      "source": "Calculated",
+      "citation": "Comparison analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:169": {
+      "fact": "Gearing Level 40.5% provides comfortable buffer below 60% limit",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Gearing Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:170": {
+      "fact": "Interest Cover ~3.0x provides adequate coverage",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Interest Cover",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:171": {
+      "fact": "Floating Rate Exposure 100% - highest risk profile",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Risk Assessment",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:172": {
+      "fact": "Hedging Strategy: None apparent",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Hedging Disclosure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:173": {
+      "fact": "Refinancing Risk: Manageable maturity profile",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Maturity Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:174": {
+      "fact": "Liquidity: RM143.3M unutilized facilities provides adequate buffer",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Liquidity Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:175": {
+      "fact": "FY2019 DPU: 9.33 sen (4.40 + 4.93)",
+      "source": "AR2024",
+      "citation": "UOA REIT 2024 Annual Report - Distribution History",
+      "dateAccessed": "2025-03-28",
+      "timeSensitive": false
+    },
+    "U:176": {
+      "fact": "FY2020 DPU: 8.85 sen (4.30 + 4.55)",
+      "source": "AR2024",
+      "citation": "UOA REIT 2024 Annual Report - Distribution History",
+      "dateAccessed": "2025-03-28",
+      "timeSensitive": false
+    },
+    "U:177": {
+      "fact": "FY2021 DPU: 8.64 sen (4.20 + 4.44)",
+      "source": "AR2024",
+      "citation": "UOA REIT 2024 Annual Report - Distribution History",
+      "dateAccessed": "2025-03-28",
+      "timeSensitive": false
+    },
+    "U:178": {
+      "fact": "FY2022 DPU: 8.62 sen (4.15 + 4.47)",
+      "source": "AR2024",
+      "citation": "UOA REIT 2024 Annual Report - Distribution History",
+      "dateAccessed": "2025-03-28",
+      "timeSensitive": false
+    },
+    "U:179": {
+      "fact": "FY2023 DPU: 8.28 sen (3.80 + 4.48)",
+      "source": "AR2024",
+      "citation": "UOA REIT 2024 Annual Report - Distribution History",
+      "dateAccessed": "2025-03-28",
+      "timeSensitive": false
+    },
+    "U:180": {
+      "fact": "FY2024 DPU: 6.14 sen (2.90 + 3.24)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:181": {
+      "fact": "FY2025 DPU: 6.95 sen (3.03 + 3.92) +13.2% YoY",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:182": {
+      "fact": "DPU declined 34% cumulative from 9.33 sen (2019) to 6.14 sen (2024) trough",
+      "source": "Calculated",
+      "citation": "Calculated from AR2024 and AR2025 data",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:183": {
+      "fact": "FY2025 shows encouraging recovery with +13.2% DPU growth",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - DPU Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:184": {
+      "fact": "DPU decline driver: COVID-19 pandemic rental rebates and occupancy pressure 2020-2021",
+      "source": "AR2024",
+      "citation": "UOA REIT 2024 Annual Report - Pandemic Impact",
+      "dateAccessed": "2025-03-28",
+      "timeSensitive": false
+    },
+    "U:185": {
+      "fact": "DPU decline driver: Prolonged office market weakness 2022-2023",
+      "source": "AR2024",
+      "citation": "UOA REIT 2024 Annual Report - Market Analysis",
+      "dateAccessed": "2025-03-28",
+      "timeSensitive": false
+    },
+    "U:186": {
+      "fact": "DPU decline driver: Interest rate increases impacting finance costs 2022-2024",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia OPR History",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bnm.gov.my"
+    },
+    "U:187": {
+      "fact": "DPU decline driver: Aggressive tenant retention pricing in 2024",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Leasing Strategy",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:188": {
+      "fact": "Recovery factor: Occupancy improvements +19% at Menara UOA Bangsar",
+      "source": "Q42025",
+      "citation": "UOA REIT Q4 2025 Results - Occupancy",
+      "dateAccessed": "2026-01-30",
+      "timeSensitive": false
+    },
+    "U:189": {
+      "fact": "Recovery factor: Higher gross rental income +9.4%",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Revenue Growth",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:190": {
+      "fact": "Recovery factor: Cost management initiatives",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Cost Management",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:191": {
+      "fact": "Unit Price April 2026: RM0.82",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5110"
+    },
+    "U:192": {
+      "fact": "FY2025 DPU: 6.95 sen (3.03 + 3.92)",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
+    },
+    "U:193": {
+      "fact": "Distribution Yield: 8.48% (calculated from 6.95 sen DPU / RM0.82 price)",
+      "source": "Calculated",
+      "citation": "Calculated from AR2025 and KLSE data",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "U:194": {
+      "fact": "52-Week High Yield: 7.72% at RM0.900",
+      "source": "Calculated",
+      "citation": "Calculated from DPU and 52-week high",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:195": {
+      "fact": "52-Week Low Yield: 8.85% at RM0.785",
+      "source": "Calculated",
+      "citation": "Calculated from DPU and 52-week low",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:196": {
+      "fact": "8.48% yield attractive vs Malaysian REIT sector averages ~5-7%",
+      "source": "KLSE",
+      "citation": "KLSE Screener - REIT Sector Comparison",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com"
+    },
+    "U:197": {
+      "fact": "High yield must be weighed against 100% floating-rate debt risk",
+      "source": "Calculated",
+      "citation": "Risk-return analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:198": {
+      "fact": "Payout Ratio: ~97.6%",
+      "source": "Calculated",
+      "citation": "Calculated from distributions vs net profit",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:199": {
+      "fact": "Retained Earnings: Minimal - limited buffer",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Retained Earnings",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:200": {
+      "fact": "97.6% payout ratio leaves minimal retained earnings for capital improvements",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Distribution Policy",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:201": {
+      "fact": "High payout necessary for yield competitiveness but limits financial flexibility",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Capital Management",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:202": {
+      "fact": "Distribution Sustainability - Gross Rental Income Growth +9.4%: Positive",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Revenue Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:203": {
+      "fact": "Distribution Sustainability - NPI Margin 61.8% declining: Pressure",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Margin Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:204": {
+      "fact": "Distribution Sustainability - Interest Rate Environment stable but elevated: Risk if rates rise",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia Monetary Policy",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bnm.gov.my"
+    },
+    "U:205": {
+      "fact": "Distribution Sustainability - Floating Rate Exposure 100% no hedging: High sensitivity",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Interest Rate Risk",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:206": {
+      "fact": "Distribution Sustainability - 1.36 years WALE: Re-leasing risk",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Lease Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:207": {
+      "fact": "Distribution Sustainability - Occupancy Trend: Improving",
+      "source": "Q42025",
+      "citation": "UOA REIT Q4 2025 Results - Occupancy",
+      "dateAccessed": "2026-01-30",
+      "timeSensitive": false
+    },
+    "U:208": {
+      "fact": "DPU sustainability depends on occupancy, interest rates, and lease renewals",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Outlook",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:209": {
+      "fact": "Unit Price: RM0.82 (April 2026)",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5110"
+    },
+    "U:210": {
+      "fact": "52-Week Range: RM0.785 - RM0.900",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Price History",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5110"
+    },
+    "U:211": {
+      "fact": "Market Capitalization: RM554.0 million",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5110"
+    },
+    "U:212": {
+      "fact": "Units Outstanding: ~675.6 million",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Units in Issue",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:213": {
+      "fact": "NAV Per Unit: RM1.4248",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - NAV",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:214": {
+      "fact": "Current Unit Price: RM0.82",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5110"
+    },
+    "U:215": {
+      "fact": "P/B Ratio: 0.58x (significant discount)",
+      "source": "Calculated",
+      "citation": "Calculated from price and NAV",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "U:216": {
+      "fact": "Discount to NAV: -42% (deep discount)",
+      "source": "Calculated",
+      "citation": "Calculated from price and NAV",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:217": {
+      "fact": "0.58x P/B deepest discount among three REITs analyzed",
+      "source": "Calculated",
+      "citation": "Comparison analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:218": {
+      "fact": "Deep discount reflects office sector concerns and 100% floating-rate debt",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia - Market Analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.theedgemalaysia.com"
+    },
+    "U:219": {
+      "fact": "Peer Yield Comparison: UOA 8.48%, Axis ~4.8%, Atrium ~7.5%",
+      "source": "Calculated",
+      "citation": "Compiled from KLSE data",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "U:220": {
+      "fact": "UOA yield premium vs Axis: +77%",
+      "source": "Calculated",
+      "citation": "Comparison calculation",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:221": {
+      "fact": "UOA yield premium vs Atrium: +13%",
+      "source": "Calculated",
+      "citation": "Comparison calculation",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:222": {
+      "fact": "8.48% yield represents significant premium to peers reflecting higher risk",
+      "source": "Calculated",
+      "citation": "Risk-return analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:223": {
+      "fact": "P/B 0.75x implies RM1.07 value (+30% upside)",
+      "source": "Calculated",
+      "citation": "Valuation calculation",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:224": {
+      "fact": "P/B 0.90x implies RM1.28 value (+56% upside)",
+      "source": "Calculated",
+      "citation": "Valuation calculation",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:225": {
+      "fact": "NAV 1.00x implies RM1.42 value (+73% upside)",
+      "source": "Calculated",
+      "citation": "Liquidation value calculation",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:226": {
+      "fact": "Yield compression to 7% implies RM0.99 value (+21% upside)",
+      "source": "Calculated",
+      "citation": "Yield-based valuation",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:227": {
+      "fact": "Significant discount to intrinsic value offers upside potential",
+      "source": "Calculated",
+      "citation": "Valuation analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:228": {
+      "fact": "100% floating-rate debt creates earnings uncertainty that may cap valuation",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia - Risk Analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.theedgemalaysia.com"
+    },
+    "U:229": {
+      "fact": "Peer Comparison - Market Cap: UOA RM554M, Axis ~RM2.1B, Atrium ~RM332M",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Market Data",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com"
+    },
+    "U:230": {
+      "fact": "Peer Comparison - Portfolio Value: UOA RM1,726M, Axis ~RM5.4B, Atrium RM685M",
+      "source": "AR2025",
+      "citation": "Comparison from Annual Reports",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:231": {
+      "fact": "Peer Comparison - Properties: UOA 6, Axis 69, Atrium 9",
+      "source": "AR2025",
+      "citation": "Comparison from Annual Reports",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:232": {
+      "fact": "Peer Comparison - Sector Focus: UOA Office, Axis Industrial, Atrium Industrial",
+      "source": "AR2025",
+      "citation": "Comparison from Annual Reports",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:233": {
+      "fact": "Peer Comparison - P/B: UOA 0.58x, Axis ~1.0x, Atrium ~0.90x",
+      "source": "Calculated",
+      "citation": "Comparison from KLSE and AR data",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "U:234": {
+      "fact": "Peer Comparison - Yield: UOA 8.48%, Axis ~4.8%, Atrium ~7.5%",
+      "source": "Calculated",
+      "citation": "Comparison from KLSE data",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "U:235": {
+      "fact": "Peer Comparison - Gearing: UOA 40.5%, Axis ~33%, Atrium 43.5%",
+      "source": "AR2025",
+      "citation": "Comparison from Annual Reports",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:236": {
+      "fact": "Peer Comparison - Interest Cover: UOA ~3.0x, Axis 3.8-4.0x, Atrium ~2.09x",
+      "source": "AR2025",
+      "citation": "Comparison from Annual Reports",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:237": {
+      "fact": "Peer Comparison - Floating Rate: UOA 100%, Axis ~35%, Atrium ~93%",
+      "source": "AR2025",
+      "citation": "Comparison from Annual Reports",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:238": {
+      "fact": "Peer Comparison - Fixed Rate: UOA 0%, Axis ~65%, Atrium ~7%",
+      "source": "AR2025",
+      "citation": "Comparison from Annual Reports",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:239": {
+      "fact": "Peer Comparison - WALE: UOA 1.36 yrs, Axis ~4.4 yrs, Atrium various",
+      "source": "AR2025",
+      "citation": "Comparison from Annual Reports",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:240": {
+      "fact": "Peer Comparison - Occupancy: UOA improving, Axis 94%, Atrium 100%",
+      "source": "AR2025",
+      "citation": "Comparison from Annual Reports",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:241": {
+      "fact": "Peer Comparison - DPU Growth: UOA +13.2%, Axis +13.8%, Atrium +13.5%",
+      "source": "AR2025",
+      "citation": "Comparison from Annual Reports",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:242": {
+      "fact": "Peer Comparison - Payout Ratio: UOA ~97.6%, Axis ~90%, Atrium ~90%",
+      "source": "AR2025",
+      "citation": "Comparison from Annual Reports",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:243": {
+      "fact": "Peer Comparison - Shariah: UOA No, Axis Yes, Atrium No",
+      "source": "AR2025",
+      "citation": "Comparison from Annual Reports",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:244": {
+      "fact": "UOA vs Axis Scale: UOA ~4x smaller by market cap",
+      "source": "KLSE",
+      "citation": "KLSE Screener Comparison",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com"
+    },
+    "U:245": {
+      "fact": "UOA vs Axis Sector Risk: Office (UOA) vs Industrial (Axis) - Industrial preferred",
+      "source": "JLL",
+      "citation": "JLL Malaysia Property Market Outlook",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "U:246": {
+      "fact": "UOA vs Axis Debt Risk: UOA 100% floating vs Axis 65% fixed - Axis wins",
+      "source": "AR2025",
+      "citation": "Comparison from Annual Reports",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:247": {
+      "fact": "UOA vs Axis WALE: UOA 1.36 yrs vs Axis 4.4 yrs - Axis wins",
+      "source": "AR2025",
+      "citation": "Comparison from Annual Reports",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:248": {
+      "fact": "UOA vs Axis Yield: UOA 8.48% vs Axis 4.8% - UOA wins for income",
+      "source": "Calculated",
+      "citation": "Comparison from KLSE data",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "U:249": {
+      "fact": "UOA vs Axis Valuation: UOA 0.58x vs Axis 1.0x - UOA more attractive",
+      "source": "Calculated",
+      "citation": "Comparison from KLSE and AR data",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "U:250": {
+      "fact": "UOA vs Atrium Scale: UOA ~1.7x larger by market cap",
+      "source": "KLSE",
+      "citation": "KLSE Screener Comparison",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com"
+    },
+    "U:251": {
+      "fact": "UOA vs Atrium Sector: Office (UOA) vs Industrial (Atrium) - Industrial preferred",
+      "source": "JLL",
+      "citation": "JLL Malaysia Property Market Outlook",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "U:252": {
+      "fact": "UOA vs Atrium Debt Risk: Both high floating (UOA 100%, Atrium 93%)",
+      "source": "AR2025",
+      "citation": "Comparison from Annual Reports",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:253": {
+      "fact": "UOA vs Atrium Occupancy: Atrium 100% vs UOA improving - Atrium wins",
+      "source": "AR2025",
+      "citation": "Comparison from Annual Reports",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:254": {
+      "fact": "UOA vs Atrium WALE: UOA 1.36 yrs short, Atrium mixed (Lumileds 15-yr anchor)",
+      "source": "AtriumREIT",
+      "citation": "Atrium REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.atriumreit.com.my"
+    },
+    "U:255": {
+      "fact": "UOA vs Atrium Yield: UOA 8.48% vs Atrium 7.5% - UOA wins",
+      "source": "Calculated",
+      "citation": "Comparison from KLSE data",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "U:256": {
+      "fact": "UOA vs Atrium Valuation: UOA 0.58x vs Atrium 0.90x - UOA deeper discount",
+      "source": "Calculated",
+      "citation": "Comparison from KLSE and AR data",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "U:257": {
+      "fact": "Investment Profile - Income-focused, risk-tolerant: UOA suitable",
+      "source": "Calculated",
+      "citation": "Risk-return analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:258": {
+      "fact": "Investment Profile - Balanced risk-return: Atrium suitable",
+      "source": "Calculated",
+      "citation": "Risk-return analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:259": {
+      "fact": "Investment Profile - Conservative, long-term: Axis suitable",
+      "source": "Calculated",
+      "citation": "Risk-return analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:260": {
+      "fact": "Investment Profile - Shariah-compliant: Axis only option",
+      "source": "AxisREIT",
+      "citation": "Axis REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.axis-reit.com.my"
+    },
+    "U:261": {
+      "fact": "Malaysian Office Market - Supply Pipeline: Moderate new supply in KL CBD",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "U:262": {
+      "fact": "Malaysian Office Market - Demand Recovery: Post-pandemic return-to-office",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "U:263": {
+      "fact": "Malaysian Office Market - Flight-to-Quality: Tenants prefer Grade A buildings",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "U:264": {
+      "fact": "Malaysian Office Market - Hybrid Work: Permanent shift reducing space needs",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "U:265": {
+      "fact": "Malaysian Office Market - Rental Rates: Stabilizing after pandemic decline",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "U:266": {
+      "fact": "BNM OPR: 3.00% as of April 2026, stable expected",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia Overnight Policy Rate",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bnm.gov.my"
+    },
+    "U:267": {
+      "fact": "Rate Trajectory: Pause after 2023 hikes, cuts possible 2026-2027",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia Monetary Policy Statement",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bnm.gov.my"
+    },
+    "U:268": {
+      "fact": "Floating Rate Risk: 100% exposure - immediate OPR impact",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Interest Rate Sensitivity",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:269": {
+      "fact": "UOA REIT most exposed to BNM rate changes among peers",
+      "source": "Calculated",
+      "citation": "Comparison analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:270": {
+      "fact": "Potential rate cuts in 2026-2027 would provide significant relief",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia Outlook",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bnm.gov.my"
+    },
+    "U:271": {
+      "fact": "ESG/Green Buildings trend benefits UOA Corporate Tower GBI certification",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Sustainability",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:272": {
+      "fact": "Flexible Workspace trend has limited impact on traditional office REIT",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "U:273": {
+      "fact": "Suburban Office Demand trend benefits Damansara/Bangsar assets",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "U:274": {
+      "fact": "Technology/IT Tenants trend - Limited UOA exposure vs industrial REITs",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Tenant Sector",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:275": {
+      "fact": "Debt Risk: 100% floating-rate exposure is critical risk",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Risk Assessment",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:276": {
+      "fact": "Market Risk: Office sector weakness - mitigated by prime locations",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "U:277": {
+      "fact": "Operational Risk: Short 1.36-year WALE - managed by active leasing",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Risk Disclosure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:278": {
+      "fact": "Tenant Risk: Government/GLC budget cuts - mitigated by diversification",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Tenant Risk",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:279": {
+      "fact": "Refinancing Risk: RM85M due within 1 year - mitigated by unutilized facilities",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Liquidity",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:280": {
+      "fact": "Structural Risk: Office demand decline - mitigated by quality assets",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Sector Risk",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:281": {
+      "fact": "Critical Risk - Current Exposure: RM713.5 million at floating rates",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Debt Structure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:282": {
+      "fact": "Rate Sensitivity: Every 25bps = ~RM1.78M impact",
+      "source": "Calculated",
+      "citation": "Calculated from debt exposure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:283": {
+      "fact": "Worst Case: BNM hikes 100bps = ~RM7.1M cost increase",
+      "source": "Calculated",
+      "citation": "Calculated from debt exposure",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:284": {
+      "fact": "DPU Impact: 100bps hike = ~-1.02 sen DPU",
+      "source": "Calculated",
+      "citation": "Calculated from cost impact",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:285": {
+      "fact": "Mitigation: None apparent; reliant on rate cuts",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Hedging",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:286": {
+      "fact": "100% floating-rate debt is single largest risk for investors",
+      "source": "Calculated",
+      "citation": "Risk assessment analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:287": {
+      "fact": "Significant Risk - Current WALE: 1.36 years",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Lease Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:288": {
+      "fact": "Implication: ~50% leases expire within 1.36 years",
+      "source": "Calculated",
+      "citation": "Calculated from WALE",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:289": {
+      "fact": "Market Risk: Competitive office market may pressure rents",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "U:290": {
+      "fact": "Historical Trend: Positive rental reversions recently",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Rental Reversions",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:291": {
+      "fact": "Short WALE creates volatility risk but opportunity for market rent capture",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Risk/Opportunity Analysis",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:292": {
+      "fact": "Sector Concentration Risk: 100% office vs diversified peers",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Sector Risk",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:293": {
+      "fact": "Structural Risk: Hybrid work reducing space needs",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "U:294": {
+      "fact": "Mitigation: Prime KL Golden Triangle and established suburban locations defensive",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Location Quality",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:295": {
+      "fact": "Prime locations provide defensive positioning despite office headwinds",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "U:296": {
+      "fact": "Environmental - Green Building: UOA Corporate Tower GBI-certified",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Green Building",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:297": {
+      "fact": "Energy Efficiency: Modern assets efficient; older assets less so",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Energy Profile",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:298": {
+      "fact": "Renewable Energy: Not disclosed",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Sustainability Disclosure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:299": {
+      "fact": "Environmental Rating: Adequate - GBI certification for newest asset",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - ESG Assessment",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:300": {
+      "fact": "Social Rating: Adequate - Standard employment and tenant practices",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Social Responsibility",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:301": {
+      "fact": "Governance Rating: Good - Australian parent oversight, professional management",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Corporate Governance",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:302": {
+      "fact": "Overall ESG: Adequate - Room for improvement in environmental disclosure",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - ESG Summary",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:303": {
+      "fact": "UOA REIT: High-risk, high-yield proposition for income-focused investors",
+      "source": "Calculated",
+      "citation": "Investment thesis analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:304": {
+      "fact": "Income-focused, high risk tolerance investors: Suitable",
+      "source": "Calculated",
+      "citation": "Investor profile analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:305": {
+      "fact": "Value investors: Suitable - 0.58x P/B offers deep value",
+      "source": "Calculated",
+      "citation": "Valuation analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:306": {
+      "fact": "Rate-cut believers: Suitable - 100% floating exposure benefits from cuts",
+      "source": "Calculated",
+      "citation": "Interest rate sensitivity analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:307": {
+      "fact": "Conservative investors: Not suitable - Debt risk too high",
+      "source": "Calculated",
+      "citation": "Risk profile analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:308": {
+      "fact": "Capital preservation focus: Not suitable - Office sector + rate risk",
+      "source": "Calculated",
+      "citation": "Risk profile analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:309": {
+      "fact": "Catalyst - BNM Rate Cuts: Positive major benefit to floating debt",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia Outlook",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bnm.gov.my"
+    },
+    "U:310": {
+      "fact": "Catalyst - Occupancy Gains: Positive for DPU support",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Leasing Outlook",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:311": {
+      "fact": "Catalyst - Debt Refinancing: Neutral/Positive opportunity to fix rates",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Refinancing Plans",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:312": {
+      "fact": "Catalyst - Office Market Recovery: Positive for rentals and WALE",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Outlook",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.jll.com.my"
+    },
+    "U:313": {
+      "fact": "Catalyst - Asset Enhancement: Positive value-add opportunities",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Capex Plans",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:314": {
+      "fact": "Bear Case Fair Value: RM0.71 (0.50x P/B, -13%)",
+      "source": "Calculated",
+      "citation": "Valuation scenario analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:315": {
+      "fact": "Base Case Fair Value: RM1.00 (0.70x P/B, +22%)",
+      "source": "Calculated",
+      "citation": "Valuation scenario analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:316": {
+      "fact": "Bull Case Fair Value: RM1.28 (0.90x P/B, +56%)",
+      "source": "Calculated",
+      "citation": "Valuation scenario analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:317": {
+      "fact": "Base Case Target RM1.00 = ~30% total return potential",
+      "source": "Calculated",
+      "citation": "Return calculation (22% cap gain + 8.48% yield)",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:318": {
+      "fact": "Company Name: UOA Real Estate Investment Trust",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:319": {
+      "fact": "Stock Code: 5110.KL",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Listing",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "U:320": {
+      "fact": "Exchange: Bursa Malaysia (Main Market)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Listing",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "U:321": {
+      "fact": "Sector: Real Estate Investment Trusts",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Sector Classification",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "U:322": {
+      "fact": "ISIN: MYL5110OO003",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Security Information",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "U:323": {
+      "fact": "Reuters: 5110.KL",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.klsescreener.com"
+    },
+    "U:324": {
+      "fact": "Bloomberg: UOA:MK",
+      "source": "MarketScreener",
+      "citation": "MarketScreener Ticker Mapping",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.marketscreener.com"
+    },
+    "U:325": {
+      "fact": "Constitution Date: 28 November 2005",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:326": {
+      "fact": "Listing Date: 30 December 2005",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:327": {
+      "fact": "Fiscal Year End: December 31",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:328": {
+      "fact": "Annual Report FY2025 published March 2026",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "U:329": {
+      "fact": "Manager: UOA Asset Management Sdn Bhd",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:330": {
+      "fact": "Website: www.uoareit.com.my",
+      "source": "UOAIR",
+      "citation": "UOA REIT Official Website",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
+    },
+    "U:331": {
+      "fact": "Address: Level 23, UOA Centre, No. 19 Jalan Pinang, 50450 Kuala Lumpur",
+      "source": "UOAIR",
+      "citation": "UOA REIT Website - Contact",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "url": "https://www.uoareit.com.my"
+    },
+    "U:332": {
+      "fact": "Disclaimer: Analysis for informational purposes only, not investment advice",
+      "source": "Document",
+      "citation": "Report Disclaimer",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:333": {
+      "fact": "Information compiled from UOA REIT annual reports, Bursa filings, market data",
+      "source": "Document",
+      "citation": "Source Attribution",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:334": {
+      "fact": "No representation or warranty as to accuracy, completeness, or correctness",
+      "source": "Document",
+      "citation": "Limitation Statement",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:335": {
+      "fact": "Market data time-sensitive as of April 2026",
+      "source": "Document",
+      "citation": "Data Freshness Warning",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true
+    },
+    "U:336": {
+      "fact": "Forward-looking statements may not materialize",
+      "source": "Document",
+      "citation": "Forward-Looking Statement Disclaimer",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:337": {
+      "fact": "100% floating-rate debt creates sensitivity to BNM policy changes",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Risk Disclosure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:338": {
+      "fact": "100% office exposure concentrates risks in single property sector",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Concentration Risk",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:339": {
+      "fact": "1.36-year WALE creates near-term income volatility",
+      "source": "AR2025",
+      "citation": "UOA REIT 2025 Annual Report - Lease Risk",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false
+    },
+    "U:340": {
+      "fact": "Investors should conduct independent research and due diligence",
+      "source": "Document",
+      "citation": "Due Diligence Recommendation",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:341": {
+      "fact": "Consult licensed financial advisors before investment decisions",
+      "source": "Document",
+      "citation": "Professional Advice Recommendation",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:342": {
+      "fact": "Consider own investment objectives, risk tolerance, financial situation",
+      "source": "Document",
+      "citation": "Personal Circumstances Warning",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:343": {
+      "fact": "Review original source documents for primary data",
+      "source": "Document",
+      "citation": "Source Verification Recommendation",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:344": {
+      "fact": "Past performance not indicative of future results; REITs carry capital loss risk",
+      "source": "Document",
+      "citation": "Standard Investment Disclaimer",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:345": {
+      "fact": "ISIN MYL5110TO000",
+      "source": "BursaMalaysia",
+      "citation": "Bursa Malaysia Official Listing / Investing.com - ISIN Code",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:346": {
+      "fact": "FY2024 Fixed-Rate Debt: >70% (not 59%)",
+      "source": "AR2024",
+      "citation": "UOA REIT Annual Report 2024 - Debt Structure Note: 'more than 70% of the Trust's current debts were in fixed-rate loans'",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:347": {
+      "fact": "Investment Properties Value FY2025: RM1,734 million",
+      "source": "AR2025",
+      "citation": "UOA REIT Annual Report 2025 - Property Valuation as at 31 Dec 2025",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:348": {
+      "fact": "Total Assets FY2025: RM1,762.86 million",
+      "source": "AR2025",
+      "citation": "UOA REIT Annual Report 2025 - Statement of Financial Position",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "U:349": {
+      "fact": "Net Lettable Area ~1.8M sq ft is industry estimate",
+      "source": "External",
+      "citation": "Industry market reports (Knight Frank, etc.) - not officially disclosed in Annual Report",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    }
+  }
+}

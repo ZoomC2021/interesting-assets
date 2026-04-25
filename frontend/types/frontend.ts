@@ -82,6 +82,20 @@ export type MetricType =
   | 'tenant_risk_rating'
   | 'interest_rate_sensitivity'
   | 'refinancing_risk'
+  | 'gearing_headroom'
+  | 'revenue_australia_pct'
+  | 'revenue_malaysia_pct'
+  | 'revenue_japan_pct'
+  | 'revenue_australia'
+  | 'revenue_malaysia'
+  | 'revenue_japan'
+  | 'reit_segment_revenue'
+  | 'cost_of_debt'
+  | 'occupancy_rate_retail'
+  | 'wale_years_retail'
+  | 'hotel_occupancy'
+  | 'hotel_adr'
+  | 'hotel_revpar'
   | 'price_to_book'
   | 'premium_discount_to_nav';
 
@@ -253,7 +267,9 @@ export type ObservationType =
   | 'peer_comparison'
   | 'market_context'
   | 'management_assessment'
-  | 'industry_benchmark';
+  | 'industry_benchmark'
+  | 'governance'
+  | 'tenant_analysis';
 
 export type ObservationPriority = 'info' | 'positive' | 'warning' | 'critical';
 

@@ -10,13 +10,18 @@ import {
   Legend,
   ResponsiveContainer,
 } from 'recharts';
-import type { NormalizedReitData, TimeSeries } from '@/types/frontend';
+import type { NormalizedReitData } from '@/types/frontend';
+import { DASHBOARD_CHART_OUTER_CLASS } from '@/lib/chart-layout';
+import clsx from 'clsx';
 
 interface DpuTrendChartProps {
   entities: NormalizedReitData[];
+  /** Defaults to the shared dashboard height for alignment with other charts. */
+  chartAreaClassName?: string;
 }
 
-export function DpuTrendChart({ entities }: DpuTrendChartProps) {
+export function DpuTrendChart({ entities, chartAreaClassName }: DpuTrendChartProps) {
+  const areaClass = chartAreaClassName ?? DASHBOARD_CHART_OUTER_CLASS;
   // Find DPU time series for each entity
   const entityDpuData = entities.map(entity => {
     const dpuSeries = entity.timeSeries.find(ts => ts.metricType === 'dpu');
@@ -47,14 +52,19 @@ export function DpuTrendChart({ entities }: DpuTrendChartProps) {
 
   if (chartData.length === 0) {
     return (
-      <div className="h-64 flex items-center justify-center">
-        <p className="text-neutral-400">No DPU trend data available</p>
+      <div
+        className={clsx(
+          areaClass,
+          'flex items-center justify-center',
+        )}
+      >
+        <p className="text-sm text-neutral-400">No DPU trend data available</p>
       </div>
     );
   }
 
   return (
-    <div className="h-64">
+    <div className={areaClass}>
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={chartData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
