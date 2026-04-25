@@ -12,6 +12,7 @@ import type {
   RiskAssessment,
   RiskSeverity,
 } from '@/types/frontend';
+import { normalizeEntityCode } from '@/lib/available-entities';
 
 // ============================================================================
 // Entity Comparison Types
@@ -61,45 +62,23 @@ export interface SideBySideComparison {
 
 export async function loadEntityData(entityCode: string): Promise<NormalizedReitData | null> {
   try {
-    // Map entity codes to data files using dynamic imports
-    // This works better with Next.js static export mode than fetch()
+    // Map canonical entity codes to data files using dynamic imports.
+    // Alias handling lives in available-entities so routes and loaders agree.
     const fileMap: Record<string, () => Promise<unknown>> = {
-      // Stock codes (uppercase)
       '5130.KL': () => import('@/public/data/atrium.json'),
       '5106.KL': () => import('@/public/data/axis.json'),
       '5176.KL': () => import('@/public/data/sunway.json'),
-      '5204.KL': () => import('@/public/data/pavilion.json'),
+      '5212.KL': () => import('@/public/data/pavilion.json'),
       '5227.KL': () => import('@/public/data/igb.json'),
-      '5235.KL': () => import('@/public/data/klcc.json'),
+      '5235SS': () => import('@/public/data/klcc.json'),
       '5180.KL': () => import('@/public/data/cmmt.json'),
       '5114.KL': () => import('@/public/data/alsalam.json'),
       '5121.KL': () => import('@/public/data/hektar.json'),
-      '5200.KL': () => import('@/public/data/uoa.json'),
-      // Stock codes (lowercase - for toLowerCase() lookup compatibility)
-      '5130.kl': () => import('@/public/data/atrium.json'),
-      '5106.kl': () => import('@/public/data/axis.json'),
-      '5176.kl': () => import('@/public/data/sunway.json'),
-      '5204.kl': () => import('@/public/data/pavilion.json'),
-      '5227.kl': () => import('@/public/data/igb.json'),
-      '5235.kl': () => import('@/public/data/klcc.json'),
-      '5180.kl': () => import('@/public/data/cmmt.json'),
-      '5114.kl': () => import('@/public/data/alsalam.json'),
-      '5121.kl': () => import('@/public/data/hektar.json'),
-      '5200.kl': () => import('@/public/data/uoa.json'),
-      // Short names
-      'atrium': () => import('@/public/data/atrium.json'),
-      'axis': () => import('@/public/data/axis.json'),
-      'sunway': () => import('@/public/data/sunway.json'),
-      'pavilion': () => import('@/public/data/pavilion.json'),
-      'igb': () => import('@/public/data/igb.json'),
-      'klcc': () => import('@/public/data/klcc.json'),
-      'cmmt': () => import('@/public/data/cmmt.json'),
-      'alsalam': () => import('@/public/data/alsalam.json'),
-      'hektar': () => import('@/public/data/hektar.json'),
-      'uoa': () => import('@/public/data/uoa.json'),
+      '5110.KL': () => import('@/public/data/uoa.json'),
     };
 
-    const importFn = fileMap[entityCode.toLowerCase()];
+    const normalizedCode = normalizeEntityCode(entityCode);
+    const importFn = normalizedCode ? fileMap[normalizedCode] : undefined;
     if (!importFn) {
       console.error(`Unknown entity code: ${entityCode}`);
       return null;

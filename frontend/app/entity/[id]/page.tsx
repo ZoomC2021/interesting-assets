@@ -1,14 +1,17 @@
-import EntityDetailClient from './client';
-import { AVAILABLE_ENTITIES } from '@/lib/available-entities';
+import { EntityPage } from '@/components/reit-research/pages/EntityPage';
 import { loadEntityAnalysisMarkdown } from '@/lib/entity-analysis';
+import { ENTITY_STATIC_ROUTE_CODES } from '@/lib/entity-route-params';
 
-/** `output: export` requires all visited `/entity/*` paths at build time. */
 export function generateStaticParams() {
-  return AVAILABLE_ENTITIES.map((e) => ({ id: e.code }));
+  return ENTITY_STATIC_ROUTE_CODES.map((id) => ({ id }));
 }
 
-export default async function EntityDetailPage({ params }: { params: { id: string } }) {
+export default async function EntityDetailPage({
+  params,
+}: {
+  params: { id: string };
+}) {
   const analysisMarkdown = await loadEntityAnalysisMarkdown(params.id);
 
-  return <EntityDetailClient entityId={params.id} analysisMarkdown={analysisMarkdown} />;
+  return <EntityPage ticker={params.id} analysisMarkdown={analysisMarkdown} />;
 }

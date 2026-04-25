@@ -24,6 +24,7 @@ import { MetricCard } from '../../components/MetricCard';
 import HomePage from '../../app/page';
 import MonitorPage from '../../app/monitor/page';
 import ComparePage from '../../app/compare/page';
+import { DesignStateProvider } from '../../components/reit-research/DesignStateProvider';
 import type { NormalizedReitData, Reference, Metric } from '../../types/frontend';
 
 // Add jest-axe matchers
@@ -119,7 +120,11 @@ describe('Accessibility: Axe-Core Automated Scans (WCAG AA)', () => {
   
   describe('Home Page', () => {
     it('should have no accessibility violations on home page', async () => {
-      const { container } = render(<HomePage />);
+      const { container } = render(
+        <DesignStateProvider>
+          <HomePage />
+        </DesignStateProvider>
+      );
       const results = await axe(container, {
         // Exclude rules that require canvas support in jsdom
         rules: {
@@ -130,7 +135,11 @@ describe('Accessibility: Axe-Core Automated Scans (WCAG AA)', () => {
     });
 
     it('should have no critical accessibility violations', async () => {
-      const { container } = render(<HomePage />);
+      const { container } = render(
+        <DesignStateProvider>
+          <HomePage />
+        </DesignStateProvider>
+      );
       const results = await axe(container, {
         // Run with essential rules only
         runOnly: {
@@ -358,7 +367,11 @@ describe('Accessibility: Screen Reader Support', () => {
   });
 
   it('should have proper heading hierarchy', () => {
-    render(<HomePage />);
+    render(
+      <DesignStateProvider>
+        <HomePage />
+      </DesignStateProvider>
+    );
     
     // Check for main heading
     const h1 = screen.getByRole('heading', { level: 1 });

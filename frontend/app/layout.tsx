@@ -1,21 +1,32 @@
 import type { Metadata, Viewport } from 'next';
+import { AppShell } from '@/components/reit-research/AppShell';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'REIT Monitor - Malaysian REIT Dashboard',
-  description: 'Comprehensive monitoring and comparison tool for Malaysian Real Estate Investment Trusts with 970+ verified references, 30+ metrics, and 10 REITs tracked.',
-  keywords: ['REIT', 'Malaysia', 'Real Estate', 'Investment', 'Bursa Malaysia', 'Atrium', 'Axis', 'Sunway', 'Pavilion'],
-  authors: [{ name: 'REIT Monitor' }],
+  title: 'REIT Research',
+  description:
+    'Research-led monitoring, memo writing, and comparison workspace for Malaysian REITs.',
+  keywords: [
+    'REIT',
+    'Malaysia',
+    'Real Estate',
+    'Investment',
+    'Bursa Malaysia',
+    'Research',
+  ],
+  authors: [{ name: 'REIT Research' }],
   openGraph: {
-    title: 'REIT Monitor - Malaysian REIT Dashboard',
-    description: 'Comprehensive monitoring and comparison tool for Malaysian Real Estate Investment Trusts',
+    title: 'REIT Research',
+    description:
+      'Research-led monitoring and comparison workspace for Malaysian REITs.',
     type: 'website',
     locale: 'en_MY',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'REIT Monitor - Malaysian REIT Dashboard',
-    description: 'Comprehensive monitoring and comparison tool for Malaysian Real Estate Investment Trusts',
+    title: 'REIT Research',
+    description:
+      'Research-led monitoring and comparison workspace for Malaysian REITs.',
   },
   robots: {
     index: true,
@@ -30,7 +41,7 @@ export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
   maximumScale: 5,
-  themeColor: '#0f172a',
+  themeColor: '#1b4f72',
 };
 
 export default function RootLayout({
@@ -39,15 +50,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="antialiased bg-canvas text-ink">
-        {/* Skip to main content link for accessibility */}
+    <html lang="en" suppressHydrationWarning>
+      <body className="bg-canvas text-ink antialiased">
         <a href="#main-content" className="skip-link">
           Skip to main content
         </a>
-        <main id="main-content" className="min-h-screen">
-          {children}
-        </main>
+        <AppShell>{children}</AppShell>
       </body>
     </html>
   );

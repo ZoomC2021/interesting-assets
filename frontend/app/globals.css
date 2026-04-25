@@ -1,152 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --canvas: 60 10% 98%;
+    --surface: 0 0% 100%;
+    --surface-alt: 60 7% 95%;
+    --stroke: 60 5% 90%;
+    --stroke-strong: 60 5% 75%;
+    --ink: 0 0% 10%;
+    --ink-muted: 0 0% 42%;
+    --ink-faint: 0 0% 61%;
+    --accent: 204 61% 27%;
+    --accent-hover: 204 61% 35%;
+    --success: 142 40% 45%;
+    --warning: 38 92% 50%;
+    --danger: 0 65% 51%;
+    --highlight: 54 100% 95%;
+  }
+
+  .dark {
+    --canvas: 240 5% 8%;
+    --surface: 240 5% 12%;
+    --surface-alt: 240 5% 16%;
+    --stroke: 240 5% 22%;
+    --stroke-strong: 240 5% 35%;
+    --ink: 0 0% 95%;
+    --ink-muted: 0 0% 65%;
+    --ink-faint: 0 0% 45%;
+    --accent: 204 70% 60%;
+    --accent-hover: 204 70% 70%;
+    --success: 142 40% 45%;
+    --warning: 38 92% 50%;
+    --danger: 0 65% 51%;
+    --highlight: 54 50% 20%;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html,
   body {
-    /* Default body text uses the compact `text-body` token (13px / 18px lh) */
-    @apply bg-canvas text-ink antialiased text-body;
-    font-feature-settings: "tnum" 1, "lnum" 1;
+    max-width: 100vw;
+  }
+
+  body {
+    @apply bg-canvas text-ink font-sans antialiased;
+    font-feature-settings: 'tnum' 1, 'lnum' 1;
+  }
+
+  .tabular-nums-custom {
+    font-variant-numeric: tabular-nums lining-nums;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-sm bg-stroke-strong;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-ink-muted;
+  }
+
+  :focus-visible {
+    outline: 2px solid hsl(var(--accent));
+    outline-offset: 2px;
   }
 }
 
 @layer utilities {
-  /* Manual numeric-style utility. All typography size tokens
-     (text-micro, text-label, text-body-sm, text-data, text-metric-sm,
-      text-body, text-metric) are defined in tailwind.config.ts
-     (fontSize) and augmented by the typography plugin there. */
-  .tabular {
-    font-variant-numeric: tabular-nums lining-nums;
+  .text-data {
+    @apply font-data tabular-nums-custom text-[13px] leading-tight;
+  }
+
+  .text-data-sm {
+    @apply font-data tabular-nums-custom text-[11px] leading-tight;
+  }
+
+  .text-label {
+    @apply text-[11px] font-medium uppercase tracking-[0.05em] text-ink-muted;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .prose-container p {
+    max-width: none;
   }
 }
 
-:root {
-  --foreground-rgb: 15, 23, 42;
-  --background-rgb: 248, 250, 252;
-
-  /* Semantic color tokens - Light mode */
-  --color-canvas: 210 40% 98%;      /* very light blue-gray */
-  --color-surface: 0 0% 100%;        /* white */
-  --color-surface-alt: 210 40% 96%;  /* slight tint */
-  --color-stroke: 214 32% 91%;       /* subtle border */
-  --color-ink: 222 47% 11%;          /* near-black */
-  --color-muted: 215 16% 47%;        /* gray text */
-
-  --color-accent: 221 83% 53%;       /* institutional blue */
-  --color-accent-soft: 213 100% 96%; /* light blue */
-  --color-accent-strong: 222 47% 31%; /* deep blue */
-
-  --color-success: 142 76% 36%;      /* professional green */
-  --color-warning: 32 95% 44%;        /* amber */
-  --color-danger: 0 72% 51%;         /* red */
-}
-
-.dark {
-  /* Semantic color tokens - Dark mode */
-  --color-canvas: 222 47% 6%;
-  --color-surface: 222 47% 8%;
-  --color-surface-alt: 222 47% 11%;
-  --color-stroke: 217 33% 17%;
-  --color-ink: 210 40% 98%;
-  --color-muted: 215 20% 65%;
-
-  --color-accent: 217 91% 60%;
-  --color-accent-soft: 217 33% 17%;
-  --color-accent-strong: 213 100% 85%;
-
-  --color-success: 142 71% 45%;
-  --color-warning: 38 92% 50%;
-  --color-danger: 0 84% 60%;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb));
-}
-
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f5f9;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
-}
-
-/* Hide scrollbar utility (for sync-scroll containers) */
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
-}
-
-/* Financial number formatting */
-.number-positive {
-  color: #16a34a;
-}
-
-.number-negative {
-  color: #dc2626;
-}
-
-/* Risk indicator colors */
-.risk-low {
-  background-color: #dcfce7;
-  color: #166534;
-}
-
-.risk-medium {
-  background-color: #fef9c3;
-  color: #854d0e;
-}
-
-.risk-high {
-  background-color: #fee2e2;
-  color: #991b1b;
-}
-
-/* Chart tooltip styles */
-.recharts-tooltip-wrapper {
-  outline: none !important;
-}
-
-/* Focus indicators for accessibility */
-:focus-visible {
-  outline: 2px solid #3b82f6;
-  outline-offset: 2px;
-}
-
-/* Skip link for keyboard navigation */
 .skip-link {
   position: absolute;
   top: -40px;
   left: 0;
-  background: #1e40af;
+  background: #1b4f72;
   color: white;
   padding: 8px 16px;
   z-index: 100;
@@ -157,7 +124,6 @@ body {
   top: 0;
 }
 
-/* Reduced motion preference */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -169,26 +135,11 @@ body {
   }
 }
 
-/* High contrast mode support */
-@media (prefers-contrast: high) {
-  .risk-low,
-  .risk-medium,
-  .risk-high {
-    border: 2px solid currentColor;
-  }
-  
-  :focus-visible {
-    outline: 3px solid currentColor;
-    outline-offset: 2px;
-  }
-}
-
-/* Print styles */
 @media print {
   .no-print {
     display: none !important;
   }
-  
+
   body {
     background: white;
     color: black;
