@@ -759,7 +759,7 @@ export async function extractPdfFromFile(
   // Normalize options
   const maxSizeBytes = Math.max(
     1024 * 1024, // Minimum 1MB
-    Math.min(options.maxSizeBytes || DEFAULT_MAX_SIZE_BYTES, 100 * 1024 * 1024) // Max 100MB
+    options.maxSizeBytes || DEFAULT_MAX_SIZE_BYTES
   );
 
   // Step 1: Validate file path
