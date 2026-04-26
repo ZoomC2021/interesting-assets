@@ -329,41 +329,47 @@ Unknown citation [U:999] should be plain text.
 // ============================================================================
 
 describe('Citation Pattern Recognition', () => {
-  it('recognizes valid citation patterns [A:001] through [Z:999]', () => {
+  it('recognizes valid citation patterns including multi-letter prefixes', () => {
     const extensiveCitations: ResearchCitation[] = [
       { id: 'T:001', type: 'Test', title: 'Test 1', date: '2025-01-01', fact: 'Fact 1' },
       { id: 'T:999', type: 'Test', title: 'Test 999', date: '2025-01-01', fact: 'Fact 999' },
       { id: 'A:042', type: 'Test', title: 'Test A42', date: '2025-01-01', fact: 'Fact A42' },
       { id: 'Z:001', type: 'Test', title: 'Test Z1', date: '2025-01-01', fact: 'Fact Z1' },
+      { id: 'SE:001', type: 'Test', title: 'Test SE1', date: '2025-01-01', fact: 'Fact SE1' },
+      { id: 'KIP:42', type: 'Test', title: 'Test KIP42', date: '2025-01-01', fact: 'Fact KIP42' },
+      { id: 'TT:001', type: 'Test', title: 'Test TT1', date: '2025-01-01', fact: 'Fact TT1' },
     ];
 
     render(
       <MemoMarkdown
         markdown={`## Test
 
-Citations: [T:001], [T:999], [A:042], [Z:001].
+Citations: [T:001], [T:999], [A:042], [Z:001], [SE:001], [KIP:42], [TT:001].
 `}
         citations={extensiveCitations}
         onCitationClick={jest.fn()}
       />,
     );
 
-    // All should be rendered as buttons
-    expect(screen.getByRole('button', { name: /T:001/i })).toBeInTheDocument();
-    expect(screen.getByRole('button', { name: /T:999/i })).toBeInTheDocument();
-    expect(screen.getByRole('button', { name: /A:042/i })).toBeInTheDocument();
-    expect(screen.getByRole('button', { name: /Z:001/i })).toBeInTheDocument();
+    // All should be rendered as buttons (use exact name matching to avoid substring overlap)
+    expect(screen.getByRole('button', { name: 'View source T:001' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'View source T:999' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'View source A:042' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'View source Z:001' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'View source SE:001' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'View source KIP:42' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'View source TT:001' })).toBeInTheDocument();
   });
 
   it('treats invalid patterns as plain text', () => {
-    // Use empty citations so that T:001 won't match any known citation
+    // Use empty citations so that no citation will match
     render(
       <MemoMarkdown
         markdown={`## Test
 
-Invalid patterns: [001], [T:], [:001], [TT:001], [T:1a]
+Invalid patterns: [001], [T:], [:001], [T:1a]
 
-Valid pattern but unknown citation: [Z:999]
+Valid pattern but unknown citation: [Z:999], [TT:001], [SE:999], [KIP:999]
 
 Embedded in text: check[T:001]noBrackets.
 `}
@@ -382,5 +388,8 @@ Embedded in text: check[T:001]noBrackets.
     // But the text should be visible as plain text
     expect(screen.getByText(/\[001\]/)).toBeInTheDocument();
     expect(screen.getByText(/\[Z:999\]/)).toBeInTheDocument();
+    expect(screen.getByText(/\[TT:001\]/)).toBeInTheDocument();
+    expect(screen.getByText(/\[SE:999\]/)).toBeInTheDocument();
+    expect(screen.getByText(/\[KIP:999\]/)).toBeInTheDocument();
   });
 });

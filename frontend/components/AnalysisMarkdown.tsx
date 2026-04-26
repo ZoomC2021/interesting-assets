@@ -14,8 +14,8 @@ function normalizeMarkdown(markdown: string): string {
   return markdown.replace(/^#\s.+\n+/, '').trim();
 }
 
-// Citation reference pattern: [T:127], [U:36], [A:001], etc.
-const CITATION_PATTERN = /\[([A-Z]:\d{1,3})\]/g;
+// Citation reference pattern: [T:127], [U:36], [A:001], [SE:001], [KIP:42], etc.
+const CITATION_PATTERN = /\[([A-Z]+:\d{1,3})\]/g;
 
 /**
  * Parse text for citation references and render as clickable chips.
