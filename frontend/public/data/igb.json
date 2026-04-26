@@ -132,7 +132,7 @@
     {
       "id": "0883b32e-0515-5029-ac85-c60a1107fccd",
       "displayId": "I:10",
-      "fact": "Total NLA: 4,185,035 sq ft (~4.19 million sq ft) — MVM 1,798,148 + TGM 839,118 + MVS ~1,547,769",
+      "fact": "Total NLA: 4,185,035 sq ft (~4.19 million sq ft) \u2014 MVM 1,798,148 + TGM 839,118 + MVS ~1,547,769",
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Total Net Lettable Area (headline figure 4,185,035 sq ft)",
       "url": "https://www.igbreit.com.my",
@@ -1438,7 +1438,7 @@
     {
       "id": "5705f618-299f-546f-a793-7dcc265440dc",
       "displayId": "I:129",
-      "fact": "Total borrowings Dec 2024: RM1,214.8m (RM1.2148b) — IGBRC MTN pre-Southkey",
+      "fact": "Total borrowings Dec 2024: RM1,214.8m (RM1.2148b) \u2014 IGBRC MTN pre-Southkey",
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Prior Year Debt Borrowings",
       "url": "https://www.igbreit.com.my",
@@ -1449,7 +1449,7 @@
     {
       "id": "be395776-60f9-5db6-87da-453fa235d278",
       "displayId": "I:130",
-      "fact": "Total borrowings Dec 2025: RM2,247.524m (~RM2.25b) — IGBRC MTN + MVS MTN post-acquisition",
+      "fact": "Total borrowings Dec 2025: RM2,247.524m (~RM2.25b) \u2014 IGBRC MTN + MVS MTN post-acquisition",
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Debt Post-Acquisition",
       "url": "https://www.igbreit.com.my",
@@ -1493,7 +1493,7 @@
     {
       "id": "721c8d9b-59f0-525d-9a43-c959c81c5dce",
       "displayId": "I:134",
-      "fact": "Debt structure Dec 2025: Substantially fixed rate — MVS MTN Series 1 (RM200m) is floating based on KLIBOR; Series 2–4 (RM200m+RM200m+RM430m=RM830m) are fixed; IGBRC MTN also substantially fixed; blended coupon ~3.80% p.a.",
+      "fact": "Debt structure Dec 2025: Substantially fixed rate \u2014 MVS MTN Series 1 (RM200m) is floating based on KLIBOR; Series 2\u20134 (RM200m+RM200m+RM430m=RM830m) are fixed; IGBRC MTN also substantially fixed; blended coupon ~3.80% p.a.",
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - MTN Terms and Debt Structure",
       "url": "https://www.igbreit.com.my",
@@ -1904,7 +1904,7 @@
     {
       "id": "d6e5bc48-b7a4-54d9-891b-e29dc9d7e275",
       "displayId": "I:172",
-      "fact": "Total borrowings Dec 2024: RM1,214.8m (RM1.2148 billion) — IGBRC MTN Tranche 2",
+      "fact": "Total borrowings Dec 2024: RM1,214.8m (RM1.2148 billion) \u2014 IGBRC MTN Tranche 2",
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Borrowings FY2024",
       "url": "https://www.igbreit.com.my",
@@ -1915,7 +1915,7 @@
     {
       "id": "734bd1b4-7ccb-52bc-8e84-480cd9446f5d",
       "displayId": "I:173",
-      "fact": "Total borrowings Dec 2025: RM2,247.524m (~RM2.25 billion) — IGBRC MTN + MVS MTN Series 1–4",
+      "fact": "Total borrowings Dec 2025: RM2,247.524m (~RM2.25 billion) \u2014 IGBRC MTN + MVS MTN Series 1\u20134",
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Borrowings FY2025",
       "url": "https://www.igbreit.com.my",
@@ -1970,7 +1970,7 @@
     {
       "id": "c9c21022-d3bb-5989-803d-23ebbe3c68af",
       "displayId": "I:178",
-      "fact": "Debt structure: Substantially fixed-rate — MVS MTN Series 2–4 are fixed; Series 1 (RM200m) is floating based on KLIBOR. IGBRC MTN also substantially fixed. Debt is NOT 100% fixed-rate.",
+      "fact": "Debt structure: Substantially fixed-rate \u2014 MVS MTN Series 2\u20134 are fixed; Series 1 (RM200m) is floating based on KLIBOR. IGBRC MTN also substantially fixed. Debt is NOT 100% fixed-rate.",
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - MTN Terms and Debt Structure",
       "url": "https://www.igbreit.com.my",
@@ -2003,7 +2003,7 @@
     {
       "id": "56a552a9-1785-5b9a-bef6-b2716f1ab9ce",
       "displayId": "I:181",
-      "fact": "MVS MTN blended coupon: ~3.80% p.a. (Series 1 floating KLIBOR; Series 2–4 fixed). Separate from IGBRC MTN Tranche 2 which carries 4.49% fixed coupon.",
+      "fact": "MVS MTN blended coupon: ~3.80% p.a. (Series 1 floating KLIBOR; Series 2\u20134 fixed). Separate from IGBRC MTN Tranche 2 which carries 4.49% fixed coupon.",
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - MVS MTN Terms",
       "url": "https://www.igbreit.com.my",
@@ -4885,7 +4885,7 @@
     "id": "6bcfa892-6091-4bbd-b8cf-6b1f3ce3ac34",
     "entityId": "aee77256-fd80-5951-bd18-44c67a93194e",
     "assessmentDate": "2026-04-25",
-    "overallRiskRating": "moderate",
+    "overallRiskRating": "low",
     "overallScore": 2.5,
     "riskFactors": [
       {
@@ -5067,11 +5067,11 @@
       {
         "id": "60c910e6-c198-4d2d-8224-c7f6c1a34428",
         "category": "tenant_rollover",
-        "severity": "high",
+        "severity": "medium",
         "title": "2026 Lease Expiry Concentration",
-        "description": "40.5% of Mid Valley NLA (40.5% of total) expiring in 2026 creates significant lease rollover risk.",
-        "currentScore": 4,
-        "peerComparison": "worse",
+        "description": "~40.5% of Mid Valley NLA expiring in 2026 creates a concentrated renewal event, but historical evidence supports this as a managed cyclical feature of IGB's active short-lease strategy (~3-year retail leases) rather than a novel structural risk. A 54.8% TGM NLA expiry concentration in FY2013 was navigated with no occupancy deterioration. Rental reversions have been positive (mid-single-digit) in recent cycles, and management has applied proactive forward-renewal language consistently since at least 2012.",
+        "currentScore": 3,
+        "peerComparison": "similar",
         "quantitativeBacking": [
           {
             "metricType": "lease_renewal_rate",
@@ -5081,33 +5081,41 @@
         ],
         "mitigatingFactors": [
           {
-            "factor": "100% current occupancy provides buffer",
+            "factor": "Near-perfect occupancy (99.8% MVM) sustained through multiple prior expiry cycles",
             "impact": "significant"
           },
           {
-            "factor": "Strong tenant retention history",
+            "factor": "Historical precedent: 54.8% TGM NLA expiry in FY2013 navigated with no occupancy loss",
+            "impact": "significant"
+          },
+          {
+            "factor": "Positive rental reversions confirmed in FY2024; mid-single-digit guidance (4-6%)",
+            "impact": "significant"
+          },
+          {
+            "factor": "Proactive forward-renewal strategy documented in every AR since 2012",
             "impact": "moderate"
           },
           {
-            "factor": "Diversified tenant base reduces single-tenant risk",
+            "factor": "Deliberate short-lease structure (~3 years) to capture market-rate resets \u2014 industry standard",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Diversified tenant base (top tenant AEON ~8% GRI); no single-tenant dependency",
             "impact": "moderate"
           }
         ],
         "aggravatingFactors": [
           {
-            "factor": "40.5% concentration in single year is elevated",
-            "impact": "significant"
+            "factor": "40.5% concentration in a single year warrants monitoring",
+            "impact": "moderate"
           },
           {
-            "factor": "Market conditions may pressure rental rates",
-            "impact": "significant"
-          },
-          {
-            "factor": "MVM is flagship asset - disruption impact high",
-            "impact": "significant"
+            "factor": "Specific annual renewal rate (% leases renewed) not publicly disclosed",
+            "impact": "low"
           }
         ],
-        "trend": "deteriorating",
+        "trend": "stable",
         "monitoringTriggers": [
           "2026 renewal progress",
           "Rental reversion trends",
