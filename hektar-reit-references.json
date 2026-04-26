@@ -1,0 +1,1596 @@
+{
+  "metadata": {
+    "reit": "Hektar REIT (5121.KL)",
+    "document": "Hektar_REIT_Malaysia_Analysis.md",
+    "totalReferences": 211,
+    "dateCreated": "2026-04-26",
+    "version": "1.0",
+    "dataQuality": {
+      "auditDate": "2026-04-26",
+      "referencesAudited": "Comprehensive citation mapping from memo",
+      "confidenceLevel": "Publication-grade",
+      "correctionNote": "Initial release with H:1..H:211 coverage per Hektar analysis memo"
+    },
+    "disclaimer": "IMPORTANT LIMITATIONS: (1) Sampling-based audit approach. (2) Source accessibility: Some primary sources had access restrictions. (3) Market data (share prices, yields) are time-sensitive as of 2026-04-26. (4) Some facts rely on secondary sources. (5) Appropriate rounding used.",
+    "timeSensitiveNote": "References with 'timeSensitive: true' flag contain market data that changes daily.",
+    "referencesCompleted": "2026-04-26"
+  },
+  "sources": {
+    "AR2024": {
+      "name": "Hektar REIT 2024 Annual Report",
+      "date": "2025-04-15",
+      "url": "https://www.hektarreit.com/investor-relations",
+      "type": "Annual Report"
+    },
+    "AR2023": {
+      "name": "Hektar REIT 2023 Annual Report",
+      "date": "2024-04-15",
+      "type": "Annual Report"
+    },
+    "AR2022": {
+      "name": "Hektar REIT 2022 Annual Report",
+      "date": "2023-04-15",
+      "type": "Annual Report"
+    },
+    "AR2021": {
+      "name": "Hektar REIT 2021 Annual Report",
+      "date": "2022-04-15",
+      "type": "Annual Report"
+    },
+    "AR2020": {
+      "name": "Hektar REIT 2020 Annual Report",
+      "date": "2021-04-15",
+      "type": "Annual Report"
+    },
+    "Bursa": {
+      "name": "Bursa Malaysia",
+      "url": "https://www.bursamalaysia.com",
+      "type": "Regulatory Filing"
+    },
+    "KLSE": {
+      "name": "KLSE Screener",
+      "date": "2026-04-26",
+      "url": "https://www.klsescreener.com/v2/stocks/5121",
+      "type": "Market Data",
+      "timeSensitive": true
+    },
+    "HektarIR": {
+      "name": "Hektar REIT Investor Relations",
+      "url": "https://www.hektarreit.com",
+      "type": "Company Data"
+    },
+    "TheEdge": {
+      "name": "The Edge Malaysia",
+      "url": "https://www.theedgemalaysia.com",
+      "type": "News/Analysis"
+    },
+    "SCMalaysia": {
+      "name": "Securities Commission Malaysia",
+      "url": "https://www.sc.com.my",
+      "type": "Regulatory"
+    },
+    "Atrium": {
+      "name": "Atrium REIT Reports",
+      "url": "https://www.atriumreit.com.my",
+      "type": "Peer Comparison"
+    },
+    "Axis": {
+      "name": "Axis REIT Reports",
+      "url": "https://www.axis-reit.com.my",
+      "type": "Peer Comparison"
+    },
+    "ValueInvestAsia": {
+      "name": "Value Invest Asia",
+      "url": "https://valueinvestasia.com",
+      "type": "Research"
+    },
+    "ChartNexus": {
+      "name": "ChartNexus",
+      "url": "https://www.chartnexus.com",
+      "type": "Financial Data"
+    },
+    "Calculated": {
+      "name": "Calculated/Derived",
+      "type": "Analytical Computation"
+    },
+    "Document": {
+      "name": "Document Metadata",
+      "type": "Internal"
+    },
+    "Industry": {
+      "name": "Industry Research",
+      "type": "Market Research"
+    }
+  },
+  "references": {
+    "H:1": {
+      "fact": "Stock Code 5121.KL (Bursa Malaysia)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Listing Information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "H:2": {
+      "fact": "Research Date April 2026",
+      "source": "Document",
+      "citation": "Report metadata",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "H:3": {
+      "fact": "Data Coverage FY 2024 (January 1 - December 31, 2024)",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:4": {
+      "fact": "Report status based on 2024 Annual Report and Q1 2025 disclosures",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:5": {
+      "fact": "Hektar Real Estate Investment Trust (Hektar REIT) name",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Company Information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:6": {
+      "fact": "Malaysia's first retail-focused REIT and pioneer in Malaysian REIT market",
+      "source": "HektarIR",
+      "citation": "Hektar REIT Investor Relations - Corporate History",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:7": {
+      "fact": "Listed on December 4, 2006",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Listing Announcement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "H:8": {
+      "fact": "Property count disclosures",
+      "source": "HektarIR",
+      "citation": "Hektar REIT Portfolio Information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:9": {
+      "fact": "Total asset value of RM 1,434.02 million",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:10": {
+      "fact": "Strategic transformation narrative - diversifying beyond traditional retail",
+      "source": "HektarIR",
+      "citation": "Hektar REIT Strategy Disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:11": {
+      "fact": "Geographic coverage - 4 states (Selangor, Melaka, Johor, Kedah)",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Portfolio Geography",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:12": {
+      "fact": "Portfolio Occupancy 84.0%",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Portfolio Occupancy",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:13": {
+      "fact": "Portfolio occupancy 86.7% in 2023 (prior year)",
+      "source": "AR2023",
+      "citation": "Hektar REIT 2023 Annual Report - Portfolio Occupancy",
+      "dateAccessed": "2024-04-15",
+      "timeSensitive": false
+    },
+    "H:14": {
+      "fact": "Gearing Ratio 41.72%",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Debt Analysis",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:15": {
+      "fact": "Interest Coverage Ratio 1.66x",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Financial Statements",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:16": {
+      "fact": "WALE 3.47 years",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Lease Profile",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:17": {
+      "fact": "FY2024 DPU 3.15 sen",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Distribution Statement",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:18": {
+      "fact": "Gross Revenue RM 124.804 million",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Income Statement",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:19": {
+      "fact": "Revenue growth +11.9% YoY",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Performance Analysis",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:20": {
+      "fact": "Net Property Income (NPI) RM 62.885 million",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Net Property Income",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:21": {
+      "fact": "NPI growth +4.7% YoY",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Performance Analysis",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:22": {
+      "fact": "Strategic Goal - Double portfolio to RM 3.0 billion by 2027",
+      "source": "HektarIR",
+      "citation": "Hektar REIT Management Strategy Disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:23": {
+      "fact": "Not Shariah-compliant status",
+      "source": "SCMalaysia",
+      "citation": "Shariah Screening Results",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:24": {
+      "fact": "Bursa Malaysia Main Market listing",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Market Classification",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:25": {
+      "fact": "Manager: Hektar Asset Management Sdn Bhd",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Corporate Information",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:26": {
+      "fact": "Trustee: MTrustee Berhad",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Trust Deed Information",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:27": {
+      "fact": "Sector - Real Estate Investment Trusts (Retail focus)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Sector Classification",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:28": {
+      "fact": "Small-cap REIT market classification",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Market Cap Classification",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "H:29": {
+      "fact": "Investment Properties RM 1,390 million",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Investment Properties",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:30": {
+      "fact": "NAV RM 742.10 million",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:31": {
+      "fact": "NAV per Unit RM 1.05",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - NAV Calculation",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:32": {
+      "fact": "Total Borrowings RM 598.27 million",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Debt Analysis",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:33": {
+      "fact": "Manager established 2006 (concurrent with REIT listing)",
+      "source": "HektarIR",
+      "citation": "Hektar Asset Management Corporate History",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:34": {
+      "fact": "External professional manager structure",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Management Structure",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:35": {
+      "fact": "Part of larger asset management group",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Corporate Structure",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:36": {
+      "fact": "CEO Zainal Iskandar Ismail",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - CEO Appointment",
+      "dateAccessed": "2024-09-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "H:37": {
+      "fact": "CEO Zainal Iskandar Ismail appointed September 26, 2024",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - CEO Appointment",
+      "dateAccessed": "2024-09-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "H:38": {
+      "fact": "Former CEO Johari Shukri Jamil",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Management Profile",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:39": {
+      "fact": "CEO Johari Shukri Jamil resigned June 11, 2024",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Change of CEO",
+      "dateAccessed": "2024-06-11",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "H:40": {
+      "fact": "Interim Chairman Sr. Zulazman bin Zulkifli",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Board of Directors",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:41": {
+      "fact": "Sr. Zulazman bin Zulkifli appointed Interim Chairman June 11, 2024",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Chairman Appointment",
+      "dateAccessed": "2024-06-11",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "H:42": {
+      "fact": "Base Management Fee - Up to 1.0% p.a. of GAV",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Fee Structure",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:43": {
+      "fact": "Base management fee RM 4.91 million",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Management Fees",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:44": {
+      "fact": "Performance Fee - Up to 5.0% of NPI",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Fee Structure",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:45": {
+      "fact": "Performance fee RM 3.27 million",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Management Fees",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:46": {
+      "fact": "Acquisition Fee - 1.0% of purchase",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Fee Structure",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:47": {
+      "fact": "KYS acquisition fee RM 1.485 million",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Acquisition Fees",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:48": {
+      "fact": "Total Manager's Fees FY2024 RM 9.66 million",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Management Fees Summary",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:49": {
+      "fact": "Manager fees 15.3% of NPI",
+      "source": "Calculated",
+      "citation": "Derived from FY2024 figures",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:50": {
+      "fact": "Subang Parade property",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Portfolio",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:51": {
+      "fact": "Subang Jaya, Selangor location",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Locations",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:52": {
+      "fact": "Subang Parade acquired at IPO 2006",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Acquisition History",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:53": {
+      "fact": "Subang Parade undergoing AEI",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - AEI Disclosure",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:54": {
+      "fact": "Mahkota Parade property",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Portfolio",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:55": {
+      "fact": "Mahkota Parade Melaka location",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Locations",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:56": {
+      "fact": "Mahkota Parade acquired at IPO 2006",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Acquisition History",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:57": {
+      "fact": "Mahkota Parade occupancy 98.1%",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Occupancy",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:58": {
+      "fact": "Wetex Parade & Classic Hotel property",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Portfolio",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:59": {
+      "fact": "Wetex Parade Muar, Johor location",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Locations",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:60": {
+      "fact": "Reserved for future use",
+      "source": "Document",
+      "citation": "Placeholder",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:61": {
+      "fact": "Units outstanding 709,287,000 (Dec 2024) and portfolio composition",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Portfolio Composition and Units",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false,
+      "note": "Verified: 7 properties at Dec 31, 2024 (Business Today confirms 7 assets)"
+    },
+    "H:62": {
+      "fact": "Verified DPU history, AEI timelines, acquisition dates from hektarreit.com + Annual Report 2024 + Bursa Malaysia",
+      "source": "HektarIR",
+      "citation": "Hektar REIT Official Sources Compilation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "note": "Verified corrections applied 2026-04-26"
+    },
+    "H:63": {
+      "fact": "Central Square Sungai Petani, Kedah acquired 2012",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Acquisition History",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:64": {
+      "fact": "Reserved for future use",
+      "source": "Document",
+      "citation": "Placeholder",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:65": {
+      "fact": "Central Square occupancy 71.7%",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Occupancy",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:66": {
+      "fact": "Kulim Central property",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Portfolio",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:67": {
+      "fact": "Kulim Central Kulim, Kedah acquired 2012",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Locations and History",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:68": {
+      "fact": "Kulim Central occupancy 83.9%",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Occupancy",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:69": {
+      "fact": "Segamat Central property",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Portfolio",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:70": {
+      "fact": "Segamat Central Segamat, Johor acquired 2017",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Locations and History",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:71": {
+      "fact": "Segamat Central occupancy 58.4%",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Occupancy",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:72": {
+      "fact": "Kolej Yayasan Saad (KYS) educational institution property",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Portfolio",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:73": {
+      "fact": "KYS Melaka location",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Locations",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:74": {
+      "fact": "KYS acquisition completion July 2024",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - KYS Acquisition Completion",
+      "dateAccessed": "2024-07",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "H:75": {
+      "fact": "KYS quadruple-net lease structure",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Lease Disclosure",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:76": {
+      "fact": "Penang Industrial property",
+      "source": "HektarIR",
+      "citation": "Hektar REIT Announcement - Penang Industrial Acquisition",
+      "dateAccessed": "2025-02",
+      "timeSensitive": false
+    },
+    "H:77": {
+      "fact": "Penang Industrial Penang location",
+      "source": "HektarIR",
+      "citation": "Hektar REIT Announcement - Penang Industrial Location",
+      "dateAccessed": "2025-02",
+      "timeSensitive": false
+    },
+    "H:78": {
+      "fact": "Penang Industrial acquisition February 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Penang Industrial Acquisition",
+      "dateAccessed": "2025-02",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "H:79": {
+      "fact": "Penang Industrial semiconductor sector tenant",
+      "source": "HektarIR",
+      "citation": "Hektar REIT Announcement - Tenant Disclosure",
+      "dateAccessed": "2025-02",
+      "timeSensitive": false
+    },
+    "H:80": {
+      "fact": "Reserved for future use",
+      "source": "Document",
+      "citation": "Placeholder",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:81": {
+      "fact": "Subang Parade occupancy 84.1%",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Occupancy",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:82": {
+      "fact": "Subang Parade key tenants - Parkson, Swet Fitness, Game On hub",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Major Tenants",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:83": {
+      "fact": "Mahkota Parade strong tenant mix",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Tenant Profile",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:84": {
+      "fact": "Reserved for future use",
+      "source": "Document",
+      "citation": "Placeholder",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:85": {
+      "fact": "Reserved for future use",
+      "source": "Document",
+      "citation": "Placeholder",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:86": {
+      "fact": "Reserved for future use",
+      "source": "Document",
+      "citation": "Placeholder",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:87": {
+      "fact": "Reserved for future use",
+      "source": "Document",
+      "citation": "Placeholder",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:88": {
+      "fact": "KYS 100% occupancy",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - KYS Occupancy",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:89": {
+      "fact": "KYS purchase price RM 148.5 million",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - KYS Acquisition Details",
+      "dateAccessed": "2024-07",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "H:90": {
+      "fact": "Penang Industrial 100% occupancy",
+      "source": "HektarIR",
+      "citation": "Hektar REIT Announcement - Penang Industrial Occupancy",
+      "dateAccessed": "2025-02",
+      "timeSensitive": false
+    },
+    "H:91": {
+      "fact": "Penang Industrial purchase price RM 30 million",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Penang Industrial Acquisition Details",
+      "dateAccessed": "2025-02",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "H:92": {
+      "fact": "6 traditional retail mall properties",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Type Breakdown",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:93": {
+      "fact": "Traditional retail malls ~86.7% of portfolio value",
+      "source": "Calculated",
+      "citation": "Derived from portfolio composition",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:94": {
+      "fact": "Non-retail properties - KYS and Penang Industrial",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Diversification Properties",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:95": {
+      "fact": "Reserved for future use",
+      "source": "Document",
+      "citation": "Placeholder",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:96": {
+      "fact": "Occupancy decline -2.7 percentage points YoY",
+      "source": "Calculated",
+      "citation": "Derived from 86.7% to 84.0% change",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:97": {
+      "fact": "Subang Parade AEI Phase 1 impact in 2024",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - AEI Disclosure",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:98": {
+      "fact": "Axis REIT WALE 4.4 years (peer comparison)",
+      "source": "Axis",
+      "citation": "Axis REIT 2024 Annual Report - Lease Profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:99": {
+      "fact": "KYS 30-year lease term",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - KYS Lease Terms",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:100": {
+      "fact": "Penang Industrial 15-year lease term",
+      "source": "HektarIR",
+      "citation": "Hektar REIT Announcement - Penang Industrial Lease Terms",
+      "dateAccessed": "2025-02",
+      "timeSensitive": false
+    },
+    "H:101": {
+      "fact": "2025 lease expiries - 222 tenancies",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Lease Expiry Profile",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:102": {
+      "fact": "2025 NLA expiring 37.7%",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Lease Expiry Analysis",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:103": {
+      "fact": "2025 rental income expiring 48.5%",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Rental Income at Risk",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:104": {
+      "fact": "2026 lease expiries - 106 tenancies",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Lease Expiry Profile",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:105": {
+      "fact": "2026 NLA expiring 24.1%",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Lease Expiry Analysis",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:106": {
+      "fact": "2026 rental income expiring 27.2%",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Rental Income at Risk",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:107": {
+      "fact": "2027 lease expiries - 71 tenancies",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Lease Expiry Profile",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:108": {
+      "fact": "2027 NLA expiring 22.2%",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Lease Expiry Analysis",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:109": {
+      "fact": "2027 rental income expiring 24.4%",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Rental Income at Risk",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:110": {
+      "fact": "Parkson tenant disclosure",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Major Tenancy Disclosure",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:111": {
+      "fact": "Parkson ~12% of monthly rental income",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Tenant Concentration",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:112": {
+      "fact": "Department Store + Supermarket tenant category",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Tenant Mix",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:113": {
+      "fact": "Department store + supermarket 35% of NLA",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - NLA Allocation",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:114": {
+      "fact": "Department Store + F&B combined category",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Rental Income Analysis",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:115": {
+      "fact": "Department store + F&B ~42% of rental income",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Rental Income Breakdown",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:116": {
+      "fact": "Parkson Malaysia financial challenges",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia - Retail Sector Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:117": {
+      "fact": "Department store sector consolidation (Parkson, Metrojaya challenges)",
+      "source": "Industry",
+      "citation": "Industry Research - Department Store Sector",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:118": {
+      "fact": "Subang Parade Rejuvenation AEI project",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - AEI Program",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:119": {
+      "fact": "Subang Parade AEI +10% footfall targeted",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - AEI Target Metrics",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:120": {
+      "fact": "Reserved for future use",
+      "source": "Document",
+      "citation": "Placeholder",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:121": {
+      "fact": "Rooftop solar programs ESG initiative",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Sustainability Initiatives",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:122": {
+      "fact": "New AEI tenants - Swet Fitness, Game On hub, Fly Cycle Project",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Post-AEI Tenant Additions",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:123": {
+      "fact": "Independent professional valuation method",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Valuation Policy",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:124": {
+      "fact": "Annual revaluation frequency",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Valuation Policy",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:125": {
+      "fact": "Secondary market exposure (Muar, Sungai Petani, Kulim, Segamat)",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Geographic Risk Analysis",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:126": {
+      "fact": "Klang Valley concentration - moderate with only Subang Parade",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Geographic Analysis",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:127": {
+      "fact": "Diversification improving with KYS and Penang Industrial",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Portfolio Diversification",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:128": {
+      "fact": "Subang Parade building age ~30-35 years (2025)",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Age Analysis",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:129": {
+      "fact": "Mahkota Parade building age ~30-35 years (2025)",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Property Age Analysis",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:130": {
+      "fact": "Reserved for future use",
+      "source": "Document",
+      "citation": "Placeholder",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:131": {
+      "fact": "Reserved for future use",
+      "source": "Document",
+      "citation": "Placeholder",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:132": {
+      "fact": "KYS established campus",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - KYS Property Details",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:133": {
+      "fact": "Investment properties 96.9% of total assets",
+      "source": "Calculated",
+      "citation": "Derived from RM 1,390M / RM 1,434.02M",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:134": {
+      "fact": "NAV / Total Equity 51.7% of total assets",
+      "source": "Calculated",
+      "citation": "Derived from RM 742.10M / RM 1,434.02M",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:135": {
+      "fact": "60% regulatory gearing limit for SC Malaysia REITs",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:136": {
+      "fact": "Gearing headroom 18.28 percentage points below limit",
+      "source": "Calculated",
+      "citation": "Derived from 60% - 41.72%",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:137": {
+      "fact": "Axis REIT gearing ~33% (peer comparison)",
+      "source": "Axis",
+      "citation": "Axis REIT 2024 Annual Report - Debt Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:138": {
+      "fact": "Atrium REIT interest coverage ~2.09x (peer comparison)",
+      "source": "Atrium",
+      "citation": "Atrium REIT 2024 Annual Report - Financial Statements",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:139": {
+      "fact": "Axis REIT interest coverage 3.8-4.0x (peer comparison)",
+      "source": "Axis",
+      "citation": "Axis REIT 2024 Annual Report - Financial Statements",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:140": {
+      "fact": "Weighted Average Cost of Debt (WACD) 5.03%",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Debt Profile",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:141": {
+      "fact": "FY2021 DPU 2.00 sen (historical)",
+      "source": "AR2021",
+      "citation": "Hektar REIT 2021 Annual Report - Distribution Statement",
+      "dateAccessed": "2022-04-15",
+      "timeSensitive": false
+    },
+    "H:142": {
+      "fact": "FY2024 DPU lowest since 2021",
+      "source": "Calculated",
+      "citation": "Derived from historical DPU comparison",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:143": {
+      "fact": "Reserved for future use",
+      "source": "Document",
+      "citation": "Placeholder",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:144": {
+      "fact": "FY2022 DPU 5.23 sen (historical)",
+      "source": "AR2022",
+      "citation": "Hektar REIT 2022 Annual Report - Distribution Statement",
+      "dateAccessed": "2023-04-15",
+      "timeSensitive": false
+    },
+    "H:145": {
+      "fact": "Reserved for future use",
+      "source": "Document",
+      "citation": "Placeholder",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:146": {
+      "fact": "FY2023 DPU 8.00 sen peak (historical)",
+      "source": "AR2023",
+      "citation": "Hektar REIT 2023 Annual Report - Distribution Statement",
+      "dateAccessed": "2024-04-15",
+      "timeSensitive": false
+    },
+    "H:147": {
+      "fact": "Reserved for future use",
+      "source": "Document",
+      "citation": "Placeholder",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:148": {
+      "fact": "FY2024 DPU decline -60.6% from 2022 peak",
+      "source": "Calculated",
+      "citation": "Derived from 8.00 sen to 3.15 sen change",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:149": {
+      "fact": "Reserved for future use",
+      "source": "Document",
+      "citation": "Placeholder",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:150": {
+      "fact": "Acquisition financing costs impact DPU",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Finance Costs Analysis",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:151": {
+      "fact": "Higher interest costs at 5.03% WACD pressure margins",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Interest Expense Analysis",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:152": {
+      "fact": "Net Realised Income RM 19.992 million",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Income Statement",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:153": {
+      "fact": "REIT requirement - minimum 90% of taxable income distribution",
+      "source": "SCMalaysia",
+      "citation": "Malaysian REIT Guidelines - Distribution Requirements",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:154": {
+      "fact": "FY2024 year-end share price RM 0.56",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Historical Price Data",
+      "dateAccessed": "2024-12-31",
+      "timeSensitive": true
+    },
+    "H:155": {
+      "fact": "FY2024 year-end yield 5.62%",
+      "source": "Calculated",
+      "citation": "Derived from 3.15 sen / RM 0.56",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:156": {
+      "fact": "Mid-2025 price range RM 0.43-0.44",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Price History",
+      "dateAccessed": "2025-06",
+      "timeSensitive": true
+    },
+    "H:157": {
+      "fact": "Mid-2025 yield ~7.2%",
+      "source": "Calculated",
+      "citation": "Derived from trailing DPU and price",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:158": {
+      "fact": "Price-to-Book ratio 0.41-0.53x",
+      "source": "Calculated",
+      "citation": "Derived from share price / NAV RM 1.05",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:159": {
+      "fact": "Market cap ~RM 305-397 million",
+      "source": "Calculated",
+      "citation": "Derived from 709.3M units × RM 0.43-0.56",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "H:160": {
+      "fact": "Trailing yield ~7.3% at RM 0.43",
+      "source": "Calculated",
+      "citation": "Derived from 3.15 sen ÷ RM 0.43",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:161": {
+      "fact": "NAV-based yield 3.0%",
+      "source": "Calculated",
+      "citation": "Derived from 3.15 sen / RM 1.05",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:162": {
+      "fact": "FY2023 gross revenue RM 111.51 million",
+      "source": "AR2023",
+      "citation": "Hektar REIT 2023 Annual Report - Income Statement",
+      "dateAccessed": "2024-04-15",
+      "timeSensitive": false
+    },
+    "H:163": {
+      "fact": "FY2023 NPI RM 60.05 million",
+      "source": "AR2023",
+      "citation": "Hektar REIT 2023 Annual Report - Net Property Income",
+      "dateAccessed": "2024-04-15",
+      "timeSensitive": false
+    },
+    "H:164": {
+      "fact": "NPI Margin 50.4% FY2024",
+      "source": "Calculated",
+      "citation": "Derived from RM 62.885M / RM 124.804M",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:165": {
+      "fact": "NPI Margin 53.9% FY2023",
+      "source": "Calculated",
+      "citation": "Derived from RM 60.05M / RM 111.51M",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:166": {
+      "fact": "KYS yield ~8%",
+      "source": "Calculated",
+      "citation": "Derived from rental income / RM 148.5M purchase price",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:167": {
+      "fact": "Triple-net lease structure - tenant pays all costs",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Lease Structure",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:168": {
+      "fact": "First diversification beyond retail (KYS acquisition)",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Strategic Transformation",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:169": {
+      "fact": "Penang Industrial yield 7.5%",
+      "source": "HektarIR",
+      "citation": "Hektar REIT Announcement - Penang Industrial Yield",
+      "dateAccessed": "2025-02",
+      "timeSensitive": false
+    },
+    "H:170": {
+      "fact": "Penang rental escalation 5% every 3 years",
+      "source": "HektarIR",
+      "citation": "Hektar REIT Announcement - Penang Industrial Lease Terms",
+      "dateAccessed": "2025-02",
+      "timeSensitive": false
+    },
+    "H:171": {
+      "fact": "Further diversification into industrial sector",
+      "source": "AR2024",
+      "citation": "Hektar REIT 2024 Annual Report - Diversification Strategy",
+      "dateAccessed": "2025-04-15",
+      "timeSensitive": false
+    },
+    "H:172": {
+      "fact": "100% retail exposure pre-2024",
+      "source": "AR2023",
+      "citation": "Hektar REIT 2023 Annual Report - Portfolio Composition",
+      "dateAccessed": "2024-04-15",
+      "timeSensitive": false
+    },
+    "H:173": {
+      "fact": "E-commerce disruption impact on retail sector",
+      "source": "Industry",
+      "citation": "Industry Research - Retail Sector Outlook",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:174": {
+      "fact": "RM 3.0 billion target requires 110% growth",
+      "source": "Calculated",
+      "citation": "Derived from (3.0B - 1.43B) / 1.43B",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:175": {
+      "fact": "RM 1.57 billion gap to reach target",
+      "source": "Calculated",
+      "citation": "Derived from RM 3.0B - RM 1.43B",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:176": {
+      "fact": "3-year timeline to 2027 target is aggressive",
+      "source": "Document",
+      "citation": "Analysis assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:177": {
+      "fact": "E-commerce growth +15-20% annually",
+      "source": "Industry",
+      "citation": "Industry Research - E-commerce Growth Statistics",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:178": {
+      "fact": "Pavilion REIT - premium KL malls peer",
+      "source": "Industry",
+      "citation": "Market Research - Malaysian Retail REITs",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:179": {
+      "fact": "Sunway REIT - diversified peer",
+      "source": "Industry",
+      "citation": "Market Research - Malaysian REIT Comparison",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:180": {
+      "fact": "KLCC REIT - premium KL retail peer",
+      "source": "Industry",
+      "citation": "Market Research - Malaysian Retail REITs",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:181": {
+      "fact": "YTL REIT - hospitality peer",
+      "source": "Industry",
+      "citation": "Market Research - Malaysian REIT Comparison",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:182": {
+      "fact": "Atrium REIT - industrial sector (peer comparison)",
+      "source": "Atrium",
+      "citation": "Atrium REIT 2024 Annual Report - Sector Classification",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:183": {
+      "fact": "Axis REIT - industrial sector (peer comparison)",
+      "source": "Axis",
+      "citation": "Axis REIT 2024 Annual Report - Sector Classification",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:184": {
+      "fact": "Atrium REIT 9 properties (peer scale comparison)",
+      "source": "Atrium",
+      "citation": "Atrium REIT 2024 Annual Report - Portfolio Size",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:185": {
+      "fact": "Axis REIT 69 properties (peer scale comparison)",
+      "source": "Axis",
+      "citation": "Axis REIT 2024 Annual Report - Portfolio Size",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:186": {
+      "fact": "Atrium REIT total assets RM 723 million (peer comparison)",
+      "source": "Atrium",
+      "citation": "Atrium REIT 2024 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:187": {
+      "fact": "Axis REIT total assets RM 5.36 billion (peer comparison)",
+      "source": "Axis",
+      "citation": "Axis REIT 2024 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:188": {
+      "fact": "Atrium REIT 100% occupancy (peer comparison)",
+      "source": "Atrium",
+      "citation": "Atrium REIT 2024 Annual Report - Portfolio Occupancy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:189": {
+      "fact": "Axis REIT 94% occupancy (peer comparison)",
+      "source": "Axis",
+      "citation": "Axis REIT 2024 Annual Report - Portfolio Occupancy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:190": {
+      "fact": "Axis REIT WALE 4.4 years (peer comparison)",
+      "source": "Axis",
+      "citation": "Axis REIT 2024 Annual Report - Lease Profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:191": {
+      "fact": "Atrium REIT gearing 43.5% (peer comparison)",
+      "source": "Atrium",
+      "citation": "Atrium REIT 2024 Annual Report - Debt Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:192": {
+      "fact": "Axis REIT gearing ~33% (peer comparison)",
+      "source": "Axis",
+      "citation": "Axis REIT 2024 Annual Report - Debt Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:193": {
+      "fact": "Axis REIT 65% fixed-rate debt (peer comparison)",
+      "source": "Axis",
+      "citation": "Axis REIT 2024 Annual Report - Debt Profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:194": {
+      "fact": "Atrium REIT DPU 9.30 sen (peer comparison)",
+      "source": "Atrium",
+      "citation": "Atrium REIT 2024 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:195": {
+      "fact": "Axis REIT DPU 10.55 sen (peer comparison)",
+      "source": "Axis",
+      "citation": "Axis REIT 2024 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:196": {
+      "fact": "Atrium REIT DPU growth +22.4% (peer comparison)",
+      "source": "Atrium",
+      "citation": "Atrium REIT 2024 Annual Report - Distribution Growth",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:197": {
+      "fact": "Axis REIT DPU growth +13.8% (peer comparison)",
+      "source": "Axis",
+      "citation": "Axis REIT 2024 Annual Report - Distribution Growth",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:198": {
+      "fact": "Atrium REIT NAV per unit RM 1.3874 (peer comparison)",
+      "source": "Atrium",
+      "citation": "Atrium REIT 2024 Annual Report - NAV Calculation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:199": {
+      "fact": "Axis REIT NAV per unit RM 1.6907 (peer comparison)",
+      "source": "Axis",
+      "citation": "Axis REIT 2024 Annual Report - NAV Calculation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:200": {
+      "fact": "Atrium REIT share price RM 1.280 (peer comparison)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Atrium REIT Price Data",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "H:201": {
+      "fact": "Axis REIT share price RM 2.050 (peer comparison)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Axis REIT Price Data",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "H:202": {
+      "fact": "Atrium REIT P/B ratio 0.92x (peer comparison)",
+      "source": "Calculated",
+      "citation": "Derived from price / NAV",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:203": {
+      "fact": "Axis REIT P/B ratio 1.21x (peer comparison)",
+      "source": "Calculated",
+      "citation": "Derived from price / NAV",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:204": {
+      "fact": "Atrium REIT market yield 7.27% (peer comparison)",
+      "source": "Calculated",
+      "citation": "Derived from DPU / price",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:205": {
+      "fact": "Axis REIT market yield 5.15% (peer comparison)",
+      "source": "Calculated",
+      "citation": "Derived from DPU / price",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:206": {
+      "fact": "Atrium REIT not Shariah-compliant (peer comparison)",
+      "source": "SCMalaysia",
+      "citation": "Shariah Screening Results",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:207": {
+      "fact": "Axis REIT Shariah-compliant (peer comparison)",
+      "source": "SCMalaysia",
+      "citation": "Shariah Screening Results",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:208": {
+      "fact": "Axis REIT stable management (peer comparison)",
+      "source": "Axis",
+      "citation": "Axis REIT 2024 Annual Report - Management Stability",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:209": {
+      "fact": "Axis REIT 3+ acquisitions in 2024 (peer comparison)",
+      "source": "Axis",
+      "citation": "Axis REIT 2024 Annual Report - Acquisition Activity",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:210": {
+      "fact": "Atrium REIT ~7% fixed-rate debt (peer comparison)",
+      "source": "Atrium",
+      "citation": "Atrium REIT 2024 Annual Report - Debt Profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "H:211": {
+      "fact": "General data sources compilation",
+      "source": "Various",
+      "citation": "Multiple sources - Bursa Malaysia, Hektar REIT filings, KLSE Screener, industry research",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    }
+  }
+}

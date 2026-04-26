@@ -20,6 +20,8 @@ import { createAlSalamAdapter } from '../src/adapters/alsalam-adapter';
 import { createKIPAdapter } from '../src/adapters/kip-adapter';
 import { createParadigmAdapter } from '../src/adapters/paradigm-adapter';
 import { createKlccAdapter } from '../src/adapters/klcc-adapter';
+import { createHektarAdapter } from '../src/adapters/hektar-adapter';
+import { createSentralAdapter } from '../src/adapters/sentral-adapter';
 
 /**
  * Write output to both test/samples and frontend/public/data directories
@@ -295,6 +297,56 @@ function generateKlccSample(): void {
   console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
 }
 
+function generateHektarSample(): void {
+  console.log('Generating Hektar REIT sample...');
+
+  const linker = createCitationLinker();
+
+  // Load references
+  const hektarRefs = JSON.parse(fs.readFileSync(
+    path.join(__dirname, '..', 'hektar-reit-references.json'), 'utf-8'
+  ));
+
+  // Process through adapter
+  const adapter = createHektarAdapter(linker);
+  adapter.processReferences(hektarRefs);
+  const output = adapter.generateOutput();
+
+  // Write output files
+  writeOutputFiles('hektar', output);
+
+  console.log(`   📊 ${output.references.length} references`);
+  console.log(`   📊 ${output.metrics.length} metrics`);
+  console.log(`   📊 ${output.timeSeries.length} time series`);
+  console.log(`   📊 ${output.observations.length} observations`);
+  console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
+}
+
+function generateSentralSample(): void {
+  console.log('Generating Sentral REIT sample...');
+
+  const linker = createCitationLinker();
+
+  // Load references
+  const sentralRefs = JSON.parse(fs.readFileSync(
+    path.join(__dirname, '..', 'sentral-reit-references.json'), 'utf-8'
+  ));
+
+  // Process through adapter
+  const adapter = createSentralAdapter(linker);
+  adapter.processReferences(sentralRefs);
+  const output = adapter.generateOutput();
+
+  // Write output files
+  writeOutputFiles('sentral', output);
+
+  console.log(`   📊 ${output.references.length} references`);
+  console.log(`   📊 ${output.metrics.length} metrics`);
+  console.log(`   📊 ${output.timeSeries.length} time series`);
+  console.log(`   📊 ${output.observations.length} observations`);
+  console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
+}
+
 // Run generation
 generateAtriumSample();
 generateAxisSample();
@@ -307,4 +359,6 @@ generateAlSalamSample();
 generateKIPSample();
 generateParadigmSample();
 generateKlccSample();
+generateHektarSample();
+generateSentralSample();
 console.log('\n✅ Sample generation complete');
