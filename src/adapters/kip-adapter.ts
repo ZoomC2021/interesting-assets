@@ -104,11 +104,11 @@ export class KIPAdapter {
         managementTeam: {
           chairman: 'Datuk Dr. Syed Hussain bin Syed Husman, PJN. JP',
           managingDirector: "Dato' Ong Kook Liong",
-          ceo: 'Ms. Valerie Ong Pui Shan',
+          ceo: 'Ms. Ong Pui Shan',
           cfo: 'Ms. Lim Boon Boon (appointed 13 June 2024)'
         },
         boardSize: 5,
-        independentDirectors: 3,
+        independentDirectors: 2,
         baseManagementFee: 0.8,
         performanceFee: 3.0
       },
@@ -139,35 +139,36 @@ export class KIPAdapter {
     // Portfolio metrics
     this.addMetric({
       metricType: 'portfolio_size',
-      value: 18,
+      value: 14,
       unit: 'properties',
       period: q4Point,
-      sourceDisplayIds: ['KIP:8', 'KIP:42', 'KIP:168']
+      sourceDisplayIds: ['KIP:8', 'KIP:74']
     });
 
     this.addMetric({
       metricType: 'total_assets',
-      value: 1600,
+      value: 1577.0,
       unit: 'RM million',
       period: q4Point,
-      isEstimated: true,
-      sourceDisplayIds: ['KIP:9', 'KIP:40']
+      isEstimated: false,
+      sourceDisplayIds: ['KIP:9', 'KIP:24']
     });
 
     this.addMetric({
       metricType: 'investment_properties',
-      value: 820.3,
+      value: 1484.82,
       unit: 'RM million',
       period: q4Point,
-      sourceDisplayIds: ['KIP:41', 'KIP:105']
+      isEstimated: false,
+      sourceDisplayIds: ['KIP:98', 'KIP:99']
     });
 
     this.addMetric({
       metricType: 'property_count',
-      value: 18,
+      value: 14,
       unit: 'properties',
       period: q4Point,
-      sourceDisplayIds: ['KIP:8', 'KIP:42']
+      sourceDisplayIds: ['KIP:8', 'KIP:74']
     });
 
     this.addMetric({
@@ -184,7 +185,7 @@ export class KIPAdapter {
       value: 136.13,
       unit: 'RM million',
       period: fy2025,
-      sourceDisplayIds: ['KIP:18', 'KIP:404']
+      sourceDisplayIds: ['KIP:10', 'KIP:11']
     });
 
     this.addMetric({
@@ -192,15 +193,15 @@ export class KIPAdapter {
       value: 96.82,
       unit: 'RM million',
       period: fy2025,
-      sourceDisplayIds: ['KIP:19', 'KIP:405']
+      sourceDisplayIds: ['KIP:12', 'KIP:13']
     });
 
     this.addMetric({
       metricType: 'realised_income',
-      value: 108.58,
+      value: 51.265,
       unit: 'RM million',
       period: fy2025,
-      sourceDisplayIds: ['KIP:366', 'KIP:407']
+      sourceDisplayIds: ['KIP:15']
     });
 
     this.addMetric({
@@ -208,7 +209,7 @@ export class KIPAdapter {
       value: 115.14,
       unit: 'RM million',
       period: fy2025,
-      sourceDisplayIds: ['KIP:21', 'KIP:409']
+      sourceDisplayIds: ['KIP:16', 'KIP:17']
     });
 
     this.addMetric({
@@ -216,26 +217,26 @@ export class KIPAdapter {
       value: 1.1196,
       unit: 'RM',
       period: q4Point,
-      sourceDisplayIds: ['KIP:17', 'KIP:373']
+      sourceDisplayIds: ['KIP:26', 'KIP:25']
     });
 
     this.addMetric({
       metricType: 'market_cap',
-      value: 826.5,
+      value: 666.856,
       unit: 'RM million',
       period: q4Point,
       isTimeSensitive: true,
-      isEstimated: true,
-      sourceDisplayIds: ['KIP:20', 'KIP:378']
+      isEstimated: false,
+      sourceDisplayIds: ['KIP:29']
     });
 
     this.addMetric({
       metricType: 'share_price',
-      value: 0.82,
+      value: 0.835,
       unit: 'RM',
       period: q4Point,
       isTimeSensitive: true,
-      sourceDisplayIds: ['KIP:371', 'KIP:381', 'KIP:385']
+      sourceDisplayIds: ['KIP:27']
     });
 
     // Per-share metrics
@@ -244,25 +245,25 @@ export class KIPAdapter {
       value: 6.80,
       unit: 'sen',
       period: fy2025,
-      sourceDisplayIds: ['KIP:15', 'KIP:354', 'KIP:363', 'KIP:374']
+      sourceDisplayIds: ['KIP:19', 'KIP:20']
     });
 
     this.addMetric({
       metricType: 'dpu_growth_yoy',
-      value: 7.8,
+      value: 2.0,
       unit: '%',
       period: fy2025,
-      sourceDisplayIds: ['KIP:364', 'KIP:365']
+      sourceDisplayIds: ['KIP:20']
     });
 
     this.addMetric({
       metricType: 'dividend_yield_market',
-      value: 8.29,
+      value: 8.1,
       unit: '%',
       period: q4Point,
       isTimeSensitive: true,
-      isEstimated: true,
-      sourceDisplayIds: ['KIP:375', 'KIP:379']
+      isEstimated: false,
+      sourceDisplayIds: ['KIP:28']
     });
 
     this.addMetric({
@@ -276,72 +277,72 @@ export class KIPAdapter {
 
     this.addMetric({
       metricType: 'payout_ratio',
-      value: 48.6,
+      value: 91.6,
       unit: '%',
       period: fy2025,
       isEstimated: true,
-      sourceDisplayIds: ['KIP:368', 'KIP:487', 'KIP:80']
+      sourceDisplayIds: ['KIP:168', 'KIP:18']
     });
 
     this.addMetric({
       metricType: 'total_distribution',
-      value: 52.72,
+      value: 52.723,
       unit: 'RM million',
       period: fy2025,
-      sourceDisplayIds: ['KIP:80']
+      sourceDisplayIds: ['KIP:18']
     });
 
     // Leverage metrics
     this.addMetric({
       metricType: 'gearing_ratio',
-      value: 39.88,
+      value: 39.49,
       unit: '%',
       period: q4Point,
-      sourceDisplayIds: ['KIP:12', 'KIP:251', 'KIP:258']
+      sourceDisplayIds: ['KIP:22', 'KIP:251', 'KIP:258']
     });
 
     this.addMetric({
       metricType: 'interest_coverage',
-      value: 3.2,
+      value: 3.88,
       unit: 'x',
       period: fy2025,
-      sourceDisplayIds: ['KIP:14', 'KIP:263', 'KIP:265']
+      sourceDisplayIds: ['KIP:140', 'KIP:139']
     });
 
     this.addMetric({
       metricType: 'total_borrowings',
-      value: 638,
+      value: 622.776,
       unit: 'RM million',
       period: q4Point,
-      isEstimated: true,
-      sourceDisplayIds: ['KIP:250', 'KIP:277']
+      isEstimated: false,
+      sourceDisplayIds: ['KIP:23']
     });
 
     this.addMetric({
       metricType: 'fixed_rate_debt_pct',
-      value: 45,
+      value: 38.7,
       unit: '%',
       period: q4Point,
-      isEstimated: true,
-      sourceDisplayIds: ['KIP:464']
+      isEstimated: false,
+      sourceDisplayIds: ['KIP:277']
     });
 
     this.addMetric({
       metricType: 'floating_rate_debt_pct',
-      value: 55,
+      value: 61.3,
       unit: '%',
       period: q4Point,
-      isEstimated: true,
-      sourceDisplayIds: ['KIP:312', 'KIP:313', 'KIP:332']
+      isEstimated: false,
+      sourceDisplayIds: ['KIP:312', 'KIP:313']
     });
 
     this.addMetric({
       metricType: 'wacd',
-      value: 4.2,
+      value: 4.62,
       unit: '%',
       period: fy2025,
-      isEstimated: true,
-      sourceDisplayIds: ['KIP:328', 'KIP:333']
+      isEstimated: false,
+      sourceDisplayIds: ['KIP:144', 'KIP:145']
     });
 
     // Operational metrics
@@ -350,15 +351,15 @@ export class KIPAdapter {
       value: 96.7,
       unit: '%',
       period: q4Point,
-      sourceDisplayIds: ['KIP:10', 'KIP:97', 'KIP:195', 'KIP:456']
+      sourceDisplayIds: ['KIP:21', 'KIP:105']
     });
 
     this.addMetric({
       metricType: 'top_tenant_concentration',
-      value: 18,
+      value: 15.4,
       unit: '%',
       period: q4Point,
-      sourceDisplayIds: ['KIP:207', 'KIP:245']
+      sourceDisplayIds: ['KIP:111', 'KIP:86']
     });
 
     this.addMetric({
@@ -372,10 +373,10 @@ export class KIPAdapter {
 
     this.addMetric({
       metricType: 'lease_renewal_rate',
-      value: 85,
+      value: 74.9,
       unit: '%',
       period: fy2025,
-      sourceDisplayIds: ['KIP:197', 'KIP:203']
+      sourceDisplayIds: ['KIP:116']
     });
 
     this.addMetric({
@@ -384,36 +385,38 @@ export class KIPAdapter {
       unit: '%',
       period: fy2025,
       isEstimated: true,
-      sourceDisplayIds: ['KIP:406', 'KIP:325']
+      sourceDisplayIds: ['KIP:14']
     });
 
     // Risk metrics
     this.addMetric({
       metricType: 'interest_rate_sensitivity',
-      value: 0.93,
+      value: 0.95,
       unit: 'RM million per +25bps',
       period: fy2025,
-      isEstimated: true,
-      sourceDisplayIds: ['KIP:322', 'KIP:327']
+      isEstimated: false,
+      sourceDisplayIds: ['KIP:146']
     });
 
     // Market metrics
     this.addMetric({
       metricType: 'price_to_book',
-      value: 0.73,
+      value: 0.746,
       unit: 'x',
       period: q4Point,
       isTimeSensitive: true,
-      sourceDisplayIds: ['KIP:376', 'KIP:383', 'KIP:387']
+      isEstimated: true,
+      sourceDisplayIds: ['KIP:27', 'KIP:26']
     });
 
     this.addMetric({
       metricType: 'premium_discount_to_nav',
-      value: -27,
+      value: -25.4,
       unit: '%',
       period: q4Point,
       isTimeSensitive: true,
-      sourceDisplayIds: ['KIP:377', 'KIP:383', 'KIP:395']
+      isEstimated: true,
+      sourceDisplayIds: ['KIP:27', 'KIP:26']
     });
 
     return this.metrics;
@@ -429,7 +432,7 @@ export class KIPAdapter {
         category: 'concentration',
         severity: 'medium',
         title: 'Portfolio Concentration',
-        description: '18 properties diversified across retail, commercial, and industrial sectors with expanded geographic coverage following October 2020 mandate expansion.',
+        description: '14 properties diversified across retail (10) and industrial (4) sectors with expanded geographic coverage following October 2020 mandate expansion.',
         currentScore: 3.0,
         peerComparison: 'similar',
         mitigatingFactors: [
@@ -453,26 +456,26 @@ export class KIPAdapter {
         category: 'interest_rate',
         severity: 'medium',
         title: 'Floating-Rate Debt Exposure',
-        description: '~55% of debt exposed to interest rate changes with partial hedging coverage.',
+        description: '~61.3% of debt exposed to interest rate changes with partial hedging coverage.',
         currentScore: 3,
         peerComparison: 'similar',
         quantitativeBacking: [
-          { metricType: 'floating_rate_debt_pct', value: 55, context: 'Moderate exposure' }
+          { metricType: 'floating_rate_debt_pct', value: 61.3, context: 'Above-average floating exposure' }
         ],
         mitigatingFactors: [
-          { factor: 'Conservative gearing at 39.88% provides buffer', impact: 'significant' },
-          { factor: '45% fixed-rate debt provides stability', impact: 'moderate' }
+          { factor: 'Conservative gearing at 39.49% provides buffer', impact: 'significant' },
+          { factor: '38.7% fixed-rate debt provides partial stability', impact: 'moderate' }
         ],
         aggravatingFactors: [
-          { factor: 'BNM OPR increases directly impact finance costs', impact: 'moderate' }
+          { factor: 'BNM OPR increases directly impact finance costs (+RM950k per +25bps)', impact: 'moderate' }
         ],
         trend: 'stable',
         monitoringTriggers: [
           'Bank Negara Malaysia OPR decisions',
-          'Refinancing negotiations',
-          'Hedging strategy updates'
+          'MTN refinancing (MTN3 tranche maturities)',
+          'Hedging/fixed-rate conversion strategy updates'
         ],
-        sourceDisplayIds: ['KIP:312', 'KIP:315', 'KIP:322', 'KIP:263', 'KIP:258']
+        sourceDisplayIds: ['KIP:141', 'KIP:142', 'KIP:143', 'KIP:146', 'KIP:144']
       },
       {
         id: this.generateId(),
@@ -586,18 +589,18 @@ export class KIPAdapter {
         observationType: 'executive_summary',
         priority: 'positive',
         title: 'Stable Retail Performance',
-        content: 'KIP REIT delivered stable performance in FY2025 with 7.8% DPU growth to 6.80 sen, driven by resilient suburban retail demand and strong occupancy at 96.7%. Management fees increased in FY2025 (base 0.6%→0.8%, performance 1.0%→3.0%) but portfolio expansion continues.',
-        summary: '7.8% DPU growth, 96.7% occupancy, expanded 18-property portfolio',
+        content: 'KIP REIT delivered strong performance in FY2025 with 2.0% DPU growth to 6.80 sen (from 6.665 sen), driven by three acquisitions (DPulze, TF Value-Mart, Sin Chee Heng) growing the portfolio to 14 properties. Occupancy reached 96.7%, a record high. Management fees increased (base 0.6%→0.8%, performance 1.0%→3.0%) but were offset by higher revenue from the expanded portfolio.',
+        summary: '2.0% DPU growth, 96.7% occupancy, 14-property portfolio',
         keyFacts: [
-          { label: 'DPU Growth', value: 7.8, unit: '%' },
+          { label: 'DPU Growth', value: 2.0, unit: '%' },
           { label: 'Occupancy', value: 96.7, unit: '%' },
-          { label: 'Properties', value: 18, unit: 'total' }
+          { label: 'Properties', value: 14, unit: 'total' }
         ],
         indicator: { icon: 'trend_up', color: 'green' },
         relatedMetrics: [
-          { metricType: 'dpu_growth_yoy', value: 7.8 },
+          { metricType: 'dpu_growth_yoy', value: 2.0 },
           { metricType: 'occupancy_rate', value: 96.7 },
-          { metricType: 'property_count', value: 18 }
+          { metricType: 'property_count', value: 14 }
         ],
         relatedRisks: [],
         sourceDisplayIds: ['KIP:364', 'KIP:97', 'KIP:101', 'KIP:42', 'KIP:57', 'KIP:58'],
@@ -609,16 +612,16 @@ export class KIPAdapter {
         observationType: 'debt_sustainability',
         priority: 'positive',
         title: 'Conservative Leverage',
-        content: 'KIP REIT maintains conservative gearing at 39.88% with healthy interest coverage of 3.2x. Balanced debt profile with 45% fixed-rate provides interest rate stability despite expanded portfolio.',
-        summary: '39.88% gearing, 3.2x coverage, balanced rate exposure',
+        content: 'KIP REIT maintains conservative gearing at 39.49% with healthy NPI-based interest coverage of 3.88x. Total borrowings of RM622.776M with 61.3% floating-rate exposure, but comfortable ~10.5pp headroom to the 50% regulatory limit. Borrowings grew +47.3% in FY2025 due to DPulze acquisition financing.',
+        summary: '39.49% gearing, 3.88x NPI coverage, RM622.8M borrowings',
         keyFacts: [
-          { label: 'Gearing Ratio', value: 39.88, unit: '%' },
-          { label: 'Interest Coverage', value: 3.2, unit: 'x' }
+          { label: 'Gearing Ratio', value: 39.49, unit: '%' },
+          { label: 'Interest Coverage (NPI)', value: 3.88, unit: 'x' }
         ],
         indicator: { icon: 'check', color: 'green' },
         relatedMetrics: [
-          { metricType: 'gearing_ratio', value: 39.88 },
-          { metricType: 'interest_coverage', value: 3.2 }
+          { metricType: 'gearing_ratio', value: 39.49 },
+          { metricType: 'interest_coverage', value: 3.88 }
         ],
         relatedRisks: [],
         sourceDisplayIds: ['KIP:12', 'KIP:251', 'KIP:258', 'KIP:265'],
@@ -630,16 +633,16 @@ export class KIPAdapter {
         observationType: 'portfolio_analysis',
         priority: 'positive',
         title: 'Diversified Portfolio Strategy',
-        content: 'KIP REIT operates 18 properties including 8 KIPMalls (neighborhood shopping centers), 6 other retail/commercial assets, and 5 industrial properties following the October 2020 mandate expansion. This diversification reduces sector concentration while maintaining defensive suburban retail focus.',
-        summary: '18 properties: 8 KIPMalls + 6 Retail/Commercial + 5 Industrial',
+        content: 'KIP REIT operates 14 properties: 7 KIPMalls (community-centric neighborhood malls), 3 other retail malls (AEON Kinta City, DPulze Cyberjaya, TF Value-Mart Gerik), and 4 industrial properties. Three acquisitions completed in FY2025 added RM357.4M of assets. Industrial segment (100% occupancy under triple-net leases) adds defensive income stability.',
+        summary: '14 properties: 7 KIPMalls + 3 Other Retail + 4 Industrial',
         keyFacts: [
-          { label: 'KIPMalls', value: 8, unit: 'properties' },
-          { label: 'Retail/Commercial', value: 6, unit: 'properties' },
-          { label: 'Industrial', value: 5, unit: 'properties' }
+          { label: 'KIPMalls', value: 7, unit: 'properties' },
+          { label: 'Other Retail', value: 3, unit: 'properties' },
+          { label: 'Industrial', value: 4, unit: 'properties' }
         ],
         indicator: { icon: 'check', color: 'green' },
         relatedMetrics: [
-          { metricType: 'property_count', value: 18 }
+          { metricType: 'property_count', value: 14 }
         ],
         relatedRisks: [],
         sourceDisplayIds: ['KIP:42', 'KIP:52', 'KIP:61', 'KIP:70', 'KIP:71'],
@@ -678,13 +681,13 @@ export class KIPAdapter {
       frequency: 'annual',
       unit: 'sen',
       dataPoints: [
-        { date: '2021-06-30', value: 6.2, isInterpolated: false, sourceDisplayId: 'KIP:356' },
-        { date: '2022-06-30', value: 6.0, isInterpolated: false, sourceDisplayId: 'KIP:357' },
-        { date: '2023-06-30', value: 5.8, isInterpolated: false, sourceDisplayId: 'KIP:359' },
-        { date: '2024-06-30', value: 6.31, isInterpolated: false, sourceDisplayId: 'KIP:361' },
-        { date: '2025-06-30', value: 6.80, isInterpolated: false, sourceDisplayId: 'KIP:363' }
+        { date: '2021-06-30', value: 6.84, isInterpolated: false, sourceDisplayId: 'KIP:160' },
+        { date: '2022-06-30', value: 6.80, isInterpolated: false, sourceDisplayId: 'KIP:162' },
+        { date: '2023-06-30', value: 6.20, isInterpolated: false, sourceDisplayId: 'KIP:164' },
+        { date: '2024-06-30', value: 6.665, isInterpolated: false, sourceDisplayId: 'KIP:166' },
+        { date: '2025-06-30', value: 6.80, isInterpolated: false, sourceDisplayId: 'KIP:19' }
       ],
-      sourceDisplayIds: ['KIP:356', 'KIP:357', 'KIP:359', 'KIP:361', 'KIP:363']
+      sourceDisplayIds: ['KIP:160', 'KIP:162', 'KIP:164', 'KIP:166', 'KIP:19']
     };
 
     // Occupancy rate series
@@ -695,13 +698,13 @@ export class KIPAdapter {
       frequency: 'annual',
       unit: '%',
       dataPoints: [
-        { date: '2021-06-30', value: 92, isInterpolated: true },
-        { date: '2022-06-30', value: 93, isInterpolated: true },
-        { date: '2023-06-30', value: 91, isInterpolated: false, sourceDisplayId: 'KIP:10' },
-        { date: '2024-06-30', value: 94, isInterpolated: false, sourceDisplayId: 'KIP:10' },
-        { date: '2025-06-30', value: 96.7, isInterpolated: false, sourceDisplayId: 'KIP:10' }
+        { date: '2021-06-30', value: 89.6, isInterpolated: false, sourceDisplayId: 'KIP:101' },
+        { date: '2022-06-30', value: 87.3, isInterpolated: false, sourceDisplayId: 'KIP:102' },
+        { date: '2023-06-30', value: 92.3, isInterpolated: false, sourceDisplayId: 'KIP:103' },
+        { date: '2024-06-30', value: 94.1, isInterpolated: false, sourceDisplayId: 'KIP:104' },
+        { date: '2025-06-30', value: 96.7, isInterpolated: false, sourceDisplayId: 'KIP:21' }
       ],
-      sourceDisplayIds: ['KIP:10', 'KIP:97']
+      sourceDisplayIds: ['KIP:101', 'KIP:102', 'KIP:103', 'KIP:104', 'KIP:21']
     };
 
     // NAV per unit series
@@ -729,13 +732,13 @@ export class KIPAdapter {
       frequency: 'annual',
       unit: '%',
       dataPoints: [
-        { date: '2021-06-30', value: 42.5, isInterpolated: false, sourceDisplayId: 'KIP:12' },
-        { date: '2022-06-30', value: 41.8, isInterpolated: false, sourceDisplayId: 'KIP:12' },
-        { date: '2023-06-30', value: 40.5, isInterpolated: false, sourceDisplayId: 'KIP:12' },
-        { date: '2024-06-30', value: 40.2, isInterpolated: false, sourceDisplayId: 'KIP:12' },
-        { date: '2025-06-30', value: 39.88, isInterpolated: false, sourceDisplayId: 'KIP:12' }
+        { date: '2021-06-30', value: 37.0, isInterpolated: false, sourceDisplayId: 'KIP:134' },
+        { date: '2022-06-30', value: 35.2, isInterpolated: false, sourceDisplayId: 'KIP:135' },
+        { date: '2023-06-30', value: 32.6, isInterpolated: false, sourceDisplayId: 'KIP:136' },
+        { date: '2024-06-30', value: 37.3, isInterpolated: false, sourceDisplayId: 'KIP:137' },
+        { date: '2025-06-30', value: 39.49, isInterpolated: false, sourceDisplayId: 'KIP:22' }
       ],
-      sourceDisplayIds: ['KIP:12', 'KIP:251', 'KIP:258']
+      sourceDisplayIds: ['KIP:134', 'KIP:135', 'KIP:136', 'KIP:137', 'KIP:22']
     };
 
     // Gross revenue series
@@ -746,13 +749,13 @@ export class KIPAdapter {
       frequency: 'annual',
       unit: 'RM million',
       dataPoints: [
-        { date: '2021-06-30', value: 58.2, isInterpolated: false, sourceDisplayId: 'KIP:18' },
-        { date: '2022-06-30', value: 59.5, isInterpolated: false, sourceDisplayId: 'KIP:18' },
-        { date: '2023-06-30', value: 61.8, isInterpolated: false, sourceDisplayId: 'KIP:18' },
-        { date: '2024-06-30', value: 128.5, isInterpolated: false, sourceDisplayId: 'KIP:18' },
-        { date: '2025-06-30', value: 136.13, isInterpolated: false, sourceDisplayId: 'KIP:404' }
+        { date: '2021-06-30', value: 58.2, isInterpolated: true },
+        { date: '2022-06-30', value: 59.5, isInterpolated: true },
+        { date: '2023-06-30', value: 61.8, isInterpolated: true },
+        { date: '2024-06-30', value: 102.1, isInterpolated: true },
+        { date: '2025-06-30', value: 136.13, isInterpolated: false, sourceDisplayId: 'KIP:10' }
       ],
-      sourceDisplayIds: ['KIP:18', 'KIP:404']
+      sourceDisplayIds: ['KIP:10', 'KIP:11']
     };
 
     this.timeSeries = [dpuSeries, occupancySeries, navSeries, gearingSeries, revenueSeries];
