@@ -26,12 +26,19 @@ const ANALYSIS_FILE_BY_ENTITY_CODE: Record<string, string> = {
   '5235.KL': 'KLCC_REIT_Malaysia_Analysis.md',
   // CMMT
   '5180.KL': 'CMMT_REIT_Malaysia_Analysis.md',
-  // Al-Salam: no markdown memo checked in yet (canonical 5114.KL, alias 5142.KL).
+  // Al-Salam (canonical 5269.KL)
+  '5269.KL': 'Al-Salam_REIT_Malaysia_Analysis.md',
   // Hektar
   '5121.KL': 'Hektar_REIT_Malaysia_Analysis.md',
   // UOA (canonical 5110.KL, legacy route alias 5200.KL)
   '5110.KL': 'UOA_REIT_Malaysia_Analysis.md',
   '5200.KL': 'UOA_REIT_Malaysia_Analysis.md',
+  // KIP REIT
+  '5280.KL': 'KIP_REIT_Malaysia_Analysis.md',
+  // Paradigm REIT
+  '5338.KL': 'Paradigm_REIT_Malaysia_Analysis.md',
+  'paradigm': 'Paradigm_REIT_Malaysia_Analysis.md',
+  '5338': 'Paradigm_REIT_Malaysia_Analysis.md',
 };
 
 export async function loadEntityAnalysisMarkdown(entityCode: string): Promise<string | null> {

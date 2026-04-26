@@ -29,7 +29,7 @@ export const DisplayIdRegex = {
 
 export const ReferenceSchema = z.object({
   id: z.string().uuid(),
-  displayId: z.string().regex(/^[TAC]:\d+$/),
+  displayId: z.string().regex(/^[TAPSUICHLK]:\d+$/),
   fact: z.string().min(1),
   source: z.string().min(1),
   citation: z.string().min(1),
@@ -52,7 +52,17 @@ export const EntitySchema = z.object({
   manager: z.object({
     name: z.string().min(1),
     ownershipStructure: z.string().optional(),
-    controllingShareholder: z.string().optional()
+    controllingShareholder: z.string().optional(),
+    managementTeam: z.object({
+      chairman: z.string().optional(),
+      managingDirector: z.string().optional(),
+      ceo: z.string().optional(),
+      cfo: z.string().optional()
+    }).optional(),
+    boardSize: z.number().optional(),
+    independentDirectors: z.number().optional(),
+    baseManagementFee: z.number().optional(),
+    performanceFee: z.number().optional()
   }),
   trustee: z.string().min(1),
   fiscalYearEnd: z.object({
@@ -85,6 +95,7 @@ export const MetricSchema = z.object({
     'net_property_income',
     'realised_income',
     'net_profit',
+    'profit_after_tax',
     'nav_per_unit',
     'market_cap',
     'share_price',
@@ -95,6 +106,7 @@ export const MetricSchema = z.object({
     'dividend_yield_market',
     'dividend_yield_nav',
     'payout_ratio',
+    'total_distribution',
     
     // Leverage metrics
     'gearing_ratio',
@@ -150,14 +162,14 @@ export const MetricSchema = z.object({
   }),
   isEstimated: z.boolean().default(false),
   isTimeSensitive: z.boolean().default(false),
-  sourceDisplayIds: z.array(z.string().regex(/^[TAC]:\d+$/))
+  sourceDisplayIds: z.array(z.string().regex(/^[TAPSUICHLK]:\d+$/))
 });
 
 export const TimeSeriesPointSchema = z.object({
   date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   value: MetricValueSchema,
   isInterpolated: z.boolean().default(false),
-  sourceDisplayId: z.string().regex(/^[TAC]:\d+$/).optional()
+  sourceDisplayId: z.string().regex(/^[TAPSUICHLK]:\d+$/).optional()
 });
 
 export const TimeSeriesSchema = z.object({
@@ -167,7 +179,7 @@ export const TimeSeriesSchema = z.object({
   frequency: z.enum(['daily', 'weekly', 'monthly', 'quarterly', 'annual']),
   unit: z.string(),
   dataPoints: z.array(TimeSeriesPointSchema).min(1),
-  sourceDisplayIds: z.array(z.string().regex(/^[TAC]:\d+$/)),
+  sourceDisplayIds: z.array(z.string().regex(/^[TAPSUICHLK]:\d+$/)),
   metadata: z.object({
     startDate: z.string(),
     endDate: z.string(),
@@ -215,7 +227,7 @@ export const RiskFactorSchema = z.object({
   trend: z.enum(['improving', 'stable', 'deteriorating', 'unknown']).optional(),
   monitoringTriggers: z.array(z.string()).optional(),
   relatedMetricTypes: z.array(MetricSchema.shape.metricType).optional(),
-  sourceDisplayIds: z.array(z.string().regex(/^[TAC]:\d+$/))
+  sourceDisplayIds: z.array(z.string().regex(/^[TAPSUICHLK]:\d+$/))
 });
 
 export const RiskAssessmentSchema = z.object({
@@ -272,7 +284,7 @@ export const ObservationSchema = z.object({
   })).optional(),
   primaryCitation: z.string().optional(),
   relatedMetricTypes: z.array(MetricSchema.shape.metricType).optional(),
-  sourceDisplayIds: z.array(z.string().regex(/^[TAC]:\d+$/)).min(1)
+  sourceDisplayIds: z.array(z.string().regex(/^[TAPSUICHLK]:\d+$/)).min(1)
 });
 
 // ============================================================================

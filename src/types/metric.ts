@@ -154,6 +154,15 @@ export const METRIC_REGISTRY: Record<MetricType, MetricDefinition> = {
     format: 'currency',
     isHigherBetter: true
   },
+  profit_after_tax: {
+    type: 'profit_after_tax',
+    category: 'financial_performance',
+    displayName: 'Profit After Tax',
+    description: 'Net profit after taxation',
+    unit: 'RM million',
+    format: 'currency',
+    isHigherBetter: true
+  },
   nav_per_unit: {
     type: 'nav_per_unit',
     category: 'financial_performance',
@@ -233,6 +242,15 @@ export const METRIC_REGISTRY: Record<MetricType, MetricDefinition> = {
     format: 'percentage',
     isHigherBetter: null,
     benchmarkRange: { min: 50, typical: 90, max: 100 }
+  },
+  total_distribution: {
+    type: 'total_distribution',
+    category: 'per_share',
+    displayName: 'Total Distribution',
+    description: 'Total distributions paid to unitholders',
+    unit: 'RM million',
+    format: 'currency',
+    isHigherBetter: true
   },
 
   // Leverage Metrics (6)

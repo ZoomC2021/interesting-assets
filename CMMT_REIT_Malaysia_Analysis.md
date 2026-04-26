@@ -266,6 +266,7 @@ CLMT's industrial portfolio represents the REIT's entry into Malaysia's growing 
 |--------|--------------|-------|------------|
 | **Retail Occupancy** | 92.0% [C:21] | Stable | Strong retail demand |
 | **Overall Portfolio Occupancy** | 92.8% [C:22] | Improving | Diversified stability |
+| **WALE** | 3.4 years [C:193] | Stable | Balanced lease profile |
 | **Rental Reversions** | +11.3% [C:32] | Positive | Pricing power evident |
 | **Shopper Traffic** | +4.7% YoY [C:33] | Growing | Footfall recovery |
 | **Tenant Retention** | High [C:102] | Stable | Low vacancy risk |

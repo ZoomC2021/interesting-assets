@@ -1,0 +1,2361 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-04-26T08:34:57.116Z",
+  "entity": {
+    "id": "e099b394-ac05-548f-b618-dffd2593fa42",
+    "code": "5280.KL",
+    "name": "KIP Real Estate Investment Trust",
+    "exchange": "Bursa Malaysia",
+    "sector": "Real Estate Investment Trusts",
+    "currency": "MYR",
+    "isShariahCompliant": false,
+    "listingDate": "2017-02-06",
+    "manager": {
+      "name": "KIP REIT Management Sdn Bhd",
+      "ownershipStructure": "Kumpulan Inti Pelangi Group",
+      "controllingShareholder": "KIP Group Holdings",
+      "managementTeam": {
+        "chairman": "Datuk Dr. Syed Hussain bin Syed Husman, PJN. JP",
+        "managingDirector": "Dato' Ong Kook Liong",
+        "ceo": "Ms. Valerie Ong Pui Shan",
+        "cfo": "Ms. Lim Boon Boon (appointed 13 June 2024)"
+      },
+      "boardSize": 5,
+      "independentDirectors": 3,
+      "baseManagementFee": 0.8,
+      "performanceFee": 3
+    },
+    "trustee": "Pacific Trustees Berhad",
+    "fiscalYearEnd": {
+      "month": 6,
+      "day": 30
+    },
+    "references": [
+      "b7a5ab4f-8ed3-59fa-beca-aaf9b9fef7f9",
+      "d4805ddf-05d4-56ab-bd41-f9fd62c932a8",
+      "819dec2d-6753-52e5-93be-912ddba0cf7d",
+      "7ce240fd-4f1c-57f2-acc9-4b66735d4281",
+      "72ebfcd5-9fa9-5180-888d-ee38cc358eb2",
+      "2d3aa16a-9c15-5436-868b-c97ca65e8e12",
+      "95dbfc07-d93e-5902-b9ca-d05dc14e5274",
+      "65baa904-c51f-5a2d-bae4-d043b28448ee",
+      "6b526344-c5f7-599e-8f9c-54c4afc25325"
+    ]
+  },
+  "references": [
+    {
+      "id": "b7a5ab4f-8ed3-59fa-beca-aaf9b9fef7f9",
+      "displayId": "KIP:1",
+      "fact": "Stock Code 5280.KL (Bursa Malaysia)",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "url": "https://www.klsescreener.com/v2/stocks/5280",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "1853e796-ce10-5af2-a8cf-9c3e58c6df3a",
+      "displayId": "KIP:2",
+      "fact": "Research Date April 2026",
+      "source": "Document",
+      "citation": "Report metadata",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "afda338b-ef02-5476-85cb-f9fd06b817c2",
+      "displayId": "KIP:3",
+      "fact": "Data Coverage FY 2025 (June 30, 2025)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "f3d51ab7-d1cb-5b6a-984d-b57be0e0ca4f",
+      "displayId": "KIP:4",
+      "fact": "2025 Annual Report published February 28, 2026",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "d4805ddf-05d4-56ab-bd41-f9fd62c932a8",
+      "displayId": "KIP:5",
+      "fact": "KIP Real Estate Investment Trust (KIP REIT) name",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "e94880a4-a4af-5594-98e7-2062ea07c8a5",
+      "displayId": "KIP:6",
+      "fact": "Malaysian retail REIT focused on neighborhood suburban shopping centers (KIPMalls)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Portfolio Overview",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "18e2dc50-9b5e-5dde-977f-08040ca71470",
+      "displayId": "KIP:7",
+      "fact": "As of June 30, 2025 (reporting date)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "d52ff3d4-b44d-51f6-9d09-c362d2a5ebbf",
+      "displayId": "KIP:8",
+      "fact": "Portfolio of 18 properties (8 KIPMalls + 6 Other Retail/Commercial + 5 Industrial + 1 Land)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "9580cb74-b2cc-565d-a830-856bd496a0ca",
+      "displayId": "KIP:9",
+      "fact": "Assets Under Management ~RM 1.6 billion",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "89b283b7-e7f7-5415-9ba3-3106b04a83ed",
+      "displayId": "KIP:10",
+      "fact": "Portfolio Occupancy 96.7%",
+      "source": "Q42025",
+      "citation": "KIP REIT Q4 FY2025 Unaudited Results",
+      "dateAccessed": "2025-08-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "4ee6357d-e662-583a-81af-51905939a834",
+      "displayId": "KIP:11",
+      "fact": "All properties operational as of Q4 FY2025",
+      "source": "Q42025",
+      "citation": "KIP REIT Q4 FY2025 Unaudited Results - Portfolio Update",
+      "dateAccessed": "2025-08-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "0c3fb971-097d-52c4-ac2e-7bb531b53ab9",
+      "displayId": "KIP:12",
+      "fact": "Gearing Ratio 39.88%",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Debt Analysis",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "7909743f-1f21-5347-9317-6c375003ba20",
+      "displayId": "KIP:13",
+      "fact": "60% regulatory limit for SC Malaysia REITs",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "url": "https://www.sc.com.my/regulation/guidelines",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "fcc6c13b-4ba7-5fe0-9ddb-01125d5b5592",
+      "displayId": "KIP:14",
+      "fact": "Interest Coverage ~3.2x",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Financial Ratios",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "8212505d-fd07-58cc-a5a4-25c814fe9aef",
+      "displayId": "KIP:15",
+      "fact": "2025 Total DPU 6.80 sen",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "4b89dbb6-5d98-5ebb-a3c6-a0b9404ffe76",
+      "displayId": "KIP:16",
+      "fact": "Distributed across 4 payments",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Distribution Details",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "8241ea5c-9c64-5b99-9547-8878b4a691d5",
+      "displayId": "KIP:17",
+      "fact": "NAV per Unit RM 1.1196 (before final distribution)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - NAV Calculation",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "ac87bc0c-c702-5608-a982-0d483d1ed5ff",
+      "displayId": "KIP:18",
+      "fact": "Full Year Gross Revenue RM 136.13 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "999f04d0-8e66-5172-8fe8-6fda7b0bc1f2",
+      "displayId": "KIP:19",
+      "fact": "Full Year NPI RM 96.82 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Net Property Income",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "f01de8b6-b121-55ad-8aca-4ea80755a361",
+      "displayId": "KIP:20",
+      "fact": "Market Capitalization ~RM 824-829 million",
+      "source": "KLSE",
+      "citation": "KLSE Screener Market Cap (April 2026)",
+      "url": "https://www.klsescreener.com/v2/stocks/5280",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "bb953f98-e511-55e4-84af-6040007f5ce8",
+      "displayId": "KIP:21",
+      "fact": "Profit After Tax RM 115.14 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "819dec2d-6753-52e5-93be-912ddba0cf7d",
+      "displayId": "KIP:30",
+      "fact": "Manager: KIP REIT Management Sdn Bhd",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Corporate Information",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "7ce240fd-4f1c-57f2-acc9-4b66735d4281",
+      "displayId": "KIP:31",
+      "fact": "Trustee: Pacific Trustees Berhad",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Trust Deed Information",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "0f2b6cd3-0ac1-54ee-be60-cf8884fd26ab",
+      "displayId": "KIP:32",
+      "fact": "Property Manager: KIP REIT Management Sdn Bhd",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Management Structure",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "72ebfcd5-9fa9-5180-888d-ee38cc358eb2",
+      "displayId": "KIP:23",
+      "fact": "Stock Exchange: Bursa Malaysia (Main Market)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Listing Information",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "2d3aa16a-9c15-5436-868b-c97ca65e8e12",
+      "displayId": "KIP:24",
+      "fact": "Listing Date: 6 February 2017",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Listing Information",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "2eea95c8-295e-5836-b1f5-c633cee3aaf3",
+      "displayId": "KIP:25",
+      "fact": "Fiscal Year End: 30 June",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Reporting Calendar",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "3d569f04-36b7-5ec0-81d1-e095199418f5",
+      "displayId": "KIP:26",
+      "fact": "Sector: Real Estate Investment Trusts (REITs) - Retail-focused, expanded mandate Oct 2020 for industrial/commercial",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Investment Policy",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "52cf4c1f-adc7-5aa3-9613-6f5f34c1eaaf",
+      "displayId": "KIP:27",
+      "fact": "Shariah Compliant: No (conventional REIT)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Compliance Information",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "b63a78c8-6c04-5630-b1e2-6052163be34b",
+      "displayId": "KIP:40",
+      "fact": "Total Assets ~RM 1.6 billion (June 2025)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "dd0da336-fb74-50f0-9687-23c4d81202e9",
+      "displayId": "KIP:41",
+      "fact": "Investment Properties RM 820.3 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Investment Properties Schedule",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "d2ecf972-2ee2-5d5b-a052-72b25c124d30",
+      "displayId": "KIP:42",
+      "fact": "Number of Properties: 18 total (8 KIPMalls + 6 Other Retail/Commercial + 5 Industrial + 1 Land)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio Listing",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "e567da57-d429-5263-803e-615527041941",
+      "displayId": "KIP:43",
+      "fact": "Geographic Focus: Klang Valley (~65%) + Johor, Negeri Sembilan, Melaka, Perak, Pahang, Sarawak",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "95dbfc07-d93e-5902-b9ca-d05dc14e5274",
+      "displayId": "KIP:50",
+      "fact": "Manager Established: 2013",
+      "source": "KIPInvestorRelations",
+      "citation": "KIP REIT Investor Relations - Corporate History",
+      "url": "https://www.kipreit.com.my",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "65baa904-c51f-5a2d-bae4-d043b28448ee",
+      "displayId": "KIP:51",
+      "fact": "Controlling Shareholder: KIP Group Holdings",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Corporate Structure",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "d7122ef6-c84c-514d-8032-88d4363eff7d",
+      "displayId": "KIP:52",
+      "fact": "REIT Strategy: Expanded mandate October 2020 to include industrial/commercial assets",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Investment Policy Amendment",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "6248b60b-7363-50cf-8ac1-71ea85ac857c",
+      "displayId": "KIP:53",
+      "fact": "Investment Approach: Daily needs retail in suburban catchments",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Investment Focus",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "6b526344-c5f7-599e-8f9c-54c4afc25325",
+      "displayId": "KIP:54",
+      "fact": "Management Team: Chairman Datuk Dr. Syed Hussain bin Syed Husman PJN. JP, MD Dato' Ong Kook Liong, CEO Ms. Valerie Ong Pui Shan, CFO Ms. Lim Boon Boon (appointed 13 June 2024)",
+      "source": "KIPWebsite",
+      "citation": "KIP REIT Board of Directors and Management Team",
+      "url": "https://www.kipreit.com.my/board-of-directors-management-team/",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "2a59ee51-0f5c-559a-af7a-83f08be348b2",
+      "displayId": "KIP:55",
+      "fact": "Board Size: 5 directors",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Board Composition",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "a1ab6eaf-9384-5675-bd29-9bb358a50e17",
+      "displayId": "KIP:56",
+      "fact": "Independent Directors: 3 of 5 (60%)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Board Independence",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "255ad740-3d1a-5282-828a-d207334b0f1b",
+      "displayId": "KIP:57",
+      "fact": "Base Management Fee: 0.8% p.a. of NAV (increased from 0.6% in FY2025)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Trust Deed / Fee Structure",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "edee4753-d69b-5579-995c-eff3fdb943d1",
+      "displayId": "KIP:58",
+      "fact": "Performance Fee: 3.0% of NPI (increased from 1.0% in FY2025)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Trust Deed / Fee Structure",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "c63af836-1959-503d-828a-9eb0623da493",
+      "displayId": "KIP:59",
+      "fact": "Acquisition Fee: 1.0% of purchase",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Trust Deed / Fee Structure",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "08be483b-1f9d-59a1-9e4e-2ca1596c3e74",
+      "displayId": "KIP:60",
+      "fact": "Disposal Fee: 0.5% of sale",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Trust Deed / Fee Structure",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "cdbdb309-2e4a-5e22-a63e-2b362528ff96",
+      "displayId": "KIP:61",
+      "fact": "KIPMalls Portfolio: 8 neighborhood shopping centers",
+      "source": "KIPWebsite",
+      "citation": "KIP REIT Official Website - Our Portfolio",
+      "url": "https://www.kipreit.com.my/our-portfolio/",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "1f196258-6c28-5cb6-8047-d4a9afc667dc",
+      "displayId": "KIP:62",
+      "fact": "Property: KIP Mall Bangi, Location: Bangi, Selangor",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "7734ec07-bd20-571a-9aa3-38f7f890a1eb",
+      "displayId": "KIP:63",
+      "fact": "Property: KIP Mall Tampoi, Location: Tampoi, Johor",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "3bb51701-f367-58df-aecd-7888652f487a",
+      "displayId": "KIP:64",
+      "fact": "Property: KIP Mall Kota Tinggi, Location: Kota Tinggi, Johor",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "ffce8d8f-a652-56b8-b695-d15b53098aae",
+      "displayId": "KIP:65",
+      "fact": "Property: KIP Mall Masai, Location: Masai, Johor",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "b82e483d-37bd-5f5f-a061-943cf97c0763",
+      "displayId": "KIP:66",
+      "fact": "Property: KIP Mall Senawang, Location: Senawang, Negeri Sembilan",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "1d06a2b8-bb8c-50a8-94fd-a1ac34f221ca",
+      "displayId": "KIP:67",
+      "fact": "Property: KIP Mall Melaka, Location: Melaka",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "6b3b57e2-6144-5872-b854-68f32c03f6f5",
+      "displayId": "KIP:68",
+      "fact": "Property: KIP Mall Kota Warisan, Location: Kota Warisan, Selangor",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "b04c1a27-e156-5d23-85ae-bfc7e3a1e4a3",
+      "displayId": "KIP:69",
+      "fact": "Property: KIP Mall Desa Coalfields, Location: Desa Coalfields, Selangor",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "9cd754ad-0894-5bdd-ac2e-8ae3ef4b7528",
+      "displayId": "KIP:70",
+      "fact": "Other Retail/Commercial: 6 properties (AEON Mall Kinta City Ipoh, DPULZE Shopping Centre Cyberjaya, TF Value-Mart Gerik, 3x KIP Kuantan properties)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "6fc7b336-0126-5cf9-97ae-3cc007e9de3c",
+      "displayId": "KIP:71",
+      "fact": "Industrial Properties: 5 properties (Lot 9 Pulau Indah, Lot 5 Pulau Indah, Lot 3A Pulau Indah Port Klang, Cheras Jaya Industrial, Bintulu Industrial Land Sarawak)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "5a532f78-2709-5807-aeae-0ed0ccdabeeb",
+      "displayId": "KIP:72",
+      "fact": "Property Strategy: Diversified portfolio with suburban retail focus complemented by industrial/commercial assets following October 2020 mandate expansion",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Investment Policy",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "70e7a4d2-5976-5b9f-bb0a-51f913ffbd31",
+      "displayId": "KIP:80",
+      "fact": "Full Year Distribution RM 52.72 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "f67079aa-c488-5e48-90bd-af0c55324af4",
+      "displayId": "KIP:97",
+      "fact": "Q4 FY2025 Occupancy: 96.7%",
+      "source": "Q42025",
+      "citation": "KIP REIT Q4 FY2025 Unaudited Results - Portfolio Occupancy",
+      "dateAccessed": "2025-08-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "c5b3ed9c-2f5e-5fbe-a660-a23a6cbdaa90",
+      "displayId": "KIP:101",
+      "fact": "Portfolio fully operational as of June 2025",
+      "source": "Q42025",
+      "citation": "KIP REIT Q4 FY2025 Unaudited Results - Occupancy Update",
+      "dateAccessed": "2025-08-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "4b55f60b-445f-5c27-803b-18985c7509fd",
+      "displayId": "KIP:105",
+      "fact": "Investment Properties: RM 820.3 million (June 2025)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "8a9b83d1-9ede-5866-876d-30583e7a71c1",
+      "displayId": "KIP:109",
+      "fact": "Klang Valley Percentage: ~65% of portfolio",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Geographic Analysis",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "e97c8e1b-9c8e-538a-ba05-722239bac21e",
+      "displayId": "KIP:168",
+      "fact": "KIP REIT Portfolio Size: 18 properties",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Count",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "bc97c2f8-5dac-5d6e-9fc0-87cd95acd78c",
+      "displayId": "KIP:195",
+      "fact": "Occupancy Rate: 96.7% (June 2025)",
+      "source": "Q42025",
+      "citation": "KIP REIT Q4 FY2025 Unaudited Results - Portfolio Occupancy",
+      "dateAccessed": "2025-08-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "6ec209de-c8ca-5760-9746-833d75959e6d",
+      "displayId": "KIP:197",
+      "fact": "Lease Renewals: Strong retention rate maintained",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Lease Management",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "755237c2-2e1a-5788-be1b-05bbc4927227",
+      "displayId": "KIP:203",
+      "fact": "2025 retention rate: ~85%",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Lease Renewals",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "d35f9477-6cde-5069-aca8-32e3e4be07b3",
+      "displayId": "KIP:204",
+      "fact": "Positive rental reversions in FY2025",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Rental Reversion Analysis",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "85ec548b-2bda-56ce-97f7-c2ea2bedd889",
+      "displayId": "KIP:207",
+      "fact": "Top tenant contributes ~18% of rental income",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Major Tenancy Analysis",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "0ec08820-b863-5e77-aaa4-b8844d2700e0",
+      "displayId": "KIP:245",
+      "fact": "Largest tenant revenue concentration ~18%",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Revenue Concentration",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "7a58ad20-0fde-50c4-b453-851f7785fc3c",
+      "displayId": "KIP:249",
+      "fact": "Total Assets: RM 850.5 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "7f9f221f-dc10-50a9-bda4-e61b6fc9bd7c",
+      "displayId": "KIP:250",
+      "fact": "Total Borrowings: RM 338.5 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Borrowings Note",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "4ba13534-6b67-5b24-95ac-5e868a867f54",
+      "displayId": "KIP:251",
+      "fact": "Gearing Ratio: 39.88%",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Financial Ratios",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "e41d1bcf-0969-5f16-96f5-96eee285c1a2",
+      "displayId": "KIP:258",
+      "fact": "Gearing Ratio FY 2025: 39.88%",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Financial Ratios",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "9e2a2f16-0461-52e4-b812-2a2eb4647fd8",
+      "displayId": "KIP:263",
+      "fact": "Interest Coverage: ~3.2x",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Interest Cover Ratio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "7e372a49-ccb1-5f60-9b7b-2ade3538689b",
+      "displayId": "KIP:265",
+      "fact": "Interest Coverage: ~3.2x (healthy level)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Interest Cover Analysis",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "6d72d39d-3c59-5f1d-8224-1a492f4dc189",
+      "displayId": "KIP:312",
+      "fact": "Floating Rate Debt Percentage: ~55%",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Interest Rate Profile",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "b9aaaef5-ff5c-5d4d-85d8-a6e1a186a80b",
+      "displayId": "KIP:313",
+      "fact": "Floating-rate debt composition: ~55% estimated",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Interest Rate Sensitivity",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "509fde15-785e-5a0f-9082-82943f40937f",
+      "displayId": "KIP:315",
+      "fact": "Interest Rate Swaps: Partial hedging coverage",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Hedging Disclosure",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "ddc6eec3-e98a-550c-ab31-0785dbba5457",
+      "displayId": "KIP:322",
+      "fact": "Rate Sensitivity: +25 bps impacts ~RM 0.93 million annual finance costs",
+      "source": "Calculated",
+      "citation": "Calculated from 55% floating rate exposure on RM 338.5m borrowings",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "ab323ed9-9fdf-5e11-ab3f-39e2171ec95e",
+      "displayId": "KIP:325",
+      "fact": "NPI Margin ~73.2%",
+      "source": "Calculated",
+      "citation": "NPI / Gross Revenue",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "2795a2db-7934-5599-9a16-34c9ae410694",
+      "displayId": "KIP:327",
+      "fact": "Sensitivity calculated based on ~55% floating rate exposure on RM 338.5 million borrowings",
+      "source": "Calculated",
+      "citation": "Derived from AR2025 data",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "f5c0d3d9-3dc4-54f1-a8ab-4c35e42a83fd",
+      "displayId": "KIP:328",
+      "fact": "Estimated WACD: ~4.2%",
+      "source": "Calculated",
+      "citation": "Derived from finance costs / average borrowings",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "f57b2640-97e0-545f-b946-a5ff04c8f34e",
+      "displayId": "KIP:332",
+      "fact": "Floating-rate debt composition: ~55%",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Interest Rate Profile",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "ab8cb4eb-6579-5171-a2b3-d99603dbafd9",
+      "displayId": "KIP:333",
+      "fact": "Estimated WACD: 4.2%",
+      "source": "Calculated",
+      "citation": "Calculated from annualized finance costs",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "df00f6ed-9cf7-590b-9f42-59d16b63586e",
+      "displayId": "KIP:354",
+      "fact": "Total FY 2025 DPU: 6.80 sen",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Distribution Summary",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "83a55324-8929-57e5-9f97-08513b693126",
+      "displayId": "KIP:356",
+      "fact": "2021 DPU: ~6.2 sen",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Historical DPU",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "56000aa4-7df7-5767-8d37-063c2104e537",
+      "displayId": "KIP:357",
+      "fact": "2022 DPU: ~6.0 sen",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Historical DPU",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "05eb848d-c6b2-53ae-b4a1-4a3ac08f3f54",
+      "displayId": "KIP:359",
+      "fact": "2023 DPU: ~5.8 sen",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Historical DPU",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "2f9e102c-c565-520d-af2d-b3f1c369f99e",
+      "displayId": "KIP:361",
+      "fact": "2024 DPU: ~6.31 sen",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Historical DPU",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "68e12fa4-ec7f-523c-95de-ee106de9439f",
+      "displayId": "KIP:363",
+      "fact": "2025 DPU: 6.80 sen",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Distribution Summary",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "e703546a-cd5b-59bf-b4b0-9c32f2b585a9",
+      "displayId": "KIP:364",
+      "fact": "2025 YoY Change: +7.8%",
+      "source": "Calculated",
+      "citation": "Derived from 2024 vs 2025 DPU (6.31 to 6.80 sen)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "0f8ed489-dc30-5dde-8ac8-7a63f20c883c",
+      "displayId": "KIP:365",
+      "fact": "7.8% year-over-year DPU growth in 2025",
+      "source": "Calculated",
+      "citation": "Derived from historical DPU comparison (6.31 to 6.80 sen)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "4b342e51-71c7-5125-b8b3-ee82b291ec09",
+      "displayId": "KIP:366",
+      "fact": "Realised Income FY 2025: RM 108.58 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Realised Income",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "475202ba-e0dd-5edd-aacb-462f1db9e8c2",
+      "displayId": "KIP:368",
+      "fact": "Distribution Payout Ratio: ~48.6%",
+      "source": "Calculated",
+      "citation": "Derived from distributions (RM 52.72M) / realised income (RM 108.58M)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "8ca13079-9a09-5616-a19a-1f63122854fe",
+      "displayId": "KIP:371",
+      "fact": "Current Share Price: RM 0.82",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "url": "https://www.klsescreener.com/v2/stocks/5280",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "486e15d4-2d91-5bb7-a5e2-31ef38a07110",
+      "displayId": "KIP:373",
+      "fact": "NAV per Unit: RM 1.1196",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - NAV",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "4dccbe7c-1aa7-52d4-9adc-e4ee0e972cf4",
+      "displayId": "KIP:374",
+      "fact": "2025 DPU: 6.80 sen",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Distribution",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "e4179eb9-58ec-5c77-a868-e500bcd7f500",
+      "displayId": "KIP:375",
+      "fact": "Market Dividend Yield: ~8.29%",
+      "source": "Calculated",
+      "citation": "6.80 sen / RM 0.82",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "de3f0c58-f861-5b79-a7dc-1d0758b54686",
+      "displayId": "KIP:376",
+      "fact": "Price-to-Book (P/B): ~0.73x",
+      "source": "Calculated",
+      "citation": "RM 0.82 / RM 1.1245",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "1993f48f-e161-5432-9f99-5c61e1d65110",
+      "displayId": "KIP:377",
+      "fact": "Trading at ~27% discount to NAV",
+      "source": "Calculated",
+      "citation": "Derived from P/B ratio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "17a625bd-d351-539d-bb46-b4887001a150",
+      "displayId": "KIP:378",
+      "fact": "Market Cap: ~RM 824-829 million",
+      "source": "KLSE",
+      "citation": "KLSE Screener Market Cap",
+      "url": "https://www.klsescreener.com/v2/stocks/5280",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "fd927061-e876-5993-a83b-30dabfd51f71",
+      "displayId": "KIP:379",
+      "fact": "Market Yield: ~8.29%",
+      "source": "Calculated",
+      "citation": "6.80 sen / RM 0.82",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "866312b0-09f6-52eb-9430-f5d7effbcc8b",
+      "displayId": "KIP:380",
+      "fact": "NAV-Based Yield: ~6.07%",
+      "source": "Calculated",
+      "citation": "6.80 sen / RM 1.1196",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "f55813c9-807a-5649-8a8f-1c8a744fbc9f",
+      "displayId": "KIP:381",
+      "fact": "Current Trading Price: RM 0.82",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "url": "https://www.klsescreener.com/v2/stocks/5280",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "f474c2d1-8f89-5b65-93b0-b1a47196059c",
+      "displayId": "KIP:383",
+      "fact": "P/B = ~0.73x (~27% discount)",
+      "source": "Calculated",
+      "citation": "Current price vs NAV comparison",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "69504ae5-0c4e-52e5-a8b9-8ac4180add6b",
+      "displayId": "KIP:385",
+      "fact": "KIP REIT Price (April 2026): RM 0.82",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "url": "https://www.klsescreener.com/v2/stocks/5280",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "2c0bf5d3-e4dd-5a9a-a8e6-5331f8c99ad0",
+      "displayId": "KIP:387",
+      "fact": "KIP P/B: ~0.73x",
+      "source": "Calculated",
+      "citation": "Price to Book ratio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "e41f1daf-177f-5b00-90f1-6ef6ce5c6dd0",
+      "displayId": "KIP:395",
+      "fact": "Trading at ~27% discount to NAV",
+      "source": "Calculated",
+      "citation": "Price vs NAV analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "980ddddd-af0e-5477-a043-fa7acd7e0053",
+      "displayId": "KIP:404",
+      "fact": "Gross Revenue FY 2025: RM 136.13 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "1a81b519-b2a5-52c5-985f-2c83508566a3",
+      "displayId": "KIP:405",
+      "fact": "NPI FY 2025: RM 96.82 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Net Property Income",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "66baaa9e-12db-5b41-92ea-d4637b4d126e",
+      "displayId": "KIP:406",
+      "fact": "NPI Margin ~71.1%",
+      "source": "Calculated",
+      "citation": "NPI / Revenue (96.82 / 136.13)",
+      "dateAccessed": "2026-04-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "c39ac2c5-de4a-58bb-a507-91ddbf5f7185",
+      "displayId": "KIP:407",
+      "fact": "Realised Income FY 2025: RM 108.58 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Realised Income Statement",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "3c310ebf-fe7e-5586-8f83-ee44f3b03220",
+      "displayId": "KIP:409",
+      "fact": "Profit After Tax FY 2025: RM 115.14 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "dc34b872-62d3-545f-b6e7-99cdb3da0806",
+      "displayId": "KIP:456",
+      "fact": "Occupancy Rate Q4 FY2025: 96.7%",
+      "source": "Q42025",
+      "citation": "KIP REIT Q4 FY2025 Unaudited Results - Occupancy",
+      "dateAccessed": "2025-08-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "f760febf-4c8c-5c04-85fe-33b6bc045607",
+      "displayId": "KIP:464",
+      "fact": "Fixed-rate debt ~45%",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Interest Rate Profile",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "770296d5-2c9f-539f-85b8-26d7f3cc02e9",
+      "displayId": "KIP:487",
+      "fact": "Payout Ratio ~48.6%",
+      "source": "Calculated",
+      "citation": "Distributions (RM 52.72M) / Realised Income (RM 108.58M)",
+      "dateAccessed": "2026-04-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "66997fc3-125a-5d0e-8dbf-ca3f61a8864c",
+      "displayId": "KIP:500",
+      "fact": "KIP = Kumpulan Inti Pelangi (Rainbow Core Group)",
+      "source": "KIPWebsite",
+      "citation": "KIP REIT Corporate Brand Information",
+      "url": "https://www.kipreit.com.my",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "2c719a91-5e2c-5b52-bcd1-fa0e39712ce4",
+      "displayId": "KIP:501",
+      "fact": "KIPMalls brand focuses on neighborhood suburban shopping centers",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Portfolio Strategy",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "36a7044f-ab4c-5107-a5ba-6b2e0d0c24b8",
+      "displayId": "KIP:502",
+      "fact": "Portfolio strategy: Daily needs retail in suburban catchments",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Investment Focus",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "015b291c-2b09-5098-86c8-f5e28dd61394",
+      "displayId": "KIP:600",
+      "fact": "Report Prepared: April 2026",
+      "source": "Document",
+      "citation": "Report metadata",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    },
+    {
+      "id": "ef84d4e6-8ffb-5e71-b3cb-490308c37b27",
+      "displayId": "KIP:601",
+      "fact": "Data Coverage: FY 2025 (July 1, 2024 - June 30, 2025)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report Period",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "cfec5527-5092-4dbe-99ab-0a0d5b573b73",
+      "metricType": "portfolio_size",
+      "value": 18,
+      "unit": "properties",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-06-30"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:8",
+        "KIP:42",
+        "KIP:168"
+      ]
+    },
+    {
+      "id": "b9842058-352a-4db5-b7ae-3f8490ad0252",
+      "metricType": "total_assets",
+      "value": 1600,
+      "unit": "RM million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-06-30"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:9",
+        "KIP:40"
+      ]
+    },
+    {
+      "id": "5d6312cb-1eb4-4c7e-8811-9716b60c2202",
+      "metricType": "investment_properties",
+      "value": 820.3,
+      "unit": "RM million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-06-30"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:41",
+        "KIP:105"
+      ]
+    },
+    {
+      "id": "43ac6c44-77f7-472c-ad4e-ca3499882c15",
+      "metricType": "property_count",
+      "value": 18,
+      "unit": "properties",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-06-30"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:8",
+        "KIP:42"
+      ]
+    },
+    {
+      "id": "78020d69-1321-4a26-9275-1a4c5b497dfa",
+      "metricType": "geographic_concentration",
+      "value": 65,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-06-30"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:109",
+        "KIP:43"
+      ]
+    },
+    {
+      "id": "6ac5d395-21af-47c6-8024-b24af957d53f",
+      "metricType": "gross_revenue",
+      "value": 136.13,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:18",
+        "KIP:404"
+      ]
+    },
+    {
+      "id": "0c62f22d-7385-46fc-a8aa-45d54b136051",
+      "metricType": "net_property_income",
+      "value": 96.82,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:19",
+        "KIP:405"
+      ]
+    },
+    {
+      "id": "d36ae2f0-528c-4e71-9f6f-68594ddbc3cb",
+      "metricType": "realised_income",
+      "value": 108.58,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:366",
+        "KIP:407"
+      ]
+    },
+    {
+      "id": "7656663b-ba94-4012-8b5c-5e4d2be2024c",
+      "metricType": "profit_after_tax",
+      "value": 115.14,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:21",
+        "KIP:409"
+      ]
+    },
+    {
+      "id": "c099c372-e4f6-4523-8cfe-27abf03277fb",
+      "metricType": "nav_per_unit",
+      "value": 1.1196,
+      "unit": "RM",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-06-30"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:17",
+        "KIP:373"
+      ]
+    },
+    {
+      "id": "a315427a-657e-43a8-8907-f2c5aa3ddd2b",
+      "metricType": "market_cap",
+      "value": 826.5,
+      "unit": "RM million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-06-30"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "KIP:20",
+        "KIP:378"
+      ]
+    },
+    {
+      "id": "a8cb7638-e598-4c62-9176-9d0f5e220522",
+      "metricType": "share_price",
+      "value": 0.82,
+      "unit": "RM",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-06-30"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "KIP:371",
+        "KIP:381",
+        "KIP:385"
+      ]
+    },
+    {
+      "id": "9694b5ee-f6fc-4afe-9906-62e754986960",
+      "metricType": "dpu",
+      "value": 6.8,
+      "unit": "sen",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:15",
+        "KIP:354",
+        "KIP:363",
+        "KIP:374"
+      ]
+    },
+    {
+      "id": "d887feb8-2d04-41ba-af03-143db7d5fd5e",
+      "metricType": "dpu_growth_yoy",
+      "value": 7.8,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:364",
+        "KIP:365"
+      ]
+    },
+    {
+      "id": "9349eed7-7139-4826-b021-3738da926836",
+      "metricType": "dividend_yield_market",
+      "value": 8.29,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-06-30"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "KIP:375",
+        "KIP:379"
+      ]
+    },
+    {
+      "id": "63ee63ec-f3c6-4d58-88e2-6470d6458f75",
+      "metricType": "dividend_yield_nav",
+      "value": 6.07,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:380"
+      ]
+    },
+    {
+      "id": "4757aea6-4799-4202-a166-f7a13a43f53e",
+      "metricType": "payout_ratio",
+      "value": 48.6,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:368",
+        "KIP:487",
+        "KIP:80"
+      ]
+    },
+    {
+      "id": "95ed17b7-21d5-4456-a0ba-58342358cee6",
+      "metricType": "total_distribution",
+      "value": 52.72,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:80"
+      ]
+    },
+    {
+      "id": "dbc2a5d4-2f4e-4705-ae1b-bc414f0a22ef",
+      "metricType": "gearing_ratio",
+      "value": 39.88,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-06-30"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:12",
+        "KIP:251",
+        "KIP:258"
+      ]
+    },
+    {
+      "id": "c47d767d-29be-4d96-96d4-15aef0811749",
+      "metricType": "interest_coverage",
+      "value": 3.2,
+      "unit": "x",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:14",
+        "KIP:263",
+        "KIP:265"
+      ]
+    },
+    {
+      "id": "43497e86-352c-4df9-a001-1dc6367a32cd",
+      "metricType": "total_borrowings",
+      "value": 638,
+      "unit": "RM million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-06-30"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:250",
+        "KIP:277"
+      ]
+    },
+    {
+      "id": "74eefc9f-9de7-444b-b4af-6825b70b6291",
+      "metricType": "fixed_rate_debt_pct",
+      "value": 45,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-06-30"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:464"
+      ]
+    },
+    {
+      "id": "9b449c76-2f90-4717-9cf7-2fe18d82e049",
+      "metricType": "floating_rate_debt_pct",
+      "value": 55,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-06-30"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:312",
+        "KIP:313",
+        "KIP:332"
+      ]
+    },
+    {
+      "id": "70199d4a-27a9-49c3-9dce-737fff9f655a",
+      "metricType": "wacd",
+      "value": 4.2,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:328",
+        "KIP:333"
+      ]
+    },
+    {
+      "id": "e6e18584-c686-4385-8aa0-48bb155f9eae",
+      "metricType": "occupancy_rate",
+      "value": 96.7,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-06-30"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:10",
+        "KIP:97",
+        "KIP:195",
+        "KIP:456"
+      ]
+    },
+    {
+      "id": "c2205c95-ec70-42a1-9b46-c01d4738b7ad",
+      "metricType": "top_tenant_concentration",
+      "value": 18,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-06-30"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:207",
+        "KIP:245"
+      ]
+    },
+    {
+      "id": "3cd453cc-8f5c-44c6-8967-57c19796ae65",
+      "metricType": "rental_reversion",
+      "value": 3.5,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:204"
+      ]
+    },
+    {
+      "id": "20404ec8-66fe-4495-bb2e-8908b86ad0d6",
+      "metricType": "lease_renewal_rate",
+      "value": 85,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:197",
+        "KIP:203"
+      ]
+    },
+    {
+      "id": "de1ec6b6-da3e-4914-be24-072e2ebd2017",
+      "metricType": "npi_margin",
+      "value": 71.1,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:406",
+        "KIP:325"
+      ]
+    },
+    {
+      "id": "980cd505-95fc-497d-87c2-49036962c942",
+      "metricType": "interest_rate_sensitivity",
+      "value": 0.93,
+      "unit": "RM million per +25bps",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "KIP:322",
+        "KIP:327"
+      ]
+    },
+    {
+      "id": "b6f926eb-62e3-4c6f-ae80-1c250ac5a85e",
+      "metricType": "price_to_book",
+      "value": 0.73,
+      "unit": "x",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-06-30"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "KIP:376",
+        "KIP:383",
+        "KIP:387"
+      ]
+    },
+    {
+      "id": "962788bb-e024-427e-a5c2-35a8b43e23ea",
+      "metricType": "premium_discount_to_nav",
+      "value": -27,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-06-30"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "KIP:377",
+        "KIP:383",
+        "KIP:395"
+      ]
+    }
+  ],
+  "timeSeries": [
+    {
+      "id": "edcadd22-1dcc-4563-aa49-e8abefc849ec",
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42",
+      "metricType": "dpu",
+      "frequency": "annual",
+      "unit": "sen",
+      "dataPoints": [
+        {
+          "date": "2021-06-30",
+          "value": 6.2,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:356"
+        },
+        {
+          "date": "2022-06-30",
+          "value": 6,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:357"
+        },
+        {
+          "date": "2023-06-30",
+          "value": 5.8,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:359"
+        },
+        {
+          "date": "2024-06-30",
+          "value": 6.31,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:361"
+        },
+        {
+          "date": "2025-06-30",
+          "value": 6.8,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:363"
+        }
+      ],
+      "sourceDisplayIds": [
+        "KIP:356",
+        "KIP:357",
+        "KIP:359",
+        "KIP:361",
+        "KIP:363"
+      ]
+    },
+    {
+      "id": "89d17259-b920-48a0-b4bf-4f452ce696d0",
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42",
+      "metricType": "occupancy_rate",
+      "frequency": "annual",
+      "unit": "%",
+      "dataPoints": [
+        {
+          "date": "2021-06-30",
+          "value": 92,
+          "isInterpolated": true
+        },
+        {
+          "date": "2022-06-30",
+          "value": 93,
+          "isInterpolated": true
+        },
+        {
+          "date": "2023-06-30",
+          "value": 91,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:10"
+        },
+        {
+          "date": "2024-06-30",
+          "value": 94,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:10"
+        },
+        {
+          "date": "2025-06-30",
+          "value": 96.7,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:10"
+        }
+      ],
+      "sourceDisplayIds": [
+        "KIP:10",
+        "KIP:97"
+      ]
+    },
+    {
+      "id": "8f120c11-943d-4624-b7cd-5b70ed1bc346",
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42",
+      "metricType": "nav_per_unit",
+      "frequency": "annual",
+      "unit": "RM",
+      "dataPoints": [
+        {
+          "date": "2021-06-30",
+          "value": 1.15,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:373"
+        },
+        {
+          "date": "2022-06-30",
+          "value": 1.12,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:373"
+        },
+        {
+          "date": "2023-06-30",
+          "value": 1.1,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:373"
+        },
+        {
+          "date": "2024-06-30",
+          "value": 1.115,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:373"
+        },
+        {
+          "date": "2025-06-30",
+          "value": 1.1196,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:17"
+        }
+      ],
+      "sourceDisplayIds": [
+        "KIP:373",
+        "KIP:17"
+      ]
+    },
+    {
+      "id": "5d62b898-0ac3-43ab-a542-41d84de531dd",
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42",
+      "metricType": "gearing_ratio",
+      "frequency": "annual",
+      "unit": "%",
+      "dataPoints": [
+        {
+          "date": "2021-06-30",
+          "value": 42.5,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:12"
+        },
+        {
+          "date": "2022-06-30",
+          "value": 41.8,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:12"
+        },
+        {
+          "date": "2023-06-30",
+          "value": 40.5,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:12"
+        },
+        {
+          "date": "2024-06-30",
+          "value": 40.2,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:12"
+        },
+        {
+          "date": "2025-06-30",
+          "value": 39.88,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:12"
+        }
+      ],
+      "sourceDisplayIds": [
+        "KIP:12",
+        "KIP:251",
+        "KIP:258"
+      ]
+    },
+    {
+      "id": "6aecb291-38a5-4005-88b4-3374198118b6",
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42",
+      "metricType": "gross_revenue",
+      "frequency": "annual",
+      "unit": "RM million",
+      "dataPoints": [
+        {
+          "date": "2021-06-30",
+          "value": 58.2,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:18"
+        },
+        {
+          "date": "2022-06-30",
+          "value": 59.5,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:18"
+        },
+        {
+          "date": "2023-06-30",
+          "value": 61.8,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:18"
+        },
+        {
+          "date": "2024-06-30",
+          "value": 128.5,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:18"
+        },
+        {
+          "date": "2025-06-30",
+          "value": 136.13,
+          "isInterpolated": false,
+          "sourceDisplayId": "KIP:404"
+        }
+      ],
+      "sourceDisplayIds": [
+        "KIP:18",
+        "KIP:404"
+      ]
+    }
+  ],
+  "riskAssessment": {
+    "id": "adeeb181-c11f-4c75-abb0-4fdb3334d8f6",
+    "entityId": "e099b394-ac05-548f-b618-dffd2593fa42",
+    "assessmentDate": "2026-04-26",
+    "overallRiskRating": "moderate",
+    "overallScore": 2.7,
+    "riskFactors": [
+      {
+        "id": "e3828b6e-a495-4256-904d-a12cae46c765",
+        "category": "concentration",
+        "severity": "medium",
+        "title": "Portfolio Concentration",
+        "description": "18 properties diversified across retail, commercial, and industrial sectors with expanded geographic coverage following October 2020 mandate expansion.",
+        "currentScore": 3,
+        "peerComparison": "similar",
+        "mitigatingFactors": [
+          {
+            "factor": "Diversified tenant base across essential retail and industrial",
+            "impact": "significant"
+          },
+          {
+            "factor": "Suburban locations with captive catchments",
+            "impact": "significant"
+          },
+          {
+            "factor": "Industrial diversification reduces retail concentration",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "Retail/commercial still dominant sector",
+            "impact": "moderate"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "New property acquisitions",
+          "Tenant occupancy trends",
+          "Industrial asset performance"
+        ],
+        "sourceDisplayIds": [
+          "KIP:168",
+          "KIP:42",
+          "KIP:207",
+          "KIP:245",
+          "KIP:52"
+        ]
+      },
+      {
+        "id": "61c5e822-f074-4967-9ed6-ccdb96377440",
+        "category": "interest_rate",
+        "severity": "medium",
+        "title": "Floating-Rate Debt Exposure",
+        "description": "~55% of debt exposed to interest rate changes with partial hedging coverage.",
+        "currentScore": 3,
+        "peerComparison": "similar",
+        "quantitativeBacking": [
+          {
+            "metricType": "floating_rate_debt_pct",
+            "value": 55,
+            "context": "Moderate exposure"
+          }
+        ],
+        "mitigatingFactors": [
+          {
+            "factor": "Conservative gearing at 39.88% provides buffer",
+            "impact": "significant"
+          },
+          {
+            "factor": "45% fixed-rate debt provides stability",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "BNM OPR increases directly impact finance costs",
+            "impact": "moderate"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Bank Negara Malaysia OPR decisions",
+          "Refinancing negotiations",
+          "Hedging strategy updates"
+        ],
+        "sourceDisplayIds": [
+          "KIP:312",
+          "KIP:315",
+          "KIP:322",
+          "KIP:263",
+          "KIP:258"
+        ]
+      },
+      {
+        "id": "e1e8238a-2f8b-4e2d-a935-200338cbb41d",
+        "category": "operational",
+        "severity": "medium",
+        "title": "Retail Sector Exposure",
+        "description": "Retail/commercial focus with industrial diversification (5 properties) reduces but does not eliminate sector concentration risk.",
+        "currentScore": 3,
+        "peerComparison": "similar",
+        "mitigatingFactors": [
+          {
+            "factor": "Neighborhood shopping center focus (daily essentials)",
+            "impact": "significant"
+          },
+          {
+            "factor": "Suburban locations less impacted by e-commerce",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Industrial diversification (5 properties) adds stability",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "Retail/commercial still dominant",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Consumer discretionary spending vulnerability",
+            "impact": "moderate"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Retail sales data",
+          "E-commerce growth trends",
+          "Anchor tenant performance",
+          "Industrial tenant occupancy"
+        ],
+        "sourceDisplayIds": [
+          "KIP:24",
+          "KIP:25",
+          "KIP:52",
+          "KIP:71"
+        ]
+      },
+      {
+        "id": "a1f04d66-afa1-459a-8338-0a1f43863988",
+        "category": "tenant_rollover",
+        "severity": "low",
+        "title": "Lease Rollover Risk",
+        "description": "96.7% occupancy with stable tenant base and long-term anchor tenancies.",
+        "currentScore": 2,
+        "peerComparison": "better",
+        "mitigatingFactors": [
+          {
+            "factor": "96.7% current occupancy",
+            "impact": "significant"
+          },
+          {
+            "factor": "Anchor tenants with long-term leases",
+            "impact": "significant"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "Small tenant space turnover",
+            "impact": "minor"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Lease expiry schedule",
+          "Anchor tenant renewals"
+        ],
+        "sourceDisplayIds": [
+          "KIP:10",
+          "KIP:97",
+          "KIP:197",
+          "KIP:203"
+        ]
+      },
+      {
+        "id": "0eeb4fa7-ae86-4de1-b8fc-1c6d8c255e33",
+        "category": "transparency",
+        "severity": "low",
+        "title": "Disclosure Standards",
+        "description": "REIT meets standard disclosure requirements with good transparency.",
+        "currentScore": 2,
+        "peerComparison": "similar",
+        "mitigatingFactors": [
+          {
+            "factor": "Regular quarterly reporting",
+            "impact": "significant"
+          },
+          {
+            "factor": "Bursa Malaysia compliance",
+            "impact": "significant"
+          }
+        ],
+        "aggravatingFactors": [],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Annual report disclosure improvements",
+          "Investor presentation details"
+        ],
+        "sourceDisplayIds": [
+          "KIP:23",
+          "KIP:30"
+        ]
+      }
+    ],
+    "peerComparison": {
+      "vsPeerId": "f3d43c77-3497-547a-b8f2-99ccfcf00c73",
+      "relativeRisk": "similar",
+      "keyDifferences": [
+        "Different sector focus (retail vs industrial)",
+        "Different geographic concentration",
+        "Different tenant base composition"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "50d28e58-262d-46c9-a7dd-c97986543877",
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42",
+      "observationType": "executive_summary",
+      "priority": "positive",
+      "title": "Stable Retail Performance",
+      "content": "KIP REIT delivered stable performance in FY2025 with 7.8% DPU growth to 6.80 sen, driven by resilient suburban retail demand and strong occupancy at 96.7%. Management fees increased in FY2025 (base 0.6%→0.8%, performance 1.0%→3.0%) but portfolio expansion continues.",
+      "summary": "7.8% DPU growth, 96.7% occupancy, expanded 18-property portfolio",
+      "keyFacts": [
+        {
+          "label": "DPU Growth",
+          "value": 7.8,
+          "unit": "%"
+        },
+        {
+          "label": "Occupancy",
+          "value": 96.7,
+          "unit": "%"
+        },
+        {
+          "label": "Properties",
+          "value": 18,
+          "unit": "total"
+        }
+      ],
+      "indicator": {
+        "icon": "trend_up",
+        "color": "green"
+      },
+      "relatedMetrics": [
+        {
+          "metricType": "dpu_growth_yoy",
+          "value": 7.8
+        },
+        {
+          "metricType": "occupancy_rate",
+          "value": 96.7
+        },
+        {
+          "metricType": "property_count",
+          "value": 18
+        }
+      ],
+      "relatedRisks": [],
+      "sourceDisplayIds": [
+        "KIP:364",
+        "KIP:97",
+        "KIP:101",
+        "KIP:42",
+        "KIP:57",
+        "KIP:58"
+      ],
+      "primaryCitation": "KIP:364"
+    },
+    {
+      "id": "9a962427-453c-4fdd-996c-2aaea4e5ed5d",
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42",
+      "observationType": "debt_sustainability",
+      "priority": "positive",
+      "title": "Conservative Leverage",
+      "content": "KIP REIT maintains conservative gearing at 39.88% with healthy interest coverage of 3.2x. Balanced debt profile with 45% fixed-rate provides interest rate stability despite expanded portfolio.",
+      "summary": "39.88% gearing, 3.2x coverage, balanced rate exposure",
+      "keyFacts": [
+        {
+          "label": "Gearing Ratio",
+          "value": 39.88,
+          "unit": "%"
+        },
+        {
+          "label": "Interest Coverage",
+          "value": 3.2,
+          "unit": "x"
+        }
+      ],
+      "indicator": {
+        "icon": "check",
+        "color": "green"
+      },
+      "relatedMetrics": [
+        {
+          "metricType": "gearing_ratio",
+          "value": 39.88
+        },
+        {
+          "metricType": "interest_coverage",
+          "value": 3.2
+        }
+      ],
+      "relatedRisks": [],
+      "sourceDisplayIds": [
+        "KIP:12",
+        "KIP:251",
+        "KIP:258",
+        "KIP:265"
+      ],
+      "primaryCitation": "KIP:258"
+    },
+    {
+      "id": "daabcc19-6f4e-42aa-8011-8070752c7b6e",
+      "entityId": "e099b394-ac05-548f-b618-dffd2593fa42",
+      "observationType": "portfolio_analysis",
+      "priority": "positive",
+      "title": "Diversified Portfolio Strategy",
+      "content": "KIP REIT operates 18 properties including 8 KIPMalls (neighborhood shopping centers), 6 other retail/commercial assets, and 5 industrial properties following the October 2020 mandate expansion. This diversification reduces sector concentration while maintaining defensive suburban retail focus.",
+      "summary": "18 properties: 8 KIPMalls + 6 Retail/Commercial + 5 Industrial",
+      "keyFacts": [
+        {
+          "label": "KIPMalls",
+          "value": 8,
+          "unit": "properties"
+        },
+        {
+          "label": "Retail/Commercial",
+          "value": 6,
+          "unit": "properties"
+        },
+        {
+          "label": "Industrial",
+          "value": 5,
+          "unit": "properties"
+        }
+      ],
+      "indicator": {
+        "icon": "check",
+        "color": "green"
+      },
+      "relatedMetrics": [
+        {
+          "metricType": "property_count",
+          "value": 18
+        }
+      ],
+      "relatedRisks": [],
+      "sourceDisplayIds": [
+        "KIP:42",
+        "KIP:52",
+        "KIP:61",
+        "KIP:70",
+        "KIP:71"
+      ],
+      "primaryCitation": "KIP:42"
+    }
+  ]
+}

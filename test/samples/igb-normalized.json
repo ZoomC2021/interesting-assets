@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-25T03:42:06.453Z",
+  "generatedAt": "2026-04-26T08:34:57.105Z",
   "entity": {
     "id": "aee77256-fd80-5951-bd18-44c67a93194e",
     "code": "5227.KL",
@@ -59,7 +59,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Financial Year Coverage",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -70,7 +70,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report published March 30, 2026",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -81,7 +81,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Listing History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -103,7 +103,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Portfolio Overview",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -114,195 +114,195 @@
       "source": "SouthkeyAnnouncement",
       "citation": "Southkey Mall Acquisition Announcement November 2025",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "379b5aaf-f31d-5810-89d1-294e619f0227",
       "displayId": "I:9",
-      "fact": "Combined valuation exceeding RM6.5 billion post-Southkey acquisition",
+      "fact": "Investment property fair value: RM8.38 billion (post-Southkey acquisition, as at 31 Dec 2025)",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - Total Assets",
+      "citation": "IGB REIT 2025 Annual Report - Investment Properties Fair Value",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "0883b32e-0515-5029-ac85-c60a1107fccd",
       "displayId": "I:10",
-      "fact": "Portfolio Properties: 3 premier malls (MVM, TGM, Southkey)",
+      "fact": "Total NLA: 4,185,035 sq ft (~4.19 million sq ft) — MVM 1,798,148 + TGM 839,118 + MVS ~1,547,769",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - Property Portfolio",
+      "citation": "IGB REIT 2025 Annual Report - Total Net Lettable Area (headline figure 4,185,035 sq ft)",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "26785f4a-d6e9-5643-a6fe-67e3c13cf5de",
       "displayId": "I:11",
-      "fact": "Total Asset Value: ~RM6.5 billion post-Southkey acquisition",
+      "fact": "Portfolio: 3 premier malls (MVM, TGM, MVS)",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - Investment Properties Valuation",
+      "citation": "IGB REIT 2025 Annual Report - Property Portfolio",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "c61daf29-ba10-5d34-8211-393459860b06",
       "displayId": "I:12",
-      "fact": "Portfolio Occupancy: ~100% across all properties",
-      "source": "Q42025",
-      "citation": "IGB REIT Q4 2025 Results - Occupancy Rate",
-      "url": "https://disclosure.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "fact": "Portfolio occupancy: MVM 99.8%, TGM 99.1%, MVS Mall 100% (as at Dec 2025)",
+      "source": "AR2025",
+      "citation": "IGB REIT 2025 Annual Report - Occupancy by Property",
+      "url": "https://www.igbreit.com.my",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "e739ad62-817b-5968-83e3-cbfe190ea484",
       "displayId": "I:13",
-      "fact": "2025 Total DPU: 11.56 sen",
+      "fact": "2024 Total DPU: 10.70 sen",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - Distribution Per Unit",
+      "citation": "IGB REIT 2025 Annual Report - Historical Distribution Per Unit FY2024",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "57423663-5950-5df1-873f-84c13fa39f84",
       "displayId": "I:14",
-      "fact": "DPU increased 11.4% YoY in 2025",
+      "fact": "2025 Total DPU: 11.75 sen",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - DPU Growth Analysis",
+      "citation": "IGB REIT 2025 Annual Report - Distribution Per Unit FY2025",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "587dd834-7aed-54d0-8734-2a14352eac21",
       "displayId": "I:15",
-      "fact": "Gearing Ratio: ~31% post-acquisition (Dec 2025)",
+      "fact": "DPU growth: +9.81% YoY (FY2024 10.70 sen to FY2025 11.75 sen)",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - Debt Metrics",
+      "citation": "IGB REIT 2025 Annual Report - DPU Growth Analysis",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "d9d4e81b-b5f8-5089-9d3d-80dea93c96a4",
       "displayId": "I:16",
-      "fact": "Gearing Ratio: ~22% (Dec 2024)",
+      "fact": "Borrowings-to-total-assets gearing ratio: 25.7% (Dec 2025 / FY2025)",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - Prior Year Debt Metrics",
+      "citation": "IGB REIT 2025 Annual Report - Debt Metrics FY2025",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "b19e8ba2-5ee5-5914-b880-a7b775d398ed",
       "displayId": "I:17",
-      "fact": "Interest Coverage: ~9.6x (strong coverage)",
+      "fact": "Borrowings-to-total-assets gearing ratio: 21.2% (Dec 2024 / FY2024)",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - Interest Coverage Ratio",
+      "citation": "IGB REIT 2025 Annual Report - Prior Year Debt Metrics FY2024",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "3bd798a0-536f-5229-bc3d-a5eddab06b7e",
       "displayId": "I:18",
-      "fact": "Revenue: RM705.1 million (FY2025)",
+      "fact": "Interest coverage ratio: ~9.0x (FY2025)",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - Revenue Statement",
+      "citation": "IGB REIT 2025 Annual Report - Interest Coverage Ratio FY2025",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "b406cf7e-293a-5164-845d-ce346460f468",
       "displayId": "I:19",
-      "fact": "Revenue increased 12.6% YoY in 2025",
+      "fact": "Revenue: RM705.066 million / ~RM705.1 million (FY2025)",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - Revenue Growth Analysis",
+      "citation": "IGB REIT 2025 Annual Report - Revenue Statement FY2025",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "0e079194-f461-5165-b124-ef0e81cd6a47",
       "displayId": "I:20",
-      "fact": "NPI: RM533.6 million (FY2025)",
+      "fact": "Revenue growth: +12.61% YoY (FY2024: RM626.1m to FY2025: RM705.1m)",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - Net Property Income",
+      "citation": "IGB REIT 2025 Annual Report - Revenue Growth Analysis",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "06876661-31d4-53cf-961f-d3bb7eb5a490",
       "displayId": "I:21",
-      "fact": "NPI increased 17.1% YoY in 2025",
+      "fact": "NPI: RM533.583 million / ~RM533.6 million (FY2025)",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - NPI Growth Analysis",
+      "citation": "IGB REIT 2025 Annual Report - Net Property Income FY2025",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "f8a7fc28-99d5-553c-a75b-515df5aee304",
       "displayId": "I:22",
-      "fact": "Market Cap: ~RM6.2 billion",
-      "source": "KLSE",
-      "citation": "KLSE Screener - Market Capitalization",
-      "url": "https://www.klsescreener.com/v2/stocks/5227",
-      "dateAccessed": "2026-04-25",
-      "timeSensitive": true,
+      "fact": "NPI growth: +17.09% YoY (FY2024: RM455.7m to FY2025: RM533.6m)",
+      "source": "AR2025",
+      "citation": "IGB REIT 2025 Annual Report - NPI Growth Analysis",
+      "url": "https://www.igbreit.com.my",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "64133110-282e-535c-bea3-09f82cf46351",
       "displayId": "I:23",
-      "fact": "Dividend Yield: ~6.27%",
-      "source": "KLSE",
-      "citation": "KLSE Screener - Dividend Yield Calculation",
-      "url": "https://www.klsescreener.com/v2/stocks/5227",
-      "dateAccessed": "2026-04-25",
-      "timeSensitive": true,
+      "fact": "Net profit: RM660.491 million / ~RM660.5 million (FY2025)",
+      "source": "AR2025",
+      "citation": "IGB REIT 2025 Annual Report - Net Profit FY2025",
+      "url": "https://www.igbreit.com.my",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "4a415548-8d0c-5f63-9cf5-b5b24dc8b76f",
       "displayId": "I:24",
-      "fact": "Manager: IGB REIT Management Sdn Bhd",
+      "fact": "Net profit growth: +13.92% YoY (FY2024: RM580.0m to FY2025: RM660.5m)",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - REIT Manager",
+      "citation": "IGB REIT 2025 Annual Report - Net Profit Growth FY2025",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "a472e2df-ba68-501b-b2b8-ad6100bf6bdf",
       "displayId": "I:25",
-      "fact": "Trustee: RHB Trustees Berhad",
+      "fact": "Market capitalisation: RM11.80 billion (as at 31 Dec 2025); ~RM12.3 billion at current market price (April 2026)",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - Trustee Information",
+      "citation": "IGB REIT 2025 Annual Report - Market Capitalisation as at 31 Dec 2025; current price from KLSE Screener",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
-      "timeSensitive": false,
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
@@ -312,19 +312,19 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Property Manager",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "cbac4583-9a75-5625-89ac-026f80bdca0e",
       "displayId": "I:27",
-      "fact": "Sponsor: IGB Berhad (~45.8% ownership)",
-      "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - Unitholding Structure",
-      "url": "https://www.igbreit.com.my",
+      "fact": "Dividend yield: ~4.12% (at current price RM2.85); Annual Report yield as at 31 Dec 2025 was 4.31% (at closing price RM2.73)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Dividend Yield Calculation at RM2.85; AR2025 year-end yield at RM2.73",
+      "url": "https://www.klsescreener.com/v2/stocks/5227",
       "dateAccessed": "2026-04-25",
-      "timeSensitive": false,
+      "timeSensitive": true,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
@@ -334,18 +334,18 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - Listed Companies",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "07785783-6a27-554d-9d9b-66f05cf6f6cf",
       "displayId": "I:29",
-      "fact": "Sector: Real Estate Investment Trusts (Retail Focus)",
-      "source": "BursaMalaysia",
-      "citation": "Bursa Malaysia - Sector Classification",
-      "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "fact": "Trustee: MTrustee Berhad (not RHB Trustees Berhad)",
+      "source": "AR2025",
+      "citation": "IGB REIT 2025 Annual Report - Trustee Information. Note: some earlier references incorrectly stated RHB Trustees Berhad; Annual Report confirms MTrustee Berhad.",
+      "url": "https://www.igbreit.com.my",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -356,7 +356,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Financial Calendar",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -367,7 +367,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - Shariah Compliant Securities List",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -378,7 +378,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Manager History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -389,7 +389,7 @@
       "source": "IGBBerhad",
       "citation": "IGB Berhad Corporate Structure",
       "url": "https://www.igb.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -400,7 +400,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Sponsor Relationship",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -411,7 +411,7 @@
       "source": "SouthkeyAnnouncement",
       "citation": "Southkey acquisition related party transaction",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -422,7 +422,7 @@
       "source": "SCMalaysia",
       "citation": "Securities Commission Guidelines on REITs",
       "url": "https://www.sc.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -433,7 +433,7 @@
       "source": "IGBBerhad",
       "citation": "IGB Berhad - Corporate History",
       "url": "https://www.igb.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -444,7 +444,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Board of Directors",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -455,7 +455,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Director Classification",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -466,7 +466,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Director Profile",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -477,7 +477,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Management Team",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -488,7 +488,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Management Profile",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -499,7 +499,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Management Team",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -510,7 +510,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Management Profile",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -521,7 +521,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Board Structure",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -532,7 +532,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia Listing Requirements - Board Composition",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -543,7 +543,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Board Committees",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -554,7 +554,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Governance Framework",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -565,7 +565,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Fee Structure",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -576,7 +576,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Fee Structure",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -587,7 +587,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Fee Structure",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -598,7 +598,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Fee Structure",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -609,7 +609,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - 5-Year DPU History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -620,7 +620,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Portfolio NLA",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -631,7 +631,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Property Classification",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -642,7 +642,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Geographic Distribution",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -653,7 +653,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Property Portfolio",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -664,7 +664,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Property Address",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -675,7 +675,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Independent Valuation",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -686,7 +686,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Occupancy by Property",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -697,7 +697,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Tenant Count",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -708,7 +708,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Property Portfolio",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -719,7 +719,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Property Address",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -730,7 +730,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Independent Valuation",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -741,7 +741,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Occupancy by Property",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -752,7 +752,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Tenant Count",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -763,7 +763,7 @@
       "source": "SouthkeyAnnouncement",
       "citation": "Southkey Mall Acquisition Announcement",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -774,7 +774,7 @@
       "source": "SouthkeyAnnouncement",
       "citation": "Southkey Mall Acquisition - Property Location",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -785,7 +785,7 @@
       "source": "SouthkeyAnnouncement",
       "citation": "Southkey acquisition consideration",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -796,7 +796,7 @@
       "source": "SouthkeyAnnouncement",
       "citation": "Southkey acquisition - occupancy at completion",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -807,7 +807,7 @@
       "source": "SouthkeyAnnouncement",
       "citation": "Southkey acquisition completion date",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -818,7 +818,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Portfolio Breakdown",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -829,7 +829,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Asset Valuation Summary",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -840,7 +840,7 @@
       "source": "JLL",
       "citation": "JLL Malaysia Retail Market Report 2025",
       "url": "https://www.jll.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -851,7 +851,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Portfolio Breakdown",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -862,7 +862,7 @@
       "source": "SouthkeyAnnouncement",
       "citation": "Southkey acquisition consideration RM1.215 billion",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -872,7 +872,7 @@
       "fact": "Southkey Strategic Value: Singapore corridor exposure",
       "source": "Kenanga",
       "citation": "Kenanga Research - Southkey acquisition note",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -883,7 +883,7 @@
       "source": "Q42025",
       "citation": "IGB REIT Q4 2024 Results - Property Occupancy",
       "url": "https://disclosure.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -894,7 +894,7 @@
       "source": "Q42025",
       "citation": "IGB REIT Q4 2024 Results - Property Occupancy",
       "url": "https://disclosure.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -905,7 +905,7 @@
       "source": "Q42025",
       "citation": "IGB REIT Q4 2024 Results - Portfolio Occupancy",
       "url": "https://disclosure.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -916,7 +916,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly Occupancy",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -927,7 +927,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly Occupancy",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -938,7 +938,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Portfolio Occupancy",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -949,7 +949,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly Occupancy",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -960,7 +960,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly Occupancy",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -971,7 +971,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Portfolio Occupancy",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -982,7 +982,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly Occupancy",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -993,7 +993,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly Occupancy",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1004,7 +1004,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Portfolio Occupancy",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1015,7 +1015,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly Occupancy",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1026,7 +1026,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly Occupancy",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1037,7 +1037,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Portfolio Occupancy",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1048,7 +1048,7 @@
       "source": "JLL",
       "citation": "JLL Malaysia Retail Market Analysis - Prime mall occupancy",
       "url": "https://www.jll.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1059,7 +1059,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Net Lettable Area",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1070,7 +1070,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Mall Positioning",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1081,7 +1081,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Major Tenants",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1092,7 +1092,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Top 10 Tenants",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1103,7 +1103,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Anchor Tenant Details",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1114,7 +1114,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Anchor Tenant Details",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1125,7 +1125,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Ancillary Facilities",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1136,7 +1136,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - International Brands",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1147,7 +1147,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Local Brand Tenants",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1158,7 +1158,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Fitness Tenant",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1169,7 +1169,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Net Lettable Area",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1180,7 +1180,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Mall Positioning",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1191,7 +1191,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Major Tenants",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1202,7 +1202,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Luxury Brands",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1213,7 +1213,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Luxury Fashion Tenants",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1224,7 +1224,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Jewelry Tenants",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1235,7 +1235,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Department Store Anchor",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1246,7 +1246,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Supermarket Tenant",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1257,7 +1257,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Lease Expiry Profile",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1268,7 +1268,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Lease Expiry Profile",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1279,7 +1279,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Lease Expiry Profile",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1290,7 +1290,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Weighted Lease Expiry",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1300,7 +1300,7 @@
       "fact": "Lease Expiry Analysis",
       "source": "Kenanga",
       "citation": "Kenanga Research - IGB REIT Lease Risk Analysis",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1310,7 +1310,7 @@
       "fact": "Elevated Concentration: MVM's 40.5% NLA up for renewal in 2026 presents significant leasing risk",
       "source": "Kenanga",
       "citation": "Kenanga Research - MVM Lease Expiry Risk",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1321,7 +1321,7 @@
       "source": "JLL",
       "citation": "JLL Malaysia - Rental Reversion Outlook",
       "url": "https://www.jll.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1332,7 +1332,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Tenant Retention History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1343,7 +1343,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Tenant Concentration Analysis",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1354,7 +1354,7 @@
       "source": "SouthkeyAnnouncement",
       "citation": "Southkey acquisition - tenant mix disclosure",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1365,7 +1365,7 @@
       "source": "TheEdge",
       "citation": "The Edge Malaysia - Southkey Mall tenant update",
       "url": "https://www.theedgemalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1376,7 +1376,7 @@
       "source": "SouthkeyAnnouncement",
       "citation": "Southkey acquisition - anchor tenant status",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1387,7 +1387,7 @@
       "source": "RAMRating",
       "citation": "RAM Rating - IGB REIT Tenant Credit Assessment",
       "url": "https://www.ram.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1398,7 +1398,7 @@
       "source": "RAMRating",
       "citation": "RAM Rating - IGB REIT Tenant Credit Assessment",
       "url": "https://www.ram.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1409,7 +1409,7 @@
       "source": "RAMRating",
       "citation": "RAM Rating - Southkey Tenant Credit Assessment",
       "url": "https://www.ram.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1420,7 +1420,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Valuation Methodology",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1431,29 +1431,29 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Debt Analysis",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "5705f618-299f-546f-a793-7dcc265440dc",
       "displayId": "I:129",
-      "fact": "Total Borrowings Dec 2024: RM0 (pre-Southkey)",
+      "fact": "Total borrowings Dec 2024: RM1,214.8m (RM1.2148b) — IGBRC MTN pre-Southkey",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - Prior Year Debt",
+      "citation": "IGB REIT 2025 Annual Report - Prior Year Debt Borrowings",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "be395776-60f9-5db6-87da-453fa235d278",
       "displayId": "I:130",
-      "fact": "Total Borrowings Dec 2025: New debt for acquisition",
+      "fact": "Total borrowings Dec 2025: RM2,247.524m (~RM2.25b) — IGBRC MTN + MVS MTN post-acquisition",
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Debt Post-Acquisition",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1464,7 +1464,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Interest Cover Ratio FY2025",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1475,7 +1475,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Interest Cover Trend",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1486,18 +1486,18 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Prior Year Structure",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "721c8d9b-59f0-525d-9a43-c959c81c5dce",
       "displayId": "I:134",
-      "fact": "Debt Structure Dec 2025: 100% fixed rate",
-      "source": "MTNAnnouncement",
-      "citation": "RM1.215B Tranche 2 MTN Terms - Fixed Rate Structure",
-      "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "fact": "Debt structure Dec 2025: Substantially fixed rate — MVS MTN Series 1 (RM200m) is floating based on KLIBOR; Series 2–4 (RM200m+RM200m+RM430m=RM830m) are fixed; IGBRC MTN also substantially fixed; blended coupon ~3.80% p.a.",
+      "source": "AR2025",
+      "citation": "IGB REIT 2025 Annual Report - MTN Terms and Debt Structure",
+      "url": "https://www.igbreit.com.my",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1507,29 +1507,29 @@
       "fact": "Debt Assessment: Moderate Risk from Elevated Gearing",
       "source": "PublicInvest",
       "citation": "Public Investment Bank - IGB REIT Debt Assessment",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "88d00449-fa74-54aa-8b36-fb0a41cb1122",
       "displayId": "I:136",
-      "fact": "Tranche 2 MTN: RM1.215 billion",
+      "fact": "IGBRC MTN Tranche 2: RM1.2148 billion (existing pre-Southkey debt, issued 2022)",
       "source": "MTNAnnouncement",
-      "citation": "RM1.215B Tranche 2 MTN Issuance Announcement",
+      "citation": "IGBRC MTN Tranche 2 Issuance Announcement (2022)",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "ebd87ba3-29f0-5b6b-85ea-a7b7d9ec468e",
       "displayId": "I:137",
-      "fact": "MTN Interest Rate: Fixed 4.49% p.a.",
+      "fact": "IGBRC MTN Tranche 2 interest rate: 4.49% p.a. fixed (applies to IGBRC MTN only; the MVS MTN has a different blended coupon of ~3.80% and includes one floating-rate series). Do NOT apply 4.49% to MVS MTN.",
       "source": "MTNAnnouncement",
-      "citation": "RM1.215B Tranche 2 MTN Terms - Interest Rate",
+      "citation": "IGBRC MTN Tranche 2 Terms - Interest Rate. Separate from MVS MTN.",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1540,7 +1540,7 @@
       "source": "MTNAnnouncement",
       "citation": "RM1.215B Tranche 2 MTN Terms - Fixed Rate Benefit",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1551,7 +1551,7 @@
       "source": "MTNAnnouncement",
       "citation": "RM1.215B Tranche 2 MTN Terms - Tenor",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1562,7 +1562,7 @@
       "source": "MTNAnnouncement",
       "citation": "RM1.215B Tranche 2 MTN - Use of Proceeds",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1573,7 +1573,7 @@
       "source": "SCMalaysia",
       "citation": "Securities Commission Guidelines on REITs - Gearing Limit",
       "url": "https://www.sc.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1584,7 +1584,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Gearing Analysis",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1595,7 +1595,7 @@
       "source": "SCMalaysia",
       "citation": "Securities Commission Guidelines on REITs - Financial Covenants",
       "url": "https://www.sc.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1606,7 +1606,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Covenant Compliance",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1617,7 +1617,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Encumbered Assets",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1627,7 +1627,7 @@
       "fact": "Gearing Increase Risk: Higher leverage risk post-Southkey",
       "source": "PublicInvest",
       "citation": "Public Investment Bank - Leverage Risk Assessment",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1638,7 +1638,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Cash Flow Analysis",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1649,7 +1649,7 @@
       "source": "MTNAnnouncement",
       "citation": "RM1.215B Tranche 2 MTN - Interest Rate Protection",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1660,7 +1660,7 @@
       "source": "RAMRating",
       "citation": "RAM Rating - IGB REIT Debt Maturity Profile",
       "url": "https://www.ram.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1671,7 +1671,7 @@
       "source": "MTNAnnouncement",
       "citation": "RM1.215B Tranche 2 MTN - Tenor Stability",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1682,7 +1682,7 @@
       "source": "MTNAnnouncement",
       "citation": "RM1.215B Tranche 2 MTN - Maturity Schedule",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1693,7 +1693,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Debt Service Coverage",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1704,7 +1704,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - FY2024 Interest Cover",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1715,7 +1715,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Interest Cover Analysis",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1726,7 +1726,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Interest Cover Analysis",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1737,7 +1737,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Interest Cover Trend",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1747,7 +1747,7 @@
       "fact": "Interest Cover Driver: Accretive acquisition",
       "source": "Kenanga",
       "citation": "Kenanga Research - Southkey Accretion Analysis",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1758,7 +1758,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Covenant Headroom",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1768,7 +1768,7 @@
       "fact": "Coverage Assessment: Substantial cushion even if earnings decline",
       "source": "PublicInvest",
       "citation": "Public Investment Bank - Interest Coverage Analysis",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1778,7 +1778,7 @@
       "fact": "Fixed Rate Strategy: Prudent - protects against rising rates",
       "source": "Kenanga",
       "citation": "Kenanga Research - IGB REIT Debt Strategy",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1788,7 +1788,7 @@
       "fact": "Gearing Level Assessment: Elevated but within limits",
       "source": "PublicInvest",
       "citation": "Public Investment Bank - Gearing Assessment",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1798,7 +1798,7 @@
       "fact": "Acquisition Timing Risk: Late-cycle expansion risk",
       "source": "CIMB",
       "citation": "CIMB Research - Malaysian Retail REIT Outlook",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1809,7 +1809,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Debt Serviceability",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1820,7 +1820,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Historical DPU",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1831,7 +1831,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - 2021 Performance Context",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1842,7 +1842,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Historical DPU",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1853,7 +1853,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - DPU Growth 2022",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1864,7 +1864,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - 2022 Performance",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1875,7 +1875,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Historical DPU",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1886,7 +1886,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - DPU Growth 2023",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1897,29 +1897,29 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - 2023 Performance",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "d6e5bc48-b7a4-54d9-891b-e29dc9d7e275",
       "displayId": "I:172",
-      "fact": "2024 DPU: 10.38 sen",
+      "fact": "Total borrowings Dec 2024: RM1,214.8m (RM1.2148 billion) — IGBRC MTN Tranche 2",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - Historical DPU",
+      "citation": "IGB REIT 2025 Annual Report - Borrowings FY2024",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "734bd1b4-7ccb-52bc-8e84-480cd9446f5d",
       "displayId": "I:173",
-      "fact": "2024 DPU Growth: +1.1%",
+      "fact": "Total borrowings Dec 2025: RM2,247.524m (~RM2.25 billion) — IGBRC MTN + MVS MTN Series 1–4",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - DPU Growth 2024",
+      "citation": "IGB REIT 2025 Annual Report - Borrowings FY2025",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1930,7 +1930,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - 2024 Performance",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1941,7 +1941,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - DPU Growth Drivers",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1952,7 +1952,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - DPU CAGR Calculation",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1963,18 +1963,18 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly DPU",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "c9c21022-d3bb-5989-803d-23ebbe3c68af",
       "displayId": "I:178",
-      "fact": "Q1 2025 % of Annual: 27.6%",
+      "fact": "Debt structure: Substantially fixed-rate — MVS MTN Series 2–4 are fixed; Series 1 (RM200m) is floating based on KLIBOR. IGBRC MTN also substantially fixed. Debt is NOT 100% fixed-rate.",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - DPU Seasonality",
+      "citation": "IGB REIT 2025 Annual Report - MTN Terms and Debt Structure",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -1985,51 +1985,51 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Q1 Seasonal Factors",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "cb5f303f-7d84-58cf-9263-3e749a15d0af",
       "displayId": "I:180",
-      "fact": "Q2 2025 DPU: 2.82 sen",
+      "fact": "MVS MTN total debt financing: RM1.030 billion (Series 1: RM200m + Series 2: RM200m + Series 3: RM200m + Series 4: RM430m)",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - Quarterly DPU",
+      "citation": "IGB REIT 2025 Annual Report - MVS MTN Issuance Details",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "56a552a9-1785-5b9a-bef6-b2716f1ab9ce",
       "displayId": "I:181",
-      "fact": "Q2 2025 % of Annual: 24.4%",
+      "fact": "MVS MTN blended coupon: ~3.80% p.a. (Series 1 floating KLIBOR; Series 2–4 fixed). Separate from IGBRC MTN Tranche 2 which carries 4.49% fixed coupon.",
       "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - DPU Seasonality",
+      "citation": "IGB REIT 2025 Annual Report - MVS MTN Terms",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "53dbdbd9-ff17-5e14-806c-ebe5a79ffed8",
       "displayId": "I:182",
-      "fact": "Q2 Assessment: Standard quarter",
-      "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - Q2 Performance",
-      "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "fact": "Equity financing for Southkey acquisition: RM1.65 billion (699.15 million new units issued)",
+      "source": "SouthkeyAnnouncement",
+      "citation": "Southkey Acquisition Announcement - Equity Financing Component",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
     {
       "id": "a599bd29-e1b0-54a1-b968-0f866d81e86f",
       "displayId": "I:183",
-      "fact": "Q3 2025 DPU: 2.77 sen",
-      "source": "AR2025",
-      "citation": "IGB REIT 2025 Annual Report - Quarterly DPU",
-      "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "fact": "New units issued for Southkey acquisition: 699.15 million units at RM2.36 per unit",
+      "source": "SouthkeyAnnouncement",
+      "citation": "Southkey Acquisition Announcement - Rights/Placement Details",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2040,7 +2040,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - DPU Seasonality",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2051,7 +2051,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Q3 Seasonal Factors",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2062,7 +2062,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly DPU",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2073,7 +2073,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - DPU Seasonality",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2084,7 +2084,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Q4 DPU Components",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2095,7 +2095,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Total Annual DPU",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2106,7 +2106,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - DPU Record",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2117,7 +2117,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Prior Year Distributions",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2128,7 +2128,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Total Distributions",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2139,7 +2139,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Distribution Growth",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2150,7 +2150,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Payout Ratio 2024",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2161,7 +2161,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Payout Ratio 2025",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2172,7 +2172,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Payout Ratio Trend",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2183,7 +2183,7 @@
       "source": "ChartNexus",
       "citation": "ChartNexus - Historical Yield Calculation",
       "url": "https://www.chartnexus.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2205,7 +2205,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Distribution Coverage",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2216,7 +2216,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - NPI Supporting Distributions",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2227,7 +2227,7 @@
       "source": "SCMalaysia",
       "citation": "Securities Commission Guidelines - Distribution Requirements",
       "url": "https://www.sc.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2238,7 +2238,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Retained Earnings",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2249,7 +2249,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Earnings Distribution",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2260,7 +2260,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Working Capital Management",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2271,7 +2271,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Cash Flow Statement",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2281,7 +2281,7 @@
       "fact": "2026 Lease Renewals Risk: 40.5% MVM NLA expiry could pressure income",
       "source": "Kenanga",
       "citation": "Kenanga Research - 2026 Lease Expiry Impact",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2291,7 +2291,7 @@
       "fact": "Economic Downturn Risk: Retail discretionary spend vulnerable",
       "source": "CIMB",
       "citation": "CIMB Research - Retail REIT Sensitivity Analysis",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2302,7 +2302,7 @@
       "source": "MTNAnnouncement",
       "citation": "Fixed rate debt protects DPU from rate changes",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2313,7 +2313,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Southkey Accretion",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2324,7 +2324,7 @@
       "source": "RAMRating",
       "citation": "RAM Rating - Tenant Concentration Assessment",
       "url": "https://www.ram.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2335,7 +2335,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - 5-Year DPU History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2345,7 +2345,7 @@
       "fact": "Current Coverage Assessment: Good at ~90% payout",
       "source": "PublicInvest",
       "citation": "Public Investment Bank - Distribution Sustainability",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2355,7 +2355,7 @@
       "fact": "Forward Outlook Assessment: Cautious due to 2026 lease expiry headwind",
       "source": "Kenanga",
       "citation": "Kenanga Research - IGB REIT Outlook 2026",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2376,7 +2376,7 @@
       "fact": "Growth Potential Assessment: Positive from Southkey full-year contribution 2026",
       "source": "Kenanga",
       "citation": "Kenanga Research - 2026 DPU Growth Outlook",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2387,7 +2387,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Sustainability Factors",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2397,7 +2397,7 @@
       "fact": "DPU Monitoring Required: Elevated lease expiry in 2026 warrants monitoring",
       "source": "PublicInvest",
       "citation": "Public Investment Bank - 2026 Monitoring Points",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2408,7 +2408,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - 5-Year Revenue History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2419,7 +2419,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - 5-Year NPI History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2430,7 +2430,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Margin History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2441,7 +2441,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - 5-Year Revenue History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2452,7 +2452,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - 5-Year NPI History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2463,7 +2463,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Margin History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2474,7 +2474,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - 5-Year Revenue History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2485,7 +2485,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - 5-Year NPI History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2496,7 +2496,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Margin History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2507,7 +2507,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - 5-Year Revenue History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2518,7 +2518,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - 5-Year NPI History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2529,7 +2529,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Margin History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2540,7 +2540,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Margin Analysis",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2551,7 +2551,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Margin Improvement",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2562,7 +2562,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Operating Expense 2024",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2573,7 +2573,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Operating Expense 2025",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2584,7 +2584,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Expense Analysis",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2595,7 +2595,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Cost Ratio",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2606,7 +2606,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Cost Ratio",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2617,7 +2617,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Efficiency Metrics",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2628,7 +2628,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Operating Leverage",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2639,7 +2639,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Operating Leverage",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2649,7 +2649,7 @@
       "fact": "Operating Leverage Driver: Scale benefits",
       "source": "PublicInvest",
       "citation": "Public Investment Bank - Operating Leverage Analysis",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2660,7 +2660,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Revenue Density",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2671,7 +2671,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Revenue Density",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2682,7 +2682,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Revenue Density Analysis",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2693,7 +2693,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly Revenue",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2704,7 +2704,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly NPI",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2715,7 +2715,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly Revenue",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2726,7 +2726,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly NPI",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2737,7 +2737,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly Revenue",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2748,7 +2748,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly NPI",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2759,7 +2759,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly Revenue",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2770,7 +2770,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Quarterly NPI",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2781,7 +2781,7 @@
       "source": "SouthkeyAnnouncement",
       "citation": "Southkey acquisition completion - November 2025",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2792,7 +2792,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Q4 Revenue Analysis",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2803,7 +2803,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Revenue Growth Assessment",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2814,7 +2814,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - NPI Growth Assessment",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2824,7 +2824,7 @@
       "fact": "Margin Expansion Driver: Operating leverage",
       "source": "PublicInvest",
       "citation": "Public Investment Bank - Margin Analysis",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2835,7 +2835,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Per Unit Analysis",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2846,7 +2846,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Accretion Analysis",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2857,7 +2857,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Statement of Financial Position",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2868,7 +2868,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Asset Growth",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2879,7 +2879,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Investment Property Growth",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2890,7 +2890,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - New Debt",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2901,7 +2901,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Net Assets",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2912,7 +2912,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Net Assets Trend",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2934,7 +2934,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - NAV Analysis",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2945,7 +2945,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - M-REIT Market Statistics",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2956,7 +2956,7 @@
       "source": "MRMA",
       "citation": "Malaysian REIT Managers Association - Market Overview",
       "url": "https://www.mrma.org.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2967,7 +2967,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - Listed REITs Count",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2978,7 +2978,7 @@
       "source": "MRMA",
       "citation": "Malaysian REIT Managers Association - Sector Analysis",
       "url": "https://www.mrma.org.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -2989,7 +2989,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - REIT Sector Breakdown",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3000,7 +3000,7 @@
       "source": "MRMA",
       "citation": "Malaysian REIT Managers Association - Sector Diversification",
       "url": "https://www.mrma.org.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3011,7 +3011,7 @@
       "source": "SCMalaysia",
       "citation": "Securities Commission Malaysia - REIT Guidelines",
       "url": "https://www.sc.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3022,7 +3022,7 @@
       "source": "MRMA",
       "citation": "Malaysian REIT Managers Association - Regulatory Environment",
       "url": "https://www.mrma.org.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3033,7 +3033,7 @@
       "source": "SCMalaysia",
       "citation": "Securities Commission Guidelines - Distribution Requirements",
       "url": "https://www.sc.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3044,7 +3044,7 @@
       "source": "SCMalaysia",
       "citation": "Securities Commission Guidelines - REIT Tax Treatment",
       "url": "https://www.sc.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3055,7 +3055,7 @@
       "source": "TheEdge",
       "citation": "The Edge Malaysia - Consumer Sentiment Index 2025",
       "url": "https://www.theedgemalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3065,7 +3065,7 @@
       "fact": "Retail Traffic Dependency: Traffic-dependent",
       "source": "CIMB",
       "citation": "CIMB Research - Retail REIT Traffic Analysis",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3076,7 +3076,7 @@
       "source": "TheEdge",
       "citation": "The Edge Malaysia - E-commerce vs Retail Analysis",
       "url": "https://www.theedgemalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3087,7 +3087,7 @@
       "source": "JLL",
       "citation": "JLL Malaysia - Retail Experience vs E-commerce",
       "url": "https://www.jll.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3098,7 +3098,7 @@
       "source": "TheEdge",
       "citation": "The Edge Malaysia - Malaysia Tourism Recovery 2025",
       "url": "https://www.theedgemalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3108,7 +3108,7 @@
       "fact": "TGM Tourism Benefit: Benefit to luxury",
       "source": "Kenanga",
       "citation": "Kenanga Research - Tourism Impact on Luxury Retail",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3119,7 +3119,7 @@
       "source": "JLL",
       "citation": "JLL Malaysia - Retail Supply Pipeline",
       "url": "https://www.jll.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3129,7 +3129,7 @@
       "fact": "MVM/TGM Scarcity Value: Scarcity value",
       "source": "Kenanga",
       "citation": "Kenanga Research - Prime Retail Scarcity",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3140,7 +3140,7 @@
       "source": "JLL",
       "citation": "JLL Malaysia - Rental Growth Forecast",
       "url": "https://www.jll.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3150,7 +3150,7 @@
       "fact": "Rental Growth Outlook: Steady growth expected",
       "source": "Kenanga",
       "citation": "Kenanga Research - Retail Rental Outlook",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3161,7 +3161,7 @@
       "source": "JLL",
       "citation": "JLL Malaysia - Experiential Retail Trends",
       "url": "https://www.jll.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3172,7 +3172,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Experiential Offerings",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3183,7 +3183,7 @@
       "source": "TheEdge",
       "citation": "The Edge Malaysia - Retail Omni-channel Trends",
       "url": "https://www.theedgemalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3194,7 +3194,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Tenant Evolution",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3205,7 +3205,7 @@
       "source": "JLL",
       "citation": "JLL Malaysia - Luxury Retail Resilience",
       "url": "https://www.jll.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3215,7 +3215,7 @@
       "fact": "TGM Luxury Positioning: Well-positioned",
       "source": "Kenanga",
       "citation": "Kenanga Research - TGM Luxury Analysis",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3226,7 +3226,7 @@
       "source": "JLL",
       "citation": "JLL Malaysia - F&B Retail Growth",
       "url": "https://www.jll.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3237,7 +3237,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - F&B Mix",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3248,7 +3248,7 @@
       "source": "TheEdge",
       "citation": "The Edge Malaysia - BNM OPR Rate",
       "url": "https://www.theedgemalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3259,7 +3259,7 @@
       "source": "TheEdge",
       "citation": "The Edge Malaysia - Interest Rate Outlook",
       "url": "https://www.theedgemalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3270,7 +3270,7 @@
       "source": "MTNAnnouncement",
       "citation": "Fixed rate debt protects from OPR changes",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3281,7 +3281,7 @@
       "source": "JLL",
       "citation": "JLL Malaysia - Cap Rate Trends",
       "url": "https://www.jll.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3292,7 +3292,7 @@
       "source": "JLL",
       "citation": "JLL Malaysia - Prime Retail Cap Rates",
       "url": "https://www.jll.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3302,7 +3302,7 @@
       "fact": "Investor Yield Demand: Elevated",
       "source": "Kenanga",
       "citation": "Kenanga Research - Investor Yield Requirements",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3368,7 +3368,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - Pavilion REIT Profile",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3379,7 +3379,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - KLCC REIT Profile",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3390,7 +3390,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - Pavilion Portfolio",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3401,7 +3401,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - KLCC Portfolio",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3500,7 +3500,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Market Position",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3511,7 +3511,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - Pavilion Market Cap",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3522,7 +3522,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - KLCC Market Cap",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3533,7 +3533,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Positioning",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3544,7 +3544,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - Pavilion Positioning",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3555,7 +3555,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - KLCC Positioning",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3566,7 +3566,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Growth Strategy",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3577,7 +3577,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - Pavilion Profile",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3588,7 +3588,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - KLCC Profile",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3632,7 +3632,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Geographic Spread",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3643,7 +3643,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - Pavilion Geography",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3654,7 +3654,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - Pavilion Classification",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3665,7 +3665,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - KLCC Classification",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3676,7 +3676,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - Sunway Classification",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3731,7 +3731,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - Axis Classification",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3786,7 +3786,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - Atrium Classification",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3841,7 +3841,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - REIT Market Cap Rankings",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3852,7 +3852,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Unique Geography",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3874,7 +3874,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Occupancy Leadership",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3885,7 +3885,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Growth History",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3895,7 +3895,7 @@
       "fact": "IGB REIT Gearing Weakness: Higher than peers post-Southkey",
       "source": "PublicInvest",
       "citation": "Public Investment Bank - Peer Comparison",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3906,7 +3906,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Geographic Concentration",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3916,7 +3916,7 @@
       "fact": "IGB REIT 2026 Risk: Elevated renewal risk",
       "source": "Kenanga",
       "citation": "Kenanga Research - Peer Risk Comparison",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3927,7 +3927,7 @@
       "source": "Q42025",
       "citation": "IGB REIT Q4 2025 Results",
       "url": "https://disclosure.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3938,7 +3938,7 @@
       "source": "SouthkeyAnnouncement",
       "citation": "Southkey Mall Acquisition",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3949,7 +3949,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia - IGB REIT Announcements",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3960,7 +3960,7 @@
       "source": "IGBIR",
       "citation": "IGB REIT IR Website",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3982,7 +3982,7 @@
       "source": "BursaMalaysia",
       "citation": "Bursa Malaysia",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -3993,7 +3993,7 @@
       "source": "TheEdge",
       "citation": "The Edge Malaysia",
       "url": "https://www.theedgemalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -4004,7 +4004,7 @@
       "source": "TheStar",
       "citation": "The Star Business",
       "url": "https://www.thestar.com.my/business",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -4014,7 +4014,7 @@
       "fact": "Kenanga Research Report",
       "source": "Kenanga",
       "citation": "Kenanga Research",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -4024,7 +4024,7 @@
       "fact": "Public Investment Bank Research",
       "source": "PublicInvest",
       "citation": "Public Investment Bank",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -4034,7 +4034,7 @@
       "fact": "CIMB Research Report",
       "source": "CIMB",
       "citation": "CIMB Research",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -4045,7 +4045,7 @@
       "source": "EdgeProp",
       "citation": "EdgeProp.my",
       "url": "https://www.edgeprop.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -4056,7 +4056,7 @@
       "source": "SCMalaysia",
       "citation": "SC Malaysia",
       "url": "https://www.sc.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -4067,7 +4067,7 @@
       "source": "MRMA",
       "citation": "MRMA",
       "url": "https://www.mrma.org.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -4078,7 +4078,7 @@
       "source": "RAMRating",
       "citation": "RAM Rating",
       "url": "https://www.ram.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -4089,7 +4089,7 @@
       "source": "JLL",
       "citation": "JLL Malaysia",
       "url": "https://www.jll.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -4100,7 +4100,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Disclaimer",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -4111,7 +4111,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Forward Looking Statement",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -4122,7 +4122,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Data Accuracy Notice",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -4144,7 +4144,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Conflict Notice",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -4155,7 +4155,7 @@
       "source": "SCMalaysia",
       "citation": "SC Guidelines on Research Reports",
       "url": "https://www.sc.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -4166,7 +4166,7 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Professional Advice",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     },
@@ -4177,14 +4177,14 @@
       "source": "AR2025",
       "citation": "IGB REIT 2025 Annual Report - Copyright Notice",
       "url": "https://www.igbreit.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e"
     }
   ],
   "metrics": [
     {
-      "id": "7f10811d-64e4-499d-9b80-0b1700c39a27",
+      "id": "7d4de188-e99d-4012-8b5d-bf4cdc94bb27",
       "metricType": "portfolio_size",
       "value": 3,
       "unit": "properties",
@@ -4202,7 +4202,7 @@
       ]
     },
     {
-      "id": "cfb36bd1-f634-4237-be1d-b580123dc1a8",
+      "id": "42170d1d-df02-490d-8348-af4cec218ff8",
       "metricType": "total_assets",
       "value": 6500,
       "unit": "RM million",
@@ -4218,7 +4218,7 @@
       ]
     },
     {
-      "id": "5f4320f1-6b04-44d8-9709-1ffbb198f856",
+      "id": "13d3e5d4-dba7-4375-95e1-8fb5d2ff5f20",
       "metricType": "property_count",
       "value": 3,
       "unit": "properties",
@@ -4233,7 +4233,7 @@
       ]
     },
     {
-      "id": "29d522a3-05f1-4c5a-b78e-771709f0c475",
+      "id": "d783a1ea-8091-4e8f-bb25-bea58de5968d",
       "metricType": "net_lettable_area",
       "value": 4500000,
       "unit": "sq ft",
@@ -4248,7 +4248,7 @@
       ]
     },
     {
-      "id": "249ec55d-200c-4989-aa0f-06aa306806e7",
+      "id": "518c9c57-a323-43ee-ad1d-521cf6da21d9",
       "metricType": "geographic_concentration",
       "value": 86,
       "unit": "%",
@@ -4263,7 +4263,7 @@
       ]
     },
     {
-      "id": "600f5588-e0c1-4b9e-a846-2998140a481e",
+      "id": "096bac6a-cfcf-4717-b383-e6e941fb109b",
       "metricType": "gross_revenue",
       "value": 705.1,
       "unit": "RM million",
@@ -4279,7 +4279,7 @@
       ]
     },
     {
-      "id": "a7d3be07-e684-49ce-b53a-a79769896130",
+      "id": "46f8fbb9-b648-466c-a371-ec6f45a56937",
       "metricType": "net_property_income",
       "value": 533.6,
       "unit": "RM million",
@@ -4295,7 +4295,7 @@
       ]
     },
     {
-      "id": "c5d8135b-1bfb-4b26-80d9-09960353c41d",
+      "id": "ee651e45-e831-4f03-bf5f-9f162ebcce68",
       "metricType": "nav_per_unit",
       "value": 1.4,
       "unit": "RM",
@@ -4311,7 +4311,7 @@
       ]
     },
     {
-      "id": "453ff3a7-5852-4fa5-86e9-cc0b6db3a45d",
+      "id": "a0bb838f-5219-4ba7-94b0-8cfacef34267",
       "metricType": "market_cap",
       "value": 6200,
       "unit": "RM million",
@@ -4326,7 +4326,7 @@
       ]
     },
     {
-      "id": "fa7ad2be-36a3-4c21-aea8-adf10ef172dd",
+      "id": "4972a93e-5889-4338-8353-0f0be728cb19",
       "metricType": "dpu",
       "value": 11.56,
       "unit": "sen",
@@ -4341,7 +4341,7 @@
       ]
     },
     {
-      "id": "a03ce654-2b98-4bb9-a28c-d26250995f24",
+      "id": "ac1deeaf-49dd-4348-8df7-93fa3afe536a",
       "metricType": "dpu_growth_yoy",
       "value": 11.4,
       "unit": "%",
@@ -4356,7 +4356,7 @@
       ]
     },
     {
-      "id": "04cf5c22-4389-4c73-97e7-853b62158593",
+      "id": "bda092b4-650f-4bb0-b4ea-cd3332632b3e",
       "metricType": "dividend_yield_market",
       "value": 6.27,
       "unit": "%",
@@ -4371,7 +4371,7 @@
       ]
     },
     {
-      "id": "b46a9a1b-857c-4e6f-bf76-292c2cfc8b86",
+      "id": "082042ff-ac98-465a-9cbf-2b6984eb8e91",
       "metricType": "payout_ratio",
       "value": 90,
       "unit": "%",
@@ -4387,7 +4387,7 @@
       ]
     },
     {
-      "id": "267732b1-afe4-40c2-935b-15f8793050b4",
+      "id": "331ce126-c461-4715-b949-10a6e9b503d3",
       "metricType": "gearing_ratio",
       "value": 31,
       "unit": "%",
@@ -4402,7 +4402,7 @@
       ]
     },
     {
-      "id": "d46dc038-4dba-430b-a5b0-c0d23e972cf7",
+      "id": "d0ff48fd-c497-4765-9574-b7d396506ffc",
       "metricType": "interest_coverage",
       "value": 9.6,
       "unit": "x",
@@ -4417,7 +4417,7 @@
       ]
     },
     {
-      "id": "54f9231e-916e-4481-83c6-ede23c54c07b",
+      "id": "9c9dee21-b791-4701-8918-2fe67f483d0c",
       "metricType": "total_borrowings",
       "value": 1215,
       "unit": "RM million",
@@ -4432,7 +4432,7 @@
       ]
     },
     {
-      "id": "2b94bac4-dc04-4360-97cc-439628a33d43",
+      "id": "f92fc9ee-eb74-47f1-b739-ee4394305e9c",
       "metricType": "fixed_rate_debt_pct",
       "value": 100,
       "unit": "%",
@@ -4447,7 +4447,7 @@
       ]
     },
     {
-      "id": "6015caa5-3353-4ae3-ac86-f9d864c6826e",
+      "id": "3e06f885-255c-41c7-a771-8a55fbd1ecbf",
       "metricType": "floating_rate_debt_pct",
       "value": 0,
       "unit": "%",
@@ -4462,7 +4462,7 @@
       ]
     },
     {
-      "id": "0b1310ed-8cc1-4019-8dc0-c8312d5a9f54",
+      "id": "0f3007b9-77ba-485e-9336-75c8040328b1",
       "metricType": "wacd",
       "value": 4.49,
       "unit": "%",
@@ -4477,7 +4477,7 @@
       ]
     },
     {
-      "id": "23a200e2-8b99-45df-b7f0-b053478ad3a8",
+      "id": "9e9f5844-e2f3-442f-bb94-b07e4611d771",
       "metricType": "occupancy_rate",
       "value": 100,
       "unit": "%",
@@ -4492,7 +4492,7 @@
       ]
     },
     {
-      "id": "0d6ba3fd-22fb-428b-a862-e3df168ebe38",
+      "id": "e8a1a222-5304-4920-82e0-ef29e4070a8c",
       "metricType": "wale_years",
       "value": 2.5,
       "unit": "years",
@@ -4507,7 +4507,7 @@
       ]
     },
     {
-      "id": "9b0aaa04-0685-4f4d-952c-d652e4e19758",
+      "id": "d2577f37-87ff-4ef0-9a8a-ee5bcc60d942",
       "metricType": "tenant_count",
       "value": 630,
       "unit": "tenants",
@@ -4523,7 +4523,7 @@
       ]
     },
     {
-      "id": "8be6641c-a200-44da-9541-807b8c638861",
+      "id": "4ea54494-cd5e-472c-b253-89bd0076d5b3",
       "metricType": "rental_reversion",
       "value": 2,
       "unit": "%",
@@ -4538,7 +4538,7 @@
       ]
     },
     {
-      "id": "1689e175-d9cd-4824-8582-91c1ceca71eb",
+      "id": "fd2f561f-532a-4481-a78b-723c88a1c4b4",
       "metricType": "npi_margin",
       "value": 75.7,
       "unit": "%",
@@ -4554,7 +4554,7 @@
       ]
     },
     {
-      "id": "03d7f384-5e7e-4177-bc3c-8d6ff46c0209",
+      "id": "ce63e5c2-313c-4d23-aa60-e2cb22e38de7",
       "metricType": "investment_properties",
       "value": 6500,
       "unit": "RM million",
@@ -4569,7 +4569,7 @@
       ]
     },
     {
-      "id": "42796058-6661-437c-a30f-033e308c5faa",
+      "id": "87a7ee16-31ed-4b7b-a279-333ac40c892b",
       "metricType": "share_price",
       "value": 1.84,
       "unit": "RM",
@@ -4584,7 +4584,7 @@
       ]
     },
     {
-      "id": "a9b61681-ce2e-43ff-babb-3110056598d3",
+      "id": "f0ba7a92-f0fc-45fa-a4f3-944c2ac12bed",
       "metricType": "total_borrowings",
       "value": 1215,
       "unit": "RM million",
@@ -4599,7 +4599,7 @@
       ]
     },
     {
-      "id": "864d0ea1-7302-43d6-b67a-35352c11fb70",
+      "id": "cc23f66b-fd2d-4629-9775-166552c9f87e",
       "metricType": "lease_renewal_rate",
       "value": 28.5,
       "unit": "% expiring",
@@ -4614,7 +4614,7 @@
       ]
     },
     {
-      "id": "97c98c49-6f3c-46c8-9f63-9467013ab4e0",
+      "id": "8f8b05e3-8f1a-4ed6-939f-ff86eb701847",
       "metricType": "gearing_ratio",
       "value": 0,
       "unit": "% unencumbered",
@@ -4629,7 +4629,7 @@
       ]
     },
     {
-      "id": "66b5237e-a332-4aaf-829e-56cfc48eb0fa",
+      "id": "80a862ee-d69b-4a6d-bbe6-0f980e2d70a8",
       "metricType": "price_to_book",
       "value": 0.95,
       "unit": "x",
@@ -4645,7 +4645,7 @@
       ]
     },
     {
-      "id": "ff3044e9-9e40-4e65-81bc-79838d51a556",
+      "id": "26dc7ee9-f1f8-41b8-bf59-0d1eb3dd050b",
       "metricType": "premium_discount_to_nav",
       "value": -5,
       "unit": "%",
@@ -4663,7 +4663,7 @@
   ],
   "timeSeries": [
     {
-      "id": "c4a059f5-5a9e-4340-86b5-bc2c99b2f890",
+      "id": "5092163a-f67b-4f5a-9d60-3884e5547029",
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e",
       "metricType": "dpu",
       "frequency": "annual",
@@ -4709,7 +4709,7 @@
       ]
     },
     {
-      "id": "5c50bac9-b5de-46dc-88f1-9e105a9c9efa",
+      "id": "b284a5b3-f248-45a8-8ce0-3987bf236037",
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e",
       "metricType": "gross_revenue",
       "frequency": "annual",
@@ -4755,7 +4755,7 @@
       ]
     },
     {
-      "id": "609258ad-5c4e-4cfb-a279-2bf797c51528",
+      "id": "3eba4a0f-ae0a-434a-a4af-d18877ca6cca",
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e",
       "metricType": "net_property_income",
       "frequency": "annual",
@@ -4801,7 +4801,7 @@
       ]
     },
     {
-      "id": "8da4c86f-d387-4e62-83c1-2593e8a7147a",
+      "id": "c5f294ee-5cc5-4859-a483-9ac57f8fe50f",
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e",
       "metricType": "gearing_ratio",
       "frequency": "annual",
@@ -4841,7 +4841,7 @@
       ]
     },
     {
-      "id": "7b334e6e-374a-456a-94b9-d2c56eee067b",
+      "id": "bcfd7569-8be8-459b-8e0c-ecb81964e5e2",
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e",
       "metricType": "occupancy_rate",
       "frequency": "annual",
@@ -4882,14 +4882,14 @@
     }
   ],
   "riskAssessment": {
-    "id": "9bed2da5-ecbf-4a60-bc85-624fe2d54f7e",
+    "id": "b8b531e3-6f0c-42a3-be21-f7215d9144c2",
     "entityId": "aee77256-fd80-5951-bd18-44c67a93194e",
     "assessmentDate": "2026-04-25",
     "overallRiskRating": "moderate",
     "overallScore": 2.5,
     "riskFactors": [
       {
-        "id": "4769b93a-1cd6-4b2c-9e99-784179e67139",
+        "id": "c2608db3-fbef-4eb9-aa4a-12958e5f0cb5",
         "category": "concentration",
         "severity": "medium",
         "title": "Geographic Concentration",
@@ -4933,7 +4933,7 @@
         ]
       },
       {
-        "id": "5a7ed394-39c7-4287-a43e-72fea3cce746",
+        "id": "ac86216b-ea66-418f-9ce3-3e14c5ef469f",
         "category": "interest_rate",
         "severity": "low",
         "title": "Fixed-Rate Debt Protection",
@@ -4980,7 +4980,7 @@
         ]
       },
       {
-        "id": "c21659ca-2542-4df3-a754-4acafac00e0c",
+        "id": "91265ba6-8eed-4e82-8e2c-d8fb9484dfe1",
         "category": "governance",
         "severity": "medium",
         "title": "Related Party Considerations",
@@ -5029,7 +5029,7 @@
         ]
       },
       {
-        "id": "956ae899-39c9-43a7-afc1-84e3434576ed",
+        "id": "9ccf1c59-21ce-4dc5-bb9c-930299aab8e9",
         "category": "transparency",
         "severity": "low",
         "title": "Strong Disclosure Standards",
@@ -5065,7 +5065,7 @@
         ]
       },
       {
-        "id": "4ac242c5-25c8-410b-ab98-e005f8b33053",
+        "id": "788b5f3a-75a2-456a-8f45-561b8d8bd955",
         "category": "tenant_rollover",
         "severity": "high",
         "title": "2026 Lease Expiry Concentration",
@@ -5122,7 +5122,7 @@
         ]
       },
       {
-        "id": "596f5da3-deea-4d07-82d8-d56878a78523",
+        "id": "86045483-5289-4898-8f48-29090c577cd3",
         "category": "governance",
         "severity": "low",
         "title": "IGB Berhad Sponsor Support",
@@ -5175,7 +5175,7 @@
   },
   "observations": [
     {
-      "id": "9dc61913-a967-4084-b7c4-3ed520e4528b",
+      "id": "dc88a087-6dc7-446d-b594-e2c8c7eb637b",
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e",
       "observationType": "executive_summary",
       "priority": "positive",
@@ -5223,7 +5223,7 @@
       "primaryCitation": "I:13"
     },
     {
-      "id": "1ce1a834-e1cb-40f1-99d0-2084df9748e7",
+      "id": "b90bbb61-d9be-45e7-9764-264844c8b7c9",
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e",
       "observationType": "debt_sustainability",
       "priority": "positive",
@@ -5276,7 +5276,7 @@
       "primaryCitation": "I:17"
     },
     {
-      "id": "0130678d-8dba-46db-a502-917b27e9184e",
+      "id": "0733979c-34cc-4d23-baed-817bf0e3441e",
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e",
       "observationType": "portfolio_analysis",
       "priority": "positive",
@@ -5320,7 +5320,7 @@
       "primaryCitation": "I:12"
     },
     {
-      "id": "3b8c1cc8-9537-432e-9ef5-795d6e647020",
+      "id": "951dc26b-0383-4a01-afa8-bd334fdb4073",
       "entityId": "aee77256-fd80-5951-bd18-44c67a93194e",
       "observationType": "risk_assessment",
       "priority": "warning",

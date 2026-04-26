@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-25T03:42:06.462Z",
+  "generatedAt": "2026-04-26T08:34:57.112Z",
   "entity": {
     "id": "54fc434a-60db-54e7-8b2d-5025fa320886",
     "code": "5180.KL",
@@ -61,7 +61,7 @@
       "source": "REBRAND",
       "citation": "CLMT Rebranding Announcement September 2021",
       "url": "https://www.clmt.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -82,7 +82,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Financial Year Coverage",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -93,7 +93,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Data Sources",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -104,7 +104,7 @@
       "source": "IPO",
       "citation": "CLMT IPO Prospectus - Listing Date",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -115,7 +115,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Listing History",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -137,7 +137,7 @@
       "source": "REBRAND",
       "citation": "CLMT Rebranding Announcement",
       "url": "https://www.clmt.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -148,7 +148,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - REIT Description",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -159,7 +159,7 @@
       "source": "REBRAND",
       "citation": "CLMT Rebranding Announcement September 2021",
       "url": "https://www.clmt.com.my",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -170,18 +170,18 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Strategic Diversification",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
     {
       "id": "3c605798-50ff-5815-bab5-6351cddc7817",
       "displayId": "C:14",
-      "fact": "Portfolio size: 15 properties total",
+      "fact": "Portfolio size: 8 properties total (6 retail + 2 logistics)",
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Property Portfolio Summary",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -192,18 +192,18 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Retail Portfolio",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
     {
       "id": "ff40d531-5475-5b5b-8809-f799116bb0f8",
       "displayId": "C:16",
-      "fact": "Logistics segment: 3 properties",
+      "fact": "Logistics segment: 2 properties (Valdor and Glenmarie)",
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Logistics Portfolio",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -214,18 +214,18 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Industrial Portfolio",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
     {
       "id": "81ccb363-67e6-53eb-966d-448658d382d2",
       "displayId": "C:18",
-      "fact": "Total AUM: Approximately RM 5.5 billion",
+      "fact": "Total AUM: RM 5,268.0 million as of December 31, 2024",
       "source": "AR2024",
-      "citation": "CLMT 2024 Annual Report - Assets Under Management",
+      "citation": "CLMT 2024 Annual Report - Statement of Financial Position",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -247,7 +247,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Units in Issue",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -258,7 +258,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Retail Occupancy Metrics",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -269,7 +269,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Portfolio Occupancy",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -280,7 +280,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report, p.28 - Income Statement",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -291,7 +291,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Revenue Growth Analysis",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -302,7 +302,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report, p.28 - NPI Statement",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -313,7 +313,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - NPI Growth Analysis",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -324,7 +324,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Distribution Statement",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -335,7 +335,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Distributable Income Analysis",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -346,7 +346,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Distribution Per Unit",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -357,7 +357,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - DPU Growth Analysis",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -368,7 +368,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Fair Value Changes",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -379,7 +379,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Rental Reversion Analysis",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -390,7 +390,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Shopper Traffic Metrics",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -401,7 +401,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Gurney Plaza Footfall",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -423,7 +423,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Corporate Information",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -434,7 +434,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Trustee Information",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -456,7 +456,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Property Management",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -478,7 +478,7 @@
       "source": "IPO",
       "citation": "CLMT IPO Listing 2010 - Listing History Calculation",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -489,7 +489,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Sector Classification",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -500,7 +500,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Financial Calendar",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -533,7 +533,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Unitholding Structure",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -551,11 +551,11 @@
     {
       "id": "414cd214-fe6e-5daa-825d-55a053c6a52e",
       "displayId": "C:48",
-      "fact": "Chairman: Tan Boon Peng",
+      "fact": "Chairman: Tan Boon Peng (became Chairman January 1, 2026 - FY2024 Chairman was Dato' Jeffrey Ng Tiong Lip per C:168)",
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Board Composition",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -566,7 +566,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Director Profile",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -577,7 +577,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Director Background",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -588,7 +588,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - CEO Profile",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -599,7 +599,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Management Structure",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -621,7 +621,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Former CEO Profile",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -639,11 +639,11 @@
     {
       "id": "f4de0a5a-0323-5254-bf94-5097c693e220",
       "displayId": "C:56",
-      "fact": "CFO: Chong Wai Yee",
+      "fact": "CFO: Chong Wai Yee (superseded by C:169 - correct CFO is Soon Yeong Chyan)",
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - CFO Profile",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -654,7 +654,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Management Structure",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -665,7 +665,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - CFO Qualifications",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -687,7 +687,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Strategic Direction",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -698,7 +698,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - CEO Strategy",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -709,7 +709,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Board Composition",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -720,7 +720,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Independence Analysis",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -731,7 +731,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Board Committees",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -742,29 +742,29 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Remuneration Committee",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
     {
       "id": "06779c94-5e41-513f-ad6b-4fd60ed6065c",
       "displayId": "C:66",
-      "fact": "Base Management Fee: 0.25% p.a. of total assets",
+      "fact": "Base Management Fee: 0.25% p.a. (superseded by C:170 - correct rate is 0.29%)",
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Fee Structure",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
     {
       "id": "bad8aa5f-8088-5a67-a5af-322beb33e1c8",
       "displayId": "C:67",
-      "fact": "Performance Fee: 3.5% of Distributable Income above threshold",
+      "fact": "Performance Fee: 3.5% of Distributable Income (superseded by C:171 - correct rate is 4.75% of NPI)",
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Performance Fee Structure",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -775,7 +775,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Acquisition Fee Terms",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -786,7 +786,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Divestment Fee Terms",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -797,7 +797,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Year-End Data",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -808,7 +808,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Property Portfolio Details",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -819,7 +819,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Property Portfolio Details",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -830,7 +830,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Property Portfolio Details",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -841,7 +841,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Property Portfolio Details",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -852,7 +852,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Property Portfolio Details",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -863,7 +863,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Property Portfolio Details",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -874,7 +874,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Logistics Portfolio",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -885,7 +885,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Logistics Portfolio",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -896,7 +896,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Logistics Portfolio",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -907,7 +907,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Industrial Portfolio",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -918,7 +918,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Industrial Portfolio",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -929,7 +929,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Complete Asset Listing",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -940,7 +940,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Geographic Breakdown",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -951,7 +951,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Geographic Breakdown",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -962,7 +962,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Geographic Breakdown",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -973,25 +973,25 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Geographic Breakdown",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
     {
       "id": "de33c671-ed81-52ad-b381-177e2e425bf8",
       "displayId": "C:87",
-      "fact": "Net Lettable Area: ~4.8 million sq ft",
+      "fact": "Net Lettable Area: ~4.3 million sq ft",
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Portfolio Metrics",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
     {
       "id": "f046b413-da94-56c3-a038-45c9bd1efe4d",
       "displayId": "C:88",
-      "fact": "Unit Price (April 2026): ~RM 0.63-0.65",
+      "fact": "Unit Price (April 2026): ~RM 0.61",
       "source": "KLSE",
       "citation": "KLSE Screener - Current Market Price",
       "url": "https://www.klsescreener.com/v2/stocks/5180",
@@ -1002,20 +1002,20 @@
     {
       "id": "07a6a125-bfaa-53e2-8f48-02e6e069a66a",
       "displayId": "C:89",
-      "fact": "NAV per Unit: ~RM 0.86",
+      "fact": "NAV per Unit: RM 0.9781 (superseded by C:166)",
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Net Asset Value per Unit",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
     {
       "id": "ec942737-ffc7-54eb-891f-5313756320c3",
       "displayId": "C:90",
-      "fact": "Price-to-Book: ~0.73-0.76x",
+      "fact": "Price-to-Book: ~0.62-0.63x (~37% discount to NAV)",
       "source": "Calculated",
-      "citation": "Derived from Unit Price / NAV per Unit",
+      "citation": "Derived from Unit Price RM 0.61 / NAV RM 0.9781",
       "dateAccessed": "2025-04-25",
       "timeSensitive": true,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
@@ -1027,7 +1027,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Property Locations",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1038,7 +1038,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Ownership Structure",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1049,7 +1049,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Property Locations",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1060,7 +1060,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Ownership Structure",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1071,7 +1071,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Ownership Structure",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1082,7 +1082,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Property Locations",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1093,7 +1093,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Ownership Structure",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1104,7 +1104,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Property Locations",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1115,7 +1115,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Ownership Structure",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1126,7 +1126,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Property Locations",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1137,7 +1137,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Ownership Structure",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1148,7 +1148,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Tenancy Analysis",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1159,7 +1159,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Logistics Locations",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1170,7 +1170,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Logistics Locations",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1181,7 +1181,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Logistics Locations",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1192,7 +1192,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Industrial Locations",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1203,7 +1203,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Industrial Locations",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1225,7 +1225,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Comparative Data",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1236,7 +1236,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Comparative Data",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1247,7 +1247,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Historical NPI Analysis",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1258,7 +1258,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Comparative Data",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1269,7 +1269,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - DPU History",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1280,7 +1280,7 @@
       "source": "Q42024",
       "citation": "CLMT Q4 2024 Unaudited Results",
       "url": "https://disclosure.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1291,7 +1291,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Quarterly Comparison",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1302,7 +1302,7 @@
       "source": "Q42024",
       "citation": "CLMT Q4 2024 Unaudited Results - NPI",
       "url": "https://disclosure.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1313,7 +1313,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Quarterly Comparison",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1324,7 +1324,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Historical Occupancy",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1335,7 +1335,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Segment Analysis",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1346,7 +1346,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Segment Analysis",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1357,7 +1357,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Segment Analysis",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1368,7 +1368,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Segment Analysis",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1379,7 +1379,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Statement of Financial Position",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1390,7 +1390,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Valuation Policy",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1401,29 +1401,29 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Valuation Policy",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
     {
       "id": "08f21c70-a4bb-5cb5-bee1-6a0c48ad6142",
       "displayId": "C:126",
-      "fact": "Total Borrowings: ~RM 1.8-2.0 billion (estimated)",
+      "fact": "Total Borrowings: ~RM 2.18 billion as of December 31, 2024",
       "source": "AR2024",
-      "citation": "CLMT 2024 Annual Report - Debt Analysis",
+      "citation": "CLMT 2024 Annual Report - Statement of Financial Position",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
     {
       "id": "5834c348-4f5e-5ff3-820c-5dd44a8f00d4",
       "displayId": "C:127",
-      "fact": "Gearing Ratio: ~35-38%",
+      "fact": "Gearing Ratio: 41.3% (superseded by C:167)",
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Gearing Analysis",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1441,11 +1441,11 @@
     {
       "id": "1564124d-2f61-506c-b5fa-0e475fc5ebfc",
       "displayId": "C:129",
-      "fact": "Equity/NAV: ~RM 2.9 billion",
+      "fact": "Equity/NAV: ~RM 3.30 billion (3.37B units × RM 0.9781 NAV)",
       "source": "AR2024",
-      "citation": "CLMT 2024 Annual Report - Equity Position",
+      "citation": "CLMT 2024 Annual Report - Statement of Financial Position",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1456,16 +1456,16 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Interest Coverage Ratio",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
     {
       "id": "eb2fc3ea-77f3-58ab-a543-48054fd73084",
       "displayId": "C:131",
-      "fact": "Gearing headroom to 50% limit: ~12-15%",
+      "fact": "Gearing headroom to 50% limit: ~8.7% (~RM916M borrowing capacity)",
       "source": "Calculated",
-      "citation": "Derived from Gearing Ratio vs Regulatory Ceiling",
+      "citation": "Derived from 50% limit minus 41.3% current gearing",
       "dateAccessed": "2025-04-25",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
@@ -1477,7 +1477,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Distribution Calendar",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1488,7 +1488,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Quarterly DPU",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1499,7 +1499,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Distribution Calendar",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1510,7 +1510,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Quarterly DPU",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1521,7 +1521,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Distribution Calendar",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1532,7 +1532,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Quarterly DPU",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1543,7 +1543,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Distribution Calendar",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1554,7 +1554,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Quarterly DPU",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1565,7 +1565,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Historical DPU",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1576,7 +1576,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Pandemic Impact",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1587,7 +1587,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Historical DPU",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1598,7 +1598,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Historical DPU",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1609,7 +1609,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Payout Analysis",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1638,7 +1638,7 @@
     {
       "id": "467061cc-b7e0-5428-ba02-18537202975e",
       "displayId": "C:147",
-      "fact": "Market Dividend Yield: ~7.2-7.4% (April 2026)",
+      "fact": "Market Dividend Yield: ~7.6% (April 2026, based on 4.65 sen DPU / ~RM 0.61 unit price)",
       "source": "Calculated",
       "citation": "Derived from FY2024 DPU / Current Unit Price",
       "dateAccessed": "2025-04-25",
@@ -1663,7 +1663,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Risk Factors",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1674,7 +1674,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Risk Factors",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1685,7 +1685,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Tenant Diversification",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1696,7 +1696,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Geographic Risk Analysis",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1707,7 +1707,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Currency Risk",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1718,7 +1718,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Strategic Risk Factors",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1740,7 +1740,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Independent Auditor",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1751,7 +1751,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - RPT Governance",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1762,7 +1762,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Sustainability Initiatives",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1795,7 +1795,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Health and Safety",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1806,7 +1806,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Carbon Management",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1817,7 +1817,7 @@
       "source": "REBRAND",
       "citation": "CLMT 2024 Annual Report - Historical Portfolio",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1828,7 +1828,7 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Historical AUM",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     },
@@ -1839,14 +1839,322 @@
       "source": "AR2024",
       "citation": "CLMT 2024 Annual Report - Strategic Direction",
       "url": "https://www.clmt.com.my/investor-relations/",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "08c5ba3e-181d-5017-9d1d-2f6e5bd5256c",
+      "displayId": "C:166",
+      "fact": "NAV per unit RM 0.9781 as of December 31, 2024",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Statement of Financial Position",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "ce96fcd5-0d09-575b-9907-b776e59246ff",
+      "displayId": "C:167",
+      "fact": "Gearing ratio 41.3% as of December 31, 2024",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Debt Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "dd437bdd-167f-5bf7-81d3-ab8a6e4c1f06",
+      "displayId": "C:168",
+      "fact": "Chairman Dato' Jeffrey Ng Tiong Lip served throughout FY2024",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Board of Directors",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "ddc95c5a-267f-54fc-8616-51f1c96072fa",
+      "displayId": "C:169",
+      "fact": "CFO Soon Yeong Chyan",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Key Management Personnel",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "6c406301-d0a8-50ae-b8ac-bd5a27b97d43",
+      "displayId": "C:170",
+      "fact": "Base management fee 0.29% per annum of total asset value",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Trust Deed Fee Structure",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "bc85ab05-f3e2-5a96-a981-f8cab978fc7d",
+      "displayId": "C:171",
+      "fact": "Performance fee 4.75% per annum of NPI",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Trust Deed Fee Structure",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "ee0e3b0c-d776-54c4-809b-cfa9b902fad2",
+      "displayId": "C:172",
+      "fact": "Assets Under Management of RM5.1 billion as at 31 December 2024",
+      "source": "AR2024",
+      "citation": "Annual Report 2024, Independent Valuation Report",
+      "url": "https://www.clmt.com.my/annual_reports.html",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "e31477b9-d36b-554f-91bb-23a1ff0f7674",
+      "displayId": "C:173",
+      "fact": "Units in circulation of 2,879,966,000 (~2.88 billion) as at 31 December 2024",
+      "source": "AR2024",
+      "citation": "Annual Report 2024, Statement of Changes in Unitholders' Funds",
+      "url": "https://www.clmt.com.my/annual_reports.html",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "163bbb78-d3f6-5ece-bf80-30e9f37200d4",
+      "displayId": "C:174",
+      "fact": "Net Property Income of RM263.9 million for FY2024",
+      "source": "Q42024",
+      "citation": "Q4 2024 Results Announcement, Financial Highlights",
+      "url": "https://www.clmt.com.my/announcements.html",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "a57ed798-7f66-52dd-b1e7-40eb72b5f275",
+      "displayId": "C:175",
+      "fact": "Mr Tan Boon Peng became Chairman on January 1, 2026",
+      "source": "CLMT_WEB",
+      "citation": "CLMT Board of Directors profile",
+      "url": "https://www.clmt.com.my/board_of_directors.html",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "2579d8e1-c187-5c00-a71d-0db08d52e449",
+      "displayId": "C:176",
+      "fact": "FY 2025 Data Coverage (January 1 - December 31, 2025)",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Financial Year Coverage",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "e3959615-917a-5915-8fdd-e015492b16ff",
+      "displayId": "C:177",
+      "fact": "FY2025 Gross Revenue RM476.76 million (+4.8% YoY)",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Income Statement",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "3822e4d1-5047-58f2-ba01-6f7509e095b8",
+      "displayId": "C:178",
+      "fact": "FY2025 Net Property Income RM289.44 million (+9.7% YoY) - highest since listing",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - NPI highest since 2010 listing",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "1ab9fed4-89dc-5c1c-b376-d07dab21d74e",
+      "displayId": "C:179",
+      "fact": "FY2025 Distribution Per Unit 4.84 sen (+4.1% YoY)",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Distributions",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "e97d95ea-23d8-59af-b9d5-9940a6478312",
+      "displayId": "C:180",
+      "fact": "Portfolio of 14 properties (6 retail + 8 industrial/logistics) as of December 31, 2025",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Property Portfolio",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "ac514d28-7cb0-564d-9310-ace91d32dc9d",
+      "displayId": "C:181",
+      "fact": "Synergy Logistics Hub acquisition completed September 26, 2025",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Acquisitions",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "f5c2290e-3e9a-5869-a584-3d5c7129944e",
+      "displayId": "C:182",
+      "fact": "Iskandar Puteri Facilities acquired Q3/Q4 2025",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Acquisitions",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "96be09ee-9e9d-565e-8084-3b91a4bf4773",
+      "displayId": "C:183",
+      "fact": "Senai Airport City Facilities acquired Q3/Q4 2025",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Acquisitions",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "839d5c05-303c-5b22-aa61-bfaf893b0ba2",
+      "displayId": "C:184",
+      "fact": "Q1 2025 Gross Revenue RM120.4 million",
+      "source": "Q12025",
+      "citation": "CLMT Q1 2025 Results Announcement",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "a412ffcf-2c7f-5a81-87ea-f87b439ae735",
+      "displayId": "C:185",
+      "fact": "Q2 2025 Gross Revenue RM115.7 million, DPU 2.46 sen (includes Q1)",
+      "source": "Q22025",
+      "citation": "CLMT Q2 2025 Results Announcement",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "f6359964-9363-55d7-a1fc-5c44f81e03b1",
+      "displayId": "C:186",
+      "fact": "Q3 2025 Gross Revenue RM116.0 million, DPU 0.47 sen",
+      "source": "Q32025",
+      "citation": "CLMT Q3 2025 Results Announcement",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "97a63922-9e17-5ee8-838a-63eced02770c",
+      "displayId": "C:187",
+      "fact": "Q4 2025 Gross Revenue RM124.6 million, DPU 1.91 sen",
+      "source": "Q42025",
+      "citation": "CLMT Q4 2025 Results Announcement",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "7e71ce90-034d-59f4-ae15-4a75fd6404b6",
+      "displayId": "C:188",
+      "fact": "Total AUM RM5.5 billion (+7.0% YoY)",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Assets",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "9d0f05e6-93fc-55e9-8f1f-8b114bb0e357",
+      "displayId": "C:189",
+      "fact": "Gearing ratio 39.0% as of December 31, 2025 (improved from 41.3%)",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Debt Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "65f9a6cf-1d83-558e-87dd-18adf2d79fab",
+      "displayId": "C:190",
+      "fact": "NAV per unit RM0.9370 pre-distribution as of December 31, 2025",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - NAV",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "4c0b61b1-9a0f-5595-b89a-dd63c53b00f3",
+      "displayId": "C:191",
+      "fact": "7 industrial/logistics properties acquired in 2025 for approximately RM279 million",
+      "source": "AR2025",
+      "citation": "CLMT FY2025 Annual Report - Investment Activities",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": false,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "d971c4d3-c252-557a-9bac-96142db6f3db",
+      "displayId": "C:192",
+      "fact": "Current share price RM0.635 as of April 2026",
+      "source": "KLSE",
+      "citation": "KLSE Screener - CLMT 5180.KL",
+      "url": "https://www.klsescreener.com/v2/stocks/5180",
+      "dateAccessed": "2025-04-25",
+      "timeSensitive": true,
+      "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
+    },
+    {
+      "id": "99c0f9ff-2562-59d5-af90-eb117c0349d4",
+      "displayId": "C:193",
+      "fact": "Weighted Average Lease Expiry (WALE): 3.4 years",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Lease Profile Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886"
     }
   ],
   "metrics": [
     {
-      "id": "0bf279b5-7036-4f1d-9ffc-b9e6ea39ef95",
+      "id": "18ab2ed9-96d5-43d9-8285-c83ef5cbbda7",
       "metricType": "portfolio_size",
       "value": 15,
       "unit": "properties",
@@ -1861,7 +2169,7 @@
       ]
     },
     {
-      "id": "5198b0f0-7770-45e0-a6d3-48b06db6957e",
+      "id": "e5fdcb5e-08be-44ca-b32a-750179c87c64",
       "metricType": "total_assets",
       "value": 5500,
       "unit": "RM million",
@@ -1876,7 +2184,7 @@
       ]
     },
     {
-      "id": "46494204-3e76-469a-90d2-06d954e6edce",
+      "id": "cc9281be-de65-4bb6-8415-de8e34b90745",
       "metricType": "property_count",
       "value": 15,
       "unit": "properties",
@@ -1891,7 +2199,7 @@
       ]
     },
     {
-      "id": "431b6e06-95e5-4dc4-ae8c-80c8fb4ce8bd",
+      "id": "5bcd9962-b945-45b2-b7bf-46a6cf74d9ee",
       "metricType": "net_lettable_area",
       "value": 4800000,
       "unit": "sq ft",
@@ -1906,7 +2214,7 @@
       ]
     },
     {
-      "id": "40278d27-a5e8-4813-8563-dc8603fba56e",
+      "id": "ef2a0396-f369-457a-89e0-229ff98181ec",
       "metricType": "market_cap",
       "value": 2000,
       "unit": "RM million",
@@ -1922,7 +2230,7 @@
       ]
     },
     {
-      "id": "11e2d3d8-97df-4d47-863d-e40dcc640be8",
+      "id": "63eb6df1-44f5-4d4c-a2c0-ba2ec30117c3",
       "metricType": "property_count",
       "value": 3.37,
       "unit": "billion units",
@@ -1937,7 +2245,7 @@
       ]
     },
     {
-      "id": "d4f9e8fe-9226-4835-a455-997bad4503b3",
+      "id": "96ad2f9e-a1d0-48a7-84c2-4b6b97666457",
       "metricType": "investment_properties",
       "value": 5000,
       "unit": "RM million",
@@ -1952,7 +2260,7 @@
       ]
     },
     {
-      "id": "8a3c6ed8-ec34-4664-92cc-7b606b7d09da",
+      "id": "de6b3cf7-7690-4550-8300-38b62bc9faac",
       "metricType": "geographic_concentration",
       "value": 40,
       "unit": "% retail",
@@ -1967,7 +2275,7 @@
       ]
     },
     {
-      "id": "a31be674-9f82-44a2-b6f4-d4cbb7118a54",
+      "id": "fd4e8283-a931-442b-84d8-66378895dc0e",
       "metricType": "geographic_concentration",
       "value": 20,
       "unit": "% logistics",
@@ -1982,7 +2290,7 @@
       ]
     },
     {
-      "id": "af995a17-2cdf-4313-9194-d1cd6ad8d165",
+      "id": "7ca8636d-1b4a-481d-a7db-135abb60240d",
       "metricType": "geographic_concentration",
       "value": 13.3,
       "unit": "% industrial",
@@ -1997,7 +2305,7 @@
       ]
     },
     {
-      "id": "250a419e-1da7-4747-86dd-be4965615289",
+      "id": "16f0338c-c799-46ae-8efb-9ca6814fff9b",
       "metricType": "geographic_concentration",
       "value": 77.5,
       "unit": "% revenue retail",
@@ -2012,7 +2320,7 @@
       ]
     },
     {
-      "id": "3b60b1ef-ef1b-4009-a10f-e2887620336e",
+      "id": "dfa2b3a6-7b53-43c7-9d5b-60ba10edd76a",
       "metricType": "gross_revenue",
       "value": 454.76,
       "unit": "RM million",
@@ -2027,7 +2335,7 @@
       ]
     },
     {
-      "id": "6ac392b0-49b7-4af0-84ad-60c5929a9e7d",
+      "id": "de060277-4009-4eca-b769-b7ab08243adc",
       "metricType": "net_property_income",
       "value": 263.93,
       "unit": "RM million",
@@ -2042,7 +2350,7 @@
       ]
     },
     {
-      "id": "41d7a127-e40e-4c62-ad5c-d7845f0dbeb7",
+      "id": "596830ae-933f-4fc3-914f-d53331d9a86d",
       "metricType": "dpu",
       "value": 4.65,
       "unit": "sen",
@@ -2057,7 +2365,7 @@
       ]
     },
     {
-      "id": "7ffbb649-ce97-4cab-97a5-f932fa653fc1",
+      "id": "183b2af5-3a26-47ea-85ae-55fa3a47cff4",
       "metricType": "dpu_growth_yoy",
       "value": 11.5,
       "unit": "%",
@@ -2072,7 +2380,7 @@
       ]
     },
     {
-      "id": "d79e6725-8fd7-4857-8ab7-c2e06e050c48",
+      "id": "bf3915ca-5097-4830-a4d0-8f6f89234b3d",
       "metricType": "nav_per_unit",
       "value": 0.86,
       "unit": "RM",
@@ -2087,7 +2395,7 @@
       ]
     },
     {
-      "id": "d620a515-0de6-4894-86c4-150bb1c13cd1",
+      "id": "14b5bc48-5d4d-4e8d-8bee-856461e2e193",
       "metricType": "share_price",
       "value": 0.64,
       "unit": "RM",
@@ -2102,7 +2410,7 @@
       ]
     },
     {
-      "id": "95304466-c191-462a-8ebd-d0debbea8caf",
+      "id": "b0f5de14-3bf1-4c98-aa99-29f181925694",
       "metricType": "dividend_yield_market",
       "value": 7.3,
       "unit": "%",
@@ -2117,7 +2425,7 @@
       ]
     },
     {
-      "id": "fd676c40-3d6e-45dc-bed6-2f9e6cedae0f",
+      "id": "b35a0485-3fab-4612-b73e-eb2eec40ae8a",
       "metricType": "payout_ratio",
       "value": 90,
       "unit": "%",
@@ -2132,7 +2440,7 @@
       ]
     },
     {
-      "id": "a8afcfd6-470f-4070-947f-80e6d090b643",
+      "id": "41cb1d10-e009-4acf-a620-b460133b4234",
       "metricType": "price_to_book",
       "value": 0.74,
       "unit": "x",
@@ -2147,7 +2455,7 @@
       ]
     },
     {
-      "id": "4bd18dd9-68a6-4d17-8f17-742fd7bbd068",
+      "id": "e3a0512b-adab-4088-a3e8-87e9441a6249",
       "metricType": "occupancy_rate",
       "value": 92.8,
       "unit": "%",
@@ -2162,7 +2470,22 @@
       ]
     },
     {
-      "id": "32ed7e85-a5de-4874-afe5-b840253d5368",
+      "id": "4aab85d0-e265-40da-8b25-9d9d5ccf0717",
+      "metricType": "wale_years",
+      "value": 3.4,
+      "unit": "years",
+      "period": {
+        "type": "point_in_time",
+        "date": "2024-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "C:193"
+      ]
+    },
+    {
+      "id": "56ef9d80-190c-44d4-9fff-126b81a99be3",
       "metricType": "rental_reversion",
       "value": 11.3,
       "unit": "%",
@@ -2177,7 +2500,7 @@
       ]
     },
     {
-      "id": "48746205-48fa-4ba3-8745-506b8303682d",
+      "id": "968edcef-8252-491f-a8a1-9f6d2cb4a390",
       "metricType": "gearing_ratio",
       "value": 36.5,
       "unit": "%",
@@ -2192,7 +2515,7 @@
       ]
     },
     {
-      "id": "33c7c3f4-a7ad-4a78-8019-8bd4d11c7ebd",
+      "id": "d2106841-95a6-4069-b00b-ed2b31377ea6",
       "metricType": "interest_coverage",
       "value": 3,
       "unit": "x",
@@ -2207,7 +2530,7 @@
       ]
     },
     {
-      "id": "3e32cd20-d91d-4e71-a867-42f4132a111b",
+      "id": "d9d34749-4abe-43ce-9e37-fb735c2ca314",
       "metricType": "total_borrowings",
       "value": 1900,
       "unit": "RM million",
@@ -2222,7 +2545,7 @@
       ]
     },
     {
-      "id": "d36102bd-32b7-4b08-9e2a-78ac89bbc044",
+      "id": "48ecee38-f863-46fa-ab67-35b24629fe2a",
       "metricType": "gearing_headroom",
       "value": 13.5,
       "unit": "%",
@@ -2240,7 +2563,7 @@
   ],
   "timeSeries": [
     {
-      "id": "db0f2c5b-2181-4943-8ac1-5dc7d3c72a45",
+      "id": "43444177-5a95-4a38-88ba-3eeaf221ac6a",
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886",
       "metricType": "dpu",
       "frequency": "annual",
@@ -2286,7 +2609,7 @@
       ]
     },
     {
-      "id": "6257bf4b-d019-48ba-8a0c-924823be7a8e",
+      "id": "fc4a148e-5b3f-466a-aede-f9a9177badbd",
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886",
       "metricType": "net_property_income",
       "frequency": "annual",
@@ -2326,7 +2649,7 @@
       ]
     },
     {
-      "id": "2b8b44dc-2596-4091-b674-e593406d857f",
+      "id": "4521005f-8695-4bbd-9d02-6e5ac9ceb92d",
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886",
       "metricType": "gross_revenue",
       "frequency": "annual",
@@ -2366,7 +2689,7 @@
       ]
     },
     {
-      "id": "579c8bd9-f46b-40bf-bff9-099de8e0e5e2",
+      "id": "a3d5ae75-c804-4740-a5f7-c76c485ce332",
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886",
       "metricType": "occupancy_rate",
       "frequency": "annual",
@@ -2406,7 +2729,7 @@
       ]
     },
     {
-      "id": "ed6de96d-2daf-40dc-9225-770c7a0cc62a",
+      "id": "9d854c61-b1b6-4734-a633-89e24bd4e652",
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886",
       "metricType": "gearing_ratio",
       "frequency": "annual",
@@ -2445,14 +2768,14 @@
     }
   ],
   "riskAssessment": {
-    "id": "f046a27f-4b19-4722-8f18-43c45ba96d3d",
+    "id": "64916b62-b0f0-4859-b598-59d708d430b0",
     "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886",
     "assessmentDate": "2026-04-25",
     "overallRiskRating": "moderate",
     "overallScore": 5.5,
     "riskFactors": [
       {
-        "id": "ad6580af-b27f-4b39-88b2-3172ff40ee70",
+        "id": "b41b72f0-2f0f-4cba-bcca-bb5203cc552b",
         "category": "concentration",
         "severity": "medium",
         "title": "Retail Segment Concentration",
@@ -2497,7 +2820,7 @@
         ]
       },
       {
-        "id": "5db7c2d2-19cd-4d03-b265-8d138978b486",
+        "id": "8798320c-593b-4d6e-a2f7-80e2b8de0a9c",
         "category": "interest_rate",
         "severity": "medium",
         "title": "Interest Rate Exposure",
@@ -2550,7 +2873,7 @@
         ]
       },
       {
-        "id": "56a857d0-5e9b-49ab-952d-e9aaaa6696d8",
+        "id": "e04e575c-8752-4ad2-b791-f5f81924d141",
         "category": "governance",
         "severity": "low",
         "title": "Professional Management Structure",
@@ -2592,7 +2915,7 @@
         ]
       },
       {
-        "id": "63c8851b-5753-4b88-9555-3599e4d640ec",
+        "id": "7c499d79-6acf-49db-8961-c2010e9ce5bf",
         "category": "transparency",
         "severity": "low",
         "title": "Comprehensive Disclosure",
@@ -2631,7 +2954,7 @@
         ]
       },
       {
-        "id": "606a77ba-e7d3-4a95-94e8-b305d2f090b8",
+        "id": "58885649-44f5-4abd-9ee7-cbe864390513",
         "category": "tenant_rollover",
         "severity": "low",
         "title": "Strong Lease Profile",
@@ -2666,7 +2989,7 @@
         ]
       },
       {
-        "id": "b14b71e7-77f1-4d76-9d36-30123714dda0",
+        "id": "456e2185-6d9a-411e-801b-b6d66eac498f",
         "category": "geographic",
         "severity": "low",
         "title": "Geographic Diversification",
@@ -2704,7 +3027,7 @@
         ]
       },
       {
-        "id": "71635a97-9a16-4971-b30f-79f5ffd716cb",
+        "id": "acac165f-a9dd-4dc2-9d5b-ef0ebfdace67",
         "category": "counterparty",
         "severity": "low",
         "title": "Rebranding Integration Risk",
@@ -2763,7 +3086,7 @@
   },
   "observations": [
     {
-      "id": "7a5c50ae-feb2-4b61-9d1b-a6205240bd30",
+      "id": "aaba133e-968c-4fd0-a6c9-d30d196a3113",
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886",
       "observationType": "executive_summary",
       "priority": "positive",
@@ -2829,7 +3152,7 @@
       "primaryCitation": "C:26"
     },
     {
-      "id": "d9287635-09fd-4db7-aa49-f8b71901595d",
+      "id": "a72bf045-6625-4c46-94a0-3fafdccab6f5",
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886",
       "observationType": "executive_summary",
       "priority": "positive",
@@ -2863,7 +3186,7 @@
       "primaryCitation": "C:53"
     },
     {
-      "id": "139f2f16-6a21-4826-8c25-da224e30c9d1",
+      "id": "18a7200b-5ca1-4148-a15b-57090afbec00",
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886",
       "observationType": "portfolio_analysis",
       "priority": "positive",
@@ -2920,7 +3243,7 @@
       "primaryCitation": "C:3"
     },
     {
-      "id": "5bdf26de-ddbf-49f9-9ab4-51ebd163bbb5",
+      "id": "ce4d02c9-484d-436d-ac28-97514a507f87",
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886",
       "observationType": "debt_sustainability",
       "priority": "positive",
@@ -2969,7 +3292,7 @@
       "primaryCitation": "C:127"
     },
     {
-      "id": "ee7da7f2-158a-4e55-9ad8-b6fbc1a82cdc",
+      "id": "49c8e8c0-151b-4c1f-97c1-864016db6460",
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886",
       "observationType": "risk_assessment",
       "priority": "info",
@@ -3017,7 +3340,7 @@
       "primaryCitation": "C:148"
     },
     {
-      "id": "65d60947-89c4-43b2-bd47-17e05501b5b3",
+      "id": "58f0e9e9-cfb6-41d3-946d-0e52ede30bc1",
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886",
       "observationType": "market_context",
       "priority": "positive",
@@ -3069,7 +3392,7 @@
       "primaryCitation": "C:90"
     },
     {
-      "id": "c658cbad-ba17-42da-be31-ba5b79a2f86b",
+      "id": "a8fd6092-b2e6-40c8-a597-56b943e3c604",
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886",
       "observationType": "executive_summary",
       "priority": "positive",
@@ -3106,7 +3429,7 @@
       "primaryCitation": "C:108"
     },
     {
-      "id": "256396bc-3e1e-478f-890e-22ad9eb7edcc",
+      "id": "f262131d-449b-4867-8f16-6c9142005739",
       "entityId": "54fc434a-60db-54e7-8b2d-5025fa320886",
       "observationType": "governance",
       "priority": "positive",

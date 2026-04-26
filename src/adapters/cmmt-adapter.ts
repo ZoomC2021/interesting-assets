@@ -321,6 +321,15 @@ export class CmmtAdapter {
       sourceDisplayIds: ['C:22']
     });
 
+    // WALE metric - 3.4 years
+    this.addMetric({
+      metricType: 'wale_years',
+      value: 3.4,
+      unit: 'years',
+      period: q4Point,
+      sourceDisplayIds: ['C:193']
+    });
+
     // Note: Retail Occupancy 92.0% tracked as occupancy_rate variant
 
     this.addMetric({

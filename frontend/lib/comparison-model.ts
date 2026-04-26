@@ -72,9 +72,11 @@ export async function loadEntityData(entityCode: string): Promise<NormalizedReit
       '5227.KL': () => import('@/public/data/igb.json'),
       '5235SS': () => import('@/public/data/klcc.json'),
       '5180.KL': () => import('@/public/data/cmmt.json'),
-      '5114.KL': () => import('@/public/data/alsalam.json'),
+      '5280.KL': () => import('@/public/data/kip.json'),
+      '5269.KL': () => import('@/public/data/alsalam.json'),
       '5121.KL': () => import('@/public/data/hektar.json'),
       '5110.KL': () => import('@/public/data/uoa.json'),
+      '5338.KL': () => import('@/public/data/paradigm.json'),
     };
 
     const normalizedCode = normalizeEntityCode(entityCode);

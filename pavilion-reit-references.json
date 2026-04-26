@@ -2,7 +2,7 @@
   "metadata": {
     "reit": "Pavilion REIT (5212.KL)",
     "document": "Pavilion_REIT_Malaysia_Analysis.md",
-    "totalReferences": 358,
+    "totalReferences": 364,
     "dateCreated": "2026-04-25",
     "version": "1.0",
     "dataQuality": {
@@ -2991,6 +2991,54 @@
       "citation": "Pavilion REIT 2025 Annual Report - Meeting Schedule",
       "url": "https://www.pavilion-reit.com",
       "date": "2026-03-31",
+      "timeSensitive": false
+    },
+    "P:501": {
+      "fact": "Total assets ~RM9.8 billion (8 properties: 5 retail malls, 1 office, 2 hotels)",
+      "source": "AR2025",
+      "citation": "Pavilion REIT 2025 Annual Report - Statement of Financial Position (Post-research verification)",
+      "url": "https://www.pavilion-reit.com",
+      "date": "2026-03-31",
+      "timeSensitive": false
+    },
+    "P:502": {
+      "fact": "Total borrowings ~RM3.91 billion; WACD ~4.6%; Fixed ~23.6% / Floating ~76.4%",
+      "source": "Q32025",
+      "citation": "Pavilion REIT Q3 2025 Interim Financial Report - Debt Profile (Post-research verification)",
+      "url": "https://disclosure.bursamalaysia.com",
+      "date": "2025-10-30",
+      "timeSensitive": false
+    },
+    "P:503": {
+      "fact": "Historical DPU corrections: 2021: 4.41 sen, 2022: 8.37 sen, 2023: 9.00 sen, 2024: ~9.34 sen",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Historical DPU Data (Post-research verification)",
+      "url": "https://www.klsescreener.com/v2/stocks/5212",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "P:504": {
+      "fact": "Trustee: MTrustee Berhad (formerly Maybank Trustees)",
+      "source": "AR2025",
+      "citation": "First Amended Trust Deed - Trustee Change to MTrustee Berhad (Post-research verification)",
+      "url": "https://www.pavilion-reit.com",
+      "date": "2026-03-31",
+      "timeSensitive": false
+    },
+    "P:505": {
+      "fact": "Property-level occupancy: Pavilion KL ~97.1%, Elite ~97.8%, Bukit Jalil ~90%, DA MEN ~73% (2024, improving)",
+      "source": "Q42025",
+      "citation": "Pavilion REIT Q4 2025 Results - Property-level Occupancy Metrics (Post-research verification)",
+      "url": "https://disclosure.bursamalaysia.com",
+      "date": "2026-01-29",
+      "timeSensitive": false
+    },
+    "P:506": {
+      "fact": "LEED Gold certifications: Pavilion KL (2019), Pavilion Tower (2020), Pavilion Bukit Jalil (2021)",
+      "source": "AR2025",
+      "citation": "LEED Certification Records - Green Building Index (Post-research verification)",
+      "url": "https://www.greenbuildingindex.org",
+      "dateAccessed": "2026-04-25",
       "timeSensitive": false
     }
   }

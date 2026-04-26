@@ -503,8 +503,8 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
                   <h2 className="mb-6 font-serif text-2xl font-bold text-ink">Executive Summary</h2>
 
                   <p className="mb-4 font-serif text-[15px] leading-[1.65] text-ink">
-                    {reit.name}&apos;s {reit.sector.toLowerCase()} portfolio trades at a roughly {discountToNav.toFixed(0)}%
-                    {' '}discount to NAV despite {reit.occupancy.toFixed(1)}% occupancy and a {reit.wale.toFixed(1)}-year
+                     {reit.name}&apos;s {reit.sector.toLowerCase()} portfolio trades at a roughly {discountToNav.toFixed(0)}%
+                    {' '}discount to NAV despite {reit.occupancy.toFixed(1)}% occupancy and a {reit.wale === 'n/a' ? 'n/a' : `${reit.wale.toFixed(1)}-year`}
                     {' '}WALE, with market concerns centered on refinancing risk at the current gearing level of {reit.gearing.toFixed(1)}%
                     {' '}{renderCitationChip(primaryReferences[0])}. We view the setup as more
                     balanced than the headline suggests: interest cover of {reit.interestCover.toFixed(1)}x
@@ -683,7 +683,7 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
               </div>
               <div className="flex items-end justify-between">
                 <span className="text-sm text-ink-muted">WALE</span>
-                <span className="font-data text-sm font-medium">{reit.wale.toFixed(1)} yrs</span>
+                <span className="font-data text-sm font-medium">{reit.wale === 'n/a' ? 'n/a' : `${reit.wale.toFixed(1)} yrs`}</span>
               </div>
             </div>
 

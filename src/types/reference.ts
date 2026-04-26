@@ -41,7 +41,10 @@ export const DisplayIdPattern = {
   UOA: /^U:\d{1,3}[a-z]?$/,
   CMMT: /^C:\d{1,3}[a-z]?$/,
   HEKTAR: /^H:\d{1,3}[a-z]?$/,
-  VALID: /^[TAPSUICH]:\d{1,3}[a-z]?$/
+  ALSALAM: /^L:\d{1,3}[a-z]?$/,
+  KLCC: /^K:\d{1,3}[a-z]?$/,
+  KIP: /^KIP:\d{1,3}[a-z]?$/,
+  VALID: /^([TAPSUICHLKRD]:\d{1,3}[a-z]?|KIP:\d{1,3}[a-z]?)$/
 };
 
 // ============================================================================
@@ -167,22 +170,22 @@ export function isValidDisplayId(displayId: string): boolean {
   return DisplayIdPattern.VALID.test(displayId);
 }
 
-export function parseDisplayId(displayId: string): { prefix: 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H'; number: number; suffix?: string } | null {
+export function parseDisplayId(displayId: string): { prefix: 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H' | 'L' | 'K' | 'R' | 'D' | 'KIP'; number: number; suffix?: string } | null {
   if (!isValidDisplayId(displayId)) return null;
-  const match = displayId.match(/^([TAPSUICH]):(\d+)([a-z]?)$/);
+  const match = displayId.match(/^([TAPSUICHLKR]):(\d+)([a-z]?)$/) || displayId.match(/^(KIP):(\d+)([a-z]?)$/);
   if (!match) return null;
   return {
-    prefix: match[1] as 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H',
+    prefix: match[1] as 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H' | 'L' | 'K' | 'R' | 'D' | 'KIP',
     number: parseInt(match[2], 10),
     suffix: match[3] || undefined
   };
 }
 
-export function generateDisplayId(prefix: 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H', number: number): string {
+export function generateDisplayId(prefix: 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H' | 'L' | 'K' | 'R' | 'D' | 'KIP', number: number): string {
   return `${prefix}:${number}`;
 }
 
-export function entityCodeFromPrefix(prefix: 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H'): string {
+export function entityCodeFromPrefix(prefix: 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H' | 'L' | 'K' | 'R' | 'D'): string {
   const mapping: Record<string, string> = {
     'T': '5130.KL',
     'A': '5106.KL',
@@ -191,13 +194,17 @@ export function entityCodeFromPrefix(prefix: 'T' | 'A' | 'S' | 'P' | 'I' | 'U' |
     'I': '5227.KL',
     'U': '5110.KL',
     'C': '5180.KL',
-    'H': '5121.KL'
+    'H': '5121.KL',
+    'L': '5269.KL',
+    'K': '5235SS',
+    'R': '5280.KL',
+    'D': '5338.KL'
   };
   return mapping[prefix];
 }
 
-export function prefixFromEntityCode(code: string): 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H' {
-  const mapping: Record<string, 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H'> = {
+export function prefixFromEntityCode(code: string): 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H' | 'L' | 'K' | 'R' | 'D' {
+  const mapping: Record<string, 'T' | 'A' | 'S' | 'P' | 'I' | 'U' | 'C' | 'H' | 'L' | 'K' | 'R' | 'D'> = {
     '5130.KL': 'T',
     '5106.KL': 'A',
     '5176.KL': 'S',
@@ -205,7 +212,11 @@ export function prefixFromEntityCode(code: string): 'T' | 'A' | 'S' | 'P' | 'I' 
     '5227.KL': 'I',
     '5110.KL': 'U',
     '5180.KL': 'C',
-    '5121.KL': 'H'
+    '5121.KL': 'H',
+    '5269.KL': 'L',
+    '5235SS': 'K',
+    '5280.KL': 'R',
+    '5338.KL': 'D'
   };
   return mapping[code];
 }

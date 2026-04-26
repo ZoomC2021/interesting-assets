@@ -15,6 +15,7 @@ import { useFocusTrap } from '@/hooks/useFocusTrap';
 import { useAnnouncer } from '@/hooks/useAnnouncer';
 import { CitationPanel } from '../CitationPanel';
 import { RiskChip } from '../RiskChip';
+import { RiskMatrix } from '@/components/RiskMatrix';
 import { Sparkline } from '../Sparkline';
 import { AddReitModal } from '../AddReitModal';
 import { ArrowLeft, Info, Settings2, X, Eye, EyeOff, Check, Plus } from '../icons';
@@ -93,6 +94,7 @@ export function ComparePage({ initialIds = EMPTY_INITIAL_IDS }: ComparePageProps
   const [selectedIds, setSelectedIds] = useState<string[]>(seedIds);
   const [activeCategory, setActiveCategory] = useState('All');
   const [citationPanelOpen, setCitationPanelOpen] = useState(false);
+  const [selectedCitationIds, setSelectedCitationIds] = useState<string[]>([]);
   const [isCustomizeOpen, setIsCustomizeOpen] = useState(false);
   const [isAddReitOpen, setIsAddReitOpen] = useState(false);
   const [visibleMetricIds, setVisibleMetricIds] = useState<MetricId[]>(DEFAULT_VISIBLE_METRICS);
@@ -463,12 +465,29 @@ export function ComparePage({ initialIds = EMPTY_INITIAL_IDS }: ComparePageProps
                     {selectedReits.map((reit) => (
                       <div key={reit.id} className="flex items-center justify-between">
                         <span className="text-sm font-medium text-ink">{reit.ticker.split('.')[0]}</span>
-                        <RiskChip level={reit.overallRisk} />
+                        <div className="flex items-center gap-2">
+                          <RiskChip level={reit.overallRisk} />
+                          <span className="text-xs text-ink-muted">
+                            ({reit.raw.riskAssessment?.overallScore?.toFixed(1) ?? 'N/A'}/5.0)
+                          </span>
+                        </div>
                       </div>
                     ))}
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div className="mb-12">
+              <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-ink-muted">Risk Factor Breakdowns</h3>
+              <RiskMatrix
+                entities={selectedReits.map((reit) => reit.raw)}
+                embedInPanel={true}
+                onCitationClick={(ids) => {
+                  setSelectedCitationIds(ids);
+                  setCitationPanelOpen(true);
+                }}
+              />
             </div>
           </>
         )}
@@ -476,8 +495,15 @@ export function ComparePage({ initialIds = EMPTY_INITIAL_IDS }: ComparePageProps
 
       <CitationPanel
         isOpen={citationPanelOpen}
-        onClose={() => setCitationPanelOpen(false)}
-        citations={compareCitations}
+        onClose={() => {
+          setCitationPanelOpen(false);
+          setSelectedCitationIds([]);
+        }}
+        citations={
+          selectedCitationIds.length > 0
+            ? compareCitations.filter((c) => selectedCitationIds.includes(c.id))
+            : compareCitations
+        }
       />
 
       <CustomizePanel

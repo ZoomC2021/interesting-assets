@@ -16,6 +16,9 @@ import { createPavilionAdapter } from '../src/adapters/pavilion-adapter';
 import { createIgbAdapter } from '../src/adapters/igb-adapter';
 import { createUoaAdapter } from '../src/adapters/uoa-adapter';
 import { createCMMTAdapter } from '../src/adapters/cmmt-adapter';
+import { createAlSalamAdapter } from '../src/adapters/alsalam-adapter';
+import { createKIPAdapter } from '../src/adapters/kip-adapter';
+import { createParadigmAdapter } from '../src/adapters/paradigm-adapter';
 
 /**
  * Write output to both test/samples and frontend/public/data directories
@@ -209,6 +212,71 @@ function generateCMMTSample(): void {
   console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
 }
 
+function generateAlSalamSample(): void {
+  console.log('Generating Al-Salam REIT sample...');
+
+  const linker = createCitationLinker();
+  
+  // Load references
+  const alsalamRefs = JSON.parse(fs.readFileSync(
+    path.join(__dirname, '..', 'alsalam-reit-references.json'), 'utf-8'
+  ));
+  
+  // Process through adapter
+  const adapter = createAlSalamAdapter(linker);
+  adapter.processReferences(alsalamRefs);
+  const output = adapter.generateOutput();
+  
+  // Write output files
+  writeOutputFiles('alsalam', output);
+  
+  console.log(`   📊 ${output.references.length} references`);
+  console.log(`   📊 ${output.metrics.length} metrics`);
+  console.log(`   📊 ${output.timeSeries.length} time series`);
+  console.log(`   📊 ${output.observations.length} observations`);
+  console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
+}
+
+function generateKIPSample(): void {
+  console.log('Generating KIP REIT sample...');
+
+  const linker = createCitationLinker();
+  
+  // Load references
+  const kipRefs = JSON.parse(fs.readFileSync(
+    path.join(__dirname, '..', 'kip-reit-references.json'), 'utf-8'
+  ));
+  
+  // Process through adapter
+  const adapter = createKIPAdapter(linker);
+  adapter.processReferences(kipRefs);
+  const output = adapter.generateOutput();
+  
+  // Write output files
+  writeOutputFiles('kip', output);
+  
+  console.log(`   📊 ${output.references.length} references`);
+  console.log(`   📊 ${output.metrics.length} metrics`);
+  console.log(`   📊 ${output.timeSeries.length} time series`);
+  console.log(`   📊 ${output.observations.length} observations`);
+  console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
+}
+
+function generateParadigmSample(): void {
+  console.log('Generating Paradigm REIT sample...');
+  const linker = createCitationLinker();
+  const paradigmRefs = JSON.parse(fs.readFileSync(
+    path.join(__dirname, '..', 'paradigm-reit-references.json'), 'utf-8'
+  ));
+  const adapter = createParadigmAdapter(linker);
+  adapter.processReferences(paradigmRefs);
+  const output = adapter.generateOutput();
+  writeOutputFiles('paradigm', output);
+  console.log(`   📊 ${output.references.length} references`);
+  console.log(`   📊 ${output.metrics.length} metrics`);
+  console.log(`   📊 ${output.timeSeries.length} time series`);
+}
+
 // Run generation
 generateAtriumSample();
 generateAxisSample();
@@ -217,4 +285,7 @@ generatePavilionSample();
 generateIgbSample();
 generateUoaSample();
 generateCMMTSample();
+generateAlSalamSample();
+generateKIPSample();
+generateParadigmSample();
 console.log('\n✅ Sample generation complete');

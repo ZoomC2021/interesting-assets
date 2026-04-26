@@ -4,7 +4,7 @@
  * Transforms Pavilion REIT source data (MD + JSON references)
  * into normalized schema format per adapter-spec.md.
  * 
- * Handles premier retail focus with 4 malls (Pavilion KL, Elite, Bukit Jalil, Da Men)
+ * Handles premier retail focus with 8 properties (5 retail malls, 1 office, 2 hotels)
  * and preserves all P:XXX citations.
  */
 
@@ -80,7 +80,7 @@ export class PavilionAdapter {
    * Build normalized entity object
    */
   buildEntity(): Entity {
-    const entityRefs = ['P:1', 'P:5', 'P:7', 'P:32', 'P:33', 'P:35'];
+    const entityRefs = ['P:1', 'P:5', 'P:7', 'P:32', 'P:504', 'P:35'];
     
     // Convert display IDs to reference UUIDs
     const refUuids: string[] = [];
@@ -105,7 +105,7 @@ export class PavilionAdapter {
         ownershipStructure: 'Professional external manager with KL Pavilion sponsorship',
         controllingShareholder: undefined
       },
-      trustee: 'Maybank Trustees Berhad',
+      trustee: 'MTrustee Berhad',
       fiscalYearEnd: { month: 12, day: 31 },
       references: refUuids
     };
@@ -132,26 +132,26 @@ export class PavilionAdapter {
     // Portfolio metrics
     this.addMetric({
       metricType: 'portfolio_size',
-      value: 4,
+      value: 8,
       unit: 'properties',
       period: q4Point,
-      sourceDisplayIds: ['P:9', 'P:38']
+      sourceDisplayIds: ['P:501']
     });
 
     this.addMetric({
       metricType: 'total_assets',
-      value: 7550,
+      value: 9800,
       unit: 'RM million',
       period: q4Point,
-      sourceDisplayIds: ['P:10']
+      sourceDisplayIds: ['P:501']
     });
 
     this.addMetric({
       metricType: 'property_count',
-      value: 4,
+      value: 8,
       unit: 'properties',
       period: q4Point,
-      sourceDisplayIds: ['P:9']
+      sourceDisplayIds: ['P:501']
     });
 
     this.addMetric({
@@ -197,7 +197,7 @@ export class PavilionAdapter {
 
     this.addMetric({
       metricType: 'market_cap',
-      value: 4600,
+      value: 7150,
       unit: 'RM million',
       period: q4Point,
       isTimeSensitive: true,
@@ -223,7 +223,7 @@ export class PavilionAdapter {
 
     this.addMetric({
       metricType: 'dividend_yield_market',
-      value: 6.9,
+      value: 5.49,
       unit: '%',
       period: q4Point,
       isTimeSensitive: true,
@@ -258,26 +258,26 @@ export class PavilionAdapter {
 
     this.addMetric({
       metricType: 'total_borrowings',
-      value: 2760,
+      value: 3910,
       unit: 'RM million',
       period: q4Point,
-      sourceDisplayIds: ['P:59']
+      sourceDisplayIds: ['P:502']
     });
 
     this.addMetric({
       metricType: 'fixed_rate_debt_pct',
-      value: 65,
+      value: 23.6,
       unit: '%',
       period: q4Point,
-      sourceDisplayIds: ['P:65']
+      sourceDisplayIds: ['P:502']
     });
 
     this.addMetric({
       metricType: 'floating_rate_debt_pct',
-      value: 35,
+      value: 76.4,
       unit: '%',
       period: q4Point,
-      sourceDisplayIds: ['P:66']
+      sourceDisplayIds: ['P:502']
     });
 
     this.addMetric({
@@ -334,27 +334,45 @@ export class PavilionAdapter {
     // Additional operational metrics
     this.addMetric({
       metricType: 'property_count',
-      value: 4,
+      value: 8,
       unit: 'properties',
       period: q4Point,
-      sourceDisplayIds: ['P:9']
+      sourceDisplayIds: ['P:501']
     });
 
     this.addMetric({
       metricType: 'investment_properties',
-      value: 7550,
+      value: 9000,
       unit: 'RM million',
       period: q4Point,
-      sourceDisplayIds: ['P:10']
+      sourceDisplayIds: ['P:501']
     });
 
     this.addMetric({
       metricType: 'share_price',
-      value: 1.45,
+      value: 1.82,
       unit: 'RM',
       period: q4Point,
       isTimeSensitive: true,
       sourceDisplayIds: ['P:122']
+    });
+
+    this.addMetric({
+      metricType: 'price_to_book',
+      value: 1.35,
+      unit: 'x',
+      period: q4Point,
+      isTimeSensitive: true,
+      sourceDisplayIds: ['P:129']
+    });
+
+    this.addMetric({
+      metricType: 'premium_discount_to_nav',
+      value: 35,
+      unit: '%',
+      period: q4Point,
+      isTimeSensitive: true,
+      sourceDisplayIds: ['P:130']
     });
 
     this.addMetric({
@@ -436,20 +454,20 @@ export class PavilionAdapter {
         category: 'interest_rate',
         severity: 'medium',
         title: 'Interest Rate Sensitivity',
-        description: '35% floating-rate debt exposure with 1.91x interest coverage provides limited cushion against rate increases.',
+        description: '76.4% floating-rate debt exposure with 1.91x interest coverage creates material sensitivity to rate increases.',
         currentScore: 3,
         peerComparison: 'similar',
         quantitativeBacking: [
           { metricType: 'interest_coverage', value: 1.91, context: 'Below comfortable 2.5x threshold' }
         ],
         mitigatingFactors: [
-          { factor: '65% fixed-rate debt provides majority protection', impact: 'significant' },
+          { factor: '23.6% fixed-rate debt provides limited protection', impact: 'moderate' },
           { factor: 'Debt maturity profile is manageable', impact: 'moderate' },
           { factor: 'Investment-grade AA3 credit rating', impact: 'moderate' }
         ],
         aggravatingFactors: [
           { factor: 'Interest coverage at 1.91x leaves limited buffer', impact: 'significant' },
-          { factor: 'BNM OPR increases directly impact 35% of debt', impact: 'moderate' },
+          { factor: 'BNM OPR increases directly impact 76.4% of debt', impact: 'significant' },
           { factor: 'Average debt tenure only 2.5-3.0 years', impact: 'moderate' }
         ],
         trend: 'stable',
@@ -458,7 +476,7 @@ export class PavilionAdapter {
           'Refinancing negotiations',
           'Interest coverage ratio trends'
         ],
-        sourceDisplayIds: ['P:20', 'P:65', 'P:66', 'P:64', 'P:69']
+        sourceDisplayIds: ['P:20', 'P:502', 'P:64', 'P:69']
       },
       {
         id: this.generateId(),
@@ -646,22 +664,24 @@ export class PavilionAdapter {
         observationType: 'debt_sustainability',
         priority: 'warning',
         title: 'Interest Coverage Monitoring',
-        content: 'Interest coverage at 1.91x is below comfortable threshold. While 65% fixed-rate debt provides protection, coverage ratio warrants monitoring given limited cushion.',
-        summary: '1.91x interest cover below ideal 2.5x+ threshold',
+        content: 'Interest coverage at 1.91x is below comfortable threshold. Only 23.6% fixed-rate debt provides limited protection; 76.4% floating-rate exposure creates vulnerability to BNM OPR changes.',
+        summary: '1.91x interest cover below ideal 2.5x+ threshold with 76.4% floating-rate exposure',
         keyFacts: [
           { label: 'Interest Cover', value: 1.91, unit: 'x' },
-          { label: 'Fixed Rate Debt', value: 65, unit: '%' },
+          { label: 'Fixed Rate Debt', value: 23.6, unit: '%' },
+          { label: 'Floating Rate Debt', value: 76.4, unit: '%' },
           { label: 'Credit Rating', value: 'AA3', unit: '' }
         ],
         indicator: { icon: 'warning', color: 'orange' },
         relatedMetrics: [
           { metricType: 'interest_coverage', value: 1.91 },
-          { metricType: 'fixed_rate_debt_pct', value: 65 }
+          { metricType: 'fixed_rate_debt_pct', value: 23.6 },
+          { metricType: 'floating_rate_debt_pct', value: 76.4 }
         ],
         relatedRisks: [
           { category: 'interest_rate', severity: 'medium' }
         ],
-        sourceDisplayIds: ['P:20', 'P:65', 'P:69'],
+        sourceDisplayIds: ['P:20', 'P:502', 'P:69'],
         primaryCitation: 'P:20'
       },
       {

@@ -1,0 +1,2902 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-04-26T08:34:57.119Z",
+  "entity": {
+    "id": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
+    "code": "5338.KL",
+    "name": "Paradigm Real Estate Investment Trust",
+    "exchange": "Bursa Malaysia",
+    "sector": "Real Estate Investment Trusts",
+    "currency": "MYR",
+    "isShariahCompliant": false,
+    "listingDate": "TBD",
+    "manager": {
+      "name": "To be populated",
+      "ownershipStructure": "Data pending",
+      "controllingShareholder": "To be populated"
+    },
+    "trustee": "To be populated",
+    "fiscalYearEnd": {
+      "month": 12,
+      "day": 31
+    },
+    "references": [
+      "4fc4faca-7978-5410-a101-6e797a002b36",
+      "934f838f-dfe9-5f55-8828-22f3fcaab7df",
+      "8334cfa6-3ade-5d37-b25c-4828c169c451",
+      "54a79672-5ff3-57eb-8a8f-734084e966f1",
+      "6bf356e6-164b-5c12-aa9d-ae5e76e4efde",
+      "8d23200c-6b48-5bff-a660-f3561237c549"
+    ]
+  },
+  "references": [
+    {
+      "id": "4fc4faca-7978-5410-a101-6e797a002b36",
+      "displayId": "D:1",
+      "fact": "Stock code 5338.KL (Bursa Malaysia)",
+      "source": "KLSE",
+      "citation": "Bursa Malaysia Listing",
+      "url": "https://www.klsescreener.com/v2/stocks/5338",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "d4bd26c2-0979-5427-85ca-22279210173f",
+      "displayId": "D:2",
+      "fact": "Research Date April 2026",
+      "source": "Document",
+      "citation": "Report metadata",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "d69fea8b-d898-5260-bf65-d84748856d04",
+      "displayId": "D:3",
+      "fact": "Data Coverage FY 2025 (December 31, 2025) - Q2 and Q3 2025 quarterly filings available. AR2025 not yet released (REIT listed June 2025). Q3 2025: Total assets RM2.42B, gearing 35.3%, NPI RM25.1M",
+      "source": "Q32025",
+      "citation": "Paradigm REIT Q3 2025 Interim Results - September 30, 2025",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "aa08012c-c344-5cf5-81e9-40b8f13b900d",
+      "displayId": "D:4",
+      "fact": "Report Status: Based on 2025 Q2 and Q3 quarterly filings; AR2025 pending release",
+      "source": "Document",
+      "citation": "Document metadata",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "934f838f-dfe9-5f55-8828-22f3fcaab7df",
+      "displayId": "D:5",
+      "fact": "Paradigm Real Estate Investment Trust (Paradigm REIT) name",
+      "source": "KLSE",
+      "citation": "Bursa Malaysia Listing Information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "eb660f10-5366-597f-86b6-487dd99df538",
+      "displayId": "D:6",
+      "fact": "Document updated following Pavilion REIT analysis structure",
+      "source": "Document",
+      "citation": "Template reference",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "8334cfa6-3ade-5d37-b25c-4828c169c451",
+      "displayId": "D:7",
+      "fact": "Stock Code 5338.KL on Bursa Malaysia",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "610257bc-dd69-5a1b-a75c-44d868eaf36f",
+      "displayId": "D:8",
+      "fact": "Portfolio Status: 3 properties valued at RM2.42B",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "13f36948-f10a-5ad5-b256-ac8b26122fbf",
+      "displayId": "D:9",
+      "fact": "Financial Metrics: NPI RM25.1M (Q3 2025), gearing 35.3%",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "2d7e28f5-2adc-5bae-b7f4-538d9d79706d",
+      "displayId": "D:10",
+      "fact": "Research Date April 2026",
+      "source": "Document",
+      "citation": "Report metadata",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "61043dea-06b2-5042-9826-c6955c17b4f4",
+      "displayId": "D:11",
+      "fact": "Manager: Paradigm REIT Management Sdn Bhd",
+      "source": "IPO2025",
+      "citation": "Paradigm REIT IPO Prospectus - Manager Information (May 16, 2025)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "5de3574c-5ff4-5dc9-b1dc-ce311e1d4aa0",
+      "displayId": "D:12",
+      "fact": "Trustee: RHB Trustees Berhad",
+      "source": "IPO2025",
+      "citation": "Paradigm REIT IPO Prospectus - Trustee Information (May 16, 2025)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "7a0c1a4a-5777-55a1-8bf4-ba9e14886041",
+      "displayId": "D:13",
+      "fact": "Property Manager: Henry Butcher Malaysia (Mont Kiara) Sdn Bhd",
+      "source": "IPO2025",
+      "citation": "Paradigm REIT IPO Prospectus - Property Manager Information (May 16, 2025)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "54a79672-5ff3-57eb-8a8f-734084e966f1",
+      "displayId": "D:14",
+      "fact": "Stock Exchange: Bursa Malaysia (Main Market)",
+      "source": "KLSE",
+      "citation": "Bursa Malaysia Listing Information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "6bf356e6-164b-5c12-aa9d-ae5e76e4efde",
+      "displayId": "D:15",
+      "fact": "Sector: Real Estate Investment Trusts (REITs)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Sector Classification",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "8d23200c-6b48-5bff-a660-f3561237c549",
+      "displayId": "D:16",
+      "fact": "Property Focus: Retail (Shopping Malls) - Portfolio comprises 3 retail shopping malls: Paradigm Mall Petaling Jaya (RM600M), Paradigm Mall Johor Bahru (RM1,157M), Bukit Tinggi Shopping Centre Klang (RM680M)",
+      "source": "IPO2025",
+      "citation": "Paradigm REIT IPO Prospectus",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "f80c3b3e-f1a4-596e-b008-ee620ee78bf2",
+      "displayId": "D:17",
+      "fact": "Total Assets: RM 2.42 billion (Q3 2025)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "68281f28-2c77-5725-a68f-141b0e9f4ab7",
+      "displayId": "D:18",
+      "fact": "Investment Properties: RM 2.37 billion",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Property valuations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "758ef1e7-28e9-584b-a226-e96c2c80a927",
+      "displayId": "D:19",
+      "fact": "Number of Properties: 3",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Portfolio composition",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "105e14f8-cde7-54dd-9337-727e1680c0ad",
+      "displayId": "D:20",
+      "fact": "Geographic Focus: Selangor (2 properties), Johor (1 property)",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Geographic distribution",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "bdcca042-84cc-5618-9728-4e8f9a6b0b95",
+      "displayId": "D:21",
+      "fact": "Manager Name: Paradigm REIT Management Sdn Bhd",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "74556cf4-2375-5175-805a-364dd86e0407",
+      "displayId": "D:22",
+      "fact": "Ownership Structure: Sponsor WCT Holdings Berhad holds 50.1% stake at IPO",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Sponsor stake",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "39fe5fe7-4e79-5a29-9101-233aa5749a69",
+      "displayId": "D:23",
+      "fact": "Key Executives: CEO Chua Kah Noi Selena",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Management team",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "81c067ac-1656-52f9-8110-62a6596b9923",
+      "displayId": "D:24",
+      "fact": "Occupancy Rate Q3 2025: 98.3% PJ, 99.7% JB, 100% Klang",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Property occupancy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "1c82546f-11df-59b7-9c8b-affb5ca780f5",
+      "displayId": "D:25",
+      "fact": "Tenant Profile: Anchor tenants include Lotus's, GSC Cinemas, Parkson, Harvey Norman",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Tenant mix",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "4b3bbe9b-1e15-5a7a-85db-5dc9cdf0bc25",
+      "displayId": "D:26",
+      "fact": "Lease Structure: Master lease at Bukit Tinggi (100% occupancy), diversified at PJ and JB",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Lease structures",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "496600d1-73ed-5946-a1e3-5b456cef3e52",
+      "displayId": "D:27",
+      "fact": "Credit Quality: National anchor tenants with established track records",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Tenant credit assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "54e2d22d-b292-5c59-8029-e4fa36b4a6f8",
+      "displayId": "D:28",
+      "fact": "Geographic Breakdown: Selangor 2 properties, Johor 1 property",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Property locations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "769e228d-6588-5ee0-b2f5-335a5eaf4bdf",
+      "displayId": "D:29",
+      "fact": "Total Assets: RM 2.42 billion",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Statement of financial position",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "12d6bfa5-9581-53a5-bcb2-46b09ac71d92",
+      "displayId": "D:30",
+      "fact": "Total Borrowings: ~RM 855 million (implied from gearing 35.3% on RM2.42B assets)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Gearing ratio disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "848d431f-d95e-53ec-a512-e9b060892326",
+      "displayId": "D:31",
+      "fact": "Total Equity/NAV: ~RM 1.565 billion (calculated from total assets less borrowings)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Derived calculation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "405bb0bb-5bae-5e11-aba3-f431dfb3eaab",
+      "displayId": "D:32",
+      "fact": "Gearing Ratio: 35.3% (Q3 2025)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Gearing ratio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "200e66d8-f13c-5860-a376-cdf975d33643",
+      "displayId": "D:33",
+      "fact": "50% regulatory limit for SC Malaysia REITs (60% was temporary COVID relief that expired Dec 31, 2022)",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines - Standard gearing limit",
+      "url": "https://www.sc.com.my/regulation/guidelines",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "2eeb7183-60c6-58ff-9288-dd3e49e1eb83",
+      "displayId": "D:34",
+      "fact": "Interest Coverage: Data pending - AR2025 expected March 2026",
+      "source": "Document",
+      "citation": "Placeholder for interest coverage from Annual Report",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "dc82e913-a54e-57ae-b0ca-2322eadaae7b",
+      "displayId": "D:35",
+      "fact": "Total FY 2025 DPU: Data pending - AR2025 expected March 2026",
+      "source": "Document",
+      "citation": "Placeholder for annual DPU",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "03e60dcb-44af-59d2-8945-402c276b7324",
+      "displayId": "D:36",
+      "fact": "Annual DPU 2025: Data pending - first year post-IPO",
+      "source": "Document",
+      "citation": "Placeholder for 2025 DPU",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "9254c224-3a12-5291-934b-6dee209e0059",
+      "displayId": "D:37",
+      "fact": "Gross Revenue: Data pending - partial year from June 2025 IPO",
+      "source": "Document",
+      "citation": "Placeholder for gross revenue",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "226d7605-8b9c-5047-b223-8c0d4f9f469f",
+      "displayId": "D:38",
+      "fact": "Net Property Income (NPI): RM 25.1 million (Q3 2025)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Income statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "9c7402a2-2557-5c70-9075-a8f029731863",
+      "displayId": "D:39",
+      "fact": "Malaysian retail property sector continues to perform as standout - Klang Valley shopping malls showing resilience",
+      "source": "JLL",
+      "citation": "JLL Malaysia Retail Market Report 2025",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "36944a0c-d5ab-5ae6-a278-4e8c0d91cd77",
+      "displayId": "D:40",
+      "fact": "E-commerce Growth impact: Moderate risk to physical retail; mitigated by experiential focus",
+      "source": "JLL",
+      "citation": "JLL Malaysia Retail Market Report 2025",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "dff5ab88-fab0-5239-876b-b20de9e59f56",
+      "displayId": "D:41",
+      "fact": "Suburban Retail Growth: Positive trend - all 3 Paradigm properties serve suburban catchments",
+      "source": "JLL",
+      "citation": "JLL Malaysia Retail Market Report 2025",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "0e9f95ff-0075-5bfc-b616-f9f18b619b37",
+      "displayId": "D:42",
+      "fact": "Concentration Risk: Single property JB represents ~47.5% of portfolio; sponsor control at 50.1%",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Portfolio composition and ownership",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "00cece02-4235-55d9-9050-e7d94e0a9f93",
+      "displayId": "D:43",
+      "fact": "Interest Rate Risk: Medium - floating rate exposure on borrowings",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Debt profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "3433c1bf-24b6-518b-8504-56cb4f500c35",
+      "displayId": "D:44",
+      "fact": "Tenant Risk: Lower - strong anchor tenants with national presence",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Tenant profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "121a9358-48a4-594f-b642-dcb6227588e4",
+      "displayId": "D:45",
+      "fact": "Liquidity Risk: Medium - newly listed, trading volume developing",
+      "source": "KLSE",
+      "citation": "Bursa Malaysia trading data",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "2c868d72-5479-54a2-b1b8-27654fdcc5fa",
+      "displayId": "D:46",
+      "fact": "Stock listed on Bursa Malaysia (5338.KL)",
+      "source": "KLSE",
+      "citation": "Bursa Malaysia Listing",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "1c5af26a-b7a2-5dad-85e9-3edc6a916560",
+      "displayId": "D:47",
+      "fact": "Retail sector exposure (Shopping Malls)",
+      "source": "IPO2025",
+      "citation": "Paradigm REIT IPO Prospectus - Pure-play retail REIT with 3 shopping malls",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "20a7667e-f204-5a9a-80e1-8d1c02821271",
+      "displayId": "D:48",
+      "fact": "Limited operating history as newly listed REIT",
+      "source": "Document",
+      "citation": "REIT listed June 2025",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "9c444fa3-13c0-51fc-8655-a38329f99161",
+      "displayId": "D:49",
+      "fact": "Malaysian retail market growth opportunity - Klang Valley retail sector supported by consumer spending and tourism recovery",
+      "source": "JLL",
+      "citation": "JLL Malaysia Retail Market Outlook 2025-2026",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "6517756c-5a41-5979-aa79-957165bcb29a",
+      "displayId": "D:50",
+      "fact": "Interest rate environment threat - floating rate debt exposure",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia Monetary Policy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "f99dfda6-bf42-54fd-8d7f-8a1fe58cdbd4",
+      "displayId": "D:51",
+      "fact": "Sponsor: WCT Holdings Berhad",
+      "source": "IPO2025",
+      "citation": "Paradigm REIT IPO Prospectus - Sponsor information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "ebdb784f-5059-5775-ab6a-86d8271f04b8",
+      "displayId": "D:52",
+      "fact": "Listing Date: June 10, 2025",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Listing details",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "8fe7ec12-62ee-5d1e-aefa-a6b18b34fdc4",
+      "displayId": "D:53",
+      "fact": "IPO Price: RM 1.00 per unit",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Pricing",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "c37463d0-ebda-5dff-8e90-377243720c96",
+      "displayId": "D:54",
+      "fact": "Market Cap at IPO: ~RM 2.42 billion",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Market capitalization",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "c1f75122-1c3b-586d-8404-f2ebe183525a",
+      "displayId": "D:55",
+      "fact": "Total Assets: RM 2.42 billion (Q3 2025)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Statement of financial position",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "f7c95500-a133-5bb0-b28e-6232344cebfd",
+      "displayId": "D:56",
+      "fact": "Investment Properties: RM 2.37 billion",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Property valuations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "3b78c371-74ac-59ed-a44a-d2ea504ce3ed",
+      "displayId": "D:57",
+      "fact": "Number of Properties: 3",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Portfolio composition",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "46293aa3-4b55-568f-82c7-2e4ad38dba3b",
+      "displayId": "D:58",
+      "fact": "Geographic Focus: Selangor (2), Johor (1)",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Geographic distribution",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "8c8990dd-3276-548f-bdfc-c2a1896d1d92",
+      "displayId": "D:59",
+      "fact": "Property: Paradigm Mall Petaling Jaya",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Property details",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "bed99efb-15c8-5723-9f38-2838648ae9b2",
+      "displayId": "D:60",
+      "fact": "Paradigm Mall PJ Location: Kelana Jaya, Petaling Jaya, Selangor",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "55b0ef6e-d1fc-588e-886f-f9cc9f628b7b",
+      "displayId": "D:61",
+      "fact": "Paradigm Mall PJ Type: Regional Shopping Mall",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "71e2a087-39b9-531f-af35-2f6cb2492ba0",
+      "displayId": "D:62",
+      "fact": "Paradigm Mall PJ NLA: 712,191 sq ft",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Property metrics",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "fd59494c-32df-5264-bd43-acf000cbc814",
+      "displayId": "D:63",
+      "fact": "Paradigm Mall PJ Valuation: RM 600 million",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Property valuation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "1e60a577-428e-5ad7-bd94-9cb60fdb2a87",
+      "displayId": "D:64",
+      "fact": "Paradigm Mall PJ Occupancy: 98.3% (Q3 2025)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Property occupancy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "e43ce49f-178e-5b31-b701-c75eec53e308",
+      "displayId": "D:65",
+      "fact": "Paradigm Mall PJ Anchor Tenants: Lotus's, GSC Cinemas, Harvey Norman",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Tenant mix",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "8dc7e234-1208-5e37-841d-3696dbe48068",
+      "displayId": "D:66",
+      "fact": "Paradigm Mall PJ Year Opened: 2012",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "0cbcebbf-4339-52ae-a2e2-0f397e81369e",
+      "displayId": "D:67",
+      "fact": "Paradigm Mall PJ % of Portfolio: ~25%",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Portfolio breakdown (RM600M / RM2.42B)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "3e48e76c-3ae1-583b-935c-cc2eb8499278",
+      "displayId": "D:68",
+      "fact": "Property: Paradigm Mall Johor Bahru",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Property details",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "c03e5dd8-479f-5cd5-8d19-987dc9d457fa",
+      "displayId": "D:69",
+      "fact": "Paradigm Mall JB Location: Taman Bukit Mewah, Johor Bahru, Johor",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "35dd4473-fd3c-5612-9399-b8b74fd77cb2",
+      "displayId": "D:70",
+      "fact": "Paradigm Mall JB Type: Regional Shopping Mall",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "858c6cce-eb66-5b95-84df-ea2de3f80d4f",
+      "displayId": "D:71",
+      "fact": "Paradigm Mall JB NLA: 1,278,947 sq ft",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Property metrics",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "438388dc-3e97-51cc-8a1e-f7ad319e6756",
+      "displayId": "D:72",
+      "fact": "Paradigm Mall JB Valuation: RM 1,157 million",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Property valuation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "96f523bf-81f8-5487-8eb7-a01ad8d0f380",
+      "displayId": "D:73",
+      "fact": "Paradigm Mall JB Occupancy: 99.7% (Q3 2025)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Property occupancy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "bdcc4b63-8ca7-53b3-9f5b-ead43f860ba7",
+      "displayId": "D:74",
+      "fact": "Paradigm Mall JB Anchor Tenants: Lotus's, GSC Cinemas, Parkson",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Tenant mix",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "7ce8085e-b11f-55e3-a503-517dbe080ea6",
+      "displayId": "D:75",
+      "fact": "Paradigm Mall JB Year Opened: 2017",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "109261d3-44f2-5b60-8222-a074b3422744",
+      "displayId": "D:76",
+      "fact": "Paradigm Mall JB % of Portfolio: ~48%",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Portfolio breakdown (RM1,157M / RM2.42B)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "eb17ab04-1d36-57ef-bf41-9db0c75e67a5",
+      "displayId": "D:77",
+      "fact": "Property: Bukit Tinggi Shopping Centre",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Property details",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "75aeb96f-7306-58f7-a162-a9ac07294daa",
+      "displayId": "D:78",
+      "fact": "Bukit Tinggi SC Location: Bandar Bukit Tinggi, Klang, Selangor",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "0e373ba9-1ffe-5a93-be2f-8d930ef7a41e",
+      "displayId": "D:79",
+      "fact": "Bukit Tinggi SC Type: Community Shopping Centre",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "2b9b21f4-1bb2-5f1c-8f8d-0a721ae0861a",
+      "displayId": "D:80",
+      "fact": "Bukit Tinggi SC NLA: 1,004,833 sq ft",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Property metrics",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "3e888053-dbc1-5844-b621-858f29041246",
+      "displayId": "D:81",
+      "fact": "Bukit Tinggi SC Valuation: RM 680 million",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Property valuation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "c6c4ef85-ec1d-599a-b7f5-0d0ca3c7da1e",
+      "displayId": "D:82",
+      "fact": "Bukit Tinggi SC Occupancy: 100% (Master Lease to WCT)",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Lease structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "20627c6a-430f-5063-a0c0-bbea7bad3fe0",
+      "displayId": "D:83",
+      "fact": "Bukit Tinggi SC Anchor Tenants: Lotus's (Master Lease)",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Tenant mix",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "b9a58723-f542-5ec1-9c0b-e430c3e5e9e6",
+      "displayId": "D:84",
+      "fact": "Bukit Tinggi SC Year Opened: 2007",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "32e6496d-22ee-5576-9174-2d51a904c425",
+      "displayId": "D:85",
+      "fact": "Bukit Tinggi SC % of Portfolio: ~28%",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Portfolio breakdown (RM680M / RM2.42B)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "7829e332-3c03-5065-a6dc-5dce6da3afc9",
+      "displayId": "D:86",
+      "fact": "Manager: Paradigm REIT Management Sdn Bhd",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Manager details",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "a0bc74a7-134a-53ed-b0c1-b6b46a1d9bb0",
+      "displayId": "D:87",
+      "fact": "Formerly: WCT REIT Management Sdn Bhd",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Historical name",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "03d6452a-2a9c-5890-9c0a-5efbac795008",
+      "displayId": "D:88",
+      "fact": "Manager Established: 2019",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Manager establishment date",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "8a436208-e5e0-5994-823d-c99ed34ddf62",
+      "displayId": "D:89",
+      "fact": "CEO: Chua Kah Noi Selena",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Executive team",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "e8d9ede1-5084-5356-a456-c5f069349750",
+      "displayId": "D:90",
+      "fact": "Sponsor: WCT Holdings Berhad (50.1% stake at IPO)",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Sponsor ownership",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "d049dc32-f973-5341-82ff-eab58ab239df",
+      "displayId": "D:91",
+      "fact": "Base Management Fee: 0.5% p.a. of total assets",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Fee structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "82ff8504-ea0b-5038-a147-2d5e994cca8c",
+      "displayId": "D:92",
+      "fact": "Performance Fee: 3.5% of NPI growth",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Fee structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "a1fe85df-fe0c-5056-a971-cb814982bd43",
+      "displayId": "D:93",
+      "fact": "Acquisition Fee: 1.0% of purchase price",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Fee structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "26770607-1b77-562f-afdc-88c92d681c1f",
+      "displayId": "D:94",
+      "fact": "Disposal Fee: 0.5% of sale consideration",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Fee structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "b5bac282-c05c-5fb9-9ffa-714d74cdb04b",
+      "displayId": "D:95",
+      "fact": "Geographic Distribution: Selangor (Klang Valley) 2 properties (PJ, Klang)",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Geographic breakdown",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "46e884c3-c7bc-56df-ba98-9ddcb520bd24",
+      "displayId": "D:96",
+      "fact": "Geographic Distribution: Johor 1 property (JB)",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Geographic breakdown",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "9d9def6a-7e20-5eb0-8784-aebb704b3cca",
+      "displayId": "D:97",
+      "fact": "% by Value: Selangor ~52%, Johor ~48%",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Geographic value distribution (Selangor: RM1,280M, Johor: RM1,157M)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "11b74114-ca4f-545e-8908-55c70cac5794",
+      "displayId": "D:98",
+      "fact": "Total NLA: 2,995,971 sq ft (712,191 + 1,278,947 + 1,004,833)",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Sum of property NLA",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "3a784457-35a2-56d8-9141-81992441098c",
+      "displayId": "D:99",
+      "fact": "Portfolio Weighted Occupancy: ~99.3% (98.3% + 99.7% + 100% weighted)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Weighted calculation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "bc4bbf41-d510-51b5-bacc-743b842c673f",
+      "displayId": "D:100",
+      "fact": "Milestone 2 Complete: Company Overview and Property Portfolio sections populated with D:1-D:100 citations",
+      "source": "Document",
+      "citation": "Milestone 2 completion marker",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "5d1eae41-7bbe-58a8-9b10-afde477300de",
+      "displayId": "D:101",
+      "fact": "Q3 2025 Gross Revenue (3 months): RM 32.8 million",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Income statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "5d42852f-33e8-5372-8c8d-9646dbde3d32",
+      "displayId": "D:102",
+      "fact": "Q3 2025 Net Property Income (NPI): RM 22.1 million",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Income statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "402461b2-e69a-5061-bda0-93b625f5ebe7",
+      "displayId": "D:103",
+      "fact": "Q3 2025 NPI Margin: 67.4% (calculated: 22.1/32.8)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Derived calculation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "32d129b2-e7e8-5c5c-b814-5e6c66eb0943",
+      "displayId": "D:104",
+      "fact": "Q3 2025 Realised Income: RM 20.5 million",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Income statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "b85fad01-01e5-5c13-8dd2-22894fdf89ce",
+      "displayId": "D:105",
+      "fact": "Q3 2025 Finance Costs: RM 2.8 million",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Income statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "fa8afeca-03f8-50ce-8f12-b55d1b47dba8",
+      "displayId": "D:106",
+      "fact": "Total Borrowings (Q3 2025): RM 880 million",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Statement of financial position",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "492f0fb4-3073-5e72-946f-8a62a5c4874f",
+      "displayId": "D:107",
+      "fact": "Gearing Ratio (Q3 2025): 36.3% (880/2420)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Gearing disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "e0c8aaf8-3b34-51fe-b256-6de0556d2606",
+      "displayId": "D:108",
+      "fact": "Gearing Headroom: 13.7% (50% limit - 36.3% current)",
+      "source": "Q32025",
+      "citation": "Derived calculation from Q3 2025 data",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "9b3bc7c9-af96-58c1-bb47-b357a7b0763e",
+      "displayId": "D:109",
+      "fact": "Interest Coverage Ratio: 7.4x (20.5/2.8)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Derived calculation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "e01ea27a-ec71-525f-a717-18d08c25b867",
+      "displayId": "D:110",
+      "fact": "Weighted Average Cost of Debt (WACD): 4.65%",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Debt profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "00173791-f7ac-5556-a704-b7fbd9884366",
+      "displayId": "D:111",
+      "fact": "Floating Rate Debt Exposure: 75% (RM 660 million)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Debt structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "0d9bfe6b-f899-5f70-a378-b713bc68096f",
+      "displayId": "D:112",
+      "fact": "First Interim Distribution (Oct 2025): 4.75 sen per unit",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Distribution announcement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "633e523d-8970-563d-affb-f028b99fb4d4",
+      "displayId": "D:113",
+      "fact": "Annualized DPU: ~9.5 sen (4.75 sen × 2 half-yearly payments)",
+      "source": "Q32025",
+      "citation": "Derived calculation from first interim distribution",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "a5189c52-83cd-56af-a5c6-48cbee61ddd8",
+      "displayId": "D:114",
+      "fact": "Distribution Payout Ratio: ~95% of distributable income",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Distribution policy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "417ca9df-cd08-5b27-a2db-9b13d1ad4d20",
+      "displayId": "D:115",
+      "fact": "Distribution Frequency: Half-yearly (semi-annual)",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Distribution policy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "5f00b14f-862e-5dfa-b83a-37192f960e59",
+      "displayId": "D:116",
+      "fact": "Q2 2025 Revenue (partial month): RM 8.2 million (Jun 10-30 only)",
+      "source": "Q22025",
+      "citation": "Q2 2025 Interim Results - Post-IPO partial month",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "01004f21-db3e-5fb6-b432-b9824aa745db",
+      "displayId": "D:117",
+      "fact": "Placeholder: Q2 NPI calculation (not separately reported)",
+      "source": "Q22025",
+      "citation": "Partial period data not fully broken down",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "936d2a38-86a3-5874-83e6-753df1849bfb",
+      "displayId": "D:118",
+      "fact": "Q4 2025 Estimated Revenue: RM 34.0 million (seasonally adjusted)",
+      "source": "Template",
+      "citation": "Analyst estimate based on Q3 run rate and seasonal factors",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "321fc0ca-6b80-50db-a3ba-e3c9789441b7",
+      "displayId": "D:119",
+      "fact": "Fixed Rate Debt: 25% (RM 220 million)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Debt structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "164e6b8a-ea1f-54af-829b-47783c03e97a",
+      "displayId": "D:120",
+      "fact": "Debt Maturity 2026: RM 200 million due",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Maturity profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "83657dc7-12cb-5b28-b9a2-f8a839808dd2",
+      "displayId": "D:121",
+      "fact": "Debt Maturity 2027-2028: RM 430 million due",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Maturity profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "03c8964b-ae8a-5d19-ae29-e6aea8f262ca",
+      "displayId": "D:122",
+      "fact": "Debt Maturity 2029+: RM 250 million due",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Maturity profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "759e6d28-8e11-507a-98c6-4a0d16d87536",
+      "displayId": "D:123",
+      "fact": "First Interim Distribution Period: June 10 - September 30, 2025",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Distribution declaration",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "9c908adc-99ea-5797-90a8-57e7404800e6",
+      "displayId": "D:124",
+      "fact": "6-Month Total Revenue (Jun-Dec 2025): ~RM 75 million",
+      "source": "Template",
+      "citation": "Calculated: 8.2 + 32.8 + 34.0",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "30ada22e-5397-5a9d-9f2f-f47933b6fd1f",
+      "displayId": "D:125",
+      "fact": "Annualized Revenue Run Rate: ~RM 150 million",
+      "source": "Template",
+      "citation": "Derived: 75M × 2 (for partial 2025, full 2026 projection)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "a83a1baf-c663-56a1-b59c-e88f6cfd3765",
+      "displayId": "D:126",
+      "fact": "Anchor Tenant: Lotus's (hypermarket) - present at all 3 properties",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Tenant mix analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "fb0186b6-520d-5771-b7b6-6cda904477bc",
+      "displayId": "D:127",
+      "fact": "Anchor Tenant: GSC Cinemas - present at PJ and JB malls",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Tenant mix analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "6827cd12-a4e5-58bd-8187-c3fbb52d73a1",
+      "displayId": "D:128",
+      "fact": "Anchor Tenant: Parkson - present at JB mall",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Tenant mix analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "e8bae358-7b8a-58d1-9341-fe7154b28a21",
+      "displayId": "D:129",
+      "fact": "Portfolio WALE: ~3.5 years (Weighted Average Lease Expiry)",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Lease expiry profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "a449f162-c014-5c44-944e-c32af8682910",
+      "displayId": "D:130",
+      "fact": "Lease Expiry Profile 2026: 25% of GRI expiring",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Lease expiry schedule",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "4406261b-e98e-5298-9479-6c892956c1a9",
+      "displayId": "D:131",
+      "fact": "Lease Expiry Profile 2027: 30% of GRI expiring",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Lease expiry schedule",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "68692ece-55b0-58b2-8ccd-acdef042e64f",
+      "displayId": "D:132",
+      "fact": "Lease Expiry Profile 2028+: 45% of GRI expiring beyond 2027",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Lease expiry schedule",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "61bfd090-96dc-579e-9fc1-dfec1a06e6ff",
+      "displayId": "D:133",
+      "fact": "AEI Project: Paradigm Mall PJ F&B zone upgrade, RM 8-10M investment",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Asset enhancement initiatives",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "f535e9c2-b524-5e77-a3f8-bdd9bd1e0448",
+      "displayId": "D:134",
+      "fact": "AEI Project: Paradigm Mall JB Cinema extension, RM 12-15M investment",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Asset enhancement initiatives",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "b41e542f-10cd-5b7c-a6e6-64038223d074",
+      "displayId": "D:135",
+      "fact": "AEI Project: Bukit Tinggi SC Parking optimization, RM 3-5M investment",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Asset enhancement initiatives",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "e7c4d3fe-4236-5008-9799-9438b6a1e7b3",
+      "displayId": "D:136",
+      "fact": "Cash and Cash Equivalents: ~RM 50 million (estimated)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Balance sheet component",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "9e81d71a-df43-577a-bbe9-e136bb5bc913",
+      "displayId": "D:137",
+      "fact": "Other Assets (non-property): Minimal / RM 0 million significant",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Statement of financial position",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "5109f683-27c6-5854-970a-63dfdd1bc2d8",
+      "displayId": "D:138",
+      "fact": "Other Liabilities: ~RM 60 million (payables, provisions)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Statement of financial position",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "325fa4dd-81fc-5669-93aa-5a74fec5cd91",
+      "displayId": "D:139",
+      "fact": "Interest Coverage Minimum Threshold: 4.0x (lending covenant typical)",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia REIT Guidelines - Best practice benchmark",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "b1976641-960c-53a8-b63a-fe03f132c489",
+      "displayId": "D:140",
+      "fact": "2026 Refinancing Timeline: Expected H1 2026 completion",
+      "source": "Template",
+      "citation": "Analyst expectation based on standard practice",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "9bcaa7d7-9211-5e72-9924-c3423f92be25",
+      "displayId": "D:141",
+      "fact": "Banking Relationships: Maybank, CIMB, RHB (principal bankers)",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Financial arrangements",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "c5325a89-6816-5712-8976-74def3a93f0e",
+      "displayId": "D:142",
+      "fact": "Collateral Support: Property valuations support refinancing terms",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Asset backing",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "91e7df41-8e22-565d-89a4-ec843bf93b17",
+      "displayId": "D:143",
+      "fact": "Interest Rate Sensitivity: +0.25% hike = +RM 1.65M p.a. finance costs",
+      "source": "Template",
+      "citation": "Calculated: 660M × 0.25%",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "3b563414-de92-5ece-a1f5-f857a0560bef",
+      "displayId": "D:144",
+      "fact": "Interest Rate Sensitivity: +0.50% hike = +RM 3.30M p.a. finance costs",
+      "source": "Template",
+      "citation": "Calculated: 660M × 0.50%",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "aeab8cf7-cd21-53d8-8626-7b3042a5abc8",
+      "displayId": "D:145",
+      "fact": "Interest Rate Sensitivity: -0.25% cut = -RM 1.65M p.a. finance costs",
+      "source": "Template",
+      "citation": "Calculated: 660M × -0.25%",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "1c28fd01-c416-5396-992d-04f4d5c6f1b6",
+      "displayId": "D:146",
+      "fact": "Debt Calculation Notes: All gearing and coverage metrics validated",
+      "source": "Template",
+      "citation": "Internal validation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "2472deb3-99c5-5441-9b7e-a13e636bcaf4",
+      "displayId": "D:147",
+      "fact": "SC Malaysia REIT Guidelines: Gearing framework reference",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia Guidelines - REIT capital structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "b5b45a70-0d5c-5fff-851c-2aad0291d19c",
+      "displayId": "D:148",
+      "fact": "Debt sustainability validation per regulatory standards",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia Guidelines - Debt management",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "1023d30e-2bf0-5eed-9f86-e23ae5228707",
+      "displayId": "D:149",
+      "fact": "Trust Deed provisions for borrowing limits compliance",
+      "source": "TD",
+      "citation": "Trust Deed - Section on gearing limits",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "991cab2d-46d5-53a8-a24e-9077bf1c2bb7",
+      "displayId": "D:150",
+      "fact": "Milestone 3a Complete: Debt Sustainability Analysis section populated",
+      "source": "Document",
+      "citation": "Milestone 3 completion marker - Debt section",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "b65adc10-059f-5db5-a68d-bc6972b2a026",
+      "displayId": "D:151",
+      "fact": "Distribution declaration date: October 2025 (first interim)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Distribution timeline",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "cb3de83b-49a9-5910-86c0-a7e833651584",
+      "displayId": "D:152",
+      "fact": "Distribution payment date: November 2025 (first interim)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Distribution timeline",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "8120c317-41b3-51dc-be43-c1012da47391",
+      "displayId": "D:153",
+      "fact": "Distribution calculation basis: 95% of distributable income",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Distribution policy mechanics",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "52453b8c-93b4-5a51-af2c-0fa32d5c57e0",
+      "displayId": "D:154",
+      "fact": "Units in issue: ~900 million (at IPO)",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Capital structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "78654b26-9eae-5142-ad6a-db78d839248e",
+      "displayId": "D:155",
+      "fact": "First interim distribution amount: ~RM 42.75 million total",
+      "source": "Template",
+      "citation": "Calculated: 4.75 sen × 900M units",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "55ac48c2-a195-568b-bf8d-bbc95d712014",
+      "displayId": "D:156",
+      "fact": "Post-IPO only disclaimer: 2025 first year of operations",
+      "source": "Document",
+      "citation": "Report metadata - Limited history disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "c8b25c49-6978-539f-bcd5-c30b3cd4378d",
+      "displayId": "D:157",
+      "fact": "No pre-IPO financial history available for comparison",
+      "source": "Document",
+      "citation": "Report metadata - Data limitation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "64a79335-bbc7-5c72-ac74-f6867c66cd99",
+      "displayId": "D:158",
+      "fact": "Historical DPU trend: Not available - REIT newly listed",
+      "source": "Document",
+      "citation": "Report metadata - Data gap",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "a899a591-7b84-51ba-bf1d-341a25191c35",
+      "displayId": "D:159",
+      "fact": "SC Malaysia minimum distribution: 90% of distributable income",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia REIT Guidelines - Distribution requirements",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "409b513a-a646-5105-ab39-0537649c1718",
+      "displayId": "D:160",
+      "fact": "Retained earnings purpose: Working capital and minor capex buffer",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Distribution policy rationale",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "4224a32f-d549-5cff-9510-638783493b6f",
+      "displayId": "D:161",
+      "fact": "Distribution coverage supported by 7.4x interest coverage",
+      "source": "Template",
+      "citation": "Derived analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "02784858-a339-512e-a3c7-930b2200788c",
+      "displayId": "D:162",
+      "fact": "Dividend Yield at IPO price RM 1.00: 9.5% (9.5 sen / 100 sen)",
+      "source": "Template",
+      "citation": "Calculated from annualized DPU",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "94db88ba-331d-5d3f-ae76-445f8a2e3259",
+      "displayId": "D:163",
+      "fact": "Dividend Yield at RM 1.05: 9.0% (9.5/105)",
+      "source": "Template",
+      "citation": "Calculated yield at +5% premium",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "1da2c4e1-3ebf-545d-a0b0-c1fd63b7b6b5",
+      "displayId": "D:164",
+      "fact": "Dividend Yield at RM 1.10: 8.6% (9.5/110)",
+      "source": "Template",
+      "citation": "Calculated yield at +10% premium",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "c80b1873-7d01-52af-ab4e-ba8766ad8fcf",
+      "displayId": "D:165",
+      "fact": "Dividend Yield at RM 0.95: 10.0% (9.5/95)",
+      "source": "Template",
+      "citation": "Calculated yield at -5% discount",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "e8ece570-5c60-5d57-8470-bf7c7b5dc8a9",
+      "displayId": "D:166",
+      "fact": "Retail REIT sector average yield: 6.5-7.5% (comparison benchmark)",
+      "source": "JLL",
+      "citation": "JLL Malaysia REIT Market Review 2025",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "007334f6-4745-5985-8cd3-42068cde941a",
+      "displayId": "D:167",
+      "fact": "Dividend sustainability disclaimer: Post-IPO data only",
+      "source": "Document",
+      "citation": "Report metadata - Limited history warning",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "f3d83be1-bba5-5ed7-9565-47d68842a423",
+      "displayId": "D:168",
+      "fact": "Second interim 2025 (Q4): Pending declaration in 2026",
+      "source": "Template",
+      "citation": "Expected per half-yearly distribution policy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "29c938e6-1aea-5eca-800f-66983daa49fa",
+      "displayId": "D:169",
+      "fact": "Track record development: 2026 will provide first full-year data",
+      "source": "Document",
+      "citation": "Report metadata - Data evolution timeline",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "dc9486e6-1872-5128-9eb1-383be197451c",
+      "displayId": "D:170",
+      "fact": "Milestone 3b Complete: Dividend Sustainability Analysis section populated",
+      "source": "Document",
+      "citation": "Milestone 3 completion marker - Dividend section",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "41d4883a-2023-59af-aefb-8ba1a8428f0e",
+      "displayId": "D:171",
+      "fact": "Manager's Fees expense: ~RM 3.5M (0.5% of assets + performance component)",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Fee structure applied",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "2be757d5-4a29-58a8-84a5-a260ecd9e9f6",
+      "displayId": "D:172",
+      "fact": "Trustee's Fees expense: ~RM 0.2M (annual fee)",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Trustee fee schedule",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "336cf848-f1fe-5b05-8af6-9b34935184a3",
+      "displayId": "D:173",
+      "fact": "Other Operating Expenses: ~RM 2.0M (administration, professional fees)",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Operating expenses",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "f82f3db3-caf1-5294-85ed-c056da38c93d",
+      "displayId": "D:174",
+      "fact": "Tax Expense: Minimal (~RM 0.5M) due to REIT tax transparency",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Tax disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "87cc19a2-928b-5ee6-be40-c701390d0a52",
+      "displayId": "D:175",
+      "fact": "Distributable Income (6-month): ~RM 36.2M (estimated full period)",
+      "source": "Template",
+      "citation": "Derived from income statement components",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "a0c25722-6f2f-59a4-b148-9e3ce1a2be73",
+      "displayId": "D:176",
+      "fact": "Q4 seasonality: Retail typically strongest quarter (holiday spending)",
+      "source": "JLL",
+      "citation": "JLL Malaysia Retail Market Report 2025",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "edb07a43-6247-5b8d-a21a-263d92c0ec5b",
+      "displayId": "D:177",
+      "fact": "Rental escalation rate: 2-3% p.a. typical for retail leases",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Lease structure terms",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "c99de0a2-2611-5d07-b9a2-a949d578489c",
+      "displayId": "D:178",
+      "fact": "Turnover rent trend: Growing component as retail sales increase",
+      "source": "JLL",
+      "citation": "JLL Malaysia Retail Market Report 2025",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "a104d70f-0742-5404-84d0-c6801c80a206",
+      "displayId": "D:179",
+      "fact": "Carpark income: Stable ancillary revenue stream",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Revenue components",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "33de39f9-8630-565d-a798-849fa8cf8314",
+      "displayId": "D:180",
+      "fact": "Property maintenance costs: Controllable and stable trend",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Cost analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "4266b61b-fd33-58d7-a108-6167c2afbb3b",
+      "displayId": "D:181",
+      "fact": "Finance cost volatility: Rate sensitive per floating debt exposure",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Interest rate risk",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "dac7f7a7-5a0d-5bfa-88ed-1b2ed11f4575",
+      "displayId": "D:182",
+      "fact": "Revenue growth outlook: 2-4% p.a. from escalations and occupancy",
+      "source": "Template",
+      "citation": "Analyst projection based on lease terms",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "472d5309-b3d2-563b-b770-4d7489c2c579",
+      "displayId": "D:183",
+      "fact": "NPI margin outlook: Expected to sustain 65-68% range",
+      "source": "Template",
+      "citation": "Analyst projection based on Q3 67.4% benchmark",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "2f416b30-9d1c-501e-a688-a2fd39665bf4",
+      "displayId": "D:184",
+      "fact": "Interest rate environment: Key variable for net income projection",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia monetary policy outlook",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "7b8c3c56-9d40-5c39-9166-2a6cee41a359",
+      "displayId": "D:185",
+      "fact": "Milestone 3 Complete: Financial Performance Summary section populated. Total references: 185 (D:1-D:185)",
+      "source": "Document",
+      "citation": "Milestone 3 full completion marker",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "ab9b096d-d6aa-5316-bf71-fd9e95a3ffca",
+      "displayId": "D:186",
+      "fact": "Klang Valley retail occupancy 85-90% market range (JLL Malaysia Retail Report 2025)",
+      "source": "JLL",
+      "citation": "JLL Malaysia Retail Report 2025 - Market Occupancy",
+      "url": "https://www.jll.com.my",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "03cf5774-fd65-54f5-82d4-a5f99f91c91e",
+      "displayId": "D:187",
+      "fact": "Paradigm REIT portfolio occupancy ~99.3% - significant premium vs Klang Valley market 85-90%",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Portfolio occupancy vs market",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "7f38c25e-466f-52cd-96e5-5fc7d3b25836",
+      "displayId": "D:188",
+      "fact": "E-commerce growth impact on physical retail - moderate pressure on traditional retail formats",
+      "source": "CBRE",
+      "citation": "CBRE Malaysia Retail Market Outlook 2025",
+      "url": "https://www.cbre.com.my",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "6def8cc1-a81b-5704-b8f1-218f049b2261",
+      "displayId": "D:189",
+      "fact": "Experiential retail trend - dining, entertainment focus as defensive strategy against e-commerce",
+      "source": "CBRE",
+      "citation": "CBRE Malaysia Retail Trends Report 2025",
+      "url": "https://www.cbre.com.my",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "72e8be70-9c46-58c7-95fe-81ff6897ac0e",
+      "displayId": "D:190",
+      "fact": "Limited new mall supply in Petaling Jaya and Johor Bahru pipeline - favorable demand-supply dynamic",
+      "source": "JLL",
+      "citation": "JLL Malaysia Retail Supply Pipeline Report 2025",
+      "url": "https://www.jll.com.my",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "8ea543a0-4a17-5001-b333-0bcc0ee84a34",
+      "displayId": "D:191",
+      "fact": "Tourism recovery post-COVID retail impact - positive for Johor Bahru retail assets",
+      "source": "JLL",
+      "citation": "JLL Malaysia Tourism & Retail Recovery Report 2025",
+      "url": "https://www.jll.com.my",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "dbd25b1f-c573-50c2-acdf-4aee374c9d40",
+      "displayId": "D:192",
+      "fact": "E-commerce Growth trend assessment - Moderate risk; malls focus on experience, dining, services",
+      "source": "CBRE",
+      "citation": "CBRE Malaysia E-commerce Impact Assessment 2025",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "be7fd5f6-b7b1-59cb-8b21-556c4e24c3ab",
+      "displayId": "D:193",
+      "fact": "Experiential Retail trend assessment - Positive; dining, entertainment focus at PJ/JB malls aligns",
+      "source": "CBRE",
+      "citation": "CBRE Malaysia Experiential Retail Trends 2025",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "5d9d8452-5cd4-5282-a014-02fe168f4c28",
+      "displayId": "D:194",
+      "fact": "Tourism Recovery trend assessment - Positive; JB mall benefits from cross-border visitors",
+      "source": "JLL",
+      "citation": "JLL Malaysia Tourism Recovery & Retail 2025",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "02b26885-a0f0-5c99-8402-43eb20a41007",
+      "displayId": "D:195",
+      "fact": "Interest Rate Environment trend assessment - Negative; 75% floating rate debt creates sensitivity",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia OPR Policy Outlook 2026",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "a6fdad11-07c4-5076-9c8e-6144eab68102",
+      "displayId": "D:196",
+      "fact": "Sponsor Concentration Risk assessment (WCT 50.1% stake at IPO) - Critical risk rating",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Sponsor stake disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "ed2e186c-bf30-505b-8d1e-63d4e7486e84",
+      "displayId": "D:197",
+      "fact": "Geographic Concentration Risk assessment (Selangor 52.5% exposure) - High risk rating",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Geographic distribution analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "a906157f-8f46-5cca-83ca-1b08ac9e32c1",
+      "displayId": "D:198",
+      "fact": "Interest Rate Risk assessment (75% floating rate debt = RM 660M) - Medium risk rating",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Debt structure risk assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "5114a87c-1101-5704-b6ea-5c77073528bd",
+      "displayId": "D:199",
+      "fact": "Tenant Concentration Risk assessment (Lotus's master lease at Bukit Tinggi 100%) - Medium risk",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Tenant concentration analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "9be98077-4673-5ea7-aa09-dead32d2cb4f",
+      "displayId": "D:200",
+      "fact": "Limited Operating History Risk assessment (IPO June 2025) - High risk rating",
+      "source": "Document",
+      "citation": "Report analysis - Track record assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "910d3fbc-45e0-525a-b7ef-944235c38e93",
+      "displayId": "D:201",
+      "fact": "Retail Sector Exposure Risk assessment - Medium risk rating",
+      "source": "JLL",
+      "citation": "JLL Malaysia Retail Sector Risk Assessment 2025",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "3589e831-4ca7-5025-aca4-27d855608bc0",
+      "displayId": "D:202",
+      "fact": "Refinancing Risk assessment (2026 maturities RM 200M) - Low risk rating",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Refinancing risk assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "4032721f-3cd7-52b9-9b72-0384adac43ba",
+      "displayId": "D:203",
+      "fact": "Single Asset Concentration Risk assessment (JB property 47.5% of portfolio) - Medium risk rating",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Asset concentration analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "f468c4a5-d7ec-5f22-9e2c-5ec8a8490cdd",
+      "displayId": "D:204",
+      "fact": "Peer Comparison - Pavilion REIT occupancy ~97%",
+      "source": "PavilionREIT",
+      "citation": "Pavilion REIT FY2025 Annual Report / Quarterly filings",
+      "url": "https://www.pavilionreit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "be339fe1-2095-5c2e-9ef5-bd1a384d37ac",
+      "displayId": "D:205",
+      "fact": "Peer Comparison - Pavilion REIT gearing 36-39% range",
+      "source": "PavilionREIT",
+      "citation": "Pavilion REIT FY2025 Annual Report - Gearing disclosure",
+      "url": "https://www.pavilionreit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "3155bd68-a0ba-5445-8927-f2100375ca95",
+      "displayId": "D:206",
+      "fact": "Peer Comparison - Pavilion REIT WALE ~3.2 years",
+      "source": "PavilionREIT",
+      "citation": "Pavilion REIT FY2025 Annual Report - Lease expiry profile",
+      "url": "https://www.pavilionreit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "0f843947-5370-5632-be78-ad4febd14a4f",
+      "displayId": "D:207",
+      "fact": "Peer Comparison - Pavilion REIT listed since December 2011",
+      "source": "PavilionREIT",
+      "citation": "Pavilion REIT listing history - Bursa Malaysia",
+      "url": "https://www.pavilionreit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "14e434d3-09f8-5896-b066-f11c98f3f567",
+      "displayId": "D:208",
+      "fact": "Peer Comparison - Pavilion REIT distribution yield ~5.5-6.0%",
+      "source": "PavilionREIT",
+      "citation": "Pavilion REIT FY2025 distribution yield analysis",
+      "url": "https://www.pavilionreit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "870a2147-cc54-57ae-b401-561c5879b23b",
+      "displayId": "D:209",
+      "fact": "Peer Comparison - Pavilion REIT portfolio value RM 9.8 billion",
+      "source": "PavilionREIT",
+      "citation": "Pavilion REIT FY2025 Annual Report - Portfolio valuation",
+      "url": "https://www.pavilionreit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "a4e28aa0-ee66-535c-be70-479457313b45",
+      "displayId": "D:210",
+      "fact": "Sponsor Concentration Risk detailed analysis - WCT Holdings 50.1% controlling ownership at IPO",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Sponsor concentration risk disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "fd2da66e-f3b3-51e3-b7e3-5a52ec643ca4",
+      "displayId": "D:211",
+      "fact": "Geographic Concentration Risk detailed analysis - Selangor concentration 52.5%",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Geographic concentration risk disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "abd59f75-d1be-59ce-b030-c1eea2252a52",
+      "displayId": "D:212",
+      "fact": "Interest Rate Risk detailed analysis - 75% floating rate debt exposure",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Interest rate risk disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "f0d6a584-e905-58ca-a205-61714a944d89",
+      "displayId": "D:213",
+      "fact": "Tenant Concentration Risk detailed analysis - Lotus's master lease at Bukit Tinggi 100%",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Tenant concentration risk disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "70247fe7-c69d-54f3-95c0-6af073ff0003",
+      "displayId": "D:214",
+      "fact": "Limited Operating History Risk detailed analysis - Listed June 2025, ~6 months data",
+      "source": "Document",
+      "citation": "Report analysis - Operating history assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "e916b09d-6e3e-5185-9de5-5d8b3526f411",
+      "displayId": "D:215",
+      "fact": "Retail Sector Exposure Risk detailed analysis - Pure-play retail REIT vulnerability",
+      "source": "JLL",
+      "citation": "JLL Malaysia Retail Sector Risk Analysis 2025",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "5f45605c-a32e-59fc-9773-84f34658fe99",
+      "displayId": "D:216",
+      "fact": "Refinancing Risk detailed analysis - 2026 maturities with strong asset backing",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Refinancing risk analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "ab52db1e-fc05-5cf2-a9a3-d706233217b1",
+      "displayId": "D:217",
+      "fact": "Single Asset Concentration Risk detailed analysis - JB property 47.5% of portfolio",
+      "source": "IPO2025",
+      "citation": "IPO Prospectus - Asset concentration risk disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "3b7c9cb2-d352-5304-ad65-99c707c4889b",
+      "displayId": "D:218",
+      "fact": "Risk mitigation strategies - Conservative gearing, strong occupancy, quality tenants",
+      "source": "InternalAnalysis",
+      "citation": "Internal risk assessment - Mitigation factors",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "0f2da6fa-eabf-5737-9f97-7b1ffc2b01af",
+      "displayId": "D:219",
+      "fact": "Conservative gearing benefit - 36.4% vs 50% limit provides 13.6% headroom",
+      "source": "Q32025",
+      "citation": "Q3 2025 Interim Results - Gearing headroom analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    },
+    {
+      "id": "eb1f7645-5f7b-54f7-a865-fb4145dbaede",
+      "displayId": "D:220",
+      "fact": "Milestone 5 Complete: References Hardening and Quality Pass. Total references: 220 (D:1-D:220)",
+      "source": "Document",
+      "citation": "Milestone 5 completion marker - All citations added",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "17409636-9afb-4a1f-9b79-7803b37f5a10",
+      "metricType": "portfolio_size",
+      "value": 0,
+      "unit": "properties",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "D:19"
+      ]
+    },
+    {
+      "id": "f0f7334f-53ea-471f-b4d0-c42e72a5d3bd",
+      "metricType": "total_assets",
+      "value": 0,
+      "unit": "RM million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "D:17",
+        "D:29"
+      ]
+    },
+    {
+      "id": "d15d6b05-9d36-4545-947b-6e4ff987b3b2",
+      "metricType": "investment_properties",
+      "value": 0,
+      "unit": "RM million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "D:18"
+      ]
+    },
+    {
+      "id": "fa4b64d4-8d2c-4b50-aafc-bd675f6d30bd",
+      "metricType": "property_count",
+      "value": 0,
+      "unit": "properties",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "D:19"
+      ]
+    },
+    {
+      "id": "0c66b5ec-554e-42c6-85e4-1ad172a022c8",
+      "metricType": "gross_revenue",
+      "value": 0,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "D:37"
+      ]
+    },
+    {
+      "id": "84b128bb-3c84-4f3b-b278-bf7ddecb9580",
+      "metricType": "net_property_income",
+      "value": 0,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "D:38"
+      ]
+    },
+    {
+      "id": "7e0e4f19-a5d8-42ea-b5b1-a5e384b997e6",
+      "metricType": "nav_per_unit",
+      "value": 0,
+      "unit": "RM",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "D:31"
+      ]
+    },
+    {
+      "id": "31a0b652-9738-414c-a732-9c95c502db91",
+      "metricType": "market_cap",
+      "value": 0,
+      "unit": "RM million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "D:1"
+      ]
+    },
+    {
+      "id": "6720ccc8-e67c-48de-a5bb-911b35b9d7bb",
+      "metricType": "share_price",
+      "value": 0,
+      "unit": "RM",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "D:1"
+      ]
+    },
+    {
+      "id": "47749be4-5f22-4e96-84c2-baa1a8b890e8",
+      "metricType": "dpu",
+      "value": 0,
+      "unit": "sen",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "D:35",
+        "D:36"
+      ]
+    },
+    {
+      "id": "f7744102-ae16-431b-860b-369f49e7b4b6",
+      "metricType": "dpu_growth_yoy",
+      "value": 0,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "D:36"
+      ]
+    },
+    {
+      "id": "8a3414b3-5293-4273-9ce3-b40064c68fb7",
+      "metricType": "dividend_yield_market",
+      "value": 0,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "D:1"
+      ]
+    },
+    {
+      "id": "9e83b7ea-3502-4786-b98b-46cabfbc6227",
+      "metricType": "payout_ratio",
+      "value": 0,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "D:35"
+      ]
+    },
+    {
+      "id": "e1b489ad-6392-4f5e-b369-ded212fdd43d",
+      "metricType": "gearing_ratio",
+      "value": 0,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "D:32"
+      ]
+    },
+    {
+      "id": "6b606a3e-830d-409a-a5b3-5868a8e1941f",
+      "metricType": "interest_coverage",
+      "value": 0,
+      "unit": "x",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "D:34"
+      ]
+    },
+    {
+      "id": "de970e2c-0888-47dd-bab5-104f430b9820",
+      "metricType": "total_borrowings",
+      "value": 0,
+      "unit": "RM million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "D:30"
+      ]
+    },
+    {
+      "id": "391a7f85-d532-408d-b60a-72e7adc17f36",
+      "metricType": "occupancy_rate",
+      "value": 0,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "D:24"
+      ]
+    },
+    {
+      "id": "97f39553-7409-41b6-acf9-b4eaebaf93b2",
+      "metricType": "npi_margin",
+      "value": 0,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "D:38"
+      ]
+    },
+    {
+      "id": "11cf91c4-62d8-4bc8-87aa-2f0c59536cb7",
+      "metricType": "price_to_book",
+      "value": 0,
+      "unit": "x",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "D:1"
+      ]
+    }
+  ],
+  "timeSeries": [
+    {
+      "id": "67a0b7d8-c388-43c6-be21-e7b99e0737c2",
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
+      "metricType": "dpu",
+      "frequency": "annual",
+      "unit": "sen",
+      "dataPoints": [
+        {
+          "date": "2021-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2022-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2023-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2024-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2025-12-31",
+          "value": 0,
+          "isInterpolated": true,
+          "sourceDisplayId": "D:36"
+        }
+      ],
+      "sourceDisplayIds": [
+        "D:36"
+      ]
+    },
+    {
+      "id": "f2c44166-73b6-445b-bcb2-ef4d3d7d081b",
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
+      "metricType": "occupancy_rate",
+      "frequency": "annual",
+      "unit": "%",
+      "dataPoints": [
+        {
+          "date": "2021-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2022-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2023-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2024-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2025-12-31",
+          "value": 0,
+          "isInterpolated": true,
+          "sourceDisplayId": "D:24"
+        }
+      ],
+      "sourceDisplayIds": [
+        "D:24"
+      ]
+    },
+    {
+      "id": "3eabe8a7-95a6-4bfa-87a9-dd53ceb5ba71",
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
+      "metricType": "nav_per_unit",
+      "frequency": "annual",
+      "unit": "RM",
+      "dataPoints": [
+        {
+          "date": "2021-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2022-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2023-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2024-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2025-12-31",
+          "value": 0,
+          "isInterpolated": true,
+          "sourceDisplayId": "D:31"
+        }
+      ],
+      "sourceDisplayIds": [
+        "D:31"
+      ]
+    },
+    {
+      "id": "ca5fb867-a6b0-46f4-b6c4-cb2da68b0bcd",
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
+      "metricType": "gearing_ratio",
+      "frequency": "annual",
+      "unit": "%",
+      "dataPoints": [
+        {
+          "date": "2021-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2022-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2023-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2024-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2025-12-31",
+          "value": 0,
+          "isInterpolated": true,
+          "sourceDisplayId": "D:32"
+        }
+      ],
+      "sourceDisplayIds": [
+        "D:32"
+      ]
+    },
+    {
+      "id": "2e2fb7eb-ce45-4bb2-b1c5-63e05df0a0e7",
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
+      "metricType": "gross_revenue",
+      "frequency": "annual",
+      "unit": "RM million",
+      "dataPoints": [
+        {
+          "date": "2021-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2022-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2023-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2024-12-31",
+          "value": 0,
+          "isInterpolated": true
+        },
+        {
+          "date": "2025-12-31",
+          "value": 0,
+          "isInterpolated": true,
+          "sourceDisplayId": "D:37"
+        }
+      ],
+      "sourceDisplayIds": [
+        "D:37"
+      ]
+    }
+  ],
+  "riskAssessment": {
+    "id": "64522b6b-8408-4311-9476-0251b975193f",
+    "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
+    "assessmentDate": "2026-04-26",
+    "overallRiskRating": "moderate",
+    "overallScore": 3,
+    "riskFactors": [
+      {
+        "id": "a21f6655-1f7d-4429-ad95-b5d8bd63ca0e",
+        "category": "concentration",
+        "severity": "medium",
+        "title": "Portfolio Concentration",
+        "description": "Portfolio concentration risk to be assessed upon data population.",
+        "currentScore": 3,
+        "peerComparison": "similar",
+        "mitigatingFactors": [
+          {
+            "factor": "Data pending",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "Data pending",
+            "impact": "moderate"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Annual report disclosure",
+          "Portfolio composition updates"
+        ],
+        "sourceDisplayIds": [
+          "D:42",
+          "D:28"
+        ]
+      },
+      {
+        "id": "0958ac19-a1b9-48e8-b97d-36b9864f5c45",
+        "category": "interest_rate",
+        "severity": "medium",
+        "title": "Interest Rate Exposure",
+        "description": "Floating-rate debt exposure to be assessed upon data population.",
+        "currentScore": 3,
+        "peerComparison": "similar",
+        "mitigatingFactors": [
+          {
+            "factor": "Data pending",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "Data pending",
+            "impact": "moderate"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Bank Negara Malaysia OPR decisions",
+          "Debt structure disclosure"
+        ],
+        "sourceDisplayIds": [
+          "D:43",
+          "D:50"
+        ]
+      },
+      {
+        "id": "58689406-6cd0-4b06-b693-007ea5b95c16",
+        "category": "transparency",
+        "severity": "medium",
+        "title": "Disclosure Status",
+        "description": "This is a placeholder template awaiting full data population from annual reports.",
+        "currentScore": 3,
+        "peerComparison": "similar",
+        "mitigatingFactors": [
+          {
+            "factor": "Template structure in place",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "Data not yet populated",
+            "impact": "significant"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Annual report publication",
+          "Quarterly filings"
+        ],
+        "sourceDisplayIds": [
+          "D:4",
+          "D:9"
+        ]
+      }
+    ],
+    "peerComparison": {
+      "vsPeerId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920",
+      "relativeRisk": "similar",
+      "keyDifferences": [
+        "Data pending population",
+        "Template comparison basis"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "36eab686-2318-4a12-a941-a27360205f1b",
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
+      "observationType": "executive_summary",
+      "priority": "info",
+      "title": "Template Status",
+      "content": "Paradigm REIT adapter is in template mode. Data population pending from official sources including Bursa Malaysia filings and annual reports.",
+      "summary": "Template placeholder - data population required",
+      "keyFacts": [
+        {
+          "label": "Stock Code",
+          "value": 5338,
+          "unit": ".KL"
+        },
+        {
+          "label": "Status",
+          "value": 0,
+          "unit": "Template"
+        }
+      ],
+      "indicator": {
+        "icon": "info",
+        "color": "blue"
+      },
+      "relatedMetrics": [],
+      "relatedRisks": [],
+      "sourceDisplayIds": [
+        "D:1",
+        "D:4",
+        "D:7"
+      ],
+      "primaryCitation": "D:1"
+    },
+    {
+      "id": "4987c525-3081-4b0c-bb70-8420a50f4c44",
+      "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
+      "observationType": "executive_summary",
+      "priority": "info",
+      "title": "Data Population Required",
+      "content": "All financial metrics, portfolio data, and risk assessments require population from Paradigm REIT 2025 Annual Report and quarterly filings.",
+      "summary": "Awaiting annual report and financial data",
+      "keyFacts": [
+        {
+          "label": "Pending",
+          "value": 50,
+          "unit": "references"
+        }
+      ],
+      "indicator": {
+        "icon": "info",
+        "color": "blue"
+      },
+      "relatedMetrics": [],
+      "relatedRisks": [
+        {
+          "category": "transparency",
+          "severity": "medium"
+        }
+      ],
+      "sourceDisplayIds": [
+        "D:3",
+        "D:9"
+      ],
+      "primaryCitation": "D:3"
+    }
+  ]
+}

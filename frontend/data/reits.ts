@@ -24,7 +24,7 @@ export interface REIT {
   gearing: number;
   interestCover: number;
   occupancy: number;
-  wale: number;
+  wale: number | 'n/a';
   navPerUnit: number;
   priceToBook: number;
   overallRisk: RiskLevel;
@@ -44,9 +44,11 @@ export const DEFAULT_ENTITY_CODES = [
   '5227.KL',
   '5235SS',
   '5180.KL',
-  '5114.KL',
+  '5280.KL',
+  '5269.KL',
   '5121.KL',
   '5110.KL',
+  '5338.KL',
 ] as const;
 
 export const DEFAULT_COMPARE_CODES = DEFAULT_ENTITY_CODES.slice(0, 4);
@@ -54,7 +56,6 @@ export const DEFAULT_COMPARE_CODES = DEFAULT_ENTITY_CODES.slice(0, 4);
 const ENTITY_CODE_ALIASES: Record<string, string> = {
   '5204.KL': '5212.KL',
   '5200.KL': '5110.KL',
-  '5142.KL': '5114.KL',
   '5235.KL': '5235SS',
 };
 
@@ -66,9 +67,11 @@ const SECTOR_OVERRIDES: Record<string, string> = {
   '5227.KL': 'Retail',
   '5235SS': 'Diversified',
   '5180.KL': 'Retail',
-  '5114.KL': 'Industrial',
+  '5280.KL': 'Retail',
+  '5269.KL': 'Diversified',
   '5121.KL': 'Retail',
   '5110.KL': 'Commercial',
+  '5338.KL': 'Retail',
 };
 
 function metricSortValue(metric: Metric) {
@@ -288,7 +291,7 @@ export function adaptNormalizedReitData(data: NormalizedReitData): REIT {
     gearing,
     interestCover: getMetricNumber(data, 'interest_coverage') ?? 0,
     occupancy,
-    wale: getMetricNumber(data, 'wale_years') ?? 0,
+    wale: getMetricNumber(data, 'wale_years') ?? 'n/a',
     navPerUnit,
     priceToBook,
     overallRisk: mapRiskLevel(data.riskAssessment.overallRiskRating),

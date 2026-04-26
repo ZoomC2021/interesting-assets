@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-25T03:42:06.459Z",
+  "generatedAt": "2026-04-26T08:34:57.109Z",
   "entity": {
     "id": "a948d661-4a50-5442-a862-0d3124150a71",
     "code": "5110.KL",
@@ -341,9 +341,9 @@
     {
       "id": "51b78073-be6c-5586-a674-4642a87344dc",
       "displayId": "U:31",
-      "fact": "United Overseas Australia Ltd beneficial ownership ~45-50%",
+      "fact": "United Overseas Australia Ltd beneficial ownership ~33.96% as at 30 June 2024 (UOA Group H1 2024 half-year report); current holding to be verified against latest annual report substantial unitholder disclosure",
       "source": "AR2025",
-      "citation": "UOA REIT 2025 Annual Report - Substantial Shareholders",
+      "citation": "UOA REIT 2025 Annual Report - Substantial Shareholders / UOA Group 2024 Half-Year Report",
       "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "a948d661-4a50-5442-a862-0d3124150a71"
@@ -395,26 +395,6 @@
       "fact": "Number of Properties: 6 commercial buildings",
       "source": "AR2025",
       "citation": "UOA REIT 2025 Annual Report - Property Portfolio",
-      "dateAccessed": "2026-03-26",
-      "timeSensitive": false,
-      "entityId": "a948d661-4a50-5442-a862-0d3124150a71"
-    },
-    {
-      "id": "fc7beff2-d51a-561e-b1e8-a39b1ed69004",
-      "displayId": "U:37",
-      "fact": "Investment Properties Value: RM1,726 million",
-      "source": "AR2025",
-      "citation": "UOA REIT 2025 Annual Report - Statement of Financial Position",
-      "dateAccessed": "2026-03-26",
-      "timeSensitive": false,
-      "entityId": "a948d661-4a50-5442-a862-0d3124150a71"
-    },
-    {
-      "id": "89efb3fd-6e2a-5cb7-b7c1-076f8bb1859d",
-      "displayId": "U:38",
-      "fact": "Total Assets: RM1,760.23 million",
-      "source": "AR2025",
-      "citation": "UOA REIT 2025 Annual Report - Statement of Financial Position",
       "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "a948d661-4a50-5442-a862-0d3124150a71"
@@ -795,7 +775,7 @@
       "source": "Bursa",
       "citation": "Bursa Malaysia Announcement - 2020 Acquisition",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2020",
+      "dateAccessed": "2026-04-25",
       "timeSensitive": false,
       "entityId": "a948d661-4a50-5442-a862-0d3124150a71"
     },
@@ -1477,7 +1457,7 @@
     {
       "id": "49534647-89d0-5e5d-9bb4-4fae122d61e2",
       "displayId": "U:143",
-      "fact": "100% floating-rate debt significant change from 59% fixed in FY2024",
+      "fact": "100% floating-rate debt in FY2025 represents significant change from >70% fixed-rate structure in FY2024 (per U:346)",
       "source": "AR2025",
       "citation": "UOA REIT 2025 vs 2024 Annual Report Comparison",
       "dateAccessed": "2026-03-26",
@@ -1492,16 +1472,6 @@
       "citation": "Bank Negara Malaysia Monetary Policy Impact",
       "url": "https://www.bnm.gov.my",
       "dateAccessed": "2026-04-25",
-      "timeSensitive": false,
-      "entityId": "a948d661-4a50-5442-a862-0d3124150a71"
-    },
-    {
-      "id": "5f03e6ff-79fc-5e41-9f58-b23e3219a652",
-      "displayId": "U:145",
-      "fact": "FY2024 Debt Structure: ~59% fixed, ~41% floating",
-      "source": "AR2024",
-      "citation": "UOA REIT 2024 Annual Report - Debt Profile",
-      "dateAccessed": "2025-03-28",
       "timeSensitive": false,
       "entityId": "a948d661-4a50-5442-a862-0d3124150a71"
     },
@@ -2177,11 +2147,12 @@
     {
       "id": "e2f9bb92-ed02-5a30-9271-c1ce91819584",
       "displayId": "U:212",
-      "fact": "Units Outstanding: ~675.6 million",
-      "source": "AR2025",
-      "citation": "UOA REIT 2025 Annual Report - Units in Issue",
-      "dateAccessed": "2026-03-26",
-      "timeSensitive": false,
+      "fact": "Market-float-implied units: ~675.6 million (derived: RM554M market cap / RM0.82 unit price); note total units in issue per AR2025 is 694.2M (see U:132). Discrepancy may reflect treasury units or different KLSE Screener calculation basis.",
+      "source": "KLSE",
+      "citation": "KLSE Screener - derived from market cap and unit price",
+      "url": "https://www.klsescreener.com/v2/stocks/5110",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
       "entityId": "a948d661-4a50-5442-a862-0d3124150a71"
     },
     {
@@ -2743,7 +2714,7 @@
     {
       "id": "99e1ad77-026b-5833-bb36-46939782beeb",
       "displayId": "U:267",
-      "fact": "Rate Trajectory: Pause after 2023 hikes, cuts possible 2026-2027",
+      "fact": "Rate Trajectory: BNM has held OPR at 3.00% following 2023 pause; rate cuts in 2026-2027 represent an analyst scenario, not BNM forward guidance",
       "source": "BNM",
       "citation": "Bank Negara Malaysia Monetary Policy Statement",
       "url": "https://www.bnm.gov.my",
@@ -3304,17 +3275,6 @@
       "entityId": "a948d661-4a50-5442-a862-0d3124150a71"
     },
     {
-      "id": "cac8838f-669a-561f-879f-f402c195245b",
-      "displayId": "U:322",
-      "fact": "ISIN: MYL5110OO003",
-      "source": "Bursa",
-      "citation": "Bursa Malaysia Security Information",
-      "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-04-25",
-      "timeSensitive": false,
-      "entityId": "a948d661-4a50-5442-a862-0d3124150a71"
-    },
-    {
       "id": "b8a110ef-1e38-513e-ab79-b0ced4764b89",
       "displayId": "U:323",
       "fact": "Reuters: 5110.KL",
@@ -3369,11 +3329,11 @@
     {
       "id": "78179313-fcb7-5fd2-9ee9-61c34b47f64b",
       "displayId": "U:328",
-      "fact": "Annual Report FY2025 published March 2026",
+      "fact": "Annual Report FY2025 published approximately April 2026; exact filing date to be confirmed via Bursa announcement record or https://www.uoareit.com.my/investor-relations/reports/",
       "source": "Bursa",
-      "citation": "Bursa Malaysia Announcement",
+      "citation": "Bursa Malaysia Announcement / UOA REIT IR Reports Page",
       "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2026-03-26",
+      "dateAccessed": "2026-04-25",
       "timeSensitive": false,
       "entityId": "a948d661-4a50-5442-a862-0d3124150a71"
     },
@@ -3542,8 +3502,8 @@
     {
       "id": "62f35075-4fe5-583f-8d2d-6502d5c00cc6",
       "displayId": "U:345",
-      "fact": "ISIN MYL5110TO000",
-      "source": "BursaMalaysia",
+      "fact": "ISIN MYL5110TO000 (verify against Bursa Malaysia security information page for 5110.KL; conflicting entry MYL5110OO003 from previous U:322 has been deleted)",
+      "source": "Bursa",
       "citation": "Bursa Malaysia Official Listing / Investing.com - ISIN Code",
       "url": "https://www.bursamalaysia.com",
       "dateAccessed": "2026-04-25",
@@ -3583,9 +3543,9 @@
     {
       "id": "63595b62-b3c6-5579-8fef-9367a5b96c72",
       "displayId": "U:349",
-      "fact": "Net Lettable Area ~1.8M sq ft is industry estimate",
-      "source": "External",
-      "citation": "Industry market reports (Knight Frank, etc.) - not officially disclosed in Annual Report",
+      "fact": "Net Lettable Area ~1.8M sq ft is an industry estimate only; not officially disclosed in UOA REIT Annual Report",
+      "source": "Calculated",
+      "citation": "Industry market reports (e.g. Knight Frank, JLL Malaysia) - NLA not confirmed in AR2025",
       "dateAccessed": "2026-04-25",
       "timeSensitive": false,
       "entityId": "a948d661-4a50-5442-a862-0d3124150a71"
@@ -3593,7 +3553,7 @@
   ],
   "metrics": [
     {
-      "id": "88f223c1-5a48-446a-ada0-26006aa93e11",
+      "id": "f32811ca-e4e4-4519-93c0-8c1f6f048213",
       "metricType": "portfolio_size",
       "value": 6,
       "unit": "properties",
@@ -3608,7 +3568,7 @@
       ]
     },
     {
-      "id": "f2f417ae-e7fb-49b1-b90e-04acf4ae5548",
+      "id": "da9aff61-f325-48ba-b2e9-bf82bc054a9e",
       "metricType": "total_assets",
       "value": 1760.23,
       "unit": "RM million",
@@ -3623,7 +3583,7 @@
       ]
     },
     {
-      "id": "728a5ffc-97c0-46f0-b9e9-9515f055be95",
+      "id": "be597f71-2d38-4615-a6ff-0e6e0e842137",
       "metricType": "property_count",
       "value": 6,
       "unit": "properties",
@@ -3638,7 +3598,7 @@
       ]
     },
     {
-      "id": "3899a0b8-4617-45a4-97bb-b98944310142",
+      "id": "adf997ff-e0d1-4d27-8626-9c0a3328fe2a",
       "metricType": "net_lettable_area",
       "value": 1800000,
       "unit": "sq ft",
@@ -3653,7 +3613,7 @@
       ]
     },
     {
-      "id": "47c79167-aac4-4d38-a3e8-2984a0016180",
+      "id": "b5a66550-cbdb-4cb9-8409-e4cd1802328e",
       "metricType": "geographic_concentration",
       "value": 100,
       "unit": "%",
@@ -3668,7 +3628,7 @@
       ]
     },
     {
-      "id": "edc918fe-c574-49ae-9079-a1dde692ee47",
+      "id": "9016cb46-d4f3-4b3d-9bc6-758fab7e0bc1",
       "metricType": "gross_revenue",
       "value": 125.3,
       "unit": "RM million",
@@ -3683,7 +3643,7 @@
       ]
     },
     {
-      "id": "e1c62258-b831-4c49-b32f-acce2a0eea17",
+      "id": "b5234877-d263-4dd4-937b-be6abe5db3be",
       "metricType": "net_property_income",
       "value": 77.534,
       "unit": "RM million",
@@ -3698,7 +3658,7 @@
       ]
     },
     {
-      "id": "a911fdce-3797-4535-9677-b2f0766e7c38",
+      "id": "20292c6f-78c1-4062-b358-2cbd0d877f96",
       "metricType": "nav_per_unit",
       "value": 1.4248,
       "unit": "RM",
@@ -3713,7 +3673,7 @@
       ]
     },
     {
-      "id": "0707b7c4-505c-427a-990a-bc2a6498e584",
+      "id": "44f53fb9-84cd-4e48-9cb9-119026969ee0",
       "metricType": "market_cap",
       "value": 554,
       "unit": "RM million",
@@ -3728,7 +3688,7 @@
       ]
     },
     {
-      "id": "f5c0f861-e0c4-45a5-a362-c7886a036f32",
+      "id": "616d81f1-7868-4b28-b3d5-d0cb2919af44",
       "metricType": "dpu",
       "value": 6.95,
       "unit": "sen",
@@ -3743,7 +3703,7 @@
       ]
     },
     {
-      "id": "0f86bf02-b332-4e69-9fd2-f72bd46b9bf5",
+      "id": "4b50b517-a78c-4e46-93c5-48a5f040ddfe",
       "metricType": "dpu_growth_yoy",
       "value": 13.2,
       "unit": "%",
@@ -3758,7 +3718,7 @@
       ]
     },
     {
-      "id": "0c19836e-b08b-4724-8f0e-eb265f06a4f7",
+      "id": "e2a7e693-26e0-40a0-ad33-022120c0c042",
       "metricType": "dividend_yield_market",
       "value": 8.7,
       "unit": "%",
@@ -3774,7 +3734,7 @@
       ]
     },
     {
-      "id": "18cfdea0-a092-4291-af9f-2b6211898401",
+      "id": "9bbb3917-d33c-4b7f-a641-33f6d6ac26c9",
       "metricType": "payout_ratio",
       "value": 95,
       "unit": "%",
@@ -3789,7 +3749,7 @@
       ]
     },
     {
-      "id": "501f49b2-277d-402c-9bae-a235b7677c5f",
+      "id": "03b77bc5-d39e-4ee8-af8f-5f57e0931554",
       "metricType": "gearing_ratio",
       "value": 40.5,
       "unit": "%",
@@ -3804,7 +3764,7 @@
       ]
     },
     {
-      "id": "df2510cc-5d41-4a0c-ba2f-9fc43026c827",
+      "id": "f9f9bc21-9c1b-4313-acf9-c733431ae261",
       "metricType": "interest_coverage",
       "value": 3,
       "unit": "x",
@@ -3819,7 +3779,7 @@
       ]
     },
     {
-      "id": "7b7193e4-ff6d-49ce-8099-6a89a25ff3a6",
+      "id": "e67f900b-3e9b-4366-8ee9-7b2af3535c3b",
       "metricType": "total_borrowings",
       "value": 713.5,
       "unit": "RM million",
@@ -3834,7 +3794,7 @@
       ]
     },
     {
-      "id": "92be5317-245c-4852-8989-514dc1192d75",
+      "id": "05698c6c-41ac-420f-888d-b20c1e1e94b0",
       "metricType": "fixed_rate_debt_pct",
       "value": 0,
       "unit": "%",
@@ -3849,7 +3809,7 @@
       ]
     },
     {
-      "id": "9921763d-57b7-4b64-ba23-7170f903d1ce",
+      "id": "83db68b5-1ffe-4ada-8a7b-ece5f9b3c56e",
       "metricType": "floating_rate_debt_pct",
       "value": 100,
       "unit": "%",
@@ -3864,7 +3824,7 @@
       ]
     },
     {
-      "id": "64efa462-8b83-42b0-a603-60eb285f7a41",
+      "id": "67511976-6c7b-4602-86f3-e02c5efe71de",
       "metricType": "wacd",
       "value": 3.8,
       "unit": "%",
@@ -3879,7 +3839,7 @@
       ]
     },
     {
-      "id": "eb2cb7b5-cd00-482a-941b-16bcdc995277",
+      "id": "bfedba79-1c81-4b58-b746-07a9ba6ff4ca",
       "metricType": "occupancy_rate",
       "value": 85,
       "unit": "%",
@@ -3894,7 +3854,7 @@
       ]
     },
     {
-      "id": "84f37ab0-58ab-4583-8860-7bbfbacf3bcd",
+      "id": "ed642cc4-040f-4829-99f8-1eebe1929e14",
       "metricType": "wale_years",
       "value": 1.36,
       "unit": "years",
@@ -3909,7 +3869,7 @@
       ]
     },
     {
-      "id": "835b81aa-609a-4c71-ade7-0ba91fd263cc",
+      "id": "23b2f33b-6aec-48e4-962e-044388d38413",
       "metricType": "rental_reversion",
       "value": -5,
       "unit": "%",
@@ -3924,7 +3884,7 @@
       ]
     },
     {
-      "id": "e56eeb3e-3d15-470b-a4f7-b31d2c109916",
+      "id": "cd3933e5-d81c-456b-905d-1a994d2caeb5",
       "metricType": "npi_margin",
       "value": 61.8,
       "unit": "%",
@@ -3939,7 +3899,7 @@
       ]
     },
     {
-      "id": "06126cd4-cb7e-4da6-8bb7-6a62ae5f4f60",
+      "id": "9afa0b0c-f4f8-4421-9a96-7dc6ec420849",
       "metricType": "investment_properties",
       "value": 1726,
       "unit": "RM million",
@@ -3954,7 +3914,7 @@
       ]
     },
     {
-      "id": "87a12ef3-f1ef-4ece-a6a0-5b99b0074bfe",
+      "id": "1282b4c0-2d15-453d-acf4-578772f973de",
       "metricType": "share_price",
       "value": 0.8,
       "unit": "RM",
@@ -3969,7 +3929,7 @@
       ]
     },
     {
-      "id": "32248550-77b7-4dc4-86d5-76b0c39cd681",
+      "id": "324120ad-6e13-4dcc-89fd-700ceb0971e8",
       "metricType": "lease_renewal_rate",
       "value": 74,
       "unit": "% expiring",
@@ -3984,7 +3944,7 @@
       ]
     },
     {
-      "id": "39e07df6-9fa7-48d9-b890-550e5654eda9",
+      "id": "4daaa4e8-7520-42eb-b937-f7877a63e6ae",
       "metricType": "gearing_ratio",
       "value": 20,
       "unit": "% unencumbered",
@@ -3999,7 +3959,7 @@
       ]
     },
     {
-      "id": "7ca64716-6976-436e-93b3-b59af6483033",
+      "id": "7ff108ab-39c7-4617-8910-5b467238b64b",
       "metricType": "property_count",
       "value": 6,
       "unit": "properties",
@@ -4014,7 +3974,7 @@
       ]
     },
     {
-      "id": "21666371-9c20-4ab6-aab5-1e7dc6c19619",
+      "id": "c6c55b66-4012-4202-8043-39870cb9017b",
       "metricType": "interest_rate_sensitivity",
       "value": 1.78,
       "unit": "RM million per +25bps",
@@ -4029,7 +3989,7 @@
       ]
     },
     {
-      "id": "1cb8f48b-fdd2-45ac-b426-f0c0cf410139",
+      "id": "ea52e1e0-d712-4393-9ad1-effad35d0117",
       "metricType": "price_to_book",
       "value": 0.56,
       "unit": "x",
@@ -4045,7 +4005,7 @@
       ]
     },
     {
-      "id": "c8de3ba5-c12a-44d5-8876-1216f22da21b",
+      "id": "c9c4de41-fb17-44f5-a322-98c83198e2cc",
       "metricType": "premium_discount_to_nav",
       "value": -44,
       "unit": "%",
@@ -4063,7 +4023,7 @@
   ],
   "timeSeries": [
     {
-      "id": "a313f310-189c-4664-80fd-7fa5e9f78221",
+      "id": "a39a50e2-a6f2-4030-8371-c0b238eabd87",
       "entityId": "a948d661-4a50-5442-a862-0d3124150a71",
       "metricType": "dpu",
       "frequency": "annual",
@@ -4123,7 +4083,7 @@
       ]
     },
     {
-      "id": "b5d1848e-f16f-45bd-a1b2-4b872e1900d9",
+      "id": "cb7185b4-e5a3-4575-9576-9afd7cfccf15",
       "entityId": "a948d661-4a50-5442-a862-0d3124150a71",
       "metricType": "gross_revenue",
       "frequency": "annual",
@@ -4168,7 +4128,7 @@
       ]
     },
     {
-      "id": "1ec309d0-78f8-45b3-8b92-957433b3f552",
+      "id": "32dad15f-90c2-427a-aefe-7e46d80f7fd6",
       "entityId": "a948d661-4a50-5442-a862-0d3124150a71",
       "metricType": "nav_per_unit",
       "frequency": "annual",
@@ -4206,7 +4166,7 @@
       ]
     },
     {
-      "id": "1ff96616-ff6f-46c5-a45e-320fa0094a90",
+      "id": "ebaedb91-54af-42e2-9277-015e8d23ef73",
       "entityId": "a948d661-4a50-5442-a862-0d3124150a71",
       "metricType": "gearing_ratio",
       "frequency": "annual",
@@ -4244,7 +4204,7 @@
       ]
     },
     {
-      "id": "ad0b094a-5485-4aa6-9356-2e975ffbd411",
+      "id": "76f595f6-f04e-4cf4-b697-4fb399001382",
       "entityId": "a948d661-4a50-5442-a862-0d3124150a71",
       "metricType": "net_property_income",
       "frequency": "annual",
@@ -4290,14 +4250,14 @@
     }
   ],
   "riskAssessment": {
-    "id": "10f82b91-8559-44b6-9527-da4702d5d8e5",
+    "id": "edb48b9d-c943-4204-8dae-2d787c5f6bef",
     "entityId": "a948d661-4a50-5442-a862-0d3124150a71",
     "assessmentDate": "2026-04-25",
     "overallRiskRating": "moderate_high",
     "overallScore": 3.5,
     "riskFactors": [
       {
-        "id": "8522b801-8d10-43ce-8e9e-564f9366d9d5",
+        "id": "f5896915-9257-454d-8955-a70bdfe2191a",
         "category": "concentration",
         "severity": "medium",
         "title": "Office Sector Concentration",
@@ -4347,7 +4307,7 @@
         ]
       },
       {
-        "id": "c736c9ab-a1c3-4e09-8fdd-fa79f44bcf08",
+        "id": "a2344280-4db9-47d1-a7a8-1222944c501d",
         "category": "interest_rate",
         "severity": "critical",
         "title": "Extreme Floating-Rate Debt Exposure",
@@ -4410,7 +4370,7 @@
         ]
       },
       {
-        "id": "8c547473-5bca-4299-9d45-7dbde571f33b",
+        "id": "5d209e60-a29f-4321-9028-99bf4e83dcd3",
         "category": "governance",
         "severity": "low",
         "title": "Australian Parent Oversight",
@@ -4451,7 +4411,7 @@
         ]
       },
       {
-        "id": "77aaaa5e-ca24-43b9-a480-7cc0c375090a",
+        "id": "2123d729-45b1-4a37-b850-b87874481209",
         "category": "transparency",
         "severity": "low",
         "title": "Standard Disclosure Practices",
@@ -4479,7 +4439,7 @@
         ]
       },
       {
-        "id": "0be087c1-9782-4223-a0eb-50a11f593514",
+        "id": "f8a4ad9a-64b4-4d41-bc88-5dcf17e24ced",
         "category": "tenant_rollover",
         "severity": "high",
         "title": "Short WALE Risk",
@@ -4537,7 +4497,7 @@
         ]
       },
       {
-        "id": "9285369b-c828-4ea9-86e3-1097fb6152f4",
+        "id": "c8b7ebdf-d714-4536-9461-1e4f9795d1b4",
         "category": "governance",
         "severity": "low",
         "title": "Aligned Sponsor Structure",
@@ -4590,7 +4550,7 @@
   },
   "observations": [
     {
-      "id": "5c86b403-4c0d-43be-8ba1-83f977c8b681",
+      "id": "963027ba-30f9-40c3-80de-022826b6f621",
       "entityId": "a948d661-4a50-5442-a862-0d3124150a71",
       "observationType": "executive_summary",
       "priority": "positive",
@@ -4637,7 +4597,7 @@
       "primaryCitation": "U:181"
     },
     {
-      "id": "cd54a98f-b645-4a27-9f0a-cfaa44fb824b",
+      "id": "e6faff64-37fb-44f5-83df-a43372b0d406",
       "entityId": "a948d661-4a50-5442-a862-0d3124150a71",
       "observationType": "debt_sustainability",
       "priority": "warning",
@@ -4689,7 +4649,7 @@
       "primaryCitation": "U:140"
     },
     {
-      "id": "78915fc0-bcb6-40c5-a094-9872bd5016ad",
+      "id": "74a71d04-4646-4a09-a825-187d5b0022b7",
       "entityId": "a948d661-4a50-5442-a862-0d3124150a71",
       "observationType": "risk_assessment",
       "priority": "warning",
@@ -4737,7 +4697,7 @@
       "primaryCitation": "U:41"
     },
     {
-      "id": "829371ee-a23d-40f1-a26e-752dc38c6267",
+      "id": "671dd9e3-d312-4d3c-9ad5-beb702240530",
       "entityId": "a948d661-4a50-5442-a862-0d3124150a71",
       "observationType": "market_context",
       "priority": "positive",

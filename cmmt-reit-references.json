@@ -1648,6 +1648,14 @@
       "url": "https://www.klsescreener.com/v2/stocks/5180",
       "dateAccessed": "2025-04-25",
       "timeSensitive": true
+    },
+    "C:193": {
+      "fact": "Weighted Average Lease Expiry (WALE): 3.4 years",
+      "source": "AR2024",
+      "citation": "CLMT 2024 Annual Report - Lease Profile Analysis",
+      "url": "https://www.clmt.com.my/investor-relations/",
+      "date": "2025-03-28",
+      "timeSensitive": false
     }
   }
 }

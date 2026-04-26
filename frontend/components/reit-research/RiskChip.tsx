@@ -11,7 +11,7 @@ interface RiskChipProps {
 const config: Record<RiskLevel, { bg: string; label: string }> = {
   low: { bg: 'bg-success', label: 'Low' },
   moderate: { bg: 'bg-warning', label: 'Mod' },
-  'moderate-high': { bg: 'bg-accent-orange', label: 'Mod-High' },
+  'moderate-high': { bg: 'bg-warning', label: 'Mod-High' },
   high: { bg: 'bg-danger', label: 'High' },
   unknown: { bg: 'bg-ink-muted', label: 'N/A' },
 };

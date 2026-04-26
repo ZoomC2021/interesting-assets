@@ -48,11 +48,10 @@ export const AVAILABLE_ENTITIES = [
     aliases: ['cmmt'],
   },
   {
-    code: '5114.KL' as const,
+    code: '5269.KL' as const,
     name: 'Al-Salam REIT',
-    sector: 'Industrial',
-    aliases: ['5142.KL', 'alsalam', 'al-salam'],
-    routeAliases: ['5142.KL'],
+    sector: 'Diversified',
+    aliases: ['5269', 'alsalam', 'al-salam'],
   },
   {
     code: '5121.KL' as const,
@@ -66,6 +65,18 @@ export const AVAILABLE_ENTITIES = [
     sector: 'Commercial',
     aliases: ['5200.KL', 'uoa'],
     routeAliases: ['5200.KL'],
+  },
+  {
+    code: '5280.KL' as const,
+    name: 'KIP REIT',
+    sector: 'Retail',
+    aliases: ['kip'],
+  },
+  {
+    code: '5338.KL' as const,
+    name: 'Paradigm REIT',
+    sector: 'Retail',
+    aliases: ['paradigm', '5338'],
   },
 ] as const;
 

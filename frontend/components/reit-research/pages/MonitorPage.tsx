@@ -442,7 +442,7 @@ export function MonitorPage() {
                       <td className={numTdClass}>{reit.yield.toFixed(1)}</td>
                       <td className={numTdClass}>{reit.gearing.toFixed(1)}</td>
                       <td className={numTdClass}>{reit.occupancy.toFixed(1)}</td>
-                      <td className={numTdClass}>{reit.wale.toFixed(1)}</td>
+                      <td className={numTdClass}>{reit.wale === 'n/a' ? 'n/a' : reit.wale.toFixed(1)}</td>
                       <td className={tdClass}>
                         <Sparkline data={reit.dpuHistory} width={60} height={16} />
                       </td>

@@ -76,8 +76,8 @@ export const ObservationExtendedSchema = z.object({
   })).default([]),
   
   // Citations
-  sourceDisplayIds: z.array(z.string().regex(/^[TAC]:\d+$/)).min(1),
-  primaryCitation: z.string().regex(/^[TAC]:\d+$/),
+  sourceDisplayIds: z.array(z.string().regex(/^[TAPSUICHLK]:\d+$/)).min(1),
+  primaryCitation: z.string().regex(/^[TAPSUICHLK]:\d+$/),
   
   // Context
   context: z.object({

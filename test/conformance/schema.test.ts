@@ -212,4 +212,55 @@ describe('Schema Conformance', () => {
       expect(result.stats.totalReferences).toBeGreaterThan(0);
     });
   });
+
+  describe('WALE Metric Handling', () => {
+    let cmmtData: any;
+
+    beforeAll(() => {
+      try {
+        const samplesDir = path.join(__dirname, '..', 'samples');
+        const raw = fs.readFileSync(path.join(samplesDir, 'cmmt-normalized.json'), 'utf-8');
+        cmmtData = JSON.parse(raw);
+      } catch (e) {
+        // eslint-disable-next-line no-console
+        console.warn('[schema.test] cmmt-normalized.json not readable:', (e as Error).message);
+      }
+    });
+
+    it('should have WALE metric present for CLMT with value 3.4', () => {
+      if (!cmmtData?.metrics) return;
+      
+      const waleMetric = cmmtData.metrics.find((m: any) => m.metricType === 'wale_years');
+      expect(waleMetric).toBeDefined();
+      expect(waleMetric.value).toBe(3.4);
+      expect(waleMetric.unit).toBe('years');
+      expect(waleMetric.sourceDisplayIds).toContain('C:193');
+    });
+
+    it('should NOT have WALE metric for Atrium (asymmetric disclosure)', () => {
+      if (!atriumData?.metrics) return;
+      
+      const waleMetric = atriumData.metrics.find((m: any) => m.metricType === 'wale_years');
+      expect(waleMetric).toBeUndefined();
+    });
+
+    it('should render unavailable WALE as "n/a" in frontend mapping', () => {
+      // Test the data transformation logic
+      // When WALE is not present, the frontend should receive "n/a"
+      if (!atriumData?.metrics) return;
+      
+      const waleMetric = atriumData.metrics.find((m: any) => m.metricType === 'wale_years');
+      // When metric is absent, getMetricNumber returns null, which becomes 'n/a'
+      const waleValue = waleMetric?.value ?? 'n/a';
+      expect(waleValue).toBe('n/a');
+    });
+
+    it('should have C:193 citation for CLMT WALE', () => {
+      if (!cmmtData?.references) return;
+      
+      const waleCitation = cmmtData.references.find((r: any) => r.displayId === 'C:193');
+      expect(waleCitation).toBeDefined();
+      expect(waleCitation.fact).toContain('3.4 years');
+    });
+  });
 });

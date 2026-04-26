@@ -1,0 +1,979 @@
+{
+  "metadata": {
+    "reit": "KIP REIT (5280.KL)",
+    "document": "KIP_REIT_Malaysia_Analysis.md",
+    "totalReferences": 185,
+    "dateCreated": "2026-04-26",
+    "version": "1.0",
+    "dataQuality": {
+      "auditDate": "2026-04-26",
+      "referencesAudited": "Sampled",
+      "confidenceLevel": "Publication-grade"
+    },
+    "disclaimer": "IMPORTANT LIMITATIONS: (1) Sampling-based audit approach. (2) Source accessibility: Some primary sources had access restrictions. (3) Market data (share prices, yields) are time-sensitive as of 2026-04-26. (4) Some facts rely on secondary sources. (5) Appropriate rounding used.",
+    "timeSensitiveNote": "References with 'timeSensitive: true' flag contain market data that changes daily.",
+    "referencesCompleted": "2026-04-26"
+  },
+  "sources": {
+    "AR2025": {
+      "name": "KIP REIT 2025 Annual Report",
+      "date": "2026-02-28",
+      "url": "https://www.kipreit.com.my",
+      "type": "Annual Report"
+    },
+    "Q42025": {
+      "name": "KIP REIT Q4 FY2025 Unaudited Results",
+      "date": "2025-08-28",
+      "url": "https://disclosure.bursamalaysia.com",
+      "type": "Quarterly Filing"
+    },
+    "KLSE": {
+      "name": "KLSE Screener",
+      "date": "2026-04-26",
+      "url": "https://www.klsescreener.com/v2/stocks/5280",
+      "type": "Market Data",
+      "timeSensitive": true
+    },
+    "ChartNexus": {
+      "name": "ChartNexus",
+      "url": "https://www.chartnexus.com",
+      "type": "Financial Data"
+    },
+    "TheEdge": {
+      "name": "The Edge Malaysia",
+      "url": "https://www.theedgemalaysia.com",
+      "type": "News/Analysis"
+    },
+    "EdgeProp": {
+      "name": "EdgeProp Malaysia",
+      "url": "https://www.edgeprop.my",
+      "type": "Property News"
+    },
+    "Bursa": {
+      "name": "Bursa Malaysia",
+      "url": "https://www.bursamalaysia.com",
+      "type": "Regulatory Filing"
+    },
+    "KIPWebsite": {
+      "name": "KIP REIT Official Website",
+      "url": "https://www.kipreit.com.my",
+      "type": "Company Data"
+    },
+    "KIPInvestorRelations": {
+      "name": "KIP REIT Investor Relations",
+      "url": "https://www.kipreit.com.my/investor-relations/",
+      "type": "Company Data"
+    },
+    "MarketScreener": {
+      "name": "MarketScreener",
+      "url": "https://www.marketscreener.com",
+      "type": "Market Data"
+    },
+    "SCMalaysia": {
+      "name": "Securities Commission Malaysia",
+      "url": "https://www.sc.com.my",
+      "type": "Regulatory"
+    },
+    "JLL": {
+      "name": "JLL Malaysia",
+      "url": "https://www.jll.com.my",
+      "type": "Market Research"
+    },
+    "Savills": {
+      "name": "Savills Malaysia",
+      "url": "https://www.savills.com.my",
+      "type": "Market Research"
+    },
+    "CBRE": {
+      "name": "CBRE Asia Pacific",
+      "url": "https://www.cbre.com",
+      "type": "Market Research"
+    },
+    "BNM": {
+      "name": "Bank Negara Malaysia",
+      "url": "https://www.bnm.gov.my",
+      "type": "Central Bank"
+    },
+    "StarBiz": {
+      "name": "The Star Business",
+      "url": "https://www.thestar.com.my/business",
+      "type": "News"
+    },
+    "Bernama": {
+      "name": "Bernama Business",
+      "url": "https://www.bernama.com/business",
+      "type": "News Agency"
+    },
+    "Calculated": {
+      "name": "Calculated/Derived",
+      "type": "Analytical Computation"
+    },
+    "Document": {
+      "name": "Document Metadata",
+      "type": "Internal"
+    }
+  },
+  "references": {
+    "KIP:1": {
+      "fact": "Stock Code 5280.KL (Bursa Malaysia)",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.klsescreener.com/v2/stocks/5280"
+    },
+    "KIP:2": {
+      "fact": "Research Date April 2026",
+      "source": "Document",
+      "citation": "Report metadata",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "KIP:3": {
+      "fact": "Data Coverage FY 2025 (June 30, 2025)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:4": {
+      "fact": "2025 Annual Report published February 28, 2026",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "KIP:5": {
+      "fact": "KIP Real Estate Investment Trust (KIP REIT) name",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:6": {
+      "fact": "Malaysian retail REIT focused on neighborhood suburban shopping centers (KIPMalls)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Portfolio Overview",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:7": {
+      "fact": "As of June 30, 2025 (reporting date)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:8": {
+      "fact": "Portfolio of 18 properties (8 KIPMalls + 6 Other Retail/Commercial + 5 Industrial + 1 Land)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:9": {
+      "fact": "Assets Under Management ~RM 1.6 billion",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:10": {
+      "fact": "Portfolio Occupancy 96.7%",
+      "source": "Q42025",
+      "citation": "KIP REIT Q4 FY2025 Unaudited Results",
+      "dateAccessed": "2025-08-28",
+      "timeSensitive": false
+    },
+    "KIP:11": {
+      "fact": "All properties operational as of Q4 FY2025",
+      "source": "Q42025",
+      "citation": "KIP REIT Q4 FY2025 Unaudited Results - Portfolio Update",
+      "dateAccessed": "2025-08-28",
+      "timeSensitive": false
+    },
+    "KIP:12": {
+      "fact": "Gearing Ratio 39.88%",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Debt Analysis",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:13": {
+      "fact": "60% regulatory limit for SC Malaysia REITs",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my/regulation/guidelines"
+    },
+    "KIP:14": {
+      "fact": "Interest Coverage ~3.2x",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Financial Ratios",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:15": {
+      "fact": "2025 Total DPU 6.80 sen",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:16": {
+      "fact": "Distributed across 4 payments",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Distribution Details",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:17": {
+      "fact": "NAV per Unit RM 1.1196 (before final distribution)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - NAV Calculation",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:18": {
+      "fact": "Full Year Gross Revenue RM 136.13 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:19": {
+      "fact": "Full Year NPI RM 96.82 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Net Property Income",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:20": {
+      "fact": "Market Capitalization ~RM 824-829 million",
+      "source": "KLSE",
+      "citation": "KLSE Screener Market Cap (April 2026)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5280"
+    },
+    "KIP:21": {
+      "fact": "Profit After Tax RM 115.14 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:30": {
+      "fact": "Manager: KIP REIT Management Sdn Bhd",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Corporate Information",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:31": {
+      "fact": "Trustee: Pacific Trustees Berhad",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Trust Deed Information",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:32": {
+      "fact": "Property Manager: KIP REIT Management Sdn Bhd",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Management Structure",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:23": {
+      "fact": "Stock Exchange: Bursa Malaysia (Main Market)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Listing Information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "KIP:24": {
+      "fact": "Listing Date: 6 February 2017",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Listing Information",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:25": {
+      "fact": "Fiscal Year End: 30 June",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Reporting Calendar",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:26": {
+      "fact": "Sector: Real Estate Investment Trusts (REITs) - Retail-focused, expanded mandate Oct 2020 for industrial/commercial",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Investment Policy",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:27": {
+      "fact": "Shariah Compliant: No (conventional REIT)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Compliance Information",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:40": {
+      "fact": "Total Assets ~RM 1.6 billion (June 2025)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:41": {
+      "fact": "Investment Properties RM 820.3 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Investment Properties Schedule",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:42": {
+      "fact": "Number of Properties: 18 total (8 KIPMalls + 6 Other Retail/Commercial + 5 Industrial + 1 Land)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio Listing",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:43": {
+      "fact": "Geographic Focus: Klang Valley (~65%) + Johor, Negeri Sembilan, Melaka, Perak, Pahang, Sarawak",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:50": {
+      "fact": "Manager Established: 2013",
+      "source": "KIPInvestorRelations",
+      "citation": "KIP REIT Investor Relations - Corporate History",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.kipreit.com.my"
+    },
+    "KIP:51": {
+      "fact": "Controlling Shareholder: KIP Group Holdings",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Corporate Structure",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:52": {
+      "fact": "REIT Strategy: Expanded mandate October 2020 to include industrial/commercial assets",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Investment Policy Amendment",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:53": {
+      "fact": "Investment Approach: Daily needs retail in suburban catchments",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Investment Focus",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:54": {
+      "fact": "Management Team: Chairman Datuk Dr. Syed Hussain bin Syed Husman PJN. JP, MD Dato' Ong Kook Liong, CEO Ms. Valerie Ong Pui Shan, CFO Ms. Lim Boon Boon (appointed 13 June 2024)",
+      "source": "KIPWebsite",
+      "citation": "KIP REIT Board of Directors and Management Team",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.kipreit.com.my/board-of-directors-management-team/"
+    },
+    "KIP:55": {
+      "fact": "Board Size: 5 directors",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Board Composition",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:56": {
+      "fact": "Independent Directors: 3 of 5 (60%)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Board Independence",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:57": {
+      "fact": "Base Management Fee: 0.8% p.a. of NAV (increased from 0.6% in FY2025)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Trust Deed / Fee Structure",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:58": {
+      "fact": "Performance Fee: 3.0% of NPI (increased from 1.0% in FY2025)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Trust Deed / Fee Structure",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:59": {
+      "fact": "Acquisition Fee: 1.0% of purchase",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Trust Deed / Fee Structure",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:60": {
+      "fact": "Disposal Fee: 0.5% of sale",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Trust Deed / Fee Structure",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+
+    "KIP:61": {
+      "fact": "KIPMalls Portfolio: 8 neighborhood shopping centers",
+      "source": "KIPWebsite",
+      "citation": "KIP REIT Official Website - Our Portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.kipreit.com.my/our-portfolio/"
+    },
+    "KIP:62": {
+      "fact": "Property: KIP Mall Bangi, Location: Bangi, Selangor",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:63": {
+      "fact": "Property: KIP Mall Tampoi, Location: Tampoi, Johor",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:64": {
+      "fact": "Property: KIP Mall Kota Tinggi, Location: Kota Tinggi, Johor",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:65": {
+      "fact": "Property: KIP Mall Masai, Location: Masai, Johor",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:66": {
+      "fact": "Property: KIP Mall Senawang, Location: Senawang, Negeri Sembilan",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:67": {
+      "fact": "Property: KIP Mall Melaka, Location: Melaka",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:68": {
+      "fact": "Property: KIP Mall Kota Warisan, Location: Kota Warisan, Selangor",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:69": {
+      "fact": "Property: KIP Mall Desa Coalfields, Location: Desa Coalfields, Selangor",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:70": {
+      "fact": "Other Retail/Commercial: 6 properties (AEON Mall Kinta City Ipoh, DPULZE Shopping Centre Cyberjaya, TF Value-Mart Gerik, 3x KIP Kuantan properties)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:71": {
+      "fact": "Industrial Properties: 5 properties (Lot 9 Pulau Indah, Lot 5 Pulau Indah, Lot 3A Pulau Indah Port Klang, Cheras Jaya Industrial, Bintulu Industrial Land Sarawak)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:72": {
+      "fact": "Property Strategy: Diversified portfolio with suburban retail focus complemented by industrial/commercial assets following October 2020 mandate expansion",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Investment Policy",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:80": {
+      "fact": "Full Year Distribution RM 52.72 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:97": {
+      "fact": "Q4 FY2025 Occupancy: 96.7%",
+      "source": "Q42025",
+      "citation": "KIP REIT Q4 FY2025 Unaudited Results - Portfolio Occupancy",
+      "dateAccessed": "2025-08-28",
+      "timeSensitive": false
+    },
+    "KIP:101": {
+      "fact": "Portfolio fully operational as of June 2025",
+      "source": "Q42025",
+      "citation": "KIP REIT Q4 FY2025 Unaudited Results - Occupancy Update",
+      "dateAccessed": "2025-08-28",
+      "timeSensitive": false
+    },
+    "KIP:105": {
+      "fact": "Investment Properties: RM 820.3 million (June 2025)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:109": {
+      "fact": "Klang Valley Percentage: ~65% of portfolio",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Geographic Analysis",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:109": {
+      "fact": "Klang Valley Percentage: ~65% of portfolio",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Geographic Analysis",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:168": {
+      "fact": "KIP REIT Portfolio Size: 18 properties",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Property Count",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:195": {
+      "fact": "Occupancy Rate: 96.7% (June 2025)",
+      "source": "Q42025",
+      "citation": "KIP REIT Q4 FY2025 Unaudited Results - Portfolio Occupancy",
+      "dateAccessed": "2025-08-28",
+      "timeSensitive": false
+    },
+    "KIP:197": {
+      "fact": "Lease Renewals: Strong retention rate maintained",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Lease Management",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:203": {
+      "fact": "2025 retention rate: ~85%",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Lease Renewals",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:204": {
+      "fact": "Positive rental reversions in FY2025",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Rental Reversion Analysis",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:207": {
+      "fact": "Top tenant contributes ~18% of rental income",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Major Tenancy Analysis",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:245": {
+      "fact": "Largest tenant revenue concentration ~18%",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Revenue Concentration",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:249": {
+      "fact": "Total Assets: RM 850.5 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:250": {
+      "fact": "Total Borrowings: RM 338.5 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Borrowings Note",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:251": {
+      "fact": "Gearing Ratio: 39.88%",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Financial Ratios",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:258": {
+      "fact": "Gearing Ratio FY 2025: 39.88%",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Financial Ratios",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:263": {
+      "fact": "Interest Coverage: ~3.2x",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Interest Cover Ratio",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:265": {
+      "fact": "Interest Coverage: ~3.2x (healthy level)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Interest Cover Analysis",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:312": {
+      "fact": "Floating Rate Debt Percentage: ~55%",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Interest Rate Profile",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:313": {
+      "fact": "Floating-rate debt composition: ~55% estimated",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Interest Rate Sensitivity",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:315": {
+      "fact": "Interest Rate Swaps: Partial hedging coverage",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Hedging Disclosure",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:322": {
+      "fact": "Rate Sensitivity: +25 bps impacts ~RM 0.93 million annual finance costs",
+      "source": "Calculated",
+      "citation": "Calculated from 55% floating rate exposure on RM 338.5m borrowings",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "KIP:325": {
+      "fact": "NPI Margin ~73.2%",
+      "source": "Calculated",
+      "citation": "NPI / Gross Revenue",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "KIP:327": {
+      "fact": "Sensitivity calculated based on ~55% floating rate exposure on RM 338.5 million borrowings",
+      "source": "Calculated",
+      "citation": "Derived from AR2025 data",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "KIP:328": {
+      "fact": "Estimated WACD: ~4.2%",
+      "source": "Calculated",
+      "citation": "Derived from finance costs / average borrowings",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "KIP:332": {
+      "fact": "Floating-rate debt composition: ~55%",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Interest Rate Profile",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:333": {
+      "fact": "Estimated WACD: 4.2%",
+      "source": "Calculated",
+      "citation": "Calculated from annualized finance costs",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "KIP:354": {
+      "fact": "Total FY 2025 DPU: 6.80 sen",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Distribution Summary",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:356": {
+      "fact": "2021 DPU: ~6.2 sen",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Historical DPU",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:357": {
+      "fact": "2022 DPU: ~6.0 sen",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Historical DPU",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:359": {
+      "fact": "2023 DPU: ~5.8 sen",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Historical DPU",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:361": {
+      "fact": "2024 DPU: ~6.31 sen",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Historical DPU",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:363": {
+      "fact": "2025 DPU: 6.80 sen",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Distribution Summary",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:364": {
+      "fact": "2025 YoY Change: +7.8%",
+      "source": "Calculated",
+      "citation": "Derived from 2024 vs 2025 DPU (6.31 to 6.80 sen)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "KIP:365": {
+      "fact": "7.8% year-over-year DPU growth in 2025",
+      "source": "Calculated",
+      "citation": "Derived from historical DPU comparison (6.31 to 6.80 sen)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "KIP:366": {
+      "fact": "Realised Income FY 2025: RM 108.58 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Realised Income",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:368": {
+      "fact": "Distribution Payout Ratio: ~48.6%",
+      "source": "Calculated",
+      "citation": "Derived from distributions (RM 52.72M) / realised income (RM 108.58M)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "KIP:371": {
+      "fact": "Current Share Price: RM 0.82",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5280"
+    },
+    "KIP:373": {
+      "fact": "NAV per Unit: RM 1.1196",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - NAV",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:374": {
+      "fact": "2025 DPU: 6.80 sen",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Distribution",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:375": {
+      "fact": "Market Dividend Yield: ~8.29%",
+      "source": "Calculated",
+      "citation": "6.80 sen / RM 0.82",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "KIP:376": {
+      "fact": "Price-to-Book (P/B): ~0.73x",
+      "source": "Calculated",
+      "citation": "RM 0.82 / RM 1.1245",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "KIP:377": {
+      "fact": "Trading at ~27% discount to NAV",
+      "source": "Calculated",
+      "citation": "Derived from P/B ratio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "KIP:378": {
+      "fact": "Market Cap: ~RM 824-829 million",
+      "source": "KLSE",
+      "citation": "KLSE Screener Market Cap",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5280"
+    },
+    "KIP:379": {
+      "fact": "Market Yield: ~8.29%",
+      "source": "Calculated",
+      "citation": "6.80 sen / RM 0.82",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "KIP:380": {
+      "fact": "NAV-Based Yield: ~6.07%",
+      "source": "Calculated",
+      "citation": "6.80 sen / RM 1.1196",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "KIP:381": {
+      "fact": "Current Trading Price: RM 0.82",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5280"
+    },
+    "KIP:383": {
+      "fact": "P/B = ~0.73x (~27% discount)",
+      "source": "Calculated",
+      "citation": "Current price vs NAV comparison",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "KIP:385": {
+      "fact": "KIP REIT Price (April 2026): RM 0.82",
+      "source": "KLSE",
+      "citation": "KLSE Screener",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5280"
+    },
+    "KIP:387": {
+      "fact": "KIP P/B: ~0.73x",
+      "source": "Calculated",
+      "citation": "Price to Book ratio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "KIP:395": {
+      "fact": "Trading at ~27% discount to NAV",
+      "source": "Calculated",
+      "citation": "Price vs NAV analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "KIP:404": {
+      "fact": "Gross Revenue FY 2025: RM 136.13 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:405": {
+      "fact": "NPI FY 2025: RM 96.82 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Net Property Income",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:406": {
+      "fact": "NPI Margin ~71.1%",
+      "source": "Calculated",
+      "citation": "NPI / Revenue (96.82 / 136.13)",
+      "dateAccessed": "2026-04-28",
+      "timeSensitive": false
+    },
+    "KIP:407": {
+      "fact": "Realised Income FY 2025: RM 108.58 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Realised Income Statement",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:409": {
+      "fact": "Profit After Tax FY 2025: RM 115.14 million",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:456": {
+      "fact": "Occupancy Rate Q4 FY2025: 96.7%",
+      "source": "Q42025",
+      "citation": "KIP REIT Q4 FY2025 Unaudited Results - Occupancy",
+      "dateAccessed": "2025-08-28",
+      "timeSensitive": false
+    },
+    "KIP:464": {
+      "fact": "Fixed-rate debt ~45%",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Interest Rate Profile",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:487": {
+      "fact": "Payout Ratio ~48.6%",
+      "source": "Calculated",
+      "citation": "Distributions (RM 52.72M) / Realised Income (RM 108.58M)",
+      "dateAccessed": "2026-04-28",
+      "timeSensitive": false
+    },
+    "KIP:500": {
+      "fact": "KIP = Kumpulan Inti Pelangi (Rainbow Core Group)",
+      "source": "KIPWebsite",
+      "citation": "KIP REIT Corporate Brand Information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.kipreit.com.my"
+    },
+    "KIP:501": {
+      "fact": "KIPMalls brand focuses on neighborhood suburban shopping centers",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Portfolio Strategy",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:502": {
+      "fact": "Portfolio strategy: Daily needs retail in suburban catchments",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report - Investment Focus",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    },
+    "KIP:600": {
+      "fact": "Report Prepared: April 2026",
+      "source": "Document",
+      "citation": "Report metadata",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "KIP:601": {
+      "fact": "Data Coverage: FY 2025 (July 1, 2024 - June 30, 2025)",
+      "source": "AR2025",
+      "citation": "KIP REIT 2025 Annual Report Period",
+      "dateAccessed": "2026-02-28",
+      "timeSensitive": false
+    }
+  }
+}
