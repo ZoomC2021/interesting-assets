@@ -504,31 +504,33 @@ export class IgbAdapter {
       {
         id: this.generateId(),
         category: 'tenant_rollover',
-        severity: 'high',
+        severity: 'medium',
         title: '2026 Lease Expiry Concentration',
-        description: '40.5% of Mid Valley NLA (40.5% of total) expiring in 2026 creates significant lease rollover risk.',
-        currentScore: 4,
-        peerComparison: 'worse',
+        description: '~40.5% of Mid Valley NLA expiring in 2026 creates a concentrated renewal event, but historical evidence supports this as a managed cyclical feature of IGB\'s active short-lease strategy (~3-year retail leases) rather than a novel structural risk. A 54.8% TGM NLA expiry concentration in FY2013 was navigated with no occupancy deterioration. Rental reversions have been positive (mid-single-digit) in recent cycles, and management has applied proactive forward-renewal strategy consistently since at least 2012.',
+        currentScore: 3,
+        peerComparison: 'similar',
         quantitativeBacking: [
-          { metricType: 'lease_renewal_rate', value: 40.5, context: 'Elevated expiry concentration' }
+          { metricType: 'lease_renewal_rate', value: 40.5, context: 'Elevated expiry concentration — managed cyclical event' }
         ],
         mitigatingFactors: [
-          { factor: '100% current occupancy provides buffer', impact: 'significant' },
-          { factor: 'Strong tenant retention history', impact: 'moderate' },
-          { factor: 'Diversified tenant base reduces single-tenant risk', impact: 'moderate' }
+          { factor: 'Near-perfect occupancy (99.8% MVM) sustained through multiple prior expiry cycles', impact: 'significant' },
+          { factor: 'Historical precedent: 54.8% TGM NLA expiry in FY2013 navigated with no occupancy loss', impact: 'significant' },
+          { factor: 'Positive rental reversions confirmed in FY2024; mid-single-digit (4–6%) guidance', impact: 'significant' },
+          { factor: 'Proactive forward-renewal strategy documented in every AR since 2012', impact: 'moderate' },
+          { factor: 'Deliberate short-lease structure (~3 years) to capture market-rate resets — industry standard', impact: 'moderate' },
+          { factor: 'Diversified tenant base (top tenant AEON ~8% GRI); no single-tenant dependency', impact: 'moderate' }
         ],
         aggravatingFactors: [
-          { factor: '40.5% concentration in single year is elevated', impact: 'significant' },
-          { factor: 'Market conditions may pressure rental rates', impact: 'significant' },
-          { factor: 'MVM is flagship asset - disruption impact high', impact: 'significant' }
+          { factor: '40.5% concentration in a single year warrants monitoring', impact: 'moderate' },
+          { factor: 'Specific annual renewal rate (% leases renewed) not publicly disclosed', impact: 'minor' }
         ],
-        trend: 'deteriorating',
+        trend: 'stable',
         monitoringTriggers: [
           '2026 renewal progress',
-          'Rental reversion trends',
+          'Rental reversion direction on completed renewals',
           'Tenant retention announcements'
         ],
-        sourceDisplayIds: ['I:112', 'I:115', 'I:117', 'I:118', 'I:12']
+        sourceDisplayIds: ['I:381', 'I:382', 'I:383', 'I:384', 'I:385', 'I:386', 'I:387', 'I:388']
       },
       {
         id: this.generateId(),
@@ -572,8 +574,8 @@ export class IgbAdapter {
       id: this.generateId(),
       entityId: this.entityId,
       assessmentDate: '2026-04-25',
-      overallRiskRating: 'moderate',
-      overallScore: 2.5,
+      overallRiskRating: 'low',
+      overallScore: 2.0,
       riskFactors: riskFactors as any,
       peerComparison: {
         vsPeerId: CitationLinker.generateEntityUuid('5212.KL'),

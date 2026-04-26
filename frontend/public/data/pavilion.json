@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-26T16:14:12.084Z",
+  "generatedAt": "2026-04-26T16:27:43.054Z",
   "entity": {
     "id": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3",
     "code": "5212.KL",
@@ -4024,11 +4024,253 @@
       "dateAccessed": "2026-04-25",
       "timeSensitive": false,
       "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "438f4b28-8092-5e6c-855a-0a6144bd55ec",
+      "displayId": "P:507",
+      "fact": "Stage 2 Analysis: 71% of Pavilion KL NLA due for renewal in FY2013",
+      "source": "AR2013",
+      "citation": "Pavilion REIT 2013 Annual Report - Lease Expiry Profile, p.8",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "59a6afcb-d38c-55ce-8218-a5d1b86b5a32",
+      "displayId": "P:508",
+      "fact": "Stage 2 Analysis: 15% rental reversion achieved in FY2012-2013",
+      "source": "AR2012",
+      "citation": "Pavilion REIT 2012 Annual Report - Rental Reversion Performance, p.21",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "437c24b8-6089-5025-a42a-f72d3e28920e",
+      "displayId": "P:509",
+      "fact": "Stage 2 Analysis: 9% rental reversion achieved in FY2014",
+      "source": "AR2014",
+      "citation": "Pavilion REIT 2014 Annual Report - Rental Reversion Performance, p.8",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "6371f908-90c2-542f-9613-bb3ea6202f30",
+      "displayId": "P:510",
+      "fact": "Stage 2 Analysis: ~5% rental reversion in FY2015",
+      "source": "AR2015",
+      "citation": "Pavilion REIT 2015 Annual Report - Rental Reversion Performance, p.10",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "7116ad39-7dcc-5677-afc9-5bb7d638bdf8",
+      "displayId": "P:511",
+      "fact": "Stage 2 Analysis: 4.2% positive rental reversion for 208,439 sq ft in FY2017",
+      "source": "AR2017",
+      "citation": "Pavilion REIT 2017 Annual Report - Lease Renewal Performance, p.25",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "7fb20887-e519-5dd0-b9d2-9347fec3d828",
+      "displayId": "P:512",
+      "fact": "Stage 2 Analysis: 4.4% positive rental reversion for 159,023 sq ft in FY2018 with double-digit growth for relocated/replacement tenants",
+      "source": "AR2018",
+      "citation": "Pavilion REIT 2018 Annual Report - Rental Reversion Analysis, p.25",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "4e69a6a2-932c-5105-8d56-d5b49dd00e3c",
+      "displayId": "P:513",
+      "fact": "Stage 2 Analysis: Positive rental reversion averaging 4-5% in FY2019",
+      "source": "AR2019",
+      "citation": "Pavilion REIT 2019 Annual Report - Lease Renewal Performance, p.21",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "331fff7f-f9d9-5d1b-a9b0-2fdde7e868b0",
+      "displayId": "P:514",
+      "fact": "Stage 2 Analysis: Renewal process challenging in FY2021 due to COVID-19; renewals at similar rental rates",
+      "source": "AR2021",
+      "citation": "Pavilion REIT 2021 Annual Report - Lease Renewal Commentary, p.26",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "eb6d73b0-6d7d-5121-b6cc-f02e2942fd02",
+      "displayId": "P:515",
+      "fact": "Stage 2 Analysis: WALE increased to 1.35 years at FY2022 from 0.98 years in FY2021",
+      "source": "AR2022",
+      "citation": "Pavilion REIT 2022 Annual Report - WALE Metrics, p.10",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "3c35f1e4-8ce3-57dd-a740-65184e1f1caf",
+      "displayId": "P:516",
+      "fact": "Stage 2 Analysis: Majority of Pavilion REIT tenancies are 3-year terms with option to extend for another 3 years",
+      "source": "AR2018",
+      "citation": "Pavilion REIT 2018 Annual Report - Lease Strategy Framework, p.25",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "3aff6c53-6da5-51da-9d9d-30af74ec71ea",
+      "displayId": "P:517",
+      "fact": "Stage 2 Analysis: Anchor and specialty anchor tenants have renewal options up to five 3-year terms",
+      "source": "AR2018",
+      "citation": "Pavilion REIT 2018 Annual Report - Anchor Tenant Lease Structure, p.25",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "4de618de-d1d5-5056-be5d-adefaaf4af82",
+      "displayId": "P:518",
+      "fact": "Stage 2 Analysis: Pavilion KL occupancy 99.1% in FY2011 and FY2012; 96.5% in FY2018; 90.2% in FY2021 (COVID impact); 96.8% in FY2025",
+      "source": "AR2011-AR2025",
+      "citation": "Pavilion REIT Annual Reports 2011-2025 - Historical Occupancy Data (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "d08655ce-bd8b-519a-97fe-6f0b61175a0e",
+      "displayId": "P:519",
+      "fact": "Stage 2 Analysis: Intermark Mall occupancy improved from 83.6% (FY2021) to 95.7% (FY2025)",
+      "source": "AR2021-AR2025",
+      "citation": "Pavilion REIT Annual Reports 2021-2025 - Intermark Occupancy Trend (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "9ff752b2-1eac-59cb-beb3-7ad1c733e595",
+      "displayId": "P:520",
+      "fact": "Stage 2 Analysis: DA MEN Mall achieved 100% occupancy under master tenancy in FY2025",
+      "source": "AR2025",
+      "citation": "Pavilion REIT 2025 Annual Report - DA MEN Master Tenancy, p.14",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "c2895f1e-bba8-5b4b-98fc-529a17778044",
+      "displayId": "P:521",
+      "fact": "Stage 2 Analysis: Lease expiry clustering analysis - FY2013 had 71% of NLA expiring; FY2019 had 30% expiring",
+      "source": "AR2012-AR2019",
+      "citation": "Pavilion REIT Annual Reports 2012-2019 - Lease Expiry Profiles (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "33789ab5-2152-50c1-aaab-3d1f31b628d4",
+      "displayId": "P:522",
+      "fact": "Stage 2 Analysis: WALE was 1.56 years in FY2019, reduced to 0.98 years in FY2021, rebuilt to 1.43 years in FY2024",
+      "source": "AR2019-AR2024",
+      "citation": "Pavilion REIT Annual Reports 2019-2024 - WALE Trend Analysis (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "e2293503-7c84-5729-9971-058b2fea5fb8",
+      "displayId": "P:523",
+      "fact": "Stage 2 Analysis: Despite 71-74% NLA lease expiry clustering in FY2012-2013, Pavilion KL maintained 95%+ occupancy demonstrating strong tenant retention",
+      "source": "AR2011-AR2013",
+      "citation": "Pavilion REIT Annual Reports 2011-2013 - Lease Expiry vs Occupancy Outcome (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "71b79b57-a6a4-52b8-810b-0a3252400ecc",
+      "displayId": "P:524",
+      "fact": "Stage 2 Analysis: Rental reversion trend declined from 15% (2012-2013) to single digits (2014-2019), flat during COVID, with 2024 showing improving negotiating position",
+      "source": "AR2012-AR2024",
+      "citation": "Pavilion REIT Annual Reports 2012-2024 - Rental Reversion Trend Analysis (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "144bd88a-173b-5daf-be12-81654fba3621",
+      "displayId": "P:525",
+      "fact": "Stage 2 Analysis: DA MEN Mall occupancy was 62-73% during FY2021-2024 before achieving 100% under master tenancy",
+      "source": "AR2021-AR2024",
+      "citation": "Pavilion REIT Annual Reports 2021-2024 - DA MEN Occupancy History (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "ebf14cb3-0607-5624-a544-ad7119b44c72",
+      "displayId": "P:526",
+      "fact": "Stage 2 Analysis: Pavilion Tower occupancy ranged from 72-86% (FY2018-2025), reflecting office market oversupply conditions",
+      "source": "AR2018-AR2025",
+      "citation": "Pavilion REIT Annual Reports 2018-2025 - Pavilion Tower Occupancy Trend (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "33a3bc81-dd97-5122-b5d9-f3c9f85aa297",
+      "displayId": "P:527",
+      "fact": "Stage 2 Analysis: Elite Pavilion occupancy improved from 83.4% (FY2022) to 97.4% (FY2025)",
+      "source": "AR2022-AR2025",
+      "citation": "Pavilion REIT Annual Reports 2022-2025 - Elite Pavilion Occupancy Trend (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
+    },
+    {
+      "id": "5c6c342e-f078-5ceb-9dd8-ded913f8d1b4",
+      "displayId": "P:528",
+      "fact": "Stage 2 Analysis: 3-year + 3-year option lease structure allows rental rate reset every 3 years, effectively capturing market rate growth",
+      "source": "AR2018-AR2025",
+      "citation": "Pavilion REIT Annual Reports 2018-2025 - Lease Strategy Framework (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false,
+      "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3"
     }
   ],
   "metrics": [
     {
-      "id": "2eb71df1-aa4e-44b6-b107-492de2fdf8c6",
+      "id": "a5df32e4-38a8-445f-885f-019690cdca4f",
       "metricType": "portfolio_size",
       "value": 8,
       "unit": "properties",
@@ -4043,7 +4285,7 @@
       ]
     },
     {
-      "id": "730d64c4-5a53-443d-9ff8-85fe7018d4dd",
+      "id": "488fdf94-100d-4db2-8c20-8c58cf47cd63",
       "metricType": "total_assets",
       "value": 9800,
       "unit": "RM million",
@@ -4058,7 +4300,7 @@
       ]
     },
     {
-      "id": "d6b216cb-d10e-4d9c-9a01-c06f4862cd7e",
+      "id": "03f5156d-bc37-40c5-9a06-5fdd8b9bcdbe",
       "metricType": "property_count",
       "value": 8,
       "unit": "properties",
@@ -4073,7 +4315,7 @@
       ]
     },
     {
-      "id": "cf150f27-f9dc-4270-a0d7-77a442d1c1af",
+      "id": "3df2e967-bcd7-4414-a617-b68163abc249",
       "metricType": "net_lettable_area",
       "value": 2760000,
       "unit": "sq ft",
@@ -4088,7 +4330,7 @@
       ]
     },
     {
-      "id": "e6268433-4b13-4780-b673-db4c3fc6b516",
+      "id": "efed86a6-9b88-4b7e-9552-8df13b7f84ef",
       "metricType": "geographic_concentration",
       "value": 100,
       "unit": "%",
@@ -4103,7 +4345,7 @@
       ]
     },
     {
-      "id": "10dcec48-f61f-4477-9c8f-30428f5a672c",
+      "id": "9f9b34d4-4f05-4455-aa5a-598f2ad4848c",
       "metricType": "gross_revenue",
       "value": 901.49,
       "unit": "RM million",
@@ -4119,7 +4361,7 @@
       ]
     },
     {
-      "id": "b7950604-f8b5-415c-b7da-866199070d90",
+      "id": "82ed3b01-fdcb-4830-b8f3-d0fa98d1bce5",
       "metricType": "net_property_income",
       "value": 567.89,
       "unit": "RM million",
@@ -4135,7 +4377,7 @@
       ]
     },
     {
-      "id": "a447dfeb-df77-418f-8865-e43d06910bdf",
+      "id": "0450a98c-e683-47bf-ac75-765d418408a7",
       "metricType": "nav_per_unit",
       "value": 1.33,
       "unit": "RM",
@@ -4150,7 +4392,7 @@
       ]
     },
     {
-      "id": "ca84d1ce-3b42-4006-ab80-c56451a50011",
+      "id": "1b8d05bc-1f01-4fbc-aede-9567968f26ce",
       "metricType": "market_cap",
       "value": 7150,
       "unit": "RM million",
@@ -4165,7 +4407,7 @@
       ]
     },
     {
-      "id": "07e36e5e-e9df-4a8f-9a57-d4fc1e37a25a",
+      "id": "fc76da9c-e248-410c-8503-91dd96e36a43",
       "metricType": "dpu",
       "value": 10,
       "unit": "sen",
@@ -4180,7 +4422,7 @@
       ]
     },
     {
-      "id": "07fb4e7e-c167-4a8c-8624-0a15567fbe37",
+      "id": "ab2e8c88-ab9c-4440-a1ee-e2583599c897",
       "metricType": "dpu_growth_yoy",
       "value": 5.9,
       "unit": "%",
@@ -4195,7 +4437,7 @@
       ]
     },
     {
-      "id": "2528ffb3-3cef-4197-90c7-eff0eaf9f92d",
+      "id": "a5e1d9fe-846e-459d-a92d-a398a3a06526",
       "metricType": "dividend_yield_market",
       "value": 5.49,
       "unit": "%",
@@ -4210,7 +4452,7 @@
       ]
     },
     {
-      "id": "fe7084aa-572b-4230-adc1-fc803c306c44",
+      "id": "6f311e79-8cc1-44b3-bd07-617e8bc64e1f",
       "metricType": "payout_ratio",
       "value": 95,
       "unit": "%",
@@ -4225,7 +4467,7 @@
       ]
     },
     {
-      "id": "0245b096-8360-4cee-bd80-405b9b08026e",
+      "id": "349bb2e5-a4d2-4dd4-8612-c572eb7c8ccf",
       "metricType": "gearing_ratio",
       "value": 37.5,
       "unit": "%",
@@ -4240,7 +4482,7 @@
       ]
     },
     {
-      "id": "2fb688e2-bb4a-437f-a991-c8122e5788f8",
+      "id": "c8adeab5-db74-4046-bebd-2358a8e110bd",
       "metricType": "interest_coverage",
       "value": 1.91,
       "unit": "x",
@@ -4255,7 +4497,7 @@
       ]
     },
     {
-      "id": "5fc635db-c7e5-4d14-81ad-0a8ba234a15e",
+      "id": "0ca57610-0f75-41c2-94b8-717b55d5332b",
       "metricType": "total_borrowings",
       "value": 3910,
       "unit": "RM million",
@@ -4270,7 +4512,7 @@
       ]
     },
     {
-      "id": "b376875b-1930-4172-a8a4-ee13989ef0be",
+      "id": "26e9f96c-3564-466f-a6ca-87aa43d9df35",
       "metricType": "fixed_rate_debt_pct",
       "value": 23.6,
       "unit": "%",
@@ -4285,7 +4527,7 @@
       ]
     },
     {
-      "id": "5f2f6a9a-bbef-4275-aac9-ee118b76a65e",
+      "id": "1a3ce823-635a-4e37-b597-16ced088f07f",
       "metricType": "floating_rate_debt_pct",
       "value": 76.4,
       "unit": "%",
@@ -4300,7 +4542,7 @@
       ]
     },
     {
-      "id": "c999d5fb-a95e-4ebc-9cd8-dd9f476191bb",
+      "id": "9d808cb9-7282-4cfa-8f1b-9215d28aaff5",
       "metricType": "wacd",
       "value": 4.35,
       "unit": "%",
@@ -4315,7 +4557,7 @@
       ]
     },
     {
-      "id": "be8308a1-e27a-40e3-acb1-77ef2da11963",
+      "id": "98c5233a-5e2b-4d55-b1f3-632faa32eb54",
       "metricType": "occupancy_rate",
       "value": 83,
       "unit": "%",
@@ -4330,7 +4572,7 @@
       ]
     },
     {
-      "id": "1ed39abd-4da8-4ffa-8a65-db906242f387",
+      "id": "5ae52f56-2e5c-4e45-8194-40fb67e0f91d",
       "metricType": "wale_years",
       "value": 2.1,
       "unit": "years",
@@ -4345,7 +4587,7 @@
       ]
     },
     {
-      "id": "47cc2146-350a-41ee-9352-523c7eacee4d",
+      "id": "7b777eb8-01f7-4037-ab52-12ae36ec9ba0",
       "metricType": "top_tenant_concentration",
       "value": 35,
       "unit": "%",
@@ -4360,7 +4602,7 @@
       ]
     },
     {
-      "id": "0ba9d813-c17a-4b0f-bce2-0f592185b2b0",
+      "id": "6737e0c5-4158-40e6-b321-4af7ca609950",
       "metricType": "rental_reversion",
       "value": 3.5,
       "unit": "%",
@@ -4375,7 +4617,7 @@
       ]
     },
     {
-      "id": "7892b1b1-b65f-4484-b9cf-04c472e894cc",
+      "id": "27296b33-88cd-4016-83f2-854e53a62c13",
       "metricType": "npi_margin",
       "value": 63,
       "unit": "%",
@@ -4390,7 +4632,7 @@
       ]
     },
     {
-      "id": "9ffcebae-2643-4f9e-83f9-183898dc9be7",
+      "id": "2d75efe1-6fab-4d81-988f-f8139f715f3a",
       "metricType": "property_count",
       "value": 8,
       "unit": "properties",
@@ -4405,7 +4647,7 @@
       ]
     },
     {
-      "id": "7ce7e84c-0403-4130-b80f-283ed65096fe",
+      "id": "5b79a9a1-dfc4-49ff-899e-4c02f826d3b8",
       "metricType": "investment_properties",
       "value": 9000,
       "unit": "RM million",
@@ -4420,7 +4662,7 @@
       ]
     },
     {
-      "id": "751bb704-6eda-4fcd-8060-80562bd4113a",
+      "id": "e61f612f-cc55-4f3f-82cd-f5f727ce8347",
       "metricType": "share_price",
       "value": 1.82,
       "unit": "RM",
@@ -4435,7 +4677,7 @@
       ]
     },
     {
-      "id": "618e0364-0c04-42b5-9c56-a3348f995492",
+      "id": "58983c52-8549-46e9-a703-2de059e80786",
       "metricType": "price_to_book",
       "value": 1.35,
       "unit": "x",
@@ -4450,7 +4692,7 @@
       ]
     },
     {
-      "id": "0d742438-3101-479f-bf6a-914911140901",
+      "id": "9c7f4e7c-877c-4361-b420-cd55e00455a2",
       "metricType": "premium_discount_to_nav",
       "value": 35,
       "unit": "%",
@@ -4465,7 +4707,7 @@
       ]
     },
     {
-      "id": "3f5d76d8-0313-4d9d-8951-9498f095451e",
+      "id": "0b5e7055-0d85-445f-bac5-c094ca281766",
       "metricType": "gearing_ratio",
       "value": 15,
       "unit": "% unencumbered",
@@ -4480,7 +4722,7 @@
       ]
     },
     {
-      "id": "0b39de26-c856-4377-b882-277102b63b76",
+      "id": "a7b7966e-a5ae-4189-b30a-aed6fd17eefd",
       "metricType": "lease_renewal_rate",
       "value": 42,
       "unit": "% expiring",
@@ -4495,7 +4737,7 @@
       ]
     },
     {
-      "id": "f10eddda-84be-49f2-8e89-a311b72630fe",
+      "id": "fce2e70f-4205-4d67-8bd2-2114f7031988",
       "metricType": "price_to_book",
       "value": 1.09,
       "unit": "x",
@@ -4510,7 +4752,7 @@
       ]
     },
     {
-      "id": "7e7c150b-83cb-4630-ba22-eb501ca67d0d",
+      "id": "ff93cd70-a6c6-4385-9a27-b619962fadf7",
       "metricType": "premium_discount_to_nav",
       "value": 9,
       "unit": "%",
@@ -4527,7 +4769,7 @@
   ],
   "timeSeries": [
     {
-      "id": "1a7a2b67-3429-40f1-8543-a351608c737d",
+      "id": "9caa760d-6ddf-4776-abae-450420935dd1",
       "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3",
       "metricType": "dpu",
       "frequency": "annual",
@@ -4569,7 +4811,7 @@
       ]
     },
     {
-      "id": "33e13479-9806-4587-a655-2a3c78e70e77",
+      "id": "cc90cd9e-1381-4af0-9172-2e008acf675c",
       "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3",
       "metricType": "gross_revenue",
       "frequency": "annual",
@@ -4609,7 +4851,7 @@
       ]
     },
     {
-      "id": "364853da-b2c5-48e9-9a95-8596d545bd63",
+      "id": "70614f78-302a-4037-8ad0-4b7a3dd2698c",
       "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3",
       "metricType": "occupancy_rate",
       "frequency": "annual",
@@ -4647,7 +4889,7 @@
       ]
     },
     {
-      "id": "45854ee6-491a-4df8-be46-7ea514381ef2",
+      "id": "d25239d1-e66e-46ac-a335-683f6e3db31e",
       "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3",
       "metricType": "nav_per_unit",
       "frequency": "annual",
@@ -4687,7 +4929,7 @@
       ]
     },
     {
-      "id": "59f6c679-9cfc-407e-b5b7-0fd06b04cb7f",
+      "id": "c700a468-e8b1-4e4d-8f46-f4ec39a34942",
       "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3",
       "metricType": "net_property_income",
       "frequency": "annual",
@@ -4728,14 +4970,14 @@
     }
   ],
   "riskAssessment": {
-    "id": "fc7c10c3-5d36-4419-b356-bb9028fab325",
+    "id": "c48fa695-1f7f-4596-9af5-daa1f561a38f",
     "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3",
     "assessmentDate": "2026-04-25",
     "overallRiskRating": "moderate_high",
     "overallScore": 3,
     "riskFactors": [
       {
-        "id": "73179b7a-2779-4588-8fbf-9096bb1daf89",
+        "id": "142d1eab-337a-4ae4-9420-a1c604ba8500",
         "category": "concentration",
         "severity": "high",
         "title": "Flagship Property Concentration",
@@ -4791,7 +5033,7 @@
         ]
       },
       {
-        "id": "f711b2f0-3d6b-4248-8fff-d8b426a29efa",
+        "id": "dda041b0-3c6d-4470-9dd8-999762da2257",
         "category": "interest_rate",
         "severity": "medium",
         "title": "Interest Rate Sensitivity",
@@ -4847,7 +5089,7 @@
         ]
       },
       {
-        "id": "b35d2baa-eab3-46e5-a37c-d1c9b9cf1164",
+        "id": "108c71b5-9b90-4b5d-93e6-1bc7838a720b",
         "category": "governance",
         "severity": "low",
         "title": "Professional Management Structure",
@@ -4889,7 +5131,7 @@
         ]
       },
       {
-        "id": "59b94fe3-e82f-49b9-9552-3b72ee0db122",
+        "id": "c4d86458-2fab-40bd-bc16-db8359361a5f",
         "category": "transparency",
         "severity": "low",
         "title": "Comprehensive Disclosure",
@@ -4926,7 +5168,7 @@
         ]
       },
       {
-        "id": "2941e27f-74cd-4af4-95d2-8437718cedf8",
+        "id": "68924bd4-f80c-4a43-ad7b-5613eed2b3d9",
         "category": "tenant_rollover",
         "severity": "medium",
         "title": "Lease Expiry Profile",
@@ -4976,7 +5218,7 @@
         ]
       },
       {
-        "id": "a98886dd-444e-4359-a6ae-72753305b244",
+        "id": "a94bc39c-bbd9-4fe3-8e30-95cec6a2a12e",
         "category": "geographic",
         "severity": "high",
         "title": "Klang Valley Concentration",
@@ -5037,7 +5279,7 @@
   },
   "observations": [
     {
-      "id": "01d3870c-0d40-48eb-9456-7a039b829ab2",
+      "id": "736021e3-20f5-4308-939c-25c9ef68ef29",
       "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3",
       "observationType": "executive_summary",
       "priority": "positive",
@@ -5088,7 +5330,7 @@
       "primaryCitation": "P:21"
     },
     {
-      "id": "d3f1e0ca-2b75-4d24-8d14-b79ef5f79d0b",
+      "id": "b930bce5-4ddc-4acb-8ad9-23e09877dea5",
       "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3",
       "observationType": "portfolio_analysis",
       "priority": "warning",
@@ -5144,7 +5386,7 @@
       "primaryCitation": "P:14"
     },
     {
-      "id": "56aa35f8-75af-4cb0-a02e-2439bb014aaf",
+      "id": "9a5d803c-ba62-4e10-a4ac-477cc566bbd8",
       "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3",
       "observationType": "debt_sustainability",
       "priority": "warning",
@@ -5205,7 +5447,7 @@
       "primaryCitation": "P:20"
     },
     {
-      "id": "1eb69598-f74d-4a47-8363-81b090e1683a",
+      "id": "75112345-01f6-4302-9e79-5fd4ae258540",
       "entityId": "2bb7a4ca-1f79-5e13-a1c0-27bbcbb37fb3",
       "observationType": "executive_summary",
       "priority": "positive",

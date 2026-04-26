@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-26T16:14:12.106Z",
+  "generatedAt": "2026-04-26T16:27:43.078Z",
   "entity": {
     "id": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
     "code": "5338.KL",
@@ -2246,7 +2246,7 @@
   ],
   "metrics": [
     {
-      "id": "5e91607f-635b-4f0e-b1fd-8f1307a6ec87",
+      "id": "cae9a310-04d1-4cf9-8f27-afae724c5283",
       "metricType": "portfolio_size",
       "value": 0,
       "unit": "properties",
@@ -2261,7 +2261,7 @@
       ]
     },
     {
-      "id": "8a467fbb-17ec-4e6f-beed-e92674d77460",
+      "id": "7ef64a1e-e2ac-41f9-bdb7-a435706100f0",
       "metricType": "total_assets",
       "value": 0,
       "unit": "RM million",
@@ -2277,7 +2277,7 @@
       ]
     },
     {
-      "id": "c92f2ec9-45ec-450b-bf80-2122dc09e673",
+      "id": "68828122-9a72-4162-b39f-3239eccab9f5",
       "metricType": "investment_properties",
       "value": 0,
       "unit": "RM million",
@@ -2292,7 +2292,7 @@
       ]
     },
     {
-      "id": "2fb5fa05-f3b0-4308-ac4a-5eb9b0c29382",
+      "id": "23f5be8d-12f3-44b9-9b30-2d5ee8e2a4ac",
       "metricType": "property_count",
       "value": 0,
       "unit": "properties",
@@ -2307,7 +2307,7 @@
       ]
     },
     {
-      "id": "7ab2b83c-c685-48d6-b3f5-8b08be6a179f",
+      "id": "5bce22c8-b7ca-4e9b-914f-a4e4c0008770",
       "metricType": "gross_revenue",
       "value": 0,
       "unit": "RM million",
@@ -2322,7 +2322,7 @@
       ]
     },
     {
-      "id": "db784f93-eb83-48d4-9b0f-85fa87358654",
+      "id": "48834de6-8803-4424-9332-7998e3bfb40c",
       "metricType": "net_property_income",
       "value": 0,
       "unit": "RM million",
@@ -2337,7 +2337,7 @@
       ]
     },
     {
-      "id": "3393c0f2-796c-444b-ba28-2f5f255d8f1e",
+      "id": "79261689-c29c-4b7f-b620-6a83d0ad0d3d",
       "metricType": "nav_per_unit",
       "value": 0,
       "unit": "RM",
@@ -2352,7 +2352,7 @@
       ]
     },
     {
-      "id": "8c8997d9-d044-440b-bd5d-d782d007aaa3",
+      "id": "7ebc9193-a033-4107-804c-951183009096",
       "metricType": "market_cap",
       "value": 0,
       "unit": "RM million",
@@ -2367,7 +2367,7 @@
       ]
     },
     {
-      "id": "01b5cd07-cb3b-479b-8dbe-2453d89c5bd3",
+      "id": "44c2be6a-f94a-4044-9921-f6cc5631ff8e",
       "metricType": "share_price",
       "value": 0,
       "unit": "RM",
@@ -2382,7 +2382,7 @@
       ]
     },
     {
-      "id": "9403b453-2bca-4095-aabe-fa58874312d9",
+      "id": "8760982c-e7d5-4487-ad10-686b0ad0138a",
       "metricType": "dpu",
       "value": 0,
       "unit": "sen",
@@ -2398,7 +2398,7 @@
       ]
     },
     {
-      "id": "c6a426bd-8ce2-45f0-933c-15d81688eea1",
+      "id": "af8874a4-6cda-4640-addb-fb1e63983191",
       "metricType": "dpu_growth_yoy",
       "value": 0,
       "unit": "%",
@@ -2413,7 +2413,7 @@
       ]
     },
     {
-      "id": "feba8d8b-5b4f-45dd-9f88-63a22997fb69",
+      "id": "2044f236-b870-4c03-a411-e5e84d9403a8",
       "metricType": "dividend_yield_market",
       "value": 0,
       "unit": "%",
@@ -2428,7 +2428,7 @@
       ]
     },
     {
-      "id": "f6366069-8bc4-45c8-a3be-9274e887304b",
+      "id": "fc8fdd86-692f-4e20-8f44-0b640fc84f1f",
       "metricType": "payout_ratio",
       "value": 0,
       "unit": "%",
@@ -2443,7 +2443,7 @@
       ]
     },
     {
-      "id": "6556eadf-3ef6-4b31-85ff-567b918da880",
+      "id": "d097fa37-a895-47ff-b9bb-cb1366096360",
       "metricType": "gearing_ratio",
       "value": 0,
       "unit": "%",
@@ -2458,7 +2458,7 @@
       ]
     },
     {
-      "id": "e111d2bc-ef22-4979-8dc2-3b38952b246d",
+      "id": "4561ec46-ab00-48bc-b256-59b8ed2d20d6",
       "metricType": "interest_coverage",
       "value": 0,
       "unit": "x",
@@ -2473,7 +2473,7 @@
       ]
     },
     {
-      "id": "2412f37c-17b4-4050-aea5-acc00ce5051b",
+      "id": "91b366e8-ca33-4a6d-a222-d5a37b0d4471",
       "metricType": "total_borrowings",
       "value": 0,
       "unit": "RM million",
@@ -2488,7 +2488,7 @@
       ]
     },
     {
-      "id": "06270015-c0a9-439b-b996-44807a5b35fb",
+      "id": "139129a9-223c-43c1-b6bf-c0b17f3e4c25",
       "metricType": "occupancy_rate",
       "value": 0,
       "unit": "%",
@@ -2503,7 +2503,7 @@
       ]
     },
     {
-      "id": "e215c713-509b-4da8-bd92-aac347e1a56c",
+      "id": "6c085ff5-94a9-4b6b-9a3a-14742b75be04",
       "metricType": "npi_margin",
       "value": 0,
       "unit": "%",
@@ -2518,7 +2518,7 @@
       ]
     },
     {
-      "id": "140468cb-21c5-4f34-b242-e6b0c605f252",
+      "id": "b792fad9-c94e-4dde-b6f2-5918f81eb8ba",
       "metricType": "price_to_book",
       "value": 0,
       "unit": "x",
@@ -2535,7 +2535,7 @@
   ],
   "timeSeries": [
     {
-      "id": "da2b62d2-ce06-4322-924f-dfd9f189c5ce",
+      "id": "b4b1417d-52f5-4610-9c8d-e2b02108e288",
       "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
       "metricType": "dpu",
       "frequency": "annual",
@@ -2573,7 +2573,7 @@
       ]
     },
     {
-      "id": "47c8829b-2c46-45df-b771-c2f4a9199fec",
+      "id": "e27c8988-1333-48bb-bca2-0261e1f81455",
       "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
       "metricType": "occupancy_rate",
       "frequency": "annual",
@@ -2611,7 +2611,7 @@
       ]
     },
     {
-      "id": "1b5f2022-240a-4ec9-a61f-5acd353ff402",
+      "id": "d262618c-c070-4a7f-bfbe-a7013a16a11c",
       "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
       "metricType": "nav_per_unit",
       "frequency": "annual",
@@ -2649,7 +2649,7 @@
       ]
     },
     {
-      "id": "6ef01d50-645b-4a83-b35e-4dd15ed65386",
+      "id": "114bd009-672d-48c5-8a9b-2cddef7affb6",
       "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
       "metricType": "gearing_ratio",
       "frequency": "annual",
@@ -2687,7 +2687,7 @@
       ]
     },
     {
-      "id": "50ed2656-b754-472c-bf4d-7eac43feb82b",
+      "id": "596dd1f7-3cd7-444f-86de-c98c4b42bd89",
       "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
       "metricType": "gross_revenue",
       "frequency": "annual",
@@ -2726,14 +2726,14 @@
     }
   ],
   "riskAssessment": {
-    "id": "71fcd381-f178-47e1-aca7-4d0c3aa0d8cc",
+    "id": "447fb2f2-d7e4-4717-a459-7a84b4d01412",
     "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
     "assessmentDate": "2026-04-26",
     "overallRiskRating": "moderate",
     "overallScore": 3,
     "riskFactors": [
       {
-        "id": "621d8f42-7691-4022-b877-7b8f6617ddc8",
+        "id": "ef2bab95-10cf-40d0-b77a-0fd113e22a13",
         "category": "concentration",
         "severity": "medium",
         "title": "Portfolio Concentration",
@@ -2763,7 +2763,7 @@
         ]
       },
       {
-        "id": "7ab0813f-2977-452e-b015-0f4976da7a29",
+        "id": "4519329c-a6ba-47c0-93ef-e42bd9c09720",
         "category": "interest_rate",
         "severity": "medium",
         "title": "Interest Rate Exposure",
@@ -2793,7 +2793,7 @@
         ]
       },
       {
-        "id": "e41444f7-3a5b-4fa2-a495-96db625db4e9",
+        "id": "9634beaf-53d4-4149-a021-d09502349dc6",
         "category": "transparency",
         "severity": "medium",
         "title": "Disclosure Status",
@@ -2834,7 +2834,7 @@
   },
   "observations": [
     {
-      "id": "c7b5ef54-5e56-4a48-92d8-1de3c46edd8e",
+      "id": "9be2c958-78bd-464f-be23-268ce52ac04f",
       "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
       "observationType": "executive_summary",
       "priority": "info",
@@ -2867,7 +2867,7 @@
       "primaryCitation": "D:1"
     },
     {
-      "id": "a50c2c48-2380-4cb1-9c12-7f3d160c1ef2",
+      "id": "5641965e-4102-429f-aa45-f85e0da05a9c",
       "entityId": "fbb84d5d-2297-5459-b92f-f652e7ffd6ce",
       "observationType": "executive_summary",
       "priority": "info",
