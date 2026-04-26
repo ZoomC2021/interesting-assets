@@ -252,6 +252,7 @@ This will create:
   - `make typecheck-all`
   - `make lint`
   - `make test`
+  - `make audit-citations` (verify direct linkage coverage)
   - `make check-citations`
   - `make verify-citations`
 - If any tests contain hardcoded prefix expectations (example regex like `^[TAC]:...`), update them to align with current supported prefixes and keep assertions meaningful.

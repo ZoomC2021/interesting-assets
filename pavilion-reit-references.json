@@ -2,9 +2,11 @@
   "metadata": {
     "reit": "Pavilion REIT (5212.KL)",
     "document": "Pavilion_REIT_Malaysia_Analysis.md",
-    "totalReferences": 364,
+    "totalReferences": 386,
+    "stage2ReferencesAdded": 22,
     "dateCreated": "2026-04-25",
-    "version": "1.0",
+    "version": "1.1",
+    "lastUpdated": "2026-04-27",
     "dataQuality": {
       "auditDate": "2026-04-25",
       "referencesAudited": 63,
@@ -3039,6 +3041,182 @@
       "citation": "LEED Certification Records - Green Building Index (Post-research verification)",
       "url": "https://www.greenbuildingindex.org",
       "dateAccessed": "2026-04-25",
+      "timeSensitive": false
+    },
+    "P:507": {
+      "fact": "Stage 2 Analysis: 71% of Pavilion KL NLA due for renewal in FY2013",
+      "source": "AR2013",
+      "citation": "Pavilion REIT 2013 Annual Report - Lease Expiry Profile, p.8",
+      "url": "https://www.pavilion-reit.com",
+      "date": "2014-03-31",
+      "timeSensitive": false
+    },
+    "P:508": {
+      "fact": "Stage 2 Analysis: 15% rental reversion achieved in FY2012-2013",
+      "source": "AR2012",
+      "citation": "Pavilion REIT 2012 Annual Report - Rental Reversion Performance, p.21",
+      "url": "https://www.pavilion-reit.com",
+      "date": "2013-03-31",
+      "timeSensitive": false
+    },
+    "P:509": {
+      "fact": "Stage 2 Analysis: 9% rental reversion achieved in FY2014",
+      "source": "AR2014",
+      "citation": "Pavilion REIT 2014 Annual Report - Rental Reversion Performance, p.8",
+      "url": "https://www.pavilion-reit.com",
+      "date": "2015-03-31",
+      "timeSensitive": false
+    },
+    "P:510": {
+      "fact": "Stage 2 Analysis: ~5% rental reversion in FY2015",
+      "source": "AR2015",
+      "citation": "Pavilion REIT 2015 Annual Report - Rental Reversion Performance, p.10",
+      "url": "https://www.pavilion-reit.com",
+      "date": "2016-03-31",
+      "timeSensitive": false
+    },
+    "P:511": {
+      "fact": "Stage 2 Analysis: 4.2% positive rental reversion for 208,439 sq ft in FY2017",
+      "source": "AR2017",
+      "citation": "Pavilion REIT 2017 Annual Report - Lease Renewal Performance, p.25",
+      "url": "https://www.pavilion-reit.com",
+      "date": "2018-03-31",
+      "timeSensitive": false
+    },
+    "P:512": {
+      "fact": "Stage 2 Analysis: 4.4% positive rental reversion for 159,023 sq ft in FY2018 with double-digit growth for relocated/replacement tenants",
+      "source": "AR2018",
+      "citation": "Pavilion REIT 2018 Annual Report - Rental Reversion Analysis, p.25",
+      "url": "https://www.pavilion-reit.com",
+      "date": "2019-03-31",
+      "timeSensitive": false
+    },
+    "P:513": {
+      "fact": "Stage 2 Analysis: Positive rental reversion averaging 4-5% in FY2019",
+      "source": "AR2019",
+      "citation": "Pavilion REIT 2019 Annual Report - Lease Renewal Performance, p.21",
+      "url": "https://www.pavilion-reit.com",
+      "date": "2020-03-31",
+      "timeSensitive": false
+    },
+    "P:514": {
+      "fact": "Stage 2 Analysis: Renewal process challenging in FY2021 due to COVID-19; renewals at similar rental rates",
+      "source": "AR2021",
+      "citation": "Pavilion REIT 2021 Annual Report - Lease Renewal Commentary, p.26",
+      "url": "https://www.pavilion-reit.com",
+      "date": "2022-03-31",
+      "timeSensitive": false
+    },
+    "P:515": {
+      "fact": "Stage 2 Analysis: WALE increased to 1.35 years at FY2022 from 0.98 years in FY2021",
+      "source": "AR2022",
+      "citation": "Pavilion REIT 2022 Annual Report - WALE Metrics, p.10",
+      "url": "https://www.pavilion-reit.com",
+      "date": "2023-03-31",
+      "timeSensitive": false
+    },
+    "P:516": {
+      "fact": "Stage 2 Analysis: Majority of Pavilion REIT tenancies are 3-year terms with option to extend for another 3 years",
+      "source": "AR2018",
+      "citation": "Pavilion REIT 2018 Annual Report - Lease Strategy Framework, p.25",
+      "url": "https://www.pavilion-reit.com",
+      "date": "2019-03-31",
+      "timeSensitive": false
+    },
+    "P:517": {
+      "fact": "Stage 2 Analysis: Anchor and specialty anchor tenants have renewal options up to five 3-year terms",
+      "source": "AR2018",
+      "citation": "Pavilion REIT 2018 Annual Report - Anchor Tenant Lease Structure, p.25",
+      "url": "https://www.pavilion-reit.com",
+      "date": "2019-03-31",
+      "timeSensitive": false
+    },
+    "P:518": {
+      "fact": "Stage 2 Analysis: Pavilion KL occupancy 99.1% in FY2011 and FY2012; 96.5% in FY2018; 90.2% in FY2021 (COVID impact); 96.8% in FY2025",
+      "source": "AR2011-AR2025",
+      "citation": "Pavilion REIT Annual Reports 2011-2025 - Historical Occupancy Data (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false
+    },
+    "P:519": {
+      "fact": "Stage 2 Analysis: Intermark Mall occupancy improved from 83.6% (FY2021) to 95.7% (FY2025)",
+      "source": "AR2021-AR2025",
+      "citation": "Pavilion REIT Annual Reports 2021-2025 - Intermark Occupancy Trend (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false
+    },
+    "P:520": {
+      "fact": "Stage 2 Analysis: DA MEN Mall achieved 100% occupancy under master tenancy in FY2025",
+      "source": "AR2025",
+      "citation": "Pavilion REIT 2025 Annual Report - DA MEN Master Tenancy, p.14",
+      "url": "https://www.pavilion-reit.com",
+      "date": "2026-03-31",
+      "timeSensitive": false
+    },
+    "P:521": {
+      "fact": "Stage 2 Analysis: Lease expiry clustering analysis - FY2013 had 71% of NLA expiring; FY2019 had 30% expiring",
+      "source": "AR2012-AR2019",
+      "citation": "Pavilion REIT Annual Reports 2012-2019 - Lease Expiry Profiles (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false
+    },
+    "P:522": {
+      "fact": "Stage 2 Analysis: WALE was 1.56 years in FY2019, reduced to 0.98 years in FY2021, rebuilt to 1.43 years in FY2024",
+      "source": "AR2019-AR2024",
+      "citation": "Pavilion REIT Annual Reports 2019-2024 - WALE Trend Analysis (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false
+    },
+    "P:523": {
+      "fact": "Stage 2 Analysis: Despite 71-74% NLA lease expiry clustering in FY2012-2013, Pavilion KL maintained 95%+ occupancy demonstrating strong tenant retention",
+      "source": "AR2011-AR2013",
+      "citation": "Pavilion REIT Annual Reports 2011-2013 - Lease Expiry vs Occupancy Outcome (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false
+    },
+    "P:524": {
+      "fact": "Stage 2 Analysis: Rental reversion trend declined from 15% (2012-2013) to single digits (2014-2019), flat during COVID, with 2024 showing improving negotiating position",
+      "source": "AR2012-AR2024",
+      "citation": "Pavilion REIT Annual Reports 2012-2024 - Rental Reversion Trend Analysis (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false
+    },
+    "P:525": {
+      "fact": "Stage 2 Analysis: DA MEN Mall occupancy was 62-73% during FY2021-2024 before achieving 100% under master tenancy",
+      "source": "AR2021-AR2024",
+      "citation": "Pavilion REIT Annual Reports 2021-2024 - DA MEN Occupancy History (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false
+    },
+    "P:526": {
+      "fact": "Stage 2 Analysis: Pavilion Tower occupancy ranged from 72-86% (FY2018-2025), reflecting office market oversupply conditions",
+      "source": "AR2018-AR2025",
+      "citation": "Pavilion REIT Annual Reports 2018-2025 - Pavilion Tower Occupancy Trend (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false
+    },
+    "P:527": {
+      "fact": "Stage 2 Analysis: Elite Pavilion occupancy improved from 83.4% (FY2022) to 97.4% (FY2025)",
+      "source": "AR2022-AR2025",
+      "citation": "Pavilion REIT Annual Reports 2022-2025 - Elite Pavilion Occupancy Trend (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
+      "timeSensitive": false
+    },
+    "P:528": {
+      "fact": "Stage 2 Analysis: 3-year + 3-year option lease structure allows rental rate reset every 3 years, effectively capturing market rate growth",
+      "source": "AR2018-AR2025",
+      "citation": "Pavilion REIT Annual Reports 2018-2025 - Lease Strategy Framework (Stage 2 Analysis)",
+      "url": "https://www.pavilion-reit.com",
+      "dateAccessed": "2026-04-27",
       "timeSensitive": false
     }
   }

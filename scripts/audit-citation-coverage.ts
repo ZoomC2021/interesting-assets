@@ -11,6 +11,22 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { CitationLinker, createCitationLinker } from '../src/adapters/citation-linker';
+import { createAtriumAdapter } from '../src/adapters/atrium-adapter';
+import { createAxisAdapter } from '../src/adapters/axis-adapter';
+import { createSunwayAdapter } from '../src/adapters/sunway-adapter';
+import { createPavilionAdapter } from '../src/adapters/pavilion-adapter';
+import { createIgbAdapter } from '../src/adapters/igb-adapter';
+import { createUoaAdapter } from '../src/adapters/uoa-adapter';
+import { createCMMTAdapter } from '../src/adapters/cmmt-adapter';
+import { createAlSalamAdapter } from '../src/adapters/alsalam-adapter';
+import { createKIPAdapter } from '../src/adapters/kip-adapter';
+import { createParadigmAdapter } from '../src/adapters/paradigm-adapter';
+import { createKlccAdapter } from '../src/adapters/klcc-adapter';
+import { createHektarAdapter } from '../src/adapters/hektar-adapter';
+import { createSentralAdapter } from '../src/adapters/sentral-adapter';
+import { createAmFIRSTAdapter } from '../src/adapters/amfirst-adapter';
+import { createTowerAdapter } from '../src/adapters/tower-adapter';
+import { createYtlAdapter } from '../src/adapters/ytl-adapter';
 
 // ============================================================================
 // Entity Configuration
@@ -24,44 +40,24 @@ interface EntityConfig {
   adapterFactory: (linker: CitationLinker) => any;
 }
 
-// Dynamic imports for adapters
-async function loadAdapters() {
-  const { createAtriumAdapter } = await import('../src/adapters/atrium-adapter');
-  const { createAxisAdapter } = await import('../src/adapters/axis-adapter');
-  const { createSunwayAdapter } = await import('../src/adapters/sunway-adapter');
-  const { createPavilionAdapter } = await import('../src/adapters/pavilion-adapter');
-  const { createIgbAdapter } = await import('../src/adapters/igb-adapter');
-  const { createUoaAdapter } = await import('../src/adapters/uoa-adapter');
-  const { createCMMTAdapter } = await import('../src/adapters/cmmt-adapter');
-  const { createAlSalamAdapter } = await import('../src/adapters/alsalam-adapter');
-  const { createKIPAdapter } = await import('../src/adapters/kip-adapter');
-  const { createParadigmAdapter } = await import('../src/adapters/paradigm-adapter');
-  const { createKlccAdapter } = await import('../src/adapters/klcc-adapter');
-  const { createHektarAdapter } = await import('../src/adapters/hektar-adapter');
-  const { createSentralAdapter } = await import('../src/adapters/sentral-adapter');
-  const { createAmFIRSTAdapter } = await import('../src/adapters/amfirst-adapter');
-  const { createTowerAdapter } = await import('../src/adapters/tower-adapter');
-  const { createYtlAdapter } = await import('../src/adapters/ytl-adapter');
-
-  return [
-    { name: 'Atrium REIT', slug: 'atrium', entityCode: '5130.KL', prefix: 'T', adapterFactory: createAtriumAdapter },
-    { name: 'Axis REIT', slug: 'axis', entityCode: '5106.KL', prefix: 'A', adapterFactory: createAxisAdapter },
-    { name: 'Sunway REIT', slug: 'sunway', entityCode: '5176.KL', prefix: 'S', adapterFactory: createSunwayAdapter },
-    { name: 'Pavilion REIT', slug: 'pavilion', entityCode: '5212.KL', prefix: 'P', adapterFactory: createPavilionAdapter },
-    { name: 'IGB REIT', slug: 'igb', entityCode: '5227.KL', prefix: 'I', adapterFactory: createIgbAdapter },
-    { name: 'UOA REIT', slug: 'uoa', entityCode: '5118.KL', prefix: 'U', adapterFactory: createUoaAdapter },
-    { name: 'CMMT', slug: 'cmmt', entityCode: '5180.KL', prefix: 'C', adapterFactory: createCMMTAdapter },
-    { name: 'Al-Salam REIT', slug: 'alsalam', entityCode: '5119.KL', prefix: 'L', adapterFactory: createAlSalamAdapter },
-    { name: 'KIP REIT', slug: 'kip', entityCode: '5280.KL', prefix: 'K', adapterFactory: createKIPAdapter },
-    { name: 'Paradigm REIT', slug: 'paradigm', entityCode: '5125.KL', prefix: 'R', adapterFactory: createParadigmAdapter },
-    { name: 'KLCC REIT', slug: 'klcc', entityCode: '5235.SS', prefix: 'M', adapterFactory: createKlccAdapter },
-    { name: 'Hektar REIT', slug: 'hektar', entityCode: '5120.KL', prefix: 'H', adapterFactory: createHektarAdapter },
-    { name: 'Sentral REIT', slug: 'sentral', entityCode: '5192.KL', prefix: 'N', adapterFactory: createSentralAdapter },
-    { name: 'AmFIRST REIT', slug: 'amfirst', entityCode: '5120.KL', prefix: 'F', adapterFactory: createAmFIRSTAdapter },
-    { name: 'Tower REIT', slug: 'tower', entityCode: '5119.KL', prefix: 'W', adapterFactory: createTowerAdapter },
-    { name: 'YTL REIT', slug: 'ytl', entityCode: '5109.KL', prefix: 'Y', adapterFactory: createYtlAdapter },
-  ];
-}
+const ENTITIES: EntityConfig[] = [
+  { name: 'Atrium REIT', slug: 'atrium', entityCode: '5130.KL', prefix: 'T', adapterFactory: createAtriumAdapter },
+  { name: 'Axis REIT', slug: 'axis', entityCode: '5106.KL', prefix: 'A', adapterFactory: createAxisAdapter },
+  { name: 'Sunway REIT', slug: 'sunway', entityCode: '5176.KL', prefix: 'S', adapterFactory: createSunwayAdapter },
+  { name: 'Pavilion REIT', slug: 'pavilion', entityCode: '5212.KL', prefix: 'P', adapterFactory: createPavilionAdapter },
+  { name: 'IGB REIT', slug: 'igb', entityCode: '5227.KL', prefix: 'I', adapterFactory: createIgbAdapter },
+  { name: 'UOA REIT', slug: 'uoa', entityCode: '5118.KL', prefix: 'U', adapterFactory: createUoaAdapter },
+  { name: 'CMMT', slug: 'cmmt', entityCode: '5180.KL', prefix: 'C', adapterFactory: createCMMTAdapter },
+  { name: 'Al-Salam REIT', slug: 'alsalam', entityCode: '5119.KL', prefix: 'L', adapterFactory: createAlSalamAdapter },
+  { name: 'KIP REIT', slug: 'kip', entityCode: '5280.KL', prefix: 'K', adapterFactory: createKIPAdapter },
+  { name: 'Paradigm REIT', slug: 'paradigm', entityCode: '5125.KL', prefix: 'R', adapterFactory: createParadigmAdapter },
+  { name: 'KLCC REIT', slug: 'klcc', entityCode: '5235.SS', prefix: 'M', adapterFactory: createKlccAdapter },
+  { name: 'Hektar REIT', slug: 'hektar', entityCode: '5120.KL', prefix: 'H', adapterFactory: createHektarAdapter },
+  { name: 'Sentral REIT', slug: 'sentral', entityCode: '5192.KL', prefix: 'N', adapterFactory: createSentralAdapter },
+  { name: 'AmFIRST REIT', slug: 'amfirst', entityCode: '5120.KL', prefix: 'F', adapterFactory: createAmFIRSTAdapter },
+  { name: 'Tower REIT', slug: 'tower', entityCode: '5119.KL', prefix: 'W', adapterFactory: createTowerAdapter },
+  { name: 'YTL REIT', slug: 'ytl', entityCode: '5109.KL', prefix: 'Y', adapterFactory: createYtlAdapter },
+];
 
 // ============================================================================
 // Linkage Analysis Types
@@ -216,11 +212,10 @@ function analyzeEntityLinkage(
 /**
  * Run full citation coverage audit
  */
-async function runAudit(): Promise<AuditReport> {
-  const entities = await loadAdapters();
+function runAudit(): AuditReport {
   const results: EntityAuditResult[] = [];
 
-  for (const entityConfig of entities) {
+  for (const entityConfig of ENTITIES) {
     const refFilePath = path.join(__dirname, '..', `${entityConfig.slug}-reit-references.json`);
 
     if (!fs.existsSync(refFilePath)) {
@@ -289,8 +284,6 @@ function generateConsoleReport(report: AuditReport): string {
   // Per-entity details
   for (const entity of report.entities) {
     const status = entity.weaklyLinkedCount === 0 ? '✅' : '⚠️ ';
-    const linkageColor = entity.directLinkagePercentage >= 80 ? '' :
-                         entity.directLinkagePercentage >= 50 ? '' : '';
 
     lines.push(`${status} ${entity.entityName} (${entity.entityCode})`);
     lines.push(`   References: ${entity.totalReferences} | Direct: ${entity.directlyLinkedCount} | Orphan-only: ${entity.weaklyLinkedCount}`);
@@ -327,11 +320,11 @@ function generateConsoleReport(report: AuditReport): string {
   if (report.summary.entitiesWithWeakLinks === 0) {
     lines.push('│ ✅ All references have direct linkage. No action required.                   │');
   } else {
-    lines.push('│ ⚠️  Found weakly linked references (orphan-linked only).                      │');
+    lines.push('│ ⚠️  Found weakly linked references (orphan-linked only).                     │');
     lines.push('│                                                                              │');
     lines.push('│ Action items:                                                                │');
     lines.push('│ 1. Review weakly linked references listed above                              │');
-    lines.push('│ 2. Add explicit citation links in adapter builders for these references        │');
+    lines.push('│ 2. Add explicit citation links in adapter builders for these references      │');
     lines.push('│ 3. Run audit again to verify improvement                                     │');
     lines.push('│                                                                              │');
     lines.push('│ To fix: Add sourceDisplayIds to metrics/risk factors/observations            │');
@@ -355,14 +348,14 @@ function generateJsonReport(report: AuditReport): string {
 // CLI Support
 // ============================================================================
 
-async function main() {
+function main() {
   const args = process.argv.slice(2);
   const format = args.includes('--json') ? 'json' : 'console';
   const outputFile = args.find(arg => arg.startsWith('--output='))?.split('=')[1];
 
   console.log('🔍 Running citation coverage audit...\n');
 
-  const report = await runAudit();
+  const report = runAudit();
 
   if (format === 'json') {
     const jsonOutput = generateJsonReport(report);
@@ -390,10 +383,7 @@ async function main() {
 
 // Run if executed directly
 if (require.main === module) {
-  main().catch(error => {
-    console.error('❌ Audit failed:', error);
-    process.exit(1);
-  });
+  main();
 }
 
 // Export for programmatic use
