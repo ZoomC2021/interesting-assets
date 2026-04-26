@@ -46,6 +46,8 @@ const ANALYSIS_FILE_BY_ENTITY_CODE: Record<string, string> = {
   '5120.KL': 'AmFIRST_REIT_Malaysia_Analysis.md',
   'amfirst': 'AmFIRST_REIT_Malaysia_Analysis.md',
   '5120': 'AmFIRST_REIT_Malaysia_Analysis.md',
+  // Tower REIT
+  '5111.KL': 'Tower_REIT_Malaysia_Analysis.md',
 };
 
 export async function loadEntityAnalysisMarkdown(entityCode: string): Promise<string | null> {

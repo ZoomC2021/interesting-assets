@@ -29,7 +29,7 @@ export const DisplayIdRegex = {
 
 export const ReferenceSchema = z.object({
   id: z.string().uuid(),
-  displayId: z.string().regex(/^[TAPSUICHLK]:\d+$/),
+  displayId: z.string().regex(/^([TAPSUICHLKRDY]:\d+|KIP:\d+|SE:\d+|AF:\d+|To:\d+)$/),
   fact: z.string().min(1),
   source: z.string().min(1),
   citation: z.string().min(1),
@@ -162,14 +162,14 @@ export const MetricSchema = z.object({
   }),
   isEstimated: z.boolean().default(false),
   isTimeSensitive: z.boolean().default(false),
-  sourceDisplayIds: z.array(z.string().regex(/^[TAPSUICHLK]:\d+$/))
+  sourceDisplayIds: z.array(z.string().regex(/^([TAPSUICHLKRDY]:\d+|KIP:\d+|SE:\d+|AF:\d+|To:\d+)$/))
 });
 
 export const TimeSeriesPointSchema = z.object({
   date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   value: MetricValueSchema,
   isInterpolated: z.boolean().default(false),
-  sourceDisplayId: z.string().regex(/^[TAPSUICHLK]:\d+$/).optional()
+  sourceDisplayId: z.string().regex(/^([TAPSUICHLKRDY]:\d+|KIP:\d+|SE:\d+|AF:\d+|To:\d+)$/).optional()
 });
 
 export const TimeSeriesSchema = z.object({
@@ -179,7 +179,7 @@ export const TimeSeriesSchema = z.object({
   frequency: z.enum(['daily', 'weekly', 'monthly', 'quarterly', 'annual']),
   unit: z.string(),
   dataPoints: z.array(TimeSeriesPointSchema).min(1),
-  sourceDisplayIds: z.array(z.string().regex(/^[TAPSUICHLK]:\d+$/)),
+  sourceDisplayIds: z.array(z.string().regex(/^([TAPSUICHLKRDY]:\d+|KIP:\d+|SE:\d+|AF:\d+|To:\d+)$/)),
   metadata: z.object({
     startDate: z.string(),
     endDate: z.string(),
@@ -227,7 +227,7 @@ export const RiskFactorSchema = z.object({
   trend: z.enum(['improving', 'stable', 'deteriorating', 'unknown']).optional(),
   monitoringTriggers: z.array(z.string()).optional(),
   relatedMetricTypes: z.array(MetricSchema.shape.metricType).optional(),
-  sourceDisplayIds: z.array(z.string().regex(/^[TAPSUICHLK]:\d+$/))
+  sourceDisplayIds: z.array(z.string().regex(/^([TAPSUICHLKRDY]:\d+|KIP:\d+|SE:\d+|AF:\d+|To:\d+)$/))
 });
 
 export const RiskAssessmentSchema = z.object({
@@ -284,7 +284,7 @@ export const ObservationSchema = z.object({
   })).optional(),
   primaryCitation: z.string().optional(),
   relatedMetricTypes: z.array(MetricSchema.shape.metricType).optional(),
-  sourceDisplayIds: z.array(z.string().regex(/^[TAPSUICHLK]:\d+$/)).min(1)
+  sourceDisplayIds: z.array(z.string().regex(/^([TAPSUICHLKRDY]:\d+|KIP:\d+|SE:\d+|AF:\d+|To:\d+)$/)).min(1)
 });
 
 // ============================================================================

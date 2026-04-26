@@ -96,7 +96,7 @@ export class ParadigmAdapter {
       sector: 'Real Estate Investment Trusts',
       currency: 'MYR',
       isShariahCompliant: false,
-      listingDate: 'TBD',
+      listingDate: '2025-06-10',
       manager: {
         name: 'To be populated',
         ownershipStructure: 'Data pending',

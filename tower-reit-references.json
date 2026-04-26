@@ -1,0 +1,990 @@
+{
+  "metadata": {
+    "reit": "Tower REIT (5111.KL)",
+    "document": "Tower_REIT_Malaysia_Analysis.md",
+    "totalReferences": 114,
+    "dateCreated": "2026-04-26",
+    "version": "1.0",
+    "dataQuality": {
+      "auditDate": "2026-04-26",
+      "referencesAudited": "Initial creation",
+      "confidenceLevel": "Publication-grade",
+      "correctionNote": "Initial version based on FY2024 Annual Report and official disclosures"
+    },
+    "disclaimer": "IMPORTANT LIMITATIONS: (1) Some metrics estimated from external platforms where exact audited figures were not accessible. (2) Market data (share prices, yields) are time-sensitive as of 2026-04-26. (3) Some facts rely on secondary sources. (4) Appropriate rounding used. (5) Disclosure gaps noted for WALE, tenant concentration, and debt maturity profile.",
+    "timeSensitiveNote": "References with 'timeSensitive: true' flag contain market data that changes frequently.",
+    "referencesCompleted": "2026-04-26"
+  },
+  "sources": {
+    "AR2024": {
+      "name": "Tower REIT Annual Report 2024",
+      "date": "2024-10-01",
+      "url": "https://www.tower-reit.com/investor-information/reports",
+      "type": "Annual Report"
+    },
+    "TowerIR": {
+      "name": "Tower REIT Investor Relations",
+      "url": "https://www.tower-reit.com/investor-information",
+      "type": "Company Data"
+    },
+    "TowerAbout": {
+      "name": "Tower REIT About Us",
+      "url": "https://www.tower-reit.com/about-us",
+      "type": "Company Data"
+    },
+    "TowerPortfolio": {
+      "name": "Tower REIT Portfolio",
+      "url": "https://www.tower-reit.com/portfolio",
+      "type": "Company Data"
+    },
+    "TowerManager": {
+      "name": "Tower REIT The Manager",
+      "url": "https://www.tower-reit.com/the-manager",
+      "type": "Company Data"
+    },
+    "Bursa": {
+      "name": "Bursa Malaysia",
+      "url": "https://www.bursamalaysia.com",
+      "type": "Regulatory Filing"
+    },
+    "KLSE": {
+      "name": "KLSE Screener",
+      "date": "2026-04-26",
+      "url": "https://www.klsescreener.com/v2/stocks/5111",
+      "type": "Market Data",
+      "timeSensitive": true
+    },
+    "SimplyWallSt": {
+      "name": "Simply Wall St",
+      "date": "2026-04-26",
+      "url": "https://simplywall.st",
+      "type": "Analysis",
+      "timeSensitive": true
+    },
+    "MarketScreener": {
+      "name": "MarketScreener",
+      "date": "2026-04-26",
+      "url": "https://www.marketscreener.com",
+      "type": "Market Data",
+      "timeSensitive": true
+    },
+    "StockAnalysis": {
+      "name": "Stock Analysis",
+      "date": "2026-04-26",
+      "url": "https://stockanalysis.com",
+      "type": "Market Data",
+      "timeSensitive": true
+    },
+    "GuocoLand": {
+      "name": "GuocoLand (Malaysia) Berhad",
+      "url": "https://guocoland.com.my",
+      "type": "Parent Company"
+    },
+    "HongLeong": {
+      "name": "Hong Leong Group",
+      "url": "https://hongleong.com",
+      "type": "Ultimate Parent"
+    },
+    "SCMalaysia": {
+      "name": "Securities Commission Malaysia",
+      "url": "https://www.sc.com.my",
+      "type": "Regulatory"
+    },
+    "MRMA": {
+      "name": "Malaysian REIT Managers Association",
+      "url": "https://mrma.my",
+      "type": "Industry Association"
+    },
+    "Document": {
+      "name": "Document Metadata",
+      "type": "Internal"
+    }
+  },
+  "references": {
+    "To:1": {
+      "fact": "Stock Code 5111.KL (Bursa Malaysia)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Tower Real Estate Investment Trust",
+      "url": "https://www.klsescreener.com/v2/stocks/5111",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:2": {
+      "fact": "Research date April 2026",
+      "source": "Document",
+      "citation": "Document metadata",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:3": {
+      "fact": "Data coverage FY 2024 (June 30, 2024)",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Financial Year Ended 30 June 2024",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:4": {
+      "fact": "Report based on 2024 Annual Report published October 2024",
+      "source": "TowerIR",
+      "citation": "Tower REIT Investor Relations - Reports section",
+      "url": "https://www.tower-reit.com/investor-information/reports",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:5": {
+      "fact": "Tower Real Estate Investment Trust legal name",
+      "source": "TowerAbout",
+      "citation": "Tower REIT About Us - Corporate Information",
+      "url": "https://www.tower-reit.com/about-us",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:6": {
+      "fact": "Focus on premium Grade A office properties in Kuala Lumpur prime districts",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio Overview",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:7": {
+      "fact": "Financial year end June 30, 2024",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Financial Statements",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:8": {
+      "fact": "Portfolio of 3 commercial office properties",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Listings",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:9": {
+      "fact": "Total appraised portfolio value RM 806 million as at 30 June 2025",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio Information Table",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true
+    },
+    "To:10": {
+      "fact": "Improved occupancy to highest levels in past five years; Menara Guoco achieved ~97%",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Management Discussion and Analysis",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:11": {
+      "fact": "Gearing ratio estimated at ~40.6%",
+      "source": "SimplyWallSt",
+      "citation": "Simply Wall St - Tower REIT Debt Analysis",
+      "url": "https://simplywall.st",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true,
+      "note": "Estimated figure from external platform"
+    },
+    "To:12": {
+      "fact": "50% regulatory gearing limit for Malaysian REITs",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "url": "https://www.sc.com.my",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:13": {
+      "fact": "Interest coverage estimated at ~1.7x",
+      "source": "SimplyWallSt",
+      "citation": "Simply Wall St - Tower REIT Financial Metrics",
+      "url": "https://simplywall.st",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true,
+      "note": "Estimated figure from external platform"
+    },
+    "To:14": {
+      "fact": "FY2024 final distribution of 0.77 sen per unit",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Distribution Statement",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:15": {
+      "fact": "FY2024 total DPU approximately 1.0 sen including interim",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Distributions",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false,
+      "note": "Calculated from final 0.77 sen plus estimated interim"
+    },
+    "To:16": {
+      "fact": "NAV per unit RM 1.16 as at 30 June 2024",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Balance Sheet and Unit Statistics",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false,
+      "note": "Calculated from Total NAV RM 570.08m / 490.875m units"
+    },
+    "To:17": {
+      "fact": "FY2024 gross revenue RM 37.04 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Comprehensive Income",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:18": {
+      "fact": "FY2024 Net Property Income RM 20.08 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Comprehensive Income",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:19": {
+      "fact": "FY2024 total comprehensive income RM 5.73 million vs FY2023 loss RM 17.60 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Comprehensive Income",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:20": {
+      "fact": "Manager is GLM REIT Management Sdn Bhd",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Corporate Information",
+      "url": "https://www.tower-reit.com/the-manager",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:21": {
+      "fact": "Trustee is MTrustee Berhad",
+      "source": "TowerAbout",
+      "citation": "Tower REIT About Us - Trust Structure",
+      "url": "https://www.tower-reit.com/about-us",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:22": {
+      "fact": "Listed on Main Market of Bursa Malaysia Securities Berhad",
+      "source": "TowerIR",
+      "citation": "Tower REIT Investor Information - Listed Issuer Details",
+      "url": "https://www.tower-reit.com/investor-information",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:23": {
+      "fact": "Sector classification - Commercial Office REIT",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Sector Classification",
+      "url": "https://www.klsescreener.com/v2/stocks/5111",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:24": {
+      "fact": "Property focus - Commercial (premium Grade A office buildings)",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Descriptions",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:25": {
+      "fact": "Units in issue 490,875,000",
+      "source": "TowerIR",
+      "citation": "Tower REIT Investor Information - Unit Statistics",
+      "url": "https://www.tower-reit.com/investor-information",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:26": {
+      "fact": "Listing date 12 April 2006",
+      "source": "TowerIR",
+      "citation": "Tower REIT Investor Information - Listing Details",
+      "url": "https://www.tower-reit.com/investor-information",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:27": {
+      "fact": "Total portfolio value RM 806 million",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Valuation Summary",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true
+    },
+    "To:28": {
+      "fact": "3 commercial office buildings in portfolio",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Count",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:29": {
+      "fact": "Total net lettable area 966,613 sq. ft.",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - NLA Summary",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:30": {
+      "fact": "Geographic focus in Kuala Lumpur prime districts",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Location Summary",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:31": {
+      "fact": "GLM REIT Management registration number 659312-H",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Contact Information",
+      "url": "https://www.tower-reit.com/the-manager",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:32": {
+      "fact": "GLM REIT Management is wholly-owned subsidiary of GuocoLand (Malaysia) Berhad",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Ownership Structure",
+      "url": "https://www.tower-reit.com/the-manager",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:33": {
+      "fact": "Ultimate parent is Hong Leong Group",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Group Structure",
+      "url": "https://www.tower-reit.com/the-manager",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:34": {
+      "fact": "Trust Deed dated 17 February 2006 between Manager and Trustee",
+      "source": "TowerAbout",
+      "citation": "Tower REIT About Us - Trust Structure",
+      "url": "https://www.tower-reit.com/about-us",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:35": {
+      "fact": "Mr Tang Hong Cheong is Chairman (Non-Executive/Non-Independent)",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Board of Directors",
+      "url": "https://www.tower-reit.com/the-manager",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:36": {
+      "fact": "Tang Hong Cheong background - 40+ years in finance, treasury, risk; former Guoco Group CEO",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Director Profile",
+      "url": "https://www.tower-reit.com/the-manager",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:37": {
+      "fact": "Mr Cheng Hsing Yao is Non-Executive Director/Non-Independent",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Board of Directors",
+      "url": "https://www.tower-reit.com/the-manager",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:38": {
+      "fact": "Cheng Hsing Yao is Group CEO of GuocoLand Limited; Harvard MDes, Newcastle Architecture",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Director Profile",
+      "url": "https://www.tower-reit.com/the-manager",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:39": {
+      "fact": "Ms Lim Tau Kien is Independent Non-Executive Director",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Board of Directors",
+      "url": "https://www.tower-reit.com/the-manager",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:40": {
+      "fact": "Lim Tau Kien background - former Shell China CFO; ICAEW member",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Director Profile",
+      "url": "https://www.tower-reit.com/the-manager",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:41": {
+      "fact": "YBhg Dato' Tan Ang Meng is Independent Non-Executive Director",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Board of Directors",
+      "url": "https://www.tower-reit.com/the-manager",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:42": {
+      "fact": "Tan Ang Meng background - former CEO of Fraser & Neave Holdings Bhd",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Director Profile",
+      "url": "https://www.tower-reit.com/the-manager",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:43": {
+      "fact": "Menara Guoco (Guoco Tower) is portfolio property",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Listing",
+      "url": "https://www.tower-reit.com/portfolio/guoco-tower",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:44": {
+      "fact": "Menara Guoco located at Damansara City, Bukit Damansara",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Guoco Tower Details",
+      "url": "https://www.tower-reit.com/portfolio/guoco-tower",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:45": {
+      "fact": "Menara Guoco NLA 232,133 sq. ft.",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property NLA Table",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:46": {
+      "fact": "Menara Guoco value RM 251 million",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Valuation Table",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true
+    },
+    "To:47": {
+      "fact": "Menara HLX is portfolio property",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Listing",
+      "url": "https://www.tower-reit.com/portfolio/menara-hlx",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:48": {
+      "fact": "Menara HLX located in Kuala Lumpur City Centre (Golden Triangle)",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Menara HLX Details",
+      "url": "https://www.tower-reit.com/portfolio/menara-hlx",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:49": {
+      "fact": "Menara HLX NLA 383,145 sq. ft.",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property NLA Table",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:50": {
+      "fact": "Menara HLX value RM 328 million",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Valuation Table",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true
+    },
+    "To:51": {
+      "fact": "Plaza Zurich is portfolio property",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Listing",
+      "url": "https://www.tower-reit.com/portfolio/plaza-zurich",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:52": {
+      "fact": "Plaza Zurich located in Damansara Heights, Bukit Damansara",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Plaza Zurich Details",
+      "url": "https://www.tower-reit.com/portfolio/plaza-zurich",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:53": {
+      "fact": "Plaza Zurich NLA 351,335 sq. ft.",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property NLA Table",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:54": {
+      "fact": "Plaza Zurich value RM 227 million",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Valuation Table",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true
+    },
+    "To:55": {
+      "fact": "Improved occupancy rates in FY2024 to highest levels in past five years",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - CEO/Manager Report",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:56": {
+      "fact": "Menara Guoco occupancy ~97% in FY2024",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Property Performance Review",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:57": {
+      "fact": "Menara HLX occupancy improved with refurbishment benefits",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Asset Enhancement Discussion",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:58": {
+      "fact": "Plaza Zurich stable occupancy with proximity to Semantan MRT",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Plaza Zurich Location Advantage",
+      "url": "https://www.tower-reit.com/portfolio/plaza-zurich",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:59": {
+      "fact": "Exact quarterly occupancy breakdowns not explicitly disclosed",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Disclosure Gap Noted",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false,
+      "note": "Data limitation - aggregate trends only"
+    },
+    "To:60": {
+      "fact": "Menara HLX location in Kuala Lumpur's Golden Triangle",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Menara HLX Location",
+      "url": "https://www.tower-reit.com/portfolio/menara-hlx",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:61": {
+      "fact": "Menara HLX is 32-storey office tower",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Menara HLX Building Specifications",
+      "url": "https://www.tower-reit.com/portfolio/menara-hlx",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:62": {
+      "fact": "Menara HLX refurbishment includes upgraded lifts, lobbies, chillers, cashless parking",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Menara HLX Enhancements",
+      "url": "https://www.tower-reit.com/portfolio/menara-hlx",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:63": {
+      "fact": "Menara HLX refurbishment strategy to remain competitive in office market",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Asset Enhancement Strategy",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:64": {
+      "fact": "Plaza Zurich located in Damansara Heights, near Semantan MRT station",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Plaza Zurich Location",
+      "url": "https://www.tower-reit.com/portfolio/plaza-zurich",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:65": {
+      "fact": "Plaza Zurich comprises two office blocks with retail podium",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Plaza Zurich Building Specifications",
+      "url": "https://www.tower-reit.com/portfolio/plaza-zurich",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:66": {
+      "fact": "Plaza Zurich refurbishment completed in 2020",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Plaza Zurich Enhancement History",
+      "url": "https://www.tower-reit.com/portfolio/plaza-zurich",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:67": {
+      "fact": "Semantan MRT proximity provides tenant accessibility advantage",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Plaza Zurich Transport Links",
+      "url": "https://www.tower-reit.com/portfolio/plaza-zurich",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:68": {
+      "fact": "Menara Guoco located in Damansara City, Bukit Damansara",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Guoco Tower Location",
+      "url": "https://www.tower-reit.com/portfolio/guoco-tower",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:69": {
+      "fact": "Menara Guoco is 19-storey office building; serves as Manager headquarters",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Guoco Tower Building Specifications",
+      "url": "https://www.tower-reit.com/portfolio/guoco-tower",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:70": {
+      "fact": "Menara Guoco achieved ~97% occupancy in FY2024",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Property Performance Metrics",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:71": {
+      "fact": "Menara Guoco is flagship asset within integrated Damansara City development",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Guoco Tower Development Context",
+      "url": "https://www.tower-reit.com/portfolio/guoco-tower",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:72": {
+      "fact": "Tenant concentration percentages not disclosed in public sources",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Disclosure Gap Noted",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false,
+      "note": "Data limitation"
+    },
+    "To:73": {
+      "fact": "Portfolio accommodates MNCs, household corporate names, start-ups",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Tenant Profile Description",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:74": {
+      "fact": "WALE and lease expiration schedule not explicitly disclosed",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Disclosure Gap Noted",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false,
+      "note": "Data limitation"
+    },
+    "To:75": {
+      "fact": "Portfolio appraised value RM 806 million",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Total Valuation",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true
+    },
+    "To:76": {
+      "fact": "Average value per sq. ft. approximately RM 834",
+      "source": "Calculated",
+      "citation": "Calculated from RM 806m / 966,613 sq. ft.",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:77": {
+      "fact": "Menara HLX highest value at RM 328m reflecting KLCC location premium",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Valuation Comparison",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true
+    },
+    "To:78": {
+      "fact": "Debt-to-equity ratio estimated at ~40.6%",
+      "source": "SimplyWallSt",
+      "citation": "Simply Wall St - Tower REIT Debt-to-Equity Ratio",
+      "url": "https://simplywall.st",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true,
+      "note": "Estimated figure from external platform"
+    },
+    "To:79": {
+      "fact": "Well below 50% regulatory gearing limit",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines - Gearing Limits",
+      "url": "https://www.sc.com.my",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:80": {
+      "fact": "Gearing estimate derived from external financial platform analysis",
+      "source": "SimplyWallSt",
+      "citation": "Simply Wall St - Tower REIT Financial Analysis",
+      "url": "https://simplywall.st",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true,
+      "note": "Source methodology disclosure"
+    },
+    "To:81": {
+      "fact": "Debt maturity profile, fixed/floating split, and WACD not detailed publicly",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Disclosure Gap Noted",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false,
+      "note": "Data limitation"
+    },
+    "To:82": {
+      "fact": "Interest coverage estimated at ~1.7x",
+      "source": "SimplyWallSt",
+      "citation": "Simply Wall St - Tower REIT Interest Coverage Ratio",
+      "url": "https://simplywall.st",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true,
+      "note": "Estimated figure from external platform"
+    },
+    "To:83": {
+      "fact": "Refinancing schedule and rate sensitivity not disclosed in public sources",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Disclosure Gap Noted",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false,
+      "note": "Data limitation"
+    },
+    "To:84": {
+      "fact": "FY2024 final distribution 0.77 sen per unit",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Distribution Details",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:85": {
+      "fact": "Final distribution paid August 2024 with ex-date 19 August 2024",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Distribution Timeline",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:86": {
+      "fact": "FY2023 comparison - loss of RM 17.6m",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Comparative Financial Results",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:87": {
+      "fact": "Semi-annual distribution frequency",
+      "source": "TowerIR",
+      "citation": "Tower REIT Investor Information - Distribution Policy",
+      "url": "https://www.tower-reit.com/investor-information",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:88": {
+      "fact": "Policy objective - regular and stable distributions to Unitholders",
+      "source": "TowerAbout",
+      "citation": "Tower REIT About Us - Investment Objectives",
+      "url": "https://www.tower-reit.com/about-us",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:89": {
+      "fact": "100% of taxable income distributed per REIT regulatory requirement",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines - Distribution Requirements",
+      "url": "https://www.sc.com.my",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:90": {
+      "fact": "Specific payout ratio and distribution coverage metrics not explicitly disclosed",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Disclosure Gap Noted",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false,
+      "note": "Data limitation"
+    },
+    "To:91": {
+      "fact": "52-week range 0.26 - 0.33",
+      "source": "TowerIR",
+      "citation": "Tower REIT Investor Information - Price Range",
+      "url": "https://www.tower-reit.com/investor-information",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true
+    },
+    "To:92": {
+      "fact": "FY2024 gross revenue RM 37.04 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Comprehensive Income",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:93": {
+      "fact": "FY2023 gross revenue RM 33.87 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Comparative Financial Results",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:94": {
+      "fact": "FY2024 Net Property Income RM 20.08 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Comprehensive Income",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:95": {
+      "fact": "FY2023 Net Property Income RM 16.62 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Comparative Financial Results",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:96": {
+      "fact": "FY2024 Net Trust Income RM 3.20 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Comprehensive Income",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:97": {
+      "fact": "FY2023 Net Trust Income RM 1.78 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Comparative Financial Results",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:98": {
+      "fact": "FY2024 Income After Tax RM 5.73 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Comprehensive Income",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:99": {
+      "fact": "FY2023 loss of RM 17.60 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Comparative Financial Results",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:100": {
+      "fact": "FY2024 Total Comprehensive Income RM 5.73 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Comprehensive Income",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:101": {
+      "fact": "FY2023 Total Comprehensive Income loss of RM 17.60 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Comparative Financial Results",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:102": {
+      "fact": "Higher occupancy across all three properties drove revenue growth",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Management Discussion and Analysis",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:103": {
+      "fact": "Effective cost management supported NPI margin improvement",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Financial Performance Review",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:104": {
+      "fact": "FY2023 loss included negative fair value changes on investment properties",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Notes to Financial Statements",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:105": {
+      "fact": "Total Net Asset Value RM 570.08 million as at 30 June 2024",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Financial Position",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:106": {
+      "fact": "NAV per unit RM 1.16 as at 30 June 2024",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Unit Statistics",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:107": {
+      "fact": "Units outstanding 490,875,000",
+      "source": "TowerIR",
+      "citation": "Tower REIT Investor Information - Unit Capital",
+      "url": "https://www.tower-reit.com/investor-information",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:108": {
+      "fact": "NAV per unit RM 1.16",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Financial Highlights",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:109": {
+      "fact": "52-week trading range 0.26 - 0.33",
+      "source": "TowerIR",
+      "citation": "Tower REIT Investor Information - Trading Statistics",
+      "url": "https://www.tower-reit.com/investor-information",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true
+    },
+    "To:110": {
+      "fact": "Interest coverage ~1.7x provides limited buffer for rate increases",
+      "source": "SimplyWallSt",
+      "citation": "Simply Wall St - Tower REIT Interest Rate Risk Assessment",
+      "url": "https://simplywall.st",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true,
+      "note": "Analytical inference based on estimated coverage"
+    },
+    "To:111": {
+      "fact": "KL office market faces oversupply headwinds and evolving workplace trends",
+      "source": "MarketScreener",
+      "citation": "MarketScreener - Malaysia Office Market Analysis",
+      "url": "https://www.marketscreener.com",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:112": {
+      "fact": "3-property portfolio with geographic concentration in KL",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Geographic Distribution",
+      "url": "https://www.tower-reit.com/portfolio",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false
+    },
+    "To:113": {
+      "fact": "Debt maturity profile not publicly disclosed",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Disclosure Gap Noted",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false,
+      "note": "Data limitation"
+    },
+    "To:114": {
+      "fact": "Top-tenant exposure not disclosed",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Disclosure Gap Noted",
+      "accessDate": "2026-04-26",
+      "timeSensitive": false,
+      "note": "Data limitation"
+    }
+  }
+}

@@ -23,6 +23,7 @@ import { createKlccAdapter } from '../src/adapters/klcc-adapter';
 import { createHektarAdapter } from '../src/adapters/hektar-adapter';
 import { createSentralAdapter } from '../src/adapters/sentral-adapter';
 import { createAmFIRSTAdapter } from '../src/adapters/amfirst-adapter';
+import { createTowerAdapter } from '../src/adapters/tower-adapter';
 
 /**
  * Write output to both test/samples and frontend/public/data directories
@@ -373,6 +374,31 @@ function generateAmFIRSTSample(): void {
   console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
 }
 
+function generateTowerSample(): void {
+  console.log('Generating Tower REIT sample...');
+
+  const linker = createCitationLinker();
+
+  // Load references
+  const towerRefs = JSON.parse(fs.readFileSync(
+    path.join(__dirname, '..', 'tower-reit-references.json'), 'utf-8'
+  ));
+
+  // Process through adapter
+  const adapter = createTowerAdapter(linker);
+  adapter.processReferences(towerRefs);
+  const output = adapter.generateOutput();
+
+  // Write output files
+  writeOutputFiles('tower', output);
+
+  console.log(`   📊 ${output.references.length} references`);
+  console.log(`   📊 ${output.metrics.length} metrics`);
+  console.log(`   📊 ${output.timeSeries.length} time series`);
+  console.log(`   📊 ${output.observations.length} observations`);
+  console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
+}
+
 // Run generation
 generateAtriumSample();
 generateAxisSample();
@@ -388,4 +414,5 @@ generateKlccSample();
 generateHektarSample();
 generateSentralSample();
 generateAmFIRSTSample();
+generateTowerSample();
 console.log('\n✅ Sample generation complete');

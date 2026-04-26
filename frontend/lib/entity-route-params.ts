@@ -21,6 +21,7 @@ export const ENTITY_STATIC_ROUTE_CODES = [
   '5338.KL',
   '5123.KL',
   '5120.KL',
+  '5111.KL',
 ] as const;
 
 export const DEFAULT_COMPARE_ENTITY_CODES = [

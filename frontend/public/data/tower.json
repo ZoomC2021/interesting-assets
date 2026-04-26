@@ -1,0 +1,2026 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-04-26T15:21:12.195Z",
+  "entity": {
+    "id": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e",
+    "code": "5111.KL",
+    "name": "Tower Real Estate Investment Trust",
+    "exchange": "Bursa Malaysia",
+    "sector": "Commercial",
+    "currency": "MYR",
+    "isShariahCompliant": false,
+    "listingDate": "2006-04-12",
+    "manager": {
+      "name": "GLM REIT Management Sdn Bhd",
+      "ownershipStructure": "Wholly-owned subsidiary of GuocoLand (Malaysia) Berhad",
+      "controllingShareholder": "Hong Leong Group (ultimate parent)"
+    },
+    "trustee": "MTrustee Berhad",
+    "fiscalYearEnd": {
+      "month": 6,
+      "day": 30
+    },
+    "references": [
+      "4b5dcde7-4f02-5d68-adf3-94a0c1821c7b",
+      "964ebd57-af3f-58c0-85ce-fe6288f7a847",
+      "ba111528-db6d-5a9d-b03f-f2133023b94f",
+      "a53501d0-2b1f-5732-a69b-9543a958d2ec",
+      "7ebeb538-969a-5832-8b36-6522fe57b70f",
+      "0bd7345e-04af-522a-af99-2645f529840d",
+      "b4f6146b-80c7-5d86-8ee1-d627769a82f1",
+      "60ce75d2-3be9-51af-9a50-404146684662",
+      "3ab4ad39-97df-50c8-80b8-c337451bdd3b"
+    ]
+  },
+  "references": [
+    {
+      "id": "4b5dcde7-4f02-5d68-adf3-94a0c1821c7b",
+      "displayId": "To:1",
+      "fact": "Stock Code 5111.KL (Bursa Malaysia)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Tower Real Estate Investment Trust",
+      "url": "https://www.klsescreener.com/v2/stocks/5111",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "b61873eb-80c6-5547-900e-ca04264a7f69",
+      "displayId": "To:2",
+      "fact": "Research date April 2026",
+      "source": "Document",
+      "citation": "Document metadata",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "a233cc77-8ba3-59f1-aaca-c6d5ba96b124",
+      "displayId": "To:3",
+      "fact": "Data coverage FY 2024 (June 30, 2024)",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Financial Year Ended 30 June 2024",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "34f10491-cf8a-5b57-874a-56f34874d953",
+      "displayId": "To:4",
+      "fact": "Report based on 2024 Annual Report published October 2024",
+      "source": "TowerIR",
+      "citation": "Tower REIT Investor Relations - Reports section",
+      "url": "https://www.tower-reit.com/investor-information/reports",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "964ebd57-af3f-58c0-85ce-fe6288f7a847",
+      "displayId": "To:5",
+      "fact": "Tower Real Estate Investment Trust legal name",
+      "source": "TowerAbout",
+      "citation": "Tower REIT About Us - Corporate Information",
+      "url": "https://www.tower-reit.com/about-us",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "bf7deb5c-e01b-552b-a8bf-56ede5d15180",
+      "displayId": "To:6",
+      "fact": "Focus on premium Grade A office properties in Kuala Lumpur prime districts",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio Overview",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "28d08da2-3e4e-585c-b604-2d6065a0a5c8",
+      "displayId": "To:7",
+      "fact": "Financial year end June 30, 2024",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Financial Statements",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "4c4afa97-7fb6-5c37-9d6a-1e196ac8a47e",
+      "displayId": "To:8",
+      "fact": "Portfolio of 3 commercial office properties",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Listings",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "1db81a83-e1e8-52f9-ba38-ee000660d1de",
+      "displayId": "To:9",
+      "fact": "Total appraised portfolio value RM 806 million as at 30 June 2025",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio Information Table",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "b8f28661-296d-5958-ac48-8deccf247cbc",
+      "displayId": "To:10",
+      "fact": "Improved occupancy to highest levels in past five years; Menara Guoco achieved ~97%",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Management Discussion and Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "2938ab44-ac62-5360-a7ac-0f58a10eb928",
+      "displayId": "To:11",
+      "fact": "Gearing ratio estimated at ~40.6%",
+      "source": "SimplyWallSt",
+      "citation": "Simply Wall St - Tower REIT Debt Analysis",
+      "url": "https://simplywall.st",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "9f04f225-2665-58ca-bf67-43b7ca6f2889",
+      "displayId": "To:12",
+      "fact": "50% regulatory gearing limit for Malaysian REITs",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "url": "https://www.sc.com.my",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "645534db-b059-5b2a-b7a1-e4baad417a0b",
+      "displayId": "To:13",
+      "fact": "Interest coverage estimated at ~1.7x",
+      "source": "SimplyWallSt",
+      "citation": "Simply Wall St - Tower REIT Financial Metrics",
+      "url": "https://simplywall.st",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "00cac51d-3126-51d0-bc8b-5a5ae5c64cc1",
+      "displayId": "To:14",
+      "fact": "FY2024 final distribution of 0.77 sen per unit",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Distribution Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "a252c9b9-70c6-50c6-8cd3-22eae7438925",
+      "displayId": "To:15",
+      "fact": "FY2024 total DPU approximately 1.0 sen including interim",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Distributions",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "e8b65975-984c-5db5-9a61-dd5720364719",
+      "displayId": "To:16",
+      "fact": "NAV per unit RM 1.16 as at 30 June 2024",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Balance Sheet and Unit Statistics",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "0002c9cb-45bb-5ae3-a21f-7469c36abe34",
+      "displayId": "To:17",
+      "fact": "FY2024 gross revenue RM 37.04 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Comprehensive Income",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "e027e767-5efc-5efd-aa81-64910890042a",
+      "displayId": "To:18",
+      "fact": "FY2024 Net Property Income RM 20.08 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Comprehensive Income",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "96fee51a-38e6-50c6-942d-eda68ca769fe",
+      "displayId": "To:19",
+      "fact": "FY2024 total comprehensive income RM 5.73 million vs FY2023 loss RM 17.60 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Comprehensive Income",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "ba111528-db6d-5a9d-b03f-f2133023b94f",
+      "displayId": "To:20",
+      "fact": "Manager is GLM REIT Management Sdn Bhd",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Corporate Information",
+      "url": "https://www.tower-reit.com/the-manager",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "a53501d0-2b1f-5732-a69b-9543a958d2ec",
+      "displayId": "To:21",
+      "fact": "Trustee is MTrustee Berhad",
+      "source": "TowerAbout",
+      "citation": "Tower REIT About Us - Trust Structure",
+      "url": "https://www.tower-reit.com/about-us",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "7ebeb538-969a-5832-8b36-6522fe57b70f",
+      "displayId": "To:22",
+      "fact": "Listed on Main Market of Bursa Malaysia Securities Berhad",
+      "source": "TowerIR",
+      "citation": "Tower REIT Investor Information - Listed Issuer Details",
+      "url": "https://www.tower-reit.com/investor-information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "0bd7345e-04af-522a-af99-2645f529840d",
+      "displayId": "To:23",
+      "fact": "Sector classification - Commercial Office REIT",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Sector Classification",
+      "url": "https://www.klsescreener.com/v2/stocks/5111",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "fda1aba4-ff33-59fb-89a3-5daa26957a5f",
+      "displayId": "To:24",
+      "fact": "Property focus - Commercial (premium Grade A office buildings)",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Descriptions",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "fec0f802-55ab-5d6c-9709-45646ed537b3",
+      "displayId": "To:25",
+      "fact": "Units in issue 490,875,000",
+      "source": "TowerIR",
+      "citation": "Tower REIT Investor Information - Unit Statistics",
+      "url": "https://www.tower-reit.com/investor-information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "b4f6146b-80c7-5d86-8ee1-d627769a82f1",
+      "displayId": "To:26",
+      "fact": "Listing date 12 April 2006",
+      "source": "TowerIR",
+      "citation": "Tower REIT Investor Information - Listing Details",
+      "url": "https://www.tower-reit.com/investor-information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "f9c4d6d0-3693-57b4-9dd4-236724c4af34",
+      "displayId": "To:27",
+      "fact": "Total portfolio value RM 806 million",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Valuation Summary",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "9eb6a7c1-ce70-55db-8caa-050b480f85fa",
+      "displayId": "To:28",
+      "fact": "3 commercial office buildings in portfolio",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Count",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "c1e9a5bc-b77f-5250-b6db-6a27e2ab6bed",
+      "displayId": "To:29",
+      "fact": "Total net lettable area 966,613 sq. ft.",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - NLA Summary",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "924a001d-36e2-504b-899a-1465f2ba55c3",
+      "displayId": "To:30",
+      "fact": "Geographic focus in Kuala Lumpur prime districts",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Location Summary",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "fafb6532-ee4d-5452-9b41-180cf840955c",
+      "displayId": "To:31",
+      "fact": "GLM REIT Management registration number 659312-H",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Contact Information",
+      "url": "https://www.tower-reit.com/the-manager",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "60ce75d2-3be9-51af-9a50-404146684662",
+      "displayId": "To:32",
+      "fact": "GLM REIT Management is wholly-owned subsidiary of GuocoLand (Malaysia) Berhad",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Ownership Structure",
+      "url": "https://www.tower-reit.com/the-manager",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "3ab4ad39-97df-50c8-80b8-c337451bdd3b",
+      "displayId": "To:33",
+      "fact": "Ultimate parent is Hong Leong Group",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Group Structure",
+      "url": "https://www.tower-reit.com/the-manager",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "62cfd876-1e5e-5048-949c-a6d4c1fed0eb",
+      "displayId": "To:34",
+      "fact": "Trust Deed dated 17 February 2006 between Manager and Trustee",
+      "source": "TowerAbout",
+      "citation": "Tower REIT About Us - Trust Structure",
+      "url": "https://www.tower-reit.com/about-us",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "1e7430b4-2c45-50ae-8df9-3641f5e781eb",
+      "displayId": "To:35",
+      "fact": "Mr Tang Hong Cheong is Chairman (Non-Executive/Non-Independent)",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Board of Directors",
+      "url": "https://www.tower-reit.com/the-manager",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "a4f81838-8c37-5f71-af73-96a56af38116",
+      "displayId": "To:36",
+      "fact": "Tang Hong Cheong background - 40+ years in finance, treasury, risk; former Guoco Group CEO",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Director Profile",
+      "url": "https://www.tower-reit.com/the-manager",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "4ca7e915-de50-588e-b006-e31c787e7246",
+      "displayId": "To:37",
+      "fact": "Mr Cheng Hsing Yao is Non-Executive Director/Non-Independent",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Board of Directors",
+      "url": "https://www.tower-reit.com/the-manager",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "ec301818-3d36-52cd-9657-d5b6f719fbfd",
+      "displayId": "To:38",
+      "fact": "Cheng Hsing Yao is Group CEO of GuocoLand Limited; Harvard MDes, Newcastle Architecture",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Director Profile",
+      "url": "https://www.tower-reit.com/the-manager",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "1d2a14db-9ada-532d-8f3f-3c4ec2b723f3",
+      "displayId": "To:39",
+      "fact": "Ms Lim Tau Kien is Independent Non-Executive Director",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Board of Directors",
+      "url": "https://www.tower-reit.com/the-manager",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "4df93d64-a2b1-5aa9-9bbb-b49b4f3ce014",
+      "displayId": "To:40",
+      "fact": "Lim Tau Kien background - former Shell China CFO; ICAEW member",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Director Profile",
+      "url": "https://www.tower-reit.com/the-manager",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "5721afbc-621f-5303-841b-a30038696cf3",
+      "displayId": "To:41",
+      "fact": "YBhg Dato' Tan Ang Meng is Independent Non-Executive Director",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Board of Directors",
+      "url": "https://www.tower-reit.com/the-manager",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "5bcf3828-fdf7-58fd-a954-efc3f8cd8151",
+      "displayId": "To:42",
+      "fact": "Tan Ang Meng background - former CEO of Fraser & Neave Holdings Bhd",
+      "source": "TowerManager",
+      "citation": "Tower REIT The Manager - Director Profile",
+      "url": "https://www.tower-reit.com/the-manager",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "2c2e09fc-19e4-5e95-82a5-2dd99b7d6e6f",
+      "displayId": "To:43",
+      "fact": "Menara Guoco (Guoco Tower) is portfolio property",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Listing",
+      "url": "https://www.tower-reit.com/portfolio/guoco-tower",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "ec6e8edb-a3cf-56de-b1ff-514b702df444",
+      "displayId": "To:44",
+      "fact": "Menara Guoco located at Damansara City, Bukit Damansara",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Guoco Tower Details",
+      "url": "https://www.tower-reit.com/portfolio/guoco-tower",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "622dab54-cf0b-5f22-b82c-54635d5a197b",
+      "displayId": "To:45",
+      "fact": "Menara Guoco NLA 232,133 sq. ft.",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property NLA Table",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "e113502f-f494-5493-adc6-59ad984ba079",
+      "displayId": "To:46",
+      "fact": "Menara Guoco value RM 251 million",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Valuation Table",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "92dd5f61-7172-5496-964f-a321b36a3782",
+      "displayId": "To:47",
+      "fact": "Menara HLX is portfolio property",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Listing",
+      "url": "https://www.tower-reit.com/portfolio/menara-hlx",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "dcdfbab3-f25a-57a1-a8b8-f0707494f2ea",
+      "displayId": "To:48",
+      "fact": "Menara HLX located in Kuala Lumpur City Centre (Golden Triangle)",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Menara HLX Details",
+      "url": "https://www.tower-reit.com/portfolio/menara-hlx",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "5692407a-e4c5-58ba-b765-c3a0e1261895",
+      "displayId": "To:49",
+      "fact": "Menara HLX NLA 383,145 sq. ft.",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property NLA Table",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "907e40ac-6929-5f5d-bb7c-c7c44bcacf21",
+      "displayId": "To:50",
+      "fact": "Menara HLX value RM 328 million",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Valuation Table",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "6846fef5-63b3-56d3-a44e-b313290284e1",
+      "displayId": "To:51",
+      "fact": "Plaza Zurich is portfolio property",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Listing",
+      "url": "https://www.tower-reit.com/portfolio/plaza-zurich",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "269cf501-8464-5a39-8ed4-d482109a3c38",
+      "displayId": "To:52",
+      "fact": "Plaza Zurich located in Damansara Heights, Bukit Damansara",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Plaza Zurich Details",
+      "url": "https://www.tower-reit.com/portfolio/plaza-zurich",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "1d6d52c3-0837-543c-9b16-6931a03ccf35",
+      "displayId": "To:53",
+      "fact": "Plaza Zurich NLA 351,335 sq. ft.",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property NLA Table",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "c47e18ce-b9d7-5a00-9a9e-a3da2c25f3a1",
+      "displayId": "To:54",
+      "fact": "Plaza Zurich value RM 227 million",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Valuation Table",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "297bb82b-e7ce-5fc0-b33a-27ff0691516e",
+      "displayId": "To:55",
+      "fact": "Improved occupancy rates in FY2024 to highest levels in past five years",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - CEO/Manager Report",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "a5a19d97-52ed-50df-8e35-5103804cd7dd",
+      "displayId": "To:56",
+      "fact": "Menara Guoco occupancy ~97% in FY2024",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Property Performance Review",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "2fa4bef2-2535-501f-9bc2-24a9d96a73ed",
+      "displayId": "To:57",
+      "fact": "Menara HLX occupancy improved with refurbishment benefits",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Asset Enhancement Discussion",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "ab021246-f85d-596a-8d54-c3b5267442cc",
+      "displayId": "To:58",
+      "fact": "Plaza Zurich stable occupancy with proximity to Semantan MRT",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Plaza Zurich Location Advantage",
+      "url": "https://www.tower-reit.com/portfolio/plaza-zurich",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "c96db9cf-31ce-5989-b5b5-fd32a6784b0b",
+      "displayId": "To:59",
+      "fact": "Exact quarterly occupancy breakdowns not explicitly disclosed",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Disclosure Gap Noted",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "94b59f41-ed46-50fa-8059-9127c90e82f0",
+      "displayId": "To:60",
+      "fact": "Menara HLX location in Kuala Lumpur's Golden Triangle",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Menara HLX Location",
+      "url": "https://www.tower-reit.com/portfolio/menara-hlx",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "2c876217-3c0e-50d3-8842-ad14ba0d8185",
+      "displayId": "To:61",
+      "fact": "Menara HLX is 32-storey office tower",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Menara HLX Building Specifications",
+      "url": "https://www.tower-reit.com/portfolio/menara-hlx",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "4b9f5d98-4953-5918-bc88-f400ac2949b1",
+      "displayId": "To:62",
+      "fact": "Menara HLX refurbishment includes upgraded lifts, lobbies, chillers, cashless parking",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Menara HLX Enhancements",
+      "url": "https://www.tower-reit.com/portfolio/menara-hlx",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "b4b974a2-3887-5f5f-921c-fa351a93b6f7",
+      "displayId": "To:63",
+      "fact": "Menara HLX refurbishment strategy to remain competitive in office market",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Asset Enhancement Strategy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "0fa9b7d4-17b2-5edf-a830-2d6cb5db7634",
+      "displayId": "To:64",
+      "fact": "Plaza Zurich located in Damansara Heights, near Semantan MRT station",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Plaza Zurich Location",
+      "url": "https://www.tower-reit.com/portfolio/plaza-zurich",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "82ab173c-0131-571a-bf91-96e8b4f5df35",
+      "displayId": "To:65",
+      "fact": "Plaza Zurich comprises two office blocks with retail podium",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Plaza Zurich Building Specifications",
+      "url": "https://www.tower-reit.com/portfolio/plaza-zurich",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "cf102aae-a54b-549f-b5e3-9a3dc4ef5d01",
+      "displayId": "To:66",
+      "fact": "Plaza Zurich refurbishment completed in 2020",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Plaza Zurich Enhancement History",
+      "url": "https://www.tower-reit.com/portfolio/plaza-zurich",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "0f2f33c0-4aa2-5f5a-bb5d-ff29ace3b8b6",
+      "displayId": "To:67",
+      "fact": "Semantan MRT proximity provides tenant accessibility advantage",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Plaza Zurich Transport Links",
+      "url": "https://www.tower-reit.com/portfolio/plaza-zurich",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "062011db-20d7-505d-bac8-495a91692f78",
+      "displayId": "To:68",
+      "fact": "Menara Guoco located in Damansara City, Bukit Damansara",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Guoco Tower Location",
+      "url": "https://www.tower-reit.com/portfolio/guoco-tower",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "8952d679-8628-53cd-8d44-dad999e132b6",
+      "displayId": "To:69",
+      "fact": "Menara Guoco is 19-storey office building; serves as Manager headquarters",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Guoco Tower Building Specifications",
+      "url": "https://www.tower-reit.com/portfolio/guoco-tower",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "d231cbb2-ba54-5f36-8007-4e88be18f97c",
+      "displayId": "To:70",
+      "fact": "Menara Guoco achieved ~97% occupancy in FY2024",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Property Performance Metrics",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "d01c1f69-02d2-532d-9e42-72f955099630",
+      "displayId": "To:71",
+      "fact": "Menara Guoco is flagship asset within integrated Damansara City development",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Guoco Tower Development Context",
+      "url": "https://www.tower-reit.com/portfolio/guoco-tower",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "0742fcc2-05f0-5367-9eb5-88fdee2ef9b2",
+      "displayId": "To:72",
+      "fact": "Tenant concentration percentages not disclosed in public sources",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Disclosure Gap Noted",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "8f39ce41-b9fc-5922-9032-b943ffce1cb1",
+      "displayId": "To:73",
+      "fact": "Portfolio accommodates MNCs, household corporate names, start-ups",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Tenant Profile Description",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "c2b32299-b0ca-5488-9738-99d77e3fd2fb",
+      "displayId": "To:74",
+      "fact": "WALE and lease expiration schedule not explicitly disclosed",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Disclosure Gap Noted",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "e73b5978-a513-543b-9eb8-605a0951d141",
+      "displayId": "To:75",
+      "fact": "Portfolio appraised value RM 806 million",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Total Valuation",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "0d2fec75-1a67-5bb8-bc13-07011d58fff7",
+      "displayId": "To:76",
+      "fact": "Average value per sq. ft. approximately RM 834",
+      "source": "Calculated",
+      "citation": "Calculated from RM 806m / 966,613 sq. ft.",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "5dc4752f-4443-510a-8ef0-ab0df37349bf",
+      "displayId": "To:77",
+      "fact": "Menara HLX highest value at RM 328m reflecting KLCC location premium",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Property Valuation Comparison",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "a3b9c907-8c35-52d2-8a47-c651c2209f2f",
+      "displayId": "To:78",
+      "fact": "Debt-to-equity ratio estimated at ~40.6%",
+      "source": "SimplyWallSt",
+      "citation": "Simply Wall St - Tower REIT Debt-to-Equity Ratio",
+      "url": "https://simplywall.st",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "edd11b40-1e8a-5b3f-bc98-9d487d04e7ee",
+      "displayId": "To:79",
+      "fact": "Well below 50% regulatory gearing limit",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines - Gearing Limits",
+      "url": "https://www.sc.com.my",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "e79a506b-0287-5689-94d0-c99e62f025be",
+      "displayId": "To:80",
+      "fact": "Gearing estimate derived from external financial platform analysis",
+      "source": "SimplyWallSt",
+      "citation": "Simply Wall St - Tower REIT Financial Analysis",
+      "url": "https://simplywall.st",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "8c5124a5-0e96-5bb9-95a7-3df050850d33",
+      "displayId": "To:81",
+      "fact": "Debt maturity profile, fixed/floating split, and WACD not detailed publicly",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Disclosure Gap Noted",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "10c942d4-28e0-53e5-b551-be0997c47b2f",
+      "displayId": "To:82",
+      "fact": "Interest coverage estimated at ~1.7x",
+      "source": "SimplyWallSt",
+      "citation": "Simply Wall St - Tower REIT Interest Coverage Ratio",
+      "url": "https://simplywall.st",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "7c64daff-2151-5fbc-ac61-06bc14ed6676",
+      "displayId": "To:83",
+      "fact": "Refinancing schedule and rate sensitivity not disclosed in public sources",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Disclosure Gap Noted",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "1eed1802-acf5-582c-9b82-dacfe651d63a",
+      "displayId": "To:84",
+      "fact": "FY2024 final distribution 0.77 sen per unit",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Distribution Details",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "cfd9e577-81b3-5278-8e32-758c8d52e130",
+      "displayId": "To:85",
+      "fact": "Final distribution paid August 2024 with ex-date 19 August 2024",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Distribution Timeline",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "02f05cb6-0e46-5ba1-8f56-2e7dd46f6120",
+      "displayId": "To:86",
+      "fact": "FY2023 comparison - loss of RM 17.6m",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Comparative Financial Results",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "3c6c4d23-de87-5474-936a-536319330935",
+      "displayId": "To:87",
+      "fact": "Semi-annual distribution frequency",
+      "source": "TowerIR",
+      "citation": "Tower REIT Investor Information - Distribution Policy",
+      "url": "https://www.tower-reit.com/investor-information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "a3d455e0-15f1-5af9-bd31-337fa033996d",
+      "displayId": "To:88",
+      "fact": "Policy objective - regular and stable distributions to Unitholders",
+      "source": "TowerAbout",
+      "citation": "Tower REIT About Us - Investment Objectives",
+      "url": "https://www.tower-reit.com/about-us",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "929d75ef-3332-58ea-8d9d-def988a7f0f7",
+      "displayId": "To:89",
+      "fact": "100% of taxable income distributed per REIT regulatory requirement",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines - Distribution Requirements",
+      "url": "https://www.sc.com.my",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "8c1c1411-e7a6-59e4-8834-a13c26664523",
+      "displayId": "To:90",
+      "fact": "Specific payout ratio and distribution coverage metrics not explicitly disclosed",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Disclosure Gap Noted",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "5a0d46ea-7845-5922-9fec-20c5ac49206c",
+      "displayId": "To:91",
+      "fact": "52-week range 0.26 - 0.33",
+      "source": "TowerIR",
+      "citation": "Tower REIT Investor Information - Price Range",
+      "url": "https://www.tower-reit.com/investor-information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "96c83eef-60cc-5f1f-84da-9ef128ba4285",
+      "displayId": "To:92",
+      "fact": "FY2024 gross revenue RM 37.04 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Comprehensive Income",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "ce414604-4251-537e-857b-524fcd731148",
+      "displayId": "To:93",
+      "fact": "FY2023 gross revenue RM 33.87 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Comparative Financial Results",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "022cad02-c446-5ff0-be3b-30ff8016f7de",
+      "displayId": "To:94",
+      "fact": "FY2024 Net Property Income RM 20.08 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Comprehensive Income",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "30727bf6-a75c-5747-9be8-66720da26de4",
+      "displayId": "To:95",
+      "fact": "FY2023 Net Property Income RM 16.62 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Comparative Financial Results",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "d9d011bb-f3dc-5351-9711-a1346f37c176",
+      "displayId": "To:96",
+      "fact": "FY2024 Net Trust Income RM 3.20 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Comprehensive Income",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "870a29fc-677f-5994-bac2-4d29b84e2ff9",
+      "displayId": "To:97",
+      "fact": "FY2023 Net Trust Income RM 1.78 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Comparative Financial Results",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "0aaae746-2615-5369-afa8-6f69a3f34410",
+      "displayId": "To:98",
+      "fact": "FY2024 Income After Tax RM 5.73 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Comprehensive Income",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "d124e03c-161b-5944-a13d-e421c8d69c5c",
+      "displayId": "To:99",
+      "fact": "FY2023 loss of RM 17.60 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Comparative Financial Results",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "8a423706-6758-51e8-960f-e8c851082491",
+      "displayId": "To:100",
+      "fact": "FY2024 Total Comprehensive Income RM 5.73 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Comprehensive Income",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "40fa9cac-6140-59b7-9549-ff95e1b65a1e",
+      "displayId": "To:101",
+      "fact": "FY2023 Total Comprehensive Income loss of RM 17.60 million",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Comparative Financial Results",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "f694bacb-4c35-597b-829f-ef57bca0ae87",
+      "displayId": "To:102",
+      "fact": "Higher occupancy across all three properties drove revenue growth",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Management Discussion and Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "9b02b1b8-50f0-5e27-8f78-f6526a2da01d",
+      "displayId": "To:103",
+      "fact": "Effective cost management supported NPI margin improvement",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Financial Performance Review",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "ec857acd-698d-537d-b830-2c3e5b25b828",
+      "displayId": "To:104",
+      "fact": "FY2023 loss included negative fair value changes on investment properties",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Notes to Financial Statements",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "3a096399-81b3-5a8d-9dbf-21eb90627048",
+      "displayId": "To:105",
+      "fact": "Total Net Asset Value RM 570.08 million as at 30 June 2024",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Statement of Financial Position",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "7c729bbe-318f-5a57-a6ed-4580213b2a5e",
+      "displayId": "To:106",
+      "fact": "NAV per unit RM 1.16 as at 30 June 2024",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Unit Statistics",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "ea94e584-d832-5fd0-9247-93a8b8dbedf3",
+      "displayId": "To:107",
+      "fact": "Units outstanding 490,875,000",
+      "source": "TowerIR",
+      "citation": "Tower REIT Investor Information - Unit Capital",
+      "url": "https://www.tower-reit.com/investor-information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "b02a7a7e-547c-5255-84ca-4dd15ebb8b57",
+      "displayId": "To:108",
+      "fact": "NAV per unit RM 1.16",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Financial Highlights",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "376b7981-8d1c-5deb-b6c0-c41933c50e8a",
+      "displayId": "To:109",
+      "fact": "52-week trading range 0.26 - 0.33",
+      "source": "TowerIR",
+      "citation": "Tower REIT Investor Information - Trading Statistics",
+      "url": "https://www.tower-reit.com/investor-information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "101ec645-4389-50ce-9eee-b1ee8f68a74c",
+      "displayId": "To:110",
+      "fact": "Interest coverage ~1.7x provides limited buffer for rate increases",
+      "source": "SimplyWallSt",
+      "citation": "Simply Wall St - Tower REIT Interest Rate Risk Assessment",
+      "url": "https://simplywall.st",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "c8f44a81-c008-5666-9408-064e0e16bdef",
+      "displayId": "To:111",
+      "fact": "KL office market faces oversupply headwinds and evolving workplace trends",
+      "source": "MarketScreener",
+      "citation": "MarketScreener - Malaysia Office Market Analysis",
+      "url": "https://www.marketscreener.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "9182e111-3564-5121-8f90-04b57e93a9a1",
+      "displayId": "To:112",
+      "fact": "3-property portfolio with geographic concentration in KL",
+      "source": "TowerPortfolio",
+      "citation": "Tower REIT Portfolio - Geographic Distribution",
+      "url": "https://www.tower-reit.com/portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "ead965aa-295b-5d94-bbe5-e19c29c41a22",
+      "displayId": "To:113",
+      "fact": "Debt maturity profile not publicly disclosed",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Disclosure Gap Noted",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    },
+    {
+      "id": "f7b535b5-30cc-5468-9f71-7b774692dedb",
+      "displayId": "To:114",
+      "fact": "Top-tenant exposure not disclosed",
+      "source": "AR2024",
+      "citation": "Tower REIT Annual Report 2024 - Disclosure Gap Noted",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "ae3d5997-66fa-4e1f-8353-e7e6f792eb95",
+      "metricType": "portfolio_size",
+      "value": 3,
+      "unit": "properties",
+      "period": {
+        "type": "point_in_time",
+        "date": "2024-06-30"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "To:8",
+        "To:28"
+      ]
+    },
+    {
+      "id": "af6ca98e-0113-4d2a-a927-746602938006",
+      "metricType": "property_count",
+      "value": 3,
+      "unit": "properties",
+      "period": {
+        "type": "point_in_time",
+        "date": "2024-06-30"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "To:8",
+        "To:28"
+      ]
+    },
+    {
+      "id": "401f08d3-3809-4dff-9a71-120c6a1cb8aa",
+      "metricType": "net_lettable_area",
+      "value": 966613,
+      "unit": "sq. ft.",
+      "period": {
+        "type": "point_in_time",
+        "date": "2024-06-30"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "To:29"
+      ]
+    },
+    {
+      "id": "3be7daa0-ebb0-4e59-8fee-691ad2b777f0",
+      "metricType": "investment_properties",
+      "value": 806,
+      "unit": "RM million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2026-04-26"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "To:9",
+        "To:27",
+        "To:75"
+      ]
+    },
+    {
+      "id": "7abab852-60c3-40da-bde4-8760d3be4a29",
+      "metricType": "gross_revenue",
+      "value": 37.04,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2024
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "To:17",
+        "To:92"
+      ]
+    },
+    {
+      "id": "efe6531f-8ac8-496b-8bea-2fbaa1bffa47",
+      "metricType": "gross_revenue",
+      "value": 33.87,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2023
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "To:93"
+      ]
+    },
+    {
+      "id": "240f36cd-da06-4612-8f25-8b5e9592cc98",
+      "metricType": "net_property_income",
+      "value": 20.08,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2024
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "To:18",
+        "To:94"
+      ]
+    },
+    {
+      "id": "03e25a24-0359-4fae-bde5-421aea47e016",
+      "metricType": "net_property_income",
+      "value": 16.62,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2023
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "To:95"
+      ]
+    },
+    {
+      "id": "edc67280-0111-4f9b-84ee-9fb95aa640d4",
+      "metricType": "realised_income",
+      "value": 3.2,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2024
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "To:96"
+      ]
+    },
+    {
+      "id": "e46a8e3a-a50d-45f6-8d39-a410d666b532",
+      "metricType": "net_profit",
+      "value": 5.73,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2024
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "To:98",
+        "To:100"
+      ]
+    },
+    {
+      "id": "4fa15666-b6ab-469c-8b26-95f57c1333f5",
+      "metricType": "nav_per_unit",
+      "value": 1.16,
+      "unit": "RM",
+      "period": {
+        "type": "point_in_time",
+        "date": "2024-06-30"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "To:16",
+        "To:106",
+        "To:108"
+      ]
+    },
+    {
+      "id": "70f672d3-1274-43ac-90c5-21be6335bf22",
+      "metricType": "total_assets",
+      "value": 570.08,
+      "unit": "RM million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2024-06-30"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "To:105"
+      ]
+    },
+    {
+      "id": "1e8677d2-03b2-4a16-9c27-03a27c1d63a0",
+      "metricType": "dpu",
+      "value": 1,
+      "unit": "sen",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2024
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "To:14",
+        "To:15"
+      ]
+    },
+    {
+      "id": "a7f7bda0-c23e-4186-8639-693a375534a6",
+      "metricType": "gearing_ratio",
+      "value": 40.6,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2026-04-26"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "To:11",
+        "To:78"
+      ]
+    },
+    {
+      "id": "a3b027b1-6f0d-4ae3-84cd-40d347b62e24",
+      "metricType": "interest_coverage",
+      "value": 1.7,
+      "unit": "x",
+      "period": {
+        "type": "point_in_time",
+        "date": "2026-04-26"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "To:13",
+        "To:82"
+      ]
+    },
+    {
+      "id": "1761bbbc-0453-48da-93d5-f8cb5cbae6b8",
+      "metricType": "occupancy_rate",
+      "value": 97,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2024-06-30"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "To:10",
+        "To:56",
+        "To:70"
+      ]
+    },
+    {
+      "id": "5e2ab2fe-f611-44c4-94e8-2fc7fb5d2dd0",
+      "metricType": "npi_margin",
+      "value": 54.2,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2024
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "To:17",
+        "To:18",
+        "To:103"
+      ]
+    }
+  ],
+  "timeSeries": [
+    {
+      "id": "e350d7bd-d5f1-4d0d-9b31-b4ea80f45b02",
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e",
+      "metricType": "gross_revenue",
+      "frequency": "annual",
+      "unit": "RM million",
+      "dataPoints": [
+        {
+          "date": "2023-06-30",
+          "value": 33.87,
+          "isInterpolated": false,
+          "sourceDisplayId": "To:93"
+        },
+        {
+          "date": "2024-06-30",
+          "value": 37.04,
+          "isInterpolated": false,
+          "sourceDisplayId": "To:92"
+        }
+      ],
+      "sourceDisplayIds": [
+        "To:92",
+        "To:93",
+        "To:17"
+      ]
+    },
+    {
+      "id": "b13c50ae-8749-4506-a0c0-049623270a46",
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e",
+      "metricType": "net_property_income",
+      "frequency": "annual",
+      "unit": "RM million",
+      "dataPoints": [
+        {
+          "date": "2023-06-30",
+          "value": 16.62,
+          "isInterpolated": false,
+          "sourceDisplayId": "To:95"
+        },
+        {
+          "date": "2024-06-30",
+          "value": 20.08,
+          "isInterpolated": false,
+          "sourceDisplayId": "To:94"
+        }
+      ],
+      "sourceDisplayIds": [
+        "To:94",
+        "To:95",
+        "To:18"
+      ]
+    },
+    {
+      "id": "16e1179c-108f-4af2-89b9-9b7f1360668c",
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e",
+      "metricType": "occupancy_rate",
+      "frequency": "annual",
+      "unit": "%",
+      "dataPoints": [
+        {
+          "date": "2023-06-30",
+          "value": 94,
+          "isInterpolated": true
+        },
+        {
+          "date": "2024-06-30",
+          "value": 97,
+          "isInterpolated": false,
+          "sourceDisplayId": "To:56"
+        }
+      ],
+      "sourceDisplayIds": [
+        "To:56",
+        "To:10",
+        "To:70"
+      ]
+    },
+    {
+      "id": "e6033d9a-cdb7-473c-9efa-5a1cb3c4b417",
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e",
+      "metricType": "nav_per_unit",
+      "frequency": "annual",
+      "unit": "RM",
+      "dataPoints": [
+        {
+          "date": "2024-06-30",
+          "value": 1.16,
+          "isInterpolated": false,
+          "sourceDisplayId": "To:16"
+        }
+      ],
+      "sourceDisplayIds": [
+        "To:16",
+        "To:106",
+        "To:108"
+      ]
+    },
+    {
+      "id": "a5f9bcce-6bdc-49f8-b7aa-2231904f0d6e",
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e",
+      "metricType": "dpu",
+      "frequency": "annual",
+      "unit": "sen",
+      "dataPoints": [
+        {
+          "date": "2024-06-30",
+          "value": 1,
+          "isInterpolated": false,
+          "sourceDisplayId": "To:15"
+        }
+      ],
+      "sourceDisplayIds": [
+        "To:14",
+        "To:15"
+      ]
+    }
+  ],
+  "riskAssessment": {
+    "id": "e8725d2e-3736-43a5-9969-4575df7fa970",
+    "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e",
+    "assessmentDate": "2026-04-26",
+    "overallRiskRating": "moderate_high",
+    "overallScore": 3.2,
+    "riskFactors": [
+      {
+        "id": "e231d9be-f289-41db-a606-1f6edc6848b4",
+        "category": "concentration",
+        "severity": "high",
+        "title": "Portfolio Concentration",
+        "description": "Only 3 properties with 100% geographic concentration in Kuala Lumpur. Limited diversification across locations.",
+        "currentScore": 4,
+        "peerComparison": "worse",
+        "mitigatingFactors": [
+          {
+            "factor": "Properties in prime KL districts (Damansara Heights, KLCC)",
+            "impact": "significant"
+          },
+          {
+            "factor": "Premium Grade A office assets",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Strong occupancy at ~97%",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "Only 3 properties in portfolio",
+            "impact": "significant"
+          },
+          {
+            "factor": "All assets in single city (Kuala Lumpur)",
+            "impact": "significant"
+          },
+          {
+            "factor": "Tenant concentration not disclosed",
+            "impact": "moderate"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Occupancy trends at Menara HLX and Plaza Zurich",
+          "New property acquisition announcements",
+          "Geographic diversification strategy updates"
+        ],
+        "sourceDisplayIds": [
+          "To:8",
+          "To:30",
+          "To:72",
+          "To:112"
+        ]
+      },
+      {
+        "id": "da59575f-57f6-4e21-8d0f-0fa6f4f5cd55",
+        "category": "interest_rate",
+        "severity": "high",
+        "title": "Interest Rate Sensitivity",
+        "description": "Limited interest coverage at ~1.7x provides minimal buffer against rate increases. Floating rate debt exposure creates vulnerability to BNM OPR changes.",
+        "currentScore": 4,
+        "peerComparison": "worse",
+        "quantitativeBacking": [
+          {
+            "metricType": "interest_coverage",
+            "value": 1.7,
+            "context": "Thin coverage margin"
+          }
+        ],
+        "mitigatingFactors": [
+          {
+            "factor": "Gearing at ~40.6% provides some headroom below 50% limit",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Improved FY2024 profitability",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "Coverage ratio only ~1.7x, limited cushion",
+            "impact": "significant"
+          },
+          {
+            "factor": "Debt maturity profile not disclosed",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Fixed/floating rate split not disclosed",
+            "impact": "moderate"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Bank Negara Malaysia OPR decisions",
+          "Interest coverage quarterly updates",
+          "Refinancing announcements"
+        ],
+        "sourceDisplayIds": [
+          "To:11",
+          "To:13",
+          "To:82",
+          "To:110"
+        ]
+      },
+      {
+        "id": "d8518dcb-aea6-491e-9867-d4ef4363ddc6",
+        "category": "transparency",
+        "severity": "medium",
+        "title": "Disclosure Gaps",
+        "description": "WALE, tenant count, top tenant concentration, debt maturity profile, and fixed/floating debt split not publicly disclosed.",
+        "currentScore": 3,
+        "peerComparison": "worse",
+        "mitigatingFactors": [
+          {
+            "factor": "High occupancy reduces immediate rollover concern",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Annual report provides basic financial data",
+            "impact": "minor"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "No WALE disclosure vs industry standard",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Debt maturity profile not disclosed",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Tenant quality metrics not available",
+            "impact": "moderate"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Annual report disclosure improvements",
+          "Investor presentation details",
+          "Debt maturity profile publication"
+        ],
+        "sourceDisplayIds": [
+          "To:74",
+          "To:81",
+          "To:113",
+          "To:114"
+        ]
+      },
+      {
+        "id": "3b0e0313-5df6-4b30-a42b-32dc53f8d5d1",
+        "category": "tenant_rollover",
+        "severity": "low",
+        "title": "Lease Rollover Risk",
+        "description": "~97% occupancy with stable tenant base. Menara Guoco achieved highest occupancy in five years.",
+        "currentScore": 2,
+        "peerComparison": "better",
+        "mitigatingFactors": [
+          {
+            "factor": "~97% current occupancy",
+            "impact": "significant"
+          },
+          {
+            "factor": "Menara Guoco at ~97%, highest in five years",
+            "impact": "significant"
+          },
+          {
+            "factor": "Menara HLX refurbishment benefits realized",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "WALE and lease expiry schedule not disclosed",
+            "impact": "minor"
+          },
+          {
+            "factor": "KL office market oversupply headwinds",
+            "impact": "moderate"
+          }
+        ],
+        "trend": "improving",
+        "monitoringTriggers": [
+          "Lease expiry schedule disclosure",
+          "Occupancy quarterly trends",
+          "Rental reversion rates"
+        ],
+        "sourceDisplayIds": [
+          "To:10",
+          "To:55",
+          "To:56",
+          "To:57"
+        ]
+      },
+      {
+        "id": "b0006418-d4d5-4118-b883-fac7b2136019",
+        "category": "geographic",
+        "severity": "medium",
+        "title": "KL Office Market Headwinds",
+        "description": "Kuala Lumpur office market faces oversupply challenges and evolving workplace trends post-pandemic.",
+        "currentScore": 3,
+        "peerComparison": "similar",
+        "mitigatingFactors": [
+          {
+            "factor": "Premium Grade A assets in prime locations",
+            "impact": "significant"
+          },
+          {
+            "factor": "Asset enhancement initiatives completed",
+            "impact": "moderate"
+          },
+          {
+            "factor": "MRT proximity for Plaza Zurich",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "KL office market oversupply",
+            "impact": "significant"
+          },
+          {
+            "factor": "Hybrid work reducing office demand",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Three-property concentration in single market",
+            "impact": "significant"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "KL office market vacancy rates",
+          "Rental rate trends in prime districts",
+          "Workplace policy evolution"
+        ],
+        "sourceDisplayIds": [
+          "To:111",
+          "To:112"
+        ]
+      }
+    ],
+    "peerComparison": {
+      "vsPeerId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920",
+      "relativeRisk": "higher",
+      "keyDifferences": [
+        "Smaller portfolio (3 vs 9 properties)",
+        "Lower interest coverage (~1.7x vs 2.09x)",
+        "No WALE disclosure vs full disclosure",
+        "KL concentration vs diversified locations"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "7b82a93d-af08-49c6-9bed-3f9254d38a79",
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e",
+      "observationType": "executive_summary",
+      "priority": "positive",
+      "title": "FY2024 Turnaround Achieved",
+      "content": "Tower REIT achieved a significant turnaround in FY2024, recording total comprehensive income of RM 5.73 million compared to a loss of RM 17.60 million in FY2023. This was driven by improved occupancy across all three properties to the highest levels in five years.",
+      "summary": "FY2024 profit RM 5.73m vs FY2023 loss RM 17.6m, occupancy at 5-year highs",
+      "keyFacts": [
+        {
+          "label": "FY2024 Income",
+          "value": 5.73,
+          "unit": "RM million"
+        },
+        {
+          "label": "Occupancy",
+          "value": 97,
+          "unit": "%"
+        }
+      ],
+      "indicator": {
+        "icon": "trend_up",
+        "color": "green"
+      },
+      "relatedMetrics": [
+        {
+          "metricType": "net_profit",
+          "value": 5.73
+        },
+        {
+          "metricType": "occupancy_rate",
+          "value": 97
+        }
+      ],
+      "relatedRisks": [],
+      "sourceDisplayIds": [
+        "To:19",
+        "To:100",
+        "To:10",
+        "To:102"
+      ],
+      "primaryCitation": "To:19"
+    },
+    {
+      "id": "cb1da6f3-e95d-4a16-a96e-540b74a0968d",
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e",
+      "observationType": "debt_sustainability",
+      "priority": "warning",
+      "title": "Interest Coverage Concern",
+      "content": "Interest coverage estimated at ~1.7x provides limited buffer for interest rate increases. While gearing at ~40.6% is below the 50% regulatory limit, the thin coverage margin requires monitoring in a rising rate environment.",
+      "summary": "~1.7x interest coverage, limited buffer for rate increases",
+      "keyFacts": [
+        {
+          "label": "Interest Coverage",
+          "value": 1.7,
+          "unit": "x"
+        },
+        {
+          "label": "Gearing",
+          "value": 40.6,
+          "unit": "%"
+        }
+      ],
+      "indicator": {
+        "icon": "warning",
+        "color": "orange"
+      },
+      "relatedMetrics": [
+        {
+          "metricType": "interest_coverage",
+          "value": 1.7
+        },
+        {
+          "metricType": "gearing_ratio",
+          "value": 40.6
+        }
+      ],
+      "relatedRisks": [
+        {
+          "category": "interest_rate",
+          "severity": "high"
+        }
+      ],
+      "sourceDisplayIds": [
+        "To:13",
+        "To:11",
+        "To:82",
+        "To:110"
+      ],
+      "primaryCitation": "To:13"
+    },
+    {
+      "id": "e50511c7-7b73-4bd0-880c-e39391aa127f",
+      "entityId": "f36f7b0b-48e7-575f-a4ba-e3b79265d73e",
+      "observationType": "risk_assessment",
+      "priority": "info",
+      "title": "Disclosure Limitations",
+      "content": "Multiple disclosure gaps exist including WALE, tenant concentration, debt maturity profile, and fixed/floating rate split. This limits full assessment of underlying risk factors.",
+      "summary": "WALE, tenant mix, debt profile not disclosed",
+      "keyFacts": [
+        {
+          "label": "WALE",
+          "value": "n/a"
+        },
+        {
+          "label": "Top Tenant",
+          "value": "Not disclosed"
+        }
+      ],
+      "indicator": {
+        "icon": "info",
+        "color": "blue"
+      },
+      "relatedMetrics": [],
+      "relatedRisks": [
+        {
+          "category": "transparency",
+          "severity": "medium"
+        }
+      ],
+      "sourceDisplayIds": [
+        "To:74",
+        "To:81",
+        "To:113",
+        "To:114"
+      ],
+      "primaryCitation": "To:74"
+    }
+  ]
+}

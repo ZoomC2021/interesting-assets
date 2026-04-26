@@ -87,9 +87,9 @@ describe('Schema Conformance', () => {
   describe('Reference Validation', () => {
     it('should have references with valid display IDs', () => {
       if (!atriumData?.references) return;
-      
+
       for (const ref of atriumData.references) {
-        expect(ref.displayId).toMatch(/^[TAC]:\d{1,3}$/);
+        expect(ref.displayId).toMatch(/^([TAPSUICHLKRDY]:\d{1,3}|KIP:\d{1,3}|SE:\d{1,3}|AF:\d{1,3}|To:\d{1,3})$/);
         expect(ref.id).toMatch(/^[0-9a-f-]{36}$/i);
         expect(ref.fact).toBeTruthy();
         expect(ref.source).toBeTruthy();
@@ -141,13 +141,13 @@ describe('Schema Conformance', () => {
 
     it('should have valid source display IDs', () => {
       if (!atriumData?.metrics) return;
-      
+
       for (const metric of atriumData.metrics) {
         expect(Array.isArray(metric.sourceDisplayIds)).toBe(true);
         expect(metric.sourceDisplayIds.length).toBeGreaterThan(0);
-        
+
         for (const id of metric.sourceDisplayIds) {
-          expect(id).toMatch(/^[TAC]:\d{1,3}$/);
+          expect(id).toMatch(/^([TAPSUICHLKRDY]:\d{1,3}|KIP:\d{1,3}|SE:\d{1,3}|AF:\d{1,3}|To:\d{1,3})$/);
         }
       }
     });
@@ -261,6 +261,88 @@ describe('Schema Conformance', () => {
       const waleCitation = cmmtData.references.find((r: any) => r.displayId === 'C:193');
       expect(waleCitation).toBeDefined();
       expect(waleCitation.fact).toContain('3.4 years');
+    });
+  });
+
+  describe('Prefix Validation - Tower REIT (To)', () => {
+    let towerData: any;
+
+    beforeAll(() => {
+      try {
+        const samplesDir = path.join(__dirname, '..', 'samples');
+        const raw = fs.readFileSync(path.join(samplesDir, 'tower-normalized.json'), 'utf-8');
+        towerData = JSON.parse(raw);
+      } catch (e) {
+        // eslint-disable-next-line no-console
+        console.warn('[schema.test] tower-normalized.json not readable:', (e as Error).message);
+      }
+    });
+
+    it('should pass Zod validation for Tower data', () => {
+      if (!towerData) {
+        console.log('Skipping: Tower sample data not available');
+        return;
+      }
+      
+      const result = validateData(towerData);
+      
+      if (!result.valid) {
+        console.log('Tower validation errors:', formatValidationErrors(result));
+      }
+      
+      expect(result.valid).toBe(true);
+    });
+
+    it('should have Tower references with To: prefix', () => {
+      if (!towerData?.references) return;
+      
+      const towerRefs = towerData.references.filter((r: any) => r.displayId.startsWith('To:'));
+      expect(towerRefs.length).toBeGreaterThan(0);
+      
+      for (const ref of towerData.references) {
+        expect(ref.displayId).toMatch(/^To:\d{1,3}$/);
+      }
+    });
+  });
+
+  describe('Prefix Validation - Paradigm REIT (D)', () => {
+    let paradigmData: any;
+
+    beforeAll(() => {
+      try {
+        const samplesDir = path.join(__dirname, '..', 'samples');
+        const raw = fs.readFileSync(path.join(samplesDir, 'paradigm-normalized.json'), 'utf-8');
+        paradigmData = JSON.parse(raw);
+      } catch (e) {
+        // eslint-disable-next-line no-console
+        console.warn('[schema.test] paradigm-normalized.json not readable:', (e as Error).message);
+      }
+    });
+
+    it('should pass Zod validation for Paradigm data', () => {
+      if (!paradigmData) {
+        console.log('Skipping: Paradigm sample data not available');
+        return;
+      }
+      
+      const result = validateData(paradigmData);
+      
+      if (!result.valid) {
+        console.log('Paradigm validation errors:', formatValidationErrors(result));
+      }
+      
+      expect(result.valid).toBe(true);
+    });
+
+    it('should have Paradigm references with D: prefix', () => {
+      if (!paradigmData?.references) return;
+      
+      const paradigmRefs = paradigmData.references.filter((r: any) => r.displayId.startsWith('D:'));
+      expect(paradigmRefs.length).toBeGreaterThan(0);
+      
+      for (const ref of paradigmData.references) {
+        expect(ref.displayId).toMatch(/^D:\d{1,3}$/);
+      }
     });
   });
 });
