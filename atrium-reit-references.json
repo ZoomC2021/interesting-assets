@@ -4,11 +4,12 @@
     "document": "Atrium_REIT_Malaysia_Analysis.md",
     "totalReferences": 618,
     "dateCreated": "2026-04-24",
-    "version": "1.0",
+    "version": "1.1",
     "dataQuality": {
-      "auditDate": "2026-04-24",
-      "referencesAudited": "Sampled",
-      "confidenceLevel": "Publication-grade"
+      "auditDate": "2026-04-26",
+      "referencesAudited": "Material corrections applied 2026-04-26",
+      "confidenceLevel": "Publication-grade (post-correction)",
+      "correctionNote": "v1.1 corrections: DPU 9.30→9.40 sen; distribution schedule corrected (4th interim 1.70 sen Dec 31, 5th/final 1.00 sen Feb 27 2026); total distributions RM13.95m→RM24.962m; payout ratio 29.9%→94.9-98.8%; realised income RM46.61m→RM25.273m; finance costs RM6.39m→RM12.854m; interest coverage 2.09x→NPI 3.58x/realised profit 1.97x; WACD 3.5-4.0%→4.1-4.3% (range 3.93-4.54%); floating rate RM346.7m/93%→RM314.79m/100%; sensitivity ±RM0.87m→±RM598k PAT; NAV RM408.45m→RM368.44m; ASA5 tenant Oglaend Industries Sdn Bhd; tenant sectors corrected; market cap RM600m→RM340m; Axis price RM2.02→RM2.05; yield 7.38%→7.34%; debt maturity updated to FY2025 AR figures."
     },
     "disclaimer": "IMPORTANT LIMITATIONS: (1) Sampling-based audit approach. (2) Source accessibility: Some primary sources had access restrictions. (3) Market data (share prices, yields) are time-sensitive as of 2026-04-24. (4) Some facts rely on secondary sources. (5) Appropriate rounding used.",
     "timeSensitiveNote": "References with 'timeSensitive: true' flag contain market data that changes daily.",
@@ -238,19 +239,20 @@
       "url": "https://www.sc.com.my/regulation/guidelines"
     },
     "T:14": {
-      "fact": "Interest Coverage ~2.09x",
+      "fact": "Interest Coverage: NPI basis ~3.58x (NPI RM45.98m / Finance Costs RM12.854m); Realised Profit basis ~1.97x (RM25.273m / RM12.854m) — thin, below 2.0x",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Financial Ratios",
+      "citation": "Atrium REIT 2025 Annual Report - Financial Statements",
       "dateAccessed": "2026-03-26",
       "timeSensitive": false,
-      "note": "Derived from Realised Income divided by Finance Costs"
+      "note": "CORRECTED 2026-04-26: Prior figure of 2.09x was wrong (used incorrect finance costs of RM6.39m and confused realised income with total income). Finance costs = RM12.854m per AR2025."
     },
     "T:15": {
-      "fact": "2025 Total DPU 9.30 sen",
+      "fact": "2025 Total DPU 9.40 sen (4 interim distributions totalling 8.40 sen + 1 final distribution of 1.00 sen)",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Distribution Statement",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution Statement; Q4 2025 filing DCS-29012026-00029",
       "dateAccessed": "2026-03-26",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior figure of 9.30 sen was wrong."
     },
     "T:16": {
       "fact": "Distributed across 5 payments",
@@ -733,12 +735,12 @@
       "timeSensitive": false
     },
     "T:83": {
-      "fact": "ASA5 Tenant: New tenant (undisclosed)",
-      "source": "Bursa",
-      "citation": "Bursa Malaysia Announcement - ASA5 Tenancy Commencement",
-      "dateAccessed": "2025-09",
+      "fact": "ASA5 Tenant: Oglaend Industries Sdn Bhd (multinational manufacturing company)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Tenancy Details (ASA5)",
+      "dateAccessed": "2026-03-26",
       "timeSensitive": false,
-      "url": "https://www.bursamalaysia.com"
+      "note": "CORRECTED 2026-04-26: Annual Report discloses ASA5 tenant as Oglaend Industries Sdn Bhd."
     },
     "T:84": {
       "fact": "ASA5 Lease: 3-year lease, commenced Sep 2025",
@@ -1509,12 +1511,12 @@
       "url": "https://www.chartnexus.com"
     },
     "T:190": {
-      "fact": "ASA5 Tenant: New tenant (undisclosed)",
-      "source": "Bursa",
-      "citation": "Bursa Malaysia Announcement - Tenancy Commencement",
-      "dateAccessed": "2025-09",
+      "fact": "ASA5 Tenant: Oglaend Industries Sdn Bhd (multinational manufacturing company)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Tenancy Details (ASA5)",
+      "dateAccessed": "2026-03-26",
       "timeSensitive": false,
-      "url": "https://www.bursamalaysia.com"
+      "note": "CORRECTED 2026-04-26: Annual Report discloses ASA5 tenant as Oglaend Industries Sdn Bhd."
     },
     "T:191": {
       "fact": "ASA5 Lease: 3-year lease, commenced Sep 2025",
@@ -2011,11 +2013,12 @@
       "timeSensitive": false
     },
     "T:256": {
-      "fact": "Total Equity/NAV: RM 408.45 million",
+      "fact": "NAV (per Annual Report): RM 368.437 million; NAV per unit RM 1.3874. Note: assets minus borrowings = RM408.45m but this ignores trade payables and other liabilities — do not label as NAV.",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Statement of Financial Position",
+      "citation": "Atrium REIT 2025 Annual Report - Statement of Financial Position and NAV Calculation",
       "dateAccessed": "2026-03-26",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior figure of RM408.45m was assets less borrowings, not NAV. NAV = RM368.437m per AR2025."
     },
     "T:257": {
       "fact": "Equity Percentage: 56.5%",
@@ -2061,23 +2064,25 @@
       "timeSensitive": false
     },
     "T:263": {
-      "fact": "Interest Coverage: ~2.09x",
+      "fact": "Interest Coverage (NPI basis): ~3.58x (NPI RM45.98m / Finance Costs RM12.854m). Interest Coverage (Realised Profit basis): ~1.97x (RM25.273m / RM12.854m) — below 2.0x threshold.",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Interest Cover Ratio",
+      "citation": "Atrium REIT 2025 Annual Report - Financial Statements",
       "dateAccessed": "2026-03-26",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior figure 2.09x used wrong finance costs (RM6.39m) and wrong income figure."
     },
     "T:264": {
-      "fact": "Finance Costs FY 2025: ~RM 6.39 million",
+      "fact": "Finance Costs FY 2025: RM 12.854 million (comprises short-term revolving credit, term loans, bank overdraft, and MTNs)",
       "source": "AR2025",
       "citation": "Atrium REIT 2025 Annual Report - Finance Costs Note",
       "dateAccessed": "2026-03-26",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior figure RM6.39m was wrong. AR2025 discloses RM12.854m."
     },
     "T:265": {
-      "fact": "Interest Coverage: ~2.09x (adequate but at lower end)",
+      "fact": "Realised profit coverage (~1.97x) is thin — below the 2.0x minimum threshold",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Interest Cover Analysis",
+      "citation": "Atrium REIT 2025 Annual Report - Realised Profit RM25.273m / Finance Costs RM12.854m",
       "dateAccessed": "2026-03-26",
       "timeSensitive": false
     },
@@ -2401,23 +2406,25 @@
       "timeSensitive": false
     },
     "T:311": {
-      "fact": "Total Floating Rate Exposure: ~RM 346.7 million",
+      "fact": "Total Floating Rate Exposure: RM 314.795 million (effectively 100% of total borrowings — all facilities classified as floating-rate per AR2025 interest rate sensitivity note)",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Analysis",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Sensitivity Disclosure",
       "dateAccessed": "2026-03-26",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior figure RM346.7m exceeded total borrowings (RM314.79m) — was double-counted."
     },
     "T:312": {
-      "fact": "Floating Rate Debt Percentage: ~93%",
-      "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Profile",
-      "dateAccessed": "2026-03-26",
-      "timeSensitive": false
-    },
-    "T:313": {
-      "fact": "Floating-rate debt composition: ~93% estimated",
+      "fact": "Floating Rate Debt Percentage: ~100% (all borrowings exposed to interest rate risk)",
       "source": "AR2025",
       "citation": "Atrium REIT 2025 Annual Report - Interest Rate Sensitivity",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior figure ~93% was wrong."
+    },
+    "T:313": {
+      "fact": "Atrium REIT debt is effectively 100% floating-rate (RM314.795m); no fixed-rate component or hedging instruments",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Risk Management",
       "dateAccessed": "2026-03-26",
       "timeSensitive": false
     },
@@ -2465,11 +2472,12 @@
       "timeSensitive": false
     },
     "T:320": {
-      "fact": "Base Case Finance Costs: ~RM 6.39 million (FY 2025)",
+      "fact": "Base Case Finance Costs: RM 12.854 million (FY 2025)",
       "source": "AR2025",
       "citation": "Atrium REIT 2025 Annual Report - Finance Costs",
       "dateAccessed": "2026-03-26",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior RM6.39m was wrong."
     },
     "T:321": {
       "fact": "OPR Change Scenario: +25 bps (+0.25%)",
@@ -2479,11 +2487,12 @@
       "timeSensitive": false
     },
     "T:322": {
-      "fact": "+25 bps Impact: +~RM 0.87 million annual finance costs",
-      "source": "Calculated",
-      "citation": "Calculated from 93% floating rate exposure on RM 314.79m borrowings",
-      "dateAccessed": "2026-04-24",
-      "timeSensitive": false
+      "fact": "+25 bps Impact on PAT: -RM 598,110 (per AR2025 sensitivity disclosure); pre-tax estimate ~-RM 787k (RM314.79m x 0.25%)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Sensitivity Disclosure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: AR2025 discloses ±RM598k PAT per 25bps. Prior RM0.87m estimate was too high."
     },
     "T:323": {
       "fact": "OPR Change Scenario: +50 bps (+0.50%)",
@@ -2493,9 +2502,9 @@
       "timeSensitive": false
     },
     "T:324": {
-      "fact": "+50 bps Impact: +~RM 1.73 million annual finance costs",
+      "fact": "+50 bps Impact on PAT: ~-RM 1.196 million; pre-tax ~-RM 1.57m",
       "source": "Calculated",
-      "citation": "Calculated from 93% floating rate exposure on RM 314.79m borrowings",
+      "citation": "Extrapolated from AR2025 ±25bps = ±RM598k PAT sensitivity",
       "dateAccessed": "2026-04-24",
       "timeSensitive": false
     },
@@ -2507,32 +2516,35 @@
       "timeSensitive": false
     },
     "T:326": {
-      "fact": "-25 bps Impact: -~RM 0.87 million annual finance costs",
-      "source": "Calculated",
-      "citation": "Calculated from 93% floating rate exposure on RM 314.79m borrowings",
-      "dateAccessed": "2026-04-24",
+      "fact": "-25 bps Impact on PAT: +RM 598,110; pre-tax ~+RM 787k",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Sensitivity Disclosure",
+      "dateAccessed": "2026-03-26",
       "timeSensitive": false
     },
     "T:327": {
-      "fact": "Sensitivity calculated based on ~93% floating rate exposure on RM 314.79 million borrowings",
-      "source": "Calculated",
-      "citation": "Derived from AR2025 data",
-      "dateAccessed": "2026-04-24",
-      "timeSensitive": false
+      "fact": "Sensitivity per AR2025: ±RM 598,110 PAT impact per ±25 bps change; based on RM314.795m 100% floating-rate borrowings",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Sensitivity Note",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: AR2025 discloses sensitivity directly; prior calculated figure of ±RM0.87m was too high."
     },
     "T:328": {
-      "fact": "Estimated WACD: ~3.5-4.0%",
-      "source": "Calculated",
-      "citation": "Derived from finance costs / average borrowings",
-      "dateAccessed": "2026-04-24",
-      "timeSensitive": false
+      "fact": "Disclosed borrowing rate range: 3.93%–4.54% (per AR2025); implied WACD ~4.1–4.3% based on RM12.854m finance costs / ~RM300m+ average borrowings",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Interest Rate Disclosure",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior WACD estimate of 3.5–4.0% was too low; correct range is 3.93%–4.54% disclosed, ~4.1–4.3% implied."
     },
     "T:329": {
-      "fact": "Finance Costs FY 2025: RM 6.39 million",
-      "source": "Q42025",
-      "citation": "Atrium REIT Q4 2025 Unaudited Results - Finance Costs",
-      "dateAccessed": "2026-01-29",
-      "timeSensitive": false
+      "fact": "Implied WACD ~4.1–4.3% from RM12.854m finance costs; disclosed rate range 3.93%–4.54%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Finance Costs and Borrowings Note",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior RM6.39m finance costs was wrong. AR2025 = RM12.854m."
     },
     "T:330": {
       "fact": "Finance Costs Source: Q4 2025 financial statements",
@@ -2549,25 +2561,28 @@
       "timeSensitive": false
     },
     "T:332": {
-      "fact": "Floating-rate debt composition: ~93%",
+      "fact": "Floating-rate debt composition: ~100% (RM314.795m) — all borrowing facilities classified as exposed to interest rate risk",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Profile",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Risk",
       "dateAccessed": "2026-03-26",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior ~93% was wrong."
     },
     "T:333": {
-      "fact": "Estimated WACD: 3.5-4.0%",
-      "source": "Calculated",
-      "citation": "Calculated from annualized finance costs",
-      "dateAccessed": "2026-04-24",
-      "timeSensitive": false
+      "fact": "Estimated WACD: ~4.1–4.3% (implied); disclosed borrowing rate range 3.93%–4.54%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Note",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior 3.5–4.0% was based on wrong finance costs."
     },
     "T:334": {
-      "fact": "First Interim DPU: 0.90 sen/unit",
+      "fact": "Fifth/Final DPU: 1.00 sen/unit (Dec 2025 period, payable Feb 27, 2026)",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Distribution Details",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution Details; fifth/final distribution",
       "dateAccessed": "2026-03-26",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: This reference now covers the fifth/final 1.00 sen distribution. The previously-noted 0.90 sen 'First Interim' did not correspond to the correct FY2025 distribution schedule."
     },
     "T:335": {
       "fact": "First Interim Ex-Date: February 2025",
@@ -2706,25 +2721,28 @@
       "url": "https://www.bursamalaysia.com"
     },
     "T:353": {
-      "fact": "Fifth/Final Amount: ~RM 2.55 million",
-      "source": "Calculated",
-      "citation": "Calculated from DPU \u00d7 units outstanding",
-      "dateAccessed": "2026-04-24",
-      "timeSensitive": false
+      "fact": "Fifth/Final Distribution Amount: ~RM 2.66 million (1.00 sen \u00d7 ~265.5m units)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution Details",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Fifth/final distribution is 1.00 sen payable Feb 27, 2026."
     },
     "T:354": {
-      "fact": "Total FY 2025 DPU: 9.30 sen",
+      "fact": "Total FY 2025 DPU: 9.40 sen (4 interims = 8.40 sen + final 1.00 sen)",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Distribution Summary",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution Summary; Q4 filing DCS-29012026-00029",
       "dateAccessed": "2026-03-26",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior 9.30 sen was wrong."
     },
     "T:355": {
-      "fact": "Total FY 2025 Distributions: ~RM 13.95 million",
-      "source": "Calculated",
-      "citation": "Sum of all interim distributions",
-      "dateAccessed": "2026-04-24",
-      "timeSensitive": false
+      "fact": "Total FY 2025 Income Distributions: RM 24.962 million (per Annual Report and Q4 filing)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Income Distribution; Q4 2025 filing",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior RM13.95m used wrong DPU (9.30 sen) and wrong unit count."
     },
     "T:356": {
       "fact": "2021 DPU: ~10.0 sen (peak year)",
@@ -2776,44 +2794,48 @@
       "timeSensitive": false
     },
     "T:363": {
-      "fact": "2025 DPU: 9.30 sen",
+      "fact": "2025 DPU: 9.40 sen",
       "source": "AR2025",
       "citation": "Atrium REIT 2025 Annual Report - Distribution Summary",
       "dateAccessed": "2026-03-26",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior 9.30 sen was wrong."
     },
     "T:364": {
-      "fact": "2025 YoY Change: +22.4%",
+      "fact": "2025 YoY Change: ~+23.7% (9.40 sen vs ~7.60 sen in 2024)",
       "source": "Calculated",
-      "citation": "Derived from 2024 vs 2025 DPU",
+      "citation": "Derived from 2024 DPU ~7.60 sen vs 2025 DPU 9.40 sen",
       "dateAccessed": "2026-04-24",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior +22.4% was based on wrong 9.30 sen DPU."
     },
     "T:365": {
-      "fact": "22.4% year-over-year DPU growth in 2025",
+      "fact": "~23.7% year-over-year DPU growth in 2025 (9.40 sen vs ~7.60 sen)",
       "source": "Calculated",
-      "citation": "Derived from historical DPU comparison",
+      "citation": "Derived from AR2025 and AR2024 DPU comparison",
       "dateAccessed": "2026-04-24",
       "timeSensitive": false
     },
     "T:366": {
-      "fact": "Realised Income FY 2025: RM 46.61 million",
+      "fact": "Realised Profit FY 2025: RM 25.273 million (per AR2025); Realised Income Available for Distribution: RM 26.314 million (per Q4 filing). Note: RM46.61m is total income (gross revenue minus property expenses), NOT realised distributable income.",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Realised Income",
+      "citation": "Atrium REIT 2025 Annual Report - Income Statement (Realised Profit) and Q4 filing",
       "dateAccessed": "2026-03-26",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior RM46.61m was materially wrong — confused total income with realised distributable income."
     },
     "T:367": {
-      "fact": "Total Distributions FY 2025: ~RM 13.95 million",
-      "source": "Calculated",
-      "citation": "Based on 9.30 sen DPU",
-      "dateAccessed": "2026-04-24",
-      "timeSensitive": false
+      "fact": "Total Distributions FY 2025: RM 24.962 million (per AR2025 and Q4 filing)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Income Distribution; Q4 2025 filing",
+      "dateAccessed": "2026-03-26",
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior RM13.95m was wrong (used 9.30 sen DPU and wrong unit count)."
     },
     "T:368": {
-      "fact": "Distribution Payout Ratio: ~29.9%",
+      "fact": "Distribution Payout Ratio: ~94.9% (RM24.962m / RM26.314m realised income avail.) or ~98.8% (RM24.962m / RM25.273m realised profit) — HIGH payout, not conservative",
       "source": "Calculated",
-      "citation": "Derived from distributions / realised income",
+      "citation": "Derived from AR2025 and Q4 filing distributions / realised income figures",
       "dateAccessed": "2026-04-24",
       "timeSensitive": false
     },
@@ -2857,18 +2879,20 @@
       "timeSensitive": false
     },
     "T:374": {
-      "fact": "2025 DPU: 9.30 sen",
+      "fact": "2025 DPU: 9.40 sen",
       "source": "AR2025",
       "citation": "Atrium REIT 2025 Annual Report - Distribution",
       "dateAccessed": "2026-03-26",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior 9.30 sen was wrong."
     },
     "T:375": {
-      "fact": "Market Dividend Yield: 7.27%",
+      "fact": "Market Dividend Yield: 7.34% (9.40 sen \u00f7 RM 1.28)",
       "source": "Calculated",
-      "citation": "9.30 sen \u00f7 RM 1.280",
+      "citation": "9.40 sen \u00f7 RM 1.28 (KLSE Screener 24 Apr 2026)",
       "dateAccessed": "2026-04-24",
-      "timeSensitive": true
+      "timeSensitive": true,
+      "note": "CORRECTED 2026-04-26: Prior 7.27% (or 7.38%) used wrong DPU of 9.30 sen."
     },
     "T:376": {
       "fact": "Price-to-Book (P/B): 0.92x",
@@ -2893,18 +2917,20 @@
       "url": "https://www.klsescreener.com/v2/stocks/5130"
     },
     "T:379": {
-      "fact": "Market Yield: 7.27%",
+      "fact": "Market Yield: 7.34% (9.40 sen \u00f7 RM 1.28, 24 Apr 2026)",
       "source": "Calculated",
-      "citation": "9.30 sen \u00f7 RM 1.280",
+      "citation": "9.40 sen \u00f7 RM 1.28",
       "dateAccessed": "2026-04-24",
-      "timeSensitive": true
+      "timeSensitive": true,
+      "note": "CORRECTED 2026-04-26."
     },
     "T:380": {
-      "fact": "NAV-Based Yield: ~6.7%",
+      "fact": "NAV-Based Yield: ~6.78% (9.40 sen \u00f7 RM 1.3874)",
       "source": "Calculated",
-      "citation": "9.30 sen \u00f7 RM 1.3874",
+      "citation": "9.40 sen \u00f7 RM 1.3874 NAV per unit",
       "dateAccessed": "2026-04-24",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "note": "CORRECTED 2026-04-26: Prior ~6.7% used wrong DPU."
     },
     "T:381": {
       "fact": "Current Trading Price: RM 1.280",
@@ -2922,14 +2948,14 @@
       "timeSensitive": false
     },
     "T:383": {
-      "fact": "P/B = 0.92x (8% discount)",
+      "fact": "P/B = 0.92x (~7.7% discount); RM1.28 ÷ RM1.3874 = 0.923",
       "source": "Calculated",
-      "citation": "Current price vs NAV comparison",
+      "citation": "Current price vs NAV comparison (24 Apr 2026)",
       "dateAccessed": "2026-04-24",
       "timeSensitive": true
     },
     "T:384": {
-      "fact": "Yield Enhancement: 7.27% market yield vs 6.7% NAV yield",
+      "fact": "Yield Enhancement: 7.34% market yield vs 6.78% NAV yield (based on corrected DPU 9.40 sen)",
       "source": "Calculated",
       "citation": "Discount provides yield enhancement",
       "dateAccessed": "2026-04-24",
@@ -2958,11 +2984,12 @@
       "timeSensitive": true
     },
     "T:388": {
-      "fact": "Atrium Market Yield: 7.27%",
+      "fact": "Atrium Market Yield: 7.34% (9.40 sen ÷ RM1.28, 24 Apr 2026)",
       "source": "Calculated",
-      "citation": "DPU / Current Price",
+      "citation": "DPU 9.40 sen / Current Price RM1.28",
       "dateAccessed": "2026-04-24",
-      "timeSensitive": true
+      "timeSensitive": true,
+      "note": "CORRECTED 2026-04-26: Prior 7.27% used wrong DPU (9.30 sen)."
     },
     "T:389": {
       "fact": "Axis REIT Price (April 2026): RM 2.050",
@@ -2995,18 +3022,20 @@
       "timeSensitive": true
     },
     "T:393": {
-      "fact": "Yield Difference: +2.12pp (Atrium advantage)",
+      "fact": "Yield Difference: +2.19pp (Atrium 7.34% vs Axis 5.15%)",
       "source": "Calculated",
-      "citation": "7.27% - 5.15%",
+      "citation": "7.34% - 5.15%",
       "dateAccessed": "2026-04-24",
-      "timeSensitive": true
+      "timeSensitive": true,
+      "note": "CORRECTED 2026-04-26."
     },
     "T:394": {
-      "fact": "Atrium 7.27% vs Axis 5.15% (2.12pp higher)",
+      "fact": "Atrium 7.34% vs Axis 5.15% (+2.19pp higher)",
       "source": "Calculated",
-      "citation": "Market yield comparison",
+      "citation": "Market yield comparison (24 Apr 2026)",
       "dateAccessed": "2026-04-24",
-      "timeSensitive": true
+      "timeSensitive": true,
+      "note": "CORRECTED 2026-04-26."
     },
     "T:395": {
       "fact": "Atrium P/B 0.92x (discount)",
@@ -3758,20 +3787,22 @@
       "url": "https://www.axis-reit.com.my"
     },
     "T:495": {
-      "fact": "Atrium Market Cap: ~RM 600m",
+      "fact": "Atrium Market Cap: ~RM 340m (RM1.28 × ~265.5m units, 24 Apr 2026)",
       "source": "KLSE",
       "citation": "KLSE Screener",
       "dateAccessed": "2026-04-24",
       "timeSensitive": true,
-      "url": "https://www.klsescreener.com/v2/stocks/5130"
+      "url": "https://www.klsescreener.com/v2/stocks/5130",
+      "note": "CORRECTED 2026-04-26: Prior ~RM600m was materially wrong; correct market cap ~RM337m–RM340m."
     },
     "T:496": {
-      "fact": "Axis Market Cap: ~RM 3.5b",
+      "fact": "Axis Market Cap: ~RM 4.1b (RM2.05 × ~2,000m units approx., 24 Apr 2026)",
       "source": "KLSE",
       "citation": "KLSE Screener",
       "dateAccessed": "2026-04-24",
       "timeSensitive": true,
-      "url": "https://www.klsescreener.com/v2/stocks/5106"
+      "url": "https://www.klsescreener.com/v2/stocks/5106",
+      "note": "CORRECTED 2026-04-26: Updated to reflect RM2.05 price."
     },
     "T:497": {
       "fact": "Axis Liquidity: Higher",

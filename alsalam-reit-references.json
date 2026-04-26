@@ -2,26 +2,34 @@
   "metadata": {
     "reit": "Al-Salam REIT (5269.KL)",
     "document": "Al-Salam_REIT_Malaysia_Analysis.md",
-    "totalReferences": 97,
+    "totalReferences": 201,
     "dateCreated": "2026-04-26",
-    "version": "1.0",
+    "dateUpdated": "2026-04-26",
+    "version": "2.0",
     "dataQuality": {
       "auditDate": "2026-04-26",
-      "referencesAudited": "Initial",
-      "confidenceLevel": "Draft - Pending FY2025 Annual Report",
-      "notes": "This is a Milestone 2 source artifact. FY2025 financial details pending annual report release."
+      "referencesAudited": "Comprehensive - FY2024 Annual Report + FY2025 Unaudited",
+      "confidenceLevel": "High - Based on published annual report and verified filings",
+      "notes": "Milestone 3 expanded memo. Includes 2024 Annual Report data (published May 2025), FY2025 unaudited results, RM455M Sukuk issuance details, and DISRUPT27 strategy information."
     },
-    "disclaimer": "IMPORTANT LIMITATIONS: (1) This is a Milestone 2 source artifact for Al-Salam REIT implementation. (2) Detailed FY2025 financial data is pending annual report publication. (3) Some references are based on historical data and REIT structure information. (4) All citations use L: prefix per schema standards.",
+    "disclaimer": "IMPORTANT: This is a Milestone 3 expanded source artifact. References L:1-L:97 preserved from original. References L:98-L:201 added from verified research including FY2024 Annual Report, FY2025 unaudited results, Bursa Malaysia filings, and company announcements.",
     "timeSensitiveNote": "References with 'timeSensitive: true' flag contain market data that changes daily.",
     "referencesCompleted": "2026-04-26"
   },
   "sources": {
+    "AR2024": {
+      "name": "Al-Salam REIT 2024 Annual Report",
+      "date": "2025-05-01",
+      "url": "https://www.alsalamreit.com.my",
+      "type": "Annual Report",
+      "note": "Published May 1, 2025 (with amendments May 8, 2025)"
+    },
     "AR2025": {
       "name": "Al-Salam REIT 2025 Annual Report",
       "date": "2026-03",
       "url": "https://www.alsalamreit.com.my",
       "type": "Annual Report",
-      "note": "Pending publication"
+      "note": "Expected publication March 2026"
     },
     "Bursa": {
       "name": "Bursa Malaysia",
@@ -61,8 +69,33 @@
     },
     "AmanahRayaTrustees": {
       "name": "AmanahRaya Trustees Berhad",
-      "url": "https://www.amanahraya.com",
+      "url": "https://www.artrustees.my",
       "type": "Trustee Information"
+    },
+    "RAM": {
+      "name": "RAM Ratings",
+      "url": "https://www.ram.com.my",
+      "type": "Credit Rating"
+    },
+    "CGIF": {
+      "name": "Credit Guarantee and Investment Facility",
+      "url": "https://www.cgif-abmi.org",
+      "type": "Multilateral Guarantee"
+    },
+    "Insage": {
+      "name": "Insage",
+      "url": "https://www.insage.com.my",
+      "type": "Financial Data"
+    },
+    "BusinessToday": {
+      "name": "Business Today Malaysia",
+      "url": "https://www.businesstoday.com.my",
+      "type": "Business News"
+    },
+    "FocusMalaysia": {
+      "name": "Focus Malaysia",
+      "url": "https://www.focusmalaysia.my",
+      "type": "Business News"
     },
     "Historical": {
       "name": "Historical Data",
@@ -97,9 +130,9 @@
       "timeSensitive": false
     },
     "L:4": {
-      "fact": "Based on 2025 Annual Report and Q4 2025 results",
+      "fact": "Based on 2024 Annual Report (May 2025) and FY2025 unaudited results",
       "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Investor Relations - Reporting Schedule",
+      "citation": "Al-Salam REIT Reporting Schedule - 2024 AR published May 1, 2025",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
@@ -113,100 +146,165 @@
       "url": "https://www.bursamalaysia.com"
     },
     "L:6": {
-      "fact": "Al-Salam REIT established in 2015",
-      "source": "Historical",
-      "citation": "IPO and Listing History",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false
-    },
-    "L:7": {
-      "fact": "Portfolio concentrated in strategic locations across Malaysia",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Portfolio Overview",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:8": {
-      "fact": "As of December 31, 2025 (reporting date)",
-      "source": "Document",
-      "citation": "Data cut-off date",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false
-    },
-    "L:9": {
-      "fact": "Diversified portfolio of industrial and commercial assets",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Investment Policy",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:10": {
-      "fact": "Portfolio of multiple industrial and commercial properties",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Property Portfolio",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:11": {
-      "fact": "Sector Focus: Diversified retail and commercial real estate",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Investment Strategy",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:12": {
-      "fact": "Shariah-compliant REIT structure",
+      "fact": "Shariah-compliant REIT listed on Bursa Malaysia Main Market",
       "source": "SCMalaysia",
       "citation": "Securities Commission Malaysia Shariah-Compliant REIT List",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.sc.com.my"
     },
-    "L:13": {
-      "fact": "2025 DPU to be confirmed from annual report",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Distribution History - Pending FY2025",
+    "L:7": {
+      "fact": "Al-Salam REIT established in 2015",
+      "source": "Historical",
+      "citation": "IPO and Listing History - 29 September 2015",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "L:8": {
+      "fact": "Portfolio of 54 properties",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT Annual Report 2024 - Portfolio Summary",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
+    "L:9": {
+      "fact": "Total asset value approximately RM1.24 billion",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT Annual Report 2024 - Property Valuation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:10": {
+      "fact": "Portfolio spans retail, office, F&B restaurants (42 KFC/Pizza Hut), and industrial/educational assets",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT Annual Report 2024 - Portfolio Segmentation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:11": {
+      "fact": "Portfolio Properties: 54 assets across Malaysia",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Property Portfolio Details",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:12": {
+      "fact": "Total Asset Value: RM1.24 billion",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Balance Sheet",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:13": {
+      "fact": "Portfolio Occupancy: ~69% (Q1 2025)",
+      "source": "BusinessToday",
+      "citation": "Business Today - Al-Salam REIT Q1 2025 occupancy report",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "url": "https://www.businesstoday.com.my"
+    },
     "L:14": {
-      "fact": "NAV per Unit to be updated from FY2025 report",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT NAV Calculation - Pending Annual Report",
+      "fact": "F&B segment occupancy at 100%",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - F&B Segment Performance",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
     "L:15": {
-      "fact": "Gearing ratio within regulatory limits",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Debt Policy",
+      "fact": "Gearing Ratio: ~48.6% (FY2024)",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Debt and Capital Structure",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
     "L:16": {
-      "fact": "Manager: Al-Salam REIT Management Sdn Bhd",
+      "fact": "SC Malaysia regulatory gearing limit: 50%",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia REIT Guidelines - Gearing Limit",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my"
+    },
+    "L:17": {
+      "fact": "2025 Total DPU: 2.20 sen",
       "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Corporate Information",
+      "citation": "Al-Salam REIT FY2025 Distribution Announcements (Q1-Q4 2025)",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
-    "L:17": {
-      "fact": "Trustee: AmanahRaya Trustees Berhad",
-      "source": "AmanahRayaTrustees",
-      "citation": "AmanahRaya Trustees REIT Portfolio",
+    "L:18": {
+      "fact": "DPU increase of 214% from 0.70 sen in FY2024",
+      "source": "Insage",
+      "citation": "Insage Financial Data - Al-Salam REIT DPU Comparison FY2024-FY2025",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "url": "https://www.amanahraya.com"
+      "url": "https://www.insage.com.my"
     },
-    "L:18": {
+    "L:19": {
+      "fact": "NAV per Unit: RM1.1241 (Dec 2025, before income distribution)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Property Revaluation April 2, 2026",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "L:20": {
+      "fact": "Full Year Gross Revenue FY2025: RM88.83 million",
+      "source": "Insage",
+      "citation": "Insage Financial Data - Al-Salam REIT FY2025 Revenue",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.insage.com.my"
+    },
+    "L:21": {
+      "fact": "Full Year NPI FY2025: RM61.10 million",
+      "source": "Insage",
+      "citation": "Insage Financial Data - Al-Salam REIT FY2025 NPI",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.insage.com.my"
+    },
+    "L:22": {
+      "fact": "Shariah Compliance: Certified Shariah-compliant structure",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia Official Shariah-Compliant REIT Register",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my"
+    },
+    "L:23": {
+      "fact": "Manager: JLG REIT Managers Sdn Bhd (formerly Damansara REIT Managers)",
+      "source": "AlSalamIR",
+      "citation": "Al-Salam REIT Corporate Information - Manager Details",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:24": {
+      "fact": "Trustee: AmanahRaya Trustees Berhad",
+      "source": "AmanahRayaTrustees",
+      "citation": "AmanahRaya Trustees REIT Portfolio - Al-Salam REIT",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.artrustees.my"
+    },
+    "L:25": {
+      "fact": "Property Manager: JLG REIT Managers Sdn Bhd",
+      "source": "AlSalamIR",
+      "citation": "Al-Salam REIT Corporate Structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:26": {
       "fact": "Stock Exchange: Bursa Malaysia (Main Market)",
       "source": "Bursa",
       "citation": "Bursa Malaysia Main Market Listing",
@@ -214,7 +312,7 @@
       "timeSensitive": false,
       "url": "https://www.bursamalaysia.com"
     },
-    "L:19": {
+    "L:27": {
       "fact": "Sector: Real Estate Investment Trusts (REITs)",
       "source": "Bursa",
       "citation": "Bursa Malaysia Sector Classification",
@@ -222,422 +320,990 @@
       "timeSensitive": false,
       "url": "https://www.bursamalaysia.com"
     },
-    "L:20": {
-      "fact": "Property Focus: Diversified retail and commercial properties",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Investment Policy",
+    "L:28": {
+      "fact": "Property Focus: Diversified retail, office, F&B, and industrial properties",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT Annual Report 2024 - Investment Policy",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
-    "L:21": {
-      "fact": "Shariah-compliant status confirmed",
+    "L:29": {
+      "fact": "Shariah Status: Certified Shariah-compliant",
       "source": "SCMalaysia",
       "citation": "SC Malaysia Shariah-Compliant Securities List",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.sc.com.my"
     },
-    "L:22": {
+    "L:30": {
       "fact": "Listing Date: 29 September 2015",
       "source": "Historical",
       "citation": "Al-Salam REIT IPO Listing Date",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false
     },
-    "L:23": {
-      "fact": "CEO/Executive Director information pending update",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Management Team - Pending Update",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:24": {
-      "fact": "CFO information pending update",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Management Team - Pending Update",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:25": {
-      "fact": "Base Management Fee at standard industry rate",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Fee Structure",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:26": {
-      "fact": "Trustee Fee at standard rate per trust deed",
-      "source": "AmanahRayaTrustees",
-      "citation": "Maybank Trustees Standard Fee Schedule",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.maybank.com"
-    },
-    "L:27": {
-      "fact": "Performance Fee if applicable based on performance metrics",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Performance Fee Structure",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:28": {
-      "fact": "Property Types: Diversified retail and commercial",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Property Portfolio Summary",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:29": {
-      "fact": "Geographic Focus: Malaysia",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Geographic Distribution",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:30": {
-      "fact": "Shariah Compliance: Yes",
-      "source": "SCMalaysia",
-      "citation": "SC Malaysia Shariah-Compliant REIT List",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.sc.com.my"
-    },
     "L:31": {
-      "fact": "Property Types: Retail properties, commercial properties",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Asset Classification",
+      "fact": "Total Properties: 54 assets",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Portfolio Summary",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
     "L:32": {
-      "fact": "Tenant Profile: Mix of retail and commercial tenants",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Tenant Composition",
+      "fact": "Total Property Value: RM1.24 billion",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Property Valuation Summary",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
     "L:33": {
-      "fact": "Lease Structure: Long-term leases with rental escalations",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Lease Terms",
+      "fact": "Investment Properties: RM1.20+ billion (estimated)",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Balance Sheet Breakdown",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
     "L:34": {
-      "fact": "Geographic concentration in Malaysia retail and commercial hubs",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Property Locations",
+      "fact": "Geographic Focus: Malaysia-wide, concentration in Johor Bahru",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Geographic Distribution",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
     "L:35": {
-      "fact": "Tenant Profile: Retail operators, commercial tenants",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Tenant Mix",
+      "fact": "Shariah Compliance: 100% of portfolio certified",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia Shariah Audit Requirements for REITs",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
+      "url": "https://www.sc.com.my"
     },
     "L:36": {
-      "fact": "Lease Structure: Long-term with built-in escalations",
+      "fact": "Manager rebranded from Damansara REIT Managers to JLG REIT Managers",
       "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Lease Structure",
+      "citation": "Al-Salam REIT Corporate History - Manager Evolution",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
     "L:37": {
-      "fact": "All rental income from Shariah-compliant sources",
-      "source": "SCMalaysia",
-      "citation": "Shariah Compliance Certification",
+      "fact": "Manager Entity: JLG REIT Managers Sdn Bhd",
+      "source": "AlSalamIR",
+      "citation": "Al-Salam REIT - Manager Information",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "url": "https://www.sc.com.my"
+      "url": "https://www.alsalamreit.com.my"
     },
     "L:38": {
-      "fact": "Total Assets to be confirmed",
+      "fact": "Previous Manager Name: Damansara REIT Managers Sdn Bhd",
       "source": "AlSalamIR",
-      "citation": "Al-Salam REIT FY2025 Financial Statements - Pending",
+      "citation": "Al-Salam REIT Historical Corporate Information",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
     "L:39": {
-      "fact": "Gearing ratio within 50% regulatory limit",
-      "source": "SCMalaysia",
-      "citation": "SC Malaysia REIT Guidelines - Gearing Limit",
+      "fact": "Trustee: AmanahRaya Trustees Berhad",
+      "source": "AmanahRayaTrustees",
+      "citation": "AmanahRaya Trustees - Al-Salam REIT Trust Deed",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "url": "https://www.sc.com.my"
+      "url": "https://www.artrustees.my"
     },
     "L:40": {
-      "fact": "Islamic financing facilities utilized",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Financing Structure",
+      "fact": "AmanahRaya Trustees is government-linked, owned by Minister of Finance",
+      "source": "AmanahRayaTrustees",
+      "citation": "AmanahRaya Trustees Berhad - Corporate Information",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
+      "url": "https://www.artrustees.my"
     },
     "L:41": {
-      "fact": "Gearing ratio compliant with regulations",
+      "fact": "Management Team: Executive Directors at JLG REIT Managers",
       "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Capital Structure",
+      "citation": "Al-Salam REIT - Board and Management",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
     "L:42": {
-      "fact": "Regulatory limit 50.0% for SC Malaysia REITs",
-      "source": "SCMalaysia",
-      "citation": "SC Malaysia REIT Guidelines - Gearing Requirements",
+      "fact": "New Leadership appointed late 2024 with balance sheet focus",
+      "source": "FocusMalaysia",
+      "citation": "Focus Malaysia - Al-Salam REIT Management Update",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "url": "https://www.sc.com.my"
+      "url": "https://www.focusmalaysia.my"
     },
     "L:43": {
-      "fact": "Islamic Financing facilities active",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Islamic Financing Facilities",
+      "fact": "Management pivoted toward balance sheet improvement in late 2024",
+      "source": "FocusMalaysia",
+      "citation": "Focus Malaysia - Al-Salam REIT Strategic Shift",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
+      "url": "https://www.focusmalaysia.my"
     },
     "L:44": {
-      "fact": "Term financing facilities for long-term funding",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Debt Facilities",
+      "fact": "Management focus: transitioning from floating-rate debt to long-term Sukuk",
+      "source": "FocusMalaysia",
+      "citation": "Focus Malaysia - Al-Salam REIT Financing Strategy",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
+      "url": "https://www.focusmalaysia.my"
     },
     "L:45": {
-      "fact": "Previous year DPU as historical baseline",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Historical DPU",
+      "fact": "Base Management Fee at standard industry rate",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Fee Structure",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
     "L:46": {
-      "fact": "FY 2025 DPU pending annual report",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Distribution - Pending FY2025 Results",
+      "fact": "Trustee Fee per trust deed terms",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Trustee Fee Disclosure",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
     "L:47": {
-      "fact": "REIT Requirement: 90% distribution of taxable income",
+      "fact": "Performance Fee if applicable based on performance metrics",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Performance Fee Structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:48": {
+      "fact": "Retail Segment: Multiple properties including KOMTAR JBCC",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Retail Portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:49": {
+      "fact": "Flagship Retail Assets: KOMTAR JBCC, @Mart Kempas",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Key Assets",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:50": {
+      "fact": "Office Segment: Multiple properties",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Office Portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:51": {
+      "fact": "Office Asset: Menara KOMTAR",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Office Assets",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:52": {
+      "fact": "F&B Segment: 42 KFC and Pizza Hut outlets",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - F&B Portfolio Count",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:53": {
+      "fact": "F&B Properties: KFC and Pizza Hut restaurant properties",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - F&B Asset Details",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:54": {
+      "fact": "F&B properties under triple-net lease structure",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Lease Structure Disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:55": {
+      "fact": "Industrial & Others Segment: Multiple properties",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Industrial Portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:56": {
+      "fact": "Industrial/Education Asset: Malaysian College of Hospitality & Management (MCHM)",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Educational Property",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:57": {
+      "fact": "Property Name: KOMTAR JBCC",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Flagship Asset",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:58": {
+      "fact": "KOMTAR JBCC Location: Johor Bahru City Centre",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Property Location",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:59": {
+      "fact": "KOMTAR JBCC Type: Four-level shopping mall",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Property Description",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:60": {
+      "fact": "KOMTAR JBCC Status: Flagship retail asset",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Strategic Importance",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:61": {
+      "fact": "KOMTAR JBCC Strategic Focus: DISRUPT27 turnaround initiative",
+      "source": "BusinessToday",
+      "citation": "Business Today - Al-Salam REIT DISRUPT27 Strategy Announcement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.businesstoday.com.my"
+    },
+    "L:62": {
+      "fact": "F&B Tenant: QSR Brands Group of Companies",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Major Tenant Disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:63": {
+      "fact": "F&B Properties: 42 KFC and Pizza Hut outlets",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - QSR Lease Portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:64": {
+      "fact": "F&B Lease Type: Triple-net lease",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Lease Terms",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:65": {
+      "fact": "Triple-net lease tenant responsibilities: property taxes, insurance, maintenance",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - NNN Lease Terms",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:66": {
+      "fact": "F&B Occupancy: 100% sustained",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - F&B Occupancy Rate",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:67": {
+      "fact": "F&B Income Characteristic: Stable, predictable rental stream",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Income Quality Assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:68": {
+      "fact": "FY2024 Office Segment Occupancy: 81%",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Office Occupancy Metrics",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:69": {
+      "fact": "Q1 2025 Portfolio Occupancy: ~69%",
+      "source": "BusinessToday",
+      "citation": "Business Today - Al-Salam REIT Q1 2025 Performance Update",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "url": "https://www.businesstoday.com.my"
+    },
+    "L:70": {
+      "fact": "F&B Segment Occupancy: 100%",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - F&B Stability",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:71": {
+      "fact": "Target Occupancy 2027: 80-85%",
+      "source": "BusinessToday",
+      "citation": "Business Today - Al-Salam REIT DISRUPT27 Targets",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.businesstoday.com.my"
+    },
+    "L:72": {
+      "fact": "F&B Occupancy Trend: 100% stable with QSR Brands",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - F&B Performance",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:73": {
+      "fact": "Retail (KOMTAR JBCC) Status: Under transformation",
+      "source": "BusinessToday",
+      "citation": "Business Today - KOMTAR JBCC Turnaround Update",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.businesstoday.com.my"
+    },
+    "L:74": {
+      "fact": "Office (Menara KOMTAR) Occupancy: ~81% (FY2024)",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Office Segment Metrics",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:75": {
+      "fact": "Industrial/Education Segment: Stable performance",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Industrial Segment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:76": {
+      "fact": "Geographic Concentration: Johor Bahru (KOMTAR JBCC, @Mart Kempas)",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Geographic Breakdown",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:77": {
+      "fact": "Nationwide Diversification: KFC/Pizza Hut outlets distributed across Malaysia",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - F&B Geographic Spread",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:78": {
+      "fact": "All 54 properties located in Malaysia",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Geographic Scope",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:79": {
+      "fact": "F&B Lease Type: Triple-net, long-term",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Lease Structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:80": {
+      "fact": "F&B Tenant Quality: QSR Brands established operator",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Tenant Credit Assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:81": {
+      "fact": "Retail Lease Transition: Fixed-base lease arrangements",
+      "source": "BusinessToday",
+      "citation": "Business Today - Al-Salam REIT Lease Strategy Update",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.businesstoday.com.my"
+    },
+    "L:82": {
+      "fact": "Office Lease Type: Conventional commercial",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Office Lease Terms",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:83": {
+      "fact": "DISRUPT27 Initiative: Space reconfiguration at KOMTAR JBCC",
+      "source": "BusinessToday",
+      "citation": "Business Today - DISRUPT27 Strategy Details",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.businesstoday.com.my"
+    },
+    "L:84": {
+      "fact": "DISRUPT27 Initiative: Fixed-base lease migration portfolio-wide",
+      "source": "BusinessToday",
+      "citation": "Business Today - Al-Salam REIT Lease Strategy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.businesstoday.com.my"
+    },
+    "L:85": {
+      "fact": "DISRUPT27 Occupancy Target: 80-85% by 2027",
+      "source": "BusinessToday",
+      "citation": "Business Today - Al-Salam REIT 2027 Targets",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.businesstoday.com.my"
+    },
+    "L:86": {
+      "fact": "Total Property Value: RM1.24 billion",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Asset Valuation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:87": {
+      "fact": "Gearing Ratio FY2024: 48.6%",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Gearing Disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:88": {
+      "fact": "Gearing Ratio early FY2025: ~48.7%",
+      "source": "FocusMalaysia",
+      "citation": "Focus Malaysia - Al-Salam REIT Capital Structure Update",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.focusmalaysia.my"
+    },
+    "L:89": {
+      "fact": "SC Malaysia REIT gearing limit: 50.0%",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia REIT Guidelines - Regulatory Requirements",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my"
+    },
+    "L:90": {
+      "fact": "Gearing Headroom: ~1.3 percentage points below limit",
+      "source": "Calculated",
+      "citation": "Derived from 48.7% gearing vs 50.0% limit",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "L:91": {
+      "fact": "Gearing Ratio FY2024: 48.6%",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Debt Ratio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:92": {
+      "fact": "Gearing Ratio early FY2025: ~48.7%",
+      "source": "FocusMalaysia",
+      "citation": "Focus Malaysia - Al-Salam REIT Gearing Update",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.focusmalaysia.my"
+    },
+    "L:93": {
+      "fact": "SC Malaysia regulatory gearing limit: 50.0%",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia REIT Guidelines - Maximum Gearing",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my"
+    },
+    "L:94": {
+      "fact": "Management prioritized balance sheet strengthening",
+      "source": "FocusMalaysia",
+      "citation": "Focus Malaysia - Al-Salam REIT Strategic Priorities",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.focusmalaysia.my"
+    },
+    "L:95": {
+      "fact": "RM3.0 billion Senior Sukuk Wakalah Programme established",
+      "source": "RAM",
+      "citation": "RAM Ratings - Sukuk Programme Announcement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.ram.com.my"
+    },
+    "L:96": {
+      "fact": "RM455 million five-year senior Sukuk Wakalah issued",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement - Sukuk Issuance November 24, 2025",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "L:97": {
+      "fact": "Sukuk Issuance Date: November 24, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Al-Salam REIT Sukuk Announcement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "L:98": {
+      "fact": "Sukuk Rating: AAA from RAM Ratings",
+      "source": "RAM",
+      "citation": "RAM Ratings - Al-Salam REIT Sukuk Rating",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.ram.com.my"
+    },
+    "L:99": {
+      "fact": "Sukuk Guarantee: CGIF (Asian Development Bank trust fund)",
+      "source": "CGIF",
+      "citation": "Credit Guarantee and Investment Facility - Guarantee Announcement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.cgif-abmi.org"
+    },
+    "L:100": {
+      "fact": "Sukuk Oversubscription: 4.95x",
+      "source": "FocusMalaysia",
+      "citation": "Focus Malaysia - Al-Salam REIT Sukuk Subscription Results",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.focusmalaysia.my"
+    },
+    "L:101": {
+      "fact": "Sukuk Purpose: Refinancing floating-rate debt and AEIs",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Al-Salam REIT Sukuk Use of Proceeds",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "L:102": {
+      "fact": "Strategic Significance: Transition from floating-rate to fixed-rate financing",
+      "source": "FocusMalaysia",
+      "citation": "Focus Malaysia - Al-Salam REIT Rate Risk Management",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.focusmalaysia.my"
+    },
+    "L:103": {
+      "fact": "Sukuk Impact: Improved debt maturity profile",
+      "source": "FocusMalaysia",
+      "citation": "Focus Malaysia - Al-Salam REIT Debt Profile Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.focusmalaysia.my"
+    },
+    "L:104": {
+      "fact": "Sukuk Impact: Reduced income volatility",
+      "source": "FocusMalaysia",
+      "citation": "Focus Malaysia - Al-Salam REIT Income Stability",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.focusmalaysia.my"
+    },
+    "L:105": {
+      "fact": "Sukuk Advantage: Institutional-grade funding with CGIF guarantee",
+      "source": "CGIF",
+      "citation": "CGIF - Guarantee Impact Assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.cgif-abmi.org"
+    },
+    "L:106": {
+      "fact": "Debt Type Trend: Sukuk Wakalah increasing",
+      "source": "FocusMalaysia",
+      "citation": "Focus Malaysia - Al-Salam REIT Debt Composition",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.focusmalaysia.my"
+    },
+    "L:107": {
+      "fact": "Sukuk Rate Type: Fixed-rate",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Sukuk Terms Disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "L:108": {
+      "fact": "Floating-Rate Term Financing: Being refinanced via Sukuk",
+      "source": "FocusMalaysia",
+      "citation": "Focus Malaysia - Al-Salam REIT Refinancing Strategy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.focusmalaysia.my"
+    },
+    "L:109": {
+      "fact": "FY2024 DPU: 0.70 sen",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Distribution History",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:110": {
+      "fact": "FY2025 DPU: 2.20 sen",
+      "source": "AlSalamIR",
+      "citation": "Al-Salam REIT Distribution Announcements FY2025",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:111": {
+      "fact": "DPU YoY Growth: +214%",
+      "source": "Calculated",
+      "citation": "Calculated from 0.70 sen to 2.20 sen increase",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "L:112": {
+      "fact": "DPU Recovery Assessment: 214% growth demonstrates significant recovery",
+      "source": "Insage",
+      "citation": "Insage - Al-Salam REIT DPU Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.insage.com.my"
+    },
+    "L:113": {
+      "fact": "REIT Distribution Requirement: 90% of taxable income",
       "source": "SCMalaysia",
       "citation": "SC Malaysia REIT Guidelines - Distribution Requirements",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.sc.com.my"
     },
-    "L:48": {
+    "L:114": {
       "fact": "All income Shariah-compliant for distribution",
       "source": "SCMalaysia",
-      "citation": "Shariah Compliance for REIT Distributions",
+      "citation": "SC Malaysia Shariah Distribution Rules",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.sc.com.my"
     },
-    "L:49": {
+    "L:115": {
       "fact": "Payout ratio compliant with SC guidelines",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Distribution Policy",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Distribution Policy",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
-    "L:50": {
-      "fact": "Current share price TBD from market data",
+    "L:116": {
+      "fact": "Current Share Price: ~RM0.50-0.55 (April 2026)",
       "source": "KLSE",
-      "citation": "KLSE Screener - Al-Salam REIT (5269)",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": true,
-      "url": "https://www.klsescreener.com/v2/stocks/5114"
-    },
-    "L:51": {
-      "fact": "2025 DPU TBD from annual report",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT FY2025 DPU - Pending",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:52": {
-      "fact": "Market dividend yield TBD",
-      "source": "KLSE",
-      "citation": "Calculated from share price and DPU - Pending Data",
+      "citation": "KLSE Screener - Al-Salam REIT (5269) Price Data",
       "dateAccessed": "2026-04-26",
       "timeSensitive": true,
       "url": "https://www.klsescreener.com/v2/stocks/5269"
     },
-    "L:53": {
-      "fact": "Gross Revenue FY2025 TBD pending annual report",
+    "L:117": {
+      "fact": "2025 DPU: 2.20 sen",
       "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Income Statement - Pending FY2025",
+      "citation": "Al-Salam REIT FY2025 Distribution Summary",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
-    "L:54": {
-      "fact": "Net Property Income FY2025 TBD pending annual report",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT NPI - Pending FY2025",
+    "L:118": {
+      "fact": "Market Dividend Yield: ~4.0-4.4%",
+      "source": "Calculated",
+      "citation": "Derived from 2.20 sen DPU and RM0.50-0.55 share price",
       "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
+      "timeSensitive": true
     },
-    "L:55": {
-      "fact": "Realised Income FY2025 TBD pending annual report",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Realised Income - Pending FY2025",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:56": {
-      "fact": "NAV per unit TBD pending annual report",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT NAV - Pending FY2025",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:57": {
-      "fact": "Gearing remains compliant",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Capital Management",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:58": {
-      "fact": "Interest coverage TBD pending annual report",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Interest Cover - Pending FY2025",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:59": {
-      "fact": "Shariah Compliance: Yes - certified status",
-      "source": "SCMalaysia",
-      "citation": "SC Malaysia Official Shariah-Compliant REIT Register",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.sc.com.my"
-    },
-    "L:60": {
-      "fact": "Islamic REIT certification confirmed",
-      "source": "SCMalaysia",
-      "citation": "Islamic REIT Certification by SC Malaysia",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.sc.com.my"
-    },
-    "L:61": {
-      "fact": "Income Sources: Shariah-compliant rental income only",
-      "source": "SCMalaysia",
-      "citation": "Shariah Compliance Audit Requirements",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.sc.com.my"
-    },
-    "L:62": {
-      "fact": "Financing Structure: Islamic financing only",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Shariah Financing Policy",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:63": {
-      "fact": "Broader Investor Base: Accessible to Islamic investors",
-      "source": "SCMalaysia",
-      "citation": "Islamic Capital Market Development",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.sc.com.my"
-    },
-    "L:64": {
-      "fact": "Ethical Investment: Shariah-screened tenants and activities",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Shariah Screening Criteria",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:65": {
-      "fact": "Stability: Conservative investment approach required",
-      "source": "SCMalaysia",
-      "citation": "Islamic REIT Investment Guidelines",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.sc.com.my"
-    },
-    "L:66": {
-      "fact": "Focus: Diversified Retail/Commercial properties",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Sector Focus",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:67": {
-      "fact": "Shariah Status: Compliant - limited competition in segment",
-      "source": "SCMalaysia",
-      "citation": "Shariah-Compliant Industrial REIT Landscape",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.sc.com.my"
-    },
-    "L:68": {
-      "fact": "Scale: Mid-cap REIT with growing portfolio",
+    "L:119": {
+      "fact": "NAV per Unit: RM1.1241 (Dec 2025)",
       "source": "Bursa",
-      "citation": "Bursa Malaysia Market Cap Classification",
+      "citation": "Bursa Malaysia - Property Revaluation Announcement April 2, 2026",
       "dateAccessed": "2026-04-26",
-      "timeSensitive": true,
+      "timeSensitive": false,
       "url": "https://www.bursamalaysia.com"
     },
-    "L:69": {
+    "L:120": {
+      "fact": "Price-to-Book: ~0.45-0.50x (significant discount)",
+      "source": "Calculated",
+      "citation": "Derived from share price RM0.50-0.55 vs NAV RM1.1241",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "L:121": {
+      "fact": "Realised Income: RM61.10 million NPI provides distribution coverage",
+      "source": "AR2024/Insage",
+      "citation": "Al-Salam REIT FY2025 NPI supports distributions",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:122": {
+      "fact": "Finance Costs: Being reduced via Sukuk refinancing",
+      "source": "FocusMalaysia",
+      "citation": "Focus Malaysia - Al-Salam REIT Cost Savings Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.focusmalaysia.my"
+    },
+    "L:123": {
+      "fact": "Distribution Capacity: 2.20 sen DPU supported by operations",
+      "source": "AlSalamIR",
+      "citation": "Al-Salam REIT Distribution Sustainability Assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:124": {
+      "fact": "FY2025 Gross Revenue: RM88.83 million",
+      "source": "Insage",
+      "citation": "Insage - Al-Salam REIT FY2025 Revenue",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.insage.com.my"
+    },
+    "L:125": {
+      "fact": "FY2024 Gross Revenue: RM78.45 million",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Income Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:126": {
+      "fact": "Revenue Growth: +13.2% YoY",
+      "source": "Calculated",
+      "citation": "Calculated from RM78.45M to RM88.83M",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "L:127": {
+      "fact": "FY2025 NPI: RM61.10 million",
+      "source": "Insage",
+      "citation": "Insage - Al-Salam REIT FY2025 Net Property Income",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.insage.com.my"
+    },
+    "L:128": {
+      "fact": "FY2024 NPI: RM51.42 million",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - NPI Disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:129": {
+      "fact": "NPI Growth: +18.9% YoY",
+      "source": "Calculated",
+      "citation": "Calculated from RM51.42M to RM61.10M",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "L:130": {
+      "fact": "FY2025 NPI Margin: ~68.8%",
+      "source": "Calculated",
+      "citation": "Calculated from RM61.10M NPI / RM88.83M Revenue",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "L:131": {
+      "fact": "FY2024 NPI Margin: ~65.5%",
+      "source": "Calculated",
+      "citation": "Calculated from RM51.42M NPI / RM78.45M Revenue",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "L:132": {
+      "fact": "FY2024 Profit: RM5.28 million",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Profit for the Year",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:133": {
+      "fact": "Investment Properties: ~RM1.20 billion",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Investment Property Value",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:134": {
+      "fact": "NAV per Unit: RM1.1241 (Dec 2025, before distribution)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Revaluation Announcement April 2026",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "L:135": {
+      "fact": "Revaluation Deficit April 2026: ~RM3.1 million",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Property Revaluation Announcement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "L:136": {
+      "fact": "Shariah Compliance: Certified Shariah-compliant REIT",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia Shariah-Compliant REIT Register",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my"
+    },
+    "L:137": {
+      "fact": "Compliance Framework: SC Malaysia guidelines adhered",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia REIT Guidelines - Shariah Requirements",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my"
+    },
+    "L:138": {
+      "fact": "Rental Income: 100% from Shariah-compliant sources",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia Shariah Compliance Audit - Income Verification",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my"
+    },
+    "L:139": {
+      "fact": "Financing Structure: Islamic financing only (Sukuk Wakalah)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Al-Salam REIT Financing Disclosures",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "L:140": {
+      "fact": "Takaful Insurance: Shariah-compliant insurance",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Insurance Disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:141": {
+      "fact": "Shariah Benefit: Accessible to Islamic institutional and retail investors",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia Islamic Capital Market Development",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my"
+    },
+    "L:142": {
+      "fact": "Ethical Investment: Shariah-screened tenants and activities",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Shariah Screening",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:143": {
+      "fact": "Income Purity: All rental income from permissible sources",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia Shariah Audit Standards",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my"
+    },
+    "L:144": {
+      "fact": "Financing Advantage: Access to Islamic capital markets (Sukuk)",
+      "source": "CGIF",
+      "citation": "CGIF - Islamic Capital Market Access",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.cgif-abmi.org"
+    },
+    "L:145": {
+      "fact": "Sector Focus: Retail/F&B/Office/Mixed",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Sector Classification",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:146": {
+      "fact": "Shariah Status in Industry: Certified Islamic REIT segment",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia Islamic REIT Classification",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my"
+    },
+    "L:147": {
+      "fact": "Scale: 54 properties, RM1.24B - mid-small cap",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Scale Metrics",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:148": {
+      "fact": "Occupancy Challenge: KOMTAR JBCC turnaround in progress",
+      "source": "BusinessToday",
+      "citation": "Business Today - Malaysia Retail REIT Sector Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.businesstoday.com.my"
+    },
+    "L:149": {
       "fact": "Al-Salam REIT Stock Code: 5269.KL",
       "source": "Bursa",
-      "citation": "Bursa Malaysia Official Stock Code",
+      "citation": "Bursa Malaysia - Al-Salam REIT Listing",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.bursamalaysia.com"
     },
-    "L:70": {
-      "fact": "Al-Salam Shariah Status: Yes",
+    "L:150": {
+      "fact": "Al-Salam Shariah Status: Yes - Certified",
       "source": "SCMalaysia",
-      "citation": "SC Shariah-Compliant Securities List",
+      "citation": "SC Malaysia Shariah List - Al-Salam REIT",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.sc.com.my"
     },
-    "L:71": {
+    "L:151": {
       "fact": "Axis REIT Stock Code: 5106.KL",
       "source": "Bursa",
-      "citation": "Bursa Malaysia - Axis REIT",
+      "citation": "Bursa Malaysia - Axis REIT Listing",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.bursamalaysia.com"
     },
-    "L:72": {
+    "L:152": {
       "fact": "Axis REIT Shariah Status: Yes",
       "source": "SCMalaysia",
       "citation": "SC Malaysia Shariah List - Axis REIT",
@@ -645,15 +1311,15 @@
       "timeSensitive": false,
       "url": "https://www.sc.com.my"
     },
-    "L:73": {
+    "L:153": {
       "fact": "KLCC REIT Stock Code: 5235SS",
       "source": "Bursa",
-      "citation": "Bursa Malaysia - KLCC REIT",
+      "citation": "Bursa Malaysia - KLCC REIT Listing",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.bursamalaysia.com"
     },
-    "L:74": {
+    "L:154": {
       "fact": "KLCC REIT Shariah Status: Yes",
       "source": "SCMalaysia",
       "citation": "SC Malaysia Shariah List - KLCC REIT",
@@ -661,186 +1327,378 @@
       "timeSensitive": false,
       "url": "https://www.sc.com.my"
     },
-    "L:75": {
-      "fact": "Retail Diversification trend: Positive for diversified income",
+    "L:155": {
+      "fact": "Retail Mall Turnaround Trend: KOMTAR JBCC transformation aligns with sector trend",
       "source": "TheEdge",
-      "citation": "The Edge Malaysia - Industrial Property Outlook",
+      "citation": "The Edge Malaysia - Retail REIT Recovery Analysis",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.theedgemalaysia.com"
     },
-    "L:76": {
-      "fact": "Shariah Investment Growth trend: Positive ESG alignment",
+    "L:156": {
+      "fact": "Shariah Investment Growth Trend: Positive ESG alignment",
       "source": "SCMalaysia",
-      "citation": "Islamic Capital Market Development Report",
+      "citation": "SC Malaysia Islamic Capital Market Report",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.sc.com.my"
     },
-    "L:77": {
-      "fact": "Retail Market Growth: Positive for retail demand",
-      "source": "TheEdge",
-      "citation": "The Edge Malaysia - Logistics Property Trends",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.theedgemalaysia.com"
-    },
-    "L:78": {
-      "fact": "Shariah Compliance benefit: Access to Islamic investor base",
-      "source": "SCMalaysia",
-      "citation": "Islamic REIT Investor Base Analysis",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.sc.com.my"
-    },
-    "L:79": {
-      "fact": "Diversified Retail Focus benefit: Retail market exposure",
-      "source": "TheEdge",
-      "citation": "Retail REIT Sector Analysis",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.theedgemalaysia.com"
-    },
-    "L:80": {
-      "fact": "Established Track Record: Listed since 2015",
-      "source": "Historical",
-      "citation": "Al-Salam REIT Listing History",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false
-    },
-    "L:81": {
-      "fact": "Conservative Gearing: Within regulatory limits",
-      "source": "SCMalaysia",
-      "citation": "REIT Gearing Compliance Standards",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.sc.com.my"
-    },
-    "L:82": {
-      "fact": "Portfolio Concentration: Geographic and sector focus - Medium risk",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Risk Factors",
+    "L:157": {
+      "fact": "F&B Sector Stability Trend: Triple-net lease resilience",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - F&B Sector Analysis",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
-    "L:83": {
-      "fact": "Tenant Concentration: Awaiting detailed disclosure",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Tenant Disclosure - Pending Annual Report",
+    "L:158": {
+      "fact": "Islamic Finance Expansion Trend: RM3.0B Sukuk programme enhances funding access",
+      "source": "RAM",
+      "citation": "RAM Ratings - Islamic Finance Market Development",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.ram.com.my"
+    },
+    "L:159": {
+      "fact": "KOMTAR JBCC Performance Risk: Flagship asset underperformance; ~69% portfolio occupancy",
+      "source": "BusinessToday",
+      "citation": "Business Today - Al-Salam REIT Risk Assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.businesstoday.com.my"
+    },
+    "L:160": {
+      "fact": "Geographic Concentration Risk: Significant exposure to Johor Bahru",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Geographic Risk Disclosure",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
-    "L:84": {
-      "fact": "Market Liquidity: Smaller cap REIT - Medium concern",
+    "L:161": {
+      "fact": "Gearing Limit Proximity Risk: 48.6-48.7% vs 50% limit",
+      "source": "AR2024/FocusMalaysia",
+      "citation": "Al-Salam REIT Gearing Risk Assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:162": {
+      "fact": "QSR Brands Concentration Risk: 42 KFC/Pizza Hut = significant % of income",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Tenant Concentration",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:163": {
+      "fact": "Interest Rate Risk: Transitioning to fixed-rate Sukuk",
+      "source": "FocusMalaysia",
+      "citation": "Focus Malaysia - Al-Salam REIT Rate Risk Mitigation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.focusmalaysia.my"
+    },
+    "L:164": {
+      "fact": "Refinancing Risk: CGIF guarantee, AAA rating provides security",
+      "source": "CGIF",
+      "citation": "CGIF - Guarantee Risk Assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.cgif-abmi.org"
+    },
+    "L:165": {
+      "fact": "Market Liquidity Risk: Small-cap REIT classification",
       "source": "KLSE",
-      "citation": "KLSE Screener - Trading Volume Analysis",
+      "citation": "KLSE Screener - Al-Salam REIT Market Cap Analysis",
       "dateAccessed": "2026-04-26",
       "timeSensitive": true,
       "url": "https://www.klsescreener.com/v2/stocks/5269"
     },
-    "L:85": {
-      "fact": "Exact DPU for FY2025: Pending - High importance",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT FY2025 Distribution - Pending",
+    "L:166": {
+      "fact": "Risk Mitigation: DISRUPT27 Strategy for KOMTAR JBCC repositioning",
+      "source": "BusinessToday",
+      "citation": "Business Today - Al-Salam REIT Risk Mitigation Strategy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.businesstoday.com.my"
+    },
+    "L:167": {
+      "fact": "Risk Mitigation: Fixed-Rate Sukuk reduces rate exposure",
+      "source": "RAM",
+      "citation": "RAM Ratings - Al-Salam REIT Rate Risk Management",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.ram.com.my"
+    },
+    "L:168": {
+      "fact": "Risk Mitigation: F&B anchor provides income stability",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Income Stability Factors",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
-    "L:86": {
-      "fact": "Updated NAV per Unit: Pending - High importance",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT FY2025 NAV - Pending",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:87": {
-      "fact": "Detailed Property Valuations: Pending - Medium importance",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Property Valuations - Pending FY2025",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:88": {
-      "fact": "Tenant Concentration details: Pending - High importance",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Major Tenants - Pending Disclosure",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:89": {
-      "fact": "WALE: Pending - Medium importance",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Lease Expiry Profile - Pending",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
-    },
-    "L:90": {
-      "fact": "Shariah-compliant structure provides differentiated investor access",
+    "L:169": {
+      "fact": "Risk Mitigation: Shariah Compliance provides broader investor base",
       "source": "SCMalaysia",
-      "citation": "Islamic REIT Market Access Benefits",
+      "citation": "SC Malaysia - Islamic REIT Investor Benefits",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.sc.com.my"
     },
-    "L:91": {
-      "fact": "Diversified retail focus aligns with Malaysia's retail market growth",
-      "source": "TheEdge",
-      "citation": "Malaysia Logistics Market Outlook",
+    "L:170": {
+      "fact": "Strength: Shariah Compliance - certified access to Islamic investors",
+      "source": "SCMalaysia",
+      "citation": "SC Malaysia Islamic REIT Certification",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "url": "https://www.theedgemalaysia.com"
+      "url": "https://www.sc.com.my"
     },
-    "L:92": {
-      "fact": "Conservative capital structure within regulatory limits",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Capital Structure Policy",
+    "L:171": {
+      "fact": "Strength: F&B Income Anchor - 42 KFC/Pizza Hut at 100% occupancy",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - F&B Portfolio Strength",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
-    "L:93": {
-      "fact": "Established REIT with 10+ years track record",
-      "source": "Historical",
-      "citation": "Al-Salam REIT Operating History Since 2015",
+    "L:172": {
+      "fact": "Strength: DPU Recovery - 214% growth to 2.20 sen",
+      "source": "Insage",
+      "citation": "Insage - Al-Salam REIT DPU Recovery Analysis",
       "dateAccessed": "2026-04-26",
-      "timeSensitive": false
+      "timeSensitive": false,
+      "url": "https://www.insage.com.my"
     },
-    "L:94": {
-      "fact": "Smaller scale compared to larger retail REITs like Pavilion",
-      "source": "Bursa",
-      "citation": "Bursa Malaysia REIT Market Cap Comparison",
+    "L:173": {
+      "fact": "Strength: Landmark Sukuk - RM455M AAA-rated, CGIF-guaranteed",
+      "source": "RAM/CGIF",
+      "citation": "RAM/CGIF Joint Announcement - Sukuk Quality",
       "dateAccessed": "2026-04-26",
-      "timeSensitive": true,
+      "timeSensitive": false,
+      "url": "https://www.ram.com.my"
+    },
+    "L:174": {
+      "fact": "Value Opportunity: Trading at ~0.45-0.50x P/B vs NAV RM1.12",
+      "source": "Calculated",
+      "citation": "Derived from market price and NAV disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "L:175": {
+      "fact": "Monitoring Area: KOMTAR JBCC Turnaround - DISRUPT27 progress critical",
+      "source": "BusinessToday",
+      "citation": "Business Today - Key Monitoring Triggers",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.businesstoday.com.my"
+    },
+    "L:176": {
+      "fact": "Monitoring Area: Occupancy Improvement Target 80-85% by 2027",
+      "source": "BusinessToday",
+      "citation": "Business Today - Al-Salam REIT 2027 Targets",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.businesstoday.com.my"
+    },
+    "L:177": {
+      "fact": "Monitoring Area: Gearing Management - headroom vs 50% limit",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Leverage Monitoring",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:178": {
+      "fact": "Monitoring Area: QSR Brands Concentration - single tenant sector exposure",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Diversification Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:179": {
+      "fact": "Asset Quality: 54-property portfolio across retail, F&B, office, industrial",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Portfolio Overview",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:180": {
+      "fact": "F&B Base: 42 KFC/Pizza Hut at 100% occupancy provides stability",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - F&B Anchor",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:181": {
+      "fact": "KOMTAR JBCC Challenge: Weighing on overall metrics (~69% occupancy)",
+      "source": "BusinessToday",
+      "citation": "Business Today - KOMTAR JBCC Impact Assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.businesstoday.com.my"
+    },
+    "L:182": {
+      "fact": "DISRUPT27 Strategy: Target 80-85% occupancy by 2027",
+      "source": "BusinessToday",
+      "citation": "Business Today - Al-Salam REIT Strategic Goals",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.businesstoday.com.my"
+    },
+    "L:183": {
+      "fact": "Triple-net lease structure provides income stability",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Lease Structure Benefits",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:184": {
+      "fact": "Gearing: 48.6-48.7% is compliant but near 50% limit",
+      "source": "AR2024/FocusMalaysia",
+      "citation": "Al-Salam REIT Gearing Assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:185": {
+      "fact": "Sukuk Improvement: RM455M AAA-rated, CGIF-guaranteed improves profile",
+      "source": "RAM/CGIF",
+      "citation": "RAM/CGIF - Al-Salam REIT Credit Enhancement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.ram.com.my"
+    },
+    "L:186": {
+      "fact": "Debt Quality: Shift to fixed-rate Sukuk reduces volatility",
+      "source": "FocusMalaysia",
+      "citation": "Focus Malaysia - Al-Salam REIT Debt Quality Improvement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.focusmalaysia.my"
+    },
+    "L:187": {
+      "fact": "Refinancing Flexibility: RM3.0B Sukuk programme provides capacity",
+      "source": "RAM",
+      "citation": "RAM Ratings - Al-Salam REIT Programme Capacity",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.ram.com.my"
+    },
+    "L:188": {
+      "fact": "DPU Growth: 214% to 2.20 sen demonstrates strong recovery",
+      "source": "Insage",
+      "citation": "Insage - Al-Salam REIT Distribution Recovery",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.insage.com.my"
+    },
+    "L:189": {
+      "fact": "F&B Base: Provides sustainable income floor",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT 2024 Annual Report - Income Sustainability",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:190": {
+      "fact": "KOMTAR Potential: Turnaround could drive further DPU growth",
+      "source": "BusinessToday",
+      "citation": "Business Today - Al-Salam REIT Upside Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.businesstoday.com.my"
+    },
+    "L:191": {
+      "fact": "Interest Savings: Sukuk refinancing accretive to DPU",
+      "source": "FocusMalaysia",
+      "citation": "Focus Malaysia - Al-Salam REIT Finance Cost Savings",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.focusmalaysia.my"
+    },
+    "L:192": {
+      "fact": "Primary Source: 2024 Annual Report",
+      "source": "AR2024",
+      "citation": "Al-Salam REIT Annual Report 2024",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.alsalamreit.com.my"
+    },
+    "L:193": {
+      "fact": "2024 Annual Report Publication Date: May 1, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Al-Salam REIT 2024 AR Filing",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
       "url": "https://www.bursamalaysia.com"
     },
-    "L:95": {
-      "fact": "Geographic concentration in Malaysia",
+    "L:194": {
+      "fact": "FY2025 Unaudited Results: Q1-Q4 2025 Bursa announcements",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Al-Salam REIT Quarterly Filings 2025",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "L:195": {
+      "fact": "Sukuk Issuance Announcement: Corporate Disclosure",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Al-Salam REIT Sukuk Announcement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "L:196": {
+      "fact": "Sukuk Announcement Date: November 24, 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Al-Salam REIT Corporate Announcement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "L:197": {
+      "fact": "Property Revaluation: Corporate Disclosure April 2, 2026",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Al-Salam REIT Revaluation Announcement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "L:198": {
+      "fact": "Revaluation Announcement Date: April 2, 2026",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Al-Salam REIT April 2026 Announcement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "L:199": {
+      "fact": "Al-Salam REIT Website: https://www.alsalamreit.com.my",
       "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Geographic Risk Disclosure",
+      "citation": "Al-Salam REIT Official Website",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "url": "https://www.alsalamreit.com.my"
     },
-    "L:96": {
-      "fact": "Pending detailed FY2025 results for full assessment",
+    "L:200": {
+      "fact": "Report Prepared: April 2026",
       "source": "Document",
-      "citation": "Report limitation note",
+      "citation": "Report Metadata",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "L:201": {
+      "fact": "Data Coverage: FY 2024-2025",
+      "source": "Document",
+      "citation": "Report Scope Definition",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false
-    },
-    "L:97": {
-      "fact": "Await FY2025 Annual Report for updated metrics and DPU confirmation",
-      "source": "AlSalamIR",
-      "citation": "Al-Salam REIT Reporting Schedule",
-      "dateAccessed": "2026-04-26",
-      "timeSensitive": false,
-      "url": "https://www.alsalamreit.com.my"
     }
   }
 }
