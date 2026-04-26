@@ -11,7 +11,7 @@ FE    := frontend
 	lint test test-contract test-frontend test-coverage test-all \
 	validate-atrium validate-axis check-citations \
 	verify-citations verify-citations-strict \
-	ingest-pdf clean ci
+	audit-citations ingest-pdf clean ci
 
 help: ## Show this help (default)
 	@printf '%s\n' "Targets:"; \
@@ -69,6 +69,9 @@ verify-citations: ## Verify frontend citations
 
 verify-citations-strict: ## Verify frontend citations (strict)
 	cd $(FE) && $(NPM) run verify:citations:strict
+
+audit-citations: ## Audit citation coverage (direct vs orphan linkage)
+	npx ts-node scripts/audit-citation-coverage.ts
 
 ingest-pdf: ## Ingest a local PDF file (usage: make ingest-pdf FILE=research/doc.pdf [SOURCE_URL=...])
 	@if [ -z "$(FILE)" ]; then \

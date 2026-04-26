@@ -216,11 +216,11 @@ IGB REIT is a Malaysia-listed retail REIT with three malls: Mid Valley Megamall,
 | **Portfolio** | ~28.5% weighted avg [I:146] | Above average | 🟡 Watch closely |
 
 **Lease Expiry Analysis:** [I:147]
-- **🟡 Managed Concentration:** MVM's ~40.5% NLA up for renewal in 2026 is elevated but consistent with IGB's deliberate active short-lease strategy (~3-year cycles) documented since listing [I:148]
-- **Positive Reversion Track Record:** Rental reversions confirmed positive in FY2024 with mid-single-digit (4–6%) guidance; 2012 AR explicitly framed large expiry buckets as "opportunity to enjoy significant upward rental reversion" [I:149]
-- **Historical Precedent:** A 54.8% TGM NLA expiry concentration occurred in FY2013 with no occupancy deterioration — the 2026 event is not unprecedented [I:150]
-- **Mitigation:** Diversified tenant base (top tenant AEON ~8% GRI); proactive forward-renewal strategy applied consistently since 2012 [I:151]
-- **WALE Information:** Portfolio WALE ~3.0 years [I:152]; Sunway REIT retail WALE is 2.2 years — short leases are industry standard in Malaysian retail REITs, not a risk indicator
+- **🟡 Managed Concentration:** MVM's ~40.5% NLA up for renewal in 2026 is elevated but consistent with IGB's deliberate active short-lease strategy (~3-year cycles) documented since listing [I:383]
+- **Positive Reversion Track Record:** Rental reversions confirmed positive in FY2024 [I:384] with mid-single-digit (4–6%) guidance [I:385]; 2012 AR explicitly framed large expiry buckets as "opportunity to enjoy significant upward rental reversion" [I:381]
+- **Historical Precedent:** A 54.8% TGM NLA expiry concentration occurred in FY2013 with no occupancy deterioration — the 2026 event is not unprecedented [I:382]
+- **Mitigation:** Diversified tenant base (top tenant AEON ~8% GRI) [I:355]; proactive forward-renewal strategy applied consistently since 2012 [I:383]
+- **WALE Information:** Portfolio WALE ~3.0 years [I:387]; Sunway REIT retail WALE is 2.2 years [I:386] — short leases are industry standard in Malaysian retail REITs, not a risk indicator
 
 ### 2.4 Tenant Quality Assessment
 | Factor | MVM | TGM | Southkey |
@@ -660,7 +660,7 @@ IGB REIT has progressively integrated Environmental, Social, and Governance (ESG
 | Risk Category | Risk | Severity | Likelihood | Risk Level | Mitigation |
 |---------------|------|----------|------------|------------|------------|
 | **Business & Market** | Retail market sensitivity | 🟡 Medium | 🟡 Medium | 🟡 Medium [I:456] | Diversified portfolio, prime assets |
-| **Tenant** | Lease renewal concentration | 🟡 Medium | 🟢 Low | 🟡 Medium [I:457] | Deliberate short-lease strategy; positive reversions; 2013 precedent (54.8% TGM expiry, no occupancy loss) |
+| **Tenant** | Lease renewal concentration | 🟡 Medium | 🟢 Low | 🟡 Medium [I:457] | Deliberate short-lease strategy [I:383]; positive reversions [I:384]; 2013 precedent (54.8% TGM expiry, no occupancy loss) [I:382] |
 | **Operating** | Cost inflation | 🟡 Medium | 🟡 Medium | 🟡 Medium [I:458] | Operational efficiency programs |
 | **Financial** | Interest rate exposure | 🟡 Low-Mod | 🟢 Low | 🟡 Low-Mod [I:459] | Substantially fixed-rate; MVS MTN Series 1 floating (KLIBOR) [I:460] |
 | **Geographic** | Klang Valley concentration | 🟡 Medium | 🟢 Low | 🟡 Medium [I:461] | MVS Johor diversification [I:462] |
@@ -672,12 +672,12 @@ IGB REIT has progressively integrated Environmental, Social, and Governance (ESG
 #### 🟡 MEDIUM: Lease Renewal Concentration (2026)
 | Aspect | Details |
 |--------|---------|
-| **Risk Description** | MVM has ~40.5% NLA expiring in 2026 [I:143]; portfolio-weighted average ~28.5% [I:146]. Elevated concentration, but consistent with IGB's deliberate active short-lease model (~3-year cycles) applied since listing. |
-| **Historical Precedent** | 54.8% TGM NLA expiry concentration in FY2013 was navigated with no occupancy deterioration; annual reports since 2012 consistently document proactive forward-renewal strategy |
-| **Reversion Evidence** | Rental reversions confirmed positive in FY2024; mid-single-digit (4–6%) guidance; 2012 AR framed large expiry buckets as a reversion opportunity, not a risk |
-| **Potential Impact** | Concentrated renewal volume requires management attention; risk of adverse outcomes is assessed as low given prime asset positioning and track record [I:466] |
-| **Mitigation Measures** | Early renewal negotiations underway; anchor tenant retention focus [I:467]; industry-standard ~3-year lease structure is intentional income-growth mechanism, not a structural weakness [I:468] |
-| **Data Gap** | Specific annual "% leases renewed" metric for MVM/TGM is not publicly disclosed; near-perfect occupancy continuity (99.7% avg since 2013) is the best available proxy [I:469] |
+| **Risk Description** | MVM has ~40.5% NLA expiring in 2026 [I:143]; portfolio-weighted average ~28.5% [I:146]. Elevated concentration, but consistent with IGB's deliberate active short-lease model (~3-year cycles) applied since listing [I:383]. |
+| **Historical Precedent** | 54.8% TGM NLA expiry concentration in FY2013 was navigated with no occupancy deterioration [I:382]; annual reports since 2012 consistently document proactive forward-renewal strategy [I:383] |
+| **Reversion Evidence** | Rental reversions confirmed positive in FY2024 [I:384]; mid-single-digit (4–6%) guidance [I:385]; 2012 AR framed large expiry buckets as a reversion opportunity, not a risk [I:381] |
+| **Potential Impact** | Concentrated renewal volume requires management attention; risk of adverse outcomes is assessed as low given prime asset positioning and track record [I:387] |
+| **Mitigation Measures** | Early renewal negotiations underway [I:466]; anchor tenant retention focus [I:467]; industry-standard ~3-year lease structure [I:386] is intentional income-growth mechanism, not a structural weakness |
+| **Data Gap** | Specific annual "% leases renewed" metric for MVM/TGM is not publicly disclosed [I:388]; near-perfect occupancy continuity (99.7% avg since 2013) is the best available proxy [I:387] |
 | **Monitoring** | Quarterly tenant engagement updates; rental reversion direction on completed renewals [I:469] |
 
 #### 🟡 MEDIUM: Retail Market Sensitivity
@@ -845,7 +845,7 @@ IGB REIT has progressively integrated Environmental, Social, and Governance (ESG
 | Aspect | Rating | Rationale |
 |--------|--------|-----------|
 | **Overall Recommendation** | 🟡 **HOLD** | Quality assets at premium valuation; 2026 lease expiry overhang |
-| **Risk Rating** | 🟢 **LOW** | No remaining high-severity risk factors; 2026 lease concentration reclassified to Medium following historical precedent analysis |
+| **Risk Rating** | 🟢 **LOW** | No remaining high-severity risk factors; 2026 lease concentration reclassified to Medium following historical precedent analysis [I:382] [I:383] [I:384] |
 | **Income Profile** | 🟢 **ATTRACTIVE** | 4.12% yield [I:27] with growth trajectory |
 | **Growth Potential** | 🟡 **MODERATE** | Southkey accretion; positive rental reversions on 2026 renewals represent an upside catalyst |
 | **Valuation** | 🟡 **FULL** | 1.97x P/B [I:564] prices in quality; limited margin of safety |

@@ -50,9 +50,46 @@ Equivalent direct commands exist in `package.json` and `frontend/package.json`, 
 
 - Do not invent financial/citation data.
 - If touching citation-related logic or data wiring, run:
+  - audit: `make audit-citations` (detects weakly linked references)
   - root check: `make check-citations`
   - frontend check: `make verify-citations`
 - Treat schema/validation failures as blockers, not warnings.
+
+### Adapter Citation Wiring Process
+
+When implementing or updating adapters, follow this sequence to ensure proper citation coverage:
+
+1. **Register all references** in `processReferences()` - every T:XXX/A:XXX/etc. ID from the JSON must be registered.
+
+2. **Add direct citation links** in builders using `linkCitation()`:
+   - `entity-builder` - for entity metadata references
+   - `metric-builder` - for metric sourceDisplayIds
+   - `risk-builder` - for risk factor sourceDisplayIds
+   - `observation-builder` - for observation sourceDisplayIds
+   - `timeseries-builder` - for time series data points
+
+3. **Run the audit** before finalizing:
+   ```bash
+   make audit-citations
+   ```
+   This reports:
+   - Direct linkage percentage per entity
+   - Weakly linked references (orphan-linked only)
+   - Builder usage breakdown
+
+4. **Fix weakly linked references** by adding explicit `sourceDisplayIds` or `linkCitation()` calls.
+
+5. **Verify 100% coverage** after fixes - no references should rely solely on orphan-linking.
+
+6. **Then run standard checks**:
+   ```bash
+   make check-citations
+   make verify-citations
+   ```
+
+**Definition of strong linkage**: A reference has at least one direct builder link (not just the catch-all `orphan-linker`).
+
+**Target**: >90% direct linkage for all entities; 100% for critical financial metrics.
 
 ## Validation Before Handoff
 

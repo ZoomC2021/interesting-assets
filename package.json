@@ -9,7 +9,8 @@
     "test:watch": "jest --watch",
     "validate:atrium": "ts-node src/validation/schema-validator.ts test/samples/atrium-normalized.json",
     "validate:axis": "ts-node src/validation/schema-validator.ts test/samples/axis-normalized.json",
-    "check:citations": "ts-node src/validation/citation-checker.ts"
+    "check:citations": "ts-node src/validation/citation-checker.ts",
+    "audit:citations": "ts-node scripts/audit-citation-coverage.ts"
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.1",

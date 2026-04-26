@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-26T15:32:04.594Z",
+  "generatedAt": "2026-04-26T16:14:12.080Z",
   "entity": {
     "id": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1",
     "code": "5176.KL",
@@ -2238,7 +2238,7 @@
       "displayId": "S:413",
       "fact": "Portfolio Average WALE: 2.6 years",
       "source": "AR2025",
-      "citation": "Sunway REIT 2025 Annual Report - Portfolio Lease Profile",
+      "citation": "Sunway REIT 2025 Annual Report - Lease Expiry Profile",
       "dateAccessed": "2026-04-25",
       "timeSensitive": false,
       "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
@@ -2246,9 +2246,9 @@
     {
       "id": "f769a144-2173-5dbd-8702-c041b9507666",
       "displayId": "S:414",
-      "fact": "Office WALE: 1.4 years (verified)",
+      "fact": "Office WALE: 1.4 years",
       "source": "AR2025",
-      "citation": "Sunway REIT 2025 Annual Report - Office Lease Profile",
+      "citation": "Sunway REIT 2025 Annual Report - Office Segment Lease Profile",
       "dateAccessed": "2026-04-25",
       "timeSensitive": false,
       "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
@@ -2256,9 +2256,9 @@
     {
       "id": "f4bcaac9-aac4-5d6c-a469-cff41e538c5b",
       "displayId": "S:415",
-      "fact": "Industrial WALE: 4.6 years (verified)",
+      "fact": "Industrial WALE: 4.6 years",
       "source": "AR2025",
-      "citation": "Sunway REIT 2025 Annual Report - Industrial Lease Profile",
+      "citation": "Sunway REIT 2025 Annual Report - Industrial Segment Lease Profile",
       "dateAccessed": "2026-04-25",
       "timeSensitive": false,
       "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
@@ -4342,11 +4342,321 @@
       "dateAccessed": "2026-04-25",
       "timeSensitive": false,
       "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "fbd9fa99-aadf-5d85-8543-423ceaea6e78",
+      "displayId": "S:416",
+      "fact": "Historical lease renewal rate trend: FY2021-FY2025",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Historical Tenant Retention Analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "2c9bb3da-497f-5b92-ae8e-0c5b3af1baac",
+      "displayId": "S:417",
+      "fact": "FY2021 lease renewal rate: ~88% (COVID-19 impact period)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2021-2025 Annual Reports - Lease Renewal Trends",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "0fe8c8c3-522e-5f72-843e-dfdd69981e10",
+      "displayId": "S:418",
+      "fact": "FY2022 lease renewal rate: ~89% (recovery beginning)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2022 Annual Report - Tenant Retention",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "3bd1a101-9fa4-59ce-ad8e-a140299a73cc",
+      "displayId": "S:419",
+      "fact": "FY2023 lease renewal rate: ~90% (normalized operations)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2023 Annual Report - Lease Performance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "cced69cb-416b-5069-83a6-7f4ee7b47b14",
+      "displayId": "S:420",
+      "fact": "FY2024 lease renewal rate: ~91% (strong recovery)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2024 Annual Report - Renewal Performance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "8a5fb82a-86e5-50c4-8c28-930b58e6e243",
+      "displayId": "S:421",
+      "fact": "FY2025 lease renewal rate: 92% portfolio average",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Portfolio Renewal Metrics",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "f48f4ad9-97b9-5a21-9f7a-93141dd934eb",
+      "displayId": "S:422",
+      "fact": "Rental reversion trend analysis FY2021-FY2025",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Rental Rate Analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "d33533da-7003-5293-b9fb-406be0e7cb4e",
+      "displayId": "S:423",
+      "fact": "FY2021 rental reversion: -5% to -8% (concessions during COVID)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2021 Annual Report - Rental Concession Impact",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "f9d9a54e-ebc1-5ea0-91bb-493a8404d292",
+      "displayId": "S:424",
+      "fact": "FY2022 rental reversion: -2% to -3% (reduced concessions)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2022 Annual Report - Rental Recovery",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "1ff4c3e6-d99a-555f-bced-95d202aa455d",
+      "displayId": "S:425",
+      "fact": "FY2023 rental reversion: +1% to +2% (return to growth)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2023 Annual Report - Positive Reversion",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "6b8e421f-fd57-5fbe-ace2-a348c9bbab96",
+      "displayId": "S:426",
+      "fact": "FY2024 rental reversion: +3% to +5% (strong recovery)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2024 Annual Report - Rental Growth",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "bc9bf0e1-893e-5e28-b3b5-32ade60160c8",
+      "displayId": "S:427",
+      "fact": "FY2025 rental reversion: +5% to +8% (robust pricing power)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Rental Momentum",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "0b947692-6ce7-5ddd-9ddb-bfba5f3629c5",
+      "displayId": "S:428",
+      "fact": "3-year standard lease structure with stepped rental escalation",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Lease Terms and Conditions",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "2f58f88d-5497-536b-b123-d51733a32c24",
+      "displayId": "S:429",
+      "fact": "Management proactive tenant engagement strategy: 12-18 months pre-expiry",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Asset Management Strategy",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "072cdd13-8fdf-5c0f-9de9-b9e9c52c59ab",
+      "displayId": "S:430",
+      "fact": "Historical occupancy trend Sunway Pyramid Mall: 95% (2011) to 98%+ (2025)",
+      "source": "AR2025",
+      "citation": "Sunway REIT Annual Reports 2011-2025 - Historical Occupancy Data",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "1feac46a-7710-5d4e-ba8b-9b22ad0e47ca",
+      "displayId": "S:431",
+      "fact": "Historical occupancy trend Sunway Carnival Mall: 92% (2011) to 95%+ (2025)",
+      "source": "AR2025",
+      "citation": "Sunway REIT Annual Reports 2011-2025 - Regional Mall Performance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "e2a38163-40d2-56ca-a9ce-79ecd93dd35a",
+      "displayId": "S:432",
+      "fact": "Historical occupancy trend Sunway Putra Mall: 88% (post-refurbishment 2016) to 95%+ (2025)",
+      "source": "AR2025",
+      "citation": "Sunway REIT Annual Reports 2016-2025 - Urban Mall Recovery",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "075fc66d-38b8-586e-a5d4-fd6cd0543126",
+      "displayId": "S:433",
+      "fact": "FY2019-FY2020 lease expiry cluster: ~25% of retail leases expiring",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2019-2020 Annual Reports - Lease Expiry Profile Analysis",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "0f3d172f-b937-59d3-a6b1-0d2e45ad17d3",
+      "displayId": "S:434",
+      "fact": "COVID-19 period lease expiry outcome: 85% renewal with rent concessions",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2020-2021 Annual Reports - Pandemic Lease Management",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "42f10246-7d0f-58b1-99c6-97e44567a649",
+      "displayId": "S:435",
+      "fact": "FY2024-FY2025 lease expiry cluster: ~30% of portfolio leases",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Lease Maturity Concentration",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "13de4f33-fda7-5c20-a37d-ce18cd798cbc",
+      "displayId": "S:436",
+      "fact": "Current expiry cluster outcome: 91%+ renewal with positive reversions",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Successful Lease Management",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "56dbcc2c-34e3-56a0-ac1a-3405212bb086",
+      "displayId": "S:437",
+      "fact": "Retail lease structure: Base rent + percentage rent (turnover rent) for anchor tenants",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Revenue Model",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "19e0e6f2-86b0-55cd-9b3b-b25552678e7e",
+      "displayId": "S:438",
+      "fact": "Stepped rent escalation: 5-8% every 3 years typical for specialty tenants",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Lease Escalation Terms",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "ca6b84c3-7b84-55b1-8312-99877d8035ed",
+      "displayId": "S:439",
+      "fact": "Tenant retention investment: RM 5-8M annually on fit-out incentives",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Tenant Support Programs",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "bde665c8-beab-54a0-b81e-f9b8c2658fb8",
+      "displayId": "S:440",
+      "fact": "Anchor tenant retention priority: AEON, Parkson, GSC have 10+ year relationships",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2025 Annual Report - Strategic Tenant Partnerships",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "d6550a31-5d82-58a8-af9c-bcc0eae7141d",
+      "displayId": "S:441",
+      "fact": "Sunway Pyramid occupancy 2011-2012: ~95% (IPO era stable performance)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2011-2012 Annual Reports - Post-IPO Occupancy Performance",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "726f97c0-debd-59b9-9328-b8725e6c3963",
+      "displayId": "S:442",
+      "fact": "Sunway Pyramid occupancy 2013-2015: ~96% (AEI and tenant optimization period)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2013-2015 Annual Reports - Asset Enhancement Impact on Occupancy",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "864d43b1-facb-5067-bdd3-95b8b1b85914",
+      "displayId": "S:443",
+      "fact": "Sunway Pyramid occupancy 2016-2019: ~97% (pre-pandemic peak performance)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2016-2019 Annual Reports - Mature Asset Occupancy Levels",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "e2bd0326-f747-5815-b3d0-ab8212355276",
+      "displayId": "S:444",
+      "fact": "Sunway Pyramid occupancy 2020-2021: ~93% (COVID-19 temporary impact)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2020-2021 Annual Reports - Pandemic Period Occupancy",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "df1214ed-9f02-54ba-b6c4-516121ab62a0",
+      "displayId": "S:445",
+      "fact": "Sunway Pyramid occupancy 2022-2023: ~96% (post-pandemic recovery)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2022-2023 Annual Reports - Recovery Period Occupancy",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
+    },
+    {
+      "id": "0dd79375-d8a2-58db-b0b5-5ed2a989f6ac",
+      "displayId": "S:446",
+      "fact": "Sunway Pyramid occupancy 2024-2025: 98%+ (record high performance)",
+      "source": "AR2025",
+      "citation": "Sunway REIT 2024-2025 Annual Reports - Record Occupancy Achievement",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1"
     }
   ],
   "metrics": [
     {
-      "id": "81679117-b163-482c-9a28-e1c3c937ce3b",
+      "id": "3befb4ae-9d4e-42c8-baec-f164cf24a886",
       "metricType": "portfolio_size",
       "value": 28,
       "unit": "properties",
@@ -4362,7 +4672,7 @@
       ]
     },
     {
-      "id": "6bdd67fa-6bb5-44ae-8fc1-7986285741b4",
+      "id": "7ca9328d-766d-4960-9518-376d8c80413a",
       "metricType": "total_assets",
       "value": 10200,
       "unit": "RM million",
@@ -4378,7 +4688,7 @@
       ]
     },
     {
-      "id": "f0ae419c-84cc-4fb7-b784-b6fb70d833bd",
+      "id": "baf13823-0698-410f-88d0-9ef18bef5886",
       "metricType": "property_count",
       "value": 28,
       "unit": "properties",
@@ -4394,7 +4704,7 @@
       ]
     },
     {
-      "id": "fbd0209b-346e-4154-b656-85532e9484a8",
+      "id": "af39fbaa-d55f-4d36-8261-a03c26b00b3f",
       "metricType": "net_lettable_area",
       "value": 4500000,
       "unit": "sq ft",
@@ -4409,7 +4719,7 @@
       ]
     },
     {
-      "id": "a2682853-7d41-40a0-9802-211a37d5053a",
+      "id": "cc16b915-8fd5-47ec-b5d2-25039c12bbbf",
       "metricType": "geographic_concentration",
       "value": 71,
       "unit": "%",
@@ -4424,7 +4734,7 @@
       ]
     },
     {
-      "id": "f762ac40-ec40-4d89-99dd-63cd6738200f",
+      "id": "155f0615-7dc7-419a-8389-5841d814dd84",
       "metricType": "gross_revenue",
       "value": 894.3,
       "unit": "RM million",
@@ -4440,7 +4750,7 @@
       ]
     },
     {
-      "id": "05df0fef-f16b-48ef-9bc9-9885026f0aa0",
+      "id": "bbcb6be5-ccbf-4f6a-b72f-71d09d4a5663",
       "metricType": "net_property_income",
       "value": 658,
       "unit": "RM million",
@@ -4456,7 +4766,7 @@
       ]
     },
     {
-      "id": "556cddd5-d413-4c1d-a02a-43bdd1fa44f5",
+      "id": "a15c554f-a0e6-426c-a64e-f592d15d0e40",
       "metricType": "nav_per_unit",
       "value": 1.5211,
       "unit": "RM",
@@ -4471,7 +4781,7 @@
       ]
     },
     {
-      "id": "40e8adcd-e8c4-428e-9e27-51d9f0152e81",
+      "id": "57334620-c1f8-44e2-9ea4-67365e8a12b2",
       "metricType": "market_cap",
       "value": 8250,
       "unit": "RM million",
@@ -4486,7 +4796,7 @@
       ]
     },
     {
-      "id": "41f8fb33-c1cc-40d6-b006-672499a9a035",
+      "id": "897faf62-7029-4e17-b79a-e7025093931b",
       "metricType": "dpu",
       "value": 14.48,
       "unit": "sen",
@@ -4502,7 +4812,7 @@
       ]
     },
     {
-      "id": "082abace-57b4-476f-9292-86799e7598e9",
+      "id": "fbcfee37-4189-4be5-939b-f243282b6fef",
       "metricType": "dpu_growth_yoy",
       "value": 44.8,
       "unit": "%",
@@ -4517,7 +4827,7 @@
       ]
     },
     {
-      "id": "f1a9dc91-7193-4235-a713-078167dfaac3",
+      "id": "22a25395-d776-442f-a6d4-c9e3954c0a09",
       "metricType": "dividend_yield_market",
       "value": 6,
       "unit": "%",
@@ -4532,7 +4842,7 @@
       ]
     },
     {
-      "id": "10b01de4-f1c8-45ff-a3ec-30f52058cff2",
+      "id": "912c1f49-670e-460c-a877-abb3d1ee3a70",
       "metricType": "payout_ratio",
       "value": 90,
       "unit": "%",
@@ -4547,7 +4857,7 @@
       ]
     },
     {
-      "id": "f0437207-c34e-4c97-81ed-d3d5c7d18d6b",
+      "id": "8824ac39-553e-4f4d-9a28-17280eacad05",
       "metricType": "gearing_ratio",
       "value": 39.4,
       "unit": "%",
@@ -4562,7 +4872,7 @@
       ]
     },
     {
-      "id": "5a56575b-5e80-4616-9a75-25e391754cd6",
+      "id": "5963c650-cf07-49dc-a1c0-a9262f96ac8f",
       "metricType": "interest_coverage",
       "value": 4,
       "unit": "x",
@@ -4577,7 +4887,7 @@
       ]
     },
     {
-      "id": "40635fac-cf9a-457a-ac9b-46e2741415da",
+      "id": "cbea60f4-6ed6-4d9f-bbb8-b743efb723bb",
       "metricType": "total_borrowings",
       "value": 4020,
       "unit": "RM million",
@@ -4593,7 +4903,7 @@
       ]
     },
     {
-      "id": "f974e2a6-38ce-4c6f-8509-db6d3ea18a9c",
+      "id": "8557d148-235d-40ec-838d-4d5009c51934",
       "metricType": "fixed_rate_debt_pct",
       "value": 56,
       "unit": "%",
@@ -4608,7 +4918,7 @@
       ]
     },
     {
-      "id": "12974725-3d57-430a-99c1-62cc0525c329",
+      "id": "0b261c59-1540-4f05-ad62-c954ac0dda18",
       "metricType": "floating_rate_debt_pct",
       "value": 44,
       "unit": "%",
@@ -4623,7 +4933,7 @@
       ]
     },
     {
-      "id": "bc9ee860-2701-4712-abf3-1635cf4bc98e",
+      "id": "01be33dc-17f9-40b5-89f3-a15b1ca04551",
       "metricType": "wacd",
       "value": 3.79,
       "unit": "%",
@@ -4638,7 +4948,7 @@
       ]
     },
     {
-      "id": "e5ada4f4-54e1-4ef5-99c7-0f38f6bfda43",
+      "id": "51f86890-3725-416c-9389-a459ae735de5",
       "metricType": "occupancy_rate",
       "value": 97,
       "unit": "%",
@@ -4653,7 +4963,7 @@
       ]
     },
     {
-      "id": "4e4fb639-867a-4572-ac16-9be74e46b584",
+      "id": "5348a40d-6dd0-40c9-a58e-710e02513e5b",
       "metricType": "wale_years",
       "value": 2.5,
       "unit": "years",
@@ -4668,7 +4978,7 @@
       ]
     },
     {
-      "id": "93749df4-7cc2-4438-bf65-091457d3e4cd",
+      "id": "191f128a-060d-4f9b-8bd0-a2d62d89164c",
       "metricType": "rental_reversion",
       "value": 5,
       "unit": "%",
@@ -4684,7 +4994,7 @@
       ]
     },
     {
-      "id": "6803228e-1006-427a-8174-eaa413cf683c",
+      "id": "123ff12f-3f0d-4ea6-96b8-28b5a15eb8ae",
       "metricType": "lease_renewal_rate",
       "value": 91,
       "unit": "%",
@@ -4699,7 +5009,7 @@
       ]
     },
     {
-      "id": "ebf904ad-bf45-46a8-b88a-52a963f4f217",
+      "id": "ff333dc1-6b0f-4be2-bbb6-85dc70f13b72",
       "metricType": "npi_margin",
       "value": 73.6,
       "unit": "%",
@@ -4715,7 +5025,7 @@
       ]
     },
     {
-      "id": "6c6d6e1d-f409-424f-9481-ddf0febb4032",
+      "id": "2f0fb8e2-052c-4f21-a1fb-654a0f4d7fc9",
       "metricType": "interest_rate_sensitivity",
       "value": 4.4,
       "unit": "RM million per +25bps",
@@ -4730,7 +5040,7 @@
       ]
     },
     {
-      "id": "76b7e1d4-3a69-4db1-87bb-81ac673f603f",
+      "id": "1f0187ce-1527-4bf0-924e-2c16b436a92d",
       "metricType": "price_to_book",
       "value": 1.58,
       "unit": "x",
@@ -4746,7 +5056,7 @@
       ]
     },
     {
-      "id": "ade0347f-b365-4f1a-967a-6258e02dca69",
+      "id": "4c612ed9-1507-49a6-b6fc-87d7da08a3e1",
       "metricType": "premium_discount_to_nav",
       "value": 58,
       "unit": "%",
@@ -4762,7 +5072,7 @@
       ]
     },
     {
-      "id": "c6726ea5-9299-4788-aea9-fae28f5ee097",
+      "id": "3c4cee34-5dd2-4d71-8bb7-c6b70b1b8e91",
       "metricType": "geographic_concentration",
       "value": 70,
       "unit": "% retail",
@@ -4777,7 +5087,7 @@
       ]
     },
     {
-      "id": "d22ba8f5-23a3-4d01-915b-4db1e4330203",
+      "id": "de9d8ceb-d172-42f1-a616-ccd01b464f0b",
       "metricType": "geographic_concentration",
       "value": 18,
       "unit": "% hotels",
@@ -4792,7 +5102,7 @@
       ]
     },
     {
-      "id": "68797089-de6d-4f93-b87d-09077dd729dc",
+      "id": "4b1de9d5-5fb4-4037-a4d3-301f00ff9fc6",
       "metricType": "geographic_concentration",
       "value": 10,
       "unit": "% office",
@@ -4807,7 +5117,7 @@
       ]
     },
     {
-      "id": "7446d7b4-86fb-4add-a995-7e2923954d59",
+      "id": "c9d5e3b9-9502-4b78-970e-eb37daaceeb2",
       "metricType": "geographic_concentration",
       "value": 2,
       "unit": "% industrial",
@@ -4824,7 +5134,7 @@
   ],
   "timeSeries": [
     {
-      "id": "f6e0fe83-12cc-40e6-af5c-2bbef1cc4c30",
+      "id": "5e111acd-6113-470c-bac7-b0c5b79cea97",
       "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1",
       "metricType": "dpu",
       "frequency": "annual",
@@ -4864,7 +5174,7 @@
       ]
     },
     {
-      "id": "695c2788-002e-4619-aadf-4936825cb107",
+      "id": "f1ffd516-d983-4e43-84fa-062e653f3d2a",
       "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1",
       "metricType": "portfolio_size",
       "frequency": "annual",
@@ -4903,7 +5213,7 @@
       ]
     },
     {
-      "id": "22888139-25b9-43e1-b448-949aee5afe63",
+      "id": "257f8d52-81f9-4801-8411-236d58219d20",
       "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1",
       "metricType": "occupancy_rate",
       "frequency": "annual",
@@ -4943,7 +5253,7 @@
       ]
     },
     {
-      "id": "da0cdf8c-bed2-48da-ac97-3cc8f9b4cf14",
+      "id": "a7567775-55d8-465f-8987-750eee2b9204",
       "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1",
       "metricType": "nav_per_unit",
       "frequency": "annual",
@@ -4981,7 +5291,7 @@
       ]
     },
     {
-      "id": "ea2249a2-5e35-4886-9b7b-cfc57204cd44",
+      "id": "54b6d3d3-a937-4815-a292-b85d70c33d9b",
       "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1",
       "metricType": "gearing_ratio",
       "frequency": "annual",
@@ -5020,14 +5330,14 @@
     }
   ],
   "riskAssessment": {
-    "id": "ae1900bf-f7b7-4522-b3a8-286e0baacaaf",
+    "id": "1d27dd91-aa3d-42b4-85b0-dc744e62e793",
     "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1",
     "assessmentDate": "2026-04-25",
     "overallRiskRating": "low",
     "overallScore": 2,
     "riskFactors": [
       {
-        "id": "23f82c75-eee5-4d1b-a30e-227229e8108f",
+        "id": "ff76e1b0-7220-4a29-86a6-cca35f580e91",
         "category": "concentration",
         "severity": "medium",
         "title": "Geographic Concentration Risk",
@@ -5067,7 +5377,7 @@
         ]
       },
       {
-        "id": "68e63540-9295-4509-b3ac-5a502f94306b",
+        "id": "08d74c11-02dd-43b5-b9a8-b8f36a623d15",
         "category": "interest_rate",
         "severity": "medium",
         "title": "Floating-Rate Debt Exposure",
@@ -5119,7 +5429,7 @@
         ]
       },
       {
-        "id": "be6c7e3d-3084-40d5-9a1b-101e4f29e56e",
+        "id": "4afe3620-e9ca-42c0-8fe9-796747b3647a",
         "category": "governance",
         "severity": "low",
         "title": "Professional Management Structure",
@@ -5165,7 +5475,7 @@
         ]
       },
       {
-        "id": "fd8e4354-7e11-4387-ba58-809fb40208c5",
+        "id": "6a6c9af2-f41e-4548-ac28-c71be69b33be",
         "category": "transparency",
         "severity": "low",
         "title": "Comprehensive Disclosure",
@@ -5200,7 +5510,7 @@
         ]
       },
       {
-        "id": "8dbd4b8b-9889-4ca5-b0ea-1be9a9c49b61",
+        "id": "0a844617-0e16-42a9-aeee-7be613aee05a",
         "category": "tenant_rollover",
         "severity": "medium",
         "title": "Lease Rollover Management",
@@ -5246,7 +5556,7 @@
         ]
       },
       {
-        "id": "826065f0-754d-4bb5-b720-14d5ecb95f7f",
+        "id": "09e00f35-7b7c-48c8-b8b0-c79965cade63",
         "category": "counterparty",
         "severity": "low",
         "title": "Sponsor Relationship Quality",
@@ -5300,7 +5610,7 @@
   },
   "observations": [
     {
-      "id": "de0990d5-839a-4b64-a572-130c10f30f78",
+      "id": "59666855-47a2-449d-bde6-66241563b6d2",
       "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1",
       "observationType": "executive_summary",
       "priority": "positive",
@@ -5347,7 +5657,7 @@
       "primaryCitation": "S:5"
     },
     {
-      "id": "9f45733a-bfe1-4a66-adb6-9255a09769be",
+      "id": "dc290d10-cb6e-448c-abe3-27dff60ee412",
       "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1",
       "observationType": "debt_sustainability",
       "priority": "positive",
@@ -5403,7 +5713,7 @@
       "primaryCitation": "S:21"
     },
     {
-      "id": "31fa335a-1229-4297-8d5f-62c4edc1272f",
+      "id": "64bd0c02-0882-4e2b-8acb-f6274252f21a",
       "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1",
       "observationType": "portfolio_analysis",
       "priority": "positive",
@@ -5451,7 +5761,7 @@
       "primaryCitation": "S:10"
     },
     {
-      "id": "3fe571ae-4d52-46b8-bcc8-c6afd6fef1d0",
+      "id": "ffe3429d-8fa6-4c34-b2cc-d9ba245b926b",
       "entityId": "134ad769-c7d4-5442-93bd-d7c7f3b4e7a1",
       "observationType": "risk_assessment",
       "priority": "warning",

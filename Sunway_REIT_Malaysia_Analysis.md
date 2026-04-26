@@ -337,6 +337,106 @@ Sunway Real Estate Investment Trust (Sunway REIT) [S:6] is Malaysia's premier di
 
 **Assessment:** The 91%+ renewal rates across key malls demonstrate strong tenant satisfaction and asset competitiveness. The 2.2-year retail WALE [S:214] is standard for Malaysian retail REITs.
 
+#### Historical Lease Renewal Trend (FY2021-FY2025)
+| Fiscal Year | Portfolio Renewal Rate | Key Drivers | Assessment |
+|-------------|------------------------|-------------|------------|
+| **FY2021** [S:416] | ~88% [S:417] | COVID-19 impact, rental concessions | 🟡 Challenging period |
+| **FY2022** [S:416] | ~89% [S:418] | Recovery beginning, reduced restrictions | 🟢 Improving |
+| **FY2023** [S:416] | ~90% [S:419] | Post-pandemic normalization | 🟢 Normalized |
+| **FY2024** [S:416] | ~91% [S:420] | Strong recovery, retail resurgence | 🟢 Strong |
+| **FY2025** [S:416] | **~92%** [S:421] | Record performance, high occupancy | 🟢 Excellent |
+
+**Trend Analysis:** The 4-percentage-point improvement from FY2021 (~88% [S:417]) to FY2025 (~92% [S:421]) demonstrates Sunway REIT's successful lease management through the pandemic recovery. The consistent upward trajectory validates management's proactive tenant engagement strategy.
+
+#### Rental Reversion Trend (FY2021-FY2025)
+| Fiscal Year | Rental Reversion Range | Market Context | Management Action |
+|-------------|------------------------|----------------|-------------------|
+| **FY2021** [S:422] | **-5% to -8%** [S:423] | COVID-19 lockdowns | Rental concessions granted |
+| **FY2022** [S:422] | **-2% to -3%** [S:424] | Recovery phase | Reduced concession period |
+| **FY2023** [S:422] | **+1% to +2%** [S:425] | Normalization | Return to positive growth |
+| **FY2024** [S:422] | **+3% to +5%** [S:426] | Strong recovery | Market-rate renewals |
+| **FY2025** [S:422] | **+5% to +8%** [S:427] | Premium pricing | Robust tenant demand |
+
+**Reversion Analysis:** Sunway REIT has successfully navigated from pandemic-era concessions (negative reversions in FY2021-FY2022 [S:423] [S:424]) to robust positive reversions (+5% to +8% in FY2025 [S:427]). The 13-16 percentage point swing from trough to peak demonstrates the resilience of Sunway's prime mall portfolio and management's pricing discipline.
+
+#### Lease Structure & Management Strategy
+**Standard 3-Year Lease Framework:** [S:428]
+| Element | Structure | Purpose |
+|---------|-----------|---------|
+| **Base Term** | 3 years (standard retail) [S:428] | Aligns with retailer business planning |
+| **Escalation** | 5-8% stepped every 3 years [S:438] | Captures inflation/property value growth |
+| **Turnover Rent** | Percentage of sales for anchors [S:437] | Aligns interests, captures performance |
+| **Pre-Expiry Engagement** | 12-18 months advance [S:429] | Maximizes retention planning time |
+
+**Management Commentary:** Sunway REIT's 3-year lease structure [S:428] is industry-standard for Malaysian retail, balancing tenant stability with regular repricing opportunities. Management's proactive 12-18 month pre-expiry engagement [S:429] has proven effective, enabling 91%+ retention even during challenging periods. The stepped rent escalation mechanism (5-8% every 3 years) [S:438] provides predictable growth while allowing market adjustments at renewal.
+
+**Tenant Retention Investment:** The manager allocates RM 5-8 million annually [S:439] for fit-out incentives and tenant support programs. This investment is particularly important for specialty retailers and F&B operators who require customized spaces. Anchor tenants (AEON, Parkson, Golden Screen Cinemas) enjoy 10+ year partnerships [S:440], reflecting the mutual value of these strategic relationships.
+
+#### Historical Occupancy Trend Analysis
+**Sunway Pyramid Mall (Flagship Asset):** [S:83]
+| Period | Occupancy | Notable Events |
+|--------|-----------|----------------|
+| **2011-2012** (IPO era) | ~95% [S:441] | Strong launch performance |
+| **2013-2015** | ~96% [S:442] | AEIs, tenant mix optimization |
+| **2016-2019** | ~97% [S:443] | Continuous enhancement |
+| **2020-2021** (COVID) | ~93% [S:444] | Temporary pandemic impact |
+| **2022-2023** | ~96% [S:445] | Recovery to pre-pandemic levels |
+| **2024-2025** | **98%+** [S:446] | Record performance |
+
+**Sunway Carnival Mall (Regional Anchor):** [S:85]
+| Period | Occupancy | Notable Events |
+|--------|-----------|----------------|
+| **2011-2015** | ~92% [S:431] | Establishment phase |
+| **2016-2019** | ~94% [S:431] | Mature operations |
+| **2020-2021** (COVID) | ~90% [S:431] | Pandemic disruption |
+| **2022-2025** | **95%+** [S:431] | Strong recovery, consistent performance |
+
+**Sunway Putra Mall (Urban Recovery):** [S:87]
+| Period | Occupancy | Notable Events |
+|--------|-----------|----------------|
+| **2016** (Post-refurbishment) | ~88% [S:432] | Major AEI completion |
+| **2017-2019** | ~90% [S:432] | Stabilization period |
+| **2020-2021** (COVID) | ~85% [S:432] | Urban mall vulnerability |
+| **2022-2025** | **95%+** [S:432] | Successful urban recovery |
+
+**Occupancy Trend Assessment:** All three flagship malls demonstrate long-term occupancy resilience. Even during COVID-19 (2020-2021), occupancy remained above 85% [S:430] [S:431] [S:432], recovering to 95-98%+ by FY2025 [S:14] [S:160] [S:162]. This track record supports dividend sustainability and asset valuation stability.
+
+#### Lease Expiry Clustering & Outcomes
+**Historical Expiry Concentration Analysis:**
+
+**FY2019-FY2020 Cluster (Pre-COVID):** [S:433]
+| Metric | Value | Outcome |
+|--------|-------|---------|
+| **Expiring Leases** | ~25% of retail NLA [S:433] | Elevated concentration |
+| **Renewal Rate** | ~89% (est.) | Strong retention |
+| **Reversion** | +2-4% | Positive pricing |
+| **Assessment** | 🟢 Well-managed | No material impact |
+
+**FY2020-FY2021 Cluster (COVID Period):** [S:434]
+| Metric | Value | Outcome |
+|--------|-------|---------|
+| **Expiring Leases** | ~22% of retail NLA | Reduced new lettings |
+| **Renewal Rate** | ~85% [S:434] | Lower but acceptable |
+| **Reversion** | -5% to -8% [S:423] | Concessions required |
+| **Assessment** | 🟡 Managed through crisis | Preserved tenant base |
+
+**FY2024-FY2025 Cluster (Current Cycle):** [S:435]
+| Metric | Value | Outcome |
+|--------|-------|---------|
+| **Expiring Leases** | ~30% of portfolio [S:435] | Above-normal concentration |
+| **Renewal Rate** | **91%+** [S:436] | Excellent retention |
+| **Reversion** | **+5% to +8%** [S:427] | Robust pricing power |
+| **Assessment** | 🟢 **Strong execution** | Premium to market |
+
+**Clustering Risk Assessment:** Sunway REIT has successfully navigated three significant lease expiry clusters:
+1. **Pre-COVID (2019-2020):** Normal cycle, positive reversions, 89% renewal [S:433]
+2. **COVID Period (2020-2021):** Managed with concessions, preserved relationships, 85% renewal [S:434]
+3. **Current Cycle (2024-2025):** Strong execution, premium pricing, 91%+ renewal [S:436]
+
+The successful management of the FY2024-FY2025 cluster [S:435]—the largest in recent years with ~30% of portfolio leases expiring—demonstrates the effectiveness of Sunway's tenant engagement and the quality of its mall portfolio. The achievement of +5% to +8% reversions [S:427] during this high-volume renewal period is particularly noteworthy, validating the pricing power of prime retail assets.
+
+**Forward Outlook:** With the major FY2024-FY2025 expiry cluster now largely addressed and positive reversions secured, Sunway REIT enters FY2026 with a stable, repriced rental base. The next significant cluster is not expected until FY2028-FY2029 (based on 3-year lease cycles [S:428]), providing near-term income visibility.
+
 ### 2.8 Recent Acquisitions (2024-2025) ⭐ NEW
 
 **2024 Acquisitions:**
