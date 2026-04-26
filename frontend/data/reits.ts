@@ -49,6 +49,7 @@ export const DEFAULT_ENTITY_CODES = [
   '5121.KL',
   '5110.KL',
   '5338.KL',
+  '5123.KL',
 ] as const;
 
 export const DEFAULT_COMPARE_CODES = DEFAULT_ENTITY_CODES.slice(0, 4);
@@ -72,6 +73,7 @@ const SECTOR_OVERRIDES: Record<string, string> = {
   '5121.KL': 'Retail',
   '5110.KL': 'Commercial',
   '5338.KL': 'Retail',
+  '5123.KL': 'Commercial',
 };
 
 function metricSortValue(metric: Metric) {

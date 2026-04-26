@@ -21,6 +21,7 @@ type SortField =
   | 'sharePrice'
   | 'dpu'
   | 'yield'
+  | 'priceToBook'
   | 'gearing'
   | 'occupancy'
   | 'wale'
@@ -291,7 +292,7 @@ export function MonitorPage() {
           )}
 
           <div className="overflow-auto">
-            <table className="w-full min-w-[1220px] border-collapse text-sm">
+            <table className="w-full min-w-[1300px] border-collapse text-sm">
               <thead>
                 <tr>
                   <th className={`${thClass} w-10 text-center`}>
@@ -346,6 +347,12 @@ export function MonitorPage() {
                     </div>
                     <div className="mt-0.5 text-[10px] font-normal uppercase tracking-wider text-ink-faint">%</div>
                   </th>
+                  <th className={`${thClass} text-right`} onClick={() => handleSort('priceToBook')}>
+                    <div className="flex items-center justify-end gap-1">
+                      P/B <SortIcon field="priceToBook" sortField={sortField} sortDirection={sortDirection} />
+                    </div>
+                    <div className="mt-0.5 text-[10px] font-normal uppercase tracking-wider text-ink-faint">x</div>
+                  </th>
                   <th className={`${thClass} text-right`} onClick={() => handleSort('gearing')}>
                     <div className="flex items-center justify-end gap-1">
                       Gearing <SortIcon field="gearing" sortField={sortField} sortDirection={sortDirection} />
@@ -389,7 +396,7 @@ export function MonitorPage() {
               <tbody>
                 {isLoading && filteredAndSortedData.length === 0 && (
                   <tr>
-                    <td colSpan={14} className="px-4 py-8 text-center text-ink-muted">
+                    <td colSpan={15} className="px-4 py-8 text-center text-ink-muted">
                       Loading live REIT data...
                     </td>
                   </tr>
@@ -440,6 +447,7 @@ export function MonitorPage() {
                       <td className={numTdClass}>{reit.sharePrice.toFixed(2)}</td>
                       <td className={numTdClass}>{reit.dpu.toFixed(2)}</td>
                       <td className={numTdClass}>{reit.yield.toFixed(1)}</td>
+                      <td className={numTdClass}>{reit.priceToBook > 0 ? reit.priceToBook.toFixed(2) : '—'}</td>
                       <td className={numTdClass}>{reit.gearing.toFixed(1)}</td>
                       <td className={numTdClass}>{reit.occupancy.toFixed(1)}</td>
                       <td className={numTdClass}>{reit.wale === 'n/a' ? 'n/a' : reit.wale.toFixed(1)}</td>
@@ -468,7 +476,7 @@ export function MonitorPage() {
 
                 {!isLoading && filteredAndSortedData.length === 0 && (
                   <tr>
-                    <td colSpan={14} className="px-4 py-8 text-center text-ink-muted">
+                    <td colSpan={15} className="px-4 py-8 text-center text-ink-muted">
                       No REITs match your filters.
                     </td>
                   </tr>

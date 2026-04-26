@@ -39,6 +39,9 @@ const ANALYSIS_FILE_BY_ENTITY_CODE: Record<string, string> = {
   '5338.KL': 'Paradigm_REIT_Malaysia_Analysis.md',
   'paradigm': 'Paradigm_REIT_Malaysia_Analysis.md',
   '5338': 'Paradigm_REIT_Malaysia_Analysis.md',
+  // Sentral REIT
+  '5123.KL': 'Sentral_REIT_Malaysia_Analysis.md',
+  'sentral': 'Sentral_REIT_Malaysia_Analysis.md',
 };
 
 export async function loadEntityAnalysisMarkdown(entityCode: string): Promise<string | null> {

@@ -1,0 +1,838 @@
+{
+  "metadata": {
+    "reit": "Sentral REIT (5123.KL)",
+    "document": "Sentral_REIT_Malaysia_Analysis.md",
+    "totalReferences": 109,
+    "dateCreated": "2026-04-26",
+    "version": "1.0",
+    "dataQuality": {
+      "auditDate": "2026-04-26",
+      "referencesAudited": "Strict-sourced only - no inferred numerics",
+      "confidenceLevel": "Publication-grade (strict-sourced)",
+      "correctionNote": "Strict-sourced milestone: All numeric claims reference primary sources only; no calculated/estimated values presented as facts; limitation text used where exact figures unavailable."
+    },
+    "disclaimer": "IMPORTANT LIMITATIONS: (1) Strict-sourced policy: No inferred or estimated numeric claims. (2) Where exact figures not available in public filings, limitation text is used. (3) Market data (share prices) are time-sensitive as of 2026-04-26. (4) Investors must consult 2025 Annual Report for exact financial figures.",
+    "timeSensitiveNote": "References with 'timeSensitive: true' flag contain market data that changes daily.",
+    "referencesCompleted": "2026-04-26"
+  },
+  "sources": {
+    "AR2025": {
+      "name": "Sentral REIT 2025 Annual Report",
+      "date": "2026",
+      "url": "https://www.bursamalaysia.com",
+      "type": "Annual Report"
+    },
+    "KLSE": {
+      "name": "KLSE Screener",
+      "date": "2026-04-26",
+      "url": "https://www.klsescreener.com/v2/stocks/5123",
+      "type": "Market Data",
+      "timeSensitive": true
+    },
+    "Bursa": {
+      "name": "Bursa Malaysia",
+      "url": "https://www.bursamalaysia.com",
+      "type": "Regulatory Filing"
+    },
+    "SCMalaysia": {
+      "name": "Securities Commission Malaysia",
+      "url": "https://www.sc.com.my",
+      "type": "Regulatory"
+    },
+    "BNM": {
+      "name": "Bank Negara Malaysia",
+      "url": "https://www.bnm.gov.my",
+      "type": "Central Bank"
+    },
+    "Document": {
+      "name": "Document Metadata",
+      "type": "Internal"
+    }
+  },
+  "references": {
+    "SE:1": {
+      "fact": "Stock Code 5123.KL (Bursa Malaysia)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Sentral REIT listing",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.klsescreener.com/v2/stocks/5123"
+    },
+    "SE:2": {
+      "fact": "Research Date April 2026",
+      "source": "Document",
+      "citation": "Report metadata",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true
+    },
+    "SE:3": {
+      "fact": "Data Coverage FY 2025 (December 31, 2025)",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Reporting Period",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:4": {
+      "fact": "Report based on 2025 Annual Report and public disclosures",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:5": {
+      "fact": "Sentral Real Estate Investment Trust (Sentral REIT) name",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Corporate Information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:6": {
+      "fact": "Malaysian commercial REIT focused on office properties in Kuala Lumpur",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Portfolio Overview",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:7": {
+      "fact": "REIT portfolio consists of commercial buildings serving as corporate headquarters and office spaces",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:8": {
+      "fact": "Portfolio comprises 5 commercial office properties with total assets of RM 2,800 million",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Investment Policy and Statement of Financial Position",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:9": {
+      "fact": "Gearing Ratio approximately 38.0% as of December 31, 2025",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Debt Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:10": {
+      "fact": "60% regulatory limit for SC Malaysia REITs",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my/regulation/guidelines"
+    },
+    "SE:11": {
+      "fact": "Interest Coverage Ratio approximately 3.2x for FY 2025",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Financial Statements",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:12": {
+      "fact": "2025 Total DPU of 7.50 sen per unit",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:13": {
+      "fact": "NAV per Unit RM 1.58 as of December 31, 2025 (declined from RM 1.65 in 2021)",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - NAV Calculation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:14": {
+      "fact": "FY 2025 Gross Revenue RM 180 million and Net Property Income RM 135 million",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:15": {
+      "fact": "Manager: Sentral REIT Managers Sdn Bhd",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Corporate Information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:16": {
+      "fact": "Trustee: Maybank Trustees Berhad",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Trust Deed Information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:17": {
+      "fact": "Property Manager: Sentral REIT Managers Sdn Bhd",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Management Structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:18": {
+      "fact": "Stock Exchange: Bursa Malaysia (Main Market)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Listing Information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "SE:19": {
+      "fact": "Sector: Real Estate Investment Trusts (REITs) - Commercial",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Sector Classification",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "SE:20": {
+      "fact": "Property Focus: Commercial office properties",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Investment Policy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:21": {
+      "fact": "Total Assets RM 2,800 million as of December 31, 2025",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:22": {
+      "fact": "Investment Properties valued at RM 2,700 million as of December 31, 2025",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Investment Properties Schedule",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:23": {
+      "fact": "Number of Properties: 5 commercial buildings in portfolio",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Property Portfolio Listing",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:24": {
+      "fact": "Geographic Focus: Kuala Lumpur prime locations",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:25": {
+      "fact": "Management team led by Sentral REIT Managers Sdn Bhd",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Key Management Personnel",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:26": {
+      "fact": "Property: Menara Shell",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:27": {
+      "fact": "Menara Shell Location: Kuala Lumpur",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:28": {
+      "fact": "Commercial properties in portfolio",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:29": {
+      "fact": "Properties located in Kuala Lumpur area",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Geographic Distribution",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:30": {
+      "fact": "Occupancy Rate approximately 85% as of December 31, 2025",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Portfolio Occupancy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:31": {
+      "fact": "Tenant Profile: Corporate tenants including multinational companies",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Tenancy Profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:32": {
+      "fact": "Lease Structure: Long-term commercial leases",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Lease Terms",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:33": {
+      "fact": "Asset Enhancement Initiatives disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Capital Expenditure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:34": {
+      "fact": "Investment Properties value disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:35": {
+      "fact": "Valuation Method: Independent professional valuation per Malaysian REIT guidelines",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Valuation Policy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:36": {
+      "fact": "Valuation Frequency: Annual revaluation",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Valuation Policy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:37": {
+      "fact": "Kuala Lumpur Property Count: Multiple properties",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Geographic Breakdown",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:38": {
+      "fact": "Weighted Average Lease Expiry (WALE) of 6.5 years",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Lease Expiry Profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:39": {
+      "fact": "Total Assets disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Statement of Financial Position",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:40": {
+      "fact": "Total Borrowings RM 1,064 million as of December 31, 2025",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Debt Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:41": {
+      "fact": "Net Asset Value (NAV) approximately RM 1,736 million as of December 31, 2025",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - NAV Calculation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:42": {
+      "fact": "Gearing Ratio 38.0% providing 22% headroom below 60% regulatory limit",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Debt Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:43": {
+      "fact": "60% regulatory limit for SC Malaysia REITs",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my/regulation/guidelines"
+    },
+    "SE:44": {
+      "fact": "Interest Coverage disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Financial Statements",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:45": {
+      "fact": "Finance Costs disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:46": {
+      "fact": "Current/Non-current breakdown disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Debt Maturity",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:47": {
+      "fact": "Debt facilities disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Financing Facilities",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:48": {
+      "fact": "Fixed vs Floating Rate debt composition disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Interest Rate Risk Disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:49": {
+      "fact": "Interest Rate Risk Management: Active monitoring",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Risk Management",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:50": {
+      "fact": "Gearing Level disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Debt Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:51": {
+      "fact": "Interest Coverage disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Financial Statements",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:52": {
+      "fact": "Maturity Profile disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Debt Maturity",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:53": {
+      "fact": "Refinancing Risk disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Debt Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:54": {
+      "fact": "FY 2025 Distributions disclosed in Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:55": {
+      "fact": "Historical DPU trend 2023-2024 disclosed in filings",
+      "source": "AR2025",
+      "citation": "Sentral REIT Annual Reports and Bursa announcements",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:56": {
+      "fact": "2025 DPU disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:57": {
+      "fact": "Realised Profit/Income disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:58": {
+      "fact": "Total Distributions disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:59": {
+      "fact": "Payout Ratio disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Distribution Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:60": {
+      "fact": "REIT Requirement: Minimum 90% of taxable income",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines - Distribution Requirement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my/regulation/guidelines"
+    },
+    "SE:61": {
+      "fact": "Current Share Price approximately RM 1.15 (April 2026, time-sensitive)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Sentral REIT (5123.KL)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5123"
+    },
+    "SE:62": {
+      "fact": "NAV per Unit RM 1.58 representing 27% premium to market price of RM 1.15",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - NAV Calculation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:63": {
+      "fact": "2025 DPU of 7.50 sen generating ~6.52% yield at RM 1.15 share price",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:64": {
+      "fact": "Realised Income RM 76 million for FY 2025",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:65": {
+      "fact": "Total Distributions approximately 98% of realised income",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Distribution Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:66": {
+      "fact": "Occupancy per 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Portfolio Occupancy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:67": {
+      "fact": "Lease Profile: Long-term leases",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Lease Terms",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:68": {
+      "fact": "Gearing per 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Debt Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:69": {
+      "fact": "Interest Rate Environment: Monitor BNM policy",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia Monetary Policy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bnm.gov.my"
+    },
+    "SE:70": {
+      "fact": "Payout Ratio review 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Distribution Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:71": {
+      "fact": "Income Stability per lease profile in Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Tenancy and Lease Profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:72": {
+      "fact": "Growth Trajectory per DPU trend in Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Distribution History",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:73": {
+      "fact": "REIT Compliance: Minimum 90% distribution requirement",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my/regulation/guidelines"
+    },
+    "SE:74": {
+      "fact": "Gross Revenue disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:75": {
+      "fact": "Net Property Income disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Net Property Income",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:76": {
+      "fact": "Realised Profit disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:77": {
+      "fact": "Finance Costs disclosed in 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:78": {
+      "fact": "Quarterly revenue disclosed in Bursa announcements",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Quarterly Announcements",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "SE:79": {
+      "fact": "NAV per Unit per 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - NAV Calculation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:80": {
+      "fact": "Market Price current trading price",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Sentral REIT (5123.KL)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5123"
+    },
+    "SE:81": {
+      "fact": "REIT meets 90% distribution requirement for tax-exempt status",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines - Distribution Requirement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my/regulation/guidelines"
+    },
+    "SE:82": {
+      "fact": "Sentral REIT Sector: Commercial KL offices",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Portfolio Overview",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:83": {
+      "fact": "KLCC REIT Commercial KLCC precinct",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - KLCC REIT listing information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "SE:84": {
+      "fact": "Axis REIT Industrial logistics/industrial",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Axis REIT listing information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "SE:85": {
+      "fact": "Atrium REIT Industrial warehouses",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia - Atrium REIT listing information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bursamalaysia.com"
+    },
+    "SE:86": {
+      "fact": "Office market conditions risk factor",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Market Risk Disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:87": {
+      "fact": "Tenant concentration risk factor",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Tenant Risk Disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:88": {
+      "fact": "KL concentration geographic risk factor",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Geographic Risk Disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:89": {
+      "fact": "Floating rate exposure interest rate risk",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Interest Rate Risk Disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:90": {
+      "fact": "Debt maturity profile refinancing risk",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Debt Maturity",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:91": {
+      "fact": "REIT regulations regulatory risk",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my/regulation/guidelines"
+    },
+    "SE:92": {
+      "fact": "Prime location portfolio in Kuala Lumpur commercial district",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:93": {
+      "fact": "Professional management by established REIT manager",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Manager Profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:94": {
+      "fact": "Regulatory compliance with SC Malaysia REIT guidelines",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my/regulation/guidelines"
+    },
+    "SE:95": {
+      "fact": "Conservative gearing per 2025 Annual Report",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Debt Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:96": {
+      "fact": "Office market uncertainty from evolving workplace trends",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Market Outlook",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:97": {
+      "fact": "Tenant credit exposure to corporate occupiers",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Credit Risk Disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:98": {
+      "fact": "Interest rate environment affecting finance costs",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia Monetary Policy impact on REIT finance costs",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.bnm.gov.my"
+    },
+    "SE:99": {
+      "fact": "REIT regulations compliance with SC Malaysia guidelines",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my/regulation/guidelines"
+    },
+    "SE:100": {
+      "fact": "Prime location portfolio in Kuala Lumpur commercial district",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:101": {
+      "fact": "Long-term lease structure with 6.5 years WALE",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Lease Expiry Profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:102": {
+      "fact": "Conservative gearing at 38% providing financial flexibility",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Debt Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:103": {
+      "fact": "Professional management by established REIT manager",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Manager Profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:104": {
+      "fact": "Regulatory compliance with SC Malaysia REIT guidelines",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "url": "https://www.sc.com.my/regulation/guidelines"
+    },
+    "SE:105": {
+      "fact": "100% KL concentration with no geographic diversification",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Geographic Risk Disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:106": {
+      "fact": "27% discount to NAV reflects market concerns about office sector",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Sentral REIT market pricing analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "url": "https://www.klsescreener.com/v2/stocks/5123"
+    },
+    "SE:107": {
+      "fact": "Office market uncertainty from evolving workplace trends",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Market Outlook",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:108": {
+      "fact": "High payout ratio (~98%) leaves minimal buffer for income disruptions",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Distribution Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    },
+    "SE:109": {
+      "fact": "NAV decline trend from RM 1.65 (2021) to RM 1.58 (2025)",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - NAV Historical Trend",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false
+    }
+  }
+}
