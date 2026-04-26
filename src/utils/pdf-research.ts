@@ -8,13 +8,17 @@
 
 import * as https from 'https';
 import * as http from 'http';
+import * as fs from 'fs';
+import * as path from 'path';
 import { URL } from 'url';
 import type {
   PdfExtractionOptions,
   PdfExtractionResult,
   PdfExtractionSuccess,
   PdfExtractionFailure,
+  LocalPdfExtractionOptions,
   UrlValidationResult,
+  PathValidationResult,
   ContentVerificationResult,
   PdfBufferResult,
   FetchConfig,
@@ -34,6 +38,28 @@ const DEFAULT_MAX_SIZE_BYTES = 50 * 1024 * 1024; // 50MB
 
 // PDF magic bytes: %PDF- followed by version
 const PDF_MAGIC_BYTES = Buffer.from('%PDF-');
+
+// Allowed base directories for local file access (path traversal protection)
+const ALLOWED_BASE_DIRS = ['research'];
+
+// Path traversal patterns to block
+const BLOCKED_PATH_PATTERNS = [
+  /\.\./,                    // Parent directory references
+  /^\//,                     // Absolute Unix paths (must use relative)
+  /^[a-zA-Z]:/i,              // Windows drive letters
+  /~/,                       // Home directory expansion
+  /\$/,                      // Environment variable expansion
+  /[\/]etc[\/]/i,            // System directories
+  /[\/]proc[\/]/i,
+  /[\/]sys[\/]/i,
+  /[\/]dev[\/]/i,
+  /[\/]home[\/]/i,
+  /[\/]root[\/]/i,
+  /[\/]var[\/]/i,
+  /\.env/i,                   // Environment files
+  /\.git/i,                   // Git directories
+  /\.ssh/i                    // SSH keys
+];
 
 // Blocked URL patterns (private IPs, localhost)
 const BLOCKED_HOST_PATTERNS = [
@@ -116,6 +142,143 @@ export function validateUrl(url: string): UrlValidationResult {
       valid: false,
       error: `Invalid URL format: ${error instanceof Error ? error.message : String(error)}`,
       errorCode: 'INVALID_URL'
+    };
+  }
+}
+
+// ============================================================================
+// Local File Path Safety Validation
+// ============================================================================
+
+/**
+ * Resolve project root by looking for package.json
+ */
+function findProjectRoot(): string {
+  let currentDir = process.cwd();
+
+  // Walk up to find project root (where package.json exists)
+  while (currentDir !== path.parse(currentDir).root) {
+    if (fs.existsSync(path.join(currentDir, 'package.json'))) {
+      return currentDir;
+    }
+    currentDir = path.dirname(currentDir);
+  }
+
+  // Fallback to cwd if no package.json found
+  return process.cwd();
+}
+
+/**
+ * Validate local file path for safety constraints
+ * - Must be under allowed base directories (research/)
+ * - Must not contain path traversal sequences
+ * - Must not be absolute path
+ * - Must have .pdf extension
+ * - Must exist and be readable
+ */
+export function validateLocalFilePath(filePath: string): PathValidationResult {
+  try {
+    // Check for non-string input
+    if (typeof filePath !== 'string') {
+      return {
+        valid: false,
+        error: 'File path must be a string',
+        errorCode: 'INVALID_PATH'
+      };
+    }
+
+    // Trim whitespace
+    const trimmedPath = filePath.trim();
+
+    // Empty check
+    if (!trimmedPath) {
+      return {
+        valid: false,
+        error: 'File path cannot be empty',
+        errorCode: 'INVALID_PATH'
+      };
+    }
+
+    // Check for blocked patterns (path traversal, system paths, etc.)
+    for (const pattern of BLOCKED_PATH_PATTERNS) {
+      if (pattern.test(trimmedPath)) {
+        return {
+          valid: false,
+          error: `Path contains unsafe pattern: ${pattern.source}`,
+          errorCode: 'INVALID_PATH'
+        };
+      }
+    }
+
+    // Must have .pdf extension (case insensitive)
+    if (!trimmedPath.toLowerCase().endsWith('.pdf')) {
+      return {
+        valid: false,
+        error: 'File must have .pdf extension',
+        errorCode: 'NOT_PDF'
+      };
+    }
+
+    // Find project root
+    const projectRoot = findProjectRoot();
+
+    // Resolve to absolute path
+    const absolutePath = path.resolve(projectRoot, trimmedPath);
+
+    // Ensure resolved path is within allowed base directories
+    const relativeFromRoot = path.relative(projectRoot, absolutePath);
+    const pathComponents = relativeFromRoot.split(path.sep);
+
+    // Must start with allowed base directory
+    const baseDir = pathComponents[0];
+    if (!ALLOWED_BASE_DIRS.includes(baseDir)) {
+      return {
+        valid: false,
+        error: `Path must be within one of: ${ALLOWED_BASE_DIRS.join(', ')}. Got: ${baseDir || '(none)'}`,
+        errorCode: 'INVALID_PATH'
+      };
+    }
+
+    // Verify path doesn't escape the allowed directory after resolution
+    const allowedBasePath = path.join(projectRoot, baseDir);
+    const resolvedRelative = path.relative(allowedBasePath, absolutePath);
+    if (resolvedRelative.startsWith('..') || resolvedRelative === '..') {
+      return {
+        valid: false,
+        error: 'Path escapes allowed directory after resolution',
+        errorCode: 'INVALID_PATH'
+      };
+    }
+
+    // Check file exists
+    if (!fs.existsSync(absolutePath)) {
+      return {
+        valid: false,
+        error: `File not found: ${trimmedPath}`,
+        errorCode: 'PATH_NOT_FOUND'
+      };
+    }
+
+    // Check it's a file (not directory)
+    const stats = fs.statSync(absolutePath);
+    if (!stats.isFile()) {
+      return {
+        valid: false,
+        error: 'Path exists but is not a file',
+        errorCode: 'INVALID_PATH'
+      };
+    }
+
+    return {
+      valid: true,
+      normalizedPath: absolutePath
+    };
+
+  } catch (error) {
+    return {
+      valid: false,
+      error: `Path validation failed: ${error instanceof Error ? error.message : String(error)}`,
+      errorCode: 'INVALID_PATH'
     };
   }
 }
@@ -569,6 +732,130 @@ export async function extractPdfFromUrl(
       errorCode: code,
       retryable,
       attempts: maxRetries,
+      attemptedAt: new Date().toISOString()
+    });
+  }
+}
+
+// ============================================================================
+// Local File Extraction
+// ============================================================================
+
+/**
+ * Extract PDF content from a local file with full safety checks.
+ *
+ * This is the primary entry point for the local PDF ingestion workflow.
+ * All extracted content is marked as `verificationStatus: 'unverified'`
+ * and `confidence: 'medium'` to ensure proper handling downstream.
+ *
+ * @param options - Extraction options including file path and optional configuration
+ * @returns Promise resolving to extraction result (success or failure)
+ */
+export async function extractPdfFromFile(
+  options: LocalPdfExtractionOptions
+): Promise<PdfExtractionResult> {
+  const startTime = new Date().toISOString();
+
+  // Normalize options
+  const maxSizeBytes = Math.max(
+    1024 * 1024, // Minimum 1MB
+    Math.min(options.maxSizeBytes || DEFAULT_MAX_SIZE_BYTES, 100 * 1024 * 1024) // Max 100MB
+  );
+
+  // Step 1: Validate file path
+  const pathValidation = validateLocalFilePath(options.filePath);
+  if (!pathValidation.valid) {
+    return createFailureResult({
+      url: options.filePath, // Use file path as identifier
+      error: pathValidation.error!,
+      errorCode: pathValidation.errorCode!,
+      retryable: false,
+      attempts: 0,
+      attemptedAt: startTime
+    });
+  }
+
+  const normalizedPath = pathValidation.normalizedPath!;
+
+  try {
+    // Step 2: Check file size
+    const stats = fs.statSync(normalizedPath);
+    if (stats.size > maxSizeBytes) {
+      return createFailureResult({
+        url: options.filePath,
+        error: `File size (${(stats.size / 1024 / 1024).toFixed(1)}MB) exceeds limit (${(maxSizeBytes / 1024 / 1024).toFixed(0)}MB)`,
+        errorCode: 'OVERSIZE',
+        retryable: false,
+        attempts: 1,
+        attemptedAt: new Date().toISOString()
+      });
+    }
+
+    // Step 3: Read file
+    const buffer = fs.readFileSync(normalizedPath);
+
+    // Step 4: Verify PDF magic bytes
+    if (!verifyPdfMagicBytes(buffer)) {
+      return createFailureResult({
+        url: options.filePath,
+        error: 'Content does not have valid PDF header',
+        errorCode: 'NOT_PDF',
+        retryable: false,
+        attempts: 1,
+        attemptedAt: new Date().toISOString()
+      });
+    }
+
+    // Step 5: Extract text
+    const extraction = await extractTextFromPdf(buffer);
+
+    // Check for empty content
+    const totalWordCount = extraction.pages.reduce((sum, p) => sum + p.wordCount, 0);
+    if (totalWordCount === 0) {
+      return createFailureResult({
+        url: options.filePath,
+        error: 'PDF contains no extractable text (may be scanned/image-based)',
+        errorCode: 'EMPTY_CONTENT',
+        retryable: false,
+        attempts: 1,
+        attemptedAt: new Date().toISOString()
+      });
+    }
+
+    // Step 6: Build citation metadata
+    // Use provided sourceUrl if available, otherwise use local file reference
+    const sourceReference = options.sourceUrl || `file://${normalizedPath}`;
+    const citation: CitationMetadata = {
+      accessedAt: new Date().toISOString(),
+      verificationStatus: 'unverified',
+      confidence: 'medium',
+      sourceUrl: sourceReference
+    };
+
+    // Step 7: Return success
+    return createSuccessResult({
+      url: options.filePath,
+      extraction: {
+        pages: extraction.pages,
+        totalPages: extraction.totalPages,
+        totalWordCount,
+        totalCharCount: extraction.pages.reduce((sum, p) => sum + p.charCount, 0)
+      },
+      metadata: extraction.metadata,
+      citation
+    });
+
+  } catch (error) {
+    // Parse error to determine code and retryability
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    const { code, retryable } = parseErrorCode(errorMessage);
+
+    return createFailureResult({
+      url: options.filePath,
+      error: errorMessage.replace(/^\[[A-Z_]+\]\s*/, ''), // Strip error code prefix
+      errorCode: code,
+      retryable,
+      attempts: 1,
       attemptedAt: new Date().toISOString()
     });
   }

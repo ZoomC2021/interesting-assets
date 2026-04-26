@@ -25,6 +25,18 @@ export interface PdfExtractionOptions {
 }
 
 /**
+ * Options for local PDF file extraction
+ */
+export interface LocalPdfExtractionOptions {
+  /** Absolute or relative path to the local PDF file */
+  filePath: string;
+  /** Maximum file size in bytes (default: 52428800 = 50MB) */
+  maxSizeBytes?: number;
+  /** Optional source URL reference for citation metadata */
+  sourceUrl?: string;
+}
+
+/**
  * Internal fetch configuration
  */
 export interface FetchConfig {
@@ -131,6 +143,8 @@ export interface PdfExtractionSuccess {
  */
 export type PdfErrorCode =
   | 'INVALID_URL'      // URL fails safety validation
+  | 'INVALID_PATH'     // Local file path fails safety validation
+  | 'PATH_NOT_FOUND'   // Local file does not exist
   | 'NETWORK_ERROR'    // Connection failed
   | 'TIMEOUT'          // Request exceeded timeout
   | 'NOT_PDF'          // Content-Type or magic bytes invalid
@@ -179,6 +193,20 @@ export interface UrlValidationResult {
   error?: string;
   /** Error code if invalid */
   errorCode?: Extract<PdfErrorCode, 'INVALID_URL'>;
+}
+
+/**
+ * Local file path validation result
+ */
+export interface PathValidationResult {
+  /** Whether the path passed safety checks */
+  valid: boolean;
+  /** Normalized absolute path if valid */
+  normalizedPath?: string;
+  /** Error message if invalid */
+  error?: string;
+  /** Error code if invalid */
+  errorCode?: Extract<PdfErrorCode, 'INVALID_PATH' | 'PATH_NOT_FOUND' | 'NOT_PDF'>;
 }
 
 /**

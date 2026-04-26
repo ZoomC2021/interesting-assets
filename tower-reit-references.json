@@ -985,6 +985,39 @@
       "accessDate": "2026-04-26",
       "timeSensitive": false,
       "note": "Data limitation"
+    },
+    "To:115": {
+      "fact": "Share price estimated at RM 0.30 based on 52-week range midpoint (0.26-0.33)",
+      "source": "TowerIR",
+      "citation": "Tower REIT Investor Information - Trading Statistics, estimated from 52-week range",
+      "url": "https://www.tower-reit.com/investor-information",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true,
+      "note": "Estimated from 52-week range 0.26-0.33"
+    },
+    "To:116": {
+      "fact": "Market capitalization estimated at RM 147 million based on 490.875M units at RM 0.30",
+      "source": "Calculated",
+      "citation": "Calculated from units outstanding (490.875M) × estimated share price (RM 0.30)",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true,
+      "note": "Derived calculation"
+    },
+    "To:117": {
+      "fact": "Dividend yield estimated at 3.33% based on FY2024 DPU 1.0 sen and share price RM 0.30",
+      "source": "Calculated",
+      "citation": "Calculated from DPU 1.0 sen / share price RM 0.30",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true,
+      "note": "Derived calculation"
+    },
+    "To:118": {
+      "fact": "Price-to-book ratio estimated at 0.26x based on share price RM 0.30 and NAV RM 1.16",
+      "source": "Calculated",
+      "citation": "Calculated from share price RM 0.30 / NAV per unit RM 1.16",
+      "accessDate": "2026-04-26",
+      "timeSensitive": true,
+      "note": "Derived calculation"
     }
   }
 }

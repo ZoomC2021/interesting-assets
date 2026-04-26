@@ -232,6 +232,27 @@ export class TowerAdapter {
       sourceDisplayIds: ['To:105']
     });
 
+    // Market metrics (time-sensitive)
+    this.addMetric({
+      metricType: 'share_price',
+      value: 0.30,
+      unit: 'RM',
+      period: currentPoint,
+      isTimeSensitive: true,
+      isEstimated: true,
+      sourceDisplayIds: ['To:91', 'To:109', 'To:115']
+    });
+
+    this.addMetric({
+      metricType: 'market_cap',
+      value: 147,
+      unit: 'RM million',
+      period: currentPoint,
+      isTimeSensitive: true,
+      isEstimated: true,
+      sourceDisplayIds: ['To:116']
+    });
+
     // Per-share metrics
     this.addMetric({
       metricType: 'dpu',
@@ -240,6 +261,26 @@ export class TowerAdapter {
       period: fy2024,
       isEstimated: true,
       sourceDisplayIds: ['To:14', 'To:15']
+    });
+
+    this.addMetric({
+      metricType: 'dividend_yield_market',
+      value: 3.33,
+      unit: '%',
+      period: currentPoint,
+      isTimeSensitive: true,
+      isEstimated: true,
+      sourceDisplayIds: ['To:117']
+    });
+
+    this.addMetric({
+      metricType: 'price_to_book',
+      value: 0.26,
+      unit: 'x',
+      period: currentPoint,
+      isTimeSensitive: true,
+      isEstimated: true,
+      sourceDisplayIds: ['To:118']
     });
 
     // Leverage metrics

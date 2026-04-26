@@ -11,7 +11,7 @@ FE    := frontend
 	lint test test-contract test-frontend test-coverage test-all \
 	validate-atrium validate-axis check-citations \
 	verify-citations verify-citations-strict \
-	clean ci
+	ingest-pdf clean ci
 
 help: ## Show this help (default)
 	@printf '%s\n' "Targets:"; \
@@ -69,6 +69,17 @@ verify-citations: ## Verify frontend citations
 
 verify-citations-strict: ## Verify frontend citations (strict)
 	cd $(FE) && $(NPM) run verify:citations:strict
+
+ingest-pdf: ## Ingest a local PDF file (usage: make ingest-pdf FILE=research/doc.pdf [SOURCE_URL=...])
+	@if [ -z "$(FILE)" ]; then \
+		echo "Error: FILE parameter required"; \
+		echo "Usage: make ingest-pdf FILE=research/document.pdf [SOURCE_URL=https://...] [OUTPUT=result.json]"; \
+		exit 1; \
+	fi
+	@npx ts-node scripts/ingest-local-pdf.ts \
+		--file "$(FILE)" \
+		$(if $(SOURCE_URL),--source-url "$(SOURCE_URL)") \
+		$(if $(OUTPUT),--output "$(OUTPUT)")
 
 clean: ## Remove build artifacts (dist, .next, coverage)
 	rm -rf dist $(FE)/dist $(FE)/.next $(FE)/coverage
