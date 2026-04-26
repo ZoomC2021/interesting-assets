@@ -19,6 +19,7 @@ import { createCMMTAdapter } from '../src/adapters/cmmt-adapter';
 import { createAlSalamAdapter } from '../src/adapters/alsalam-adapter';
 import { createKIPAdapter } from '../src/adapters/kip-adapter';
 import { createParadigmAdapter } from '../src/adapters/paradigm-adapter';
+import { createKlccAdapter } from '../src/adapters/klcc-adapter';
 
 /**
  * Write output to both test/samples and frontend/public/data directories
@@ -277,6 +278,23 @@ function generateParadigmSample(): void {
   console.log(`   📊 ${output.timeSeries.length} time series`);
 }
 
+function generateKlccSample(): void {
+  console.log('Generating KLCC REIT sample...');
+  const linker = createCitationLinker();
+  const klccRefs = JSON.parse(fs.readFileSync(
+    path.join(__dirname, '..', 'klcc-reit-references.json'), 'utf-8'
+  ));
+  const adapter = createKlccAdapter(linker);
+  adapter.processReferences(klccRefs);
+  const output = adapter.generateOutput();
+  writeOutputFiles('klcc', output);
+  console.log(`   📊 ${output.references.length} references`);
+  console.log(`   📊 ${output.metrics.length} metrics`);
+  console.log(`   📊 ${output.timeSeries.length} time series`);
+  console.log(`   📊 ${output.observations.length} observations`);
+  console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
+}
+
 // Run generation
 generateAtriumSample();
 generateAxisSample();
@@ -288,4 +306,5 @@ generateCMMTSample();
 generateAlSalamSample();
 generateKIPSample();
 generateParadigmSample();
+generateKlccSample();
 console.log('\n✅ Sample generation complete');

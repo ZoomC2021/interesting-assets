@@ -77,7 +77,8 @@ export function RiskMatrix({ entities, onCitationClick, embedInPanel = false }: 
                 </td>
                 
                 {entities.map(entity => {
-                  const riskFactor = entity.riskAssessment.riskFactors.find(
+                  const riskFactors = entity.riskAssessment?.riskFactors ?? [];
+                  const riskFactor = riskFactors.find(
                     rf => rf.category === category.key
                   );
                   const severity = riskFactor?.severity || 'low';

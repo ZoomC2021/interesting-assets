@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-26T08:34:57.086Z",
+  "generatedAt": "2026-04-26T11:42:04.751Z",
   "entity": {
     "id": "71f4f4f1-534c-5eb8-8bd4-a87c46937920",
     "code": "5130.KL",
@@ -169,9 +169,9 @@
     {
       "id": "8decf2df-7e33-5738-9bf1-364591920e40",
       "displayId": "T:14",
-      "fact": "Interest Coverage ~2.09x",
+      "fact": "Interest Coverage: NPI basis ~3.58x (NPI RM45.98m / Finance Costs RM12.854m); Realised Profit basis ~1.97x (RM25.273m / RM12.854m) — thin, below 2.0x",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Financial Ratios",
+      "citation": "Atrium REIT 2025 Annual Report - Financial Statements",
       "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -179,9 +179,9 @@
     {
       "id": "d549ec8e-92fc-5a3f-9f10-9d7ed2d0e419",
       "displayId": "T:15",
-      "fact": "2025 Total DPU 9.30 sen",
+      "fact": "2025 Total DPU 9.40 sen (4 interim distributions totalling 8.40 sen + 1 final distribution of 1.00 sen)",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Distribution Statement",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution Statement; Q4 2025 filing DCS-29012026-00029",
       "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -870,11 +870,10 @@
     {
       "id": "e6d841a0-ca98-522c-8e6b-f9d4db604b7e",
       "displayId": "T:83",
-      "fact": "ASA5 Tenant: New tenant (undisclosed)",
-      "source": "Bursa",
-      "citation": "Bursa Malaysia Announcement - ASA5 Tenancy Commencement",
-      "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2025-09",
+      "fact": "ASA5 Tenant: Oglaend Industries Sdn Bhd (multinational manufacturing company)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Tenancy Details (ASA5)",
+      "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
     },
@@ -1967,11 +1966,10 @@
     {
       "id": "4a24106a-5365-5048-ae88-82c8b5e8f958",
       "displayId": "T:190",
-      "fact": "ASA5 Tenant: New tenant (undisclosed)",
-      "source": "Bursa",
-      "citation": "Bursa Malaysia Announcement - Tenancy Commencement",
-      "url": "https://www.bursamalaysia.com",
-      "dateAccessed": "2025-09",
+      "fact": "ASA5 Tenant: Oglaend Industries Sdn Bhd (multinational manufacturing company)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Tenancy Details (ASA5)",
+      "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
     },
@@ -2667,9 +2665,9 @@
     {
       "id": "5e471f88-d406-5a51-aad2-506116ad622f",
       "displayId": "T:256",
-      "fact": "Total Equity/NAV: RM 408.45 million",
+      "fact": "NAV (per Annual Report): RM 368.437 million; NAV per unit RM 1.3874. Note: assets minus borrowings = RM408.45m but this ignores trade payables and other liabilities — do not label as NAV.",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Statement of Financial Position",
+      "citation": "Atrium REIT 2025 Annual Report - Statement of Financial Position and NAV Calculation",
       "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -2738,9 +2736,9 @@
     {
       "id": "e3d038b8-49f1-5ec7-bd99-a3532a575683",
       "displayId": "T:263",
-      "fact": "Interest Coverage: ~2.09x",
+      "fact": "Interest Coverage (NPI basis): ~3.58x (NPI RM45.98m / Finance Costs RM12.854m). Interest Coverage (Realised Profit basis): ~1.97x (RM25.273m / RM12.854m) — below 2.0x threshold.",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Interest Cover Ratio",
+      "citation": "Atrium REIT 2025 Annual Report - Financial Statements",
       "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -2748,7 +2746,7 @@
     {
       "id": "63bf9801-5793-569c-b8c0-c40815958812",
       "displayId": "T:264",
-      "fact": "Finance Costs FY 2025: ~RM 6.39 million",
+      "fact": "Finance Costs FY 2025: RM 12.854 million (comprises short-term revolving credit, term loans, bank overdraft, and MTNs)",
       "source": "AR2025",
       "citation": "Atrium REIT 2025 Annual Report - Finance Costs Note",
       "dateAccessed": "2026-03-26",
@@ -2758,9 +2756,9 @@
     {
       "id": "85482d69-a9c3-537b-8259-613f08adaf2e",
       "displayId": "T:265",
-      "fact": "Interest Coverage: ~2.09x (adequate but at lower end)",
+      "fact": "Realised profit coverage (~1.97x) is thin — below the 2.0x minimum threshold",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Interest Cover Analysis",
+      "citation": "Atrium REIT 2025 Annual Report - Realised Profit RM25.273m / Finance Costs RM12.854m",
       "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -3222,9 +3220,9 @@
     {
       "id": "51d24dc6-2d07-543e-ac43-1f62e4bbddd9",
       "displayId": "T:311",
-      "fact": "Total Floating Rate Exposure: ~RM 346.7 million",
+      "fact": "Total Floating Rate Exposure: RM 314.795 million (effectively 100% of total borrowings — all facilities classified as floating-rate per AR2025 interest rate sensitivity note)",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Analysis",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Sensitivity Disclosure",
       "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -3232,9 +3230,9 @@
     {
       "id": "d0a46f11-8bbd-5df1-b80e-154809d41371",
       "displayId": "T:312",
-      "fact": "Floating Rate Debt Percentage: ~93%",
+      "fact": "Floating Rate Debt Percentage: ~100% (all borrowings exposed to interest rate risk)",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Profile",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Sensitivity",
       "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -3242,9 +3240,9 @@
     {
       "id": "43d70a92-d1a8-5abb-9889-fa7fc17059ae",
       "displayId": "T:313",
-      "fact": "Floating-rate debt composition: ~93% estimated",
+      "fact": "Atrium REIT debt is effectively 100% floating-rate (RM314.795m); no fixed-rate component or hedging instruments",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Sensitivity",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Risk Management",
       "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -3313,7 +3311,7 @@
     {
       "id": "1362c5da-b192-52ab-a8c6-4b7a6514e03a",
       "displayId": "T:320",
-      "fact": "Base Case Finance Costs: ~RM 6.39 million (FY 2025)",
+      "fact": "Base Case Finance Costs: RM 12.854 million (FY 2025)",
       "source": "AR2025",
       "citation": "Atrium REIT 2025 Annual Report - Finance Costs",
       "dateAccessed": "2026-03-26",
@@ -3333,10 +3331,10 @@
     {
       "id": "f248b9e7-d85e-59a4-9a58-77f6fd6b2a00",
       "displayId": "T:322",
-      "fact": "+25 bps Impact: +~RM 0.87 million annual finance costs",
-      "source": "Calculated",
-      "citation": "Calculated from 93% floating rate exposure on RM 314.79m borrowings",
-      "dateAccessed": "2026-04-24",
+      "fact": "+25 bps Impact on PAT: -RM 598,110 (per AR2025 sensitivity disclosure); pre-tax estimate ~-RM 787k (RM314.79m x 0.25%)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Sensitivity Disclosure",
+      "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
     },
@@ -3353,9 +3351,9 @@
     {
       "id": "551871bc-b1c9-52a0-9b44-69142a94f867",
       "displayId": "T:324",
-      "fact": "+50 bps Impact: +~RM 1.73 million annual finance costs",
+      "fact": "+50 bps Impact on PAT: ~-RM 1.196 million; pre-tax ~-RM 1.57m",
       "source": "Calculated",
-      "citation": "Calculated from 93% floating rate exposure on RM 314.79m borrowings",
+      "citation": "Extrapolated from AR2025 ±25bps = ±RM598k PAT sensitivity",
       "dateAccessed": "2026-04-24",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -3373,40 +3371,40 @@
     {
       "id": "f763eca2-ef6b-5a10-b1e6-eff67c0b1918",
       "displayId": "T:326",
-      "fact": "-25 bps Impact: -~RM 0.87 million annual finance costs",
-      "source": "Calculated",
-      "citation": "Calculated from 93% floating rate exposure on RM 314.79m borrowings",
-      "dateAccessed": "2026-04-24",
+      "fact": "-25 bps Impact on PAT: +RM 598,110; pre-tax ~+RM 787k",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Sensitivity Disclosure",
+      "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
     },
     {
       "id": "2f449c1e-323b-50dd-bc5a-f3690ff2eb99",
       "displayId": "T:327",
-      "fact": "Sensitivity calculated based on ~93% floating rate exposure on RM 314.79 million borrowings",
-      "source": "Calculated",
-      "citation": "Derived from AR2025 data",
-      "dateAccessed": "2026-04-24",
+      "fact": "Sensitivity per AR2025: ±RM 598,110 PAT impact per ±25 bps change; based on RM314.795m 100% floating-rate borrowings",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Sensitivity Note",
+      "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
     },
     {
       "id": "d98806a6-8d92-5422-ac39-e1311d99cec7",
       "displayId": "T:328",
-      "fact": "Estimated WACD: ~3.5-4.0%",
-      "source": "Calculated",
-      "citation": "Derived from finance costs / average borrowings",
-      "dateAccessed": "2026-04-24",
+      "fact": "Disclosed borrowing rate range: 3.93%–4.54% (per AR2025); implied WACD ~4.1–4.3% based on RM12.854m finance costs / ~RM300m+ average borrowings",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Interest Rate Disclosure",
+      "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
     },
     {
       "id": "ab12774d-cb80-5276-b9c4-5fb166c650c4",
       "displayId": "T:329",
-      "fact": "Finance Costs FY 2025: RM 6.39 million",
-      "source": "Q42025",
-      "citation": "Atrium REIT Q4 2025 Unaudited Results - Finance Costs",
-      "dateAccessed": "2026-01-29",
+      "fact": "Implied WACD ~4.1–4.3% from RM12.854m finance costs; disclosed rate range 3.93%–4.54%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Finance Costs and Borrowings Note",
+      "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
     },
@@ -3433,9 +3431,9 @@
     {
       "id": "8c5574f2-7490-5da1-ba8a-81ff6c46a58b",
       "displayId": "T:332",
-      "fact": "Floating-rate debt composition: ~93%",
+      "fact": "Floating-rate debt composition: ~100% (RM314.795m) — all borrowing facilities classified as exposed to interest rate risk",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Profile",
+      "citation": "Atrium REIT 2025 Annual Report - Interest Rate Risk",
       "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -3443,19 +3441,19 @@
     {
       "id": "18dd681b-cc13-59e9-951f-342151410674",
       "displayId": "T:333",
-      "fact": "Estimated WACD: 3.5-4.0%",
-      "source": "Calculated",
-      "citation": "Calculated from annualized finance costs",
-      "dateAccessed": "2026-04-24",
+      "fact": "Estimated WACD: ~4.1–4.3% (implied); disclosed borrowing rate range 3.93%–4.54%",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Borrowings Note",
+      "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
     },
     {
       "id": "335269a7-0912-53f1-92ce-90ae3175d6de",
       "displayId": "T:334",
-      "fact": "First Interim DPU: 0.90 sen/unit",
+      "fact": "Fifth/Final DPU: 1.00 sen/unit (Dec 2025 period, payable Feb 27, 2026)",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Distribution Details",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution Details; fifth/final distribution",
       "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -3653,19 +3651,19 @@
     {
       "id": "2784f92c-d26b-5b71-9a20-0fe2fba06977",
       "displayId": "T:353",
-      "fact": "Fifth/Final Amount: ~RM 2.55 million",
-      "source": "Calculated",
-      "citation": "Calculated from DPU × units outstanding",
-      "dateAccessed": "2026-04-24",
+      "fact": "Fifth/Final Distribution Amount: ~RM 2.66 million (1.00 sen × ~265.5m units)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution Details",
+      "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
     },
     {
       "id": "73e36559-d1bf-57f2-95d3-61b53e953ab6",
       "displayId": "T:354",
-      "fact": "Total FY 2025 DPU: 9.30 sen",
+      "fact": "Total FY 2025 DPU: 9.40 sen (4 interims = 8.40 sen + final 1.00 sen)",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Distribution Summary",
+      "citation": "Atrium REIT 2025 Annual Report - Distribution Summary; Q4 filing DCS-29012026-00029",
       "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -3673,10 +3671,10 @@
     {
       "id": "57809ed6-f037-52ed-aba8-dac65ec375ef",
       "displayId": "T:355",
-      "fact": "Total FY 2025 Distributions: ~RM 13.95 million",
-      "source": "Calculated",
-      "citation": "Sum of all interim distributions",
-      "dateAccessed": "2026-04-24",
+      "fact": "Total FY 2025 Income Distributions: RM 24.962 million (per Annual Report and Q4 filing)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Income Distribution; Q4 2025 filing",
+      "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
     },
@@ -3753,7 +3751,7 @@
     {
       "id": "8d403ee9-635e-5293-ad04-1bc1f589cf59",
       "displayId": "T:363",
-      "fact": "2025 DPU: 9.30 sen",
+      "fact": "2025 DPU: 9.40 sen",
       "source": "AR2025",
       "citation": "Atrium REIT 2025 Annual Report - Distribution Summary",
       "dateAccessed": "2026-03-26",
@@ -3763,9 +3761,9 @@
     {
       "id": "38b9599e-0fa6-5d7b-8f27-33a8fb9c676a",
       "displayId": "T:364",
-      "fact": "2025 YoY Change: +22.4%",
+      "fact": "2025 YoY Change: ~+23.7% (9.40 sen vs ~7.60 sen in 2024)",
       "source": "Calculated",
-      "citation": "Derived from 2024 vs 2025 DPU",
+      "citation": "Derived from 2024 DPU ~7.60 sen vs 2025 DPU 9.40 sen",
       "dateAccessed": "2026-04-24",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -3773,9 +3771,9 @@
     {
       "id": "be9e9115-3724-55d4-8440-e32c11a58d21",
       "displayId": "T:365",
-      "fact": "22.4% year-over-year DPU growth in 2025",
+      "fact": "~23.7% year-over-year DPU growth in 2025 (9.40 sen vs ~7.60 sen)",
       "source": "Calculated",
-      "citation": "Derived from historical DPU comparison",
+      "citation": "Derived from AR2025 and AR2024 DPU comparison",
       "dateAccessed": "2026-04-24",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -3783,9 +3781,9 @@
     {
       "id": "be9d89e9-e87d-5b61-a789-88e4e3fff60f",
       "displayId": "T:366",
-      "fact": "Realised Income FY 2025: RM 46.61 million",
+      "fact": "Realised Profit FY 2025: RM 25.273 million (per AR2025); Realised Income Available for Distribution: RM 26.314 million (per Q4 filing). Note: RM46.61m is total income (gross revenue minus property expenses), NOT realised distributable income.",
       "source": "AR2025",
-      "citation": "Atrium REIT 2025 Annual Report - Realised Income",
+      "citation": "Atrium REIT 2025 Annual Report - Income Statement (Realised Profit) and Q4 filing",
       "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -3793,19 +3791,19 @@
     {
       "id": "4e8bb509-2023-534d-ba99-21fe65ae8a1d",
       "displayId": "T:367",
-      "fact": "Total Distributions FY 2025: ~RM 13.95 million",
-      "source": "Calculated",
-      "citation": "Based on 9.30 sen DPU",
-      "dateAccessed": "2026-04-24",
+      "fact": "Total Distributions FY 2025: RM 24.962 million (per AR2025 and Q4 filing)",
+      "source": "AR2025",
+      "citation": "Atrium REIT 2025 Annual Report - Income Distribution; Q4 2025 filing",
+      "dateAccessed": "2026-03-26",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
     },
     {
       "id": "2a2e60e1-cad8-5e14-b98f-aec1bb52114c",
       "displayId": "T:368",
-      "fact": "Distribution Payout Ratio: ~29.9%",
+      "fact": "Distribution Payout Ratio: ~94.9% (RM24.962m / RM26.314m realised income avail.) or ~98.8% (RM24.962m / RM25.273m realised profit) — HIGH payout, not conservative",
       "source": "Calculated",
-      "citation": "Derived from distributions / realised income",
+      "citation": "Derived from AR2025 and Q4 filing distributions / realised income figures",
       "dateAccessed": "2026-04-24",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -3867,7 +3865,7 @@
     {
       "id": "574e2e06-fe18-508a-bbed-7a54a958427f",
       "displayId": "T:374",
-      "fact": "2025 DPU: 9.30 sen",
+      "fact": "2025 DPU: 9.40 sen",
       "source": "AR2025",
       "citation": "Atrium REIT 2025 Annual Report - Distribution",
       "dateAccessed": "2026-03-26",
@@ -3877,9 +3875,9 @@
     {
       "id": "c3e923ef-00eb-5455-bf10-02df664bfbba",
       "displayId": "T:375",
-      "fact": "Market Dividend Yield: 7.27%",
+      "fact": "Market Dividend Yield: 7.34% (9.40 sen ÷ RM 1.28)",
       "source": "Calculated",
-      "citation": "9.30 sen ÷ RM 1.280",
+      "citation": "9.40 sen ÷ RM 1.28 (KLSE Screener 24 Apr 2026)",
       "dateAccessed": "2026-04-24",
       "timeSensitive": true,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -3918,9 +3916,9 @@
     {
       "id": "7945b4e5-a8be-5c28-9370-2d9577a135d0",
       "displayId": "T:379",
-      "fact": "Market Yield: 7.27%",
+      "fact": "Market Yield: 7.34% (9.40 sen ÷ RM 1.28, 24 Apr 2026)",
       "source": "Calculated",
-      "citation": "9.30 sen ÷ RM 1.280",
+      "citation": "9.40 sen ÷ RM 1.28",
       "dateAccessed": "2026-04-24",
       "timeSensitive": true,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -3928,9 +3926,9 @@
     {
       "id": "5db0e557-767c-5654-a9d6-b0b06cf9c0bf",
       "displayId": "T:380",
-      "fact": "NAV-Based Yield: ~6.7%",
+      "fact": "NAV-Based Yield: ~6.78% (9.40 sen ÷ RM 1.3874)",
       "source": "Calculated",
-      "citation": "9.30 sen ÷ RM 1.3874",
+      "citation": "9.40 sen ÷ RM 1.3874 NAV per unit",
       "dateAccessed": "2026-04-24",
       "timeSensitive": false,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -3959,9 +3957,9 @@
     {
       "id": "fa8029c9-a637-5255-a74d-b48025f8caa7",
       "displayId": "T:383",
-      "fact": "P/B = 0.92x (8% discount)",
+      "fact": "P/B = 0.92x (~7.7% discount); RM1.28 ÷ RM1.3874 = 0.923",
       "source": "Calculated",
-      "citation": "Current price vs NAV comparison",
+      "citation": "Current price vs NAV comparison (24 Apr 2026)",
       "dateAccessed": "2026-04-24",
       "timeSensitive": true,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -3969,7 +3967,7 @@
     {
       "id": "d497257c-0529-52dd-9084-31fa45865a0b",
       "displayId": "T:384",
-      "fact": "Yield Enhancement: 7.27% market yield vs 6.7% NAV yield",
+      "fact": "Yield Enhancement: 7.34% market yield vs 6.78% NAV yield (based on corrected DPU 9.40 sen)",
       "source": "Calculated",
       "citation": "Discount provides yield enhancement",
       "dateAccessed": "2026-04-24",
@@ -4010,9 +4008,9 @@
     {
       "id": "b03d1620-d994-58dd-90da-484bf1de7e94",
       "displayId": "T:388",
-      "fact": "Atrium Market Yield: 7.27%",
+      "fact": "Atrium Market Yield: 7.34% (9.40 sen ÷ RM1.28, 24 Apr 2026)",
       "source": "Calculated",
-      "citation": "DPU / Current Price",
+      "citation": "DPU 9.40 sen / Current Price RM1.28",
       "dateAccessed": "2026-04-24",
       "timeSensitive": true,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -4062,9 +4060,9 @@
     {
       "id": "c1723031-7532-5111-adf6-3763ae7f2a24",
       "displayId": "T:393",
-      "fact": "Yield Difference: +2.12pp (Atrium advantage)",
+      "fact": "Yield Difference: +2.19pp (Atrium 7.34% vs Axis 5.15%)",
       "source": "Calculated",
-      "citation": "7.27% - 5.15%",
+      "citation": "7.34% - 5.15%",
       "dateAccessed": "2026-04-24",
       "timeSensitive": true,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -4072,9 +4070,9 @@
     {
       "id": "d899924c-b16f-59b7-85e1-d6f4b6e8fc2e",
       "displayId": "T:394",
-      "fact": "Atrium 7.27% vs Axis 5.15% (2.12pp higher)",
+      "fact": "Atrium 7.34% vs Axis 5.15% (+2.19pp higher)",
       "source": "Calculated",
-      "citation": "Market yield comparison",
+      "citation": "Market yield comparison (24 Apr 2026)",
       "dateAccessed": "2026-04-24",
       "timeSensitive": true,
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920"
@@ -5131,7 +5129,7 @@
     {
       "id": "8284d09a-d343-5215-828c-870a63f0a22b",
       "displayId": "T:495",
-      "fact": "Atrium Market Cap: ~RM 600m",
+      "fact": "Atrium Market Cap: ~RM 340m (RM1.28 × ~265.5m units, 24 Apr 2026)",
       "source": "KLSE",
       "citation": "KLSE Screener",
       "url": "https://www.klsescreener.com/v2/stocks/5130",
@@ -5142,7 +5140,7 @@
     {
       "id": "fac7cfca-a338-5a19-ba07-e5398becbc98",
       "displayId": "T:496",
-      "fact": "Axis Market Cap: ~RM 3.5b",
+      "fact": "Axis Market Cap: ~RM 4.1b (RM2.05 × ~2,000m units approx., 24 Apr 2026)",
       "source": "KLSE",
       "citation": "KLSE Screener",
       "url": "https://www.klsescreener.com/v2/stocks/5106",
@@ -6426,7 +6424,7 @@
   ],
   "metrics": [
     {
-      "id": "5b42fd83-17bf-42f9-849d-e93deef2d05f",
+      "id": "25cc930b-9178-43cc-8e57-fb8a19c63c7b",
       "metricType": "portfolio_size",
       "value": 9,
       "unit": "properties",
@@ -6442,7 +6440,7 @@
       ]
     },
     {
-      "id": "f9ba71ef-0db7-42cb-96ee-f06283e9cc47",
+      "id": "d92e0d07-7f23-4620-88ca-2c6ce9b27890",
       "metricType": "total_assets",
       "value": 723.24,
       "unit": "RM million",
@@ -6458,7 +6456,7 @@
       ]
     },
     {
-      "id": "c0539c70-9e68-43bb-ae36-4bb032848e24",
+      "id": "9c8a6a3d-c042-4f58-b1de-f8e388ece459",
       "metricType": "investment_properties",
       "value": 684.97,
       "unit": "RM million",
@@ -6474,7 +6472,7 @@
       ]
     },
     {
-      "id": "ca2d17aa-5a67-41d5-b6f7-b22407e6bc9d",
+      "id": "cc3d08c5-eb79-4cd4-8aee-2c13bf7f90d0",
       "metricType": "property_count",
       "value": 9,
       "unit": "properties",
@@ -6490,7 +6488,7 @@
       ]
     },
     {
-      "id": "c3db4630-92da-438e-bb99-ef9ab0a8a474",
+      "id": "92c95182-c1f8-4de7-acb8-5d466fa0c8c9",
       "metricType": "geographic_concentration",
       "value": 78,
       "unit": "%",
@@ -6505,7 +6503,7 @@
       ]
     },
     {
-      "id": "f3f7710e-8c11-47b5-919f-2a4139608dd2",
+      "id": "25ac4e73-f629-4fc3-9ac9-304735d45b44",
       "metricType": "gross_revenue",
       "value": 51.05,
       "unit": "RM million",
@@ -6521,7 +6519,7 @@
       ]
     },
     {
-      "id": "3d07b664-6ff4-457b-b2a1-0aa1d674d438",
+      "id": "909c347b-a8f1-46ed-b112-284406dd9e7b",
       "metricType": "net_property_income",
       "value": 45.98,
       "unit": "RM million",
@@ -6537,7 +6535,7 @@
       ]
     },
     {
-      "id": "0a865e86-3ee1-4670-a0a7-2ebfc2c58e99",
+      "id": "c259b507-5805-4274-be76-747c5064e0ef",
       "metricType": "realised_income",
       "value": 46.61,
       "unit": "RM million",
@@ -6553,7 +6551,7 @@
       ]
     },
     {
-      "id": "9cc23ccf-9afd-4b47-ab47-dd37d8c890e8",
+      "id": "5260f646-899b-4f1a-8e80-2f6950b5095e",
       "metricType": "nav_per_unit",
       "value": 1.3874,
       "unit": "RM",
@@ -6569,7 +6567,7 @@
       ]
     },
     {
-      "id": "07862f8e-fb12-4c17-b8b1-d7b3062486d5",
+      "id": "beec6840-a166-4768-90fd-1bcc29ecb6be",
       "metricType": "market_cap",
       "value": 340,
       "unit": "RM million",
@@ -6584,7 +6582,7 @@
       ]
     },
     {
-      "id": "ae3aa250-6a11-40cb-a665-db583843b5eb",
+      "id": "e14c933b-811b-4cdc-aaee-6d3f63cf700d",
       "metricType": "share_price",
       "value": 1.28,
       "unit": "RM",
@@ -6601,7 +6599,7 @@
       ]
     },
     {
-      "id": "47d71dab-2993-4686-ac56-e1f052498d2c",
+      "id": "37aa5f63-9f0d-4d11-b68e-ec730f7ac3ca",
       "metricType": "dpu",
       "value": 9.3,
       "unit": "sen",
@@ -6619,7 +6617,7 @@
       ]
     },
     {
-      "id": "72bed2bd-78c6-4570-8a56-f48be02c9b2e",
+      "id": "ead42694-bdcd-4b49-928f-1b198b34707b",
       "metricType": "dpu_growth_yoy",
       "value": 22.4,
       "unit": "%",
@@ -6635,7 +6633,7 @@
       ]
     },
     {
-      "id": "6c565019-cf1f-4503-af75-cb12dc36cdcd",
+      "id": "cdfc1d04-55f4-43ec-92ed-731411b8e793",
       "metricType": "dividend_yield_market",
       "value": 7.27,
       "unit": "%",
@@ -6651,7 +6649,7 @@
       ]
     },
     {
-      "id": "a9db1956-0871-4e0c-95ed-8961d44c86c6",
+      "id": "613acf45-e4a5-4962-a0c2-4c4ae84dbda6",
       "metricType": "dividend_yield_nav",
       "value": 6.7,
       "unit": "%",
@@ -6666,7 +6664,7 @@
       ]
     },
     {
-      "id": "f54fcf3a-96d7-4d8b-8693-0fc4ad4754a5",
+      "id": "adae58a7-6eb5-463a-9f15-50b8b6a14965",
       "metricType": "payout_ratio",
       "value": 29.9,
       "unit": "%",
@@ -6682,7 +6680,7 @@
       ]
     },
     {
-      "id": "654e6eb2-5c16-4e1f-b053-53497e51a8a4",
+      "id": "f5b48d28-c527-4dcc-a455-4f99eea991c0",
       "metricType": "gearing_ratio",
       "value": 43.5,
       "unit": "%",
@@ -6699,7 +6697,7 @@
       ]
     },
     {
-      "id": "dde4dc82-f807-49c6-8e8c-d4aa829dd557",
+      "id": "580bc1f9-f109-4e64-8870-6b8df3004ed5",
       "metricType": "interest_coverage",
       "value": 2.09,
       "unit": "x",
@@ -6716,7 +6714,7 @@
       ]
     },
     {
-      "id": "3b947472-f4da-4c27-9ef8-1335a1c96bb4",
+      "id": "43ba8894-c795-4f45-92e5-168e5e6d4bb7",
       "metricType": "total_borrowings",
       "value": 314.79,
       "unit": "RM million",
@@ -6732,7 +6730,7 @@
       ]
     },
     {
-      "id": "a74d7964-af07-4c46-90bc-5c8b9e18f208",
+      "id": "0fe41e28-8752-4591-8bb5-232f2074eca9",
       "metricType": "fixed_rate_debt_pct",
       "value": 7,
       "unit": "%",
@@ -6747,7 +6745,7 @@
       ]
     },
     {
-      "id": "a2ac69bc-5899-4565-b289-4fecf11515a0",
+      "id": "fe456534-2cbc-4881-a09f-e44ccaf13bea",
       "metricType": "floating_rate_debt_pct",
       "value": 93,
       "unit": "%",
@@ -6764,7 +6762,7 @@
       ]
     },
     {
-      "id": "d6074d17-e308-4a62-a989-8d537b2a6148",
+      "id": "b366ece0-cc6e-4fff-abbe-b120558e4619",
       "metricType": "wacd",
       "value": 3.75,
       "unit": "%",
@@ -6780,7 +6778,7 @@
       ]
     },
     {
-      "id": "68645c31-0d80-44ba-a0ba-169d28621b7a",
+      "id": "c64ca642-dee9-406f-9ef3-b0f83bd45b35",
       "metricType": "occupancy_rate",
       "value": 100,
       "unit": "%",
@@ -6798,7 +6796,7 @@
       ]
     },
     {
-      "id": "8da0b83c-03e3-438f-b132-d88d5d3f4d9d",
+      "id": "04d03491-5a36-49f1-bd46-ae039a7800c9",
       "metricType": "top_tenant_concentration",
       "value": 21,
       "unit": "%",
@@ -6814,7 +6812,7 @@
       ]
     },
     {
-      "id": "902057d1-e9f1-455e-bd91-54c6d46d98f1",
+      "id": "fe88641b-e6bc-48c0-ad00-97ac32e84b3c",
       "metricType": "rental_reversion",
       "value": 5,
       "unit": "%",
@@ -6829,7 +6827,7 @@
       ]
     },
     {
-      "id": "6c25a2b6-02e1-40e9-8ae1-efd082db253d",
+      "id": "a6d7a256-8a9e-47b6-9cdd-18aa8e1f4e09",
       "metricType": "lease_renewal_rate",
       "value": 100,
       "unit": "%",
@@ -6845,7 +6843,7 @@
       ]
     },
     {
-      "id": "4d80ba08-fb8b-4945-82db-6d221d37207a",
+      "id": "d3ad0927-1361-424b-bcd8-4745fef97b0f",
       "metricType": "npi_margin",
       "value": 90.1,
       "unit": "%",
@@ -6861,7 +6859,7 @@
       ]
     },
     {
-      "id": "628b6cf4-cae2-4d4b-a536-5e10df2cb8dc",
+      "id": "14c306de-90e5-47ce-a662-3e1f648917ae",
       "metricType": "interest_rate_sensitivity",
       "value": 0.87,
       "unit": "RM million per +25bps",
@@ -6877,7 +6875,7 @@
       ]
     },
     {
-      "id": "2754e976-8a4f-4c74-b7c1-15790b1a7fbd",
+      "id": "bc19ce2d-1219-4e77-80f9-0b9a67c915f8",
       "metricType": "price_to_book",
       "value": 0.92,
       "unit": "x",
@@ -6894,7 +6892,7 @@
       ]
     },
     {
-      "id": "c915c69f-cacf-41da-b8c8-b16da89ecf34",
+      "id": "35beab13-55f5-4867-b345-4498567d01d0",
       "metricType": "premium_discount_to_nav",
       "value": -8,
       "unit": "%",
@@ -6913,7 +6911,7 @@
   ],
   "timeSeries": [
     {
-      "id": "025e67fb-2a81-4998-922f-5dfd9bc7dfa8",
+      "id": "04a0418b-e7c7-4407-b09b-5e82410e9b8d",
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920",
       "metricType": "dpu",
       "frequency": "annual",
@@ -6959,7 +6957,7 @@
       ]
     },
     {
-      "id": "aed35799-1623-4c69-9bae-84a54098447c",
+      "id": "279ae21a-11c2-4d9e-9b37-762d2ddddb04",
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920",
       "metricType": "occupancy_rate",
       "frequency": "annual",
@@ -6999,7 +6997,7 @@
       ]
     },
     {
-      "id": "8cea2932-c478-44a7-b444-9c062257155a",
+      "id": "9702cce9-4466-4719-b630-a23627fa0614",
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920",
       "metricType": "nav_per_unit",
       "frequency": "annual",
@@ -7042,7 +7040,7 @@
       ]
     },
     {
-      "id": "3a328f7f-3280-49c8-a005-06401d98f37d",
+      "id": "32e2bcac-1b14-4656-8060-e3fd6807728c",
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920",
       "metricType": "gearing_ratio",
       "frequency": "annual",
@@ -7085,7 +7083,7 @@
       ]
     },
     {
-      "id": "6df4f13b-5f79-46e2-8b2b-8dff98bcba04",
+      "id": "ff7b24a1-4c09-42b5-964b-52fb1d8484ed",
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920",
       "metricType": "gross_revenue",
       "frequency": "annual",
@@ -7129,14 +7127,14 @@
     }
   ],
   "riskAssessment": {
-    "id": "cdbd4c1c-7c39-4d47-97c0-a28115b6474c",
+    "id": "245a79f7-2056-4fe4-8939-6aa0bbbc2814",
     "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920",
     "assessmentDate": "2026-04-26",
     "overallRiskRating": "moderate_high",
     "overallScore": 3.5,
     "riskFactors": [
       {
-        "id": "a378e4b9-0325-4c22-a4f4-2df77878a9c2",
+        "id": "5c33a7cb-9675-46b7-b8d5-74269ba71c67",
         "category": "concentration",
         "severity": "high",
         "title": "Portfolio Concentration",
@@ -7177,7 +7175,7 @@
         ]
       },
       {
-        "id": "385b2941-e520-4241-a406-2aa404245c20",
+        "id": "480e9d37-06f7-44ad-8812-f206b6a60527",
         "category": "interest_rate",
         "severity": "critical",
         "title": "Floating-Rate Debt Exposure",
@@ -7230,7 +7228,7 @@
         ]
       },
       {
-        "id": "cb6ba8cd-dd72-462b-b451-6170452f16ab",
+        "id": "94e9e228-d372-4806-8baa-d77fd3042a7c",
         "category": "governance",
         "severity": "high",
         "title": "Management Structure Concerns",
@@ -7277,7 +7275,7 @@
         ]
       },
       {
-        "id": "1684ea21-ca62-4cf1-99da-f45f07d4ffbc",
+        "id": "f68da686-25bc-4692-b570-15c57a9f4b79",
         "category": "transparency",
         "severity": "medium",
         "title": "Disclosure Gaps",
@@ -7311,7 +7309,7 @@
         ]
       },
       {
-        "id": "20af4135-c640-4fed-abf6-238b5c282daf",
+        "id": "99bcf15e-9f38-406d-81f5-4d189c79dcc0",
         "category": "tenant_rollover",
         "severity": "low",
         "title": "Lease Rollover Risk",
@@ -7351,7 +7349,7 @@
         ]
       },
       {
-        "id": "722d57e7-a901-44d5-979e-9d42bde7c193",
+        "id": "5d7319c5-1675-4906-9a78-f50442be6790",
         "category": "counterparty",
         "severity": "high",
         "title": "Lumileds Counterparty Credit Risk",
@@ -7420,7 +7418,7 @@
   },
   "observations": [
     {
-      "id": "6af6b5ab-dfd9-4e66-81a8-f45a53f42e8f",
+      "id": "7508462f-3e1f-478b-8597-6cca9db463fe",
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920",
       "observationType": "executive_summary",
       "priority": "positive",
@@ -7462,7 +7460,7 @@
       "primaryCitation": "T:364"
     },
     {
-      "id": "63dc9b34-dce7-45ea-ba5e-f967c74ef086",
+      "id": "2f79b090-7bdf-413d-bd3e-6615a0c18a45",
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920",
       "observationType": "debt_sustainability",
       "priority": "warning",
@@ -7509,7 +7507,7 @@
       "primaryCitation": "T:312"
     },
     {
-      "id": "ccc3065a-5bbb-4e54-aa37-7d05f1b8e319",
+      "id": "4c9a8688-1fd5-4422-b411-f8d93ecd9a56",
       "entityId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920",
       "observationType": "risk_assessment",
       "priority": "warning",

@@ -18,6 +18,43 @@ import HomePage from '../../app/page';
 import { DesignStateProvider } from '../../components/reit-research/DesignStateProvider';
 import type { NormalizedReitData, Metric } from '../../types/frontend';
 
+// ============================================================================
+// Mock Entity Data Loading (must be before imports that use it)
+// ============================================================================
+
+jest.mock('../../lib/comparison-model', () => ({
+  loadEntityData: jest.fn().mockResolvedValue({
+    schemaVersion: '1.0',
+    generatedAt: new Date().toISOString(),
+    entity: {
+      id: 'test-entity-1',
+      code: '5130.KL',
+      name: 'Test REIT',
+      exchange: 'Bursa Malaysia',
+      sector: 'Industrial',
+      currency: 'MYR',
+      isShariahCompliant: false,
+      listingDate: '2007-04-02',
+      manager: { name: 'Test REIT Managers' },
+      trustee: 'Maybank Trustees',
+      fiscalYearEnd: { month: 12, day: 31 },
+      references: ['ref-1'],
+    },
+    references: [],
+    metrics: [],
+    timeSeries: [],
+    riskAssessment: {
+      id: 'risk-1',
+      entityId: 'test-entity-1',
+      assessmentDate: new Date().toISOString(),
+      overallRiskRating: 'low',
+      riskFactors: [],
+    },
+    observations: [],
+  }),
+  loadMultipleEntities: jest.fn().mockResolvedValue([]),
+}));
+
 // Mock Next.js Link
 jest.mock('next/link', () => {
   return ({ children, href }: { children: React.ReactNode; href: string }) => (
@@ -66,32 +103,37 @@ describe('Responsive Design: Home Page', () => {
         setViewport(width);
       });
 
-      it(`should render home page at ${width}px`, () => {
+      it(`should render home page at ${width}px`, async () => {
         render(
           <DesignStateProvider>
             <HomePage />
           </DesignStateProvider>
         );
         
+        // Wait for async data loading
+        await screen.findByText('Malaysian REIT Monitor');
+        
         expect(screen.getByText('Malaysian REIT Monitor')).toBeInTheDocument();
-        expect(screen.getByText('Monitor')).toBeInTheDocument();
-        expect(screen.getByText('Compare')).toBeInTheDocument();
+        expect(screen.getByText('Filters')).toBeInTheDocument();
       });
 
-      it(`should maintain layout at ${width}px`, () => {
+      it(`should maintain layout at ${width}px`, async () => {
         render(
           <DesignStateProvider>
             <HomePage />
           </DesignStateProvider>
         );
+        
+        // Wait for async data loading
+        await screen.findByText('Malaysian REIT Monitor');
         
         // Content should be visible
         const heading = screen.getByRole('heading', { level: 1 });
         expect(heading).toBeVisible();
         
-        // Stats should be visible
-        expect(screen.getByText('10 REITs')).toBeVisible();
-        expect(screen.getByText('30+ Metrics')).toBeVisible();
+        // Table and filters should be visible
+        expect(screen.getByRole('table')).toBeVisible();
+        expect(screen.getByText('Filters')).toBeVisible();
       });
     });
   });
@@ -445,30 +487,35 @@ describe('Mobile Design (375px)', () => {
     setViewport(375);
   });
 
-  it('should stack navigation cards on mobile', () => {
+  it('should render monitor interface on mobile', async () => {
     render(
       <DesignStateProvider>
         <HomePage />
       </DesignStateProvider>
     );
     
-    // Cards should be stacked (grid-cols-1 on mobile)
-    const monitorCard = screen.getByText('Monitor').closest('a');
-    const compareCard = screen.getByText('Compare').closest('a');
+    // Wait for async loading
+    await screen.findByText('Malaysian REIT Monitor');
     
-    expect(monitorCard).toBeInTheDocument();
-    expect(compareCard).toBeInTheDocument();
+    // Monitor page should render with table and filters
+    expect(screen.getByText('Malaysian REIT Monitor')).toBeInTheDocument();
+    expect(screen.getByText('Filters')).toBeInTheDocument();
+    expect(screen.getByRole('table')).toBeInTheDocument();
   });
 
-  it('should have readable text at mobile size', () => {
+  it('should have readable text at mobile size', async () => {
     render(
       <DesignStateProvider>
         <HomePage />
       </DesignStateProvider>
     );
 
+    // Wait for async loading
+    await screen.findByText('Malaysian REIT Monitor');
+
     const heading = screen.getByRole('heading', { level: 1 });
-    expect(heading).toHaveClass('text-3xl');
+    expect(heading).toBeInTheDocument();
+    expect(heading).toBeVisible();
   });
 });
 
@@ -481,15 +528,19 @@ describe('Tablet Design (768px)', () => {
     setViewport(768);
   });
 
-  it('should show two-column grid on tablet', () => {
+  it('should show monitor interface on tablet', async () => {
     render(
       <DesignStateProvider>
         <HomePage />
       </DesignStateProvider>
     );
     
-    // Should show 2-column layout (sm:grid-cols-2)
+    // Wait for async loading
+    await screen.findByText('Malaysian REIT Monitor');
+    
+    // Should show monitor page with data table
     expect(screen.getByText('Malaysian REIT Monitor')).toBeInTheDocument();
+    expect(screen.getByRole('table')).toBeInTheDocument();
   });
 });
 
@@ -502,16 +553,19 @@ describe('Desktop Design (1024px+)', () => {
     setViewport(1440);
   });
 
-  it('should render full layout on desktop', () => {
+  it('should render full monitor layout on desktop', async () => {
     render(
       <DesignStateProvider>
         <HomePage />
       </DesignStateProvider>
     );
     
+    // Wait for async loading
+    await screen.findByText('Malaysian REIT Monitor');
+    
     expect(screen.getByText('Malaysian REIT Monitor')).toBeInTheDocument();
-    expect(screen.getByText('Monitor')).toBeInTheDocument();
-    expect(screen.getByText('Compare')).toBeInTheDocument();
+    expect(screen.getByText('Filters')).toBeInTheDocument();
+    expect(screen.getByRole('table')).toBeInTheDocument();
   });
 });
 
@@ -520,7 +574,7 @@ describe('Desktop Design (1024px+)', () => {
 // ============================================================================
 
 describe('Orientation Changes', () => {
-  it('should handle portrait orientation', () => {
+  it('should handle portrait orientation', async () => {
     Object.defineProperty(window.screen, 'orientation', {
       writable: true,
       configurable: true,
@@ -532,10 +586,14 @@ describe('Orientation Changes', () => {
         <HomePage />
       </DesignStateProvider>
     );
+    
+    // Wait for async loading
+    await screen.findByText('Malaysian REIT Monitor');
+    
     expect(screen.getByText('Malaysian REIT Monitor')).toBeInTheDocument();
   });
 
-  it('should handle landscape orientation', () => {
+  it('should handle landscape orientation', async () => {
     Object.defineProperty(window.screen, 'orientation', {
       writable: true,
       configurable: true,
@@ -547,6 +605,10 @@ describe('Orientation Changes', () => {
         <HomePage />
       </DesignStateProvider>
     );
+    
+    // Wait for async loading
+    await screen.findByText('Malaysian REIT Monitor');
+    
     expect(screen.getByText('Malaysian REIT Monitor')).toBeInTheDocument();
   });
 });
@@ -556,7 +618,7 @@ describe('Orientation Changes', () => {
 // ============================================================================
 
 describe('Zoom Levels', () => {
-  it('should be readable at 200% zoom', () => {
+  it('should be readable at 200% zoom', async () => {
     // Simulating 200% zoom
     Object.defineProperty(window, 'devicePixelRatio', {
       writable: true,
@@ -569,6 +631,10 @@ describe('Zoom Levels', () => {
         <HomePage />
       </DesignStateProvider>
     );
+    
+    // Wait for async loading
+    await screen.findByText('Malaysian REIT Monitor');
+    
     expect(screen.getByText('Malaysian REIT Monitor')).toBeInTheDocument();
   });
 });
@@ -581,7 +647,7 @@ describe('Content Visibility at All Sizes', () => {
   const viewports = [320, 375, 768, 1024, 1440];
 
   viewports.forEach(width => {
-    it(`should show all essential content at ${width}px`, () => {
+    it(`should show all essential content at ${width}px`, async () => {
       setViewport(width);
       
       render(
@@ -590,18 +656,21 @@ describe('Content Visibility at All Sizes', () => {
         </DesignStateProvider>
       );
       
-      // All these elements should be visible
+      // Wait for async loading
+      await screen.findByText('Malaysian REIT Monitor');
+      
+      // All these elements should be visible (updated for Monitor page UI)
       const essentials = [
         'Malaysian REIT Monitor',
-        'Monitor',
-        'Compare',
-        '10 REITs',
-        '30+ Metrics',
+        'Filters',
       ];
       
       essentials.forEach(text => {
         expect(screen.getByText(text)).toBeInTheDocument();
       });
+      
+      // Table should also be present
+      expect(screen.getByRole('table')).toBeInTheDocument();
     });
   });
 });

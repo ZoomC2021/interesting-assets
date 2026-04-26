@@ -717,8 +717,9 @@ export function EntityPage({ ticker, analysisMarkdown }: EntityPageProps) {
           setActiveCitationId(null);
         }}
         activeCitationId={activeCitationId}
-        citationIds={selectedCitationIds.length > 0 ? selectedCitationIds : allCitationIds}
-        entities={[reit.raw]}
+        citations={selectedCitationIds.length > 0
+          ? reit.citations.filter((c) => selectedCitationIds.includes(c.id))
+          : reit.citations}
       />
 
       {/* Floating back-to-top button; fades in once the reader scrolls past the memo

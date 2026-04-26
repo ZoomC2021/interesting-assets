@@ -20,6 +20,44 @@ import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { useRouter, useSearchParams, useParams } from 'next/navigation';
 import HomePage from '../../app/page';
+import { DesignStateProvider } from '../../components/reit-research/DesignStateProvider';
+
+// ============================================================================
+// Mock Entity Data Loading (must be before imports that use it)
+// ============================================================================
+
+jest.mock('../../lib/comparison-model', () => ({
+  loadEntityData: jest.fn().mockResolvedValue({
+    schemaVersion: '1.0',
+    generatedAt: new Date().toISOString(),
+    entity: {
+      id: 'test-entity-1',
+      code: '5130.KL',
+      name: 'Test REIT',
+      exchange: 'Bursa Malaysia',
+      sector: 'Industrial',
+      currency: 'MYR',
+      isShariahCompliant: false,
+      listingDate: '2007-04-02',
+      manager: { name: 'Test REIT Managers' },
+      trustee: 'Maybank Trustees',
+      fiscalYearEnd: { month: 12, day: 31 },
+      references: ['ref-1'],
+    },
+    references: [],
+    metrics: [],
+    timeSeries: [],
+    riskAssessment: {
+      id: 'risk-1',
+      entityId: 'test-entity-1',
+      assessmentDate: new Date().toISOString(),
+      overallRiskRating: 'low',
+      riskFactors: [],
+    },
+    observations: [],
+  }),
+  loadMultipleEntities: jest.fn().mockResolvedValue([]),
+}));
 
 // ============================================================================
 // Mock Next.js Navigation
@@ -156,58 +194,68 @@ describe('E2E Workflows', () => {
   });
 
   describe('Home Page Navigation', () => {
-    it('should render home page with navigation cards', () => {
-      render(<HomePage />);
+    it('should render home page with main heading', async () => {
+      render(
+        <DesignStateProvider>
+          <HomePage />
+        </DesignStateProvider>
+      );
+      
+      // Wait for async data loading to complete
+      await screen.findByText('Malaysian REIT Monitor');
       
       // Check main heading
       expect(screen.getByText('Malaysian REIT Monitor')).toBeInTheDocument();
       
-      // Check navigation cards
-      expect(screen.getByText('Monitor')).toBeInTheDocument();
-      expect(screen.getByText('Compare')).toBeInTheDocument();
-      
-      // Check stats
-      expect(screen.getByText('10 REITs')).toBeInTheDocument();
-      expect(screen.getByText('30+ Metrics')).toBeInTheDocument();
-      expect(screen.getByText('Real-time Benchmarks')).toBeInTheDocument();
+      // Check filters sidebar
+      expect(screen.getByText('Filters')).toBeInTheDocument();
     });
 
-    it('should have working navigation links', () => {
-      render(<HomePage />);
+    it('should have working navigation links in header', async () => {
+      render(
+        <DesignStateProvider>
+          <HomePage />
+        </DesignStateProvider>
+      );
       
-      // Check Monitor link
-      const monitorLink = screen.getByText('Monitor').closest('a');
-      expect(monitorLink).toHaveAttribute('href', '/monitor');
+      // Wait for page to load
+      await screen.findByText('Malaysian REIT Monitor');
       
-      // Check Compare link
-      const compareLink = screen.getByText('Compare').closest('a');
-      expect(compareLink).toHaveAttribute('href', '/compare');
+      // Check for table structure (Monitor page renders a data table)
+      expect(screen.getByRole('table')).toBeInTheDocument();
     });
   });
 
   describe('Navigation Flow: Home → Monitor', () => {
-    it('should navigate from home to monitor page', () => {
-      render(<HomePage />);
+    it('should show monitor page at root route', async () => {
+      render(
+        <DesignStateProvider>
+          <HomePage />
+        </DesignStateProvider>
+      );
       
-      // Click Monitor card
-      const monitorLink = screen.getByText('Monitor').closest('a');
-      expect(monitorLink).toBeInTheDocument();
+      // Wait for async loading to complete
+      await screen.findByText('Malaysian REIT Monitor');
       
-      // Verify href
-      expect(monitorLink).toHaveAttribute('href', '/monitor');
+      // Verify page structure (Monitor page renders a data table)
+      expect(screen.getByRole('table')).toBeInTheDocument();
+      expect(screen.getByText('Filters')).toBeInTheDocument();
     });
   });
 
-  describe('Navigation Flow: Home → Compare', () => {
-    it('should navigate from home to compare page', () => {
-      render(<HomePage />);
+  describe('Navigation Flow: Monitor Page Data Loading', () => {
+    it('should load monitor page with data table structure', async () => {
+      render(
+        <DesignStateProvider>
+          <HomePage />
+        </DesignStateProvider>
+      );
       
-      // Click Compare card
-      const compareLink = screen.getByText('Compare').closest('a');
-      expect(compareLink).toBeInTheDocument();
+      // Wait for page to render
+      await screen.findByText('Malaysian REIT Monitor');
       
-      // Verify href
-      expect(compareLink).toHaveAttribute('href', '/compare');
+      // Verify table headers exist
+      expect(screen.getByRole('columnheader', { name: /Name Ticker/i })).toBeInTheDocument();
     });
   });
 
@@ -317,29 +365,53 @@ describe('E2E Workflows', () => {
   });
 
   describe('Responsive Breakpoints', () => {
-    it('should support mobile breakpoint (320px)', () => {
+    it('should support mobile breakpoint (320px)', async () => {
       // Set viewport to mobile size
       global.innerWidth = 320;
       global.dispatchEvent(new Event('resize'));
       
       // Verify component renders
-      render(<HomePage />);
+      render(
+        <DesignStateProvider>
+          <HomePage />
+        </DesignStateProvider>
+      );
+      
+      // Wait for async loading
+      await screen.findByText('Malaysian REIT Monitor');
+      
       expect(screen.getByText('Malaysian REIT Monitor')).toBeInTheDocument();
     });
 
-    it('should support tablet breakpoint (768px)', () => {
+    it('should support tablet breakpoint (768px)', async () => {
       global.innerWidth = 768;
       global.dispatchEvent(new Event('resize'));
       
-      render(<HomePage />);
+      render(
+        <DesignStateProvider>
+          <HomePage />
+        </DesignStateProvider>
+      );
+      
+      // Wait for async loading
+      await screen.findByText('Malaysian REIT Monitor');
+      
       expect(screen.getByText('Malaysian REIT Monitor')).toBeInTheDocument();
     });
 
-    it('should support desktop breakpoint (1440px)', () => {
+    it('should support desktop breakpoint (1440px)', async () => {
       global.innerWidth = 1440;
       global.dispatchEvent(new Event('resize'));
       
-      render(<HomePage />);
+      render(
+        <DesignStateProvider>
+          <HomePage />
+        </DesignStateProvider>
+      );
+      
+      // Wait for async loading
+      await screen.findByText('Malaysian REIT Monitor');
+      
       expect(screen.getByText('Malaysian REIT Monitor')).toBeInTheDocument();
     });
   });
@@ -368,27 +440,39 @@ describe('E2E Workflows', () => {
 // ============================================================================
 
 describe('Keyboard Navigation: Home Page', () => {
-  it('should render navigation links', async () => {
-    render(<HomePage />);
+  it('should render interactive elements', async () => {
+    render(
+      <DesignStateProvider>
+        <HomePage />
+      </DesignStateProvider>
+    );
     
-    // Get all focusable links
-    const links = screen.getAllByRole('link');
-    expect(links.length).toBeGreaterThan(0);
+    // Wait for async loading
+    await screen.findByText('Malaysian REIT Monitor');
     
-    // Links are anchor elements and are naturally focusable
-    links.forEach(link => {
-      expect(link.tagName).toBe('A');
-    });
+    // Get all focusable elements (buttons, inputs)
+    const buttons = screen.getAllByRole('button');
+    expect(buttons.length).toBeGreaterThan(0);
+    
+    // Check for filter buttons
+    expect(screen.getByRole('button', { name: 'Sector' })).toBeInTheDocument();
   });
 
-  it('should have proper hrefs for navigation', async () => {
-    render(<HomePage />);
+  it('should have proper page structure', async () => {
+    render(
+      <DesignStateProvider>
+        <HomePage />
+      </DesignStateProvider>
+    );
     
-    const monitorLink = screen.getByText('Monitor').closest('a');
-    expect(monitorLink).toBeInTheDocument();
+    // Wait for async loading
+    await screen.findByText('Malaysian REIT Monitor');
     
-    // Link should have href
-    expect(monitorLink).toHaveAttribute('href', '/monitor');
+    // Verify main heading exists
+    expect(screen.getByRole('heading', { name: 'Malaysian REIT Monitor' })).toBeInTheDocument();
+    
+    // Verify table exists
+    expect(screen.getByRole('table')).toBeInTheDocument();
   });
 });
 
@@ -738,18 +822,25 @@ describe('E2E Workflow: Complete Keyboard Journey', () => {
     // This test documents the intended keyboard workflow
     // Actual full page navigation requires more complex integration testing
     
-    render(<HomePage />);
+    render(
+      <DesignStateProvider>
+        <HomePage />
+      </DesignStateProvider>
+    );
+    
+    // Wait for async data loading to complete
+    await screen.findByText('Malaysian REIT Monitor');
     
     // Step 1: Home page loads with focus on document
     expect(document.activeElement).toBe(document.body);
     
-    // Step 2: User can tab to navigation links
-    const links = screen.getAllByRole('link');
-    expect(links.length).toBeGreaterThan(0);
+    // Step 2: User can tab to interactive elements (buttons, inputs)
+    const buttons = screen.getAllByRole('button');
+    expect(buttons.length).toBeGreaterThan(0);
     
-    // Step 3: Each link should be accessible
-    links.forEach(link => {
-      expect(link).toHaveAttribute('href');
+    // Step 3: Each interactive element should be accessible
+    buttons.forEach(button => {
+      expect(button).toBeEnabled();
     });
   });
 
@@ -825,13 +916,21 @@ describe('Integration: Data Flow', () => {
 // ============================================================================
 
 describe('Performance: Page Load', () => {
-  it('should render home page within acceptable time', () => {
+  it('should render home page within acceptable time', async () => {
     const start = performance.now();
-    render(<HomePage />);
+    render(
+      <DesignStateProvider>
+        <HomePage />
+      </DesignStateProvider>
+    );
+    
+    // Wait for async loading
+    await screen.findByText('Malaysian REIT Monitor');
+    
     const end = performance.now();
     
-    // Should render in less than 100ms
-    expect(end - start).toBeLessThan(100);
+    // Should render in less than 500ms (including async data loading)
+    expect(end - start).toBeLessThan(500);
   });
 
   it('should have optimized bundle references', () => {

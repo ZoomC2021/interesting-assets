@@ -140,10 +140,10 @@ export class UoaAdapter {
 
     this.addMetric({
       metricType: 'total_assets',
-      value: 1760.23,
+      value: 1762.86,
       unit: 'RM million',
       period: q4Point,
-      sourceDisplayIds: ['U:38']
+      sourceDisplayIds: ['U:348']
     });
 
     this.addMetric({
@@ -330,10 +330,10 @@ export class UoaAdapter {
     // Additional operational metrics
     this.addMetric({
       metricType: 'investment_properties',
-      value: 1726,
+      value: 1734,
       unit: 'RM million',
       period: q4Point,
-      sourceDisplayIds: ['U:37']
+      sourceDisplayIds: ['U:347']
     });
 
     this.addMetric({

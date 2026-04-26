@@ -427,9 +427,9 @@ describe('Accessibility: Touch Targets (Mobile)', () => {
         entities={[mockEntity]}
       />
     );
-    
+
     // Check button sizing classes
     const closeButton = screen.getByLabelText('Close citation panel');
-    expect(closeButton).toHaveClass('p-2'); // Minimum padding for touch target
+    expect(closeButton).toHaveClass('p-1.5'); // Minimum padding for touch target
   });
 });

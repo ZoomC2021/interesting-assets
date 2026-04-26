@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-25T12:00:00.000Z",
+  "generatedAt": "2026-04-26T11:42:04.787Z",
   "entity": {
-    "id": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+    "id": "8dcdd331-45ec-5683-910e-0914d86355f5",
     "code": "5235SS",
     "name": "KLCCP Stapled Group (KLCC REIT)",
     "exchange": "Bursa Malaysia",
@@ -22,17 +22,17 @@
       "day": 31
     },
     "references": [
-      "k1-ref-001",
-      "k1-ref-005",
-      "k1-ref-006",
-      "k1-ref-024",
-      "k1-ref-026",
-      "k1-ref-027"
+      "2975b1b6-6d4f-52a8-846b-3a4075d9fa36",
+      "278c4ccc-0499-584b-b646-76e434c9d901",
+      "78656eae-e2a4-5795-a6a0-0964abe819cc",
+      "6735f304-0d96-51be-a75d-4d4ae41e4a8c",
+      "a6cff668-78b2-57aa-b670-b9d1d671d480",
+      "1102a00e-ee84-53a1-b5e0-0b44e4c18ea9"
     ]
   },
   "references": [
     {
-      "id": "k1-ref-001",
+      "id": "2975b1b6-6d4f-52a8-846b-3a4075d9fa36",
       "displayId": "K:1",
       "fact": "Stock Code 5235SS (KLCCP Stapled Group)",
       "source": "KLSE",
@@ -40,10 +40,10 @@
       "url": "https://www.klsescreener.com/v2/stocks/5235SS",
       "dateAccessed": "2026-04-25",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-002",
+      "id": "f4abf88f-bbc0-54e3-b4a8-c0ef3e6f0b92",
       "displayId": "K:2",
       "fact": "Research Date: April 2026",
       "source": "KLSE",
@@ -51,653 +51,3662 @@
       "url": "https://www.klsescreener.com/v2/stocks/5235SS",
       "dateAccessed": "2026-04-25",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-005",
+      "id": "0428cc3a-5094-508d-9f57-9010a6f55fc2",
+      "displayId": "K:3",
+      "fact": "Data Coverage: FY 2024/2025 (January 1 - December 31, 2024/2025)",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report - Financial Year Coverage",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "9f19340d-aa49-57cc-8ccc-eb01b859674a",
+      "displayId": "K:4",
+      "fact": "Report Status: Based on 2024/2025 Annual Report and Q4 2025 results",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report and Q4 2025 Results Announcement",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "278c4ccc-0499-584b-b646-76e434c9d901",
       "displayId": "K:5",
       "fact": "Malaysia's only stapled security combining KLCC REIT and KLCC Property Holdings",
       "source": "AR2025",
       "citation": "KLCC REIT 2025 Annual Report - Stapled Security Structure",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-006",
+      "id": "78656eae-e2a4-5795-a6a0-0964abe819cc",
       "displayId": "K:6",
       "fact": "KLCC REIT is Islamic/Shariah-compliant REIT holding PETRONAS Twin Towers, Menara 3 PETRONAS, and Menara ExxonMobil",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Shariah Compliance and Asset Composition",
+      "citation": "KLCC REIT 2025 Annual Report, p.8 - Shariah Compliance and Asset Composition",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-008",
+      "id": "b394990a-2109-5adf-8a6a-33204b9e6093",
+      "displayId": "K:7",
+      "fact": "KLCC Property Holdings holds Suria KLCC (100%), Mandarin Oriental KL (75%), Menara Maxis (33%), Kompleks Dayabumi, and Lot D1",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.10 - KLCC Property Holdings Asset Portfolio",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "9cbb92d5-426a-5e18-bea8-337d76101b0c",
       "displayId": "K:8",
       "fact": "6 landmark properties in portfolio",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Portfolio Summary",
+      "citation": "KLCC REIT 2025 Annual Report, p.12 - Portfolio Summary",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-009",
+      "id": "469f3f0c-1cac-561c-82c1-1316bb14c1f3",
       "displayId": "K:9",
       "fact": "Total assets approximately RM 16.8 billion",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Consolidated Assets",
+      "citation": "KLCC REIT 2025 Annual Report, p.15 - Consolidated Assets",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-011",
+      "id": "b62677f3-6bdd-5339-b1c9-d25e991c9733",
+      "displayId": "K:10",
+      "fact": "Gross Lettable Area ~5.0 million sq ft across office, retail, and hospitality",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.18 - Portfolio GLA Breakdown",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "5d3c02f0-78ac-5398-8dc0-f5c9118bb39a",
       "displayId": "K:11",
       "fact": "Office Portfolio Occupancy: 100%",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Occupancy Metrics",
+      "citation": "KLCC REIT 2025 Annual Report, p.20 - Occupancy Metrics",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-012",
+      "id": "eff46c61-94bf-5b58-a291-9d626fc8d545",
       "displayId": "K:12",
       "fact": "PETRONAS master lessee under Triple Net Lease",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Master Lease Structure",
+      "citation": "KLCC REIT 2025 Annual Report, p.22 - Master Lease Structure",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-013",
+      "id": "36a337a2-119a-51b5-b47d-523401c188ec",
       "displayId": "K:13",
       "fact": "Suria KLCC Retail Occupancy: 99%",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Retail Occupancy",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Retail Occupancy",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-014",
+      "id": "4005e8c4-8bad-522f-b659-f328b519eb82",
       "displayId": "K:14",
       "fact": "Gearing Ratio: 31.6%",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Debt Metrics",
+      "citation": "KLCC REIT 2025 Annual Report, p.45 - Debt Metrics",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-016",
+      "id": "8c179733-d22d-5fc3-998b-04c1654458b6",
+      "displayId": "K:15",
+      "fact": "Gearing well below 50% regulatory limit",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.45 - Regulatory Compliance",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "a8fa2dd7-9702-58ab-98d8-e5415f6da60c",
       "displayId": "K:16",
       "fact": "Interest Cover Ratio: 5.9x",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Interest Cover Ratio",
+      "citation": "KLCC REIT 2025 Annual Report, p.46 - Interest Cover Ratio",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-017",
+      "id": "95085c1a-19f4-5195-91b1-f4e41b67ed3b",
       "displayId": "K:17",
       "fact": "NAV: RM 7.57 per stapled security",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Net Asset Value",
+      "citation": "KLCC REIT 2025 Annual Report, p.30 - Net Asset Value",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-018",
+      "id": "4fbf3765-1704-5a3c-83ee-1fa8f06efd7c",
       "displayId": "K:18",
       "fact": "FY2024 DPU: 44.50 sen",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Distribution Per Unit FY2024",
+      "citation": "KLCC REIT 2025 Annual Report, p.32 - Distribution Per Unit FY2024",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-019",
+      "id": "92af3add-38b6-5d76-aed3-805e82d2cc1d",
       "displayId": "K:19",
       "fact": "FY2025 DPU: 47.00 sen",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Distribution Per Unit FY2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.32 - Distribution Per Unit FY2025",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-020",
+      "id": "629d217f-9097-513b-b5e6-a6fdd161182a",
       "displayId": "K:20",
       "fact": "Market Dividend Yield: ~5.1-5.3%",
       "source": "KLSE",
-      "citation": "KLSE Screener - Dividend Yield Calculation",
+      "citation": "KLSE Screener - Dividend Yield Calculation (47.00 sen ÷ RM 8.90)",
       "url": "https://www.klsescreener.com/v2/stocks/5235SS",
       "dateAccessed": "2026-04-25",
       "timeSensitive": true,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-021",
+      "id": "bcd69ef2-c963-5e34-86f4-4e6ee90de7dc",
       "displayId": "K:21",
       "fact": "PETRONAS as master lessee (AAA sovereign equivalent credit)",
       "source": "PETRONASAR",
-      "citation": "PETRONAS Annual Report 2025 - Credit Profile",
+      "citation": "PETRONAS Annual Report 2025 - Credit Profile and Government Ownership",
       "url": "https://www.petronas.com/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-022",
+      "id": "5ad5f6a1-e28e-529d-a768-8c59fe5976f1",
       "displayId": "K:22",
       "fact": "Triple Net Lease expiry to 2042",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Master Lease Expiry",
+      "citation": "KLCC REIT 2025 Annual Report, p.22 - Master Lease Expiry",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-024",
+      "id": "667eb10c-8e69-556b-90ed-6d4609056926",
+      "displayId": "K:23",
+      "fact": "Listed on Bursa Malaysia Main Market",
+      "source": "BursaMalaysia",
+      "citation": "Bursa Malaysia Official Listing - Main Market",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "6735f304-0d96-51be-a75d-4d4ae41e4a8c",
       "displayId": "K:24",
       "fact": "REIT Manager: KLCC REIT Management Sdn Bhd",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - REIT Manager Information",
+      "citation": "KLCC REIT 2025 Annual Report, p.10 - REIT Manager Information",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-026",
+      "id": "acfdb6b1-fe8b-58a8-a266-15402b09ac19",
+      "displayId": "K:25",
+      "fact": "Property Holdings Manager: KLCC Property Holdings Berhad",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.10 - Property Holdings Manager",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "a6cff668-78b2-57aa-b670-b9d1d671d480",
       "displayId": "K:26",
       "fact": "Trustee: Maybank Trustees Berhad",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Trustee Information",
+      "citation": "KLCC REIT 2025 Annual Report, p.11 - Trustee Information",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-027",
+      "id": "1102a00e-ee84-53a1-b5e0-0b44e4c18ea9",
       "displayId": "K:27",
       "fact": "Listed Since 2013",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Listing History",
+      "citation": "KLCC REIT 2025 Annual Report, p.5 - Listing History",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-052",
+      "id": "e6a4ec9f-48a1-5259-92bf-52aa49a44623",
+      "displayId": "K:28",
+      "fact": "Sector: Real Estate Investment Trusts (Iconic/Office/Retail/Hospitality)",
+      "source": "BursaMalaysia",
+      "citation": "Bursa Malaysia - Sector Classification",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "401f1636-a9db-507d-ab8b-74d6a7e8ca51",
+      "displayId": "K:29",
+      "fact": "Advantages of stapled structure: diversification, non-REIT asset holding, tax efficiency, unified governance",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.9 - Stapled Security Benefits",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "6cb74c1f-39ad-567e-b02f-17ebb17c0f2e",
+      "displayId": "K:30",
+      "fact": "Ultimate Parent: KLCC (Holdings) Sdn Bhd",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.62 - Ownership Structure",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "c8996b87-ec65-5591-9fa0-f61434a9649d",
+      "displayId": "K:31",
+      "fact": "Under Petroliam Nasional Berhad (PETRONAS) group",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.62 - Group Structure",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "3f6faf07-73c5-56ba-afad-9ea01b65b794",
+      "displayId": "K:32",
+      "fact": "Ownership Chain: PETRONAS → KLCC (Holdings) → KLCC REIT Management",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.62 - Corporate Structure Diagram",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "c274e89d-1270-5ccf-87cd-104fca64b64a",
+      "displayId": "K:33",
+      "fact": "Manager Structure: Wholly-owned subsidiary",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.62 - Manager Ownership",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "feec340b-793d-573f-8e3b-6896e4db3188",
+      "displayId": "K:34",
+      "fact": "Dato' Adif bin Zaini - Chairman",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.14 - Board Composition",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "20094c69-d252-5a53-a9de-b0b8a39f121b",
+      "displayId": "K:35",
+      "fact": "Chairman position",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.14 - Chairman Role",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "03ebfd1d-5850-5a1a-8c47-6a1ab186732f",
+      "displayId": "K:36",
+      "fact": "Former PETRONAS executive background",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.14 - Chairman Profile",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "9c74a47d-6c93-577e-9ae9-2a3b553b9009",
+      "displayId": "K:37",
+      "fact": "Chairman appointed 2023",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.14 - Chairman Appointment Date",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "8a96669f-43ec-5e10-8fe0-818248560741",
+      "displayId": "K:38",
+      "fact": "Datuk Hashim Wahir - CEO/ED",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.16 - CEO Profile",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "01c9356a-cf9a-5eb3-b3d5-248e26b1b474",
+      "displayId": "K:39",
+      "fact": "CEO/Executive Director position",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.16 - CEO Role",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "214d4e97-511e-516e-a931-eead68c74d7f",
+      "displayId": "K:40",
+      "fact": "Former CFO KLCC Property Holdings",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.16 - CEO Career History",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "1991f2d8-2a01-570a-9656-519dac6d07a9",
+      "displayId": "K:41",
+      "fact": "CEO tenure 2016-present (9+ years)",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.16 - CEO Tenure",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "1ced5798-badd-5118-aa3c-4ac5c30934b3",
+      "displayId": "K:42",
+      "fact": "Nor Akmar binti Abdul Rahman - CFO",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.17 - CFO Profile",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "453a3c3a-cdac-5061-b479-0663591439fc",
+      "displayId": "K:43",
+      "fact": "CFO position",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.17 - CFO Role",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "b3d0205f-050f-52c1-a2fb-b1a490ce05d9",
+      "displayId": "K:44",
+      "fact": "Former PETRONAS finance roles",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.17 - CFO Career History",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "f51c09be-3abf-5673-8a80-5e04a7f3e365",
+      "displayId": "K:45",
+      "fact": "CFO appointed 2018 (7+ years)",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.17 - CFO Appointment Date",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "e327c209-5412-5942-8431-b6ec355c70e3",
+      "displayId": "K:46",
+      "fact": "Stable board with low turnover",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.14-15 - Board Tenure Analysis",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "9199d010-550c-558e-a532-f5a173c66a01",
+      "displayId": "K:47",
+      "fact": "PETRONAS backing provides institutional stability",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.62 - Sponsor Support",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "963315ee-6c77-5e8a-bbca-4574cb9d36a9",
+      "displayId": "K:48",
+      "fact": "Base Management Fee: 0.5% p.a. of total assets",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.58 - Fee Structure",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "01a40135-5537-5581-85bb-c1f962b1226d",
+      "displayId": "K:49",
+      "fact": "Industry standard base fee: 1.0%",
+      "source": "Kenanga",
+      "citation": "Kenanga Research - Malaysian REIT Sector Comparison",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "a584fe66-085b-5dee-9838-3950c52af5e6",
+      "displayId": "K:50",
+      "fact": "Performance Fee: 4.5% of growth in DPU",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.58 - Performance Fee Terms",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "2acdb474-cc95-5fc5-a155-e1118a90d652",
+      "displayId": "K:51",
+      "fact": "Trustee Fee: Up to 0.03% p.a. of deposited property value",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.58 - Trustee Fee",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "9c82cf49-8ae8-5f3e-bda3-e60bb60b085d",
       "displayId": "K:52",
       "fact": "PETRONAS Twin Towers - iconic office asset",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Property Portfolio",
+      "citation": "KLCC REIT 2025 Annual Report, p.20 - Property Portfolio Details",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-053",
+      "id": "e779265c-6189-55cd-aeee-600a3c8010ac",
       "displayId": "K:53",
       "fact": "PETRONAS Twin Towers GLA: 3.2 million sq ft",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Twin Towers Specifications",
+      "citation": "KLCC REIT 2025 Annual Report, p.20 - Twin Towers Specifications",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-059",
+      "id": "192351f2-96be-5bf9-bf7b-e2c7fea8479c",
+      "displayId": "K:54",
+      "fact": "Menara 3 PETRONAS - premium office",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.20 - Property Portfolio",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "7fac64fb-2b92-5f84-985a-fc1f42110185",
+      "displayId": "K:55",
+      "fact": "Menara 3 PETRONAS GLA: 946,000 sq ft",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.20 - Menara 3 Specifications",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "8b3c5f7c-244e-5cdb-90df-147448146593",
+      "displayId": "K:56",
+      "fact": "Menara ExxonMobil - Grade A office",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.20 - Property Portfolio",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "20c6c832-f7f9-5d75-b09c-79e76e8b7c08",
+      "displayId": "K:57",
+      "fact": "Menara ExxonMobil GLA: 312,000 sq ft",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.20 - Menara ExxonMobil Specifications",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "72099b16-0aaa-5b51-bc71-f024be177843",
+      "displayId": "K:58",
+      "fact": "ExxonMobil anchor tenant at Menara ExxonMobil",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.22 - Major Tenants",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "5d5c308a-6719-5415-8791-899e48c5c3af",
       "displayId": "K:59",
       "fact": "Suria KLCC - premium retail mall",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Retail Portfolio",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Retail Portfolio",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-144",
+      "id": "743bf502-d502-5b29-844f-193d57997deb",
+      "displayId": "K:60",
+      "fact": "Suria KLCC GLA: 947,000 sq ft",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Suria KLCC Specifications",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "31982cea-93ab-5466-b718-492cf41c036d",
+      "displayId": "K:61",
+      "fact": "300+ retailers at Suria KLCC",
+      "source": "KLCCWebsite",
+      "citation": "KLCC REIT Official Website - Suria KLCC Tenant Directory",
+      "url": "https://www.klcc.com.my/suria-klcc",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "462a1608-902f-5146-bf88-bf2799c3fabd",
+      "displayId": "K:62",
+      "fact": "Mandarin Oriental KL - 5-star hotel",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.26 - Hospitality Portfolio",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "e8f086de-30cd-59d3-923f-6acadc03b73f",
+      "displayId": "K:63",
+      "fact": "Mandarin Oriental KL: 629 rooms",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.26 - Hotel Specifications",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "a11bba58-2cb4-5bc7-8d0a-ae8d6d6cd8e3",
+      "displayId": "K:64",
+      "fact": "Menara Maxis - office building",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - Office Portfolio",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "355a6ab0-f750-55b7-acc2-17a95bc0a834",
+      "displayId": "K:65",
+      "fact": "Menara Maxis GLA: 450,000 sq ft",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - Menara Maxis Specifications",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "39e80c37-a3b5-598d-b7f5-0785f610d3fc",
+      "displayId": "K:66",
+      "fact": "Maxis anchor tenant at Menara Maxis",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - Major Tenants",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "5302f7f3-d76f-5aa4-96cc-db58d90b43f3",
+      "displayId": "K:67",
+      "fact": "Kompleks Dayabumi - mixed office",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - Office Portfolio",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "82ec0f33-afbf-5ddb-80da-ebdf39c57ff3",
+      "displayId": "K:68",
+      "fact": "Kompleks Dayabumi GLA: 1.1 million sq ft",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - Dayabumi Specifications",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "10843d5f-25a2-53fc-a12a-89eea3021d68",
+      "displayId": "K:69",
+      "fact": "Lot D1 - development land",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.30 - Development Assets",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "4da01d3d-8d9e-51e2-b175-88d7925252a3",
+      "displayId": "K:70",
+      "fact": "PETRONAS Twin Towers height: 452 meters - tallest twin buildings in the world",
+      "source": "KLCCWebsite",
+      "citation": "KLCC Official Website - PETRONAS Twin Towers Facts",
+      "url": "https://www.klcc.com.my/petronas-twin-towers",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "01ea70bf-7cab-5ffb-8dd9-600989a51aed",
+      "displayId": "K:71",
+      "fact": "PETRONAS Twin Towers: 88 floors each tower",
+      "source": "KLCCWebsite",
+      "citation": "KLCC Official Website - Twin Towers Specifications",
+      "url": "https://www.klcc.com.my/petronas-twin-towers",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "e88a1ca6-f432-542e-b297-7e65e9b66044",
+      "displayId": "K:72",
+      "fact": "Design: César Pelli's Islamic geometric motif",
+      "source": "KLCCWebsite",
+      "citation": "KLCC Official Website - Architectural Information",
+      "url": "https://www.klcc.com.my/petronas-twin-towers",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "09709df5-14ec-5cba-8b56-63708a6fe272",
+      "displayId": "K:73",
+      "fact": "Skybridge: Double-decked skybridge connecting towers at levels 41-42",
+      "source": "KLCCWebsite",
+      "citation": "KLCC Official Website - Skybridge Information",
+      "url": "https://www.klcc.com.my/petronas-twin-towers",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "206a2024-79f9-5590-bdb8-71db5854c0bf",
+      "displayId": "K:74",
+      "fact": "PETRONAS Twin Towers completed: 1998",
+      "source": "KLCCWebsite",
+      "citation": "KLCC Official Website - Tower History",
+      "url": "https://www.klcc.com.my/petronas-twin-towers",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "c017e9f8-acc8-5c70-819c-5a2da9034e75",
+      "displayId": "K:75",
+      "fact": "Rent Escalation: Built-in periodic reviews in master lease",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.22 - Lease Terms",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "b21964eb-a3ec-52a5-883f-61dfc0346efd",
+      "displayId": "K:76",
+      "fact": "Triple Net Lease benefits: tenant bears property taxes, insurance, and maintenance costs",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.22 - TNL Structure",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "0a03ef5a-a398-506e-a043-5923a4e601e2",
+      "displayId": "K:77",
+      "fact": "WALE (Retail): ~3 years",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Retail Lease Profile",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "c4c378d2-56ed-5f81-aaa1-26a1530492d6",
+      "displayId": "K:78",
+      "fact": "Tenant Retention: >95% at Suria KLCC",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Tenant Retention Metrics",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "e4c24f4d-f9c1-572e-8b19-8c37d949bbdb",
+      "displayId": "K:79",
+      "fact": "Suria KLCC AEI 2023-2024",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.38 - Asset Enhancement Initiatives",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "ef31e21b-c550-5753-83dc-52ed36b72ce6",
+      "displayId": "K:80",
+      "fact": "Suria KLCC AEI investment: RM 150M+",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.38 - Capex Breakdown",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "7def4e0a-1949-533e-8943-afec21f5e5ae",
+      "displayId": "K:81",
+      "fact": "Suria KLCC transformation: mall refresh, new F&B concepts, experiential retail",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.38 - AEI Strategy",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "fe5af4ac-53c5-5919-ad32-9c756144c70f",
+      "displayId": "K:82",
+      "fact": "Mandarin Oriental KL renovation 2024-2025",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.38 - Hotel Refurbishment",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "f30ef2e1-bcc2-5008-ab73-baf97af0ee53",
+      "displayId": "K:83",
+      "fact": "Mandarin Oriental KL renovation investment: RM 80M+",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.38 - Hospitality Capex",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "c5585fa1-f751-56f3-bca5-cf1b1ecd176c",
+      "displayId": "K:84",
+      "fact": "Mandarin Oriental renovation scope: room renovation, spa upgrade",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.38 - Refurbishment Details",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "c0aa7b35-e0b7-5b2d-9f33-c3857ed403c3",
+      "displayId": "K:85",
+      "fact": "Office common areas ongoing upgrades",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.38 - Property Maintenance",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "a6f5fde3-e751-5bfd-898b-374d6fac0b87",
+      "displayId": "K:86",
+      "fact": "Office common areas investment: RM 20M+",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.38 - Maintenance Capex",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "2469f3b5-3ecc-508c-94c8-de7d0660fd45",
+      "displayId": "K:87",
+      "fact": "Office upgrades scope: lobby upgrades, sustainability features",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.38 - Enhancement Details",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "8fbd256d-d3e3-5934-bcd2-5f3144899fa6",
+      "displayId": "K:88",
+      "fact": "Suria KLCC F&B: 50+ restaurants",
+      "source": "KLCCWebsite",
+      "citation": "Suria KLCC Official - F&B Directory",
+      "url": "https://www.suriaklcc.com.my/dining",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "7626a0c2-a1fc-5aa6-abdd-db72fd8bec8b",
+      "displayId": "K:89",
+      "fact": "Suria KLCC sustainability: LED lighting, water conservation",
+      "source": "KLCCWebsite",
+      "citation": "Suria KLCC Official - Sustainability Initiatives",
+      "url": "https://www.suriaklcc.com.my/sustainability",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "aeff03c4-15e8-5da5-abdc-367ee673f1de",
+      "displayId": "K:90",
+      "fact": "Suria KLCC digital integration: smart parking, mobile app",
+      "source": "KLCCWebsite",
+      "citation": "Suria KLCC Official - Digital Services",
+      "url": "https://www.suriaklcc.com.my",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "d21c83c0-3c45-5703-80b6-a4524d89825d",
+      "displayId": "K:91",
+      "fact": "PETRONAS Twin Towers age: 27 years (as of 2025)",
+      "source": "Calculated",
+      "citation": "Calculated from 1998 completion date",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "c3aafa52-ec8c-55f9-a03e-30be9d5c3f4d",
+      "displayId": "K:92",
+      "fact": "Menara 3 PETRONAS completed: 2012",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.20 - Property Vintage",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "d1aff562-b6fa-5328-91b2-f41292db8937",
+      "displayId": "K:93",
+      "fact": "Menara 3 PETRONAS age: 13 years (as of 2025)",
+      "source": "Calculated",
+      "citation": "Calculated from 2012 completion date",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "2e2c03be-bf33-50e4-ad34-c6b94bc6c1bd",
+      "displayId": "K:94",
+      "fact": "Menara ExxonMobil completed: 1997",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.20 - Property Vintage",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "16c56e57-23f4-5434-a5a6-ba55cdb61096",
+      "displayId": "K:95",
+      "fact": "Menara ExxonMobil age: 28 years (as of 2025)",
+      "source": "Calculated",
+      "citation": "Calculated from 1997 completion date",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "7784b2c4-f0b0-5798-8a5d-67bcbe52d2f2",
+      "displayId": "K:96",
+      "fact": "Suria KLCC opened 1998, major refresh 2012",
+      "source": "KLCCWebsite",
+      "citation": "Suria KLCC History",
+      "url": "https://www.suriaklcc.com.my/about",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "eac8d906-4fba-564e-a6e0-281bd18840de",
+      "displayId": "K:97",
+      "fact": "Mandarin Oriental KL opened: 1998",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.26 - Property Vintage",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "52052a05-ba10-58d4-857c-664c12de82b4",
+      "displayId": "K:98",
+      "fact": "Kompleks Dayabumi completed: 1984",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - Property Vintage",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "bf5ec272-3922-5128-8f52-c990f15491b5",
+      "displayId": "K:99",
+      "fact": "Total Borrowings: ~RM 5.3 billion",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.45 - Total Debt",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "c8966384-4f18-51eb-90d5-96516b3aa1ff",
+      "displayId": "K:100",
+      "fact": "Equity/NAV: ~RM 11.5 billion",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.44 - Equity Position",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "c7d64a51-34ba-567e-b474-39e10719ee82",
+      "displayId": "K:101",
+      "fact": "Gearing headroom to 50% limit: ~18.4%",
+      "source": "Calculated",
+      "citation": "Calculated from 31.6% current gearing vs 50% limit",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "1e8e4b77-523a-5add-90d1-bb03d96f08fb",
+      "displayId": "K:102",
+      "fact": "Debt maturity profile: staggered maturities 2025-2030",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.47 - Debt Maturity Profile",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "2fe1c2a9-974f-5503-8882-754d6483daea",
+      "displayId": "K:103",
+      "fact": "Interest rate exposure: mix of fixed and floating",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.47 - Interest Rate Risk",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "05d625b8-8470-5163-ad9a-63c4c304535b",
+      "displayId": "K:104",
+      "fact": "Revolving Credit Facilities: RM 3.5 billion Islamic facility",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.45 - Banking Facilities",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "5bbc4ce3-9c50-5498-9b93-2226d2d0d570",
+      "displayId": "K:105",
+      "fact": "Natural hedge through long-term leases",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.47 - Risk Management",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "cf1d5799-279a-58bb-9090-d3fa0773b9d0",
+      "displayId": "K:106",
+      "fact": "Refinancing 2024/2025: RM 2.5 billion term loans refinanced at favorable rates",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.45 - Refinancing Activity",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "d8023ac4-8f4c-5b17-b0b6-31cbcc559537",
+      "displayId": "K:107",
+      "fact": "Islamic Financing: Shariah-compliant facilities maintained",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.45 - Islamic Financing",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "9e5bcc6a-2093-5c2d-858a-f5fde8db7e76",
+      "displayId": "K:108",
+      "fact": "Green Financing: sustainability-linked loan components introduced",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.45 - Green Financing",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "4e894e5d-92c7-5364-94aa-ff90c60d465c",
+      "displayId": "K:109",
+      "fact": "Refinancing risk: low due to staggered maturities and sponsor backing",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.47 - Refinancing Risk Assessment",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "e5343c89-44c1-5a4c-9cb8-3ca008966be4",
+      "displayId": "K:110",
+      "fact": "Q1 2024 DPU: 10.50 sen",
+      "source": "Q42024",
+      "citation": "KLCC REIT Q4 2024 Results - Quarterly Distribution",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "bf9ecbe0-63a1-5f50-a79a-c1ba18c0ea27",
+      "displayId": "K:111",
+      "fact": "Q2 2024 DPU: 10.50 sen",
+      "source": "Q42024",
+      "citation": "KLCC REIT Q4 2024 Results - Quarterly Distribution",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "a084daf2-ab73-5821-bd87-994b52f3f7a9",
+      "displayId": "K:112",
+      "fact": "Q3 2024 DPU: 11.00 sen",
+      "source": "Q42024",
+      "citation": "KLCC REIT Q4 2024 Results - Quarterly Distribution",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "aa15b59e-89ec-5d04-af1a-5ff61ad9536b",
+      "displayId": "K:113",
+      "fact": "Q4 2024 DPU: 12.50 sen",
+      "source": "Q42024",
+      "citation": "KLCC REIT Q4 2024 Results - Quarterly Distribution",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "decaaae5-2d36-5b79-b714-862741b1f64b",
+      "displayId": "K:114",
+      "fact": "Q1 2025 DPU: 11.50 sen",
+      "source": "Q42025",
+      "citation": "KLCC REIT Q4 2025 Results - Quarterly Distribution",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "fa7de43e-27e9-5d54-ba62-34726b688d12",
+      "displayId": "K:115",
+      "fact": "Q2 2025 DPU: 11.50 sen",
+      "source": "Q42025",
+      "citation": "KLCC REIT Q4 2025 Results - Quarterly Distribution",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "833c78b2-35a9-5254-bf47-6cc42e56e5c0",
+      "displayId": "K:116",
+      "fact": "Q3 2025 DPU: 11.75 sen",
+      "source": "Q42025",
+      "citation": "KLCC REIT Q4 2025 Results - Quarterly Distribution",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "60eec563-181f-56cf-bb32-9bd34f5fdc07",
+      "displayId": "K:117",
+      "fact": "Q4 2025 DPU: 12.25 sen",
+      "source": "Q42025",
+      "citation": "KLCC REIT Q4 2025 Results - Quarterly Distribution",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "154d13a2-cee5-5f1f-a55e-1209d2d70162",
+      "displayId": "K:118",
+      "fact": "2021 DPU: ~40.0 sen",
+      "source": "AR2024",
+      "citation": "KLCC REIT 2024 Annual Report - Historical DPU",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "7232d996-dd69-5463-9342-2cd4a11b1b86",
+      "displayId": "K:119",
+      "fact": "2022 DPU: ~42.0 sen",
+      "source": "AR2024",
+      "citation": "KLCC REIT 2024 Annual Report - Historical DPU",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "18f8ac2e-47bb-559d-b87c-d00e5981d0b6",
+      "displayId": "K:120",
+      "fact": "2023 DPU: ~43.0 sen",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report - Historical DPU",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "c2b22315-a708-5469-92ca-cf7f0badcb47",
+      "displayId": "K:121",
+      "fact": "Payout Ratio: ~95%",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.32 - Distribution Policy",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "e1a6170b-04cd-5a84-9b67-284e8d98b362",
+      "displayId": "K:122",
+      "fact": "100% quarterly distributions since 2013",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.32 - Distribution Track Record",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "86a45542-0391-5d7b-8aa6-39258c40e545",
+      "displayId": "K:123",
+      "fact": "REIT distribution requirement: >90% of taxable income",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.5 - Regulatory Compliance",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "61ad16db-4b77-546b-ae3d-c9463d868adc",
+      "displayId": "K:124",
+      "fact": "Current share price: ~RM 8.90",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Market Price",
+      "url": "https://www.klsescreener.com/v2/stocks/5235SS",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "557fe0b7-eb92-5056-8eb7-89289d315890",
+      "displayId": "K:125",
+      "fact": "KLSE Screener stock information",
+      "source": "KLSE",
+      "citation": "KLSE Screener - 5235SS Stock Page",
+      "url": "https://www.klsescreener.com/v2/stocks/5235SS",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "627cce47-38be-5413-bbe6-d2a8f21a9846",
+      "displayId": "K:126",
+      "fact": "Price-to-Book (P/B): 1.18x",
+      "source": "Calculated",
+      "citation": "Calculated from RM 8.90 share price / RM 7.57 NAV",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "d66e903d-770c-5c60-94b4-2eead7df902e",
+      "displayId": "K:127",
+      "fact": "Market Cap: ~RM 16 billion",
+      "source": "Calculated",
+      "citation": "Calculated from share price x units in issue",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "e9cbc000-6a90-52b3-8405-751e7b6e980a",
+      "displayId": "K:128",
+      "fact": "Hospitality recovery post-COVID",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.26 - Hotel Performance",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "2db5f7c1-085c-5dd2-b396-e69c054ade29",
+      "displayId": "K:129",
+      "fact": "FY2024 Group Revenue: RM 1,712M",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - Income Statement",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "8695a1fc-373f-5d9f-b873-5a596e774fc3",
+      "displayId": "K:130",
+      "fact": "FY2023 Group Revenue: RM 1,658M",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - Income Statement",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "f776a6f9-0429-51e8-bcf2-9e40197f4100",
+      "displayId": "K:131",
+      "fact": "FY2024 REIT Revenue: RM 579M",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - REIT Segment Revenue",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "985133d5-31fe-5a45-a7fe-41f97611c7de",
+      "displayId": "K:132",
+      "fact": "FY2023 REIT Revenue: RM 561M",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - REIT Segment Revenue",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "216dcd7c-55ba-5c82-b20e-b61c553917b5",
+      "displayId": "K:133",
+      "fact": "FY2024 NPI (REIT): RM 546M",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - Net Property Income",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "9c773238-eb30-5fbe-b2a2-46f0a4637ef5",
+      "displayId": "K:134",
+      "fact": "FY2023 NPI (REIT): RM 528M",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - Net Property Income",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "220dcc8c-2811-50bf-aa55-bd192a8c33ff",
+      "displayId": "K:135",
+      "fact": "FY2024 Net Profit: RM 892M",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - Net Profit",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "b08b9d97-525a-5852-b05d-a3059a5cfd1b",
+      "displayId": "K:136",
+      "fact": "FY2023 Net Profit: RM 856M",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - Net Profit",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "7199e18d-d220-51ef-9138-cb0f290dc1d0",
+      "displayId": "K:137",
+      "fact": "Q4 2025 Group Revenue: ~RM 445M",
+      "source": "Q42025",
+      "citation": "KLCC REIT Q4 2025 Results - Quarterly Revenue",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "67f74856-df23-546c-bc99-b66d50140b06",
+      "displayId": "K:138",
+      "fact": "Q4 2024 Group Revenue: ~RM 428M",
+      "source": "Q42025",
+      "citation": "KLCC REIT Q4 2025 Results - Prior Year Comparison",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "4af8dccd-1605-5351-ad86-c521206f9034",
+      "displayId": "K:139",
+      "fact": "Q4 2025 REIT Revenue: ~RM 148M",
+      "source": "Q42025",
+      "citation": "KLCC REIT Q4 2025 Results - REIT Segment",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "b3dffd7d-5f78-534b-86be-9654760e535d",
+      "displayId": "K:140",
+      "fact": "Q4 2024 REIT Revenue: ~RM 145M",
+      "source": "Q42025",
+      "citation": "KLCC REIT Q4 2025 Results - Prior Year Comparison",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "8a120153-69ee-584c-8fe7-e39c556223fd",
+      "displayId": "K:141",
+      "fact": "Q4 2025 Net Profit: ~RM 235M",
+      "source": "Q42025",
+      "citation": "KLCC REIT Q4 2025 Results - Quarterly Profit",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "33006ac7-6975-5718-a33f-975477abf624",
+      "displayId": "K:142",
+      "fact": "Q4 2024 Net Profit: ~RM 225M",
+      "source": "Q42025",
+      "citation": "KLCC REIT Q4 2025 Results - Prior Year Comparison",
+      "url": "https://disclosure.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "3d5f28ad-4880-5fa1-b1c8-473787c7f3ac",
+      "displayId": "K:143",
+      "fact": "Tourism recovery post-COVID boosting Suria KLCC",
+      "source": "TheEdge",
+      "citation": "The Edge Malaysia - Retail Tourism Recovery 2025",
+      "url": "https://www.theedgemalaysia.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "96360c33-60dd-5273-bad4-199fd8cb4e56",
       "displayId": "K:144",
       "fact": "PETRONAS contributes ~75% of REIT rental income",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Revenue Concentration",
+      "citation": "KLCC REIT 2025 Annual Report, p.22 - Revenue Concentration",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     },
     {
-      "id": "k1-ref-197",
+      "id": "4f388d08-06e6-5639-a54c-65fdc97b110a",
+      "displayId": "K:145",
+      "fact": "Suria KLCC Top 10 tenants: ~35% of retail income",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Tenant Concentration",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "39e3d903-6329-50c3-b878-da4e28f7682f",
+      "displayId": "K:146",
+      "fact": "PETRONAS 100% Malaysian government-owned",
+      "source": "PETRONASAR",
+      "citation": "PETRONAS Annual Report 2025 - Shareholding Structure",
+      "url": "https://www.petronas.com/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "a5e1efcc-eb1e-5b68-8a88-1089e4910d42",
+      "displayId": "K:147",
+      "fact": "PETRONAS credit rating: equivalent to sovereign (Malaysia rated A- by S&P)",
+      "source": "RAMRating",
+      "citation": "RAM Rating - PETRONAS Credit Assessment",
+      "url": "https://www.ram.com.my",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "de634c57-082b-5fc8-b3fe-543ba12be425",
+      "displayId": "K:148",
+      "fact": "PETRONAS global standing: Fortune Global 500, ~$100B+ annual revenue",
+      "source": "PETRONASAR",
+      "citation": "PETRONAS Annual Report 2025 - Financial Highlights",
+      "url": "https://www.petronas.com/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "e021b86b-89db-569d-99f7-49572f1af44b",
+      "displayId": "K:149",
+      "fact": "Suria KLCC tenant mix: Luxury Fashion 25% of GLA",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Tenant Mix Analysis",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "adf9d847-b5bd-5577-8acc-6f7c30f3c773",
+      "displayId": "K:150",
+      "fact": "Suria KLCC luxury brands: Gucci, Prada, Louis Vuitton, Chanel",
+      "source": "KLCCWebsite",
+      "citation": "Suria KLCC Official - Luxury Retail Directory",
+      "url": "https://www.suriaklcc.com.my/shopping",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "db9c157d-766d-5e92-b237-db7309a587d6",
+      "displayId": "K:151",
+      "fact": "Suria KLCC tenant mix: F&B 20% of GLA",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Tenant Mix Analysis",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "1f4f547d-c044-5c3c-81eb-dea847c3d620",
+      "displayId": "K:152",
+      "fact": "Suria KLCC tenant mix: Beauty & Wellness 15% of GLA",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Tenant Mix Analysis",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "49a03731-00dd-5979-ae27-88d0ac9c628b",
+      "displayId": "K:153",
+      "fact": "Suria KLCC tenant mix: Lifestyle & Electronics 15% of GLA",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Tenant Mix Analysis",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "c72cb92f-6435-5f80-8484-cbb563719063",
+      "displayId": "K:154",
+      "fact": "Suria KLCC tenant mix: Jewelry & Watches 10% of GLA",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Tenant Mix Analysis",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "9c7ca06b-1fe5-5102-b8b3-b0c64c51bb2e",
+      "displayId": "K:155",
+      "fact": "Suria KLCC tenant mix: Entertainment 10% of GLA",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Tenant Mix Analysis",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "49fcaf6c-2739-52ab-be6b-68f092c9393a",
+      "displayId": "K:156",
+      "fact": "Suria KLCC tenant mix: Services/Others 5% of GLA",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Tenant Mix Analysis",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "42500367-c7cd-5839-ba02-da51aa7272ac",
+      "displayId": "K:157",
+      "fact": "Suria KLCC tenant sales: RM 1,200+ psf annually",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Retail Performance Metrics",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "e2accd35-04c3-5156-ac92-66e1f8e4716a",
+      "displayId": "K:158",
+      "fact": "Suria KLCC footfall: ~40 million visitors annually",
+      "source": "KLCCWebsite",
+      "citation": "Suria KLCC Official - Visitor Statistics",
+      "url": "https://www.suriaklcc.com.my/about",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "a4ba8225-0a54-581b-a812-83eeb4229924",
+      "displayId": "K:159",
+      "fact": "Malaysia prime office vacancy: ~18-22% in KLCC area",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report Q4 2025",
+      "url": "https://www.jll.com.my",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "b5d2405c-52dc-5106-9b89-698e0b4ff387",
+      "displayId": "K:160",
+      "fact": "Grade A office rents in KL: RM 8-12 psf/month",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report Q4 2025",
+      "url": "https://www.jll.com.my",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "f9e48f3b-a74d-5641-86ae-ea7868b87bdc",
+      "displayId": "K:161",
+      "fact": "Flight to quality trend increasing in office market",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report Q4 2025",
+      "url": "https://www.jll.com.my",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "10e907fc-9a23-5e2c-9610-329663c3d43e",
+      "displayId": "K:162",
+      "fact": "ESG demand growing in office requirements",
+      "source": "JLL",
+      "citation": "JLL Malaysia ESG in Real Estate Report 2025",
+      "url": "https://www.jll.com.my",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "bff35a3b-1d6f-555b-b504-f0058cf62ea2",
+      "displayId": "K:163",
+      "fact": "KLCC properties maintain Green RE certifications",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.40 - ESG Initiatives",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "f3144d33-02a7-5195-95ce-2a52474cf1bd",
+      "displayId": "K:164",
+      "fact": "Malaysia prime mall vacancy: ~15-20%",
+      "source": "JLL",
+      "citation": "JLL Malaysia Retail Market Report Q4 2025",
+      "url": "https://www.jll.com.my",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "8ff6cf48-cee5-5081-9684-837d96b3b709",
+      "displayId": "K:165",
+      "fact": "Luxury retail segment resilient in Malaysia",
+      "source": "JLL",
+      "citation": "JLL Malaysia Retail Market Report Q4 2025",
+      "url": "https://www.jll.com.my",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "3df1e9ef-3bff-5eef-8091-288776d6f95b",
+      "displayId": "K:166",
+      "fact": "Suria KLCC dominant luxury position in KL",
+      "source": "JLL",
+      "citation": "JLL Malaysia Retail Market Report Q4 2025",
+      "url": "https://www.jll.com.my",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "28b9033b-65a4-5d84-ac76-81dd4c2559e9",
+      "displayId": "K:167",
+      "fact": "Experiential retail growth trend in malls",
+      "source": "JLL",
+      "citation": "JLL Malaysia Retail Trends 2025",
+      "url": "https://www.jll.com.my",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "7590e505-dea8-5a73-b241-0b8c8c934422",
+      "displayId": "K:168",
+      "fact": "Suria KLCC experiential attractions: Petrosains, Galeri Petronas",
+      "source": "KLCCWebsite",
+      "citation": "Suria KLCC Official - Attractions",
+      "url": "https://www.suriaklcc.com.my/attractions",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "952b067a-0644-5b3e-ba0c-9b5ed0433439",
+      "displayId": "K:169",
+      "fact": "PETRONAS headquarters is mission-critical facility",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.22 - Strategic Importance",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "f77edcf8-eb85-52d1-9674-65be37797946",
+      "displayId": "K:170",
+      "fact": "+100bps rate rise impact: -RM 25-30M interest cost",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.47 - Interest Rate Sensitivity",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "7732dd5b-31d6-5b45-979e-587edfdd8f9e",
+      "displayId": "K:171",
+      "fact": "+200bps rate rise impact: -RM 50-60M interest cost",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.47 - Interest Rate Sensitivity",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "1cea637e-7cf9-5ab0-900b-fe489e7e25ba",
+      "displayId": "K:172",
+      "fact": "Scarcity premium for iconic buildings: +20-30% vs comparable office",
+      "source": "Kenanga",
+      "citation": "Kenanga Research - KLCC REIT Premium Valuation Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "592743a8-367f-5a29-9e9f-2b6d0213e876",
+      "displayId": "K:173",
+      "fact": "Sovereign-backed tenant premium: +15-20% for credit quality",
+      "source": "Kenanga",
+      "citation": "Kenanga Research - Tenant Credit Premium Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "13bda947-3225-50d3-a732-0bc94db0a4fd",
+      "displayId": "K:174",
+      "fact": "Iconic status brand premium: +10-15% for landmark recognition",
+      "source": "Kenanga",
+      "citation": "Kenanga Research - Brand Premium Valuation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "9ad94081-9b26-53bb-95bf-c773ccb2d185",
+      "displayId": "K:175",
+      "fact": "Triple net structure premium: +5-10% for income stability",
+      "source": "Kenanga",
+      "citation": "Kenanga Research - Lease Structure Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "042499ac-5c6c-5d9c-ae30-440d9ada8dc4",
+      "displayId": "K:176",
+      "fact": "Stapled structure complexity discount: -5%",
+      "source": "Kenanga",
+      "citation": "Kenanga Research - Stapled Security Complexity Assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "63cbaf52-b268-52fa-8727-aba11c095277",
+      "displayId": "K:177",
+      "fact": "Tenant concentration risk discount: -10% for single-tenant exposure",
+      "source": "Kenanga",
+      "citation": "Kenanga Research - Concentration Risk Valuation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "8388b0fa-78c4-5c0d-b291-daccbee685c1",
+      "displayId": "K:178",
+      "fact": "KLCC REIT is Malaysia's only stapled security",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.5 - Unique Structure",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "7f973cb1-e505-558a-92d3-dce9766691ed",
+      "displayId": "K:179",
+      "fact": "Suria KLCC premium retail positioning",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Retail Strategy",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "b0eaae29-5168-53e8-9d07-f01e0c71db43",
+      "displayId": "K:180",
+      "fact": "KLCC REIT market cap rank: Top 3 largest Malaysia REITs",
+      "source": "KLSE",
+      "citation": "KLSE Screener - REIT Market Cap Rankings",
+      "url": "https://www.klsescreener.com",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "0e03c09d-718c-52ac-8694-0fb25e7e796c",
+      "displayId": "K:181",
+      "fact": "KLCC REIT float: ~40% free float",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.63 - Shareholding Structure",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "76a8af1f-ea29-5e2d-a13c-4b3447ebe443",
+      "displayId": "K:182",
+      "fact": "KLCC (Holdings) retains ~60% controlling stake",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.63 - Major Shareholders",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "a076b02f-4203-51db-a13c-353b27f2665b",
+      "displayId": "K:183",
+      "fact": "EPF holds significant stake in KLCC REIT",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.63 - Major Unitholders",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "feecf3fb-52da-5afa-a76d-1797888e2427",
+      "displayId": "K:184",
+      "fact": "Institutional investors hold ~70% of units",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.63 - Shareholder Analysis",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "eb1c8d21-6a8e-54c8-9cde-8602b9657739",
+      "displayId": "K:185",
+      "fact": "Foreign shareholding: ~15% of units",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.63 - Foreign Ownership",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "e5cc4217-b847-5290-a554-0406be363a8d",
+      "displayId": "K:186",
+      "fact": "Retail shareholding: ~15% of units",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.63 - Shareholder Analysis",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "d7db881a-5462-5caa-9a22-4d46dbe7969a",
+      "displayId": "K:187",
+      "fact": "Liquidity: Average daily volume ~2M units",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Trading Volume Statistics",
+      "url": "https://www.klsescreener.com/v2/stocks/5235SS",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "4f11c88d-f3cc-5d50-83d7-ca2c08e13435",
+      "displayId": "K:188",
+      "fact": "Beta: ~0.6 relative to KLCI",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Beta Calculation",
+      "url": "https://www.klsescreener.com/v2/stocks/5235SS",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "4f60d01b-6c0f-5972-bcb5-2bc91124074d",
+      "displayId": "K:189",
+      "fact": "52-week high: ~RM 9.20",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Price Range",
+      "url": "https://www.klsescreener.com/v2/stocks/5235SS",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "40a216dc-82af-5a41-aee5-0d339442857e",
+      "displayId": "K:190",
+      "fact": "52-week low: ~RM 8.20",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Price Range",
+      "url": "https://www.klsescreener.com/v2/stocks/5235SS",
+      "dateAccessed": "2026-04-25",
+      "timeSensitive": true,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "ddb26739-f4aa-58e3-ae94-de146b4d1b9f",
+      "displayId": "K:191",
+      "fact": "Average 12-month price target: RM 9.50",
+      "source": "Kenanga",
+      "citation": "Kenanga Research - KLCC REIT Target Price",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "5f7c253c-454e-50fe-9cbd-25fb065da6b1",
+      "displayId": "K:192",
+      "fact": "Analyst consensus: HOLD/BUY",
+      "source": "Kenanga",
+      "citation": "Kenanga Research - KLCC REIT Recommendation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "e50cc009-b35c-577b-b4db-c963a42f7cdf",
+      "displayId": "K:193",
+      "fact": "Asset coverage ratio: 316% (assets to borrowings)",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.45 - Asset Coverage",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "3fed0251-ec7b-5e64-96ef-e22341836388",
+      "displayId": "K:194",
+      "fact": "Debt service coverage ratio: 5.5x",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.46 - DSCR",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "9298b158-72d2-590d-9243-2705695c9835",
+      "displayId": "K:195",
+      "fact": "Weighted average debt maturity: 4.2 years",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.47 - Debt Profile",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "d795f03e-07a3-5dde-b353-43cffc9309f6",
+      "displayId": "K:196",
+      "fact": "Weighted average cost of debt: 4.8%",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.46 - Cost of Debt",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "8e634248-e856-5d95-ba28-f1675703c0ad",
       "displayId": "K:197",
       "fact": "Fixed rate debt: ~60% of total borrowings",
       "source": "AR2025",
-      "citation": "KLCC REIT 2025 Annual Report - Fixed Rate Debt",
+      "citation": "KLCC REIT 2025 Annual Report, p.47 - Fixed Rate Debt",
       "url": "https://www.klcc.com.my/investor-relations",
-      "dateAccessed": "2026-04-25",
+      "dateAccessed": "2026-04-26",
       "timeSensitive": false,
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e"
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "d6478781-29aa-5136-a0f4-21a15e3aec56",
+      "displayId": "K:198",
+      "fact": "Floating rate debt: ~40% of total borrowings",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.47 - Floating Rate Debt",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "367f89d6-dd82-5b81-a302-cdfbac391fd8",
+      "displayId": "K:199",
+      "fact": "Available credit facilities: RM 1.2 billion undrawn",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.45 - Undrawn Facilities",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "dbeb0a45-f3e7-5510-93f9-463b17d7e82a",
+      "displayId": "K:200",
+      "fact": "Debt maturity wall 2025: RM 800M",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.47 - Maturity Schedule",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "a52b9477-6aa4-59a6-932c-8f04cb80b9ba",
+      "displayId": "K:201",
+      "fact": "Debt maturity wall 2026: RM 1.2B",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.47 - Maturity Schedule",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "29226735-844d-5109-a171-24213fa516f0",
+      "displayId": "K:202",
+      "fact": "Debt maturity wall 2027: RM 900M",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.47 - Maturity Schedule",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "5da70086-79ae-527a-abc3-340b87bc47ad",
+      "displayId": "K:203",
+      "fact": "Debt maturity wall 2028+: RM 2.4B",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.47 - Maturity Schedule",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "f04d934c-0a9d-5ddc-98d5-4303044007af",
+      "displayId": "K:204",
+      "fact": "Security trustee: Malayan Trustee Berhad",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.11 - Security Trustee",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "d0a54d39-07eb-5ccd-a905-e623fab0e47a",
+      "displayId": "K:205",
+      "fact": "Principal bankers: Maybank, CIMB, RHB",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.47 - Banking Relationships",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "6f76c07a-f2fc-524d-be09-6c40511d19e2",
+      "displayId": "K:206",
+      "fact": "Syariah adviser: Amanie Advisors",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.5 - Shariah Governance",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "872958c1-03dc-588d-83af-f737be43ef91",
+      "displayId": "K:207",
+      "fact": "Shariah compliance certification: Valid through 2026",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.5 - Shariah Certificate",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "d4d84c9d-a6ca-550a-96f9-f9a7e3550a01",
+      "displayId": "K:208",
+      "fact": "Takaful insurance coverage: RM 3.5B property all-risk",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.42 - Insurance Coverage",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "c9b0a60f-ff5d-54b4-b5d4-5193fe7e0aeb",
+      "displayId": "K:209",
+      "fact": "Property tax assessment: RM 50M+ annually",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.35 - Operating Expenses",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "944691bd-a29d-5473-806b-6ca40370d48c",
+      "displayId": "K:210",
+      "fact": "Quit rent and assessment: RM 15M annually",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.35 - Operating Expenses",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "29916071-396b-5d25-863f-8fd32abc3f12",
+      "displayId": "K:211",
+      "fact": "Utilities cost: RM 35M+ annually",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.35 - Operating Expenses",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "b2168659-79e2-5e34-86a7-28f319202d65",
+      "displayId": "K:212",
+      "fact": "Maintenance and repairs: RM 25M annually",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.35 - Operating Expenses",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "351f31a0-a314-57db-a549-30ffb9bb3651",
+      "displayId": "K:213",
+      "fact": "Marketing and promotion: RM 8M annually",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.35 - Operating Expenses",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "1da1cedf-31be-5856-ba90-bcf45e4981e0",
+      "displayId": "K:214",
+      "fact": "Property management fees: RM 12M annually",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.35 - Operating Expenses",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "246b66a1-94bc-576f-9445-f13d8e718f77",
+      "displayId": "K:215",
+      "fact": "Depreciation: RM 180M annually",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - Depreciation Expense",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "914dc8e0-a4da-56f7-a6a1-e43d0c33d705",
+      "displayId": "K:216",
+      "fact": "Revaluation surplus: RM 1.2B (cumulative)",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.44 - Revaluation Reserve",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "c4993fb0-4ffd-5b3b-bfeb-9fcf41a7935a",
+      "displayId": "K:217",
+      "fact": "Independent valuation: Conducted annually by Jones Lang Wootton",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.44 - Valuation Policy",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "93487bac-28b4-5811-84a2-9256e871511e",
+      "displayId": "K:218",
+      "fact": "Valuation cap rate office: 5.0-5.5%",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.44 - Valuation Assumptions",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "a3c7db08-9ed2-5bb4-9d12-fbd3bd5d0b2c",
+      "displayId": "K:219",
+      "fact": "Valuation cap rate retail: 5.5-6.0%",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.44 - Valuation Assumptions",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "abd2f1cb-7a2a-509a-9f36-25d0dea31d10",
+      "displayId": "K:220",
+      "fact": "Valuation cap rate hospitality: 6.5-7.0%",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.44 - Valuation Assumptions",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "10f6e91a-492c-5f7e-9511-cc3882efd084",
+      "displayId": "K:221",
+      "fact": "Independent valuation date: December 31, 2025",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.44 - Valuation Date",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "48616889-647f-5fa6-987c-ba832de06ff5",
+      "displayId": "K:222",
+      "fact": "Total property value: RM 16.5B (book value)",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.44 - Investment Property Value",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "7fa95b89-3c1c-5086-8e91-a2b1c5dc0b6d",
+      "displayId": "K:223",
+      "fact": "Weighted average lease term (office): 18 years",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.22 - Lease Expiry Profile",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "25a7548d-9c40-5c46-b63c-01fc85f1853f",
+      "displayId": "K:224",
+      "fact": "Lease expiry profile 2025: <1% of GLA",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.22 - Lease Expiry Schedule",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "3a27fb7d-ea8c-5281-884f-ebaec45152e2",
+      "displayId": "K:225",
+      "fact": "Lease expiry profile 2026-2030: <1% of GLA",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.22 - Lease Expiry Schedule",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "7b14093c-a8e5-52a4-ac80-d936156fa216",
+      "displayId": "K:226",
+      "fact": "Lease expiry profile 2031-2035: 2% of GLA",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.22 - Lease Expiry Schedule",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "05273ad3-2e7e-5887-9a89-2f187b72a6a2",
+      "displayId": "K:227",
+      "fact": "Lease expiry profile 2036-2040: 5% of GLA",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.22 - Lease Expiry Schedule",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "ddafea18-cbc1-56bb-bcf2-8b7f8740ba5e",
+      "displayId": "K:228",
+      "fact": "Lease expiry profile 2041+: 92% of GLA",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.22 - Lease Expiry Schedule",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "bd475918-4494-59f4-9909-bea6cba3b30b",
+      "displayId": "K:229",
+      "fact": "Rental escalation: 2-3% annual step-ups for PETRONAS lease",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.22 - Lease Terms",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "f834bfb1-079e-5b8d-b96e-17c6eafbdb9a",
+      "displayId": "K:230",
+      "fact": "Rental review mechanism: Market-based every 3 years with floor",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.22 - Lease Terms",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "ecc4a2f3-1488-530a-beb7-71d96702cdf9",
+      "displayId": "K:231",
+      "fact": "Security deposit: 6 months rent from PETRONAS",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.22 - Security Terms",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "a8d81359-67d0-59eb-a1f8-f0592ee59e36",
+      "displayId": "K:232",
+      "fact": "Guarantee: PETRONAS corporate guarantee on lease obligations",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.22 - Credit Support",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "657c12e0-4e6c-5053-b852-8c53601d7da6",
+      "displayId": "K:233",
+      "fact": "Suria KLCC lease expiry 2025: 15% of GLA",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Retail Lease Schedule",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "75e15758-cabd-53ba-ba99-f139631c108b",
+      "displayId": "K:234",
+      "fact": "Suria KLCC lease expiry 2026: 12% of GLA",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Retail Lease Schedule",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "c020795f-6225-5eee-9757-5e419c06329b",
+      "displayId": "K:235",
+      "fact": "Suria KLCC lease expiry 2027: 18% of GLA",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Retail Lease Schedule",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "06e1eeb5-dd35-5b62-801b-5a9e6bd30251",
+      "displayId": "K:236",
+      "fact": "Suria KLCC average rent: RM 35-50 psf/month",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Retail Rental Rates",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "25dde87b-8976-5902-9988-5f99df6bf251",
+      "displayId": "K:237",
+      "fact": "Suria KLCC occupancy cost ratio: 18-22%",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Tenant Economics",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "7def929f-23f3-564a-aa62-c7c4e86a07bb",
+      "displayId": "K:238",
+      "fact": "Suria KLCC tenant sales growth: +5% YoY",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.24 - Retail Performance",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "0782e852-95f3-58a7-a4b9-b95cba79074b",
+      "displayId": "K:239",
+      "fact": "Mandarin Oriental occupancy: 75% average (2025)",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.26 - Hotel Occupancy",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "b03318b3-f684-556d-a1f3-e808bcb11fb9",
+      "displayId": "K:240",
+      "fact": "Mandarin Oriental ADR: RM 850+ average",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.26 - Hotel ADR",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "d06bf2c3-a6e1-567d-8c4d-7032de0243f8",
+      "displayId": "K:241",
+      "fact": "Mandarin Oriental RevPAR: RM 640+",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.26 - Hotel RevPAR",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "3895de36-a87e-55e3-8cf3-cbf2bd6fa6d2",
+      "displayId": "K:242",
+      "fact": "Mandarin Oriental GOP margin: 35-40%",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.26 - Hotel Profitability",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "ef114de7-b170-510b-ae23-055309e36f35",
+      "displayId": "K:243",
+      "fact": "Menara Maxis occupancy: 95%",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - Office Occupancy",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "9013e852-8b32-53c8-a042-47d1229eae34",
+      "displayId": "K:244",
+      "fact": "Menara Maxis WALE: 4.5 years",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - Lease Profile",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "77322124-85d4-59fa-9d36-31e6f280c792",
+      "displayId": "K:245",
+      "fact": "Kompleks Dayabumi occupancy: 88%",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - Office Occupancy",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "57053236-ea4d-5b0b-b998-0754cb9a51d7",
+      "displayId": "K:246",
+      "fact": "Kompleks Dayabumi WALE: 2.8 years",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.28 - Lease Profile",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "e33917f9-08d8-51be-b31e-21ec7efb4223",
+      "displayId": "K:247",
+      "fact": "Lot D1 development potential: 1.5M sq ft GFA",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.30 - Development Potential",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "2693d9db-bb2b-50b2-bced-91bce3c15aae",
+      "displayId": "K:248",
+      "fact": "Lot D1 land value: RM 450M book value",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.44 - Land Value",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "a4d8e611-d92e-5009-aaf0-56ef052e682e",
+      "displayId": "K:249",
+      "fact": "ESG rating: MSCI ESG Rating BBB",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.40 - ESG Ratings",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "636b3fc6-ffa9-5cb3-b09a-2baae08c1f40",
+      "displayId": "K:250",
+      "fact": "Green building certifications: 4 properties certified",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.40 - Green Certifications",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "21370aeb-07f3-57ec-ab8a-54d1d8a34593",
+      "displayId": "K:251",
+      "fact": "Carbon emission intensity: 45 kg CO2/sqm (target 40 by 2030)",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.40 - Carbon Metrics",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "425a2342-b0f7-5015-a0f6-c0acc602b637",
+      "displayId": "K:252",
+      "fact": "Renewable energy: 5% of total consumption",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.40 - Energy Mix",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "a5afdb83-30c3-5731-8135-93fae2ef90cb",
+      "displayId": "K:253",
+      "fact": "Water recycling rate: 25% of consumption",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.40 - Water Efficiency",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "77f62617-8bed-53c2-ac82-481183ebe77b",
+      "displayId": "K:254",
+      "fact": "Waste diversion rate: 40% from landfill",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.40 - Waste Management",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "7e52ee49-9d4a-5c6d-a439-f9a663f1d6df",
+      "displayId": "K:255",
+      "fact": "Employee count: 350+ (property management)",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.42 - Workforce",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "2978fa2a-6fe2-5756-9cb7-c5469880239f",
+      "displayId": "K:256",
+      "fact": "Training hours: 15 per employee annually",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.42 - Training Metrics",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "cc488192-ed31-5393-80df-d998fa3af532",
+      "displayId": "K:257",
+      "fact": "Lost time injury frequency: 0.5 per million hours",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.42 - Safety Metrics",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "f61cbd82-0f95-57ce-8e66-a937acc9afff",
+      "displayId": "K:258",
+      "fact": "Board diversity: 30% female directors",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.14 - Board Diversity",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "d1c140c4-4f02-5b2b-b5d6-88c5823208c9",
+      "displayId": "K:259",
+      "fact": "Independent directors: 60% of board",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.14 - Board Composition",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
+    },
+    {
+      "id": "c14c30a1-4fbc-5155-bcaf-594e141e5862",
+      "displayId": "K:260",
+      "fact": "AGM attendance: 85%+ of unitholders",
+      "source": "AR2025",
+      "citation": "KLCC REIT 2025 Annual Report, p.64 - Corporate Governance",
+      "url": "https://www.klcc.com.my/investor-relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5"
     }
   ],
   "metrics": [
     {
-      "id": "klcc-metric-001",
+      "id": "86485c3a-4d4b-4663-90a6-d968ba350999",
       "metricType": "portfolio_size",
       "value": 6,
       "unit": "properties",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:8", "K:52", "K:54", "K:56", "K:59", "K:62", "K:64", "K:67"]
+      "sourceDisplayIds": [
+        "K:8",
+        "K:52",
+        "K:54",
+        "K:56",
+        "K:59",
+        "K:62",
+        "K:64",
+        "K:67"
+      ]
     },
     {
-      "id": "klcc-metric-002",
+      "id": "e23aa725-69b2-493f-bd13-271bde5f56d8",
       "metricType": "total_assets",
       "value": 16800,
       "unit": "RM million",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:9", "K:222"]
+      "sourceDisplayIds": [
+        "K:9",
+        "K:222"
+      ]
     },
     {
-      "id": "klcc-metric-003",
+      "id": "28c18bc7-971b-436b-8ac6-a2a65246bb13",
       "metricType": "property_count",
       "value": 6,
       "unit": "properties",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:8"]
+      "sourceDisplayIds": [
+        "K:8"
+      ]
     },
     {
-      "id": "klcc-metric-004",
+      "id": "77b78f87-27e9-441b-8290-77e29228a80a",
       "metricType": "net_lettable_area",
       "value": 5000000,
       "unit": "sq ft",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:10"]
+      "sourceDisplayIds": [
+        "K:10"
+      ]
     },
     {
-      "id": "klcc-metric-005",
+      "id": "03a5561c-a99e-46bd-a862-0be2a2840d5c",
       "metricType": "gross_revenue",
       "value": 1712,
       "unit": "RM million",
-      "period": { "type": "fiscal_year", "fiscalYear": 2024 },
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2024
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:129"]
+      "sourceDisplayIds": [
+        "K:129"
+      ]
     },
     {
-      "id": "klcc-metric-006",
+      "id": "b104a551-da15-4749-8841-a429b9c283b8",
+      "metricType": "gross_revenue",
+      "value": 1758,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "K:137"
+      ]
+    },
+    {
+      "id": "bbc833a8-1c42-4dd6-85e4-90f76dcc5ad7",
+      "metricType": "reit_segment_revenue",
+      "value": 579,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2024
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "K:131"
+      ]
+    },
+    {
+      "id": "0e95d8ff-bfef-47b1-98ae-0b6b6c8a0db6",
       "metricType": "net_property_income",
       "value": 546,
       "unit": "RM million",
-      "period": { "type": "fiscal_year", "fiscalYear": 2024 },
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2024
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:133"]
+      "sourceDisplayIds": [
+        "K:133"
+      ]
     },
     {
-      "id": "klcc-metric-007",
+      "id": "4fa8df01-9857-48d6-b59b-11357ba3bb87",
       "metricType": "net_profit",
       "value": 892,
       "unit": "RM million",
-      "period": { "type": "fiscal_year", "fiscalYear": 2024 },
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2024
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:135"]
+      "sourceDisplayIds": [
+        "K:135"
+      ]
     },
     {
-      "id": "klcc-metric-008",
+      "id": "302abad0-c5df-48a7-b87b-b7a8daff427a",
       "metricType": "nav_per_unit",
       "value": 7.57,
       "unit": "RM",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:17", "K:222"]
+      "sourceDisplayIds": [
+        "K:17",
+        "K:222"
+      ]
     },
     {
-      "id": "klcc-metric-009",
+      "id": "627e3f80-4bb4-4cea-bfa9-13e651e3635b",
       "metricType": "market_cap",
       "value": 16000,
       "unit": "RM million",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": true,
-      "sourceDisplayIds": ["K:127"]
+      "sourceDisplayIds": [
+        "K:127"
+      ]
     },
     {
-      "id": "klcc-metric-010",
+      "id": "83e97851-dd37-47e1-946b-8f9eddbb2881",
       "metricType": "share_price",
-      "value": 8.90,
+      "value": 8.9,
       "unit": "RM",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": true,
-      "sourceDisplayIds": ["K:124"]
+      "sourceDisplayIds": [
+        "K:124"
+      ]
     },
     {
-      "id": "klcc-metric-011",
+      "id": "20224610-344e-42a1-b871-fdb12cbc5ec6",
       "metricType": "dpu",
-      "value": 44.50,
+      "value": 44.5,
       "unit": "sen",
-      "period": { "type": "fiscal_year", "fiscalYear": 2024 },
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2024
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:18", "K:110", "K:111", "K:112", "K:113"]
+      "sourceDisplayIds": [
+        "K:18",
+        "K:110",
+        "K:111",
+        "K:112",
+        "K:113"
+      ]
     },
     {
-      "id": "klcc-metric-012",
+      "id": "63fc7eed-5423-42df-861b-4f5b3ece4752",
       "metricType": "dpu",
-      "value": 47.00,
+      "value": 47,
       "unit": "sen",
-      "period": { "type": "fiscal_year", "fiscalYear": 2025 },
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:19", "K:114", "K:115", "K:116", "K:117"]
+      "sourceDisplayIds": [
+        "K:19",
+        "K:114",
+        "K:115",
+        "K:116",
+        "K:117"
+      ]
     },
     {
-      "id": "klcc-metric-013",
+      "id": "c0dc98dd-3899-4beb-be63-0384f86385ef",
       "metricType": "dpu_growth_yoy",
       "value": 5.6,
       "unit": "%",
-      "period": { "type": "fiscal_year", "fiscalYear": 2025 },
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:19"]
+      "sourceDisplayIds": [
+        "K:19"
+      ]
     },
     {
-      "id": "klcc-metric-014",
+      "id": "b4025d08-7bba-4504-9fb8-75e5066c6857",
       "metricType": "dividend_yield_market",
       "value": 5.3,
       "unit": "%",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": true,
-      "sourceDisplayIds": ["K:20"]
+      "sourceDisplayIds": [
+        "K:20"
+      ]
     },
     {
-      "id": "klcc-metric-015",
+      "id": "5a567eb2-63cd-477e-8668-a610c9b7f346",
+      "metricType": "dividend_yield_nav",
+      "value": 6.2,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "K:17",
+        "K:19"
+      ]
+    },
+    {
+      "id": "c6e8474e-6977-4d2a-867f-fdc216fb69d3",
       "metricType": "payout_ratio",
       "value": 95,
       "unit": "%",
-      "period": { "type": "fiscal_year", "fiscalYear": 2025 },
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:121"]
+      "sourceDisplayIds": [
+        "K:121"
+      ]
     },
     {
-      "id": "klcc-metric-016",
+      "id": "d62b7be1-b1c0-4e47-9ad9-e80571940906",
       "metricType": "gearing_ratio",
       "value": 31.6,
       "unit": "%",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:14", "K:15"]
+      "sourceDisplayIds": [
+        "K:14",
+        "K:15"
+      ]
     },
     {
-      "id": "klcc-metric-017",
+      "id": "0e102f79-406f-4a32-94be-eb25b62c15f3",
       "metricType": "interest_coverage",
       "value": 5.9,
       "unit": "x",
-      "period": { "type": "fiscal_year", "fiscalYear": 2025 },
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:16"]
+      "sourceDisplayIds": [
+        "K:16"
+      ]
     },
     {
-      "id": "klcc-metric-018",
+      "id": "5d5b220b-3d14-40ff-987c-2ea67046e9b3",
       "metricType": "total_borrowings",
       "value": 5300,
       "unit": "RM million",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:99"]
+      "sourceDisplayIds": [
+        "K:99"
+      ]
     },
     {
-      "id": "klcc-metric-019",
+      "id": "3cf0abe3-d513-4e7b-aaae-3037d284d60b",
       "metricType": "fixed_rate_debt_pct",
       "value": 60,
       "unit": "%",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:197"]
+      "sourceDisplayIds": [
+        "K:197"
+      ]
     },
     {
-      "id": "klcc-metric-020",
+      "id": "d338863e-b862-4a6e-b136-14312ba5eaa8",
       "metricType": "floating_rate_debt_pct",
       "value": 40,
       "unit": "%",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:198"]
+      "sourceDisplayIds": [
+        "K:198"
+      ]
     },
     {
-      "id": "klcc-metric-021",
+      "id": "4723f268-7215-4a7a-ad2e-714e509c3839",
       "metricType": "cost_of_debt",
       "value": 4.8,
       "unit": "%",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:196"]
+      "sourceDisplayIds": [
+        "K:196"
+      ]
     },
     {
-      "id": "klcc-metric-022",
+      "id": "27b94c96-7796-43f2-8e8c-72ddec32f9c1",
       "metricType": "occupancy_rate",
       "value": 100,
       "unit": "%",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:11"]
+      "sourceDisplayIds": [
+        "K:11"
+      ]
     },
     {
-      "id": "klcc-metric-023",
+      "id": "f13fb735-aecf-4c11-b5ca-685a082395a0",
       "metricType": "occupancy_rate_retail",
       "value": 99,
       "unit": "%",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:13"]
+      "sourceDisplayIds": [
+        "K:13"
+      ]
     },
     {
-      "id": "klcc-metric-024",
+      "id": "731730cc-7638-4a4f-afb1-307dc093deca",
       "metricType": "wale_years",
       "value": 18,
       "unit": "years",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:22", "K:223"]
+      "sourceDisplayIds": [
+        "K:22",
+        "K:223"
+      ]
     },
     {
-      "id": "klcc-metric-025",
+      "id": "5d5057ca-a338-4ba9-9069-fbb6b50a346a",
+      "metricType": "wale_years_retail",
+      "value": 3,
+      "unit": "years",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "K:77"
+      ]
+    },
+    {
+      "id": "399d9f9f-e3fc-47cc-96bd-5b71d91c5635",
       "metricType": "tenant_count",
       "value": 300,
       "unit": "tenants",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:61"]
+      "sourceDisplayIds": [
+        "K:61"
+      ]
     },
     {
-      "id": "klcc-metric-026",
+      "id": "19372bdc-96ef-497c-9d89-6c21216329c3",
       "metricType": "top_tenant_concentration",
       "value": 75,
       "unit": "%",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:144"]
+      "sourceDisplayIds": [
+        "K:144"
+      ]
     },
     {
-      "id": "klcc-metric-027",
+      "id": "c186134b-37b8-4041-9bf8-b8bc373295b8",
       "metricType": "npi_margin",
       "value": 94.3,
       "unit": "%",
-      "period": { "type": "fiscal_year", "fiscalYear": 2024 },
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2024
+      },
       "isEstimated": true,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:131", "K:133"]
+      "sourceDisplayIds": [
+        "K:131",
+        "K:133"
+      ]
     },
     {
-      "id": "klcc-metric-028",
+      "id": "e406a5f0-1691-4c7b-8a6e-c980f2d900ae",
       "metricType": "price_to_book",
       "value": 1.18,
       "unit": "x",
-      "period": { "type": "point_in_time", "date": "2025-12-31" },
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
       "isEstimated": false,
       "isTimeSensitive": true,
-      "sourceDisplayIds": ["K:126"]
+      "sourceDisplayIds": [
+        "K:126"
+      ]
     },
     {
-      "id": "klcc-metric-029",
+      "id": "a0dc2a82-4249-478d-b962-32a8b5e57c52",
+      "metricType": "premium_discount_to_nav",
+      "value": 18,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2025-12-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "K:126"
+      ]
+    },
+    {
+      "id": "53844cd7-1677-44e2-8fcc-04e3638ccace",
       "metricType": "hotel_occupancy",
       "value": 75,
       "unit": "%",
-      "period": { "type": "fiscal_year", "fiscalYear": 2025 },
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:239"]
+      "sourceDisplayIds": [
+        "K:239"
+      ]
     },
     {
-      "id": "klcc-metric-030",
+      "id": "f650c5e9-0211-4a61-a2bc-48c65a1ad3ed",
+      "metricType": "hotel_adr",
+      "value": 850,
+      "unit": "RM",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "K:240"
+      ]
+    },
+    {
+      "id": "830107ac-7260-497b-9a19-5a9a03df214b",
       "metricType": "hotel_revpar",
       "value": 640,
       "unit": "RM",
-      "period": { "type": "fiscal_year", "fiscalYear": 2025 },
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2025
+      },
       "isEstimated": false,
       "isTimeSensitive": false,
-      "sourceDisplayIds": ["K:241"]
+      "sourceDisplayIds": [
+        "K:241"
+      ]
     }
   ],
   "timeSeries": [
     {
-      "id": "klcc-ts-001",
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+      "id": "05b8b35b-5652-476a-bba2-01613d5cc631",
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5",
       "metricType": "dpu",
       "frequency": "annual",
       "unit": "sen",
       "dataPoints": [
-        { "date": "2021-12-31", "value": 40.0, "isInterpolated": false, "sourceDisplayId": "K:118" },
-        { "date": "2022-12-31", "value": 42.0, "isInterpolated": false, "sourceDisplayId": "K:119" },
-        { "date": "2023-12-31", "value": 43.0, "isInterpolated": false, "sourceDisplayId": "K:120" },
-        { "date": "2024-12-31", "value": 44.50, "isInterpolated": false, "sourceDisplayId": "K:18" },
-        { "date": "2025-12-31", "value": 47.00, "isInterpolated": false, "sourceDisplayId": "K:19" }
+        {
+          "date": "2021-12-31",
+          "value": 40,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:118"
+        },
+        {
+          "date": "2022-12-31",
+          "value": 42,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:119"
+        },
+        {
+          "date": "2023-12-31",
+          "value": 43,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:120"
+        },
+        {
+          "date": "2024-12-31",
+          "value": 44.5,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:18"
+        },
+        {
+          "date": "2025-12-31",
+          "value": 47,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:19"
+        }
       ],
-      "sourceDisplayIds": ["K:118", "K:119", "K:120", "K:18", "K:19"]
+      "sourceDisplayIds": [
+        "K:118",
+        "K:119",
+        "K:120",
+        "K:18",
+        "K:19"
+      ]
     },
     {
-      "id": "klcc-ts-002",
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+      "id": "a0763423-79d5-4e0d-8d33-1bc3ae4896a5",
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5",
       "metricType": "nav_per_unit",
       "frequency": "annual",
       "unit": "RM",
       "dataPoints": [
-        { "date": "2021-12-31", "value": 6.95, "isInterpolated": false, "sourceDisplayId": "K:17" },
-        { "date": "2022-12-31", "value": 7.12, "isInterpolated": false, "sourceDisplayId": "K:17" },
-        { "date": "2023-12-31", "value": 7.31, "isInterpolated": false, "sourceDisplayId": "K:17" },
-        { "date": "2024-12-31", "value": 7.45, "isInterpolated": false, "sourceDisplayId": "K:17" },
-        { "date": "2025-12-31", "value": 7.57, "isInterpolated": false, "sourceDisplayId": "K:17" }
+        {
+          "date": "2021-12-31",
+          "value": 6.95,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:17"
+        },
+        {
+          "date": "2022-12-31",
+          "value": 7.12,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:17"
+        },
+        {
+          "date": "2023-12-31",
+          "value": 7.31,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:17"
+        },
+        {
+          "date": "2024-12-31",
+          "value": 7.45,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:17"
+        },
+        {
+          "date": "2025-12-31",
+          "value": 7.57,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:17"
+        }
       ],
-      "sourceDisplayIds": ["K:17"]
+      "sourceDisplayIds": [
+        "K:17"
+      ]
     },
     {
-      "id": "klcc-ts-003",
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+      "id": "75bd5b9f-bd82-4b4a-84a9-833f94e4e0f2",
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5",
       "metricType": "gearing_ratio",
       "frequency": "annual",
       "unit": "%",
       "dataPoints": [
-        { "date": "2021-12-31", "value": 33.5, "isInterpolated": false, "sourceDisplayId": "K:14" },
-        { "date": "2022-12-31", "value": 33.0, "isInterpolated": false, "sourceDisplayId": "K:14" },
-        { "date": "2023-12-31", "value": 32.5, "isInterpolated": false, "sourceDisplayId": "K:14" },
-        { "date": "2024-12-31", "value": 32.0, "isInterpolated": false, "sourceDisplayId": "K:14" },
-        { "date": "2025-12-31", "value": 31.6, "isInterpolated": false, "sourceDisplayId": "K:14" }
+        {
+          "date": "2021-12-31",
+          "value": 33.5,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:14"
+        },
+        {
+          "date": "2022-12-31",
+          "value": 33,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:14"
+        },
+        {
+          "date": "2023-12-31",
+          "value": 32.5,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:14"
+        },
+        {
+          "date": "2024-12-31",
+          "value": 32,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:14"
+        },
+        {
+          "date": "2025-12-31",
+          "value": 31.6,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:14"
+        }
       ],
-      "sourceDisplayIds": ["K:14"]
+      "sourceDisplayIds": [
+        "K:14"
+      ]
     },
     {
-      "id": "klcc-ts-004",
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+      "id": "54431fb5-2998-4867-83e5-df25770008c3",
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5",
       "metricType": "occupancy_rate",
       "frequency": "annual",
       "unit": "%",
       "dataPoints": [
-        { "date": "2021-12-31", "value": 100, "isInterpolated": false, "sourceDisplayId": "K:11" },
-        { "date": "2022-12-31", "value": 100, "isInterpolated": false, "sourceDisplayId": "K:11" },
-        { "date": "2023-12-31", "value": 100, "isInterpolated": false, "sourceDisplayId": "K:11" },
-        { "date": "2024-12-31", "value": 100, "isInterpolated": false, "sourceDisplayId": "K:11" },
-        { "date": "2025-12-31", "value": 100, "isInterpolated": false, "sourceDisplayId": "K:11" }
+        {
+          "date": "2021-12-31",
+          "value": 100,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:11"
+        },
+        {
+          "date": "2022-12-31",
+          "value": 100,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:11"
+        },
+        {
+          "date": "2023-12-31",
+          "value": 100,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:11"
+        },
+        {
+          "date": "2024-12-31",
+          "value": 100,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:11"
+        },
+        {
+          "date": "2025-12-31",
+          "value": 100,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:11"
+        }
       ],
-      "sourceDisplayIds": ["K:11"]
+      "sourceDisplayIds": [
+        "K:11"
+      ]
+    },
+    {
+      "id": "7e8e6375-4803-4de7-96de-a12b642bb339",
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5",
+      "metricType": "gross_revenue",
+      "frequency": "annual",
+      "unit": "RM million",
+      "dataPoints": [
+        {
+          "date": "2021-12-31",
+          "value": 1520,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:129"
+        },
+        {
+          "date": "2022-12-31",
+          "value": 1598,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:129"
+        },
+        {
+          "date": "2023-12-31",
+          "value": 1658,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:130"
+        },
+        {
+          "date": "2024-12-31",
+          "value": 1712,
+          "isInterpolated": false,
+          "sourceDisplayId": "K:129"
+        },
+        {
+          "date": "2025-12-31",
+          "value": 1758,
+          "isInterpolated": true,
+          "sourceDisplayId": "K:137"
+        }
+      ],
+      "sourceDisplayIds": [
+        "K:129",
+        "K:130",
+        "K:137"
+      ]
     }
   ],
   "riskAssessment": {
-    "id": "klcc-risk-001",
-    "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+    "id": "517308ff-75ba-4f55-8f8f-ec6c1a22b0f2",
+    "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5",
     "assessmentDate": "2026-04-25",
     "overallRiskRating": "low",
     "overallScore": 1.9,
     "riskFactors": [
       {
-        "id": "klcc-risk-f1",
-        "category": "tenant_concentration",
+        "id": "ab94a138-f0c6-480b-a224-33f151f07c3e",
+        "category": "concentration",
         "severity": "high",
         "title": "High Tenant Concentration - PETRONAS",
         "description": "PETRONAS contributes ~75% of REIT rental income. While this creates concentration risk, the sovereign backing effectively eliminates credit risk.",
         "currentScore": 3.5,
         "peerComparison": "worse",
         "quantitativeBacking": [
-          { "metricType": "top_tenant_concentration", "value": 75, "context": "Well above typical 10-20%" }
+          {
+            "metricType": "top_tenant_concentration",
+            "value": 75,
+            "context": "Well above typical 10-20%"
+          }
         ],
         "mitigatingFactors": [
-          { "factor": "PETRONAS is 100% government-owned sovereign entity", "impact": "significant" },
-          { "factor": "Triple net lease to 2042 provides long-term stability", "impact": "significant" },
-          { "factor": "Corporate guarantee from PETRONAS on lease obligations", "impact": "significant" },
-          { "factor": "Diversification through Suria KLCC retail (25% of income)", "impact": "moderate" }
+          {
+            "factor": "PETRONAS is 100% government-owned sovereign entity",
+            "impact": "significant"
+          },
+          {
+            "factor": "Triple net lease to 2042 provides long-term stability",
+            "impact": "significant"
+          },
+          {
+            "factor": "Corporate guarantee from PETRONAS on lease obligations",
+            "impact": "significant"
+          },
+          {
+            "factor": "Diversification through Suria KLCC retail (25% of income)",
+            "impact": "moderate"
+          }
         ],
         "aggravatingFactors": [
-          { "factor": "75% single-tenant concentration is extreme", "impact": "significant" },
-          { "factor": "Renewal risk in 2042 (17 years) requires monitoring", "impact": "moderate" }
+          {
+            "factor": "75% single-tenant concentration is extreme",
+            "impact": "significant"
+          },
+          {
+            "factor": "Renewal risk in 2042 (17 years) requires monitoring",
+            "impact": "moderate"
+          }
         ],
         "trend": "stable",
         "monitoringTriggers": [
@@ -705,10 +3714,17 @@
           "Government ownership policy changes",
           "Lease renewal negotiations (commencing 2040)"
         ],
-        "sourceDisplayIds": ["K:144", "K:21", "K:22", "K:146", "K:147", "K:232"]
+        "sourceDisplayIds": [
+          "K:144",
+          "K:21",
+          "K:22",
+          "K:146",
+          "K:147",
+          "K:232"
+        ]
       },
       {
-        "id": "klcc-risk-f2",
+        "id": "4189b547-d658-4cf2-ad2c-2d426fc04e74",
         "category": "interest_rate",
         "severity": "low",
         "title": "Manageable Interest Rate Risk",
@@ -716,18 +3732,44 @@
         "currentScore": 1.5,
         "peerComparison": "better",
         "quantitativeBacking": [
-          { "metricType": "interest_coverage", "value": 5.9, "context": "Exceptional coverage vs 3-4x peer average" },
-          { "metricType": "fixed_rate_debt_pct", "value": 60, "context": "Above average fixed-rate proportion" }
+          {
+            "metricType": "interest_coverage",
+            "value": 5.9,
+            "context": "Exceptional coverage vs 3-4x peer average"
+          },
+          {
+            "metricType": "fixed_rate_debt_pct",
+            "value": 60,
+            "context": "Above average fixed-rate proportion"
+          }
         ],
         "mitigatingFactors": [
-          { "factor": "5.9x interest cover provides massive buffer", "impact": "significant" },
-          { "factor": "60% fixed-rate debt", "impact": "significant" },
-          { "factor": "Natural hedge from 18-year fixed lease income", "impact": "significant" },
-          { "factor": "PETRONAS backing enables favorable refinancing", "impact": "moderate" }
+          {
+            "factor": "5.9x interest cover provides massive buffer",
+            "impact": "significant"
+          },
+          {
+            "factor": "60% fixed-rate debt",
+            "impact": "significant"
+          },
+          {
+            "factor": "Natural hedge from 18-year fixed lease income",
+            "impact": "significant"
+          },
+          {
+            "factor": "PETRONAS backing enables favorable refinancing",
+            "impact": "moderate"
+          }
         ],
         "aggravatingFactors": [
-          { "factor": "40% floating-rate exposure to rate cycles", "impact": "minor" },
-          { "factor": "RM 2.9B debt maturing 2025-2027", "impact": "minor" }
+          {
+            "factor": "40% floating-rate exposure to rate cycles",
+            "impact": "minor"
+          },
+          {
+            "factor": "RM 2.9B debt maturing 2025-2027",
+            "impact": "minor"
+          }
         ],
         "trend": "stable",
         "monitoringTriggers": [
@@ -735,28 +3777,149 @@
           "Refinancing spreads",
           "PETRONAS lease escalation vs interest cost growth"
         ],
-        "sourceDisplayIds": ["K:16", "K:197", "K:105", "K:170", "K:171"]
+        "sourceDisplayIds": [
+          "K:16",
+          "K:197",
+          "K:105",
+          "K:170",
+          "K:171"
+        ]
       },
       {
-        "id": "klcc-risk-f3",
-        "category": "lease_rollover",
-        "severity": "very_low",
+        "id": "976908b4-1a61-44af-ba55-a79ef844a8a5",
+        "category": "governance",
+        "severity": "low",
+        "title": "Strong Governance with Sponsor Backing",
+        "description": "Professional management with PETRONAS backing. Low management fees (0.5% base vs 1.0% standard).",
+        "currentScore": 1.5,
+        "peerComparison": "similar",
+        "mitigatingFactors": [
+          {
+            "factor": "9+ year CEO tenure provides stability",
+            "impact": "significant"
+          },
+          {
+            "factor": "PETRONAS sponsor backing ensures institutional standards",
+            "impact": "significant"
+          },
+          {
+            "factor": "0.5% management fee below industry 1.0% standard",
+            "impact": "moderate"
+          },
+          {
+            "factor": "60% independent directors",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Performance fee aligns with DPU growth",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "Related party transactions with PETRONAS group",
+            "impact": "minor"
+          },
+          {
+            "factor": "Stapled structure complexity adds governance layer",
+            "impact": "minor"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Management changes",
+          "Related party transaction terms",
+          "Fee structure reviews"
+        ],
+        "sourceDisplayIds": [
+          "K:38",
+          "K:41",
+          "K:48",
+          "K:259",
+          "K:50"
+        ]
+      },
+      {
+        "id": "283ff5e5-b482-4f1b-90e1-f26e2e6a8f5d",
+        "category": "transparency",
+        "severity": "low",
+        "title": "Excellent Disclosure",
+        "description": "Comprehensive disclosure of lease terms, tenant concentration, and financial metrics.",
+        "currentScore": 1.5,
+        "peerComparison": "better",
+        "mitigatingFactors": [
+          {
+            "factor": "Full disclosure of PETRONAS lease terms",
+            "impact": "significant"
+          },
+          {
+            "factor": "Quarterly operating metrics published",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Detailed segment reporting (REIT vs Property Holdings)",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Independent annual valuations disclosed",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Continued disclosure maintenance"
+        ],
+        "sourceDisplayIds": [
+          "K:22",
+          "K:144",
+          "K:24",
+          "K:217"
+        ]
+      },
+      {
+        "id": "efbf2a51-6433-4694-be4c-49dc5c0faf6e",
+        "category": "tenant_rollover",
+        "severity": "low",
         "title": "Exceptional Lease Profile",
         "description": "18-year WALE with 100% occupancy and PETRONAS master lease to 2042.",
         "currentScore": 1,
         "peerComparison": "better",
         "quantitativeBacking": [
-          { "metricType": "wale_years", "value": 18, "context": "Exceptional vs 3-5 year peer average" },
-          { "metricType": "occupancy_rate", "value": 100, "context": "Full occupancy" }
+          {
+            "metricType": "wale_years",
+            "value": 18,
+            "context": "Exceptional vs 3-5 year peer average"
+          },
+          {
+            "metricType": "occupancy_rate",
+            "value": 100,
+            "context": "Full occupancy"
+          }
         ],
         "mitigatingFactors": [
-          { "factor": "18-year WALE is exceptional", "impact": "significant" },
-          { "factor": "100% occupancy on core office assets", "impact": "significant" },
-          { "factor": "PETRONAS lease has built-in escalations", "impact": "significant" },
-          { "factor": "<1% lease expiry through 2030", "impact": "significant" }
+          {
+            "factor": "18-year WALE is exceptional",
+            "impact": "significant"
+          },
+          {
+            "factor": "100% occupancy on core office assets",
+            "impact": "significant"
+          },
+          {
+            "factor": "PETRONAS lease has built-in escalations",
+            "impact": "significant"
+          },
+          {
+            "factor": "<1% lease expiry through 2030",
+            "impact": "significant"
+          }
         ],
         "aggravatingFactors": [
-          { "factor": "Concentrated 2042 expiry creates cliff risk", "impact": "minor" }
+          {
+            "factor": "Concentrated 2042 expiry creates cliff risk",
+            "impact": "minor"
+          }
         ],
         "trend": "stable",
         "monitoringTriggers": [
@@ -764,29 +3927,60 @@
           "Rent escalation calculations",
           "Long-term renewal strategy"
         ],
-        "sourceDisplayIds": ["K:22", "K:223", "K:11", "K:229", "K:224"]
+        "sourceDisplayIds": [
+          "K:22",
+          "K:223",
+          "K:11",
+          "K:229",
+          "K:224"
+        ]
       },
       {
-        "id": "klcc-risk-f4",
-        "category": "retail_cyclicality",
+        "id": "7a14a103-ef3e-4669-a49f-f8e78b9ce379",
+        "category": "market",
         "severity": "medium",
         "title": "Retail Cyclicality at Suria KLCC",
         "description": "Suria KLCC contributes ~25% of income with exposure to consumer discretionary spending and tourism cycles.",
         "currentScore": 2.5,
         "peerComparison": "similar",
         "quantitativeBacking": [
-          { "metricType": "occupancy_rate_retail", "value": 99, "context": "Premium positioning" }
+          {
+            "metricType": "occupancy_rate_retail",
+            "value": 99,
+            "context": "Premium positioning"
+          }
         ],
         "mitigatingFactors": [
-          { "factor": "Luxury retail focus is more resilient", "impact": "significant" },
-          { "factor": "99% occupancy demonstrates strength", "impact": "significant" },
-          { "factor": "Iconic location attracts tourists", "impact": "moderate" },
-          { "factor": "Recent RM 150M AEI refresh completed", "impact": "moderate" }
+          {
+            "factor": "Luxury retail focus is more resilient",
+            "impact": "significant"
+          },
+          {
+            "factor": "99% occupancy demonstrates strength",
+            "impact": "significant"
+          },
+          {
+            "factor": "Iconic location attracts tourists",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Recent RM 150M AEI refresh completed",
+            "impact": "moderate"
+          }
         ],
         "aggravatingFactors": [
-          { "factor": "Consumer discretionary exposure", "impact": "moderate" },
-          { "factor": "Tourism-dependent (40M visitors)", "impact": "moderate" },
-          { "factor": "E-commerce competition for non-luxury retail", "impact": "minor" }
+          {
+            "factor": "Consumer discretionary exposure",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Tourism-dependent (40M visitors)",
+            "impact": "moderate"
+          },
+          {
+            "factor": "E-commerce competition for non-luxury retail",
+            "impact": "minor"
+          }
         ],
         "trend": "improving",
         "monitoringTriggers": [
@@ -795,7 +3989,81 @@
           "Luxury retail trends",
           "Tenant retention rates"
         ],
-        "sourceDisplayIds": ["K:13", "K:79", "K:165", "K:238", "K:143"]
+        "sourceDisplayIds": [
+          "K:13",
+          "K:79",
+          "K:165",
+          "K:238",
+          "K:143"
+        ]
+      },
+      {
+        "id": "1bdddd09-3e02-4652-817b-a3378bfd87d5",
+        "category": "operational",
+        "severity": "medium",
+        "title": "Hospitality Recovery Post-COVID",
+        "description": "Mandarin Oriental KL (75% stake) contributes ~10% of income with hotel market volatility.",
+        "currentScore": 2.5,
+        "peerComparison": "similar",
+        "quantitativeBacking": [
+          {
+            "metricType": "hotel_occupancy",
+            "value": 75,
+            "context": "Recovery from COAD lows"
+          },
+          {
+            "metricType": "hotel_revpar",
+            "value": 640,
+            "context": "5-star positioning"
+          }
+        ],
+        "mitigatingFactors": [
+          {
+            "factor": "5-star luxury positioning is resilient",
+            "impact": "significant"
+          },
+          {
+            "factor": "Prime KLCC location",
+            "impact": "significant"
+          },
+          {
+            "factor": "Recent RM 80M renovation completed",
+            "impact": "moderate"
+          },
+          {
+            "factor": "75% stake limits full consolidation of volatility",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "Hotel market cyclicality",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Tourism-dependent revenue",
+            "impact": "moderate"
+          },
+          {
+            "factor": "High fixed cost structure",
+            "impact": "minor"
+          }
+        ],
+        "trend": "improving",
+        "monitoringTriggers": [
+          "Hotel occupancy trends",
+          "ADR and RevPAR growth",
+          "Tourism recovery metrics",
+          "Competitive supply"
+        ],
+        "sourceDisplayIds": [
+          "K:62",
+          "K:128",
+          "K:239",
+          "K:240",
+          "K:241",
+          "K:82"
+        ]
       }
     ],
     "peerComparison": {
@@ -812,71 +4080,269 @@
   },
   "observations": [
     {
-      "id": "klcc-obs-001",
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+      "id": "44b728da-3c0c-4c03-b724-20d91c84806c",
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5",
       "observationType": "executive_summary",
       "priority": "positive",
       "title": "Malaysia's Premier Iconic REIT with Sovereign Backing",
       "content": "KLCC REIT is Malaysia's only stapled security holding the iconic PETRONAS Twin Towers. With 100% occupancy backed by PETRONAS master lease to 2042, 31.6% conservative gearing, and 5.9x interest cover, KLCC REIT offers unparalleled income stability in the Malaysian REIT sector.",
       "summary": "Iconic assets, sovereign tenant, exceptional stability",
       "keyFacts": [
-        { "label": "Occupancy", "value": 100, "unit": "%" },
-        { "label": "WALE", "value": 18, "unit": "years" },
-        { "label": "Interest Cover", "value": 5.9, "unit": "x" },
-        { "label": "Gearing", "value": 31.6, "unit": "%" }
+        {
+          "label": "Occupancy",
+          "value": 100,
+          "unit": "%"
+        },
+        {
+          "label": "WALE",
+          "value": 18,
+          "unit": "years"
+        },
+        {
+          "label": "Interest Cover",
+          "value": 5.9,
+          "unit": "x"
+        },
+        {
+          "label": "Gearing",
+          "value": 31.6,
+          "unit": "%"
+        }
       ],
+      "indicator": {
+        "icon": "check",
+        "color": "green"
+      },
       "relatedMetrics": [
-        { "metricType": "occupancy_rate", "value": 100 },
-        { "metricType": "wale_years", "value": 18 },
-        { "metricType": "interest_coverage", "value": 5.9 },
-        { "metricType": "gearing_ratio", "value": 31.6 }
+        {
+          "metricType": "occupancy_rate",
+          "value": 100
+        },
+        {
+          "metricType": "wale_years",
+          "value": 18
+        },
+        {
+          "metricType": "interest_coverage",
+          "value": 5.9
+        },
+        {
+          "metricType": "gearing_ratio",
+          "value": 31.6
+        }
       ],
       "relatedRisks": [],
-      "sourceDisplayIds": ["K:5", "K:11", "K:22", "K:16", "K:14"],
+      "sourceDisplayIds": [
+        "K:5",
+        "K:11",
+        "K:22",
+        "K:16",
+        "K:14"
+      ],
       "primaryCitation": "K:5"
     },
     {
-      "id": "klcc-obs-002",
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+      "id": "30148f26-ec97-4d7a-9f31-155b392b4623",
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5",
       "observationType": "debt_sustainability",
       "priority": "positive",
       "title": "Exceptional Debt Metrics with Sovereign Support",
       "content": "KLCC REIT maintains conservative 31.6% gearing with 5.9x interest cover - among the strongest in the sector. 60% fixed-rate debt and staggered maturities through 2030, combined with PETRONAS sponsor backing, provide exceptional refinancing resilience.",
       "summary": "31.6% gearing, 5.9x cover, investment-grade structure",
       "keyFacts": [
-        { "label": "Gearing", "value": 31.6, "unit": "%" },
-        { "label": "Interest Cover", "value": 5.9, "unit": "x" },
-        { "label": "Fixed Rate Debt", "value": 60, "unit": "%" }
+        {
+          "label": "Gearing",
+          "value": 31.6,
+          "unit": "%"
+        },
+        {
+          "label": "Interest Cover",
+          "value": 5.9,
+          "unit": "x"
+        },
+        {
+          "label": "Fixed Rate Debt",
+          "value": 60,
+          "unit": "%"
+        }
       ],
+      "indicator": {
+        "icon": "check",
+        "color": "green"
+      },
       "relatedMetrics": [
-        { "metricType": "gearing_ratio", "value": 31.6 },
-        { "metricType": "interest_coverage", "value": 5.9 },
-        { "metricType": "fixed_rate_debt_pct", "value": 60 }
+        {
+          "metricType": "gearing_ratio",
+          "value": 31.6
+        },
+        {
+          "metricType": "interest_coverage",
+          "value": 5.9
+        },
+        {
+          "metricType": "fixed_rate_debt_pct",
+          "value": 60
+        }
       ],
       "relatedRisks": [],
-      "sourceDisplayIds": ["K:14", "K:16", "K:197", "K:99", "K:109"],
+      "sourceDisplayIds": [
+        "K:14",
+        "K:16",
+        "K:197",
+        "K:99",
+        "K:109"
+      ],
       "primaryCitation": "K:14"
     },
     {
-      "id": "klcc-obs-003",
-      "entityId": "5235d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+      "id": "a84a6534-5aa5-4027-85ed-dfb32cd41750",
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5",
+      "observationType": "portfolio_analysis",
+      "priority": "positive",
+      "title": "Active Asset Enhancement Driving Value",
+      "content": "RM 150M+ Suria KLCC refresh completed in 2023-2024, RM 80M+ Mandarin Oriental renovation ongoing. These AEIs position the portfolio for continued growth while maintaining the iconic status of assets.",
+      "summary": "AEI investment, portfolio refresh, value enhancement",
+      "keyFacts": [
+        {
+          "label": "Suria KLCC AEI",
+          "value": 150,
+          "unit": "RM M"
+        },
+        {
+          "label": "Hotel Renovation",
+          "value": 80,
+          "unit": "RM M"
+        },
+        {
+          "label": "Retail Occupancy",
+          "value": 99,
+          "unit": "%"
+        }
+      ],
+      "indicator": {
+        "icon": "check",
+        "color": "green"
+      },
+      "relatedMetrics": [
+        {
+          "metricType": "occupancy_rate_retail",
+          "value": 99
+        }
+      ],
+      "relatedRisks": [],
+      "sourceDisplayIds": [
+        "K:79",
+        "K:80",
+        "K:82",
+        "K:83",
+        "K:13"
+      ],
+      "primaryCitation": "K:79"
+    },
+    {
+      "id": "25914e04-4584-4e4d-bcc8-dc087aa92738",
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5",
+      "observationType": "portfolio_analysis",
+      "priority": "info",
+      "title": "PETRONAS Master Lease - Double-Edged Sword",
+      "content": "The PETRONAS master lease to 2042 provides exceptional income stability but creates 75% tenant concentration. The sovereign backing effectively eliminates credit risk, making this concentration a trade-off for stability rather than a pure risk.",
+      "summary": "Sovereign backing, concentration trade-off, 2042 visibility",
+      "keyFacts": [
+        {
+          "label": "Tenant Concentration",
+          "value": 75,
+          "unit": "%"
+        },
+        {
+          "label": "Lease Expiry",
+          "value": 2042,
+          "unit": ""
+        },
+        {
+          "label": "Structure",
+          "value": 0,
+          "unit": "Triple Net"
+        }
+      ],
+      "indicator": {
+        "icon": "info",
+        "color": "blue"
+      },
+      "relatedMetrics": [
+        {
+          "metricType": "top_tenant_concentration",
+          "value": 75
+        },
+        {
+          "metricType": "wale_years",
+          "value": 18
+        }
+      ],
+      "relatedRisks": [
+        {
+          "category": "concentration",
+          "severity": "high"
+        }
+      ],
+      "sourceDisplayIds": [
+        "K:144",
+        "K:12",
+        "K:21",
+        "K:22",
+        "K:147"
+      ],
+      "primaryCitation": "K:144"
+    },
+    {
+      "id": "0135cf23-2eeb-4580-840d-85f459444aad",
+      "entityId": "8dcdd331-45ec-5683-910e-0914d86355f5",
       "observationType": "dividend_sustainability",
       "priority": "positive",
       "title": "12+ Years of Stable, Growing Distributions",
       "content": "KLCC REIT has maintained 100% quarterly distribution track record since 2013 listing. FY2025 DPU of 47.00 sen represents 5.6% growth over FY2024, demonstrating the stability and growth potential of the income stream.",
       "summary": "47.00 sen DPU, +5.6% growth, uninterrupted since 2013",
       "keyFacts": [
-        { "label": "FY2025 DPU", "value": 47.00, "unit": "sen" },
-        { "label": "DPU Growth", "value": 5.6, "unit": "%" },
-        { "label": "Yield", "value": 5.3, "unit": "%" }
+        {
+          "label": "FY2025 DPU",
+          "value": 47,
+          "unit": "sen"
+        },
+        {
+          "label": "DPU Growth",
+          "value": 5.6,
+          "unit": "%"
+        },
+        {
+          "label": "Yield",
+          "value": 5.3,
+          "unit": "%"
+        }
       ],
+      "indicator": {
+        "icon": "check",
+        "color": "green"
+      },
       "relatedMetrics": [
-        { "metricType": "dpu", "value": 47.00 },
-        { "metricType": "dpu_growth_yoy", "value": 5.6 },
-        { "metricType": "dividend_yield_market", "value": 5.3 }
+        {
+          "metricType": "dpu",
+          "value": 47
+        },
+        {
+          "metricType": "dpu_growth_yoy",
+          "value": 5.6
+        },
+        {
+          "metricType": "dividend_yield_market",
+          "value": 5.3
+        }
       ],
       "relatedRisks": [],
-      "sourceDisplayIds": ["K:19", "K:122", "K:20", "K:121"],
+      "sourceDisplayIds": [
+        "K:19",
+        "K:122",
+        "K:20",
+        "K:121"
+      ],
       "primaryCitation": "K:19"
     }
   ]
