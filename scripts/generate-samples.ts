@@ -22,6 +22,7 @@ import { createParadigmAdapter } from '../src/adapters/paradigm-adapter';
 import { createKlccAdapter } from '../src/adapters/klcc-adapter';
 import { createHektarAdapter } from '../src/adapters/hektar-adapter';
 import { createSentralAdapter } from '../src/adapters/sentral-adapter';
+import { createAmFIRSTAdapter } from '../src/adapters/amfirst-adapter';
 
 /**
  * Write output to both test/samples and frontend/public/data directories
@@ -347,6 +348,31 @@ function generateSentralSample(): void {
   console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
 }
 
+function generateAmFIRSTSample(): void {
+  console.log('Generating AmFIRST REIT sample...');
+
+  const linker = createCitationLinker();
+
+  // Load references
+  const amfirstRefs = JSON.parse(fs.readFileSync(
+    path.join(__dirname, '..', 'amfirst-reit-references.json'), 'utf-8'
+  ));
+
+  // Process through adapter
+  const adapter = createAmFIRSTAdapter(linker);
+  adapter.processReferences(amfirstRefs);
+  const output = adapter.generateOutput();
+
+  // Write output files
+  writeOutputFiles('amfirst', output);
+
+  console.log(`   📊 ${output.references.length} references`);
+  console.log(`   📊 ${output.metrics.length} metrics`);
+  console.log(`   📊 ${output.timeSeries.length} time series`);
+  console.log(`   📊 ${output.observations.length} observations`);
+  console.log(`   📊 ${output.riskAssessment.riskFactors.length} risk factors`);
+}
+
 // Run generation
 generateAtriumSample();
 generateAxisSample();
@@ -361,4 +387,5 @@ generateParadigmSample();
 generateKlccSample();
 generateHektarSample();
 generateSentralSample();
+generateAmFIRSTSample();
 console.log('\n✅ Sample generation complete');

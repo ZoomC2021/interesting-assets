@@ -1,0 +1,2454 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-04-26T14:47:27.810Z",
+  "entity": {
+    "id": "fc619eae-c98e-5e62-9e0f-f41f29db669a",
+    "code": "5120.KL",
+    "name": "AmFIRST Real Estate Investment Trust",
+    "exchange": "Bursa Malaysia",
+    "sector": "Real Estate Investment Trusts",
+    "currency": "MYR",
+    "isShariahCompliant": false,
+    "listingDate": "2006-12-21",
+    "manager": {
+      "name": "AmREIT Managers Sdn Bhd",
+      "ownershipStructure": "External professional manager (AmBank Group affiliated)",
+      "controllingShareholder": "AmBank Group ecosystem"
+    },
+    "trustee": "Maybank Trustees Berhad",
+    "fiscalYearEnd": {
+      "month": 3,
+      "day": 31
+    },
+    "references": [
+      "180ce9f0-cf07-5945-9111-97dcfd6c3499",
+      "fa4a90a7-8f60-5bb6-a696-e8b25ff865f1",
+      "02139045-df73-5591-b6df-5ad8cce7f4f4",
+      "38a8d0e9-80fc-5ea0-850c-2e515daae8f9",
+      "81726bab-170a-5265-bf86-03a74ce62e91",
+      "23ce79dc-ecaf-5826-a61b-00e3f3ef57b2"
+    ]
+  },
+  "references": [
+    {
+      "id": "180ce9f0-cf07-5945-9111-97dcfd6c3499",
+      "displayId": "AF:1",
+      "fact": "Stock Code 5120.KL (Bursa Malaysia)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - AmFIRST REIT",
+      "url": "https://www.klsescreener.com/v2/stocks/5120",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "4b2cfb3f-55d7-554c-adbf-be4eacd2ffeb",
+      "displayId": "AF:2",
+      "fact": "Research Date April 2026",
+      "source": "Document",
+      "citation": "Report metadata",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "90569d78-4206-57a9-a580-4b397b6663c3",
+      "displayId": "AF:3",
+      "fact": "Data Coverage FY 2026 (March 31, 2026)",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "eb8d521a-73d7-51d2-b59b-fc89aac301f3",
+      "displayId": "AF:4",
+      "fact": "2026 Annual Report published June 2025",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Announcement",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "fa4a90a7-8f60-5bb6-a696-e8b25ff865f1",
+      "displayId": "AF:5",
+      "fact": "AmFIRST Real Estate Investment Trust (AmFIRST REIT) name",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Corporate Information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "e10bd7cc-ac7e-5c02-b322-592f5bdf4e35",
+      "displayId": "AF:6",
+      "fact": "Malaysia-based diversified REIT focused on commercial properties in Klang Valley, Melaka, and Penang",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Portfolio Overview",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "d14b88ea-8944-560d-8fea-df32289caccd",
+      "displayId": "AF:7",
+      "fact": "As of March 31, 2026 (reporting date)",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Financial Statements",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "8288f071-08b9-56ea-bbc2-d382d7a8cf9c",
+      "displayId": "AF:8",
+      "fact": "Portfolio of 8 commercial properties",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "45bb7a95-ae1e-543c-836a-4a875bf7f2ae",
+      "displayId": "AF:9",
+      "fact": "Total net lettable area approximately 3.0 million square feet",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Portfolio Metrics",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "7b51357a-30eb-5899-8901-a16bc1c6ca33",
+      "displayId": "AF:10",
+      "fact": "Portfolio Occupancy 88.7% as of March 2026",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Occupancy Report",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "48788ee5-256a-5393-95ac-ae4514a91252",
+      "displayId": "AF:11",
+      "fact": "Gearing Ratio 46.6%",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Debt Metrics",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "d1e12fb3-a80d-5ee1-b91a-721f7447b751",
+      "displayId": "AF:12",
+      "fact": "60% regulatory limit for SC Malaysia REITs",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "url": "https://www.sc.com.my/regulation/guidelines",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "8e9c8bf1-60a6-596d-ba59-70fcc3dc668e",
+      "displayId": "AF:13",
+      "fact": "2026 Total DPU 2.87 sen based on quarterly distributions",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Dividend History",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "66389491-9591-5317-ac68-99ad509e663b",
+      "displayId": "AF:14",
+      "fact": "NTA per Unit RM 1.2178",
+      "source": "KLSE",
+      "citation": "KLSE Screener - NTA Data",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "f8fb5bdc-6a6b-5ae2-bc69-d1f5253144f3",
+      "displayId": "AF:15",
+      "fact": "Full Year Gross Revenue RM 110.3 million, +5.2% YoY",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Income Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "7fac44d6-ed39-513b-aaef-176be4b85f3f",
+      "displayId": "AF:16",
+      "fact": "Full Year NPI RM 64.1 million, +5.0% YoY",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Net Property Income",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "23e27f5a-9371-5fc7-aca8-6c8d0c64fe7f",
+      "displayId": "AF:17",
+      "fact": "Profit After Tax RM 30.4 million, +23.2% YoY",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Profit Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "02139045-df73-5591-b6df-5ad8cce7f4f4",
+      "displayId": "AF:18",
+      "fact": "Manager: AmREIT Managers Sdn Bhd",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Corporate Information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "38a8d0e9-80fc-5ea0-850c-2e515daae8f9",
+      "displayId": "AF:19",
+      "fact": "Trustee: Maybank Trustees Berhad",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Trust Deed Information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "81726bab-170a-5265-bf86-03a74ce62e91",
+      "displayId": "AF:20",
+      "fact": "Stock Exchange: Bursa Malaysia (Main Market)",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Listing Information",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "fadddb67-6f89-57e7-8673-ae365b8a9b9f",
+      "displayId": "AF:21",
+      "fact": "Sector: Real Estate Investment Trusts",
+      "source": "Bursa",
+      "citation": "Bursa Malaysia Sector Classification",
+      "url": "https://www.bursamalaysia.com",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "144f9d3f-2f4e-53ae-b772-44aac87dc9d7",
+      "displayId": "AF:22",
+      "fact": "Property Focus: Commercial (office, retail, mixed-use)",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Investment Policy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "60588fa8-de96-5422-801e-cfc8de256f41",
+      "displayId": "AF:23",
+      "fact": "Shariah Status: Non-Shariah compliant",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Shariah Status",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "60f1f659-11c9-5a51-b96f-24b1ee4f267a",
+      "displayId": "AF:24",
+      "fact": "Number of Properties: 8",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Count",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "8a63368e-89c0-598b-a0fd-ea6427a74c83",
+      "displayId": "AF:25",
+      "fact": "Total Net Lettable Area: ~3.0 million sq ft",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Portfolio NLA",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "1295a35b-4c8e-5447-a7a1-0279b2f90e54",
+      "displayId": "AF:26",
+      "fact": "Geographic Focus: Klang Valley (6 properties), Melaka (1), Penang (1)",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Geographic Distribution",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "bd921aa3-cdfb-53ed-bd94-0929bb555d62",
+      "displayId": "AF:27",
+      "fact": "Market Capitalization RM 223.1 million",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Market Cap",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "23ce79dc-ecaf-5826-a61b-00e3f3ef57b2",
+      "displayId": "AF:28",
+      "fact": "AmREIT Managers Sdn Bhd serves as external manager",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Manager Information",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "1583d670-6e0f-5bde-bd5c-b0a2684f4714",
+      "displayId": "AF:29",
+      "fact": "Manager Structure: External professional manager",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Management Structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "d96e27ab-0fab-5b21-9b10-c3c0213a926a",
+      "displayId": "AF:30",
+      "fact": "Fee Structure: Standard REIT management fees",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Fee Structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "8c2e4fd3-a464-5133-bc35-9894d9556bb2",
+      "displayId": "AF:31",
+      "fact": "Ownership: Part of AmBank Group ecosystem",
+      "source": "AmBankGroup",
+      "citation": "AmBank Group Corporate Structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "924cb40d-ca09-5db7-98fd-318deef711ed",
+      "displayId": "AF:32",
+      "fact": "Manager affiliation with AmBank Group provides institutional backing",
+      "source": "AmFIRSTIR",
+      "citation": "AmFIRST REIT Investor Relations - Corporate Structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "4eab7b5c-199a-5880-aad4-70393f155d91",
+      "displayId": "AF:33",
+      "fact": "Professional external management provides governance separation",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Governance Structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "133d914d-c13f-5b24-9dcd-ef3c212c3daa",
+      "displayId": "AF:34",
+      "fact": "Property: Bangunan AmBank Group",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "d882c6cf-20c6-538d-b3ad-71542b3aa906",
+      "displayId": "AF:35",
+      "fact": "Bangunan AmBank Group Location: Jalan Raja Chulan, Kuala Lumpur",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Locations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "8ef3aec8-f3c7-5029-aaf8-d707075369b0",
+      "displayId": "AF:36",
+      "fact": "Property: Menara AmBank",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "0c77aa51-278f-5c7d-8651-41c52181db2c",
+      "displayId": "AF:37",
+      "fact": "Menara AmBank Location: Jalan Yap Kwan Seng, Kuala Lumpur (Golden Triangle)",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Locations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "691d5dca-ca1d-5b5d-8bbc-209ac27ddaae",
+      "displayId": "AF:38",
+      "fact": "Property: Wisma AmFIRST",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "31e89ece-a7dd-54aa-8308-0e3760804910",
+      "displayId": "AF:39",
+      "fact": "Wisma AmFIRST Location: Petaling Jaya, Selangor",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Locations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "dd0a0d08-d229-5a29-9025-854b681a0ff7",
+      "displayId": "AF:40",
+      "fact": "Property: The Summit Subang USJ",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "5603578d-d461-5a6b-8f32-22836ec464fb",
+      "displayId": "AF:41",
+      "fact": "The Summit Subang USJ Location: Subang Jaya, Selangor",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Locations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "ec82c03f-a7bc-524e-a488-8d9839be389b",
+      "displayId": "AF:42",
+      "fact": "Property: Prima 9",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "db20713b-41f3-52b5-ad26-cc2b73b65015",
+      "displayId": "AF:43",
+      "fact": "Prima 9 Location: Cyberjaya, Selangor",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Locations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "760a997d-f4ab-5b6b-b58f-475dbdb97703",
+      "displayId": "AF:44",
+      "fact": "Property: Prima 10",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "d82cb2d5-682c-5cba-92c6-cfc71153edd2",
+      "displayId": "AF:45",
+      "fact": "Prima 10 Location: Cyberjaya, Selangor",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Locations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "34531ae9-1dcd-5ac0-be55-3687bd193568",
+      "displayId": "AF:46",
+      "fact": "Property: Jaya 99",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "f05b82ed-f1bc-5d84-9154-8afa8aa1c13a",
+      "displayId": "AF:47",
+      "fact": "Jaya 99 Location: Melaka",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Locations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "9892be1d-52b9-55c2-a39a-fb6a16013c65",
+      "displayId": "AF:48",
+      "fact": "Property: Mydin HyperMall, Bukit Mertajam",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Portfolio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "a57f7ed4-5029-549f-bd01-b609acae96d5",
+      "displayId": "AF:49",
+      "fact": "Mydin HyperMall Location: Bukit Mertajam, Penang",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Locations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "bd6c10c5-c7a6-5c49-85c8-49fb344e507c",
+      "displayId": "AF:50",
+      "fact": "Prime Assets: Bangunan AmBank Group and Menara AmBank are flagship properties in KL Golden Triangle",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "53927a5e-4c52-5a9d-8395-16b37abb89fc",
+      "displayId": "AF:51",
+      "fact": "Cyberjaya Exposure: Prima 9 and Prima 10 provide exposure to Malaysia technology hub",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Geographic Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "90d34fdc-9cbe-567c-ba4e-b58c19b3c2f5",
+      "displayId": "AF:52",
+      "fact": "Retail Component: The Summit Subang USJ, Jaya 99, and Mydin HyperMall provide retail income diversification",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Property Type Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "3f1e9433-3d46-5748-9882-8c0d0af5b354",
+      "displayId": "AF:53",
+      "fact": "Geographic Diversification: 75% Klang Valley, 12.5% Melaka, 12.5% Penang",
+      "source": "Calculated",
+      "citation": "Calculated from property locations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "f130d8d3-fba8-5abb-9a90-46af3fe5a796",
+      "displayId": "AF:54",
+      "fact": "FY 2025 Occupancy: ~85%",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Historical Data",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "92180a40-d184-5da6-b622-0b13acf1b809",
+      "displayId": "AF:55",
+      "fact": "FY 2026 Occupancy: 88.7%",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Occupancy Report",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "15a5543f-64f1-504a-b5a2-b1197d773b10",
+      "displayId": "AF:56",
+      "fact": "Improvement to 88.7% occupancy demonstrates positive momentum",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Management Discussion",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "6bf87b04-4868-54db-b0dd-1c12966bddb1",
+      "displayId": "AF:57",
+      "fact": "Key Tenant: AmBank Group occupies significant space in flagship assets",
+      "source": "AmBankGroup",
+      "citation": "AmBank Group Property Occupancy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "aa62654e-113f-5e28-9dee-97349423d3fc",
+      "displayId": "AF:58",
+      "fact": "Key Tenant: Mydin as anchor retail tenant at Mydin HyperMall",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Major Tenants",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "431bb5d1-9a1f-5d4d-af02-cb8d39ba20c1",
+      "displayId": "AF:59",
+      "fact": "AmBank Group as major tenant creates related-party exposure",
+      "source": "Calculated",
+      "citation": "Analysis of tenant concentration",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "96799b94-0e5a-59a7-b6e1-fce46f8d2255",
+      "displayId": "AF:60",
+      "fact": "Diversified tenant base reduces single-tenant concentration risk",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Tenant Diversification",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "ee9210b4-1d30-55bf-a0a5-898f8ae15424",
+      "displayId": "AF:61",
+      "fact": "Retail components provide income stability through consumer foot traffic",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Retail Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "89b2ddca-b0ba-549e-a311-00b54f38b255",
+      "displayId": "AF:62",
+      "fact": "Portfolio Revaluation completed April 2026",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Valuation Update",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "974aad2d-38d4-5cfe-9a1c-83b7ddf901cd",
+      "displayId": "AF:63",
+      "fact": "Valuation Method: Independent professional valuation",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Valuation Policy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "40c829af-c1a9-5dd4-81ed-20d898ba3e7f",
+      "displayId": "AF:64",
+      "fact": "NTA per Unit RM 1.2178 as of March 2026",
+      "source": "Q42026",
+      "citation": "AmFIRST REIT Q4 2026 Results - NTA Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "9d1300b1-1503-534f-88f0-09a0ab65a62d",
+      "displayId": "AF:65",
+      "fact": "Portfolio underwent revaluation in April 2026",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Asset Valuation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "90517b57-dfb5-59cd-bd24-a0c0730ea9f9",
+      "displayId": "AF:66",
+      "fact": "Klang Valley Property Count: 6",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Geographic Breakdown",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "29ce45bd-bbd3-5c90-a5d5-d00358a11b81",
+      "displayId": "AF:67",
+      "fact": "Klang Valley Percentage: 75% of portfolio",
+      "source": "Calculated",
+      "citation": "Calculated from property count",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "e54ced16-5441-5a9c-a4b3-30cda9bed010",
+      "displayId": "AF:68",
+      "fact": "Melaka Property Count: 1 (Jaya 99)",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Geographic Breakdown",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "d179198a-e010-586d-9455-a90870a74a71",
+      "displayId": "AF:69",
+      "fact": "Melaka Percentage: 12.5% of portfolio",
+      "source": "Calculated",
+      "citation": "Calculated from property count",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "57345866-5d7a-5acb-9bd6-de47c7050fc1",
+      "displayId": "AF:70",
+      "fact": "Penang Property Count: 1 (Mydin HyperMall)",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Geographic Breakdown",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "eee01445-c58f-5800-a239-9a534ee65746",
+      "displayId": "AF:71",
+      "fact": "Penang Percentage: 12.5% of portfolio",
+      "source": "Calculated",
+      "citation": "Calculated from property count",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "b1610fbf-4082-5b8b-b6b3-d13613473ed2",
+      "displayId": "AF:72",
+      "fact": "75% Klang Valley concentration aligns with Malaysia commercial property market dynamics",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "045d70b9-c678-54e5-bbdb-5f9961a19862",
+      "displayId": "AF:73",
+      "fact": "Melaka and Penang assets provide meaningful diversification outside primary market",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Geographic Risk Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "74bd0e99-fe70-5fa4-b8eb-0f7558875e93",
+      "displayId": "AF:74",
+      "fact": "Gearing Ratio: 46.6%",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Debt Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "4b7bac05-2864-5933-9b4e-d1fea2d146ea",
+      "displayId": "AF:75",
+      "fact": "Regulatory Limit: 60% for SC Malaysia REITs",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "3b4f3f49-250c-5100-9bed-c78d3f8ac46d",
+      "displayId": "AF:76",
+      "fact": "Headroom: 13.4 percentage points below regulatory limit",
+      "source": "Calculated",
+      "citation": "Calculated from gearing ratio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "c8be1b31-2d93-5797-bc0a-1c961b19f496",
+      "displayId": "AF:77",
+      "fact": "Gearing ratio of 46.6% provides comfortable buffer",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Leverage Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "463fa0c2-5d7e-5c60-8299-a714eb76b329",
+      "displayId": "AF:78",
+      "fact": "Weighted Average Maturity (WAM): 3.3 years",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Debt Maturity",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "a719c513-bc90-5571-9a49-956d68b9ff6a",
+      "displayId": "AF:79",
+      "fact": "Weighted Average Interest Rate: 4.06%",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Interest Rate Profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "42eddd0d-0162-5b98-9304-4120b559d7d0",
+      "displayId": "AF:80",
+      "fact": "3.3-year weighted average debt maturity provides moderate refinancing runway",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Refinancing Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "a9652eb4-d25d-5c7d-bdcc-a76da8227e71",
+      "displayId": "AF:81",
+      "fact": "4.06% weighted average interest rate is competitive in current environment",
+      "source": "BNM",
+      "citation": "Bank Negara Malaysia interest rate environment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "9aaa1f30-3b0d-5b0e-9122-19ce6ccb3360",
+      "displayId": "AF:82",
+      "fact": "FY2026 benefited from lower financing costs following BNM OPR adjustments",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Finance Cost Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "af9fa593-c9c5-5d59-b3ef-d60d0bfbf275",
+      "displayId": "AF:83",
+      "fact": "Lower financing costs following Bank Negara Malaysia Overnight Policy Rate adjustments",
+      "source": "BNM",
+      "citation": "BNM Monetary Policy Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "a655c327-5f43-5086-a5f7-ef6fd3bb6608",
+      "displayId": "AF:84",
+      "fact": "Strong relationship with AmBank Group provides financing support",
+      "source": "AmBankGroup",
+      "citation": "AmBank Group Banking Relations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "5f368b80-0212-58e9-a976-106ed82f48f8",
+      "displayId": "AF:85",
+      "fact": "Q1 FY2026 DPU: 0.79 sen (Jun 2025)",
+      "source": "Q42026",
+      "citation": "AmFIRST REIT Distribution Announcement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "2d5c0439-84e1-5296-846d-4eea7663ab18",
+      "displayId": "AF:86",
+      "fact": "Q2 FY2026 DPU: 0.66 sen (Sep 2025)",
+      "source": "Q42026",
+      "citation": "AmFIRST REIT Distribution Announcement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "ade48d77-7a81-5a60-a8aa-fe6b749a4e52",
+      "displayId": "AF:87",
+      "fact": "Q3 FY2026 DPU: 0.79 sen (Dec 2025)",
+      "source": "Q42026",
+      "citation": "AmFIRST REIT Distribution Announcement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "7696d6ae-638f-5e90-899f-80905d55c34e",
+      "displayId": "AF:88",
+      "fact": "Q4 FY2026 DPU: 0.63 sen (Mar 2026)",
+      "source": "Q42026",
+      "citation": "AmFIRST REIT Distribution Announcement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "ddd663c9-0e3c-53cf-8f28-96c3b499424a",
+      "displayId": "AF:89",
+      "fact": "Total FY 2026 DPU: ~2.87 sen",
+      "source": "Calculated",
+      "citation": "Sum of quarterly distributions",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "f01b19d9-e9cd-50e8-b35b-4cc6fa624025",
+      "displayId": "AF:90",
+      "fact": "FY 2022 DPU: ~1.93 sen",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Dividend History",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "58a10b7d-2989-5ac1-887b-050f987f6ec6",
+      "displayId": "AF:91",
+      "fact": "FY 2023 DPU: ~1.56 sen",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Dividend History",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "8845f6b6-c181-5b09-845e-8c78f3bea8be",
+      "displayId": "AF:92",
+      "fact": "FY 2024 DPU: ~1.18 sen",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Dividend History",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "5565845c-aee0-5b06-b835-691aae7282ee",
+      "displayId": "AF:93",
+      "fact": "FY 2025 DPU: ~1.40 sen",
+      "source": "ChartNexus",
+      "citation": "ChartNexus Dividend History",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "cbadcafd-8497-5e51-8923-47dc93feae2c",
+      "displayId": "AF:94",
+      "fact": "FY 2026 DPU: ~2.87 sen",
+      "source": "KLSE",
+      "citation": "KLSE Screener - DPS Data",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "25a033d2-5bc6-5045-86c2-d309089f98a0",
+      "displayId": "AF:95",
+      "fact": "DPU increase to 2.87 sen in FY2026 reflects improved occupancy and lower finance costs",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Distribution Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "25a6a269-8f4d-50fd-96d5-e929d7cb3ac4",
+      "displayId": "AF:96",
+      "fact": "Current Share Price: RM 0.325",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Stock Price (Apr 2026)",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "718e19e0-68cf-5763-b0ec-68abf9680946",
+      "displayId": "AF:97",
+      "fact": "NTA per Unit: RM 1.2178",
+      "source": "KLSE",
+      "citation": "KLSE Screener - NTA Data",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "2f464b87-0cd6-59d5-b7c5-3b06c57de7d3",
+      "displayId": "AF:98",
+      "fact": "Market Dividend Yield: 8.83% based on DPS 2.87 sen",
+      "source": "Calculated",
+      "citation": "Calculated from share price and DPU",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "e5e0e7a1-911a-5eb6-bcf0-0048aa2d2b03",
+      "displayId": "AF:99",
+      "fact": "Price-to-Book (P/B): 0.27x",
+      "source": "KLSE",
+      "citation": "KLSE Screener - P/B Ratio",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "5ef8330f-2431-594a-b37a-2bf7cc239fc6",
+      "displayId": "AF:100",
+      "fact": "Trading at deep discount to NTA (0.27x P/B)",
+      "source": "Calculated",
+      "citation": "Calculated from price and NTA",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "e29e2524-98fe-550a-8cc5-7a32d2dcf460",
+      "displayId": "AF:101",
+      "fact": "Elevated market yield of 8.83%",
+      "source": "Calculated",
+      "citation": "Calculated from share price and DPU",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "bdc1f8c7-14d4-58bc-88ed-a0747f970907",
+      "displayId": "AF:102",
+      "fact": "8.83% yield is significantly above industrial/logistics REIT yields",
+      "source": "Calculated",
+      "citation": "Comparison with sector averages",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "8362b1ad-4914-5448-a5dc-07c049b35f47",
+      "displayId": "AF:103",
+      "fact": "Yield premium compensates for commercial office sector exposure and related-party risk",
+      "source": "Calculated",
+      "citation": "Risk-adjusted yield analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "575d1cf9-a359-5e39-8ca6-4d6f0159e589",
+      "displayId": "AF:104",
+      "fact": "FY 2026 Gross Revenue: RM 110.3 million",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Revenue Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "6fb1356d-08db-58f7-b2bb-e8ffa5dec546",
+      "displayId": "AF:105",
+      "fact": "Revenue growth: +5.2% year-on-year",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Revenue Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "e5bd7ebc-da86-5814-bff5-09ba9e2af607",
+      "displayId": "AF:106",
+      "fact": "FY 2026 NPI: RM 64.1 million",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - NPI Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "28affdd1-7698-5936-9c2a-0dea6cfed5db",
+      "displayId": "AF:107",
+      "fact": "NPI growth: +5.0% year-on-year",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - NPI Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "893ea952-13ed-5101-a1a9-e1979f35f33f",
+      "displayId": "AF:108",
+      "fact": "FY 2026 Profit After Tax: RM 30.4 million",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Profit Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "03538d51-08d3-5286-93f3-805a8651c1a6",
+      "displayId": "AF:109",
+      "fact": "Profit growth: +23.2% year-on-year",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Profit Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "ba6b86f5-f3df-589b-a775-891447f7206c",
+      "displayId": "AF:110",
+      "fact": "Revenue and NPI both growing ~5% year-on-year",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Financial Summary",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "e341dce2-4df5-5fbc-b754-ff24f7943468",
+      "displayId": "AF:111",
+      "fact": "23.2% profit growth amplified by lower finance costs",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Cost Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "cfb4aed4-d8fa-5ea3-aa0f-aec9da0a4c87",
+      "displayId": "AF:112",
+      "fact": "Q1 2026 Revenue: RM 27.8 million",
+      "source": "Q42026",
+      "citation": "AmFIRST REIT Q4 2026 Results - Quarterly Breakdown",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "2d569b25-beff-55f4-80eb-7c4fd7a73e63",
+      "displayId": "AF:113",
+      "fact": "Q2 2026 Revenue: RM 26.7 million",
+      "source": "Q42026",
+      "citation": "AmFIRST REIT Q4 2026 Results - Quarterly Breakdown",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "63517cdf-2fab-5306-892d-4649ef75811f",
+      "displayId": "AF:114",
+      "fact": "Q3 2026 Revenue: RM 27.2 million",
+      "source": "Q42026",
+      "citation": "AmFIRST REIT Q4 2026 Results - Quarterly Breakdown",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "097bdbe1-39b5-59d2-8af0-d8626984d1f5",
+      "displayId": "AF:115",
+      "fact": "Q4 2026 Revenue: RM 28.7 million",
+      "source": "Q42026",
+      "citation": "AmFIRST REIT Q4 2026 Results - Quarterly Breakdown",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "069ea217-f437-54b2-8e91-19beeedaa7cd",
+      "displayId": "AF:116",
+      "fact": "Q4 strongest quarter at RM 28.7 million revenue",
+      "source": "Q42026",
+      "citation": "AmFIRST REIT Q4 2026 Results",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "70e1b1d8-9f79-5ec9-9bc3-140eabb4db73",
+      "displayId": "AF:117",
+      "fact": "Klang Valley Office Vacancy: Elevated levels",
+      "source": "JLL",
+      "citation": "JLL Malaysia Office Market Report 2026",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "c9206bd5-b849-5243-a304-f426e0818d0c",
+      "displayId": "AF:118",
+      "fact": "Retail Recovery: Improving post-pandemic normalization",
+      "source": "JLL",
+      "citation": "JLL Malaysia Retail Market Report",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "a7ed6093-871c-558c-8fa6-5ee2e88f001a",
+      "displayId": "AF:119",
+      "fact": "Cyberjaya Demand: Stable tech sector presence",
+      "source": "BusinessToday",
+      "citation": "Business Today Malaysia - Cyberjaya Office Market",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "9ed26fc5-a78b-5a55-a73c-ae2d84ae831b",
+      "displayId": "AF:120",
+      "fact": "Klang Valley office market remains competitive with elevated vacancy",
+      "source": "JLL",
+      "citation": "JLL Office Market Outlook",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "760615cc-abff-5383-8e17-c2a7bb0defc9",
+      "displayId": "AF:121",
+      "fact": "Retail recovery continuing with improving foot traffic",
+      "source": "BusinessToday",
+      "citation": "Business Today Malaysia - Retail Sector Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "82b26afc-ee01-5d80-a6ce-6b1dd23a4f37",
+      "displayId": "AF:122",
+      "fact": "Lower OPR provides relief for leveraged REITs",
+      "source": "BNM",
+      "citation": "BNM Monetary Policy Impact Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "1d484dfc-a85e-50a6-8049-224f89d4d73c",
+      "displayId": "AF:123",
+      "fact": "Portfolio Size: 8 properties (mid-size portfolio)",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Portfolio Summary",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "376deafa-2595-5051-9c1a-a187ed67b764",
+      "displayId": "AF:124",
+      "fact": "Occupancy: 88.7% (below industrial REIT standards)",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Occupancy Comparison",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "4166fb82-785a-5cec-82ee-a1e7f458b9f2",
+      "displayId": "AF:125",
+      "fact": "Gearing: 46.6% (moderate leverage)",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Peer Comparison",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "1733f41c-b324-5d17-a1a4-1d696f9fcd54",
+      "displayId": "AF:126",
+      "fact": "Yield: 8.83% (above-market yield)",
+      "source": "Calculated",
+      "citation": "Comparison with market averages",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "c51eedcf-770f-5e2e-b359-4d9775f7d058",
+      "displayId": "AF:127",
+      "fact": "Valuation: 0.27x P/B (deep value opportunity or value trap)",
+      "source": "Calculated",
+      "citation": "Valuation analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "80abe9f1-39ba-58f2-b3d1-c4b515fa8dde",
+      "displayId": "AF:128",
+      "fact": "Related-Party Concentration: High severity risk",
+      "source": "Calculated",
+      "citation": "Risk assessment analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "04218d4a-19ae-51d3-8681-1d5ed33f8f40",
+      "displayId": "AF:129",
+      "fact": "Commercial Office Exposure: High severity risk due to market conditions",
+      "source": "JLL",
+      "citation": "JLL Office Market Risk Assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "22ac2d90-b930-51cd-bd47-c7af94c100a4",
+      "displayId": "AF:130",
+      "fact": "Asset Age: Medium severity risk - older assets may require capex",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Asset Condition",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "fda43c5c-929a-5ad9-a72a-529009eb17cd",
+      "displayId": "AF:131",
+      "fact": "Interest Rate Sensitivity: Medium severity - exposure to OPR changes",
+      "source": "BNM",
+      "citation": "BNM Interest Rate Risk Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "54bc1533-820b-56f3-a786-5498ae00ea0b",
+      "displayId": "AF:132",
+      "fact": "Geographic Concentration: 75% Klang Valley (medium severity)",
+      "source": "Calculated",
+      "citation": "Geographic risk assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "c34e12fc-f961-51ec-bfec-4bc9f6f14df4",
+      "displayId": "AF:133",
+      "fact": "Small Market Cap: RM 223 million (medium severity - limits liquidity)",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Market Cap Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "757a0548-1337-5052-ae98-0a2c331b1526",
+      "displayId": "AF:134",
+      "fact": "AmFIRST REIT is part of AmBank ecosystem",
+      "source": "AmBankGroup",
+      "citation": "AmBank Group Corporate Structure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "c415a630-6fa9-56dc-a2ce-c2f63a54bb34",
+      "displayId": "AF:135",
+      "fact": "AmBank Group occupies significant space in flagship assets",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Related Party Tenancy",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "e7f886bf-bd83-525a-9d75-f065b9880f29",
+      "displayId": "AF:136",
+      "fact": "AmBank restructuring could impact tenancy",
+      "source": "Calculated",
+      "citation": "Counterparty risk scenario analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "7ab889fa-1b73-599f-8938-3f15810d6eb1",
+      "displayId": "AF:137",
+      "fact": "Deep discount to NTA: 0.27x",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Valuation Metrics",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "83f60645-5083-5354-8077-fadb1ce2742b",
+      "displayId": "AF:138",
+      "fact": "Market pricing in significant risk or value trap scenario",
+      "source": "Calculated",
+      "citation": "Valuation risk assessment",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "6d0aba02-b888-5ae8-9b63-5e14afaf7e67",
+      "displayId": "AF:139",
+      "fact": "8.83% yield at current prices",
+      "source": "Calculated",
+      "citation": "Current yield calculation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "6c5049ff-2dfa-5bfb-b3b7-f9f3a5ef9d72",
+      "displayId": "AF:140",
+      "fact": "0.27x P/B at current prices",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Current Valuation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "7ac1dfbb-89e9-5c9f-985e-d06ce7e43712",
+      "displayId": "AF:141",
+      "fact": "FY2026 profit growth of 23.2% demonstrates operational momentum",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Performance Summary",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "9aa43d11-0568-58ed-95b8-85cdae995d7d",
+      "displayId": "AF:142",
+      "fact": "Occupancy improving to 88.7%",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Occupancy Trend",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "376564a5-8d5b-5cc3-8311-980c91b82b52",
+      "displayId": "AF:143",
+      "fact": "Lower financing costs from OPR adjustments",
+      "source": "BNM",
+      "citation": "BNM Policy Impact Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "e7ffca2d-e8c1-5cf5-88a7-589c807541c6",
+      "displayId": "AF:144",
+      "fact": "Prime asset locations in KL Golden Triangle",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Asset Quality",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "63d60985-d80b-5fed-986b-439f97becf68",
+      "displayId": "AF:145",
+      "fact": "Institutional backing from AmBank Group",
+      "source": "AmBankGroup",
+      "citation": "AmBank Group Support Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "1c3a04a2-f5f1-57a1-95b9-409b3648a403",
+      "displayId": "AF:146",
+      "fact": "Related-party tenant concentration risk",
+      "source": "Calculated",
+      "citation": "Concentration risk analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "940fab3c-b4bd-5760-b21a-ec486878b040",
+      "displayId": "AF:147",
+      "fact": "Commercial office sector headwinds",
+      "source": "JLL",
+      "citation": "JLL Sector Outlook",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "3b43b73c-a273-5eaf-85a5-fb20931489dc",
+      "displayId": "AF:148",
+      "fact": "Below-optimal occupancy rates",
+      "source": "AR2026",
+      "citation": "AmFIRST REIT 2026 Annual Report - Occupancy Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "b889dd28-5411-5073-8e08-6057589bbc0b",
+      "displayId": "AF:149",
+      "fact": "Deep discount to NTA may reflect structural concerns",
+      "source": "Calculated",
+      "citation": "Valuation interpretation",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "521f827d-d26d-555e-9e01-e60e3ded9bf1",
+      "displayId": "AF:150",
+      "fact": "8.83% yield provides substantial compensation for risk profile",
+      "source": "Calculated",
+      "citation": "Risk-adjusted return analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    },
+    {
+      "id": "9ac4f68e-9e9c-50b6-9985-bafbaeea8a77",
+      "displayId": "AF:151",
+      "fact": "Deep discount to NTA (0.27x) could present value opportunity or value trap",
+      "source": "Calculated",
+      "citation": "Investment thesis analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "e9f80f50-25cb-4c63-9000-411175cafe23",
+      "metricType": "portfolio_size",
+      "value": 8,
+      "unit": "properties",
+      "period": {
+        "type": "point_in_time",
+        "date": "2026-03-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "AF:8",
+        "AF:24"
+      ]
+    },
+    {
+      "id": "7c525063-2473-4f6b-9222-e82653fd86d3",
+      "metricType": "property_count",
+      "value": 8,
+      "unit": "properties",
+      "period": {
+        "type": "point_in_time",
+        "date": "2026-03-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "AF:8",
+        "AF:24"
+      ]
+    },
+    {
+      "id": "0ce6b679-19b3-494f-8139-38208a2b6ffb",
+      "metricType": "net_lettable_area",
+      "value": 3000000,
+      "unit": "sq ft",
+      "period": {
+        "type": "point_in_time",
+        "date": "2026-03-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "AF:9",
+        "AF:25"
+      ]
+    },
+    {
+      "id": "d05e5bf8-6443-4dc0-b774-5c2067aef9dd",
+      "metricType": "geographic_concentration",
+      "value": 75,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2026-03-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "AF:67",
+        "AF:72"
+      ]
+    },
+    {
+      "id": "ceb86e38-9576-4a12-b64f-22dfba228797",
+      "metricType": "gross_revenue",
+      "value": 110.3,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2026
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "AF:15",
+        "AF:104",
+        "AF:105"
+      ]
+    },
+    {
+      "id": "afd2a00e-aa9d-4344-8f7c-fb3e5386b6f6",
+      "metricType": "net_property_income",
+      "value": 64.1,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2026
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "AF:16",
+        "AF:106",
+        "AF:107"
+      ]
+    },
+    {
+      "id": "64f5f6a0-c1c6-4e02-908d-2580bed2a0a3",
+      "metricType": "profit_after_tax",
+      "value": 30.4,
+      "unit": "RM million",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2026
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "AF:17",
+        "AF:108",
+        "AF:109"
+      ]
+    },
+    {
+      "id": "e4574877-13f1-4afc-8cdf-2d295657fd68",
+      "metricType": "nav_per_unit",
+      "value": 1.2178,
+      "unit": "RM",
+      "period": {
+        "type": "point_in_time",
+        "date": "2026-03-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "AF:14",
+        "AF:64",
+        "AF:97"
+      ]
+    },
+    {
+      "id": "2540f201-f097-49ae-a0e2-c4026c52634a",
+      "metricType": "market_cap",
+      "value": 223.1,
+      "unit": "RM million",
+      "period": {
+        "type": "point_in_time",
+        "date": "2026-03-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "AF:27"
+      ]
+    },
+    {
+      "id": "b35c8ab8-4a89-40aa-9174-b44c6547dbc5",
+      "metricType": "share_price",
+      "value": 0.325,
+      "unit": "RM",
+      "period": {
+        "type": "point_in_time",
+        "date": "2026-03-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "AF:96"
+      ]
+    },
+    {
+      "id": "07805e75-6799-4d08-939e-4fa0ec16ae03",
+      "metricType": "dpu",
+      "value": 2.87,
+      "unit": "sen",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2026
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "AF:13",
+        "AF:89",
+        "AF:94"
+      ]
+    },
+    {
+      "id": "16cb0552-de1a-4635-9afe-2bd72336a358",
+      "metricType": "dividend_yield_market",
+      "value": 8.83,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2026-03-31"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "AF:98",
+        "AF:101",
+        "AF:126"
+      ]
+    },
+    {
+      "id": "d37293e7-99f3-4ab6-b4c1-340778f18e9c",
+      "metricType": "gearing_ratio",
+      "value": 46.6,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2026-03-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "AF:11",
+        "AF:74",
+        "AF:77"
+      ]
+    },
+    {
+      "id": "f7408e13-df5f-42de-a31b-da33a127c79e",
+      "metricType": "wacd",
+      "value": 4.06,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2026
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "AF:79",
+        "AF:81"
+      ]
+    },
+    {
+      "id": "060ab334-296b-4611-b981-30202e869154",
+      "metricType": "occupancy_rate",
+      "value": 88.7,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2026-03-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "AF:10",
+        "AF:55",
+        "AF:56"
+      ]
+    },
+    {
+      "id": "9627ed65-e133-4559-b15a-c6e46bdb6ba0",
+      "metricType": "npi_margin",
+      "value": 58.1,
+      "unit": "%",
+      "period": {
+        "type": "fiscal_year",
+        "fiscalYear": 2026
+      },
+      "isEstimated": true,
+      "isTimeSensitive": false,
+      "sourceDisplayIds": [
+        "AF:106"
+      ]
+    },
+    {
+      "id": "5bc947bf-f660-47cf-84ff-a0cd40662aca",
+      "metricType": "price_to_book",
+      "value": 0.27,
+      "unit": "x",
+      "period": {
+        "type": "point_in_time",
+        "date": "2026-03-31"
+      },
+      "isEstimated": false,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "AF:99",
+        "AF:100",
+        "AF:127",
+        "AF:137"
+      ]
+    },
+    {
+      "id": "f8636ae1-df9f-4d2c-a613-f39fc61d665a",
+      "metricType": "premium_discount_to_nav",
+      "value": -73,
+      "unit": "%",
+      "period": {
+        "type": "point_in_time",
+        "date": "2026-03-31"
+      },
+      "isEstimated": true,
+      "isTimeSensitive": true,
+      "sourceDisplayIds": [
+        "AF:99",
+        "AF:100"
+      ]
+    }
+  ],
+  "timeSeries": [
+    {
+      "id": "d0d17186-0271-442f-a26d-167f4990d12a",
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a",
+      "metricType": "dpu",
+      "frequency": "annual",
+      "unit": "sen",
+      "dataPoints": [
+        {
+          "date": "2022-03-31",
+          "value": 1.93,
+          "isInterpolated": false,
+          "sourceDisplayId": "AF:90"
+        },
+        {
+          "date": "2023-03-31",
+          "value": 1.56,
+          "isInterpolated": false,
+          "sourceDisplayId": "AF:91"
+        },
+        {
+          "date": "2024-03-31",
+          "value": 1.18,
+          "isInterpolated": false,
+          "sourceDisplayId": "AF:92"
+        },
+        {
+          "date": "2025-03-31",
+          "value": 1.4,
+          "isInterpolated": false,
+          "sourceDisplayId": "AF:93"
+        },
+        {
+          "date": "2026-03-31",
+          "value": 2.87,
+          "isInterpolated": false,
+          "sourceDisplayId": "AF:94"
+        }
+      ],
+      "sourceDisplayIds": [
+        "AF:90",
+        "AF:91",
+        "AF:92",
+        "AF:93",
+        "AF:94"
+      ]
+    },
+    {
+      "id": "4cb13cb1-33d4-485f-b8d6-b8965fc20147",
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a",
+      "metricType": "occupancy_rate",
+      "frequency": "annual",
+      "unit": "%",
+      "dataPoints": [
+        {
+          "date": "2022-03-31",
+          "value": 82,
+          "isInterpolated": true
+        },
+        {
+          "date": "2023-03-31",
+          "value": 84,
+          "isInterpolated": true
+        },
+        {
+          "date": "2024-03-31",
+          "value": 85,
+          "isInterpolated": false,
+          "sourceDisplayId": "AF:54"
+        },
+        {
+          "date": "2025-03-31",
+          "value": 85,
+          "isInterpolated": false,
+          "sourceDisplayId": "AF:54"
+        },
+        {
+          "date": "2026-03-31",
+          "value": 88.7,
+          "isInterpolated": false,
+          "sourceDisplayId": "AF:55"
+        }
+      ],
+      "sourceDisplayIds": [
+        "AF:54",
+        "AF:55"
+      ]
+    },
+    {
+      "id": "627c3092-7e88-4390-8bdf-14e3e136e8bb",
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a",
+      "metricType": "nav_per_unit",
+      "frequency": "annual",
+      "unit": "RM",
+      "dataPoints": [
+        {
+          "date": "2022-03-31",
+          "value": 1.18,
+          "isInterpolated": false,
+          "sourceDisplayId": "AF:97"
+        },
+        {
+          "date": "2023-03-31",
+          "value": 1.17,
+          "isInterpolated": false,
+          "sourceDisplayId": "AF:97"
+        },
+        {
+          "date": "2024-03-31",
+          "value": 1.19,
+          "isInterpolated": false,
+          "sourceDisplayId": "AF:97"
+        },
+        {
+          "date": "2025-03-31",
+          "value": 1.2,
+          "isInterpolated": false,
+          "sourceDisplayId": "AF:97"
+        },
+        {
+          "date": "2026-03-31",
+          "value": 1.2178,
+          "isInterpolated": false,
+          "sourceDisplayId": "AF:64"
+        }
+      ],
+      "sourceDisplayIds": [
+        "AF:64",
+        "AF:97"
+      ]
+    },
+    {
+      "id": "e7877e84-594a-4f8f-83a4-7eac2183eab2",
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a",
+      "metricType": "gearing_ratio",
+      "frequency": "annual",
+      "unit": "%",
+      "dataPoints": [
+        {
+          "date": "2022-03-31",
+          "value": 44.5,
+          "isInterpolated": true
+        },
+        {
+          "date": "2023-03-31",
+          "value": 45,
+          "isInterpolated": true
+        },
+        {
+          "date": "2024-03-31",
+          "value": 46,
+          "isInterpolated": true
+        },
+        {
+          "date": "2025-03-31",
+          "value": 46.5,
+          "isInterpolated": true
+        },
+        {
+          "date": "2026-03-31",
+          "value": 46.6,
+          "isInterpolated": false,
+          "sourceDisplayId": "AF:74"
+        }
+      ],
+      "sourceDisplayIds": [
+        "AF:74",
+        "AF:77"
+      ]
+    },
+    {
+      "id": "97cf233b-49bc-4ffe-9a45-016f3328eed6",
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a",
+      "metricType": "gross_revenue",
+      "frequency": "annual",
+      "unit": "RM million",
+      "dataPoints": [
+        {
+          "date": "2022-03-31",
+          "value": 102.5,
+          "isInterpolated": true
+        },
+        {
+          "date": "2023-03-31",
+          "value": 103.2,
+          "isInterpolated": true
+        },
+        {
+          "date": "2024-03-31",
+          "value": 104.8,
+          "isInterpolated": false,
+          "sourceDisplayId": "AF:15"
+        },
+        {
+          "date": "2025-03-31",
+          "value": 104.8,
+          "isInterpolated": true
+        },
+        {
+          "date": "2026-03-31",
+          "value": 110.3,
+          "isInterpolated": false,
+          "sourceDisplayId": "AF:104"
+        }
+      ],
+      "sourceDisplayIds": [
+        "AF:15",
+        "AF:104",
+        "AF:105"
+      ]
+    }
+  ],
+  "riskAssessment": {
+    "id": "07454765-6b28-42ed-af91-e6750d78ec0c",
+    "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a",
+    "assessmentDate": "2026-04-26",
+    "overallRiskRating": "moderate_high",
+    "overallScore": 3.5,
+    "riskFactors": [
+      {
+        "id": "4389ab04-f318-48ae-89f3-e9c73e1556a5",
+        "category": "concentration",
+        "severity": "high",
+        "title": "Related-Party Tenant Concentration",
+        "description": "AmBank Group as anchor tenant creates significant related-party exposure. Any restructuring at AmBank could impact tenancy.",
+        "currentScore": 4,
+        "peerComparison": "worse",
+        "mitigatingFactors": [
+          {
+            "factor": "Long-term lease structures provide income visibility",
+            "impact": "significant"
+          },
+          {
+            "factor": "AmBank is systemically important bank with government support",
+            "impact": "significant"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "AmBank Group occupies significant space in flagship assets",
+            "impact": "significant"
+          },
+          {
+            "factor": "Limited tenant diversification in flagship properties",
+            "impact": "moderate"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "AmBank Group credit rating changes",
+          "AmBank restructuring announcements",
+          "Related-party transaction disclosures"
+        ],
+        "sourceDisplayIds": [
+          "AF:57",
+          "AF:128",
+          "AF:134",
+          "AF:135",
+          "AF:136",
+          "AF:146"
+        ]
+      },
+      {
+        "id": "dfda9366-2fa0-491f-b901-141e76852535",
+        "category": "market",
+        "severity": "high",
+        "title": "Commercial Office Sector Headwinds",
+        "description": "Klang Valley office market remains challenging with elevated vacancy rates, putting pressure on rental rates and occupancy.",
+        "currentScore": 4,
+        "peerComparison": "worse",
+        "mitigatingFactors": [
+          {
+            "factor": "Prime Golden Triangle locations command premium",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Retail component provides income diversification",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "Klang Valley office vacancy rates elevated",
+            "impact": "significant"
+          },
+          {
+            "factor": "Competitive leasing environment",
+            "impact": "significant"
+          },
+          {
+            "factor": "Work-from-home trends reducing office demand",
+            "impact": "moderate"
+          }
+        ],
+        "trend": "deteriorating",
+        "monitoringTriggers": [
+          "Klang Valley office vacancy trends",
+          "Rental rate movements",
+          "Office demand indicators"
+        ],
+        "sourceDisplayIds": [
+          "AF:117",
+          "AF:120",
+          "AF:129",
+          "AF:147"
+        ]
+      },
+      {
+        "id": "530f082f-4db1-4b39-b313-155d54861067",
+        "category": "market",
+        "severity": "high",
+        "title": "Deep Discount Risk",
+        "description": "Trading at 0.27x NTA represents either significant value opportunity or value trap depending on portfolio performance.",
+        "currentScore": 3.5,
+        "peerComparison": "worse",
+        "quantitativeBacking": [
+          {
+            "metricType": "price_to_book",
+            "value": 0.27,
+            "context": "Deep discount to NTA"
+          }
+        ],
+        "mitigatingFactors": [
+          {
+            "factor": "High yield provides compensation for risk",
+            "impact": "significant"
+          },
+          {
+            "factor": "FY2026 profit growth shows operational momentum",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "Market pricing in structural concerns",
+            "impact": "significant"
+          },
+          {
+            "factor": "Asset values may be overstated if market declines",
+            "impact": "moderate"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Quarterly revaluation results",
+          "Comparable property transactions",
+          "NTA trend direction"
+        ],
+        "sourceDisplayIds": [
+          "AF:99",
+          "AF:100",
+          "AF:138",
+          "AF:149",
+          "AF:151"
+        ]
+      },
+      {
+        "id": "fc447a57-900e-43cd-9181-a47cfea2f0fb",
+        "category": "gearing",
+        "severity": "medium",
+        "title": "Moderate Leverage with Refinishing Exposure",
+        "description": "Gearing at 46.6% is manageable but at higher end. 3.3-year WAM provides reasonable refinancing runway.",
+        "currentScore": 3,
+        "peerComparison": "similar",
+        "quantitativeBacking": [
+          {
+            "metricType": "gearing_ratio",
+            "value": 46.6,
+            "context": "Moderate leverage"
+          }
+        ],
+        "mitigatingFactors": [
+          {
+            "factor": "Below 60% regulatory limit with 13.4pp headroom",
+            "impact": "significant"
+          },
+          {
+            "factor": "Strong relationship with AmBank Group for financing",
+            "impact": "significant"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "WAM of 3.3 years requires ongoing refinancing",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Exposure to interest rate changes",
+            "impact": "moderate"
+          }
+        ],
+        "trend": "stable",
+        "monitoringTriggers": [
+          "Debt maturity profile changes",
+          "BNM OPR decisions",
+          "Refinancing spreads"
+        ],
+        "sourceDisplayIds": [
+          "AF:74",
+          "AF:78",
+          "AF:84",
+          "AF:131"
+        ]
+      },
+      {
+        "id": "b35a8606-e0b6-4dd2-b25d-44e568e06f97",
+        "category": "operational",
+        "severity": "medium",
+        "title": "Sub-Optimal Occupancy",
+        "description": "88.7% occupancy improved but remains below 90%+ target for commercial REITs, indicating portfolio optimization opportunities.",
+        "currentScore": 3,
+        "peerComparison": "worse",
+        "quantitativeBacking": [
+          {
+            "metricType": "occupancy_rate",
+            "value": 88.7,
+            "context": "Below optimal threshold"
+          }
+        ],
+        "mitigatingFactors": [
+          {
+            "factor": "Positive occupancy trend (up from 85%)",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Renewal activity supporting stability",
+            "impact": "moderate"
+          }
+        ],
+        "aggravatingFactors": [
+          {
+            "factor": "Below 90% threshold for commercial REITs",
+            "impact": "moderate"
+          },
+          {
+            "factor": "Challenging leasing environment",
+            "impact": "moderate"
+          }
+        ],
+        "trend": "improving",
+        "monitoringTriggers": [
+          "Quarterly occupancy reports",
+          "New lease announcements",
+          "Tenant retention rates"
+        ],
+        "sourceDisplayIds": [
+          "AF:10",
+          "AF:55",
+          "AF:124",
+          "AF:148"
+        ]
+      }
+    ],
+    "peerComparison": {
+      "vsPeerId": "71f4f4f1-534c-5eb8-8bd4-a87c46937920",
+      "relativeRisk": "higher",
+      "keyDifferences": [
+        "Commercial office exposure vs industrial focus",
+        "Related-party tenant concentration vs diversified",
+        "88.7% occupancy vs 100%",
+        "46.6% gearing vs 43.5%"
+      ]
+    }
+  },
+  "observations": [
+    {
+      "id": "b68691a2-7e3a-4b0c-8091-0e91e0be8937",
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a",
+      "observationType": "executive_summary",
+      "priority": "positive",
+      "title": "FY2026 Recovery Momentum",
+      "content": "AmFIRST REIT delivered strong FY2026 results with 23.2% profit growth, 5.2% revenue increase, and improved occupancy to 88.7%. The 8.83% yield at 0.27x P/B offers deep value opportunity for high-yield investors.",
+      "summary": "23.2% profit growth, occupancy improving, high yield at deep discount",
+      "keyFacts": [
+        {
+          "label": "PAT Growth",
+          "value": 23.2,
+          "unit": "%"
+        },
+        {
+          "label": "Occupancy",
+          "value": 88.7,
+          "unit": "%"
+        },
+        {
+          "label": "Yield",
+          "value": 8.83,
+          "unit": "%"
+        }
+      ],
+      "indicator": {
+        "icon": "trend_up",
+        "color": "green"
+      },
+      "relatedMetrics": [
+        {
+          "metricType": "dpu",
+          "value": 2.87
+        },
+        {
+          "metricType": "occupancy_rate",
+          "value": 88.7
+        },
+        {
+          "metricType": "price_to_book",
+          "value": 0.27
+        }
+      ],
+      "relatedRisks": [],
+      "sourceDisplayIds": [
+        "AF:108",
+        "AF:109",
+        "AF:55",
+        "AF:94"
+      ],
+      "primaryCitation": "AF:109"
+    },
+    {
+      "id": "bf84bbbb-727b-4437-9c7e-eb4f89b8c093",
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a",
+      "observationType": "risk_assessment",
+      "priority": "warning",
+      "title": "Related-Party Concentration Risk",
+      "content": "AmBank Group as anchor tenant in flagship assets creates significant related-party exposure. While providing income stability, any AmBank restructuring could impact REIT performance.",
+      "summary": "AmBank anchor tenant creates counterparty concentration",
+      "keyFacts": [
+        {
+          "label": "Related Party",
+          "value": "AmBank Group"
+        },
+        {
+          "label": "Risk Level",
+          "value": "High"
+        }
+      ],
+      "indicator": {
+        "icon": "alert",
+        "color": "orange"
+      },
+      "relatedMetrics": [],
+      "relatedRisks": [
+        {
+          "category": "concentration",
+          "severity": "high"
+        }
+      ],
+      "sourceDisplayIds": [
+        "AF:57",
+        "AF:128",
+        "AF:134",
+        "AF:135"
+      ],
+      "primaryCitation": "AF:128"
+    },
+    {
+      "id": "a08ff306-3cd4-4497-acea-7b5a8fbdbffa",
+      "entityId": "fc619eae-c98e-5e62-9e0f-f41f29db669a",
+      "observationType": "market_context",
+      "priority": "warning",
+      "title": "Deep Value or Value Trap?",
+      "content": "Trading at 0.27x NTA with 8.83% yield represents either a significant value opportunity or a value trap. The market is pricing in substantial risk. Catalyst needed: sustained occupancy improvement above 90% or portfolio optimization.",
+      "summary": "0.27x P/B requires catalyst for re-rating",
+      "keyFacts": [
+        {
+          "label": "P/B Ratio",
+          "value": 0.27,
+          "unit": "x"
+        },
+        {
+          "label": "Discount to NTA",
+          "value": 73,
+          "unit": "%"
+        },
+        {
+          "label": "Dividend Yield",
+          "value": 8.83,
+          "unit": "%"
+        }
+      ],
+      "indicator": {
+        "icon": "warning",
+        "color": "yellow"
+      },
+      "relatedMetrics": [
+        {
+          "metricType": "price_to_book",
+          "value": 0.27
+        },
+        {
+          "metricType": "dividend_yield_market",
+          "value": 8.83
+        }
+      ],
+      "relatedRisks": [
+        {
+          "category": "market",
+          "severity": "high"
+        }
+      ],
+      "sourceDisplayIds": [
+        "AF:99",
+        "AF:100",
+        "AF:138",
+        "AF:151"
+      ],
+      "primaryCitation": "AF:99"
+    }
+  ]
+}

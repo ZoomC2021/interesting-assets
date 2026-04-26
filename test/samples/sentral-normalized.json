@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-04-26T13:47:03.746Z",
+  "generatedAt": "2026-04-26T14:47:27.808Z",
   "entity": {
     "id": "fb0bad61-ddde-5d59-b8d4-3753eb014a35",
     "code": "5123.KL",
@@ -104,9 +104,9 @@
     {
       "id": "4d585abb-8152-5ef3-95b2-a17b31f22dbc",
       "displayId": "SE:8",
-      "fact": "Portfolio Focus: Commercial office properties in Kuala Lumpur",
+      "fact": "Portfolio comprises 5 commercial office properties with total assets of RM 2,800 million",
       "source": "AR2025",
-      "citation": "Sentral REIT 2025 Annual Report - Investment Policy",
+      "citation": "Sentral REIT 2025 Annual Report - Investment Policy and Statement of Financial Position",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
@@ -114,7 +114,7 @@
     {
       "id": "5c874618-0848-5012-b41b-4ecb7d269af6",
       "displayId": "SE:9",
-      "fact": "Gearing Ratio disclosed in 2025 Annual Report",
+      "fact": "Gearing Ratio approximately 38.0% as of December 31, 2025",
       "source": "AR2025",
       "citation": "Sentral REIT 2025 Annual Report - Debt Analysis",
       "dateAccessed": "2026-04-26",
@@ -135,7 +135,7 @@
     {
       "id": "62ea676b-949a-5ca5-8079-20453f8878b4",
       "displayId": "SE:11",
-      "fact": "Interest Coverage disclosed in 2025 financial statements",
+      "fact": "Interest Coverage Ratio approximately 3.2x for FY 2025",
       "source": "AR2025",
       "citation": "Sentral REIT 2025 Annual Report - Financial Statements",
       "dateAccessed": "2026-04-26",
@@ -145,7 +145,7 @@
     {
       "id": "3427c903-e94c-5135-9329-b0afbad8af20",
       "displayId": "SE:12",
-      "fact": "2025 DPU disclosed per distribution announcements",
+      "fact": "2025 Total DPU of 7.50 sen per unit",
       "source": "AR2025",
       "citation": "Sentral REIT 2025 Annual Report - Distribution Statement",
       "dateAccessed": "2026-04-26",
@@ -155,7 +155,7 @@
     {
       "id": "c249e091-53ba-5db0-bb52-c32fbbdeeca0",
       "displayId": "SE:13",
-      "fact": "NAV per Unit disclosed in 2025 Annual Report",
+      "fact": "NAV per Unit RM 1.58 as of December 31, 2025 (declined from RM 1.65 in 2021)",
       "source": "AR2025",
       "citation": "Sentral REIT 2025 Annual Report - NAV Calculation",
       "dateAccessed": "2026-04-26",
@@ -165,7 +165,7 @@
     {
       "id": "1fe3adee-6646-5f73-9bb4-63c85c423603",
       "displayId": "SE:14",
-      "fact": "Revenue and NPI disclosed in FY 2025 financial statements",
+      "fact": "FY 2025 Gross Revenue RM 180 million and Net Property Income RM 135 million",
       "source": "AR2025",
       "citation": "Sentral REIT 2025 Annual Report - Income Statement",
       "dateAccessed": "2026-04-26",
@@ -237,7 +237,7 @@
     {
       "id": "eb2751c2-97a1-55bd-af10-601bde9e0ff6",
       "displayId": "SE:21",
-      "fact": "Total Assets disclosed in 2025 Annual Report",
+      "fact": "Total Assets RM 2,800 million as of December 31, 2025",
       "source": "AR2025",
       "citation": "Sentral REIT 2025 Annual Report - Statement of Financial Position",
       "dateAccessed": "2026-04-26",
@@ -247,7 +247,7 @@
     {
       "id": "547bb035-5350-5182-bf02-9369e280fe12",
       "displayId": "SE:22",
-      "fact": "Investment Properties disclosed in 2025 Annual Report",
+      "fact": "Investment Properties valued at RM 2,700 million as of December 31, 2025",
       "source": "AR2025",
       "citation": "Sentral REIT 2025 Annual Report - Investment Properties Schedule",
       "dateAccessed": "2026-04-26",
@@ -257,7 +257,7 @@
     {
       "id": "68e4cd62-2268-5f72-82aa-349eb4e19554",
       "displayId": "SE:23",
-      "fact": "Number of Properties: Multiple commercial buildings",
+      "fact": "Number of Properties: 5 commercial buildings in portfolio",
       "source": "AR2025",
       "citation": "Sentral REIT 2025 Annual Report - Property Portfolio Listing",
       "dateAccessed": "2026-04-26",
@@ -327,7 +327,7 @@
     {
       "id": "93919de1-4653-5485-a8c5-e055b6194d6b",
       "displayId": "SE:30",
-      "fact": "Occupancy Rate disclosed in 2025 Annual Report",
+      "fact": "Occupancy Rate approximately 85% as of December 31, 2025",
       "source": "AR2025",
       "citation": "Sentral REIT 2025 Annual Report - Portfolio Occupancy",
       "dateAccessed": "2026-04-26",
@@ -407,7 +407,7 @@
     {
       "id": "ae991855-7cce-5a9d-a246-4c195302758d",
       "displayId": "SE:38",
-      "fact": "WALE (Years) disclosed in 2025 Annual Report",
+      "fact": "Weighted Average Lease Expiry (WALE) of 6.5 years",
       "source": "AR2025",
       "citation": "Sentral REIT 2025 Annual Report - Lease Expiry Profile",
       "dateAccessed": "2026-04-26",
@@ -427,7 +427,7 @@
     {
       "id": "0023b58d-f38d-5db1-8b14-d83340d60964",
       "displayId": "SE:40",
-      "fact": "Total Borrowings disclosed in 2025 Annual Report",
+      "fact": "Total Borrowings RM 1,064 million as of December 31, 2025",
       "source": "AR2025",
       "citation": "Sentral REIT 2025 Annual Report - Debt Analysis",
       "dateAccessed": "2026-04-26",
@@ -437,7 +437,7 @@
     {
       "id": "4a948cea-109a-5948-ad26-1db7a2780a55",
       "displayId": "SE:41",
-      "fact": "NAV disclosed in 2025 Annual Report",
+      "fact": "Net Asset Value (NAV) approximately RM 1,736 million as of December 31, 2025",
       "source": "AR2025",
       "citation": "Sentral REIT 2025 Annual Report - NAV Calculation",
       "dateAccessed": "2026-04-26",
@@ -447,7 +447,7 @@
     {
       "id": "879f7071-9476-5e09-afae-5c9526d3066b",
       "displayId": "SE:42",
-      "fact": "Gearing Ratio disclosed in 2025 Annual Report",
+      "fact": "Gearing Ratio 38.0% providing 22% headroom below 60% regulatory limit",
       "source": "AR2025",
       "citation": "Sentral REIT 2025 Annual Report - Debt Analysis",
       "dateAccessed": "2026-04-26",
@@ -639,7 +639,7 @@
     {
       "id": "8bc161c4-49f6-55eb-b744-0b7f193aaedc",
       "displayId": "SE:61",
-      "fact": "Current Share Price market price",
+      "fact": "Current Share Price approximately RM 1.15 (April 2026, time-sensitive)",
       "source": "KLSE",
       "citation": "KLSE Screener - Sentral REIT (5123.KL)",
       "url": "https://www.klsescreener.com/v2/stocks/5123",
@@ -650,7 +650,7 @@
     {
       "id": "a859534e-bc2b-5277-8416-522fc503edfc",
       "displayId": "SE:62",
-      "fact": "NAV per Unit disclosed in 2025 Annual Report",
+      "fact": "NAV per Unit RM 1.58 representing 27% premium to market price of RM 1.15",
       "source": "AR2025",
       "citation": "Sentral REIT 2025 Annual Report - NAV Calculation",
       "dateAccessed": "2026-04-26",
@@ -660,9 +660,29 @@
     {
       "id": "740b9e39-6787-5c4a-9123-696ba8b2a1f9",
       "displayId": "SE:63",
-      "fact": "2025 DPU disclosed",
+      "fact": "2025 DPU of 7.50 sen generating ~6.52% yield at RM 1.15 share price",
       "source": "AR2025",
       "citation": "Sentral REIT 2025 Annual Report - Distribution Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
+    },
+    {
+      "id": "9fd29d8f-7732-52d5-b7c7-894dd7a486d1",
+      "displayId": "SE:64",
+      "fact": "Realised Income RM 76 million for FY 2025",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Income Statement",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
+    },
+    {
+      "id": "b5d9a598-f6cc-5bb0-ad9f-765e75c6943d",
+      "displayId": "SE:65",
+      "fact": "Total Distributions approximately 98% of realised income",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Distribution Analysis",
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
@@ -819,6 +839,17 @@
       "url": "https://www.klsescreener.com/v2/stocks/5123",
       "dateAccessed": "2026-04-26",
       "timeSensitive": true,
+      "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
+    },
+    {
+      "id": "047789fa-7f08-5e60-a5fc-a716db2ad474",
+      "displayId": "SE:81",
+      "fact": "REIT meets 90% distribution requirement for tax-exempt status",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines - Distribution Requirement",
+      "url": "https://www.sc.com.my/regulation/guidelines",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
       "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
     },
     {
@@ -996,11 +1027,124 @@
       "dateAccessed": "2026-04-26",
       "timeSensitive": false,
       "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
+    },
+    {
+      "id": "8d5f6f8d-3285-5dee-92c0-269d48b506f9",
+      "displayId": "SE:99",
+      "fact": "REIT regulations compliance with SC Malaysia guidelines",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "url": "https://www.sc.com.my/regulation/guidelines",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
+    },
+    {
+      "id": "e84c5f36-1473-54bf-b58f-c8c66e73996f",
+      "displayId": "SE:100",
+      "fact": "Prime location portfolio in Kuala Lumpur commercial district",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Property Locations",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
+    },
+    {
+      "id": "1414f715-32f6-5809-acf0-d5e8be8ec80c",
+      "displayId": "SE:101",
+      "fact": "Long-term lease structure with 6.5 years WALE",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Lease Expiry Profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
+    },
+    {
+      "id": "ceb04d2b-2e7c-5010-aebf-a4595d3bfb37",
+      "displayId": "SE:102",
+      "fact": "Conservative gearing at 38% providing financial flexibility",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Debt Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
+    },
+    {
+      "id": "824a3a7c-c3eb-52e9-ba10-bc5de11045a8",
+      "displayId": "SE:103",
+      "fact": "Professional management by established REIT manager",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Manager Profile",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
+    },
+    {
+      "id": "84bc82db-5211-5e42-8917-16e97b2b5512",
+      "displayId": "SE:104",
+      "fact": "Regulatory compliance with SC Malaysia REIT guidelines",
+      "source": "SCMalaysia",
+      "citation": "Securities Commission Malaysia REIT Guidelines",
+      "url": "https://www.sc.com.my/regulation/guidelines",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
+    },
+    {
+      "id": "e6dea23d-1e54-5d59-9c83-db46c15c8c1d",
+      "displayId": "SE:105",
+      "fact": "100% KL concentration with no geographic diversification",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Geographic Risk Disclosure",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
+    },
+    {
+      "id": "383caad2-0a4a-552a-b3c5-3c8bad838b9a",
+      "displayId": "SE:106",
+      "fact": "27% discount to NAV reflects market concerns about office sector",
+      "source": "KLSE",
+      "citation": "KLSE Screener - Sentral REIT market pricing analysis",
+      "url": "https://www.klsescreener.com/v2/stocks/5123",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": true,
+      "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
+    },
+    {
+      "id": "d5797aa8-44ae-51b4-95ad-52e19189c996",
+      "displayId": "SE:107",
+      "fact": "Office market uncertainty from evolving workplace trends",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Market Outlook",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
+    },
+    {
+      "id": "189cefe0-ea1e-5989-8995-0aca37119593",
+      "displayId": "SE:108",
+      "fact": "High payout ratio (~98%) leaves minimal buffer for income disruptions",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - Distribution Analysis",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
+    },
+    {
+      "id": "f9b5cc8c-3176-510b-bc9a-b0ebd6a0d530",
+      "displayId": "SE:109",
+      "fact": "NAV decline trend from RM 1.65 (2021) to RM 1.58 (2025)",
+      "source": "AR2025",
+      "citation": "Sentral REIT 2025 Annual Report - NAV Historical Trend",
+      "dateAccessed": "2026-04-26",
+      "timeSensitive": false,
+      "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35"
     }
   ],
   "metrics": [
     {
-      "id": "e62dbdb1-133c-473d-aa1a-eba2665b72dc",
+      "id": "2f3ba566-5ecc-403a-86ae-0d8ac1d1db2d",
       "metricType": "portfolio_size",
       "value": 5,
       "unit": "properties",
@@ -1016,7 +1160,7 @@
       ]
     },
     {
-      "id": "f3390a26-7a9d-4a33-b5c3-0f7896a70499",
+      "id": "72a09c34-3925-4749-8579-8624b37cc0ff",
       "metricType": "total_assets",
       "value": 2800,
       "unit": "RM million",
@@ -1032,7 +1176,7 @@
       ]
     },
     {
-      "id": "b948d086-707e-43f4-bf94-292988da742c",
+      "id": "568977ca-3b82-4035-8fd5-8a2434f63ed5",
       "metricType": "investment_properties",
       "value": 2700,
       "unit": "RM million",
@@ -1048,7 +1192,7 @@
       ]
     },
     {
-      "id": "f08b3513-62af-449c-8260-a68ab7ba01d7",
+      "id": "c89fe16d-980d-4c69-933a-059cc50e6811",
       "metricType": "property_count",
       "value": 5,
       "unit": "properties",
@@ -1063,7 +1207,7 @@
       ]
     },
     {
-      "id": "cc33dfaa-85ff-40d4-a87c-237c1cdeffc0",
+      "id": "f7e4bbf4-ecae-4f68-a055-f1a223ab1791",
       "metricType": "geographic_concentration",
       "value": 100,
       "unit": "%",
@@ -1079,7 +1223,7 @@
       ]
     },
     {
-      "id": "eb92de11-7a76-427e-8eae-f8f25e5172ca",
+      "id": "a47eb3ea-b9ed-4388-950f-3b7d3f8ccb5e",
       "metricType": "gross_revenue",
       "value": 180,
       "unit": "RM million",
@@ -1095,7 +1239,7 @@
       ]
     },
     {
-      "id": "5b6171a2-3b42-4f96-86b9-f8658232d28f",
+      "id": "308ea262-da08-46ee-84a4-52d4f9f4615d",
       "metricType": "net_property_income",
       "value": 135,
       "unit": "RM million",
@@ -1110,7 +1254,7 @@
       ]
     },
     {
-      "id": "481aa7e3-f7c3-4ff3-a5b0-c4ae1e38c02c",
+      "id": "ce8632a1-3428-41ec-a487-1f526af96670",
       "metricType": "realised_income",
       "value": 76,
       "unit": "RM million",
@@ -1126,7 +1270,7 @@
       ]
     },
     {
-      "id": "2c974538-2414-44cc-86c2-8660fff8a6b2",
+      "id": "81ade343-c80d-4d84-b2b5-3c4bd06630e4",
       "metricType": "nav_per_unit",
       "value": 1.58,
       "unit": "RM",
@@ -1144,7 +1288,7 @@
       ]
     },
     {
-      "id": "9a002e15-c795-49d0-94f7-99200875262e",
+      "id": "d59d1d7b-e69a-4515-b320-442c29c8c0f4",
       "metricType": "share_price",
       "value": 1.15,
       "unit": "RM",
@@ -1160,7 +1304,7 @@
       ]
     },
     {
-      "id": "3c7cbfc8-1ffe-43ad-b2ce-a5b2bd83b866",
+      "id": "c02c2644-f80e-451d-886c-4d0693c11113",
       "metricType": "dpu",
       "value": 7.5,
       "unit": "sen",
@@ -1178,7 +1322,7 @@
       ]
     },
     {
-      "id": "129ab3e6-2fcd-4dc6-9c6e-c1b6214039d0",
+      "id": "37be7fc1-fd0c-41fe-bc83-616595736e5d",
       "metricType": "payout_ratio",
       "value": 98,
       "unit": "%",
@@ -1194,7 +1338,7 @@
       ]
     },
     {
-      "id": "da29a8c1-c20a-444e-be31-645c7ecadeee",
+      "id": "d9c9f7e7-9fdb-49d8-8cac-4abf55188fa5",
       "metricType": "gearing_ratio",
       "value": 38,
       "unit": "%",
@@ -1212,7 +1356,7 @@
       ]
     },
     {
-      "id": "e00c6f53-5b01-4c14-9a32-0ee5a29edb59",
+      "id": "5cc60288-dbc4-4270-a757-a2f68851f219",
       "metricType": "interest_coverage",
       "value": 3.2,
       "unit": "x",
@@ -1229,7 +1373,7 @@
       ]
     },
     {
-      "id": "d3d6d5fb-c637-432c-a3e2-e9ce556926ec",
+      "id": "fcaf927f-6b37-4e7c-b98d-c00fe7bda604",
       "metricType": "total_borrowings",
       "value": 1064,
       "unit": "RM million",
@@ -1244,7 +1388,7 @@
       ]
     },
     {
-      "id": "5721f869-30c3-4aa4-a6f5-6f875fb796b3",
+      "id": "190a616a-0ccf-4c25-89a6-8fd55768dddf",
       "metricType": "occupancy_rate",
       "value": 85,
       "unit": "%",
@@ -1260,7 +1404,7 @@
       ]
     },
     {
-      "id": "fdd616fd-a678-48a3-baeb-05035e07d945",
+      "id": "bbd274cc-1011-46f5-986b-1c82806f303f",
       "metricType": "wale_years",
       "value": 6.5,
       "unit": "years",
@@ -1276,7 +1420,7 @@
       ]
     },
     {
-      "id": "69538572-96c9-4015-9ed2-3adf13a2184d",
+      "id": "1b7c3248-8ba4-4c96-8ab3-466531db4147",
       "metricType": "price_to_book",
       "value": 0.73,
       "unit": "x",
@@ -1292,7 +1436,7 @@
       ]
     },
     {
-      "id": "5e4cd066-605a-4fa3-9e11-d7fb1b6ebe79",
+      "id": "1adce70c-c43c-4dcf-8949-795aa10f5f17",
       "metricType": "premium_discount_to_nav",
       "value": -27,
       "unit": "%",
@@ -1310,7 +1454,7 @@
   ],
   "timeSeries": [
     {
-      "id": "b9d09b8a-d9a3-4be4-ac29-f4d284df4919",
+      "id": "c14d2d95-0563-499d-858c-2abe31793bb5",
       "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35",
       "metricType": "dpu",
       "frequency": "annual",
@@ -1354,7 +1498,7 @@
       ]
     },
     {
-      "id": "76faffd3-8f1b-47b4-a31d-425ce8d9c8f6",
+      "id": "93128689-536d-4837-aa59-17d9bd4d1458",
       "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35",
       "metricType": "occupancy_rate",
       "frequency": "annual",
@@ -1394,7 +1538,7 @@
       ]
     },
     {
-      "id": "f2a859e4-da2d-4a61-876f-1c8a2679a6fe",
+      "id": "c9bcd11a-698b-4557-bc6d-ff5a5611515e",
       "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35",
       "metricType": "nav_per_unit",
       "frequency": "annual",
@@ -1438,7 +1582,7 @@
       ]
     },
     {
-      "id": "d5ec3131-69c4-4336-8720-9f72a40176af",
+      "id": "be82d8f1-6a53-4826-bdc0-b98fb77838de",
       "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35",
       "metricType": "gearing_ratio",
       "frequency": "annual",
@@ -1482,7 +1626,7 @@
       ]
     },
     {
-      "id": "28edf36f-4154-4107-91f3-abb7b7fe8670",
+      "id": "0c9501af-7354-4113-acb0-9d8ee1daadf7",
       "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35",
       "metricType": "gross_revenue",
       "frequency": "annual",
@@ -1522,14 +1666,14 @@
     }
   ],
   "riskAssessment": {
-    "id": "c79fe152-ebd2-4950-857b-d906485d7995",
+    "id": "83bdb632-506d-42c6-9820-2b156236fdf4",
     "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35",
     "assessmentDate": "2026-04-26",
     "overallRiskRating": "moderate",
     "overallScore": 3,
     "riskFactors": [
       {
-        "id": "93e1bdcf-b5f6-4b8c-a2b8-52dc7368c640",
+        "id": "46c69e27-7b53-4003-b159-25191b9e0aba",
         "category": "concentration",
         "severity": "high",
         "title": "Geographic Concentration Risk",
@@ -1570,7 +1714,7 @@
         ]
       },
       {
-        "id": "d56d27e5-6d21-49c9-b2e0-2ea2ff9290ea",
+        "id": "3557c84c-3493-435f-a528-abb339d2be71",
         "category": "concentration",
         "severity": "medium",
         "title": "Tenant Concentration Risk",
@@ -1610,7 +1754,7 @@
         ]
       },
       {
-        "id": "ce3c0796-6631-4f21-b36d-446a3a2febf7",
+        "id": "d867445f-5cd0-4e6b-9a8f-f6e3b4b39100",
         "category": "interest_rate",
         "severity": "medium",
         "title": "Interest Rate Sensitivity",
@@ -1656,7 +1800,7 @@
         ]
       },
       {
-        "id": "dbc0fc04-bb90-4caa-a8df-128351de61b4",
+        "id": "e207e2b0-09d0-4ac5-ab6e-1c78be476925",
         "category": "market",
         "severity": "medium",
         "title": "Office Market Conditions",
@@ -1699,7 +1843,7 @@
         ]
       },
       {
-        "id": "0794f35a-f88c-46a5-ba7f-715bc196ccc4",
+        "id": "1a5f9431-2acc-4585-b433-27c2c7b47823",
         "category": "gearing",
         "severity": "low",
         "title": "Debt Maturity and Refinancing",
@@ -1739,7 +1883,7 @@
         ]
       },
       {
-        "id": "88553995-bd11-4d6c-b709-6f5705966c22",
+        "id": "50c820bd-3643-418b-b8f1-ed9bc7664813",
         "category": "governance",
         "severity": "low",
         "title": "REIT Regulatory Compliance",
@@ -1794,7 +1938,7 @@
   },
   "observations": [
     {
-      "id": "13ab3143-c466-49b0-bf4b-8cabcfc620ee",
+      "id": "8df1c05b-1c6f-44d5-aa8e-7105c2010f82",
       "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35",
       "observationType": "executive_summary",
       "priority": "positive",
@@ -1835,7 +1979,7 @@
       "primaryCitation": "SE:6"
     },
     {
-      "id": "637d7300-0601-4290-a863-d1bfb3d12a37",
+      "id": "59fdf1e7-8e92-4725-a279-6f2706e037d1",
       "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35",
       "observationType": "debt_sustainability",
       "priority": "positive",
@@ -1884,7 +2028,7 @@
       "primaryCitation": "SE:42"
     },
     {
-      "id": "c5f19749-c002-435c-9f8e-9cf2c14b4d13",
+      "id": "4de07b05-2dc2-4d7c-953e-7d75576d8c87",
       "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35",
       "observationType": "portfolio_analysis",
       "priority": "info",
@@ -1935,7 +2079,7 @@
       "primaryCitation": "SE:38"
     },
     {
-      "id": "555f5169-e432-410f-9bb1-9430998ec897",
+      "id": "ad3cd9f0-f3c7-4c58-bd11-a6557ac52199",
       "entityId": "fb0bad61-ddde-5d59-b8d4-3753eb014a35",
       "observationType": "risk_assessment",
       "priority": "warning",

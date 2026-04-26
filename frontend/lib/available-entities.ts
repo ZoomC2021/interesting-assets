@@ -84,6 +84,12 @@ export const AVAILABLE_ENTITIES = [
     sector: 'Commercial',
     aliases: ['sentral'],
   },
+  {
+    code: '5120.KL' as const,
+    name: 'AmFIRST REIT',
+    sector: 'Commercial',
+    aliases: ['amfirst', '5120'],
+  },
 ] as const;
 
 export type AvailableEntity = (typeof AVAILABLE_ENTITIES)[number];
