@@ -212,7 +212,7 @@ if (require.main === module) {
   console.log('  3. Build metrics/observations/risk factors (which creates links)');
   console.log('  4. Run check() to verify 100% coverage');
   console.log('');
-  console.log('Contract Requirement: 100% citation coverage (970 total refs), zero orphans');
+  console.log('Contract Requirement: 100% citation coverage for registered references, zero orphans');
   console.log('');
   console.log('Example:');
   console.log('  const linker = createCitationLinker();');

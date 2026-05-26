@@ -1,7 +1,7 @@
 /**
  * Generate Sample Normalized Data
  * 
- * Creates validated sample outputs for all 6 REITs.
+ * Creates validated sample outputs for all app-wired REITs.
  * Writes to both test/samples/ and frontend/public/data/
  * Run: npx ts-node scripts/generate-samples.ts
  */
