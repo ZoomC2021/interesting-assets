@@ -225,8 +225,6 @@ This will create:
 
 ### 6) Wire frontend entity registry + loaders
 
-### 6) Wire frontend entity registry + loaders
-
 - Update `frontend/lib/available-entities.ts`:
   - Add canonical entity entry (`code`, `name`, `sector`, `aliases`, optional `routeAliases`).
 - Update `frontend/lib/entity-route-params.ts`:

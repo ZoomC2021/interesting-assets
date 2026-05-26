@@ -1,12 +1,12 @@
 # REIT Comparison Dashboard
 
-A comprehensive monitoring and comparison tool for Malaysian Real Estate Investment Trusts (REITs) with 970+ verified references, 30+ metrics, and 10 REITs tracked.
+A comprehensive monitoring and comparison tool for Malaysian Real Estate Investment Trusts (REITs) with 4,400+ verified references, 30+ metrics, and 15 app-wired REITs tracked.
 
 ## Features
 
-- **Monitor Page**: Browse 10 Malaysian REITs with 30+ metrics, sparklines, and sector benchmarks
+- **Monitor Page**: Browse 15 Malaysian REITs with 30+ metrics, sparklines, and sector benchmarks
 - **Compare Page**: Side-by-side comparison with KPIs, charts, and risk matrices  
-- **Citation System**: Every metric linked to source documents with 970+ references
+- **Citation System**: Every metric linked to source documents with 4,400+ references across app-wired entities
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 - **Accessibility**: WCAG AA compliant with keyboard navigation and screen reader support
 
@@ -126,16 +126,21 @@ interesting-assets/
 |------|------|------------|--------|
 | Atrium REIT | 5130.KL | 618 | Industrial |
 | Axis REIT | 5106.KL | 352 | Industrial |
-| Sunway REIT | 5176.KL | - | Diversified |
-| Pavilion REIT | 5212.KL | - | Retail |
-| IGB REIT | 5227.KL | - | Retail |
-| KLCC REIT | 5235.KL | - | Diversified |
-| CMMT | 5180.KL | - | Retail |
-| Al-Salam REIT | 5142.KL | - | Industrial |
-| Hektar REIT | 5121.KL | - | Retail |
-| UOA REIT | 5200.KL | - | Commercial |
+| Sunway REIT | 5176.KL | 448 | Diversified |
+| Pavilion REIT | 5212.KL | 386 | Retail |
+| IGB REIT | 5227.KL | 672 | Retail |
+| KLCC REIT | 5235SS | 260 | Diversified |
+| CMMT | 5180.KL | 193 | Retail |
+| Al-Salam REIT | 5269.KL | 201 | Diversified |
+| Hektar REIT | 5121.KL | 211 | Retail |
+| UOA REIT | 5110.KL | 345 | Commercial |
+| KIP REIT | 5280.KL | 204 | Retail |
+| Paradigm REIT | 5338.KL | 220 | Retail |
+| Sentral REIT | 5123.KL | 109 | Commercial |
+| AmFIRST REIT | 5120.KL | 151 | Commercial |
+| Tower REIT | 5111.KL | 118 | Commercial |
 
-**Total References**: 970+ (618 Atrium + 352 Axis)
+**Total References**: 4,488 across app-wired entities.
 
 ## Metrics Tracked
 
