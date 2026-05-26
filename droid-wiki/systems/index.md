@@ -24,7 +24,7 @@ The system follows a pipeline architecture:
 ```
 interesting-assets/
 ├── src/
-│   ├── adapters/           # 17 REIT adapters + citation linker
+│   ├── adapters/           # 16 REIT adapters + citation linker
 │   ├── types/              # Schema, reference, observation, risk types
 │   └── validation/         # Schema validation + citation checking
 ├── scripts/
@@ -49,8 +49,8 @@ flowchart LR
 
 ## Key Metrics
 
-- **17 REITs** covered with dedicated adapters
-- **970+ total references** across all entities
+- **16 REITs** covered with dedicated adapters
+- **4,700+ total references** across generated data packs
 - **6 core entity types**: Entity, Metric, TimeSeries, RiskAssessment, Observation, Reference
 - **100% citation coverage** required (zero orphans)
 

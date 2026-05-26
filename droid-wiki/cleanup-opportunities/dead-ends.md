@@ -111,13 +111,13 @@ The following exports are confirmed used across the codebase:
 |--------|-------|----------|
 | `DisplayIdPattern` | Validation | `reference.ts`, adapters |
 | `CitationLinkSchema` | Type definition | `reference.ts` |
-| `ObservationExtended` | Adapter outputs | All 17 adapters |
-| `RiskFactorDetail` | Adapter outputs | All 17 adapters |
+| `ObservationExtended` | Adapter outputs | All adapters |
+| `RiskFactorDetail` | Adapter outputs | All adapters |
 | `METRIC_REGISTRY` | Frontend display | `frontend/lib/data-utils.ts` |
 
 ### Adapter Pattern
 
-All 17 adapters export:
+All adapters export:
 - `XxxAdapter` class — Used by `generate-samples.ts`
 - `createXxxAdapter()` — Factory function used in generation pipeline
 
@@ -125,7 +125,7 @@ All 17 adapters export:
 
 | Export | Usage | Location |
 |--------|-------|----------|
-| `createCitationLinker()` | Adapter instantiation | All 17 adapters |
+| `createCitationLinker()` | Adapter instantiation | All adapters |
 | `CitationChecker` | Citation verification | `make audit-citations` |
 | `SchemaValidator` | Data validation | CI pipeline |
 
@@ -135,7 +135,7 @@ All 17 adapters export:
 
 Beyond the `DisplayIdRegex` finding, the codebase shows **no signs of orphaned code**:
 
-- ✅ All 17 adapter exports consumed by `generate-samples.ts`
+- ✅ Adapter exports are consumed by generation and audit scripts
 - ✅ All type exports used in either adapters or frontend
 - ✅ All validation utilities used in CI/test pipeline
 - ✅ No unused imports detected in scanned files

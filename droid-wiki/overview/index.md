@@ -1,6 +1,6 @@
 # REIT Comparison Dashboard
 
-A comprehensive monitoring and comparison tool for Malaysian Real Estate Investment Trusts (REITs). The application tracks 15 REITs with 970+ verified citations, 30+ financial metrics, and sophisticated risk assessment capabilities.
+A comprehensive monitoring and comparison tool for Malaysian Real Estate Investment Trusts (REITs). The application tracks 15 app-wired REITs with 4,400+ verified citations, 30+ financial metrics, and sophisticated risk assessment capabilities.
 
 ## What This Project Does
 
@@ -35,13 +35,13 @@ interesting-assets/
 │   ├── __tests__/        # Test suites
 │   └── public/data/      # REIT JSON files
 ├── src/                   # Data contract and adapters
-│   ├── adapters/         # 17 REIT-specific adapters
+│   ├── adapters/         # 16 REIT-specific adapters
 │   ├── types/            # Schema definitions
 │   ├── validation/       # Schema validators
 │   └── utils/            # Helper functions
 ├── test/                  # Conformance tests
 ├── scripts/               # Generation and audit scripts
-└── *.json                 # Reference data (970+ citations)
+└── *.json                 # Reference data (4,700+ citations across data packs)
 ```
 
 ## Quick Links
@@ -58,22 +58,22 @@ interesting-assets/
 |------|------|--------|------------|
 | Atrium REIT | 5130.KL | Industrial | 618 |
 | Axis REIT | 5106.KL | Industrial | 352 |
-| Sunway REIT | 5176.KL | Diversified | - |
-| Pavilion REIT | 5212.KL | Retail | - |
-| IGB REIT | 5227.KL | Retail | - |
-| KLCC REIT | 5235SS | Diversified | - |
-| CMMT | 5180.KL | Retail | - |
-| Al-Salam REIT | 5269.KL | Diversified | - |
-| Hektar REIT | 5121.KL | Retail | - |
-| UOA REIT | 5110.KL | Commercial | - |
-| KIP REIT | 5280.KL | Retail | - |
-| Paradigm REIT | 5338.KL | Retail | - |
-| Sentral REIT | 5123.KL | Commercial | - |
-| AmFIRST REIT | 5120.KL | Commercial | - |
-| Tower REIT | 5111.KL | Commercial | - |
+| Sunway REIT | 5176.KL | Diversified | 448 |
+| Pavilion REIT | 5212.KL | Retail | 386 |
+| IGB REIT | 5227.KL | Retail | 672 |
+| KLCC REIT | 5235SS | Diversified | 260 |
+| CMMT | 5180.KL | Retail | 193 |
+| Al-Salam REIT | 5269.KL | Diversified | 201 |
+| Hektar REIT | 5121.KL | Retail | 211 |
+| UOA REIT | 5110.KL | Commercial | 345 |
+| KIP REIT | 5280.KL | Retail | 204 |
+| Paradigm REIT | 5338.KL | Retail | 220 |
+| Sentral REIT | 5123.KL | Commercial | 109 |
+| AmFIRST REIT | 5120.KL | Commercial | 151 |
+| Tower REIT | 5111.KL | Commercial | 118 |
 
 **Total tracked REITs**: 15  
-**Total references**: 970+ (618 Atrium + 352 Axis + others)
+**Total references**: 4,488 across app-wired entities
 
 ## Key Design Principles
 

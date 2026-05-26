@@ -50,7 +50,7 @@ Focus shifted to data quality and citation integrity:
 |---------|------------|--------|
 | Citation linking system | Foundation era | Core, unchanged |
 | Zod schema validation | Foundation era | Core, extended |
-| Adapter pattern | Foundation era | Core, replicated for 17 REITs |
+| Adapter pattern | Foundation era | Core, replicated across REIT adapters |
 | Display ID prefixes | Foundation era | Extended to 16 prefixes |
 | Makefile task system | Foundation era | Active |
 
@@ -69,7 +69,7 @@ REIT Count Over Time:
 Reference Growth:
 2025 Q4: ~600 references
 2026 Q1: ~800 references  
-2026 Q2: 970+ references
+2026 Q2: 4,700+ references across generated data packs
 ```
 
 ## Deprecated Features

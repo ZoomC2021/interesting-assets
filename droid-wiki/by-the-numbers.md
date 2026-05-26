@@ -1,6 +1,6 @@
 # By the numbers
 
-*Data collected on 2026-04-30*
+*Data collected on 2026-05-26*
 
 A quantitative snapshot of the REIT Comparison Dashboard codebase.
 
@@ -10,8 +10,8 @@ A quantitative snapshot of the REIT Comparison Dashboard codebase.
 |--------|-------|
 | TypeScript source files | ~180 |
 | Lines of code (est.) | ~35,000 |
-| REIT adapters | 17 |
-| JSON reference files | 15 |
+| REIT adapters | 16 |
+| JSON reference files | 16 |
 | Test files | 15+ |
 
 ### Language Breakdown
@@ -43,7 +43,8 @@ Most actively changed areas (recent 90 days):
 
 | Metric | Value |
 |--------|-------|
-| Total references | 970+ |
+| App-wired references | 4,488 |
+| Generated data-pack references | 4,738 |
 | Atrium REIT references | 618 |
 | Axis REIT references | 352 |
 | Display ID prefixes | 16 unique |
@@ -69,9 +70,10 @@ Most actively changed areas (recent 90 days):
 
 | Stat | Value |
 |------|-------|
-| REITs tracked | 15 |
+| App-wired REITs tracked | 15 |
+| Generated data packs | 16 |
 | Metrics per REIT | 30+ |
-| Sectors covered | 5 (Industrial, Retail, Commercial, Diversified) |
+| Sectors covered | 4 (Industrial, Retail, Commercial, Diversified) |
 | Countries | Malaysia (primary), Australia, Japan |
 
 ## Bot-Attributed Work

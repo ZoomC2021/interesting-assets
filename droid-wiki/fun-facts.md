@@ -4,7 +4,7 @@ Trivia and discoveries about the REIT Comparison Dashboard codebase.
 
 ## Oldest Surviving Code
 
-The core data contract abstractions have remained unchanged since the foundation era. The `NormalizedReitData` interface and the six core types (`Entity`, `Metric`, `TimeSeries`, `RiskAssessment`, `Observation`, `Reference`) in `src/types/schema.ts` have survived 15 REIT additions without structural changes — a testament to solid initial design.
+The core data contract abstractions have remained unchanged since the foundation era. The `NormalizedReitData` interface and the six core types (`Entity`, `Metric`, `TimeSeries`, `RiskAssessment`, `Observation`, `Reference`) in `src/types/schema.ts` have survived many REIT additions without structural changes — a testament to solid initial design.
 
 ## Citation Prefix Evolution
 
@@ -26,9 +26,9 @@ The regex in `DisplayIdPattern.VALID` grew from `^[TA]:\d+$` to support all thes
 |------|------------|-------|
 | 2025 Q4 | ~600 | First 2 REITs (Atrium + Axis) |
 | 2026 Q1 | ~800 | Expanded to 10 REITs |
-| 2026 Apr | 970+ | Added 5 more REITs |
+| 2026 Q2 | 4,700+ | Expanded generated data packs to 16 REITs |
 
-The 970+ citation count comes from detailed analysis memos where each financial claim is sourced. Atrium REIT alone has 618 individual citations.
+The citation count comes from detailed analysis memos where each financial claim is sourced. Atrium REIT alone has 618 individual citations.
 
 ## Strict TypeScript From Day One
 

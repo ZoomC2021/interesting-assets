@@ -11,7 +11,7 @@ After scanning the entire `/src` directory and frontend codebase:
 | **TODO/FIXME Comments** | ✅ Clean | No TODO or FIXME comments found |
 | **Unused Exports** | ⚠️ Minor | `DisplayIdRegex` in `schema.ts` appears unused |
 | **Orphaned Code** | ✅ Clean | All exports appear to be consumed |
-| **Duplicated Logic** | ✅ Clean | Patterns are consistent across 17 adapters |
+| **Duplicated Logic** | ✅ Clean | Patterns are consistent across REIT adapters |
 
 ## Minor Findings
 
@@ -36,7 +36,7 @@ The codebase demonstrates excellent maintenance practices:
 
 ### Consistent Adapter Patterns
 
-All 17 REIT adapters follow an identical structure:
+All REIT adapters follow an identical structure:
 
 ```typescript
 export class XxxAdapter {
@@ -81,4 +81,3 @@ Update when:
 - Refactoring reveals unused code
 - Code reviews identify cleanup opportunities
 - Dependencies are removed
-

@@ -318,7 +318,7 @@ onClick={() => hasCitations && onClick?.(metric.sourceDisplayIds)}
 
 ### Adapter Registration
 
-**File:** `src/adapters/atrium-adapter.ts` (pattern used across all 17 adapters)
+**File:** `src/adapters/atrium-adapter.ts` (pattern used across all 16 adapters)
 
 ```typescript
 // 1. Register all references from JSON

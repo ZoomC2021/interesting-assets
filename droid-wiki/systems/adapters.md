@@ -141,7 +141,7 @@ if (linkedOrphans.length > 0) {
 | `src/adapters/atrium-adapter.ts` | ~700 | Canonical adapter implementation |
 | `src/adapters/citation-linker.ts` | ~400 | Shared citation linking logic |
 | `src/adapters/adapter-spec.md` | ~400 | Specification for mapping rules |
-| `scripts/generate-samples.ts` | ~400 | Pipeline orchestration for all 17 REITs |
+| `scripts/generate-samples.ts` | ~400 | Pipeline orchestration for app-wired REITs |
 
 ## Adding a New REIT
 

@@ -52,7 +52,7 @@ This approach gives us:
 
 ## Normalized Data Output
 
-All 17 adapters produce a consistent `NormalizedReitData` structure:
+All adapters produce a consistent `NormalizedReitData` structure:
 
 ```typescript
 export interface NormalizedReitData {
